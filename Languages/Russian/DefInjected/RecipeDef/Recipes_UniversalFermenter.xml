@@ -2,7 +2,7 @@
 <LanguageData>
 
   <MakeAmmo_PlasmaBoltFallout.label>создать Заряд плазмы x100</MakeAmmo_PlasmaBoltFallout.label>
-<MakeAmmo_PlasmaBoltFallout.description>Создать 100 Зарядов плазмы.Высокотехнологичный контейнер, содержащий в себе порцию плазмы. Принцип действия и способ удержания плазмы неизвестен. </MakeAmmo_PlasmaBoltFallout.description>
+<MakeAmmo_PlasmaBoltFallout.description>Создать 100 Зарядов плазмы.Высокотехнологичный контейнер, содержащий в себе порцию плазмы. Принцип действия и способ удержания плазмы неизвестен.</MakeAmmo_PlasmaBoltFallout.description>
 
 <MakeAmmo_ChargedLaserFallout.label>создать Ядерные батареи x100</MakeAmmo_ChargedLaserFallout.label>
 <MakeAmmo_ChargedLaserFallout.description>Создать 100 Ядерных батарей.</MakeAmmo_ChargedLaserFallout.description>

@@ -49,7 +49,7 @@
 			<Flammability>1.0</Flammability>
 			<DeteriorationRate>2.0</DeteriorationRate>
 			<MaxBurningTempCelsius>1100</MaxBurningTempCelsius>
-			<BurnDurationHours>10.0</BurnDurationHours>
+			<BurnDurationHours>1000.0</BurnDurationHours>
 		</statBases>
 		<recipeMaker>
 			<researchPrerequisite>Droids_D2</researchPrerequisite>
