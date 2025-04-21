@@ -27,6 +27,9 @@
 		<li>Ludeon.RimWorld.Biotech</li>
 		<li>ceteam.combatextended</li>
 	</loadAfter>
+	<incompatibleWith>
+		<li>HSK.Watcher.content.Fallout</li>
+	</incompatibleWith>
 	<description>
 	Огромная благодарность Дон Чипотль за предоставление Dll файлы https://www.youtube.com/@don_chipotle.
 	</description>
