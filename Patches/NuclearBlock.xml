@@ -1,0 +1,24 @@
+﻿
+<Patch>
+	
+	 <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_PlasmaBolt"]/graphicData/texPath</xpath>
+				<value>
+			    <texPath>Things/Ammo/PlasmaCell/RiflePlasma</texPath>
+				</value>
+	</Operation>
+	
+	 <Operation Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[defName="Ammo_ChargedLaser_Stable" or defName="Ammo_ChargedLaser"]/graphicData/texPath</xpath>
+				<value>
+			    <texPath>Things/Ammo/LaserCell</texPath>
+				</value>
+	</Operation>
+	 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Ammo_ChargedLaser_Stable" or defName="Ammo_ChargedLaser"]/graphicData</xpath>
+				<value>
+			     <drawSize>(0.5)</drawSize>
+				</value>
+	</Operation>
+	
+</Patch>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- =========== HARDCORE SK: THOUGHTS ===============-->
+
+	<ThoughtDef>
+		<defName>HadNukaCola</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Drank Nuka Cola</label>
+				<description>That Cola was so healthy! I'm feeling good now.</description>
+				<baseMoodEffect>7</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+
+    <ThoughtDef>
+		<defName>HadColaDark</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Drank Dark Cola</label>
+				<description>That Cola was so healthy! I am absolutely confident that you can defeat death in hand-to-hand combat.</description>
+				<baseMoodEffect>9</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	
+	<ThoughtDef>
+		<defName>HadColaQuantum</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Drank Quantum Cola</label>
+				<description>That Cola was so healthy! The taste is like a miniature supernova exploding, a mix of citrus madness and sweet radiation. Your taste buds scream in either delight or pain.</description>
+				<baseMoodEffect>11</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+	<!-- =========== Medical Drink ===============-->
+
+</Defs>

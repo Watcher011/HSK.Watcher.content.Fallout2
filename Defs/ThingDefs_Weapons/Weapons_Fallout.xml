@@ -1,0 +1,872 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef ParentName="BaseGunCR_Extended" Name="BaseGun_Fallout" Abstract="True">
+		<equippedStatOffsets>
+			<Suppressability>-0.45</Suppressability>
+		</equippedStatOffsets>
+		<relicChance>1</relicChance>
+		<weaponClasses>
+		<li>Ranged</li>
+        <li>RangedLight</li>
+		</weaponClasses>
+		<weaponTags>
+		    <li>VaultecGun</li>
+		</weaponTags>
+		 <thingCategories>
+            <li>FuturisticVaultec</li>
+        </thingCategories>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>13</power>
+				<cooldownTime>1.9</cooldownTime>
+				<armorPenetrationBlunt>2.5</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+		<defName>Fallout_PipeGun</defName>
+		<label>Pipe shooter</label>
+        <description>A crude but deadly weapon, assembled from water pipes, car springs and other detritus of the post-war wasteland. The Pipe Shooter is a weapon for the desperate, those who don't have access to factory pistols but want to survive. Unreliable, but easy to make and repair.</description>
+		<graphicData>
+			<texPath>Things/Weapons/PipeGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<SightsEfficiency>0.6</SightsEfficiency>
+			<ShotSpread>0.09</ShotSpread>
+			<SwayFactor>1.4</SwayFactor>
+			<RangedWeapon_Cooldown>0.46</RangedWeapon_Cooldown>
+			<Bulk>2.2</Bulk>
+			<Mass>1.65</Mass>
+			 <MaxHitPoints>30</MaxHitPoints>
+		</statBases>
+		<weaponTags>
+			<li>PT1</li>
+			<li>Gun</li>
+		    <li>VaultecGunHandmade</li>
+			<li>TierOnePistol</li>
+			<li>CE_Sidearm</li>
+			<li>CE_AI_Pistol</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>Pistols</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<range>25</range>
+				<soundCast>ShotPistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>6</magazineSize>
+				<reloadTime>1.5</reloadTime>
+				<ammoSet>AmmoSet_9x19mmPara</ammoSet>
+			</li>
+		</comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.8</DrawSize>
+		  </li>
+		</modExtensions>
+		<smeltProducts>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+		</smeltProducts>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_PipeRifle</defName>
+        <label>Vagabond Rifle</label>
+        <description>Assembled from pre-war weapon wrecks, rusty pipes, and parts found in the wasteland, this rifle is a typical creation of survivalists and hobos. It is hand-loaded with 5.56x45mm NATO rounds, and the bolt creaks as if it is about to fall apart. However, in the right hands, it is capable of punching a hole even in the armor of a raider.</description>
+        <graphicData>
+            <texPath>Things/Weapons/PipeRifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>450</MarketValue>
+            <SightsEfficiency>0.95</SightsEfficiency>
+            <ShotSpread>0.095</ShotSpread>
+            <SwayFactor>1.16</SwayFactor>
+            <RangedWeapon_Cooldown>0.64</RangedWeapon_Cooldown>
+            <Bulk>10.5</Bulk>
+            <Mass>5.5</Mass>
+			 <MaxHitPoints>30</MaxHitPoints>
+        </statBases>
+        <weaponTags>
+            <li>PT1</li>
+			<li>Gun</li>
+		    <li>VaultecGunHandmade</li>
+			<li>AssaultRifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.23</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+                <warmupTime>0.66</warmupTime>
+                <range>35</range>
+                <burstShotCount>1</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>Shot_AssaultRifle</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>12</magazineSize>
+                <reloadTime>2</reloadTime>
+                <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Pistol_Component>1</Pistol_Component>
+            <Weapon_Parts>5</Weapon_Parts>
+        </smeltProducts>
+    </ThingDef>
+	
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+		<defName>Fallout_OldRevolver</defName>
+		<label>Homemade revolver "Scavenger"</label>
+        <description>A crude but deadly revolver assembled from scrap metal, old pipes and parts of pre-war equipment. The barrel is welded from pieces of thick-walled pipe, the frame is riveted from pieces of car springs and armor plates. The handle is wrapped in tattered electrical tape and leather, with an engraved radiation sign or bandit symbols. The hammer and trigger are turned from rusty metal, the cylinder is a converted cartridge belt, reinforced with bolts.</description>
+		<graphicData>
+			<texPath>Things/Weapons/OldRevolver</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<MarketValue>80</MarketValue>
+			<SightsEfficiency>0.8</SightsEfficiency>
+			<ShotSpread>0.19</ShotSpread>
+			<SwayFactor>1.4</SwayFactor>
+			<RangedWeapon_Cooldown>0.26</RangedWeapon_Cooldown>
+			<Bulk>2</Bulk>
+			<Mass>1.5</Mass>
+			<MaxHitPoints>20</MaxHitPoints>
+		</statBases>
+		<weaponTags>
+			<li>PT1</li>
+			<li>Gun</li>
+			<li>VaultecGunHandmade</li>
+			<li>TierOnePistol</li>
+			<li>CE_Sidearm</li>
+			<li>CE_AI_Pistol</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>Pistols</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_45ACP_FMJ</defaultProjectile>
+				<warmupTime>0.30</warmupTime>
+				<range>20</range>
+				<soundCast>ShotPistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>5</magazineSize>
+				<reloadTime>1.8</reloadTime>
+				<ammoSet>AmmoSet_45ACP</ammoSet>
+			</li>
+		</comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.8</DrawSize>
+		  </li>
+		</modExtensions>
+		<smeltProducts>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+		</smeltProducts>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+		<defName>Fallout_ChinesePistol</defName>
+		<label>Chinese pistol</label>
+		<description>The design of the weapon is based on the Mauser K96. These pistols were actively used by the Chinese from the People's Liberation Army during the war with the United States. However, the active work of Chinese spies and intelligence agents gave rise to the covert distribution of these weapons in the District of Columbia and Point Lookout Park even before the start of open military confrontation, and during the military actions this only intensified.Some Chinese pistols were captured by American soldiers during the liberation of Anchorage, and were sent home or to their relatives and friends as war trophies.</description>
+		<graphicData>
+			<texPath>Things/Weapons/ChinesePistol</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<MarketValue>430</MarketValue>
+			<SightsEfficiency>0.9</SightsEfficiency>
+			<ShotSpread>0.15</ShotSpread>
+			<SwayFactor>1.2</SwayFactor>
+			<RangedWeapon_Cooldown>0.24</RangedWeapon_Cooldown>
+			<Bulk>2</Bulk>
+			<Mass>1.2</Mass>
+		</statBases>
+		<weaponTags>
+			<li>PT2</li>
+			<li>Gun</li>
+			<li>TierTwoPistol</li>
+			<li>CE_Sidearm</li>
+			<li>CE_AI_Pistol</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>Pistols</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_9x19mmPara_FMJ</defaultProjectile>
+				<warmupTime>0.22</warmupTime>
+				<range>28</range>
+				<soundCast>RF_ShotAT2K</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>10</magazineSize>
+				<reloadTime>1.5</reloadTime>
+				<ammoSet>AmmoSet_9x19mmPara</ammoSet>
+			</li>
+		</comps>
+		<smeltProducts>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>2</Weapon_Parts>
+		</smeltProducts>
+	</ThingDef>
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_AN556Order</defName>
+        <label>AN-556 "Order"</label>
+        <description>Designed by Enclave engineers as an ergonomic and reliable rifle for special forces, the AN-556 "Order" combines the proven design of pre-war AR platforms with modernized components adapted to the conditions of the post-war wastelands.It features high accuracy and modularity: it is equipped with Picatinny rails for installing collimators, tactical flashlights and underbarrel grenade launchers. The rifle has a reinforced barrel and gas system, which reduces the risk of jamming even in heavily polluted conditions.</description>
+        <graphicData>
+            <texPath>Things/Weapons/EnclaveRifle</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>Interact_Rifle</soundInteract>
+        <statBases>
+            <MarketValue>1450</MarketValue>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.07</ShotSpread>
+            <SwayFactor>1.21</SwayFactor>
+            <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
+            <Bulk>8</Bulk>
+            <Mass>3.4</Mass>
+        </statBases>
+        <weaponTags>
+            <li>RF4</li>
+            <li>AdvancedGun</li>
+			<li>IndustrialGunAdvanced</li>
+            <li>TierThreeRifle</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Rifles</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.27</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+                <warmupTime>0.58</warmupTime>
+                <range>42</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+                <soundCast>ShotSG553</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>Snapshot</aiAimMode>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>30</magazineSize>
+                <reloadTime>2.3</reloadTime>
+                <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+            </li>
+        </comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>1.1</DrawSize>
+		  </li>
+		</modExtensions>
+        <smeltProducts>
+            <AdvRifle_Component>1</AdvRifle_Component>
+            <Weapon_Parts>5</Weapon_Parts>
+        </smeltProducts>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_Fat_Man</defName>
+       <label>Fat Man</label>
+<description>A tactical shoulder-mounted nuclear catapult. The weapon fires nuclear rounds that, when detonated, detonate a nuclear blast over a small area, causing massive damage and releasing radiation for a short period of time. In perfect condition, this weapon can fire 495 rounds before breaking.</description>
+        <graphicData>
+            <texPath>Things/Weapons/FatMan</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractPTUR</soundInteract>
+        <statBases>
+            <MarketValue>4800</MarketValue>
+            <SightsEfficiency>1.05</SightsEfficiency>
+            <ShotSpread>0.15</ShotSpread>
+            <SwayFactor>1.5</SwayFactor>
+            <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+            <Bulk>6</Bulk>
+            <Mass>20</Mass>
+        </statBases>
+        <generateCommonality>0.7</generateCommonality>
+        <weaponTags>
+            <li>Launchers</li>
+        </weaponTags>
+        <tradeTags>
+            <li>ExoticVaultecLaunchers</li>
+        </tradeTags>
+        <thingCategories>
+            <li>Launchers</li>
+        </thingCategories>
+        <verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+					<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
+					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
+					<hasStandardCommand>true</hasStandardCommand>
+					<defaultProjectile>Bullet_FatManShell_HE</defaultProjectile>
+					<warmupTime>5.5</warmupTime>
+					<minRange>32</minRange>
+					<range>700</range>
+					<burstShotCount>1</burstShotCount>
+					<soundCast>FatMan_I_hold</soundCast>
+					<muzzleFlashScale>16</muzzleFlashScale>
+					<circularError>1</circularError>
+					<indirectFirePenalty>0.2</indirectFirePenalty>
+					<targetParams>
+						<canTargetLocations>true</canTargetLocations>
+					</targetParams>
+				</li>
+        </verbs>
+      <comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>1</magazineSize>
+				<reloadTime>7.2</reloadTime>
+				<!-- <spawnUnloaded>true</spawnUnloaded> -->
+				<ammoSet>AmmoSet_FatManShell</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_Charges">
+				<chargeSpeeds>
+					<li>30</li>
+					<li>50</li>
+					<li>70</li>
+					<li>90</li>
+				</chargeSpeeds>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.5,1.5</DrawSize>
+				<DrawOffset>-0.3,0.0</DrawOffset>
+			</li>
+		</modExtensions>
+        <smeltProducts>
+            <Launcher_Component>1</Launcher_Component>
+            <Weapon_Parts>3</Weapon_Parts>
+            <Plastic>6</Plastic>
+        </smeltProducts>
+    </ThingDef>
+	
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_PlasmaCarbine</defName>
+        <label>Plasma Carbine"Incinerator"</label>
+        <description>When conventional ballistics aren't enough, this high-tech terror comes to the rescue. Based on pre-war military prototypes, the Incinerator reduces enemies to smoking piles of ash with a single, precise shot. Expensive to maintain, but invaluable in combat, this carbine is prized by those who value quality over quantity.</description>
+        <graphicData>
+            <texPath>Things/Weapons/PlasmaIncinerator</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2050</MarketValue>
+            <SightsEfficiency>1.1</SightsEfficiency>
+            <ShotSpread>0.08</ShotSpread>
+            <SwayFactor>1.45</SwayFactor>
+            <RangedWeapon_Cooldown>0.88</RangedWeapon_Cooldown>
+            <Bulk>11.10</Bulk>
+            <Mass>3.70</Mass>
+			<NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
+        </statBases>
+        <soundInteract>InteractPlasma</soundInteract>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>ADR2</li>
+            <li>AdvancedGun</li>
+			<li>SpacerGun</li>
+            <li>TierTwoNormal</li>
+            <li>Futuristic</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.49</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <warmupTime>0.72</warmupTime>
+                <range>30</range>
+                <burstShotCount>5</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <soundCast>ShotPlasma</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>3</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>30</magazineSize>
+                <reloadTime>2.90</reloadTime>
+                <ammoSet>AmmoSet_PlasmaBolt</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>7</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1,1</DrawSize>
+				<DrawOffset>-0.1,0.0</DrawOffset>
+			</li>
+		</modExtensions>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_PlasmaPistol</defName>
+        <label>Plasma Pistol "Ion Fang"</label>
+        <description>Compact yet deadly, this pistol proved that size doesn't matter when it comes to plasma. Designed as a self-defense weapon for pre-war army officers, the Ion Fang has been modified, resold, and rebuilt dozens of times over the centuries. But one thing has remained constant - its ability to vaporize flesh from bone in a split second.</description>
+        <graphicData>
+            <texPath>Things/Weapons/PlasmaIonFang</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2600</MarketValue>
+            <SightsEfficiency>1.15</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>ADP2</li>
+            <li>AdvancedGun</li>
+            <li>TierTwoLow</li>
+            <li>Futuristic</li>
+		  <li>CE_Sidearm</li>
+		  <li>CE_AI_Pistol</li>
+		  <li>CE_OneHandedWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Plasma</defaultProjectile>
+                <warmupTime>0.45</warmupTime>
+                <range>48</range>
+                <soundCast>Fire_UACPistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>12</magazineSize>
+                <reloadTime>1.80</reloadTime>
+                <ammoSet>AmmoSet_PlasmaBolt</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_PlasmaWraith</defName>
+        <label>Plasma Wraith</label>
+        <description>Developed from the Great Wasteland blueprints, where the first examples were assembled from the wreckage of helicopter laser cannons. The legendary mercenary Coyote Sling used it to kill the President of Capital Waste through the wall of a bunker."You won't hear the shot. Just the hiss of air... and the soft pop as your target's head turns to steam." - Vault 41 Hologram Instructor.</description>
+        <graphicData>
+            <texPath>Things/Weapons/PlasmaWraith</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>3100</MarketValue>
+            <SightsEfficiency>1.5</SightsEfficiency>
+            <ShotSpread>0.05</ShotSpread>
+            <SwayFactor>1.1</SwayFactor>
+            <RangedWeapon_Cooldown>0.75</RangedWeapon_Cooldown>
+            <Bulk>10.20</Bulk>
+            <Mass>3.50</Mass>
+			<NightVisionEfficiency_Weapon>0.7</NightVisionEfficiency_Weapon>
+        </statBases>
+        <soundInteract>InteractPlasma</soundInteract>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>ASN2</li>
+            <li>AdvancedGun</li>
+            <li>TierTwoLow</li>
+            <li>Futuristic</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.49</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_PlasmaSniper</defaultProjectile>
+                <warmupTime>0.72</warmupTime>
+                <burstShotCount>2</burstShotCount>
+                <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+                <range>60</range>
+                <soundCast>ShotPlasma</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>20</magazineSize>
+                <reloadTime>2.50</reloadTime>
+                <ammoSet>AmmoSet_PlasmaBoltSniper</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>7</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	  <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_MinigunPlasma</defName>
+        <label>Plasma Gatling "Molten Storm"</label>
+        <description>Developed by pre-war military corporations as part of Project: Incinerator, this Gatling gun was designed to suppress fortifications and mutant hordes. After the war, the plans were found by the Enclave and upgraded using Adamantium Corps technology, but a few examples leaked onto the black market. Now, the weapon can be found in the hands of heavily armed raiders, the Brotherhood of Steel, or mad scientists who dare to repair it."When regular plasma isn't enough, this monster comes into play. Six barrels loaded with superheated plasma spin with a roar, turning everything in their path into a radioactive puddle. Goodbye armor. Goodbye cover. Goodbye common sense."</description>
+        <graphicData>
+            <texPath>Things/Weapons/GatlingPlasma</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractPTUR</soundInteract>
+        <weaponTags>
+            <li>MG3</li>
+            <li>AdvancedGun</li>
+			<li>GunHeavy</li>
+            <li>TierTwoAdvanced</li>
+			<li>CE_AI_Suppressive</li>
+            <li>Microgun</li>
+			<li>Minigun</li>
+        </weaponTags>
+        <tradeTags>
+            <li>Exotic</li>
+        </tradeTags>
+        <thingCategories>
+            <li>MachineGun</li>
+        </thingCategories>
+        <statBases>
+            <MarketValue>3100</MarketValue>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.11</ShotSpread>
+            <SwayFactor>1.5</SwayFactor>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+            <Bulk>21</Bulk>
+            <Mass>22</Mass>
+        </statBases>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.6</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_PlasmaPrototype</defaultProjectile>
+                <warmupTime>2.5</warmupTime>
+                <range>50</range>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <burstShotCount>30</burstShotCount>
+                <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+                <soundCast>Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>30</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>200</magazineSize>
+                <reloadTime>10</reloadTime>
+                <ammoSet>AmmoSet_PlasmaBoltPrototype</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>10</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+    </ThingDef>
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_LaserCarbine</defName>
+        <label>Carbine"AER-14"</label>
+        <description>Developed by Aeroquant for the US Army before the Great War, the AER-14 became one of the most widely used energy weapons in the pre-war world. Its reliability and simplicity made it popular with the military and later with survivors of the wasteland.</description>
+        <graphicData>
+            <texPath>Things/Weapons/LaserCarbine</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+        <soundInteract>InteractPrecision</soundInteract>
+        <weaponTags>
+            <li>ADR1</li>
+            <li>AdvancedGun</li>
+			<li>SpacerGun</li>
+            <li>TierTwoLow</li>
+            <li>Futuristic</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <statBases>
+            <MarketValue>3200</MarketValue>
+            <SightsEfficiency>1.4</SightsEfficiency>
+            <ShotSpread>0.03</ShotSpread>
+            <SwayFactor>1.0</SwayFactor>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <Bulk>11.10</Bulk>
+            <Mass>3.65</Mass>
+			<NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
+        </statBases>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.01</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>65</range>
+                <ticksBetweenBurstShots>35</ticksBetweenBurstShots>
+                <burstShotCount>5</burstShotCount>
+                <soundCast>ShotLaser</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>30</magazineSize>
+                <reloadTime>3.20</reloadTime>
+                <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+            <Weapon_Parts>8</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+		<defName>Fallout_PepperShaker</defName>
+		<label>Pepper Shaker</label>
+       <description>The Pepper Shaker takes one second to spin up before it automatically fires eight shotgun shells. It counts as both a shotgun and a heavy weapon and will benefit from any perk in either weapon class.</description>
+		<graphicData>
+			<texPath>Things/Weapons/PepperShaker</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>	
+		</graphicData>
+		<statBases>
+			<WorkToMake>6000</WorkToMake>
+			<SightsEfficiency>1.05</SightsEfficiency>
+			 <ShotSpread>0.18</ShotSpread>
+            <SwayFactor>1.12</SwayFactor>
+            <RangedWeapon_Cooldown>1.67</RangedWeapon_Cooldown>
+			<Bulk>19.50</Bulk>
+			<Mass>18.30</Mass>
+			<MaxHitPoints>60</MaxHitPoints>
+		</statBases>
+		<weaponTags>
+	            <li>Gun</li>
+			    <li>VaultecGun</li>
+		</weaponTags>
+		<weaponClasses>
+			 <li>RangedLight</li>
+		</weaponClasses>
+		<tradeability>Sellable</tradeability>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
+				<burstShotCount>8</burstShotCount>
+                <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+				<warmupTime>1.25</warmupTime>
+				<range>20</range>
+				 <soundCast>Shot_Shotgun</soundCast>
+                <soundCastTail>GunTail_Heavy</soundCastTail>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>50</magazineSize>
+				<reloadTime>3.05</reloadTime>
+				<ammoSet>AmmoSet_12Gauge</ammoSet>
+				<throwMote>false</throwMote>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				 <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>8</aimedBurstShotCount>
+			</li>
+		</comps>
+		 <smeltProducts>
+            <Shotgun_Component>2</Shotgun_Component>
+            <Weapon_Parts>7</Weapon_Parts>
+        </smeltProducts>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.0,1.2</DrawSize>
+				<DrawOffset>0.1,0.0</DrawOffset>
+			</li>
+		</modExtensions>
+		<thingCategories>
+			<li>Specialranged</li>
+		</thingCategories>
+	</ThingDef>
+</Defs>

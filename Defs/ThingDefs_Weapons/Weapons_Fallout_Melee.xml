@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+
+ 
+<ThingDef Name="BaseMeleeFallout" ParentName="SK_BaseMeleeWeapon" Abstract="True">
+		<statBases>
+			<DeteriorationRate>3</DeteriorationRate>
+			<SellPriceFactor>0.70</SellPriceFactor>
+		</statBases>
+		<techLevel>Spacer</techLevel>
+		<weaponTags>
+			<li>NonNeolithicOnlyMelee</li>
+		</weaponTags>
+		<relicChance>0</relicChance>
+		<recipeMaker>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<workSkill>Crafting</workSkill>
+			<effectWorking>Smith</effectWorking>
+			<soundWorking>Recipe_Smith</soundWorking>
+			<recipeUsers>
+				<li>TableFalloutElectronics</li>
+			</recipeUsers>
+			<skillRequirements>
+				<Crafting>12</Crafting>
+			</skillRequirements>
+			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
+		</recipeMaker>
+	</ThingDef>
+
+
+  <ThingDef ParentName="BaseMeleeFallout">
+		 <defName>Fallout_Weapon_Ripper</defName>
+        <label>Ripper</label>
+		<description>The Ripper is a pretty good melee weapon, second only to the super sledgehammer in effectiveness. Thanks to its increased armor-piercing ability, it is not difficult to "pick" an enemy with the Ripper even in improved power armor. Ideal for combat in closed spaces and corridors.</description>
+       <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Weapons/Ripper</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+		<soundInteract>InteractMelee</soundInteract>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentAdvanced>4</ComponentAdvanced>
+			<Weapon_Parts>12</Weapon_Parts>
+			<Electronics>1</Electronics>
+			<NuclearBattery>1</NuclearBattery>
+			<Plastic>15</Plastic>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Bulk>0.5</Bulk>
+			<Mass>0.5</Mass>
+			<MeleeCounterParryBonus>2.6</MeleeCounterParryBonus>
+		</statBases>
+		<equippedStatOffsets>
+			<CookSpeed>0.6</CookSpeed>
+			<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
+			<MeleeCritChance>0.5</MeleeCritChance>
+			<MeleeDodgeChance>0.4</MeleeDodgeChance>
+			<MeleeParryChance>0.15</MeleeParryChance>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<techLevel>Industrial</techLevel>
+		<weaponTags>
+		    <li>VaultecGun</li>
+			<li>HitechMelee</li>
+			<li>CE_OneHandedWeapon</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>Teeth</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.15</cooldownTime>
+				<chanceFactor>0.1</chanceFactor>
+				<armorPenetrationBlunt>6</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>Blade</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>1.28</cooldownTime>
+				<chanceFactor>0.33</chanceFactor>
+				<armorPenetrationBlunt>1.1</armorPenetrationBlunt>
+				<armorPenetrationSharp>6</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>SharpMelee</li>
+			<li>AgileMelee</li>
+			<li>SurvivalToolsIndustrial</li>
+		</thingCategories>
+		<recipeMaker>
+			<researchPrerequisite>Melee_C2</researchPrerequisite>
+		</recipeMaker>	
+	</ThingDef>
+
+  <ThingDef ParentName="BaseMeleeFallout">
+		 <defName>Fallout_Weapon_Shishkebab</defName>
+        <label>Shishkebab</label>
+		<description>This sword is not just a weapon, it is a culinary experiment in the hands of a psychopath! Once upon a time, some crazy raider chef decided that the best way to cook meat is on the spot. Now his legacy lives on in your hands, and every blow is a step towards gastronomic apocalypse.</description>
+       <possessionCount>1</possessionCount>
+	   <recipeMaker>
+			<skillRequirements>
+			    <Cooking>8</Cooking>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+		</recipeMaker>
+    <graphicData>
+      <texPath>Things/Weapons/Shishkebab</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <shaderType>CutoutComplex</shaderType>
+    </graphicData>
+	  <uiIconPath>Things/Weapons/Shishkebab_ico</uiIconPath>
+		<soundInteract>InteractMelee</soundInteract>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+		    <ChunkSlagSteel>4</ChunkSlagSteel>
+			<ComponentAdvanced>4</ComponentAdvanced>
+			<Weapon_Parts>12</Weapon_Parts>
+			<Chemfuel>10</Chemfuel>
+			<Plastic>15</Plastic>
+		</costList>
+		<statBases>
+			<WorkToMake>5000</WorkToMake>
+			<Bulk>5.5</Bulk>
+			<Mass>5.5</Mass>
+			<MeleeCounterParryBonus>2.6</MeleeCounterParryBonus>
+		</statBases>
+		<equippedStatOffsets>
+			<CookSpeed>0.6</CookSpeed>
+			<ButcheryFleshSpeed>0.8</ButcheryFleshSpeed>
+			<MeleeCritChance>0.5</MeleeCritChance>
+			<MeleeDodgeChance>0.4</MeleeDodgeChance>
+			<MeleeParryChance>0.15</MeleeParryChance>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-45</equippedAngleOffset>
+		<techLevel>Industrial</techLevel>
+		<weaponTags>
+		    <li>VaultecGun</li>
+			<li>HitechMelee</li>
+		</weaponTags>
+		<tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>8</power>
+					<cooldownTime>1.4</cooldownTime>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>4</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>point</label>
+					<capacities>
+						<li>Stab</li>
+					</capacities>
+					<power>18</power>
+					<extraMeleeDamages>
+						<li>
+							<def>Flame</def>
+							<amount>5</amount>
+							<chance>0.2</chance>
+						</li>
+					</extraMeleeDamages>
+					<chanceFactor>0.3</chanceFactor>
+					<cooldownTime>1.3</cooldownTime>
+					<armorPenetrationBlunt>3.24</armorPenetrationBlunt>
+					<armorPenetrationSharp>25.4</armorPenetrationSharp>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>edge</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>35</power>
+					<extraMeleeDamages>
+						<li>
+							<def>Flame</def>
+							<amount>8</amount>
+							<chance>0.3</chance>
+						</li>
+					</extraMeleeDamages>
+					<cooldownTime>1.45</cooldownTime>
+					<chanceFactor>1.0</chanceFactor>
+					<armorPenetrationBlunt>3.20</armorPenetrationBlunt>
+					<armorPenetrationSharp>16</armorPenetrationSharp>
+					<linkedBodyPartsGroup>Edge</linkedBodyPartsGroup>
+				</li>
+			</tools>
+	<!--	<comps Inherit="False">
+             <li Class="CompProperties_EquippableAbilityReloadable">
+             <abilityDef>FireSpew</abilityDef>
+             <maxCharges>3</maxCharges>
+             <soundReload>Standard_Reload</soundReload>
+              <chargeNoun>Spew</chargeNoun>
+              <ammoDef>Chemfuel</ammoDef>
+               <ammoCountPerCharge>1</ammoCountPerCharge>
+               <baseReloadTicks>60</baseReloadTicks>
+              </li>
+		</comps>-->
+		<weaponClasses>
+			<li>MeleePiercer</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>SharpMelee</li>
+			<li>AgileMelee</li>
+			<li>SurvivalToolsIndustrial</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.0,1.0</DrawSize>
+				<DrawOffset>0.0,0.1</DrawOffset>
+			</li>
+		</modExtensions>
+		<recipeMaker>
+			<researchPrerequisite>Melee_D1</researchPrerequisite>
+		</recipeMaker>	
+	</ThingDef>
+	
+	
+</Defs>

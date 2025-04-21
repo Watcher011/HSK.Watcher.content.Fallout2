@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef ParentName="CropsBase">
+		<defName>BottleCap</defName>
+		<label>Bottle Cap</label>
+		<description>Caps are a water-backed currency controlled and regulated by the NCR caravan trading companies. The caravan houses conspired to reintroduce caps as a primary currency when traders lost faith in NCR money.</description>
+		<graphicData>
+			<texPath>Things/Item/Cap</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<techLevel>Neolithic</techLevel>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<statBases>
+			<MarketValue>0.01</MarketValue>
+			<RoyalFavorValue>0.01</RoyalFavorValue>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Flammability>0.2</Flammability>
+			<SellPriceFactor>0.1</SellPriceFactor>
+			<Mass>0.1</Mass>
+			<Bulk>0.1</Bulk>
+		</statBases>
+		<useHitPoints>true</useHitPoints>
+		<thingCategories>
+			<li>Parts</li>
+		</thingCategories>
+		 <tradeTags>
+      <li>BottleCap</li>
+    </tradeTags>
+		<stackLimit>500</stackLimit>
+	</ThingDef>
+
+		<ThingDef ParentName="ResourceBase">
+		<defName>NuclearBattery</defName>
+		<label>Nuclear Battery</label>
+		<description>Ah, that tiny battery that powers your entire energy arsenal, from laser rifles to plasma cannons! Who would have thought that a miniature nuclear reactor that fits in the palm of your hand was such a great idea? Thank you, pre-war corporations, for cramming atomic fission into a package the size of a soda can. What could possibly go wrong?</description>
+		<graphicData>
+			<texPath>Things/Item/Bat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.5)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MarketValue>20</MarketValue>
+			<Mass>0.025</Mass>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>2.0</DeteriorationRate>
+			<MaxBurningTempCelsius>1100</MaxBurningTempCelsius>
+			<BurnDurationHours>10.0</BurnDurationHours>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>Droids_D2</researchPrerequisite>
+			<workSpeedStat>SmithingSpeed</workSpeedStat>
+			<effectWorking>Cook</effectWorking>
+			<soundWorking>Recipe_Machining</soundWorking>
+			<workAmount>800</workAmount>
+			<targetCountAdjustment>5</targetCountAdjustment>
+			<productCount>5</productCount>
+			<workSkill>Crafting</workSkill>
+			<recipeUsers>
+				<li>TableMachining</li>
+			</recipeUsers>
+		</recipeMaker>
+		<costList>
+			<ComponentIndustrial>4</ComponentIndustrial>
+			<ElectronicComponents>2</ElectronicComponents>
+			<Uranium>2</Uranium>
+			<Glass>2</Glass>
+		</costList>
+		<comps>
+			<li Class="Androids.CompProperties_EnergySource">
+				<isConsumable>true</isConsumable>
+				<energyWhenConsumed>1.0</energyWhenConsumed>
+			</li>
+		</comps>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+	</ThingDef>
+
+
+
+ <ThingDef ParentName="MechSerumBase">
+    <defName>Vault81cure</defName>
+    <label>Vault 81 cure</label>
+    <description>I am pleased to report that my main tasks were completed 83 years ago. Thousands of pathogens were grown in the Molecapers of the hosts. Then one medicine of a wide spectrum of action was developed, which was supposed to cure all of them. This work lasted several decades and brought me great satisfaction. [...] Once you are a representative of the "Volt-Tex"
+, I can entrust you with a wide range of I created.</description>
+    <graphicData>
+      <texPath>Things/Item/Special/Vault81cure</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+	  <drawSize>0.55</drawSize>
+    </graphicData>
+    <stackLimit>5</stackLimit>
+    <statBases>
+      <MarketValue>1300</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>Drugs</li>
+    </thingCategories>
+    <tradeability>Sellable</tradeability>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Use {0_label}</useLabel>
+        <useDuration>50</useDuration>
+        <showUseGizmo>true</showUseGizmo>
+      </li>
+      <li Class="CompProperties_UseEffect">
+        <compClass>CompUseEffect_FixWorstHealthCondition</compClass>
+      </li>
+      <li Class="CompProperties_UseEffectPlaySound">
+        <soundOnUsed>MechSerumUsed</soundOnUsed>
+      </li>
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+    <thingSetMakerTags>
+      <li>RewardStandardCore</li>
+    </thingSetMakerTags>
+  </ThingDef>
+  
+  
+ 
+
+	
+</Defs>

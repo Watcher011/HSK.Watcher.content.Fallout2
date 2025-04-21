@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<!-- Structure -->
+
+	
+
+	<!-- Power -->
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<debug>false</debug>
+		<defName>SubCategory_PowerVaultec</defName>
+		<label>Vaultec power conduits</label>
+		<description>A set of electrical cables for moving power around.</description>
+		<defNames>
+			<li>FalloutSmallGenerator</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+
+
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecTable</defName>
+		<label>Vaultec Table</label>
+		<description>A Vaultec Table.</description>
+		<defNames>
+			<li>TableFalloutElectronics</li>
+			<li>TableFalloutPrinter</li>
+			<li>TableFalloutChemicalSynthesis</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+	
+	<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecWeapon</defName>
+		<label>Vaultec Weapon</label>
+		<description>A Vaultec Weapon.</description>
+		<defNames>
+			<li>Fallout_Turret_Turret</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
+</Defs>

@@ -1,0 +1,600 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<RecipeDef Name="Make_AmmoFalloutBase" Abstract="True">
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+			    <li>NuclearBattery</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>TableFalloutPrinter</li>
+		</recipeUsers>
+		
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>60</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-40</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<processDays>1</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.5</speedAboveSafe>
+		<sunFactor>
+			<min>1</min>
+			<max>1</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>1</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>1</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1</max>
+		</windFactor>
+	</RecipeDef>
+	
+		<RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_PlasmaBoltFallout</defName>
+		<label>make Plasma charged  bolt cartridge x100</label>
+		<description>Craft 100 Plasma charged  bolt cartridges.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+					    <li>NuclearBattery</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+			    <li>NuclearBattery</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_PlasmaBolt>100</Ammo_PlasmaBolt>
+		</products>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<graphicSuffix>_PlasmaBolt</graphicSuffix>
+	</RecipeDef>
+	
+	
+	
+	
+	
+	<RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_ChargedLaserFallout</defName>
+		<label>make Charged Laser beam cartridge x100</label>
+		<description>Craft 100 Charged Laser beam cartridges.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NuclearBattery</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>NuclearBattery</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ChargedLaser>100</Ammo_ChargedLaser>
+		</products>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<graphicSuffix>_ChargedLaser</graphicSuffix>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_ChargedLaser_StableFallout</defName>
+		<label>make Charged Laser beam (Stable) cartridge x100</label>
+		<description>Craft 100 Charged Laser beam (Stable) cartridges.</description>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+					</categories>
+				</filter>
+				<count>30</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NuclearBattery</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+			<thingDefs>
+				<li>NuclearBattery</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_ChargedLaser_Stable>100</Ammo_ChargedLaser_Stable>
+		</products>
+		<researchPrerequisite>ChargedShot</researchPrerequisite>
+		<graphicSuffix>_ChargedLaser</graphicSuffix>
+	</RecipeDef>
+
+
+
+     <RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_FatManShell_HE</defName>
+		<label>Make a Nuclear Shell for Fat Man x1</label>
+		<description>Nuclear Shell for Fat Man x1.</description>
+		<jobString>Creates a projectile for the fat man.</jobString>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>DepletedUranium</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plutonium</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ElectronicComponents</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Powder</li>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvMechanism</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>DepletedUranium</li>
+				<li>Plutonium</li>
+				<li>Powder</li>
+				<li>FSX</li>
+				<li>ElectronicComponents</li>
+				<li>AdvMechanism</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_FatManShell_HE>1</Ammo_FatManShell_HE>
+		</products>
+		<graphicSuffix>_FatManShell</graphicSuffix>
+	</RecipeDef>
+	
+	
+	
+	
+	
+	    <!-- RecipeDef_Nuka-Cola -->
+	<RecipeDef Name="Make_NukaColaBase" Abstract="True">
+		<recipeUsers>
+			<li>ColaBasin</li>
+		</recipeUsers>
+		
+		<!-- RecipeDef_UF fields -->
+		<temperatureSafe>
+			<min>-50</min>
+			<max>60</max>
+		</temperatureSafe>
+		<temperatureIdeal>
+			<min>-40</min>
+			<max>30</max>
+		</temperatureIdeal>
+		<processDays>1</processDays>
+		<speedBelowSafe>0.05</speedBelowSafe>
+		<speedAboveSafe>0.5</speedAboveSafe>
+		<sunFactor>
+			<min>1</min>
+			<max>1</max>
+		</sunFactor>
+		<rainFactor>
+			<min>1</min>
+			<max>1</max>
+		</rainFactor>
+		<snowFactor>
+			<min>1</min>
+			<max>1</max>
+		</snowFactor>
+		<windFactor>
+			<min>1</min>
+			<max>1</max>
+		</windFactor>
+	</RecipeDef>
+	
+	
+	
+	 <RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaCola</defName>
+		<label>Make a Nuka Cola x3</label>
+		<description>Nuka Cola x3.</description>
+		<jobString>Creates a Nuka Cola.</jobString>
+		<!--<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>-->
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoffeeBeans</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTato</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+		    <categories>
+				<li>FruitFoodRaw</li>
+			</categories>
+			<thingDefs>
+				<li>CoffeeBeans</li>
+				<li>RawTato</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NukaCola>3</NukaCola>
+		</products>
+		<graphicSuffix>_NukaCola</graphicSuffix>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaColaQuantum</defName>
+		<label>Make a Nuka Cola Quantum x3</label>
+		<description>Nuka Nuka Cola Quantum x3.</description>
+		<jobString>Creates a Nuka Cola Quantum.</jobString>
+		<!--<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>-->
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawTarberry</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoffeeBeans</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Uranium</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>CoffeeBeans</li>
+				<li>Uranium</li>
+				<li>RawTarberry</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NukaColaQuantum>3</NukaColaQuantum>
+		</products>
+		<graphicSuffix>_NukaColaQuantum</graphicSuffix>
+	</RecipeDef>
+	
+	
+	 <RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaColaVictoria</defName>
+		<label>Make a Nuka Cola Victoria x3</label>
+		<description>Nuka Nuka Cola Victoria x3.</description>
+		<jobString>Creates a Nuka Cola Victoria.</jobString>
+		<!--<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>-->
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoffeeBeans</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Raworange</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+		    <categories>
+				<li>FruitFoodRaw</li>
+			</categories>
+			<thingDefs>
+				<li>CoffeeBeans</li>
+				<li>Raworange</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NukaColaVictoria>3</NukaColaVictoria>
+		</products>
+		<graphicSuffix>_NukaColaVictoria</graphicSuffix>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaColaGrapes</defName>
+		<label>Make a Nuka Cola Grapes x3</label>
+		<description>Nuka Cola Grapes x3.</description>
+		<jobString>Creates a Nuka Cola Grapes.</jobString>
+		<!--<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>-->
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoffeeBeans</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Rawgrape</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+		    <categories>
+				<li>FruitFoodRaw</li>
+			</categories>
+			<thingDefs>
+				<li>CoffeeBeans</li>
+				<li>Rawgrape</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NukaColaGrapes>3</NukaColaGrapes>
+		</products>
+		<graphicSuffix>_NukaColaGrapes</graphicSuffix>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaColaOnslaught</defName>
+		<label>Make a Nuka Cola Onslaught x3</label>
+		<description>Nuka Cola Onslaught x3.</description>
+		<jobString>Creates a Nuka Cola Onslaught.</jobString>
+		<!--<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>-->
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoffeeBeans</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RawMutfruit</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			
+		</ingredients>
+		<fixedIngredientFilter>
+		    <categories>
+				<li>FruitFoodRaw</li>
+			</categories>
+			<thingDefs>
+				<li>CoffeeBeans</li>
+				<li>RawMutfruit</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NukaColaOnslaught>3</NukaColaOnslaught>
+		</products>
+		<graphicSuffix>_NukaColaOnslaught</graphicSuffix>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="Make_NukaColaBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_NukaColaDark</defName>
+		<label>Make a Nuka Cola Dark x3</label>
+		<description>Nuka Cola Dark x3.</description>
+		<jobString>Creates a Nuka Cola Dark.</jobString>
+		<!--<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>-->
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>FruitFoodRaw</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>CoffeeBeans</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Beer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+		    <categories>
+				<li>FruitFoodRaw</li>
+			</categories>
+			<thingDefs>
+				<li>CoffeeBeans</li>
+				<li>Beer</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<NukaColaDark>3</NukaColaDark>
+		</products>
+		<graphicSuffix>_NukaColaDark</graphicSuffix>
+	</RecipeDef>
+</Defs>

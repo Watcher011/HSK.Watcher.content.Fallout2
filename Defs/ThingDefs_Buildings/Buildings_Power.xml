@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="PowerFueled">
+		<defName>FalloutSmallGenerator</defName>
+		<label>Vault-Tec VX-12 generator</label>
+	    <thingClass>Building</thingClass>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<graphicData>
+			<texPath>Things/Building/Power/Generator/FalloutSmallGenerator/FalloutSmallGenerator</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,1.8)</drawSize>
+			<shadowData>
+				<volume>(1.8, 0.8, 1.8)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		 <tickerType>Normal</tickerType>
+		 <rotatable>true</rotatable>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2100</WorkToBuild>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<description>The Volttec VX-12 miniature generator is the perfect solution for autonomous power supply in the chaos of post-war times. Thanks to its hybrid power system, it can run on both traditional chemical fuels (gasoline, ethanol, diluted petroleum product) and nuclear mini-batteries, providing stable power for small electronics, portable devices, or even compact energy weapons.</description>
+		<size>(2,1)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Mechanism>2</Mechanism>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>SK.CompPowerPlantFueled</compClass>
+				<basePowerConsumption>-750</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+				<soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(17,112,233,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>3</heatPerSecond>
+				<heatPushMaxTemperature>25</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>500</operatingTemp>
+				<drawfirefuel>true</drawfirefuel>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeDrawOffset>(0,0,0.1)</smokeDrawOffset>
+				<smokesize>1.7</smokesize>
+				<smokespeeddelay>100</smokespeeddelay>
+				<fuelCapacity>40</fuelCapacity>
+				<burnFuelMultiplier>0.9</burnFuelMultiplier>
+				<smokeDensity>3</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>Chemfuel</li>
+						<li>Prometheum</li>
+						<li>NuclearBattery</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li Class="CompProperties_Stunnable">
+				<useLargeEMPEffecter>true</useLargeEMPEffecter>
+				<affectedDamageDefs>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<researchPrerequisites>
+			<li>Vault-TecPower</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="SK.Events.AccidentalExplosionExtension">
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	
+</Defs>

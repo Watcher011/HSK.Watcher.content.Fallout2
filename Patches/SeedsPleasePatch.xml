@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<Plant_Mutfruit>0.015</Plant_Mutfruit>
+		</value>
+     </Operation>
+	 
+	  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildPlants</xpath>
+		<value>
+			<Plant_Tato>0.015</Plant_Tato>
+		</value>
+     </Operation>
+	 
+	  <Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest" or defName="Ocean" or defName="Lake"]/wildPlants</xpath>
+		<value>
+			<PlantTarberry>0.15</PlantTarberry>
+		</value>
+     </Operation>
+
+	<Operation Class="PatchOperationFindMod">
+		<mods>
+			<li>SeedsPlease</li>
+		</mods>
+		<match Class="PatchOperationSequence">
+			<operations>
+				<li Class="PatchOperationAdd">
+					<xpath>/Defs</xpath>
+					<value>
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Mutfruit_seeds</defName>
+							<label>Mutfruit seeds</label>
+							<sources>
+								<li>Plant_Mutfruit</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Plant/Mutfruitbag</texPath>
+								<drawSize>(0.3)</drawSize>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+				
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractMutfruit</defName>
+							<label>Extraction of Mutfruit seeds</label>
+							<description>Extraction of Mutfruit seeds</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawMutfruit</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawMutfruit</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Mutfruit_seeds>3</Mutfruit_seeds>
+							</products>
+						</RecipeDef>
+				
+		
+						<SeedsPlease.SeedDef ParentName="SeedBase">
+							<defName>Tato_seeds</defName>
+							<label>Tato seeds</label>
+							<sources>
+								<li>Plant_Tato</li>
+							</sources>
+							<graphicData>
+								<texPath>Things/Plant/Tatobag</texPath>
+								<drawSize>(0.3)</drawSize>
+							</graphicData>
+							 <statBases>
+                                <MarketValue>9</MarketValue>
+                             </statBases>
+						</SeedsPlease.SeedDef>
+				
+						<RecipeDef ParentName="ExtractSeed">
+							<defName>ExtractTato</defName>
+							<label>Extraction of Tato seeds</label>
+							<description>Extraction of Tato seeds</description>
+							<ingredients>
+								<li>
+									<filter>
+										<thingDefs>
+											<li>RawTato</li>
+										</thingDefs>
+									</filter>
+									<count>4</count>
+								</li>
+							</ingredients>
+							<fixedIngredientFilter>
+								<thingDefs>
+									<li>RawTato</li>
+								</thingDefs>
+							</fixedIngredientFilter>
+							<products>
+								<Tato_seeds>3</Tato_seeds>
+							</products>
+						</RecipeDef>
+					</value>
+				</li>				
+			</operations>
+		</match>
+	</Operation>
+</Patch>

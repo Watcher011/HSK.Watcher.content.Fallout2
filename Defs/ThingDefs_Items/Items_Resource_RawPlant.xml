@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  
+  
+  <ThingDef ParentName="SK_PlantFoodRawBase">
+    <defName>RawMutfruit</defName>
+    <label>raw Mutfruit</label>
+    <description>Raw Mutfruit is a highly mutated fruit that grows in small villages. What kind of fruit that has mutated is unknown. Widely distributed in the Commonwealth, and also because of its abilities. Can be grown in friendly settlements. Used to prepare various dishes.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/MutfruitRAW</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+		<foodType>VegetableOrFruit</foodType>
+		<ingestEffect>EatVegetarian</ingestEffect>
+		 <preferability>MealTerrible</preferability>
+    </ingestible>
+	<thingCategories>
+	        <li>BasicPlantFoodRaw</li>
+	</thingCategories>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="SK_PlantFoodRawBase">
+    <defName>RawTarberry</defName>
+    <label>raw Tarberry</label>
+    <description>Mutated berry. In addition to direct consumption, resin berries can be used for cooking.</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/TarberryRAW</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.3</MarketValue>
+    </statBases>
+    <ingestible>
+	<foodType>VegetableOrFruit</foodType>
+	<ingestEffect>EatVegetarian</ingestEffect>
+	 <preferability>MealTerrible</preferability>
+    </ingestible>
+    <ingredient>
+      <mergeCompatibilityTags>
+        <li MayRequire="Ludeon.RimWorld.Ideology">Fungus</li>
+      </mergeCompatibilityTags>
+    </ingredient>
+	<thingCategories>
+	       <li>ExtraPlantFoodRaw</li>
+	</thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+  
+ 
+  
+   <ThingDef ParentName="SK_PlantFoodRawBase">
+    <defName>RawTato</defName>
+    <label>raw Tato</label>
+    <description>Raw Tato a hybrid of tomato and potato that mutated after the Great War (TOMATO and POTATO).</description>
+    <possessionCount>10</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/TatoRAW</texPath>
+    </graphicData>
+    <statBases>
+      <MarketValue>1.1</MarketValue>
+    </statBases>
+    <ingestible>
+     <foodType>VegetableOrFruit</foodType>
+		<ingestEffect>EatVegetarian</ingestEffect>
+		 <preferability>MealTerrible</preferability>
+    </ingestible>
+	<thingCategories>
+	        <li>BasicPlantFoodRaw</li>
+	</thingCategories>
+    <comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+  </ThingDef>
+</Defs>

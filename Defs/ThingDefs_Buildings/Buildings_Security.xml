@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_LidMineExplosive</defName>
+    <label>IED Lid Mine</label>
+    <description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy. Can be use like a traps. Animals can sense these when calm.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Bottlecap_mine</texPath>
+	  <drawSize>(0.5)</drawSize>
+    </graphicData>
+    <costList>
+      <Weapon_Grenade_Bottlecap>1</Weapon_Grenade_Bottlecap>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Bomb</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>15</wickTicks>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+	  <li Class="CombatExtended.CompProperties_Fragments">
+		<fragments>
+			<Fragment_Bottlecap>70</Fragment_Bottlecap>
+			<Bottlecap>10</Bottlecap>
+		</fragments>
+	  </li>
+    </comps>
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef> 
+  
+	<!-- =====AI manned turrets===== -->
+
+	<ThingDef ParentName="TurretBase">
+		<defName>Fallout_Turret_Turret</defName>
+		<label>Automated Turret</label>
+		<graphicData>
+			<texPath>Things/Building/Security/AMTurretGun_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/FalloutTurretImprovised_Ico</uiIconPath>
+		<statBases>
+		<Mass>50</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		   <li Class="CompProperties_Refuelable">
+			<fuelLabel>Battery charges</fuelLabel>
+			<fuelGizmoLabel>Charge level</fuelGizmoLabel>
+			<outOfFuelMessage>Can't shoot : Replace battery</outOfFuelMessage>
+			<fuelFilter>
+			     <thingDefs>
+		      	<li>NuclearBattery</li>
+				<li>ChjAndroidBattery</li>
+				<li>Hexcell</li>
+			     </thingDefs>
+			</fuelFilter>
+			<fuelCapacity>1</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Bat</fuelIconPath>
+		  </li>
+		  <li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>5</heatPerSecond>
+				<heatPushMaxTemperature>30</heatPushMaxTemperature>
+			</li>
+		</comps>
+		<description>The Automated Turret is a deadly pre-war device, rebuilt and modified for the harsh conditions of a post-apocalyptic world. Its key feature is a micro-nuclear reactor as a power source, allowing for virtually unlimited battery life without the need to recharge. "Recommended for use in fortified positions or transport platforms. Do not leave unattended - thieves or super mutants can drag it off for scrap metal... or cannibalize it for parts for something worse."\nCaliber: 5.56x45mm NATO</description>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Hexcell>1</Hexcell>
+		</costList>
+		<specialDisplayRadius>3</specialDisplayRadius>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_FalloutMiniTurret</turretGunDef>
+			<turretTopDrawSize>1.5</turretTopDrawSize>
+		</building>
+		<designationHotKey>Misc1</designationHotKey>
+		<tradeTags>
+			<li>CE_Turret</li>
+		</tradeTags>
+		<minifiedDef>MinifiedTurretGun</minifiedDef>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+			<li>Vault-TecProduction</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="BaseAutoTurretGun">
+		<defName>Gun_FalloutMiniTurret</defName>
+		<label>Sentry light gun</label>
+		<graphicData>
+			<texPath>Things/Building/Security/FalloutTurretImprovised_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <menuHidden>True</menuHidden> -->
+		<description>Jury-rigged automatic gun attached to a turret.</description>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<tradeability>None</tradeability>
+		<statBases>
+			<SightsEfficiency>1.45</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.80</SwayFactor>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+
+				<recoilAmount>0.41</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<range>35</range>
+				<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+				<burstShotCount>6</burstShotCount>
+				<soundCast>GunShotA</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>0.001</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>600</magazineSize>
+				<reloadTime>6.00</reloadTime>
+				<ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>3</aimedBurstShotCount>
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>Snapshot</aiAimMode>
+				<noSnapshot>true</noSnapshot>
+				<noSingleShot>true</noSingleShot>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>
