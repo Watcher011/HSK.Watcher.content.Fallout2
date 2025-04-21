@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Power -->
+
+ <SubCategory_PowerVaultec.label>Генератор Волт-Тек</SubCategory_PowerVaultec.label>
+<SubCategory_PowerVaultec.description>Электрогенераторная установка.</SubCategory_PowerVaultec.description>
+
+<SubCategory_VaultecTable.label>Верстаки Волт-Тек</SubCategory_VaultecTable.label>
+<SubCategory_VaultecTable.description>Верстаки Волт-Тек.</SubCategory_VaultecTable.description>
+
+<SubCategory_VaultecWeapon.label>Оборона Волт-Тек</SubCategory_VaultecWeapon.label>
+<SubCategory_VaultecWeapon.description>Волт-Тек защита.</SubCategory_VaultecWeapon.description>
+
+
+</LanguageData>

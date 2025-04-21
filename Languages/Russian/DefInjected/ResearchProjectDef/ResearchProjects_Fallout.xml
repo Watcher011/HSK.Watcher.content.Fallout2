@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <Vault-TecPower.label>Волт-Тек генераторы</Vault-TecPower.label>
+<Vault-TecPower.description>Создание генераторов с использованием чертежей Волт-Тек.</Vault-TecPower.description>
+<Vault-TecPower.generalRules.rulesStrings.0>subject-&gt;Vault-Tec Power</Vault-TecPower.generalRules.rulesStrings.0>
+
+<Vault-TecProduction.label>Волт-Тек производство</Vault-TecProduction.label>
+<Vault-TecProduction.description>Создание верстаков с использованием чертежей Волт-Тек.</Vault-TecProduction.description>
+<Vault-TecProduction.generalRules.rulesStrings.0>subject-&gt;Vault-Tec Производство</Vault-TecProduction.generalRules.rulesStrings.0>
+
+<Vault-TecProcessing.label>Химическая обработка Волт-Тек</Vault-TecProcessing.label>
+<Vault-TecProcessing.description>Построить лабораторию с использованием чертежей Волт-Тек.</Vault-TecProcessing.description>
+<Vault-TecProcessing.generalRules.rulesStrings.0>subject-&gt;Лаборатория Волт-Тек</Vault-TecProcessing.generalRules.rulesStrings.0>
+
+
+</LanguageData>

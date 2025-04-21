@@ -10,8 +10,8 @@
 	<ArchitectSense.DesignationSubCategoryDef>
 		<debug>false</debug>
 		<defName>SubCategory_PowerVaultec</defName>
-		<label>Vaultec power conduits</label>
-		<description>A set of electrical cables for moving power around.</description>
+		<label>Vaultec generators</label>
+		<description>Electric Generator Set.</description>
 		<defNames>
 			<li>FalloutSmallGenerator</li>
 		</defNames>
@@ -22,8 +22,8 @@
 
 	<ArchitectSense.DesignationSubCategoryDef>
 		<defName>SubCategory_VaultecTable</defName>
-		<label>Vaultec Table</label>
-		<description>A Vaultec Table.</description>
+		<label>Vault-Tec Workbenches</label>
+		<description>Vault-Tec Workbenches.</description>
 		<defNames>
 			<li>TableFalloutElectronics</li>
 			<li>TableFalloutPrinter</li>
@@ -36,8 +36,8 @@
 	
 	<ArchitectSense.DesignationSubCategoryDef>
 		<defName>SubCategory_VaultecWeapon</defName>
-		<label>Vaultec Weapon</label>
-		<description>A Vaultec Weapon.</description>
+		<label>Vault-Tec defense</label>
+		<description>A Vault-Tec defense.</description>
 		<defNames>
 			<li>Fallout_Turret_Turret</li>
 		</defNames>

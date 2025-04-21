@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <FalloutJet.label>Винт</FalloutJet.label>
+<FalloutJet.description>Винт вызывает изменённое состояние сознания, в котором время, кажется, течёт очень медленно. Это позволяет вам выполнять больше действий за короткий промежуток времени, чем обычно.</FalloutJet.description>
+<FalloutJet.ingestible.ingestCommandString>Использование {0}</FalloutJet.ingestible.ingestCommandString>
+<FalloutJet.ingestible.ingestReportString>Использование {0}.</FalloutJet.ingestible.ingestReportString>
+
+<FalloutUltraJet.label>Ультра Винт</FalloutUltraJet.label>
+<FalloutUltraJet.description>Это улучшенная версия Винта, вызывающего изменённое состояние сознания, в котором время, кажется, течёт очень медленно. Это позволяет вам выполнять больше действий за короткий промежуток времени, чем обычно.</FalloutUltraJet.description>
+<FalloutUltraJet.ingestible.ingestCommandString>Использование {0}</FalloutUltraJet.ingestible.ingestCommandString>
+<FalloutUltraJet.ingestible.ingestReportString>Использование {0}.</FalloutUltraJet.ingestible.ingestReportString>
+
+<Stimpak.label>Стимулятор</Stimpak.label>
+<Stimpak.description>Потрясающая смесь обезболивающих, стимуляторов и чего-то, что, кажется, движется... Но кто обращает на это внимание, когда нужно срочно заделать дыру в груди после встречи с койотом?</Stimpak.description>
+<Stimpak.ingestible.ingestCommandString>Ввести {0}</Stimpak.ingestible.ingestCommandString>
+<Stimpak.ingestible.ingestReportString>Инъекция {0}.</Stimpak.ingestible.ingestReportString>
+
+<StimpakSuper.label>Супер Стимулятор</StimpakSuper.label>
+<StimpakSuper.description>Устали от того, что ваши раны заживают слишком медленно? Хотите почувствовать, как ваши мышцы наполняются силой, а боль исчезает быстрее, чем репутация главы Торговой гильдии после неудачной сделки? Super Stimpak™ — это революция в мире постапокалиптической медицины!</StimpakSuper.description>
+<StimpakSuper.ingestible.ingestCommandString>Инъекция {0}</StimpakSuper.ingestible.ingestCommandString>
+<StimpakSuper.ingestible.ingestReportString>Инъекция {0}.</StimpakSuper.ingestible.ingestReportString>
+
+<Med-x.label>Med-X</Med-x.label>
+<Med-x.description>Высокоэффективное обезболивающее на основе морфина. Выпускается в виде одноразовых шприцов вместе с препаратом. При приеме на некоторое время пользователь получает повышенную устойчивость к повреждениям. Это довоенный наркотик, но Выживший  может его изготовить в лаборатории.</Med-x.description>
+<Med-x.ingestible.ingestCommandString>Ввести {0}</Med-x.ingestible.ingestCommandString>
+<Med-x.ingestible.ingestReportString>Ввести {0}.</Med-x.ingestible.ingestReportString>
+
+
+</LanguageData>

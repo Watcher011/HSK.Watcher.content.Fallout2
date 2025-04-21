@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <StimpakBasic.label>Регенерация от стимуляторов</StimpakBasic.label>
+ <StimpakBasic.description>Регенерация от стимуляторов.</StimpakBasic.description>
+ <StimpakBasic.stages.0.label>побочный эффект</StimpakBasic.stages.0.label>
+ <StimpakBasic.stages.1.label>регенерация</StimpakBasic.stages.1.label>
+ <StimpakBasic.labelNoun>Стипак</StimpakBasic.labelNoun>
+
+ <StimpakSuper.label>Стипак: суперрегенерация</StimpakSuper.label>
+ <StimpakSuper.description>Стимпак суперрегенерации.</StimpakSuper.description>
+ Сторона <StimpakSuper.stages.0.label> эффект</StimpakSuper.stages.0.label>
+<StimpakSuper.stages.1.label>регенерация</StimpakSuper.stages.1.label>
+<StimpakSuper.labelNoun>Стимпак: супер</StimpakSuper.labelNoun>
+
+<Med-xBasic.label>Мед-x</Med-xBasic.label>
+<Med-xBasic.description>Мед-x.</Med-xBasic.description>
+<Med-xBasic.stages.0.label>Мед-x</Med-xBasic.stages.0.label>
+<Med-xBasic.labelNoun>Мед-x</Med-xBasic.labelNoun>
+
+
+</LanguageData>

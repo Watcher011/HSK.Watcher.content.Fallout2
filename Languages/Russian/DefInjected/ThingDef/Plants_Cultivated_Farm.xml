@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+ <Plant_Mutfruit.label>Растение мутафрукт</Plant_Mutfruit.label>
+<Plant_Mutfruit.description>Это сильно мутировавший фрукт, который растет на небольшом дереве. Какой именно фрукт мутировал, неизвестно. Он широко распространен в Содружестве и за его пределами. Его можно выращивать в дружественных поселениях. Его используют для приготовления различных блюд.</Plant_Mutfruit.description>
+
+<PlantTarberry.label>Растение Клюквы</PlantTarberry.label>
+<PlantTarberry.description>Мутировавшая ягода. Помимо прямого употребления в пищу, смолистые ягоды можно использовать для приготовления пищи.</PlantTarberry.description>
+
+<Plant_Tato.label>Растение Тошки</Plant_Tato.label>
+<Plant_Tato.description>Гибрид томата и картофеля, мутировавший после Первой мировой войны (ТОМАТ и КАРТООШКИ).</Plant_Tato.description>
+
+
+</LanguageData>

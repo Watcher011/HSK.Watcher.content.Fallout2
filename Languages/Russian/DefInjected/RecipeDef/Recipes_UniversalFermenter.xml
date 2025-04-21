@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeAmmo_PlasmaBoltFallout.label>создать Заряд плазмы x100</MakeAmmo_PlasmaBoltFallout.label>
+<MakeAmmo_PlasmaBoltFallout.description>Создать 100 Зарядов плазмы.Высокотехнологичный контейнер, содержащий в себе порцию плазмы. Принцип действия и способ удержания плазмы неизвестен. </MakeAmmo_PlasmaBoltFallout.description>
+
+<MakeAmmo_ChargedLaserFallout.label>создать Ядерные батареи x100</MakeAmmo_ChargedLaserFallout.label>
+<MakeAmmo_ChargedLaserFallout.description>Создать 100 Ядерных батарей.</MakeAmmo_ChargedLaserFallout.description>
+
+<MakeAmmo_ChargedLaser_StableFallout.label>создать Стабильные Ядерные батареи x100</MakeAmmo_ChargedLaser_StableFallout.label>
+
+<MakeAmmo_ChargedLaser_StableFallout.description>Создать 100 Ядерные батареи (Стабильный).</MakeAmmo_ChargedLaser_StableFallout.description>
+
+<MakeAmmo_FatManShell_HE.label>Сделать ядерный снаряд для Толстяка x1</MakeAmmo_FatManShell_HE.label>
+<MakeAmmo_FatManShell_HE.description>Ядерный снаряд для Толстяка x1.</MakeAmmo_FatManShell_HE.description>
+<MakeAmmo_FatManShell_HE.jobString>Создает снаряд для Толстяка.</MakeAmmo_FatManShell_HE.jobString>
+
+
+ <!-- RecipeDef_Nuka-Cola -->
+
+ <Make_NukaCola.label>Сделайте Ядер-Колу x3</Make_NukaCola.label>
+ <Make_NukaCola.description>Ядер-кола x3.</Make_NukaCola.description>
+ <Make_NukaCola.jobString>Создает ядер-колу.</Make_NukaCola.jobString>
+
+ <Make_NukaColaQuantum.label>Сделайте квантовую Ядер-Колу x3</Make_NukaColaQuantum.label>
+ <Make_NukaColaQuantum.description>Ядер-Кола Квантум x3.</Make_NukaColaQuantum.description>
+ <Make_NukaColaQuantum.jobString>Создает квантовую ядер-колу.</Make_NukaColaQuantum.jobString>
+
+ <Make_NukaColaVictoria.label>Сделайте Ядер-Колу Виктория x3</Make_NukaColaVictoria.label>
+ <Make_NukaColaVictoria.description>Ядер-Кола Виктория x3.</Make_NukaColaVictoria.description>
+ <Make_NukaColaVictoria.jobString>Создает Ядер-Колу Виктория.</Make_NukaColaVictoria.jobString>
+
+ <Make_NukaColaGrapes.label>Сделайте Ядер-Колу Виноград x3</Make_NukaColaGrapes.label>
+ <Make_NukaColaGrapes.description>Ядер-Кола Виноград x3.</Make_NukaColaGrapes.description>
+ <Make_NukaColaGrapes.jobString>Создает виноград Ядер-колы.</Make_NukaColaGrapes.jobString>
+
+ <Make_NukaColaOnslaught.label>Сделать Ядер-Колу Натиск x3</Make_NukaColaOnslaught.label>
+ <Make_NukaColaOnslaught.description>Ядер-Кола Натиск x3.</Make_NukaColaOnslaught.description>
+ <Make_NukaColaOnslaught.jobString>Создает Натиск Ядер-колы.</Make_NukaColaOnslaught.jobString>
+
+ <Make_NukaColaDark.label>Сделать Ядер-Колу Темную x3</Make_NukaColaDark.label>
+<Make_NukaColaDark.description>Темная Ядер-Кола x3.</Make_NukaColaDark.description>
+<Make_NukaColaDark.jobString>Создает темную Ядер-Колу.</Make_NukaColaDark.jobString>
+
+
+</LanguageData>

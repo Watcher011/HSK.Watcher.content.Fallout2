@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- HARDCORE SK: THOUGHTS -->
+<HadNukaCola.stages.0.label>Выпил Ядер-Колу</HadNukaCola.stages.0.label>
+<HadNukaCola.stages.0.description>Эта Кола была такой полезной! Теперь я чувствую себя хорошо.</HadNukaCola.stages.0.description>
+
+<HadColaDark.stages.0.label>Выпил Тёмную Ядер-Колу</HadColaDark.stages.0.label>
+<HadColaDark.stages.0.description>Эта Кола была такой полезной! Я абсолютно уверен, что смогу победить смерть в рукопашном бою.</HadColaDark.stages.0.description>
+
+<HadColaQuantum.stages.0.label>Выпил Квантовую Ядер-Колу</HadColaQuantum.stages.0.label>
+<HadColaQuantum.stages.0.description>Эта кола была такой полезной! Вкус — как взрыв миниатюрной сверхновой, смесь цитрусового безумия и сладкой радиации. Твои вкусовые рецепторы кричат ​​либо от восторга, либо от боли.</HadColaQuantum.stages.0.description>
+
+</LanguageData>
