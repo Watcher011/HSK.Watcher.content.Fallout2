@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- BigCats -->
+
+  <Gecko_green.label>Гекко</Gecko_green.label>
+  <Gecko_green.labelPlural>Гекко</Gecko_green.labelPlural>
+  <Gecko_green.lifeStages.0.label>Гекко</Gecko_green.lifeStages.0.label>
+  <Gecko_green.lifeStages.0.labelPlural>Гекко</Gecko_green.lifeStages.0.labelPlural>
+  <Gecko_green.lifeStages.0.labelMale>самец Гекко</Gecko_green.lifeStages.0.labelMale>
+  <Gecko_green.lifeStages.0.labelMalePlural>самцы Гекко</Gecko_green.lifeStages.0.labelMalePlural>
+  <Gecko_green.lifeStages.0.labelFemale>самка Гекко</Gecko_green.lifeStages.0.labelFemale>
+  <Gecko_green.lifeStages.0.labelFemalePlural>самки Гекко</Gecko_green.lifeStages.0.labelFemalePlural>
+  <Gecko_green.lifeStages.1.label>Гекко</Gecko_green.lifeStages.1.label>
+  <Gecko_green.lifeStages.1.labelPlural>Гекко</Gecko_green.lifeStages.1.labelPlural>
+  <Gecko_green.lifeStages.1.labelMale>самец Гекко</Gecko_green.lifeStages.1.labelMale>
+  <Gecko_green.lifeStages.1.labelMalePlural>самецы Гекко</Gecko_green.lifeStages.1.labelMalePlural>
+  <Gecko_green.lifeStages.1.labelFemale>самка Гекко</Gecko_green.lifeStages.1.labelFemale>
+  <Gecko_green.lifeStages.1.labelFemalePlural>самки Гекко</Gecko_green.lifeStages.1.labelFemalePlural>
+  <Gecko_green.lifeStages.2.label>Гекко</Gecko_green.lifeStages.2.label>
+  <Gecko_green.lifeStages.2.labelPlural>Гекко</Gecko_green.lifeStages.2.labelPlural>
+  <Gecko_green.lifeStages.2.labelMale>самец Гекко</Gecko_green.lifeStages.2.labelMale>
+  <Gecko_green.lifeStages.2.labelMalePlural>самцы Гекко</Gecko_green.lifeStages.2.labelMalePlural>
+  <Gecko_green.lifeStages.2.labelFemale>самка Гекко</Gecko_green.lifeStages.2.labelFemale>
+  <Gecko_green.lifeStages.2.labelFemalePlural>самки Гекко</Gecko_green.lifeStages.2.labelFemalePlural>
+  <Gecko_green.labelMale>самец Гекко</Gecko_green.labelMale>
+  <Gecko_green.labelMalePlural>самцы Гекко</Gecko_green.labelMalePlural>
+  <Gecko_green.labelFemale>самка Гекко</Gecko_green.labelFemale>
+  <Gecko_green.labelFemalePlural>самки Гекко</Gecko_green.labelFemalePlural>
+
+  <Gecko_fire.label>Огненный геккон</Gecko_fire.label>
+  <Gecko_fire.labelPlural>Огненный гекконы</Gecko_fire.labelPlural>
+  <Gecko_fire.lifeStages.0.label>Огненный геккон</Gecko_fire.lifeStages.0.label>
+  <Gecko_fire.lifeStages.0.labelPlural>Огненный геккон</Gecko_fire.lifeStages.0.labelPlural>
+  <Gecko_fire.lifeStages.0.labelMale>самец Огненного геккона</Gecko_fire.lifeStages.0.labelMale>
+  <Gecko_fire.lifeStages.0.labelMalePlural>самцы Огненного геккона</Gecko_fire.lifeStages.0.labelMalePlural>
+  <Gecko_fire.lifeStages.0.labelFemale>самка Огненного геккон</Gecko_fire.lifeStages.0.labelFemale>
+  <Gecko_fire.lifeStages.0.labelFemalePlural>самки Огненного геккона</Gecko_fire.lifeStages.0.labelFemalePlural>
+  <Gecko_fire.lifeStages.1.label>Огненный геккон</Gecko_fire.lifeStages.1.label>
+  <Gecko_fire.lifeStages.1.labelPlural>Огненный геккон</Gecko_fire.lifeStages.1.labelPlural>
+  <Gecko_fire.lifeStages.1.labelMale>самец Огненного геккон</Gecko_fire.lifeStages.1.labelMale>
+  <Gecko_fire.lifeStages.1.labelMalePlural>самцы Огненного геккона</Gecko_fire.lifeStages.1.labelMalePlural>
+  <Gecko_fire.lifeStages.1.labelFemale>самка Огненного геккон</Gecko_fire.lifeStages.1.labelFemale>
+  <Gecko_fire.lifeStages.1.labelFemalePlural>самки Огненного геккона</Gecko_fire.lifeStages.1.labelFemalePlural>
+  <Gecko_fire.lifeStages.2.label>Огненный геккон</Gecko_fire.lifeStages.2.label>
+  <Gecko_fire.lifeStages.2.labelPlural>Огненный геккон</Gecko_fire.lifeStages.2.labelPlural>
+  <Gecko_fire.lifeStages.2.labelMale>самец Огненного геккона</Gecko_fire.lifeStages.2.labelMale>
+  <Gecko_fire.lifeStages.2.labelMalePlural>самцы Огненного геккона</Gecko_fire.lifeStages.2.labelMalePlural>
+  <Gecko_fire.lifeStages.2.labelFemale>самка Огненного геккона</Gecko_fire.lifeStages.2.labelFemale>
+  <Gecko_fire.lifeStages.2.labelFemalePlural>самки Огненного геккона</Gecko_fire.lifeStages.2.labelFemalePlural>
+  <Gecko_fire.labelMale>самец Огненного геккона</Gecko_fire.labelMale>
+  <Gecko_fire.labelMalePlural>самец Огненного геккона</Gecko_fire.labelMalePlural>
+  <Gecko_fire.labelFemale>самка Огненного геккона</Gecko_fire.labelFemale>
+  <Gecko_fire.labelFemalePlural>самки Огненного геккона</Gecko_fire.labelFemalePlural>
+
+  <Gecko_gold.label>Золотой геккон</Gecko_gold.label>
+  <Gecko_gold.labelPlural>Золотые гекконы</Gecko_gold.labelPlural>
+  <Gecko_gold.lifeStages.0.label>Золотой геккон</Gecko_gold.lifeStages.0.label>
+  <Gecko_gold.lifeStages.0.labelPlural>Золотой геккон</Gecko_gold.lifeStages.0.labelPlural>
+  <Gecko_gold.lifeStages.0.labelMale>самец Золотого геккона</Gecko_gold.lifeStages.0.labelMale>
+  <Gecko_gold.lifeStages.0.labelMalePlural>самцы Золотые гекконы</Gecko_gold.lifeStages.0.labelMalePlural>
+  <Gecko_gold.lifeStages.0.labelFemale>самка Золотго геккона</Gecko_gold.lifeStages.0.labelFemale>
+  <Gecko_gold.lifeStages.0.labelFemalePlural>самки Золотых гекконов</Gecko_gold.lifeStages.0.labelFemalePlural>
+  <Gecko_gold.lifeStages.1.label>Золотой геккон</Gecko_gold.lifeStages.1.label>
+  <Gecko_gold.lifeStages.1.labelPlural>Золотой геккон</Gecko_gold.lifeStages.1.labelPlural>
+  <Gecko_gold.lifeStages.1.labelMale>самец Золотого геккона</Gecko_gold.lifeStages.1.labelMale>
+  <Gecko_gold.lifeStages.1.labelMalePlural>самцы Золотые гекконы</Gecko_gold.lifeStages.1.labelMalePlural>
+  <Gecko_gold.lifeStages.1.labelFemale>самка Золотго геккона</Gecko_gold.lifeStages.1.labelFemale>
+  <Gecko_gold.lifeStages.1.labelFemalePlural>самки Золотых гекконов</Gecko_gold.lifeStages.1.labelFemalePlural>
+  <Gecko_gold.lifeStages.2.label>Золотой геккон</Gecko_gold.lifeStages.2.label>
+  <Gecko_gold.lifeStages.2.labelPlural>Золотой геккон</Gecko_gold.lifeStages.2.labelPlural>
+  <Gecko_gold.lifeStages.2.labelMale>самец Золотого геккона</Gecko_gold.lifeStages.2.labelMale>
+  <Gecko_gold.lifeStages.2.labelMalePlural>самцы Золотые гекконы</Gecko_gold.lifeStages.2.labelMalePlural>
+  <Gecko_gold.lifeStages.2.labelFemale>самка Золотго геккона</Gecko_gold.lifeStages.2.labelFemale>
+  <Gecko_gold.lifeStages.2.labelFemalePlural>самки Золотых гекконов</Gecko_gold.lifeStages.2.labelFemalePlural>
+  <Gecko_gold.labelMale>самец Золотого геккона</Gecko_gold.labelMale>
+  <Gecko_gold.labelMalePlural>самцы Золотые гекконы</Gecko_gold.labelMalePlural>
+  <Gecko_gold.labelFemale>самка Золотго геккона</Gecko_gold.labelFemale>
+  <Gecko_gold.labelFemalePlural>самки Золотых гекконов</Gecko_gold.labelFemalePlural>
+
+
+</LanguageData>

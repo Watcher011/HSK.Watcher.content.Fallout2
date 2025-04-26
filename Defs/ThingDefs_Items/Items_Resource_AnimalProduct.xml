@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=====================================================================-->
+  <!--=============================== Misc ================================-->
+  <!--=====================================================================-->
+
+ 
+
+  <!-- Gecko -->
+
+  <ThingDef ParentName="EggFertBase">
+    <defName>EggGeckoFertilized</defName>
+    <label>Gecko egg (fert.)</label>
+    <description>A fertilized Gecko egg. If all goes well, it should hatch into a baby Gecko. It can be eaten raw, but it's much better cooked.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Resource/AnimalProductRaw/EggOval</texPath>
+      <color>(245,245,245)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>25.0</MarketValue>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Hatcher">
+        <hatcherDaystoHatch>3.5</hatcherDaystoHatch>
+        <hatcherPawn>Gecko_green</hatcherPawn>
+      </li>
+    </comps>
+  </ThingDef>
+
+</Defs>

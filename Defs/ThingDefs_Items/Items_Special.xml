@@ -123,6 +123,113 @@
   
   
  
-
+<ThingDef>
+    <defName>RadHemogenPack</defName>
+    <label>Rad hemogen pack</label>
+    <description>This bag of thick, shimmering green liquid was taken from the body of one of the inhabitants of the Glowing Sea. The locals say that these mutants are former humans who have been protected from radiation for too long. The blood pulsates strangely, pretending to be alive, and looking at it makes you feel slightly dizzy. Scientists from the Enclave would probably give half a round of ammunition for it, but local tramps prefer to stay away from it - who knows what other nasty stuff is floating in the bag? Maybe it's worth selling, or maybe... it's better not to risk it and throw it into the nearest acid puddle?.</description>
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <drawerType>MapMeshOnly</drawerType>
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <selectable>true</selectable>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <possessionCount>5</possessionCount>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <alwaysHaulable>true</alwaysHaulable>
+    <pathCost>14</pathCost>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <graphicData>
+      <texPath>Things/Item/Resource/RadHemogenPack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <DeteriorationRate>5</DeteriorationRate>
+      <Mass>0.50</Mass>
+      <Flammability>0.7</Flammability>
+      <Nutrition>0.1</Nutrition>
+      <Beauty>0</Beauty>
+      <MarketValue>5</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Fluid</foodType>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+      <specialThoughtDirect>IngestedRadHemogenPack</specialThoughtDirect>
+      <ingestSound>HemogenPack_Consume</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_OffsetHemogen">
+          <offset>0.4</offset>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+  </ThingDef>
 	
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>RadMeat</defName>
+		<label>Wasteland Monster Meat</label>
+		<description>A gastronomic 'delicacy' of the wasteland, taken from creatures that clearly failed health inspection, this hunk of flesh can be anything from boot-tight brahmin meat to suspiciously slimy mutant steak. When raw, it gives off an eye-watering aroma, but when fried (or soaked in alcohol for a long time) it becomes almost edible. As the locals say, 'If your hair doesn't fall out after eating it, you're lucky!</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/RadMeat</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		 <thingClass>ThingWithComps</thingClass>
+         <selectable>true</selectable>
+        <category>Item</category>
+       <drawerType>MapMeshOnly</drawerType>
+       <tickerType>Rare</tickerType>
+       <rotatable>false</rotatable>
+       <altitudeLayer>Item</altitudeLayer>
+      <resourceReadoutPriority>Middle</resourceReadoutPriority>
+      <drawGUIOverlay>true</drawGUIOverlay>
+      <healthAffectsPrice>false</healthAffectsPrice>
+      <stackLimit>75</stackLimit>
+      <alwaysHaulable>true</alwaysHaulable>
+      <socialPropernessMatters>true</socialPropernessMatters>
+      <tradeability>Sellable</tradeability>
+      <pathCost>14</pathCost>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <Beauty>-6</Beauty>
+      <DeteriorationRate>6</DeteriorationRate>
+      <Mass>0.03</Mass>
+      <Flammability>0.5</Flammability>
+      <Nutrition>0.05</Nutrition>
+      <FoodPoisonChanceFixedHuman>0.02</FoodPoisonChanceFixedHuman>
+      <MarketValue>0.5</MarketValue>
+    </statBases>
+		<tickerType>Rare</tickerType>
+		<ingestible>
+		<foodType>Meat</foodType>
+      <preferability>RawBad</preferability>
+      <ingestEffect>EatMeat</ingestEffect>
+      <ingestSound>RawMeat_Eat</ingestSound>
+      <specialThoughtAsIngredient>RadFood</specialThoughtAsIngredient>
+	  <foodType>Meat</foodType>
+	  <tasteThought>RadFood</tasteThought>
+	  <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>0</daysToRotStart>
+				<rotDestroys>false</rotDestroys>
+			</li>
+		</comps>
+	<thingCategories>
+      <li>MeatRaw</li>
+    </thingCategories>
+		<tradeability>None</tradeability>
+	</ThingDef>
 </Defs>

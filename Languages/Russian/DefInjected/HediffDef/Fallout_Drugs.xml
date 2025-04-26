@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <JetHigh.label>кайф от Винта</JetHigh.label>
-<JetHigh.description>Активный Винт в кровотоке. Создает легкий эйфорический эффект.</JetHigh.description>
-<JetHigh.labelNoun>кайф от Винта</JetHigh.labelNoun>
+  <JetHigh.label>кайф от Винта</JetHigh.label>
+  <JetHigh.description>Активный Винт в кровотоке. Создает легкий эйфорический эффект.</JetHigh.description>
+  <JetHigh.labelNoun>кайф от Винта</JetHigh.labelNoun>
 
-<JetTolerance.label>Толерантность к Винту</JetTolerance.label>
-<JetTolerance.description>Повышенная толерантность к Винту. Чем сильнее эта толерантность, тем больше требуется психотропных препаратов, чтобы получить тот же эффект.</JetTolerance.description>
+  <JetTolerance.label>Толерантность к Винту</JetTolerance.label>
+  <JetTolerance.description>Повышенная толерантность к Винту. Чем сильнее эта толерантность, тем больше требуется психотропных препаратов, чтобы получить тот же эффект.</JetTolerance.description>
 
-<JetAddiction.label>Зависимость от Винта</JetAddiction.label>
-<JetAddiction.description>Химическая зависимость от Винта. Длительное присутствие психоактивных веществ вызвало неврологическую адаптацию на клеточном уровне, поэтому мозг больше не может нормально функционировать без этого наркотика.
+  <JetAddiction.label>Зависимость от Винта</JetAddiction.label>
+  <JetAddiction.description>Химическая зависимость от Винта. Длительное присутствие психоактивных веществ вызвало неврологическую адаптацию на клеточном уровне, поэтому мозг больше не может нормально функционировать без этого наркотика.
 \nБез регулярных доз Винта начнутся симптомы отмены. Однако длительное воздержание заставит мозг адаптироваться обратно к своему нормальному состоянию, устраняя зависимость.</JetAddiction.description>
-<JetAddiction.stages.1.label>абстиненция</JetAddiction.stages.1.label>
+  <JetAddiction.stages.1.label>абстиненция</JetAddiction.stages.1.label>
 
 
 </LanguageData>

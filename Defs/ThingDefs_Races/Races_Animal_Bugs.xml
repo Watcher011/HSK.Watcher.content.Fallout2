@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Radroach</defName>
+		<label>Radroach</label>
+		<description>Radroach - a true symbol of post-war cuisine! This charming giant cockroach, generously seasoned with radiation, is no longer just a bug under the refrigerator, but a full-fledged meat substitute for thrifty survivalists. It runs faster than a pre-war politician, reproduces faster than the bureaucracy of the NCR and, unlike you hope, will never die.Try frying it - you will get a crispy delicacy with a piquant aftertaste of strontium-90! And if you are lucky, you will find a spare battery or a piece of glass in its chitinous shell - after all, this is not just an insect, it is a surprise-surprise!"*(Note in the margin: "If it seems to you that there are more of them after you killed the first one, you are not imagining it. They call friends. They always call friends.").</description>
+		<statBases>
+			<Mass>1</Mass>
+			<MoveSpeed>3.5</MoveSpeed>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<ComfyTemperatureMin>-30</ComfyTemperatureMin>
+			<ComfyTemperatureMax>50</ComfyTemperatureMax>
+			<MarketValue>300</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>1</MeatAmount>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.3</MeleeDodgeChance>
+			<MeleeCritChance>0.3</MeleeCritChance>
+			<SmokeSensitivity>0.5</SmokeSensitivity>
+			<GermResistance>0.5</GermResistance>
+			<GermContainment>0.02</GermContainment>
+			<FilthRate>3</FilthRate>
+			<ToxicResistance>1</ToxicResistance>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>mouth</label>
+				<capacities>
+					<li>PlagueBite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>1</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<comps>
+			<li Class="SK.CompProperties_ShearableRenameable">
+				<compClass>SK.CompShearableRenameable</compClass>
+				<growthLabel>Chitin</growthLabel>
+				<woolDef>Chitin</woolDef>
+				<shearIntervalDays>5</shearIntervalDays>
+				<woolAmount>7</woolAmount>
+			</li>
+			 <li Class="Flashlight.CompProperties_GlowingPawn">
+                <lightRange>1</lightRange>
+                <lightColorString>(154.205.50.1)</lightColorString>
+            </li>
+		</comps>
+		<butcherProducts>
+			<Chitin>1</Chitin>
+			<RadHemogenPack>1</RadHemogenPack>
+			<RadMeat>3</RadMeat>
+		</butcherProducts>
+		<race>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<executionRange>40</executionRange>
+			<body>BeetleLike</body>
+			<baseHungerRate>0.7</baseHungerRate>
+			<baseBodySize>1.0</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<foodType>OmnivoreHuman</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<petness>0</petness>
+			<wildness>0.85</wildness>
+			<manhunterOnTameFailChance>0.6</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<lifeExpectancy>6</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.15</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+			<li Class="SK.DestroyCorpseExtension"/>
+			<li Class="SK.DevourerAnimalExtension">
+				<things>
+					<li>weapon</li>
+					<li>apparel</li>
+					<li>corpse</li>
+					<li>food</li>
+				</things>
+			</li>
+			<li Class="Flashlight.DefModExtension_Glow">
+             <canGlow>true</canGlow>
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+
+   <PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Radroach</defName>
+		<label>Radroach</label>
+		<race>Radroach</race>
+		<combatPower>25</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.03</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachF</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachFDessicated</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachF</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachFDessicated</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachF</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cockroach/CockroachFDessicated</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

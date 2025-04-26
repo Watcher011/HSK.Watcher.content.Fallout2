@@ -1,0 +1,23 @@
+﻿<Patch>
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/pollutionWildAnimals</xpath>
+		<value>
+		<Radroach>0.07</Radroach>
+		<Gecko_green>0.07</Gecko_green>
+		<Gecko_fire>0.07</Gecko_fire>
+		<Gecko_gold>0.07</Gecko_gold>
+		</value>
+	</Operation>
+
+
+<Operation Class="PatchOperationAdd">
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildAnimals</xpath>
+		<value>
+		<Radroach>0.07</Radroach>
+		<Gecko_green>0.07</Gecko_green>
+		<Gecko_fire>0.07</Gecko_fire>
+		<Gecko_gold>0.07</Gecko_gold>
+		</value>
+	</Operation>
+</Patch>

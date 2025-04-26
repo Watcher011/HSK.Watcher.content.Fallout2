@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Radroach.label>Радтаракан</Radroach.label>
+  <Radroach.labelPlural>Радтараканы</Radroach.labelPlural>
+  <Radroach.lifeStages.0.label>Radroach</Radroach.lifeStages.0.label>
+  <Radroach.lifeStages.0.labelPlural>Радтаракан</Radroach.lifeStages.0.labelPlural>
+  <Radroach.lifeStages.0.labelMale>самец Радтаракана</Radroach.lifeStages.0.labelMale>
+  <Radroach.lifeStages.0.labelMalePlural>самцы Радтараканов</Radroach.lifeStages.0.labelMalePlural>
+  <Radroach.lifeStages.0.labelFemale>самка Радтаракана</Radroach.lifeStages.0.labelFemale>
+  <Radroach.lifeStages.0.labelFemalePlural>самки Радтараканов</Radroach.lifeStages.0.labelFemalePlural>
+  <Radroach.lifeStages.1.label>Радтаракан</Radroach.lifeStages.1.label>
+  <Radroach.lifeStages.1.labelPlural>Радтараканы</Radroach.lifeStages.1.labelPlural>
+  <Radroach.lifeStages.1.labelMale>самец Радтаракана</Radroach.lifeStages.1.labelMale>
+  <Radroach.lifeStages.1.labelMalePlural>самцы Радтараканов</Radroach.lifeStages.1.labelMalePlural>
+  <Radroach.lifeStages.1.labelFemale>самка Радтаракана</Radroach.lifeStages.1.labelFemale>
+  <Radroach.lifeStages.1.labelFemalePlural>самки Радтараканов</Radroach.lifeStages.1.labelFemalePlural>
+  <Radroach.lifeStages.2.label>Радтаракан</Radroach.lifeStages.2.label>
+  <Radroach.lifeStages.2.labelPlural>Радтараканы</Radroach.lifeStages.2.labelPlural>
+  <Radroach.lifeStages.2.labelMale>самец Радтаракана</Radroach.lifeStages.2.labelMale>
+  <Radroach.lifeStages.2.labelMalePlural>самцы Радтараканов</Radroach.lifeStages.2.labelMalePlural>
+  <Radroach.lifeStages.2.labelFemale>самка Радтаракана</Radroach.lifeStages.2.labelFemale>
+  <Radroach.lifeStages.2.labelFemalePlural>самки Радтараканов</Radroach.lifeStages.2.labelFemalePlural>
+  <Radroach.labelMale>самец Радтаракана</Radroach.labelMale>
+  <Radroach.labelMalePlural>самцы Радтараканов</Radroach.labelMalePlural>
+  <Radroach.labelFemale>самка Радтаракана</Radroach.labelFemale>
+  <Radroach.labelFemalePlural>самки Радтараканов</Radroach.labelFemalePlural>
+
+
+</LanguageData>

@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Fallout_Weapon_Ripper.label>Потрошитель</Fallout_Weapon_Ripper.label>
-<Fallout_Weapon_Ripper.description>Потрошитель — довольно хорошее оружие ближнего боя, уступающее по эффективности только суперкувалде. Благодаря повышенной бронебойной способности, «выковырять» противника Потрошителем не составит труда даже в улучшенной силовой броне. Идеально подходит для боя в закрытых помещениях и коридорах.</Fallout_Weapon_Ripper.description>
-<Fallout_Weapon_Ripper.tools.0.label>Зубы</Fallout_Weapon_Ripper.tools.0.label>
-<Fallout_Weapon_Ripper.tools.1.label>Клинок</Fallout_Weapon_Ripper.tools.1.label>
+  <Fallout_Weapon_Ripper.label>Потрошитель</Fallout_Weapon_Ripper.label>
+  <Fallout_Weapon_Ripper.description>Потрошитель — довольно хорошее оружие ближнего боя, уступающее по эффективности только суперкувалде. Благодаря повышенной бронебойной способности, «выковырять» противника Потрошителем не составит труда даже в улучшенной силовой броне. Идеально подходит для боя в закрытых помещениях и коридорах.</Fallout_Weapon_Ripper.description>
+  <Fallout_Weapon_Ripper.tools.0.label>Зубы</Fallout_Weapon_Ripper.tools.0.label>
+  <Fallout_Weapon_Ripper.tools.1.label>Клинок</Fallout_Weapon_Ripper.tools.1.label>
 
-<Fallout_Weapon_Shishkebab.label>Шишкебаб</Fallout_Weapon_Shishkebab.label>
-<Fallout_Weapon_Shishkebab.description>Этот меч — не просто оружие, это кулинарный эксперимент в руках психопата! Однажды какой-то сумасшедший повар-рейдер решил, что лучший способ приготовить мясо — на месте. Теперь его наследие живет в ваших руках, и каждый удар — это шаг к гастрономическому апокалипсису.</Fallout_Weapon_Shishkebab.description>
-<Fallout_Weapon_Shishkebab.tools.0.label>рукоятка</Fallout_Weapon_Shishkebab.tools.0.label>
-<Fallout_Weapon_Shishkebab.tools.1.label>острие</Fallout_Weapon_Shishkebab.tools.1.label>
-<Fallout_Weapon_Shishkebab.tools.2.label>кончик</Fallout_Weapon_Shishkebab.tools.2.label>
+  <Fallout_Weapon_Shishkebab.label>Шишкебаб</Fallout_Weapon_Shishkebab.label>
+  <Fallout_Weapon_Shishkebab.description>Этот меч — не просто оружие, это кулинарный эксперимент в руках психопата! Однажды какой-то сумасшедший повар-рейдер решил, что лучший способ приготовить мясо — на месте. Теперь его наследие живет в ваших руках, и каждый удар — это шаг к гастрономическому апокалипсису.</Fallout_Weapon_Shishkebab.description>
+  <Fallout_Weapon_Shishkebab.tools.0.label>рукоятка</Fallout_Weapon_Shishkebab.tools.0.label>
+  <Fallout_Weapon_Shishkebab.tools.1.label>острие</Fallout_Weapon_Shishkebab.tools.1.label>
+  <Fallout_Weapon_Shishkebab.tools.2.label>кончик</Fallout_Weapon_Shishkebab.tools.2.label>
 
 
 </LanguageData>

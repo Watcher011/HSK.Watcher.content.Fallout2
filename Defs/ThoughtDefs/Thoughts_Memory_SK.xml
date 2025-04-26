@@ -43,4 +43,43 @@
 	</ThoughtDef>
 	<!-- =========== Medical Drink ===============-->
 
+	<ThoughtDef>
+    <defName>IngestedRadHemogenPack</defName>
+    <thoughtClass>Thought_Memory</thoughtClass>
+    <durationDays>5</durationDays>
+    <stackLimit>5</stackLimit>
+    <nullifyingTraits>
+      <li>Cannibal</li>
+    </nullifyingTraits>
+    <nullifyingGenes>
+      <li>Hemogenic</li>
+    </nullifyingGenes>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Acceptable</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_Preferred</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredStrong</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Cannibalism_RequiredRavenous</li>
+    </nullifyingPrecepts>
+    <stages>
+      <li>
+        <label>Swallowed radioactive blood</label>
+        <description>I swallowed a bag of radioactive blood. It may prolong my life, but the cost could be enormous, and it was absolutely disgusting.</description>
+        <baseMoodEffect>-8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+  
+  <ThoughtDef>
+    <defName>RadFood</defName>
+    <showBubble>true</showBubble>
+    <icon>Things/Mote/ThoughtSymbol/Food</icon>
+    <durationDays>1</durationDays>
+    <stages>
+      <li>
+        <label>ate wasteland, food</label>
+        <description>If I eat it and not the other way around, then I won.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
 </Defs>

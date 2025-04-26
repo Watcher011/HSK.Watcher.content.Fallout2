@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <DeathIonization.label>смертельная ионизация</DeathIonization.label>
-<DeathIonization.description>Нестабильное состояние.</DeathIonization.description>
-<DeathIonization.labelNoun>смертельная ионизация</DeathIonization.labelNoun>
+  <DeathIonization.label>смертельная ионизация</DeathIonization.label>
+  <DeathIonization.description>Нестабильное состояние.</DeathIonization.description>
+  <DeathIonization.labelNoun>смертельная ионизация</DeathIonization.labelNoun>
 
 
 </LanguageData>

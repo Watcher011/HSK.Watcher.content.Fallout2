@@ -2,13 +2,23 @@
 <LanguageData>
 
   <!-- HARDCORE SK: THOUGHTS -->
-<HadNukaCola.stages.0.label>Выпил Ядер-Колу</HadNukaCola.stages.0.label>
-<HadNukaCola.stages.0.description>Эта Кола была такой полезной! Теперь я чувствую себя хорошо.</HadNukaCola.stages.0.description>
 
-<HadColaDark.stages.0.label>Выпил Тёмную Ядер-Колу</HadColaDark.stages.0.label>
-<HadColaDark.stages.0.description>Эта Кола была такой полезной! Я абсолютно уверен, что смогу победить смерть в рукопашном бою.</HadColaDark.stages.0.description>
+  <HadNukaCola.stages.0.label>Выпил Ядер-Колу</HadNukaCola.stages.0.label>
+  <HadNukaCola.stages.0.description>Эта Кола была такой полезной! Теперь я чувствую себя хорошо.</HadNukaCola.stages.0.description>
 
-<HadColaQuantum.stages.0.label>Выпил Квантовую Ядер-Колу</HadColaQuantum.stages.0.label>
-<HadColaQuantum.stages.0.description>Эта кола была такой полезной! Вкус — как взрыв миниатюрной сверхновой, смесь цитрусового безумия и сладкой радиации. Твои вкусовые рецепторы кричат ​​либо от восторга, либо от боли.</HadColaQuantum.stages.0.description>
+  <HadColaDark.stages.0.label>Выпил Тёмную Ядер-Колу</HadColaDark.stages.0.label>
+  <HadColaDark.stages.0.description>Эта Кола была такой полезной! Я абсолютно уверен, что смогу победить смерть в рукопашном бою.</HadColaDark.stages.0.description>
+
+  <HadColaQuantum.stages.0.label>Выпил Квантовую Ядер-Колу</HadColaQuantum.stages.0.label>
+  <HadColaQuantum.stages.0.description>Эта кола была такой полезной! Вкус — как взрыв миниатюрной сверхновой, смесь цитрусового безумия и сладкой радиации. Твои вкусовые рецепторы кричат ​​либо от восторга, либо от боли.</HadColaQuantum.stages.0.description>
+
+
+  <!-- Medical Drink -->
+
+ <IngestedRadHemogenPack.stages.0.label>Проглотил радиоактивную кровь</IngestedRadHemogenPack.stages.0.label>
+<IngestedRadHemogenPack.stages.0.description>Я проглотил пакет радиоактивной крови. Это может продлить мою жизнь, но цена может быть огромной, и это было совершенно отвратительно.</IngestedRadHemogenPack.stages.0.description>
+
+<RadFood.stages.0.label>съел еду из пустоши</RadFood.stages.0.label>
+<RadFood.stages.0.description>Если я съем ее,и не умер, то я победил.</RadFood.stages.0.description>
 
 </LanguageData>
