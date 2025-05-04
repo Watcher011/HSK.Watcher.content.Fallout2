@@ -5,5 +5,13 @@
   <DeathIonization.description>Нестабильное состояние.</DeathIonization.description>
   <DeathIonization.labelNoun>смертельная ионизация</DeathIonization.labelNoun>
 
+  <FEV.label>Вирус Рукотворной Эволюции</FEV.label>
+<FEV.description>Эх, Вирус Рукотворной Эволюции. У него такая долгая и неаппетитная история. Вирус в этой пробирке так отличается от того, каким первоначально был задуман. Но сейчас это неважно. Важно то, что этот вирус ликвидирует все мутации.</FEV.description>
+
+<Ghoul.label>Гуль</Ghoul.label>
+<Ghoul.description>Гуль.</Ghoul.description>
+
+<Charge.label>Ионизация</Charge.label>
+<Charge.description>Атомы в нестабильном состоянии</Charge.description>
 
 </LanguageData>

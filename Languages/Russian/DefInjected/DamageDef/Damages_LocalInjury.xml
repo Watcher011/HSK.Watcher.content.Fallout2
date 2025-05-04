@@ -13,5 +13,11 @@
   <NuclearB.label>бомба</NuclearB.label>
   <NuclearB.deathMessage>{0} был убит.</NuclearB.deathMessage>
 
+  <Charge.label>Ионизация</Charge.label>
+<Charge.deathMessage>{0} убит.</Charge.deathMessage>
+
+<PlasmaCharge.label>Плазменный заряд</PlasmaCharge.label>
+<PlasmaCharge.deathMessage>{0} убит.</PlasmaCharge.deathMessage>
+
 
 </LanguageData>

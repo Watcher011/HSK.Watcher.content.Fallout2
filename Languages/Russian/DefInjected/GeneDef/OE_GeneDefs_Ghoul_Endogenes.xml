@@ -4,10 +4,10 @@
   <!-- TortleHead -->
 
   <OE_GhoulHead.label>Голова гуля</OE_GhoulHead.label>
-<OE_GhoulHead.description>У носителей этого гена голова гуля.</OE_GhoulHead.description>
+  <OE_GhoulHead.description>У носителей этого гена голова гуля.</OE_GhoulHead.description>
 
-<RADImmunity.label>Устойчивость к радиации</RADImmunity.label>
-<RADImmunity.description>Защита от радиации</RADImmunity.description>
+  <RADImmunity.label>Устойчивость к радиации</RADImmunity.label>
+  <RADImmunity.description>Защита от радиации</RADImmunity.description>
 
 
 </LanguageData>

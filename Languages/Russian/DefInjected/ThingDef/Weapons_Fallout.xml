@@ -49,5 +49,29 @@
   <Fallout_PepperShaker.description>Перечнице требуется одна секунда, чтобы раскрутиться, прежде чем она автоматически выстрелит восемью дробовиками. Она считается и дробовиком, и тяжелым оружием и получит выгоду от любого перка в любом классе оружия.</Fallout_PepperShaker.description>
   <Fallout_PepperShaker.tools.0.label>ствол</Fallout_PepperShaker.tools.0.label>
 
+  <Fallout_GatlingLaser.label>Лазер Гатлинга "Солнечный вихрь"</Fallout_GatlingLaser.label>
+<Fallout_GatlingLaser.description>Создан для тех, кто считает, что "чрезмерная огневая мощь" - это оксюморон, лазер Гатлинга "Солнечный вихрь" превращает ваших врагов в аккуратные кучки пепла с 1999 года!"</Fallout_GatlingLaser.description>
+<Fallout_GatlingLaser.tools.0.label>ствол</Fallout_GatlingLaser.tools.0.label>
+
+<Fallout_LaserPistolML.label>AER-9 "Солнечный поцелуй"</Fallout_LaserPistolML.label>
+<Fallout_LaserPistolML.description>Разработан компанией General Atomics International в рамках программы "Защита Америка... от себя самой" AER-9 должен был стать оружием будущего - легким, точным и смертоносным. Но, как и все остальное в этом мире, будущее пришло кривым, косым и с перебоями в подаче электроэнергии. После Великой войны эти пистолеты были широко распространены среди выживших, мутантов и других любителей "точечной" дипломатии..</Fallout_LaserPistolML.description>
+<Fallout_LaserPistolML.tools.0.label>ствол</Fallout_LaserPistolML.tools.0.label>
+
+<Fallout_LaserPistol.label>Лазерный пистолет"Синтез - МК IV"</Fallout_LaserPistol.label>
+<Fallout_LaserPistol.description>Syntectics Institute™ - Мы не просто создаем технологии. Мы создаем будущее… которое может пережить вас.</Fallout_LaserPistol.description>
+<Fallout_LaserPistol.tools.0.label>ствол</Fallout_LaserPistol.tools.0.label>
+
+<Fallout_LaserCarbineML.label>AER-12 "Лазерный шепот"</Fallout_LaserCarbineML.label>
+<Fallout_LaserCarbineML.description>"Когда нужно аккуратно испарить врага, а не просто размазать его по стенке".</Fallout_LaserCarbineML.description>
+<Fallout_LaserCarbineML.tools.0.label>ствол</Fallout_LaserCarbineML.tools.0.label>
+
+<Fallout_AlienPistol.label>Инопланетный Пистолет</Fallout_AlienPistol.label>
+<Fallout_AlienPistol.description>Найденный среди обломков разбившегося НЛО где-то между радиоактивными песками и нервным срывом очередного выжившего, этот пистолет является либо крупным технологическим прорывом, либо смертельной игрушкой от инопланетян, которых явно не волновали «меры предосторожности». Стильный, эргономичный и совсем не похожий на то, чем должно владеть существо с менее чем тремя пальцами, Zeta-9 стреляет зарядами чистой плазмы, которые испаряют врагов с изяществом, достойным межгалактического суда. За исключением случаев, когда он решает, что вы враг.</Fallout_AlienPistol.description>
+<Fallout_AlienPistol.tools.0.label>ствол</Fallout_AlienPistol.tools.0.label>
+
+<Fallout_EuclidsCFinder.label>Алгоритм Евклида</Fallout_EuclidsCFinder.label>
+<Fallout_EuclidsCFinder.description>"Алгоритм Евклида — это компактный спутниковый целеуказатель, позволяющий наносить высокоточные орбитальные удары в любую точку в пределах досягаемости. Просто найдите луч, отойдите на безопасное расстояние (предпочтительно очень далеко) и наслаждайтесь зрелищем чистого, математически точного применения!"</Fallout_EuclidsCFinder.description>
+<Fallout_EuclidsCFinder.tools.0.label>бочка</Fallout_EuclidsCFinder.tools.0.label>
+
 
 </LanguageData>

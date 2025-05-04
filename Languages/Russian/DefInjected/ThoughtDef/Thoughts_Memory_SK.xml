@@ -21,5 +21,8 @@
   <RadFood.stages.0.label>съел еду из пустоши</RadFood.stages.0.label>
   <RadFood.stages.0.description>Если я съем ее,и не умер, то я победил.</RadFood.stages.0.description>
 
+  <FEV.stages.0.label>съел FEV</FEV.stages.0.label>
+<FEV.stages.0.description>Если я съем, это будет последний шаг.</FEV.stages.0.description>
+
 
 </LanguageData>

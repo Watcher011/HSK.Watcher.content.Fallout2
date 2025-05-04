@@ -26,5 +26,10 @@
   <Med-x.ingestible.ingestCommandString>Ввести {0}</Med-x.ingestible.ingestCommandString>
   <Med-x.ingestible.ingestReportString>Ввести {0}.</Med-x.ingestible.ingestReportString>
 
+  <MysteriousSerum.label>Таинственная сыворотка</MysteriousSerum.label>
+<MysteriousSerum.description>Эта сыворотка способна остановить процесс старения, возможны побочные эффекты</MysteriousSerum.description>
+<MysteriousSerum.ingestible.ingestCommandString>Ввести {0}</MysteriousSerum.ingestible.ingestCommandString>
+<MysteriousSerum.ingestible.ingestReportString>Ввести {0}.</MysteriousSerum.ingestible.ingestReportString>
+
 
 </LanguageData>

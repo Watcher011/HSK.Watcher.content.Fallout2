@@ -70,7 +70,7 @@
     <ThingDef ParentName="SK_ApparelBase">
 		<defName>Apparel_VaultT60PowerArmor</defName>
 		<label>T-60 power armor</label>
-		<description>An advanced suit of armor powered by uranium. It is usually used by assault troops from advanced glitterworld planets.</description>
+		<description>Developed in a hurry when it became clear that "good old T-51s were too expensive for our glorious post-war economy," the T-60 became the embodiment of the principle of "cheap, cheerful, and... well, at least it works."</description>
 		<graphicData>
 			<texPath>Things/Apparel/Vault/T60/T60</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -162,7 +162,7 @@
 	<ThingDef ParentName="SK_ApparelBase">
 		<defName>Apparel_VaultT60ArmorHelmet</defName>
 		<label>T-60 power Helmet</label>
-		<description>The helmet part of power armor set. It is mostly used by heavy infantry.</description>
+		<description>*"Well, here's another 'lucky one' in this metal bucket! The T-60 helmet is the pinnacle of engineering, if, of course, you consider something heavy, stuffy and with a constant smell of burnt-out electronics to be the pinnacle. But what a view! You are a walking target, but a stylish one. The built-in HUD (if it still works) will kindly remind you that the armor is about to fall apart, and the filters are long overdue for replacement (if, of course, you find them in this mess called the post-war world).Special bonus: your neighbors in the Wasteland will immediately understand that you are either a big shot of the Brotherhood of Steel (and therefore, you have something to steal), or a looter who found the corpse of a big shot (and therefore, you still have something to steal). In any case, congratulations, now you will be punched in the face more often!P.S. Do not try to chew in a helmet. Seriously. You don't want to know what stew smells like after three days inside a closed helmet."**(Characteristics: +100% to pathos, +50% to visibility, -30% to olfactory receptors, 10% chance that you will be mistaken for a trash can and they will try to throw something at you.)*</description>
 		<graphicData>
 			<texPath>Things/Apparel/Vault/T60/T60Helmet</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

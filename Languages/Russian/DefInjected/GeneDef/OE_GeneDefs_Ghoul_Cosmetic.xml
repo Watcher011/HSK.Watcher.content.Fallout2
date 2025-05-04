@@ -4,22 +4,29 @@
   <!-- Skin - GhoulDarkGreen -->
 
   <OE_Skin_GhoulDarkGreen.label>Болезненно бледная кожа гуля</OE_Skin_GhoulDarkGreen.label>
-<OE_Skin_GhoulDarkGreen.description>Кожа гуля, который много видел.</OE_Skin_GhoulDarkGreen.description>
+  <OE_Skin_GhoulDarkGreen.description>Кожа гуля, который много видел.</OE_Skin_GhoulDarkGreen.description>
 
-<!-- Кожа - GhoulLightGreen -->
 
-<OE_Skin_GhoulLightGreen.label>Болезненно светло-зеленая кожа гуля</OE_Skin_GhoulLightGreen.label>
-<OE_Skin_GhoulLightGreen.description>Кожа гуля, который много видел.</OE_Skin_GhoulLightGreen.description>
+  <!-- Skin - GhoulLightGreen -->
 
-<!-- Кожа - TurtleDarkBrown -->
+  <OE_Skin_GhoulLightGreen.label>Болезненно светло-зеленая кожа гуля</OE_Skin_GhoulLightGreen.label>
+  <OE_Skin_GhoulLightGreen.description>Кожа гуля, который много видел.</OE_Skin_GhoulLightGreen.description>
 
-<OE_Skin_GhoulDarkBrown.label>Болезненно-коричневая кожа гуля</OE_Skin_GhoulDarkBrown.label>
-<OE_Skin_GhoulDarkBrown.description>Шкура гуля, который много видел.</OE_Skin_GhoulDarkBrown.description>
 
-<!-- Кожа - TurtleLightBrown -->
+  <!-- Skin - TurtleDarkBrown -->
 
-<OE_Skin_GhoulLightBrown.label>Болезненно-коричневая кожа гуля</OE_Skin_GhoulLightBrown.label>
-<OE_Skin_GhoulLightBrown.description>Шкура гуля, который много видел.</OE_Skin_GhoulLightBrown.description>
+  <OE_Skin_GhoulDarkBrown.label>Болезненно-коричневая кожа гуля</OE_Skin_GhoulDarkBrown.label>
+  <OE_Skin_GhoulDarkBrown.description>Шкура гуля, который много видел.</OE_Skin_GhoulDarkBrown.description>
 
+
+  <!-- Skin - TurtleLightBrown -->
+
+  <OE_Skin_GhoulLightBrown.label>Болезненно-коричневая кожа гуля</OE_Skin_GhoulLightBrown.label>
+  <OE_Skin_GhoulLightBrown.description>Шкура гуля, который много видел.</OE_Skin_GhoulLightBrown.description>
+
+
+  <!-- Кожа - GhoulLightGreen -->
+  <!-- Кожа - TurtleDarkBrown -->
+  <!-- Кожа - TurtleLightBrown -->
 
 </LanguageData>

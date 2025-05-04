@@ -46,7 +46,7 @@
 	  <drawSize>(0.5)</drawSize>
     </graphicData>
     <costList>
-      <Weapon_Grenade_Bottlecap>1</Weapon_Grenade_Bottlecap>
+      <Ammo_PlasmaBolt>1</Ammo_PlasmaBolt>
 	  <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <designationHotKey>Misc7</designationHotKey>

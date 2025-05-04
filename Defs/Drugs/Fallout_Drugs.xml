@@ -499,4 +499,67 @@
 			</li>
 	</comps>
   </ThingDef>
+  
+  
+    <ThingDef ParentName="FalloutDrugBase">
+    <defName>MysteriousSerum</defName>
+        <label>Mysterious Serum</label>
+        <description>This serum is able to stop the aging process, side effects are possible</description>
+    <descriptionHyperlinks>
+      <HediffDef>StimpakBasic</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+      <texPath>Things/Item/Special/MysteriousSerum</texPath>
+       <graphicClass>Graphic_Single</graphicClass>
+       <drawSize>0.55</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>53</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.40</joy>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestHoldOffsetStanding>
+        <northDefault>
+          <offset>(0.18,0,0)</offset>
+        </northDefault>
+      </ingestHoldOffsetStanding>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+     <outcomeDoers>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+		<hediffDef>StimpakBasic</hediffDef>
+		<severity>0.1</severity>
+		</li>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+		<hediffDef>Ghoul</hediffDef>
+		<severity>1.0</severity>
+		</li>
+	 </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Neutroamine>2</Neutroamine>
+      <MedicineIndustrial>1</MedicineIndustrial>
+	   <NukaColaQuantum>1</NukaColaQuantum>
+	    <RadHemogenPack>1</RadHemogenPack>
+    </costList>
+   <comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>2.00~3.00</overdoseSeverityOffset>
+			</li>
+	</comps>
+  </ThingDef>
+  
 </Defs>
