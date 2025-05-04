@@ -676,7 +676,7 @@
             <li>TierTwoAdvanced</li>
 			<li>CE_AI_Suppressive</li>
             <li>Microgun</li>
-			<li>Minigun</li>
+			<li>FalloutMinigunPlasma</li>
         </weaponTags>
         <tradeTags>
             <li>Exotic</li>
@@ -823,7 +823,7 @@
 		</statBases>
 		<weaponTags>
 	            <li>Gun</li>
-			    <li>VaultecGun</li>
+			    <li>VaultecGunH</li>
 		</weaponTags>
 		<weaponClasses>
 			 <li>RangedLight</li>
@@ -869,4 +869,435 @@
 			<li>Specialranged</li>
 		</thingCategories>
 	</ThingDef>
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_GatlingLaser</defName>
+        <label>Gatling Laser "Solar Vortex"</label>
+        <description>Designed for those who think "excessive firepower" is an oxymoron, the Solar Vortex Gatling Laser has been reducing your enemies to neat piles of ash since 1999!"</description>
+        <graphicData>
+            <texPath>Things/Weapons/GatlingLaser</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <soundInteract>InteractPTUR</soundInteract>
+        <weaponTags>
+            <li>MG3</li>
+            <li>AdvancedGun</li>
+			<li>GunHeavy</li>
+            <li>TierTwoAdvanced</li>
+			<li>CE_AI_Suppressive</li>
+            <li>Microgun</li>
+			<li>FalloutMinigunPlasma</li>
+			<li>VaultecGunH</li>
+        </weaponTags>
+        <tradeTags>
+            <li>Exotic</li>
+        </tradeTags>
+        <thingCategories>
+            <li>MachineGun</li>
+        </thingCategories>
+        <statBases>
+            <MarketValue>3100</MarketValue>
+            <SightsEfficiency>1</SightsEfficiency>
+            <ShotSpread>0.11</ShotSpread>
+            <SwayFactor>0.7</SwayFactor>
+            <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+            <Bulk>21</Bulk>
+            <Mass>22</Mass>
+        </statBases>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilAmount>1.6</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>1.5</warmupTime>
+                <range>50</range>
+                <targetParams>
+                    <canTargetLocations>true</canTargetLocations>
+                </targetParams>
+                <burstShotCount>30</burstShotCount>
+                <ticksBetweenBurstShots>2</ticksBetweenBurstShots>
+                <soundCast>Shot_Minigun</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>30</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>200</magazineSize>
+                <reloadTime>10</reloadTime>
+                <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Heavy_Component>1</Heavy_Component>
+            <Weapon_Parts>12</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+    </ThingDef>
+	
+	
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_LaserPistolML</defName>
+        <label>AER-9 "Sun Kiss"</label>
+        <description>Developed by General Atomics International as part of the "Protect America... from Itself" program, the AER-9 was supposed to be the weapon of the future - light, accurate, and deadly.But like everything else in this world, the future arrived crooked, askew, and with power outages. After the Great War, these pistols were widely distributed among survivors, mutants, and other lovers of "pinpoint" diplomacy..</description>
+        <graphicData>
+            <texPath>Things/Weapons/LaserPistolML</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2600</MarketValue>
+            <SightsEfficiency>1.15</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>ADP2</li>
+            <li>AdvancedGun</li>
+            <li>TierTwoLow</li>
+            <li>Futuristic</li>
+		  <li>CE_Sidearm</li>
+		  <li>CE_AI_Pistol</li>
+		  <li>CE_OneHandedWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>0.45</warmupTime>
+                <range>48</range>
+                <soundCast>Fire_UACPistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>12</magazineSize>
+                <reloadTime>1.80</reloadTime>
+                <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_LaserPistol</defName>
+        <label>Laser pistol"Synthesis-MK IV"</label>
+        <description>Syntectics Institute™ – We don’t just create technology. We create the future… one that may outlive you.</description>
+        <graphicData>
+            <texPath>Things/Weapons/LaserPistol</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>2400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>ADP2</li>
+            <li>AdvancedGun</li>
+            <li>TierTwoLow</li>
+            <li>Futuristic</li>
+		  <li>CE_Sidearm</li>
+		  <li>CE_AI_Pistol</li>
+		  <li>CE_OneHandedWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>0.40</warmupTime>
+                <range>47</range>
+                <soundCast>Fire_UACPistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>18</magazineSize>
+                <reloadTime>1.80</reloadTime>
+                <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_LaserCarbineML</defName>
+        <label>AER-12 "Laser Whisper"</label>
+        <description>"When you need to carefully evaporate the enemy, and not just smear him on the wall."</description>
+        <graphicData>
+            <texPath>Things/Weapons/LaserCarbineML</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+        <soundInteract>InteractPrecision</soundInteract>
+        <weaponTags>
+            <li>ADR1</li>
+            <li>AdvancedGun</li>
+			<li>SpacerGun</li>
+            <li>TierTwoLow</li>
+            <li>Futuristic</li>
+            <li>CE_AI_Rifle</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <statBases>
+            <MarketValue>3200</MarketValue>
+            <SightsEfficiency>1.4</SightsEfficiency>
+            <ShotSpread>0.03</ShotSpread>
+            <SwayFactor>1.0</SwayFactor>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <Bulk>11.10</Bulk>
+            <Mass>3.65</Mass>
+			<NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
+        </statBases>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.01</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Laserbeam</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>65</range>
+                <ticksBetweenBurstShots>35</ticksBetweenBurstShots>
+                <burstShotCount>5</burstShotCount>
+                <soundCast>ShotLaser</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>30</magazineSize>
+                <reloadTime>3.20</reloadTime>
+                <ammoSet>AmmoSet_ChargedLaser</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+            <Weapon_Parts>8</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_AlienPistol</defName>
+        <label>Alien Energy Pistol</label>
+        <description>Found in the wreckage of a crashed UFO somewhere between the radioactive sands and yet another survivor's nervous breakdown, this gun is either a major technological breakthrough or a deadly toy from aliens who clearly didn't care about "safety precautions." Stylish, ergonomic, and not at all like something a creature with less than three fingers should wield, the Zeta-9 fires bolts of pure plasma that vaporize enemies with a grace worthy of an intergalactic court. Except sometimes it decides you're the enemy.</description>
+        <graphicData>
+            <texPath>Things/Weapons/AlienPlasma</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>12400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>HiddenWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
+                <warmupTime>0.40</warmupTime>
+                <range>47</range>
+                <soundCast>Fire_UACPistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>50</magazineSize>
+                <reloadTime>1.80</reloadTime>
+                <ammoSet>AmmoSet_6x24mmCharged</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_EuclidsCFinder</defName>
+        <label>Euclid's C-Finder</label>
+        <description>"The Euclidean Algorithm is a compact satellite targeter that allows for a high-precision orbital strike to be made anywhere within range. Simply locate the beam, stand back to a safe distance (preferably very far), and enjoy the spectacle of pure, mathematically accurate application!"</description>
+        <graphicData>
+            <texPath>Things/Weapons/EuclidsCFinder</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+		    <MaxHitPoints>2</MaxHitPoints>
+            <MarketValue>12400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>HiddenWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+	<verbs>
+      <li>
+        <verbClass>Verb_Spawn</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3</warmupTime>
+        <ai_AvoidFriendlyFireRadius>10</ai_AvoidFriendlyFireRadius>
+        <spawnDef>Tornado</spawnDef>
+        <colonyWideTaleDef>TornadoFromItem</colonyWideTaleDef>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundAiming>OrbitalTargeter_Aiming</soundAiming>
+        <soundCast>OrbitalTargeter_Fire</soundCast>
+        <onlyManualCast>true</onlyManualCast>
+        <useableInPocketMaps>false</useableInPocketMaps>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+		<comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>Bombardment_Helios</abilityDef>
+        <maxCharges>1</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>burner charge</chargeNoun>
+        <ammoDef>NuclearBattery</ammoDef>
+        <ammoCountPerCharge>1</ammoCountPerCharge>
+        <baseReloadTicks>60000</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    </ThingDef>
 </Defs>

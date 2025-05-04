@@ -39,6 +39,7 @@
 		<label>Vault-Tec defense</label>
 		<description>A Vault-Tec defense.</description>
 		<defNames>
+			<li>Fallout_laser_Turret</li>
 			<li>Fallout_Turret_Turret</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>

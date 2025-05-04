@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Industrial world -->
+<ShelterRepairman58.title>Ремонтник убежища</ShelterRepairman58.title>
+<ShelterRepairman58.titleShort>Ремонтник</ShelterRepairman58.titleShort>
+<ShelterRepairman58.description>[PAWN_nameDef] выполнял черную, неквалифицированную работу в убежище. Работа [PAWN_possessive] также требовала присмотра за брахманами, которые перевозили товары.</ShelterRepairman58.description>
+
+<ShelterPsychiatricPatient94.title>Псих из убежища</ShelterPsychiatricPatient94.title>
+<ShelterPsychiatricPatient94.titleShort>Псих</ShelterPsychiatricPatient94.titleShort>
+<ShelterPsychiatricPatient94.description>[PAWN_nameDef] провел большую часть своей [PAWN_possessive] взрослой жизни в убежища. Медик убежища [PAWN_possessive] мало что понимал в психических заболеваниях, а с [PAWN_pronoun] обращались скорее как с животным, чем как с человеком.\n\nХотя [PAWN_pronoun] в конечном итоге был изгнан, опыт [PAWN_possessive] ослабил многие основные жизненные навыки [PAWN_possessive].</ShelterPsychiatricPatient94.description>
+
+<ShelterComputer83.title>человек-компьютер</ShelterComputer83.title>
+<ShelterComputer83.titleShort>компьютер</ShelterComputer83.titleShort>
+<ShelterComputer83.description>[PAWN_nameDef] оказался обладателем превосходной памяти и способностью выполнять сложные вычисления в уме [PAWN_possessive]. Смотритель убежища решил нанять [PAWN_nameDef] для контроля финансов и расходов убежища [PAWN_possessive].</ShelterComputer83.description>
+
+<ShelterSheriff52.title>Шериф убежища</ShelterSheriff52.title>
+<ShelterSheriff52.titleShort>шериф</ShelterSheriff52.titleShort>
+<ShelterSheriff52.description>[PAWN_nameDef] был блюстителем порядка в убежище. [PAWN_pronoun] занимался мелкими преступлениями, разрешением споров и случайными пьяными перестрелками в столовой.</ShelterSheriff52.description>
+
+<EntrepreneurFromShelter14.title>Предприниматель из убежища</EntrepreneurFromShelter14.title>
+<EntrepreneurFromShelter14.titleShort>предприниматель</EntrepreneurFromShelter14.titleShort>
+<EntrepreneurFromShelter14.description>Ресурсы мира — самая важная проблема. Но кто-то должен управлять караванами.\n\n[PAWN_nameDef] овладел навыками торговли — взяточничеством и техническим анализом. [PAWN_pronoun] — социально-интеллектуальная машина.</EntrepreneurFromShelter14.description>
+
+</LanguageData>

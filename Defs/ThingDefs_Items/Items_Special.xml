@@ -232,4 +232,144 @@
     </thingCategories>
 		<tradeability>None</tradeability>
 	</ThingDef>
+	
+	
+	<ThingDef ParentName="ResourceBase">
+		<defName>MisterHandyKit</defName>
+		<label>Mr.Handy Kit</label>
+        <thingClass>ThingWithComps</thingClass>
+        <description>Mr.Handy Kit and Instructions</description>
+		<graphicData>
+			<texPath>Things/Item/MisterHandy</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>2375</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>110.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>VaulTec</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Assemble Mr. Handy</useLabel>
+				<useDuration>600</useDuration>
+			</li>
+			<li Class="Androids.CompProperties_SpawnPawn">
+				<compClass>Androids.CompUseEffect_SpawnDroid</compClass>
+				<pawnKind>MisterHandyColonist</pawnKind>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf" />
+		</comps>
+	</ThingDef>
+	
+	
+	
+	
+	
+<ThingDef>
+    <defName>FEVPack</defName>
+    <label>Strange pack</label>
+    <description>"Behold a revolutionary product of American science! The Forced Evolutionary Virus (F.E.V.) is not just a pathogen, it is a ticket to a bright (and very green) future! Designed to create supersoldiers capable of surviving a nuclear war (and perhaps even reading the instructions), F.E.V. has undergone rigorous testing... on those who could not refuse."</description>
+    <category>Item</category>
+    <thingClass>ThingWithComps</thingClass>
+    <drawerType>MapMeshOnly</drawerType>
+    <useHitPoints>true</useHitPoints>
+    <healthAffectsPrice>false</healthAffectsPrice>
+    <selectable>true</selectable>
+    <stackLimit>10</stackLimit>
+    <tickerType>Rare</tickerType>
+    <possessionCount>5</possessionCount>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <alwaysHaulable>true</alwaysHaulable>
+    <pathCost>14</pathCost>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <graphicData>
+      <texPath>Things/Item/Resource/Fev</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <DeteriorationRate>5</DeteriorationRate>
+      <Mass>0.50</Mass>
+      <Flammability>0.7</Flammability>
+      <Nutrition>0.1</Nutrition>
+      <Beauty>0</Beauty>
+      <MarketValue>5</MarketValue>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <foodType>Fluid</foodType>
+      <preferability>DesperateOnly</preferability>
+      <canAutoSelectAsFoodForCaravan>false</canAutoSelectAsFoodForCaravan>
+       <tasteThought>FEV</tasteThought>
+      <ingestSound>HemogenPack_Consume</ingestSound>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_OffsetHemogen">
+          <offset>0.4</offset>
+        </li>
+		<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>FEV</hediffDef>
+					<severity>1.0</severity>
+		</li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(0,10,243)</glowColor>
+			</li>
+    </comps>
+  </ThingDef>
+	
+	
+	<!--
+    <ThingDef ParentName="EtherealThingBase">
+        <defName>Warp</defName>
+        <label>warp</label>
+        <thingClass>ThingWithComps</thingClass>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <drawOffscreen>true</drawOffscreen>
+        <category>PsychicEmitter</category>
+        <altitudeLayer>MoteOverheadLow</altitudeLayer>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>EBSG/Circle</texPath>
+            <shaderType>MoteGlowDistorted</shaderType>
+            <color>(0, 255, 0)</color>
+            <drawSize>10</drawSize>
+            <shaderParameters>
+                <_DistortionTex>/Other/Ripples</_DistortionTex>
+                <_distortionIntensity>0.05</_distortionIntensity>
+                <_DistortionScale>0.7</_DistortionScale>
+                <_distortionScrollSpeed>(0.07, 0.07, 0.0)</_distortionScrollSpeed>
+            </shaderParameters>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(5, 105, 5,0)</glowColor>
+            </li>
+            <li Class="CompProperties_DestroyAfterDelay">
+                <delayTicks>30</delayTicks>
+            </li>
+        </comps>
+    </ThingDef>
+	-->
 </Defs>

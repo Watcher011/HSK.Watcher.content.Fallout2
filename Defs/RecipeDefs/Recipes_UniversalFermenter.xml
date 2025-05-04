@@ -259,6 +259,39 @@
 	
 	
 	
+     <RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>Make_Vaultjumpsuit</defName>
+		<label>Make a Vault jumpsuit x1</label>
+		<description>Vault jumpsuit x1.</description>
+		<jobString>Creates a Vault jumpsuit.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Synthread</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Plastic</li>
+				<li>Synthread</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Apparello_Vaultjumpsuit>1</Apparello_Vaultjumpsuit>
+		</products>
+	</RecipeDef>
 	
 	    <!-- RecipeDef_Nuka-Cola -->
 	<RecipeDef Name="Make_NukaColaBase" Abstract="True">

@@ -9,7 +9,6 @@
     <graphicData>
       <texPath>Things/Item/Meal/SuspiciousOmelette</texPath>
      <graphicClass>Graphic_Single</graphicClass>
-	 <drawSize>0.6</drawSize>
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
@@ -43,7 +42,6 @@
     <graphicData>
       <texPath>Things/Item/Meal/boiledeggs</texPath>
      <graphicClass>Graphic_Single</graphicClass>
-	 <drawSize>0.4</drawSize>
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
@@ -78,7 +76,6 @@
     <graphicData>
       <texPath>Things/Item/Meal/friedeggs</texPath>
      <graphicClass>Graphic_Single</graphicClass>
-	 <drawSize>0.6</drawSize>
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
@@ -112,7 +109,6 @@
     <graphicData>
       <texPath>Things/Item/Meal/Raweggsinaglass</texPath>
      <graphicClass>Graphic_Single</graphicClass>
-	 <drawSize>0.4</drawSize>
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
@@ -146,7 +142,6 @@
     <graphicData>
     <texPath>Things/Item/Meal/Scramble</texPath>
 	<graphicClass>Graphic_StackCount</graphicClass>
-	 <drawSize>0.4</drawSize>
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>
@@ -175,7 +170,6 @@
     <graphicData>
     <texPath>Things/Item/Meal/porridge</texPath>
 	<graphicClass>Graphic_StackCount</graphicClass>
-	 <drawSize>0.4</drawSize>
     </graphicData>
     <statBases>
       <DeteriorationRate>0.25</DeteriorationRate>

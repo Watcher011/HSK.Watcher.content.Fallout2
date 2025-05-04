@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<!--
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/HediffDef[defName = "FatalRad"]/comps</xpath>
+		<value>
+			  <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
+                <xenotypes>
+                    <Ghoul>1</Ghoul>
+                </xenotypes>
+                <severities>1~999</severities>
+                <setXenotype>True</setXenotype>
+            </li>
+		</value>
+    </Operation>
+  -->
+   
+  
+</Patch>

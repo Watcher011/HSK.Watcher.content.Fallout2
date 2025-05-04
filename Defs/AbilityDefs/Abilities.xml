@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <AbilityDef>
+        <defName>Bombardment_Helios</defName>
+        <label>bombardment (Helios)</label>
+        <verbProperties>
+            <verbClass>Verb_CastAbility</verbClass>
+            <range>55</range>
+            <warmupTime>0.5</warmupTime>
+            <requireLineOfSight>True</requireLineOfSight>
+            <targetParams>
+                <canTargetLocations>true</canTargetLocations>
+                <canTargetSelf>false</canTargetSelf>
+                <canTargetPawns>true</canTargetPawns>
+                <canTargetBuildings>true</canTargetBuildings>
+                <canTargetPlants>true</canTargetPlants>
+              </targetParams>
+        </verbProperties>
+        <comps>
+            <li Class="EBSGFramework.CompProperties_OrbitalStrike">
+                 <centerMarker>EBSG_OrbitalCenter_Red</centerMarker>
+				 <damageDef>Charge</damageDef>
+                <damageAmount>1</damageAmount>
+                <fireChance>1</fireChance>
+                <explosionRadius>4~8</explosionRadius>
+            </li>
+        </comps>
+        <description>.</description>
+        <iconPath>Things/Mote/SpeechSymbols/NK</iconPath>
+        <cooldownTicksRange>60000</cooldownTicksRange>
+    </AbilityDef>
+
+</Defs>

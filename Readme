@@ -12,17 +12,27 @@ Plasma Wraith
 Plasma Gatling "Molten Storm"
 Carbine"AER-14"
 Pepper Shaker
+Gatling Laser "Solar Vortex"
+AER-9 "Sun Kiss"
+Laser pistol"Synthesis-MK IV"
+AER-12 "Laser Whisper"
+Alien Energy Pistol
+Euclid's C-Finder
 -*-
 Мины
 IED Lid Mine
+IED plasma Mine
 -*-
 Турель
 Automated Turret
+Automated laser turret
 -*-
 разное
 Bottle Cap
 Nuclear Battery
 Gecko egg (fert.)
+Mr.Handy Kit
+Strange pack(F.E.V.)
 -*-
 плоды растений 
 raw Mutfruit
@@ -47,11 +57,13 @@ FatManShell
 генератор
 Vault-Tec VX-12 generator
 -*-
-верстаки
+верстаки/постройки
 Production Workbench
 Printer VT-X7"SHELTER MAKER"
 ColaBasin
 Campfire wastelands
+VaultLamp
+CommsConsole
 -*-
 напитки
 Nuka-Cola
@@ -84,3 +96,15 @@ fried eggs
 Raw eggs in a glass
 Mashed Potatoes
 Porridge
+-*-
+Ксенотип
+OE_Ghoul
+-*-
+Фракция
+Vaultec
+
+-*-
+одежда
+Vault jumpsuit
+T-60 power armor
+T-60 power Helmet

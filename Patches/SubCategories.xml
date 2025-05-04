@@ -1,18 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<Patch>
-
-
-	       
-			 
+<Patch> 
 		     <Operation Class="PatchOperationAdd">
 				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Traps"]/defNames</xpath>
 				<value>
 				<li>TrapIED_LidMineExplosive</li>
+				<li>TrapIED_PlasmaMineExplosive</li>
 				</value>
 			 </Operation>
 	
-			
+			 <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Lamps"]/defNames</xpath>
+				<value>
+				<li>VaultLamp</li>
+				</value>
+			 </Operation>
+	
+	
+	        <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Stove"]/defNames</xpath>
+				<value>
+				<li>Campfirewastelands</li>
+				</value>
+			 </Operation>
+			 
 	
 </Patch>
 

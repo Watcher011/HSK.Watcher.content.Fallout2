@@ -15,10 +15,11 @@
 
   <!-- Medical Drink -->
 
- <IngestedRadHemogenPack.stages.0.label>Проглотил радиоактивную кровь</IngestedRadHemogenPack.stages.0.label>
-<IngestedRadHemogenPack.stages.0.description>Я проглотил пакет радиоактивной крови. Это может продлить мою жизнь, но цена может быть огромной, и это было совершенно отвратительно.</IngestedRadHemogenPack.stages.0.description>
+  <IngestedRadHemogenPack.stages.0.label>Проглотил радиоактивную кровь</IngestedRadHemogenPack.stages.0.label>
+  <IngestedRadHemogenPack.stages.0.description>Я проглотил пакет радиоактивной крови. Это может продлить мою жизнь, но цена может быть огромной, и это было совершенно отвратительно.</IngestedRadHemogenPack.stages.0.description>
 
-<RadFood.stages.0.label>съел еду из пустоши</RadFood.stages.0.label>
-<RadFood.stages.0.description>Если я съем ее,и не умер, то я победил.</RadFood.stages.0.description>
+  <RadFood.stages.0.label>съел еду из пустоши</RadFood.stages.0.label>
+  <RadFood.stages.0.description>Если я съем ее,и не умер, то я победил.</RadFood.stages.0.description>
+
 
 </LanguageData>

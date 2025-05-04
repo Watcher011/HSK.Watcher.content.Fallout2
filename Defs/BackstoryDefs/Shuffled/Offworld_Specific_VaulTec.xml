@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--============================== Industrial world ============================-->
+
+  <BackstoryDef>
+    <defName>ShelterRepairman58</defName>
+    <title>Shelter Repairman</title>
+    <titleShort>Repairman</titleShort>
+    <description>[PAWN_nameDef] performed menial, unskilled labor in the shelter. [PAWN_possessive]'s job also required tending to the brahmen that transported goods.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Intellectual</li>
+      <li>Artistic</li>
+      <li>Cooking</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>ManualDumb</li>
+      <li>ManualSkilled</li>
+      <li>Animals</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Animals>3</Animals>
+      <Construction>3</Construction>
+      <Crafting>2</Crafting>
+    </skillGains>
+    <spawnCategories>
+      <li>Shelter</li>
+    </spawnCategories>
+    <bodyTypeMale>Hulk</bodyTypeMale>
+    <bodyTypeFemale>Hulk</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ShelterPsychiatricPatient94</defName>
+    <title>Psycho from Shelter</title>
+    <titleShort>Psycho</titleShort>
+    <description>[PAWN_nameDef] spent most of his [PAWN_possessive] adult life in the vault. [PAWN_possessive]'s vault medic had little understanding of mental illness, and [PAWN_pronoun] was treated more like an animal than a human.\n\nAlthough [PAWN_pronoun] was eventually exiled, [PAWN_possessive]'s experience left many of [PAWN_possessive]'s basic life skills weakened.</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Social</li>
+      <li>Caring</li>
+      <li>Violent</li>
+    </workDisables>
+    <skillGains>
+      <Cooking>-2</Cooking>
+      <Crafting>-2</Crafting>
+    </skillGains>
+   <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ShelterComputer83</defName>
+    <title>human computer</title>
+    <titleShort>computer</titleShort>
+    <description>[PAWN_nameDef] proved to have an excellent memory and the ability to perform complex calculations in his head [PAWN_possessive]. The vault overseer decided to hire [PAWN_nameDef] to monitor the vault's finances and expenses [PAWN_possessive].</description>
+    <slot>Adulthood</slot>
+    <workDisables>
+      <li>Artistic</li>
+    </workDisables>
+    <requiredWorkTags>
+      <li>Intellectual</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>3</Shooting>
+      <Intellectual>7</Intellectual>
+    </skillGains>
+    <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+    <bodyTypeMale>Thin</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+  <BackstoryDef>
+    <defName>ShelterSheriff52</defName>
+    <title>Shelter sheriff</title>
+    <titleShort>sheriff</titleShort>
+    <description>[PAWN_nameDef] was the vault's peace officer. [PAWN_pronoun] handled petty crime, dispute resolution, and the occasional drunken shootout in the mess hall.</description>
+    <slot>Adulthood</slot>
+    <requiredWorkTags>
+      <li>Violent</li>
+    </requiredWorkTags>
+    <skillGains>
+      <Shooting>4</Shooting>
+      <Melee>4</Melee>
+      <Social>4</Social>
+    </skillGains>
+    <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+    <bodyTypeMale>Fat</bodyTypeMale>
+    <bodyTypeFemale>Fat</bodyTypeFemale>
+    <possessions>
+      <Apparel_Duster>1</Apparel_Duster>
+    </possessions>
+  </BackstoryDef>
+
+ 
+
+  <BackstoryDef>
+    <defName>EntrepreneurFromShelter14</defName>
+    <title>Entrepreneur from Shelter</title>
+    <titleShort>entrepreneur</titleShort>
+    <description>The world's resources are the most important concern. But someone has to manage the caravans.\n\n[PAWN_nameDef] has mastered the skills of trade - bribery and technical analysis. [PAWN_pronoun] is a socio-intellectual machine.</description>
+    <slot>Adulthood</slot>
+    <skillGains>
+      <Social>6</Social>
+      <Intellectual>3</Intellectual>
+    </skillGains>
+     <spawnCategories>
+      <li>Shelter</li>
+   </spawnCategories>
+    <requiredWorkTags>
+      <li>Social</li>
+    </requiredWorkTags>
+    <bodyTypeMale>Male</bodyTypeMale>
+    <bodyTypeFemale>Thin</bodyTypeFemale>
+  </BackstoryDef>
+
+
+</Defs>

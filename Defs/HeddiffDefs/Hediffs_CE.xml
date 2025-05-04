@@ -29,4 +29,75 @@
 		</comps>
 	</HediffDef>
    
+   
+   
+   <HediffDef>
+        <defName>FEV</defName>
+        <label>FEV</label>
+        <description>FEV.</description>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>0.001</initialSeverity>
+        <stages />
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
+                <xenotypes>
+                    <Supermutant>1</Supermutant>
+                </xenotypes>
+                <severities>1~999</severities>
+                <setXenotype>True</setXenotype>
+            </li>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>1</severityPerDay>
+            </li>
+        </comps>
+    </HediffDef>
+	
+	
+   <HediffDef>
+        <defName>Ghoul</defName>
+        <label>Ghoul</label>
+        <description>Ghoul.</description>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>0.001</initialSeverity>
+        <stages />
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
+                <xenotypes>
+                    <Ghoul>1</Ghoul>
+                </xenotypes>
+                <severities>1~999</severities>
+                <setXenotype>True</setXenotype>
+            </li>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>1</severityPerDay>
+            </li>
+        </comps>
+    </HediffDef>
+	
+	
+	
+	<HediffDef>
+        <defName>Charge</defName>
+        <label>Charge</label>
+        <description>Atoms in an unstable state</description>
+        <everCurableByItem>false</everCurableByItem>
+        <initialSeverity>0.001</initialSeverity>
+        <stages />
+        <hediffClass>HediffWithComps</hediffClass>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <comps>
+            <li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath">
+                <thingSpawn>Ash</thingSpawn>
+            </li>
+			<li Class="HediffCompProperties_Disappears">
+				 <disappearsAfterTicks>45000~50000</disappearsAfterTicks>
+				<showRemainingTime>true</showRemainingTime>
+			</li>
+        </comps>
+		
+    </HediffDef>
 </Defs>
