@@ -2,10 +2,10 @@
 <LanguageData>
 
   <EnclaveOfficer.label>Офицер Анклава</EnclaveOfficer.label>
-<EnclaveOfficer.labelPlural>Офицеры Анклава</EnclaveOfficer.labelPlural>
+  <EnclaveOfficer.labelPlural>Офицеры Анклава</EnclaveOfficer.labelPlural>
 
-<EnclaveInvestigator.label>Следователь Анклава</EnclaveInvestigator.label>
-<EnclaveInvestigator.labelPlural>Следователи Анклава</EnclaveInvestigator.labelPlural>
+  <EnclaveInvestigator.label>Следователь Анклава</EnclaveInvestigator.label>
+  <EnclaveInvestigator.labelPlural>Следователи Анклава</EnclaveInvestigator.labelPlural>
 
 
 </LanguageData>

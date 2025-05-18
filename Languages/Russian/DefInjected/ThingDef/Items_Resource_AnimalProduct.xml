@@ -5,6 +5,11 @@
 
   <EggGeckoFertilized.label>Яйцо геккона (оплодотворенное)</EggGeckoFertilized.label>
   <EggGeckoFertilized.description>Оплодотворенное яйцо геккона. Если все пойдет хорошо, из него должен вылупиться детеныш геккона. Его можно есть сырым, но гораздо лучше готовить.</EggGeckoFertilized.description>
+<EggDeathclawUnfertilized.label>Яйцо Когтя Смерти (неоплодотворённое)</EggDeathclawUnfertilized.label>
+<EggDeathclawUnfertilized.description>Неоплодотворённое яйцо Когтя Смерти.</EggDeathclawUnfertilized.description>
+
+<EggDeathclawFertilized.label>Яйцо Когтя Смерти (оплодотворённое)</EggDeathclawFertilized.label>
+<EggDeathclawFertilized.description>Оплодотворённое яйцо Когтя Смерти. Если всё пойдёт хорошо, из него вылупится детёныш. Можно съесть сырым, но приготовленное гораздо вкуснее.</EggDeathclawFertilized.description>
 
 
 </LanguageData>

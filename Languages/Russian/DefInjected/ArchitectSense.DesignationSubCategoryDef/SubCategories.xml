@@ -12,5 +12,8 @@
   <SubCategory_VaultecWeapon.label>Оборона Волт-Тек</SubCategory_VaultecWeapon.label>
   <SubCategory_VaultecWeapon.description>Волт-Тек защита.</SubCategory_VaultecWeapon.description>
 
+  <SubCategory_VaultecFood.label>Vault-Tec Food</SubCategory_VaultecFood.label>
+  <SubCategory_VaultecFood.description>Vault-Tec Food.</SubCategory_VaultecFood.description>
+
 
 </LanguageData>
