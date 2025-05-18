@@ -78,5 +78,30 @@
   <Gecko_gold.labelFemale>самка Золотго геккона</Gecko_gold.labelFemale>
   <Gecko_gold.labelFemalePlural>самки Золотых гекконов</Gecko_gold.labelFemalePlural>
 
+ <Cyberdog.label>Киберсобака</Cyberdog.label>
+<Cyberdog.labelPlural>Киберсобаки</Cyberdog.labelPlural>
+<Cyberdog.lifeStages.0.label>Щенок киберсобаки</Cyberdog.lifeStages.0.label>
+<Cyberdog.lifeStages.0.labelPlural>Щенки киберсобаки</Cyberdog.lifeStages.0.labelPlural>
+<Cyberdog.lifeStages.0.labelMale>Щенок киберсобаки</Cyberdog.lifeStages.0.labelMale>
+<Cyberdog.lifeStages.0.labelMalePlural>Щенки киберсобаки</Cyberdog.lifeStages.0.labelMalePlural>
+<Cyberdog.lifeStages.0.labelFemale>щенок Киберсобаки</Cyberdog.lifeStages.0.labelFemale>
+<Cyberdog.lifeStages.0.labelFemalePlural>щенки Киберсобаки</Cyberdog.lifeStages.0.labelFemalePlural>
+<Cyberdog.lifeStages.1.label>Киберсобаки</Cyberdog.lifeStages.1.label>
+<Cyberdog.lifeStages.1.labelPlural>Киберсобаки</Cyberdog.lifeStages.1.labelPlural>
+<Cyberdog.lifeStages.1.labelMale>самки Киберсобаки</Cyberdog.lifeStages.1.labelMale>
+<Cyberdog.lifeStages.1.labelMalePlural>самки Киберсобаки</Cyberdog.lifeStages.1.labelMalePlural>
+<Cyberdog.lifeStages.1.labelFemale>самка Киберсобака</Cyberdog.lifeStages.1.labelFemale>
+<Cyberdog.lifeStages.1.labelFemalePlural>самка Киберсобаки</Cyberdog.lifeStages.1.labelFemalePlural>
+<Cyberdog.lifeStages.2.label>Киберсобака</Cyberdog.lifeStages.2.label>
+<Cyberdog.lifeStages.2.labelPlural>Киберсобака</Cyberdog.lifeStages.2.labelPlural>
+<Cyberdog.lifeStages.2.labelMale>самец Киберсобака</Cyberdog.lifeStages.2.labelMale>
+<Cyberdog.lifeStages.2.labelMalePlural>самец Киберсобаки</Cyberdog.lifeStages.2.labelMalePlural>
+<Cyberdog.lifeStages.2.labelFemale>самка Киберсобака</Cyberdog.lifeStages.2.labelFemale>
+<Cyberdog.lifeStages.2.labelFemalePlural>самки Киберсобаки</Cyberdog.lifeStages.2.labelFemalePlural>
+<Cyberdog.labelMale>самец Киберсобаки</Cyberdog.labelMale>
+<Cyberdog.labelMalePlural>мужчины Киберсобаки</Cyberdog.labelMalePlural>
+<Cyberdog.labelFemale>самка Киберсобака</Cyberdog.labelFemale>
+<Cyberdog.labelFemalePlural>самки Киберсобаки</Cyberdog.labelFemalePlural>
+
 
 </LanguageData>

@@ -46,4 +46,16 @@
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
 
+
+<ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecFood</defName>
+		<label>Vault-Tec Food</label>
+		<description>Vault-Tec Food.</description>
+		<defNames>
+			<li>ColaBasin</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+
 </Defs>

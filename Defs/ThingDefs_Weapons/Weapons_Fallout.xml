@@ -13,6 +13,9 @@
 		<weaponTags>
 		    <li>VaultecGun</li>
 		</weaponTags>
+		 <tradeTags>
+            <li>Vaultec</li>
+        </tradeTags>
 		 <thingCategories>
             <li>FuturisticVaultec</li>
         </thingCategories>
@@ -378,7 +381,7 @@
         </statBases>
         <generateCommonality>0.7</generateCommonality>
         <weaponTags>
-            <li>Launchers</li>
+            <li>VaultecLaunchers</li>
         </weaponTags>
         <tradeTags>
             <li>ExoticVaultecLaunchers</li>
@@ -1154,8 +1157,8 @@
 		</thingSetMakerTags>
     </ThingDef>
 	
-	
-	<ThingDef ParentName="BaseGun_Fallout">
+	<!--
+	<ThingDef>
         <defName>Fallout_AlienPistol</defName>
         <label>Alien Energy Pistol</label>
         <description>Found in the wreckage of a crashed UFO somewhere between the radioactive sands and yet another survivor's nervous breakdown, this gun is either a major technological breakthrough or a deadly toy from aliens who clearly didn't care about "safety precautions." Stylish, ergonomic, and not at all like something a creature with less than three fingers should wield, the Zeta-9 fires bolts of pure plasma that vaporize enemies with a grace worthy of an intergalactic court. Except sometimes it decides you're the enemy.</description>
@@ -1219,7 +1222,7 @@
     </ThingDef>
 	
 	
-	<ThingDef ParentName="BaseGun_Fallout">
+	<ThingDef>
         <defName>Fallout_EuclidsCFinder</defName>
         <label>Euclid's C-Finder</label>
         <description>"The Euclidean Algorithm is a compact satellite targeter that allows for a high-precision orbital strike to be made anywhere within range. Simply locate the beam, stand back to a safe distance (preferably very far), and enjoy the spectacle of pure, mathematically accurate application!"</description>
@@ -1299,5 +1302,5 @@
         <minQualityForArtistic>Excellent</minQualityForArtistic>
       </li>
     </comps>
-    </ThingDef>
+    </ThingDef>-->
 </Defs>

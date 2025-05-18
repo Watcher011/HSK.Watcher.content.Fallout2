@@ -161,9 +161,9 @@
           <Elephant>2</Elephant>
         </carriers>
         <guards>
-                   <VaultecScout>30</VaultecScout>
-					<VaultecRanger>24</VaultecRanger>
-					<VaultecOfficer>20</VaultecOfficer>
+          <VaultecScout>3</VaultecScout>
+		  <VaultecRanger>4</VaultecRanger>
+		   <Cyberdog>2</Cyberdog>
         </guards>
       </li>
 	  

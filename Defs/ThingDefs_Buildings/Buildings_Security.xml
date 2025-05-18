@@ -13,6 +13,9 @@
       <Weapon_Grenade_Bottlecap>1</Weapon_Grenade_Bottlecap>
 	  <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
+	<tradeTags>
+			<li>Vaultec</li>
+	</tradeTags>
     <designationHotKey>Misc7</designationHotKey>
     <comps>
       <li Class="CompProperties_Explosive">
@@ -50,6 +53,9 @@
 	  <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <designationHotKey>Misc7</designationHotKey>
+	<tradeTags>
+			<li>Vaultec</li>
+	</tradeTags>
     <comps>
       <li Class="CompProperties_Explosive">
         <explosiveRadius>3.9</explosiveRadius>
@@ -133,7 +139,7 @@
 			<Weapon_Parts>10</Weapon_Parts>
 			<ChunkSlagSteel>2</ChunkSlagSteel>
 			<ComponentIndustrial>5</ComponentIndustrial>
-			<Hexcell>1</Hexcell>
+			<NuclearBattery>1</NuclearBattery>
 		</costList>
 		<specialDisplayRadius>3</specialDisplayRadius>
 		<designationCategory>Security</designationCategory>
@@ -144,7 +150,7 @@
 		</building>
 		<designationHotKey>Misc1</designationHotKey>
 		<tradeTags>
-			<li>CE_Turret</li>
+			<li>Vaultec</li>
 		</tradeTags>
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
@@ -273,7 +279,7 @@
 			<Fallout_LaserCarbineML>1</Fallout_LaserCarbineML>
 			<ChunkSlagSteel>2</ChunkSlagSteel>
 			<ComponentIndustrial>5</ComponentIndustrial>
-			<Hexcell>1</Hexcell>
+			<NuclearBattery>1</NuclearBattery>
 		</costList>
 		<specialDisplayRadius>3</specialDisplayRadius>
 		<designationCategory>Security</designationCategory>
@@ -284,7 +290,7 @@
 		</building>
 		<designationHotKey>Misc1</designationHotKey>
 		<tradeTags>
-			<li>CE_Turret</li>
+			<li>Vaultec</li>
 		</tradeTags>
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>

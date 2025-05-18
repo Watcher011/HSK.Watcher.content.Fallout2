@@ -67,6 +67,9 @@
 		</thingCategories>
 	</ThingDef>
 
+	
+
+
     <ThingDef ParentName="SK_ApparelBase">
 		<defName>Apparel_VaultT60PowerArmor</defName>
 		<label>T-60 power armor</label>
@@ -81,7 +84,7 @@
 			<Compaste>30</Compaste>
 			<SyntheticFibers>15</SyntheticFibers>
 			<MagneticMaterial>8</MagneticMaterial>
-			<Hexcell>15</Hexcell>
+			<NuclearBattery>1</NuclearBattery>
 		</costList>
 		<comps>
 		<li Class="CompProperties_Biocodable"/>
@@ -173,7 +176,7 @@
 			<Compaste>25</Compaste>
 			<SyntheticFibers>10</SyntheticFibers>
 			<MagneticMaterial>3</MagneticMaterial>
-			<Hexcell>6</Hexcell>
+			<NuclearBattery>1</NuclearBattery>
 		</costList>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>
@@ -250,4 +253,470 @@
 			</li>
 		</modExtensions>
 	</ThingDef>
+	
+	
+ <ThingDef ParentName="SK_ApparelBase">
+		<defName>Apparel_VaultX01PowerArmor</defName>
+		<label>X-01 power armor</label>
+		<description>Designed by the finest minds of pre-war America (who then fled to the vaults, abandoning everyone else to their fate), this armor is the embodiment of unstoppable might, unwavering ideology, and a complete disregard for common sense. Now you too can feel like an invincible Enclave soldier… until you realize that all your allies are either fanatics or corpses.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/X01/X01</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>		
+		<costList>
+			<Carbon>75</Carbon>
+			<Compaste>50</Compaste>
+			<SyntheticFibers>35</SyntheticFibers>
+			<MagneticMaterial>8</MagneticMaterial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<comps>
+		<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>2.5</EnergyShieldEnergyMax>
+			<MaxHitPoints>245</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<Mass>7</Mass>
+			<Bulk>60</Bulk>
+			<WornBulk>20</WornBulk>
+			<EquipDelay>15</EquipDelay>
+			<Insulation_Heat>25</Insulation_Heat>
+			<Insulation_Cold>25</Insulation_Cold>			
+			<StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>7.37</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>15.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>35.59</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.216</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryWeight>50</CarryWeight>
+			<CarryBulk>45</CarryBulk>
+			<MoveSpeed>1.1</MoveSpeed>
+			<WorkSpeedGlobal>-0.17</WorkSpeedGlobal>
+			<MentalBreakThreshold>-0.28</MentalBreakThreshold>
+			<PsychicSensitivity>-0.12</PsychicSensitivity>
+			<ShootingAccuracyPawn>-0.25</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.2</AimingDelayFactor>
+			<MeleeHitChance>-0.26</MeleeHitChance>
+			<MeleeWeapon_CooldownMultiplier>0.21</MeleeWeapon_CooldownMultiplier>
+			<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+			<Suppressability>-0.24</Suppressability>
+			<ArmorRating_Toxin>0.75</ArmorRating_Toxin>
+			<Radiation>-0.75</Radiation>
+			<GermResistance>0.09</GermResistance>
+			<GermContainment>0.09</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/X01/X01</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>VaultX01A</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<soundWear>Wear_PowerArmor</soundWear>
+			<soundRemove>Remove_PowerArmor</soundRemove>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>HeavyFullArmorCat</li>
+			<li>Setpowerarmor</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="SK_ApparelBase">
+		<defName>Apparel_VaultX01ArmorHelmet</defName>
+		<label>X-01 power Helmet</label>
+		<description>Forget the old world and its pathetic ideals. This helmet is more than just protection for your head, it's a symbol of your devotion to the Great Cause of the Enclave. Yes, it's uncomfortable, yes, the ventilation here is more theory than practice, and yes, it makes you look like a tin can with a complex of being the chosen one. But would a true patriot complain?The built-in voice module automatically replaces the words 'doubt', 'compassion' and 'humanity' with 'betrayal', 'weakness' and 'radiation chaos'. The 'Brainwash Mode' function is enabled by default - just inhale the government-approved fumes of lead and patriotism!Remember: if it becomes stuffy inside the spacesuit - it is not a lack of ventilation, it is your spirit burning too brightly for this rotten world. Glory to the Enclave!"(P.S. Long-term use may cause side effects: delusions of grandeur, hallucinations of a 'pure nation', and an overwhelming desire to shoot farmers in the name of democracy. The Enclave is not responsible for your war crimes. Well, it is, but we don't care.)</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/X01/X01Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<costList>
+			<Carbon>15</Carbon>
+			<Compaste>25</Compaste>
+			<SyntheticFibers>10</SyntheticFibers>
+			<MagneticMaterial>3</MagneticMaterial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.9</EnergyShieldEnergyMax>
+			<MaxHitPoints>64</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<Mass>2.1</Mass>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+			<EquipDelay>2.6</EquipDelay>
+			<Insulation_Heat>7</Insulation_Heat>
+			<Insulation_Cold>7</Insulation_Cold>
+			<StuffEffectMultiplierInsulation_Cold>0.45</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.45</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>9.75</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>16.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>40.094</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.095</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.08</MoveSpeed>
+			<WorkSpeedGlobal>-0.02</WorkSpeedGlobal>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+			<Suppressability>-0.12</Suppressability>
+			<ArmorRating_Toxin>0.2</ArmorRating_Toxin>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+			<SmokeSensitivity>-1</SmokeSensitivity>
+			<Radiation>-0.3</Radiation>
+			<GermResistance>0.70</GermResistance>
+			<GermContainment>0.80</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/X01/X01Helmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>VaultX01H</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<parentTagDef>ApparelHead</parentTagDef>
+		</apparel>	
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<comps>
+		<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<thingCategories>
+			<li>HeavyHelmetsCat</li>
+			<li>Setpowerarmor</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingSpacerHelmet</hediff>
+			</li>
+			<li Class="CombatExtended.ApperalRenderingExtension">
+				<HideHair>true</HideHair>
+				<HideBeard>true</HideBeard>
+			</li>
+		</modExtensions>
+	</ThingDef>	
+	
+	
+	<ThingDef ParentName="SK_ApparelBase">
+		<defName>Apparel_VaultX01TeslaPowerArmor</defName>
+		<label>X-01 Tesla power armor</label>
+		<description>A modified version of the iconic X-01, designed by Enclave engineers in the best traditions of paranoia and over-weaponry. Its distinguishing feature is a magnetic force field that not only makes you look like a walking Pentagon experiment, but should also (theoretically) protect you from energy weapons.</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/X01TeslaCoils/X01</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>		
+		<thingClass>SK.Apparel_PowerArmorShield</thingClass>
+		<costList>
+			<Carbon>75</Carbon>
+			<Compaste>50</Compaste>
+			<SyntheticFibers>35</SyntheticFibers>
+			<MagneticMaterial>20</MagneticMaterial>
+			<NuclearBattery>15</NuclearBattery>
+		</costList>
+		<comps>
+		  <li Class="CompProperties_Biocodable"/>
+		</comps>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>5.5</EnergyShieldEnergyMax>
+			<MaxHitPoints>195</MaxHitPoints>
+			<Flammability>0.3</Flammability>
+			<Mass>7</Mass>
+			<Bulk>60</Bulk>
+			<WornBulk>20</WornBulk>
+			<EquipDelay>15</EquipDelay>
+			<Insulation_Heat>25</Insulation_Heat>
+			<Insulation_Cold>25</Insulation_Cold>			
+			<StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>7.37</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>15.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>35.59</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.216</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryWeight>50</CarryWeight>
+			<CarryBulk>45</CarryBulk>
+			<MoveSpeed>1.1</MoveSpeed>
+			<WorkSpeedGlobal>-0.17</WorkSpeedGlobal>
+			<MentalBreakThreshold>-0.28</MentalBreakThreshold>
+			<PsychicSensitivity>-0.12</PsychicSensitivity>
+			<ShootingAccuracyPawn>-0.25</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.2</AimingDelayFactor>
+			<MeleeHitChance>-0.26</MeleeHitChance>
+			<MeleeWeapon_CooldownMultiplier>0.21</MeleeWeapon_CooldownMultiplier>
+			<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+			<Suppressability>-0.24</Suppressability>
+			<ArmorRating_Toxin>0.75</ArmorRating_Toxin>
+			<Radiation>-0.75</Radiation>
+			<GermResistance>0.09</GermResistance>
+			<GermContainment>0.09</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/X01TeslaCoils/X01</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>VaultX01A</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<soundWear>Wear_PowerArmor</soundWear>
+			<soundRemove>Remove_PowerArmor</soundRemove>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>HeavyFullArmorCat</li>
+			<li>Setpowerarmor</li>
+		</thingCategories>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="SK_ApparelBase">
+		<defName>Apparel_VaultT51ArmorHelmet</defName>
+		<label>T-51 power Helmet</label>
+		<description>*"Once the pinnacle of engineering, now just an expensive crutch for nostalgic soldiers and survivalists who still believe that "old is good." Yes, this helmet survived the Great War, but only because its previous owners either died before they could break it or were too dead to complain. Equipped with an air filtration system (if you're lucky), a built-in display (that twinkles like the lights on a pre-war Christmas tree), and a "bulletproof" visor (only tested on molerats running across a field), it comes with 200 years of dust, chipped paint, and the inexplicable smell of an old bunker. Recommended for collectors, masochists, and anyone who still believes that the United States of America, Inc., once cared about people."*</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/T51/T51Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingClass>SK.ApparelWithMiningLight</thingClass>
+		<tickerType>Normal</tickerType>
+		<costList>
+			<Carbon>5</Carbon>
+			<Compaste>5</Compaste>
+			<SyntheticFibers>6</SyntheticFibers>
+			<MagneticMaterial>2</MagneticMaterial>
+		</costList>
+		<statBases>
+			<WorkToMake>18000</WorkToMake>
+			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>0.9</EnergyShieldEnergyMax>
+			<MaxHitPoints>55</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<Mass>1.1</Mass>
+			<Bulk>4</Bulk>
+			<WornBulk>1</WornBulk>
+			<EquipDelay>2.6</EquipDelay>
+			<Insulation_Heat>3</Insulation_Heat>
+			<Insulation_Cold>3</Insulation_Cold>
+			<StuffEffectMultiplierInsulation_Cold>0.12</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.12</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>7.75</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>9.50</ArmorRating_Sharp>
+			<ArmorRating_Blunt>29.094</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.075</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<MoveSpeed>-0.30</MoveSpeed>
+			<WorkSpeedGlobal>-0.06</WorkSpeedGlobal>
+			<MentalBreakThreshold>-0.05</MentalBreakThreshold>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<ShootingAccuracyPawn>0.1</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<ImmunityGainSpeed>0.1</ImmunityGainSpeed>
+			<Suppressability>-0.12</Suppressability>
+			<ArmorRating_Toxin>0.2</ArmorRating_Toxin>
+			<ToxicEnvironmentResistance>0.5</ToxicEnvironmentResistance>
+			<SmokeSensitivity>-1</SmokeSensitivity>
+			<Radiation>-0.3</Radiation>
+			<GermResistance>0.70</GermResistance>
+			<GermContainment>0.80</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/T51/T51Helmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				<li>VaultT51H</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<parentTagDef>ApparelHead</parentTagDef>
+		</apparel>	
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<comps>
+		<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<thingCategories>
+			<li>HeavyHelmetsCat</li>
+			<li>Setpowerarmor</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingSpacerHelmet</hediff>
+			</li>
+			<li Class="CombatExtended.ApperalRenderingExtension">
+				<HideHair>true</HideHair>
+				<HideBeard>true</HideBeard>
+			</li>
+		</modExtensions>
+	</ThingDef>
+	
+	
+	
+	
+ <ThingDef ParentName="SK_ApparelBase">
+		<defName>Apparel_VaultT51PowerArmor</defName>
+		<label>T-51 power armor</label>
+		<description>Once the pinnacle of pre-Kopf military thought, now it’s just walking scrap metal with nostalgic charm. The T-51 once inspired fear and respect, but now it looks more like a heated tin can with the smell of sweaty soldiers. Yes, it still has walls from radiation and bullets, but be prepared for the fact that every second bolt creaks, and the air filtration system considers cigarette smoke an “acceptable alternative to oxygen.” But it looks stylish — if your style is “nostalgia for the times when the world was not yet completely * @#%!”</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/T51/T51</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>		
+		<costList>
+			<Carbon>25</Carbon>
+			<Compaste>30</Compaste>
+			<SyntheticFibers>15</SyntheticFibers>
+			<MagneticMaterial>8</MagneticMaterial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<comps>
+		<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>2.5</EnergyShieldEnergyMax>
+			<MaxHitPoints>100</MaxHitPoints>
+			<Flammability>1</Flammability>
+			<Mass>7</Mass>
+			<Bulk>60</Bulk>
+			<WornBulk>20</WornBulk>
+			<EquipDelay>15</EquipDelay>
+			<Insulation_Heat>15</Insulation_Heat>
+			<Insulation_Cold>15</Insulation_Cold>			
+			<StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
+			<StuffEffectMultiplierArmor>5.37</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>7.7</ArmorRating_Sharp>
+			<ArmorRating_Blunt>25.59</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.11</ArmorRating_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<CarryWeight>30</CarryWeight>
+			<CarryBulk>15</CarryBulk>
+			<MoveSpeed>-1.5</MoveSpeed>
+			<WorkSpeedGlobal>-0.27</WorkSpeedGlobal>
+			<MentalBreakThreshold>-0.08</MentalBreakThreshold>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.2</AimingDelayFactor>
+			<MeleeHitChance>-0.26</MeleeHitChance>
+			<MeleeWeapon_CooldownMultiplier>0.21</MeleeWeapon_CooldownMultiplier>
+			<ImmunityGainSpeed>0.2</ImmunityGainSpeed>
+			<Suppressability>-0.24</Suppressability>
+			<ArmorRating_Toxin>0.45</ArmorRating_Toxin>
+			<Radiation>-0.35</Radiation>
+			<GermResistance>0.04</GermResistance>
+			<GermContainment>0.04</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<bodyPartGroups>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Torso</li>
+				<li>Legs</li>
+				<li>Arms</li>
+				<li>Hands</li>
+				<li>Feet</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/T51/T51</wornGraphicPath>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+			</layers>
+			<tags>
+				<li>VaultT51A</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<soundWear>Wear_PowerArmor</soundWear>
+			<soundRemove>Remove_PowerArmor</soundRemove>
+		</apparel>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<thingCategories>
+			<li>HeavyFullArmorCat</li>
+			<li>Setpowerarmor</li>
+		</thingCategories>
+	</ThingDef>
+	
 </Defs>

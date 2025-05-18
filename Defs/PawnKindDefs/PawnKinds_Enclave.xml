@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <PawnKindDef Abstract="True" Name="EnclaveBaseHA">
+		<race>Human</race>
+		<defaultFactionType>Enclave</defaultFactionType>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Offworld</li>
+					<li>Shelter</li>
+				</categories>
+			</li>
+		</backstoryFilters>
+		<backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+		<chemicalAddictionChance>0.05</chemicalAddictionChance>
+		<isFighter>true</isFighter>
+		<itemQuality>Good</itemQuality>
+		<invNutrition>2</invNutrition>
+		<invFoodDef>soylentgreen</invFoodDef>
+		<minGenerationAge>18</minGenerationAge>
+		<maxGenerationAge>42</maxGenerationAge>
+		<apparelColor>(225,225,225)</apparelColor>
+		<apparelIgnoreSeasons>false</apparelIgnoreSeasons>
+		<apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<specificApparelRequirements>
+			<li>
+				<bodyPartGroup>Torso</bodyPartGroup>
+				<apparelLayer>Shell</apparelLayer>
+			</li>
+		</specificApparelRequirements>
+		<disallowedTraits>
+			<li>Brawler</li>
+		</disallowedTraits>
+		<requiredWorkTags>
+			<li>Violent</li>
+		</requiredWorkTags>
+		<techHediffsMoney>
+			<min>6000</min>
+			<max>9000</max>
+		</techHediffsMoney>
+		<!--<apparelRequired>
+			<li>Apparel_VaultT60PowerArmor</li>
+			<li>Apparel_VaultT60ArmorHelmet</li>
+		</apparelRequired>-->
+		<weaponMoney>
+			<min>2500</min>
+			<max>99700</max>
+		</weaponMoney>
+		<weaponTags>
+			<li>VaultecGun</li>
+			<li>VaultecLaunchers</li>
+			<li>VaultecPlasmaRifel</li>
+			<li>FalloutMinigunPlasma</li>
+			<li>VaultecGunH</li>
+		</weaponTags>
+			<apparelTags>
+			<li>VaultX01A</li>
+			<li>VaultX01H</li>
+		</apparelTags>
+		<techHediffsTags>
+			<li>Advanced</li>
+			<li>Futuristic</li>
+		</techHediffsTags>
+		 <techHediffsRequired>
+        <li>DeathAcidifier</li>
+		 <li>Painstopper</li>
+       </techHediffsRequired>
+		<techHediffsChance>0.8</techHediffsChance>
+		<techHediffsMaxAmount>3</techHediffsMaxAmount>
+	</PawnKindDef>	
+
+
+	
+	
+	<PawnKindDef Name="EnclaveOfficerBase" ParentName="EnclaveBaseHA" Abstract="True">
+		<label>Enclave officer</label>
+		<combatPower>460</combatPower>
+		<itemQuality>Good</itemQuality>
+		<gearHealthRange>
+			<min>0.4</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>10000</min>
+			<max>12000</max>
+		</apparelMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>6~10</range>
+			</li>
+		</skills>
+		<initialWillRange>2~4</initialWillRange>
+		<initialResistanceRange>13~20</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>2</min>
+					<max>3</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.2</generateChance>
+						<sidearmMoney>
+							<min>250</min>
+							<max>350</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierFour</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+					<li>
+						<generateChance>0.15</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+	<PawnKindDef ParentName="EnclaveOfficerBase">
+		<defName>EnclaveOfficer</defName>
+	</PawnKindDef>
+
+
+
+
+
+	<PawnKindDef Name="EnclaveInvestigatorBase" ParentName="EnclaveBaseHA" Abstract="True">
+		<label>Enclave Investigator</label>
+		<combatPower>520</combatPower>
+		<factionLeader>true</factionLeader>
+		<itemQuality>Masterwork</itemQuality>
+		<techHediffsChance>0.7</techHediffsChance>
+		<gearHealthRange>
+			<min>0.9</min>
+			<max>1.6</max>
+		</gearHealthRange>
+		<apparelMoney>
+			<min>14000</min>
+			<max>24000</max>
+		</apparelMoney>
+		<skills>
+			<li>
+				<skill>Shooting</skill>
+				<range>6~10</range>
+			</li>
+		</skills>
+		<initialWillRange>3~4</initialWillRange>
+		<initialResistanceRange>26~37</initialResistanceRange>
+		<modExtensions>
+			<li Class="CombatExtended.LoadoutPropertiesExtension">
+				<primaryMagazineCount>
+					<min>6</min>
+					<max>7</max>
+				</primaryMagazineCount>
+				<sidearms>
+					<li>
+						<generateChance>0.25</generateChance>
+						<sidearmMoney>
+							<min>250</min>
+							<max>350</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeTierFour</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+					<li>
+						<generateChance>0.1</generateChance>
+						<sidearmMoney>
+							<min>50</min>
+							<max>150</max>
+						</sidearmMoney>
+						<weaponTags>
+							<li>GrenadeFlashbang</li>
+						</weaponTags>
+						<magazineCount>
+							<min>1</min>
+							<max>2</max>
+						</magazineCount>
+					</li>
+				</sidearms>
+			</li>
+		</modExtensions>
+		
+		<xenotypeSet Inherit="False">
+		  <xenotypeChances>
+			 <Supermutant MayRequire="Ludeon.RimWorld.Biotech">0.3</Supermutant>
+		  </xenotypeChances>
+		  
+		</xenotypeSet>
+	</PawnKindDef>	
+
+	<PawnKindDef ParentName="EnclaveInvestigatorBase">
+		<defName>EnclaveInvestigator</defName>
+	</PawnKindDef>
+
+
+
+
+	
+  
+  
+ 
+   
+</Defs>

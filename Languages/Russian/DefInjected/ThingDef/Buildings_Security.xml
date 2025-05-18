@@ -5,7 +5,7 @@
   <TrapIED_LidMineExplosive.description>Популярный довоенный ланч-бокс Волт-Тек стал основой для смертоносной мины в постапокалиптическом Содружестве. Это самодельное устройство поможет вам справиться с любым врагом. Может использоваться как ловушки. Животные могут чувствовать их, когда они спокойны.</TrapIED_LidMineExplosive.description>
 
   <TrapIED_PlasmaMineExplosive.label>Плазменная мина</TrapIED_PlasmaMineExplosive.label>
-<TrapIED_PlasmaMineExplosive.description>Этот высокотехнологичный образец вежливости от довоенных инженеров NUKA ждет именно тех, кто не смотрит под ноги. Принцип прост: кладешь, забываешь, и тогда кто-то другой (может быть, даже ты) получает мгновенный урок термодинамики.</TrapIED_PlasmaMineExplosive.description>
+  <TrapIED_PlasmaMineExplosive.description>Этот высокотехнологичный образец вежливости от довоенных инженеров NUKA ждет именно тех, кто не смотрит под ноги. Принцип прост: кладешь, забываешь, и тогда кто-то другой (может быть, даже ты) получает мгновенный урок термодинамики.</TrapIED_PlasmaMineExplosive.description>
 
 
   <!-- AI manned turrets -->
@@ -17,10 +17,10 @@
   <Gun_FalloutMiniTurret.description>Самодельная автоматическая пушка, прикрепленная к турели.</Gun_FalloutMiniTurret.description>
 
   <Fallout_laser_Turret.label>Автоматизированная лазерная турель</Fallout_laser_Turret.label>
-<Fallout_laser_Turret.description>Самодельное чудо-оружие, собранное из лазерной винтовки, нескольких консервных банок, пары сломанных сенсорных модулей Протектрона и ошибочной веры в то, что «на этот раз оно точно сработает».</Fallout_laser_Turret.description>
+  <Fallout_laser_Turret.description>Самодельное чудо-оружие, собранное из лазерной винтовки, нескольких консервных банок, пары сломанных сенсорных модулей Протектрона и ошибочной веры в то, что «на этот раз оно точно сработает».</Fallout_laser_Turret.description>
 
-<Gun_FalloutlaserTurret.label>Лазерная пушка турели</Gun_FalloutlaserTurret.label>
-<Gun_FalloutlaserTurret.description>Самодельная автоматическая пушка, прикрепленная к турели.</Gun_FalloutlaserTurret.description>
+  <Gun_FalloutlaserTurret.label>Лазерная пушка турели</Gun_FalloutlaserTurret.label>
+  <Gun_FalloutlaserTurret.description>Самодельная автоматическая пушка, прикрепленная к турели.</Gun_FalloutlaserTurret.description>
 
 
   <!-- Башни с ИИ -->

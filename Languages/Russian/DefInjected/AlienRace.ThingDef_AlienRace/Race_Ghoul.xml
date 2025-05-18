@@ -11,7 +11,7 @@
   <VaulTecGhoul.tools.3.label>голова</VaulTecGhoul.tools.3.label>
 
   <GlowingGhoul.label>Светящийся Гуль</GlowingGhoul.label>
-  <GlowingGhoul.description>Это Гульb, которые под воздействием большого количества радиации стали ее живыми проводниками. Светящиеся упыри испускают опасное для человека излучение. Они могут быть опасны даже после своей смерти.</GlowingGhoul.description>
+  <GlowingGhoul.description>Это Гуль, которые под воздействием большого количества радиации стали ее живыми проводниками. Светящиеся упыри испускают опасное для человека излучение. Они могут быть опасны даже после своей смерти.</GlowingGhoul.description>
   <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>кожа</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
   <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>волосы</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
   <GlowingGhoul.tools.0.label>левый кулак</GlowingGhoul.tools.0.label>

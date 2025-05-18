@@ -16,8 +16,56 @@
         <countRange>20~70</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>ComponentSpacer</thingDef>
-        <countRange>1~6</countRange>
+        <thingDef>FEVPack</thingDef>
+        <countRange>1~2</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>SuspiciousOmelette</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>boiledeggs</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>friedeggs</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>Raweggsinaglass</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>MashedPotatoes</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>Porridge</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaCola</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaQuantum</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaVictoria</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaGrapes</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaOnslaught</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaDark</thingDef>
+        <countRange>1~5</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Steel</thingDef>
@@ -32,20 +80,16 @@
         <countRange>100~250</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Uranium</thingDef>
-        <countRange>40~200</countRange>
+        <thingDef>MisterHandyKit</thingDef>
+        <countRange>4~6</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Cloth</thingDef>
-        <countRange>400~600</countRange>
+        <thingDef>NuclearBattery</thingDef>
+        <countRange>10~40</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Gold</thingDef>
-        <countRange>100~200</countRange>
-      </li>
-      <li Class="StockGenerator_SingleDef">
-        <thingDef>Neutroamine</thingDef>
-        <countRange>50~200</countRange>
+        <thingDef>BottleCap</thingDef>
+        <countRange>500~2000</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>Chemfuel</thingDef>
@@ -56,8 +100,8 @@
         <countRange>-30~70</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Beer</thingDef>
-        <countRange>-40~100</countRange>
+        <thingDef>RadHemogenPack</thingDef>
+        <countRange>-4~10</countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>MedicineIndustrial</thingDef>
@@ -440,7 +484,7 @@
       </li>
 	  
 	    <li Class="StockGenerator_MarketValue">
-        <tradeTag>ExoticVaultec</tradeTag>
+        <tradeTag>Vaultec</tradeTag>
         <countRange>8~16</countRange>
       </li>
 	  
@@ -476,8 +520,71 @@
           <Hyperweave>50~200</Hyperweave>
         </customCountRanges>
       </li>
-
-	  
+  <li Class="StockGenerator_SingleDef">
+        <thingDef>FEVPack</thingDef>
+        <countRange>1~2</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>SuspiciousOmelette</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>boiledeggs</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>friedeggs</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>Raweggsinaglass</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>MashedPotatoes</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>Porridge</thingDef>
+        <countRange>1~20</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaCola</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaQuantum</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaVictoria</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaGrapes</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaOnslaught</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+	  <li Class="StockGenerator_SingleDef">
+        <thingDef>NukaColaDark</thingDef>
+        <countRange>1~5</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>MisterHandyKit</thingDef>
+        <countRange>4~6</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>NuclearBattery</thingDef>
+        <countRange>10~40</countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>BottleCap</thingDef>
+        <countRange>500~2000</countRange>
+      </li>
+     
       <li Class="StockGenerator_SingleDef">
         <thingDef>ComponentSpacer</thingDef>
         <countRange>-10~2</countRange>
@@ -571,7 +678,7 @@
       <li Class="StockGenerator_Animals">
         <maxWildness>1</maxWildness>
         <tradeTagsSell>
-         <li>AnimalFallout</li>
+         <li>AnimalVaultec</li>
         </tradeTagsSell>
         <tradeTagsBuy>
           <li>AnimalExotic</li>
@@ -579,14 +686,14 @@
         <kindCountRange>4</kindCountRange>
         <countRange>3~10</countRange>
         <createMatingPair>
-         <li>AnimalFallout</li>
+         <li>AnimalVaultec</li>
         </createMatingPair>
       </li>
 	  
 	  
 	 <li Class="StockGenerator_Tag">
-        <tradeTag>VaulTec</tradeTag>
-        <thingDefCountRange>3~3</thingDefCountRange>
+        <tradeTag>Vaultec</tradeTag>
+        <thingDefCountRange>3~15</thingDefCountRange>
         <countRange>3~8</countRange>
         <excludedThingDefs>
           <li>MedicineUltratech</li> <!-- already handled by single def -->
@@ -604,17 +711,7 @@
         <tradeTag>WeaponRanged</tradeTag>
         <countRange>5~5</countRange>
       </li>
-      <li Class="StockGenerator_Category">
-        <categoryDef>WeaponsMelee</categoryDef>
-        <thingDefCountRange>6~6</thingDefCountRange>
-        <countRange>1~6</countRange>
-      </li>
-      
-	   <!-- Pack turret apparel -->
-      <li MayRequire="Ludeon.RimWorld.Anomaly" Class="StockGenerator_SingleDef">
-        <thingDef>Apparel_PackTurret</thingDef>
-        <countRange>1~2</countRange> <!-- 50% chance for 1~2 -->
-      </li>
+    
 	  
       
       <!-- Buying -->
