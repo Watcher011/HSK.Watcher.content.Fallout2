@@ -419,6 +419,7 @@
 				</fuelFilter>
 			</li>
 		</comps>
+		<rotatable>false</rotatable>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
