@@ -221,7 +221,7 @@
 				<glowRadius>3</glowRadius>
 				<glowColor>(217,77,13,0)</glowColor>
 			</li>
-			<li Class="CompProperties_Refuelable">
+			<!--<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>0.01</fuelConsumptionRate>
 				<fuelCapacity>1.0</fuelCapacity>
 				<fuelFilter>
@@ -231,7 +231,12 @@
 				</fuelFilter>
 				<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
 				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-			</li>
+			</li>-->
+			 <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>300</basePowerConsumption>
+      </li>
 		</comps>
 		<tickerType>Rare</tickerType>
 		<rotatable>true</rotatable>
