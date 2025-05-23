@@ -152,12 +152,8 @@
 				</li>
 				<li Class="IngestionOutcomeDoer_OffsetNeed">
 					<need>Rest</need>
-					<offset>0.1</offset>
+					<offset>0.3</offset>
 					<toleranceChemical>Caffeine</toleranceChemical>
-				</li>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>RimatomicsRadiation</hediffDef>
-					<severity>0.04</severity>
 				</li>
 			</outcomeDoers>
 		</ingestible>
@@ -200,10 +196,7 @@
 					<offset>0.1</offset>
 					<toleranceChemical>Caffeine</toleranceChemical>
 				</li>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>RimatomicsRadiation</hediffDef>
-					<severity>0.04</severity>
-				</li>
+				
 			</outcomeDoers>
 		</ingestible>
 		
@@ -309,11 +302,7 @@
 					<need>Rest</need>
 					<offset>0.1</offset>
 					<toleranceChemical>Caffeine</toleranceChemical>
-				</li>
-				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>RimatomicsRadiation</hediffDef>
-					<severity>0.04</severity>
-				</li>
+		</li>
 	    </outcomeDoers>
 		</ingestible>
 		<comps>

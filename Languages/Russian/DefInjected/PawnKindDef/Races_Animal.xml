@@ -105,29 +105,56 @@
 
 
   <!-- Deathclaw -->
-<Deathclaw.label>Коготь Смерти</Deathclaw.label>
-<Deathclaw.labelPlural>Когти Смерти</Deathclaw.labelPlural>
-<Deathclaw.lifeStages.0.label>Коготь Смерти</Deathclaw.lifeStages.0.label>
-<Deathclaw.lifeStages.0.labelPlural>Когти Смерти</Deathclaw.lifeStages.0.labelPlural>
-<Deathclaw.lifeStages.0.labelMale>самец Когтя Смерти</Deathclaw.lifeStages.0.labelMale>
-<Deathclaw.lifeStages.0.labelMalePlural>самцы Когтя Смерти</Deathclaw.lifeStages.0.labelMalePlural>
-<Deathclaw.lifeStages.0.labelFemale>самка Когтя Смерти</Deathclaw.lifeStages.0.labelFemale>
-<Deathclaw.lifeStages.0.labelFemalePlural>самки Когтя Смерти</Deathclaw.lifeStages.0.labelFemalePlural>
-<Deathclaw.lifeStages.1.label>Коготь Смерти</Deathclaw.lifeStages.1.label>
-<Deathclaw.lifeStages.1.labelPlural>Когти Смерти</Deathclaw.lifeStages.1.labelPlural>
-<Deathclaw.lifeStages.1.labelMale>самец Когтя Смерти</Deathclaw.lifeStages.1.labelMale>
-<Deathclaw.lifeStages.1.labelMalePlural>самцы Когтя Смерти</Deathclaw.lifeStages.1.labelMalePlural>
-<Deathclaw.lifeStages.1.labelFemale>самка Когтя Смерти</Deathclaw.lifeStages.1.labelFemale>
-<Deathclaw.lifeStages.1.labelFemalePlural>самки Когтя Смерти</Deathclaw.lifeStages.1.labelFemalePlural>
-<Deathclaw.lifeStages.2.label>Коготь Смерти</Deathclaw.lifeStages.2.label>
-<Deathclaw.lifeStages.2.labelPlural>Когти Смерти</Deathclaw.lifeStages.2.labelPlural>
-<Deathclaw.lifeStages.2.labelMale>самец Когтя Смерти</Deathclaw.lifeStages.2.labelMale>
-<Deathclaw.lifeStages.2.labelMalePlural>самцы Когтя Смерти</Deathclaw.lifeStages.2.labelMalePlural>
-<Deathclaw.lifeStages.2.labelFemale>самка Когтя Смерти</Deathclaw.lifeStages.2.labelFemale>
-<Deathclaw.lifeStages.2.labelFemalePlural>самки Когтя Смерти</Deathclaw.lifeStages.2.labelFemalePlural>
-<Deathclaw.labelMale>самец Когтя Смерти</Deathclaw.labelMale>
-<Deathclaw.labelMalePlural>самцы Когтя Смерти</Deathclaw.labelMalePlural>
-<Deathclaw.labelFemale>самка Когтя Смерти</Deathclaw.labelFemale>
-<Deathclaw.labelFemalePlural>самки Когтя Смерти</Deathclaw.labelFemalePlural>
+
+  <Deathclaw.label>Коготь Смерти</Deathclaw.label>
+  <Deathclaw.labelPlural>Когти Смерти</Deathclaw.labelPlural>
+  <Deathclaw.lifeStages.0.label>Коготь Смерти</Deathclaw.lifeStages.0.label>
+  <Deathclaw.lifeStages.0.labelPlural>Когти Смерти</Deathclaw.lifeStages.0.labelPlural>
+  <Deathclaw.lifeStages.0.labelMale>самец Когтя Смерти</Deathclaw.lifeStages.0.labelMale>
+  <Deathclaw.lifeStages.0.labelMalePlural>самцы Когтя Смерти</Deathclaw.lifeStages.0.labelMalePlural>
+  <Deathclaw.lifeStages.0.labelFemale>самка Когтя Смерти</Deathclaw.lifeStages.0.labelFemale>
+  <Deathclaw.lifeStages.0.labelFemalePlural>самки Когтя Смерти</Deathclaw.lifeStages.0.labelFemalePlural>
+  <Deathclaw.lifeStages.1.label>Коготь Смерти</Deathclaw.lifeStages.1.label>
+  <Deathclaw.lifeStages.1.labelPlural>Когти Смерти</Deathclaw.lifeStages.1.labelPlural>
+  <Deathclaw.lifeStages.1.labelMale>самец Когтя Смерти</Deathclaw.lifeStages.1.labelMale>
+  <Deathclaw.lifeStages.1.labelMalePlural>самцы Когтя Смерти</Deathclaw.lifeStages.1.labelMalePlural>
+  <Deathclaw.lifeStages.1.labelFemale>самка Когтя Смерти</Deathclaw.lifeStages.1.labelFemale>
+  <Deathclaw.lifeStages.1.labelFemalePlural>самки Когтя Смерти</Deathclaw.lifeStages.1.labelFemalePlural>
+  <Deathclaw.lifeStages.2.label>Коготь Смерти</Deathclaw.lifeStages.2.label>
+  <Deathclaw.lifeStages.2.labelPlural>Когти Смерти</Deathclaw.lifeStages.2.labelPlural>
+  <Deathclaw.lifeStages.2.labelMale>самец Когтя Смерти</Deathclaw.lifeStages.2.labelMale>
+  <Deathclaw.lifeStages.2.labelMalePlural>самцы Когтя Смерти</Deathclaw.lifeStages.2.labelMalePlural>
+  <Deathclaw.lifeStages.2.labelFemale>самка Когтя Смерти</Deathclaw.lifeStages.2.labelFemale>
+  <Deathclaw.lifeStages.2.labelFemalePlural>самки Когтя Смерти</Deathclaw.lifeStages.2.labelFemalePlural>
+  <Deathclaw.labelMale>самец Когтя Смерти</Deathclaw.labelMale>
+  <Deathclaw.labelMalePlural>самцы Когтя Смерти</Deathclaw.labelMalePlural>
+  <Deathclaw.labelFemale>самка Когтя Смерти</Deathclaw.labelFemale>
+  <Deathclaw.labelFemalePlural>самки Когтя Смерти</Deathclaw.labelFemalePlural>
+
+ <Mirelurk.label>Болотник</Mirelurk.label>
+<Mirelurk.labelPlural>Болотники</Mirelurk.labelPlural>
+<Mirelurk.lifeStages.0.label>Болотник</Mirelurk.lifeStages.0.label>
+<Mirelurk.lifeStages.0.labelPlural>Болотники</Mirelurk.lifeStages.0.labelPlural>
+<Mirelurk.lifeStages.0.labelMale>самец болотника</Mirelurk.lifeStages.0.labelMale>
+<Mirelurk.lifeStages.0.labelMalePlural>самцы болотников</Mirelurk.lifeStages.0.labelMalePlural>
+<Mirelurk.lifeStages.0.labelFemale>самка болотника</Mirelurk.lifeStages.0.labelFemale>
+<Mirelurk.lifeStages.0.labelFemalePlural>самки болотников</Mirelurk.lifeStages.0.labelFemalePlural>
+<Mirelurk.lifeStages.1.label>Болотник</Mirelurk.lifeStages.1.label>
+<Mirelurk.lifeStages.1.labelPlural>Болотники</Mirelurk.lifeStages.1.labelPlural>
+<Mirelurk.lifeStages.1.labelMale>самец болотника</Mirelurk.lifeStages.1.labelMale>
+<Mirelurk.lifeStages.1.labelMalePlural>самцы болотников</Mirelurk.lifeStages.1.labelMalePlural>
+<Mirelurk.lifeStages.1.labelFemale>самка болотника</Mirelurk.lifeStages.1.labelFemale>
+<Mirelurk.lifeStages.1.labelFemalePlural>самки болотников</Mirelurk.lifeStages.1.labelFemalePlural>
+<Mirelurk.lifeStages.2.label>Болотник</Mirelurk.lifeStages.2.label>
+<Mirelurk.lifeStages.2.labelPlural>Болотники</Mirelurk.lifeStages.2.labelPlural>
+<Mirelurk.lifeStages.2.labelMale>самец болотника</Mirelurk.lifeStages.2.labelMale>
+<Mirelurk.lifeStages.2.labelMalePlural>самцы болотников</Mirelurk.lifeStages.2.labelMalePlural>
+<Mirelurk.lifeStages.2.labelFemale>самка болотника</Mirelurk.lifeStages.2.labelFemale>
+<Mirelurk.lifeStages.2.labelFemalePlural>самки болотников</Mirelurk.lifeStages.2.labelFemalePlural>
+<Mirelurk.labelMale>самец болотника</Mirelurk.labelMale>
+<Mirelurk.labelMalePlural>самцы болотников</Mirelurk.labelMalePlural>
+<Mirelurk.labelFemale>самка болотника</Mirelurk.labelFemale>
+<Mirelurk.labelFemalePlural>самки болотников</Mirelurk.labelFemalePlural>
+
 
 </LanguageData>

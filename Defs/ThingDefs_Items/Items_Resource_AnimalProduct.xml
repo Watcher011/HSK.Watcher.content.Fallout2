@@ -81,4 +81,58 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	
+	
+	 <ThingDef ParentName="SK_EggUnfertBase">
+		<defName>EggMirelurkUnfertilized</defName>
+		<label>Mirelurk Egg (Unfertilized)</label>
+		<description>An unfertilized egg of a Deathclaw.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(100,100,245)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>300.0</MarketValue>
+			<Mass>10</Mass>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Flammability>0.7</Flammability>
+			<Nutrition>1</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.2</FoodPoisonChanceFixedHuman>
+		</statBases>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_EggFertBase">
+		<defName>EggMirelurkFertilized</defName>
+		<label>Mirelurk Egg (Fertilized)</label>
+		<description>A fertilized egg of a Mirelurk. If all goes well, it should hatch into a Baby Mirelurk. Eggs can be eaten raw, but are much better when cooked.</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Item/Resource/AnimalProductRaw/EggBirdSmall</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<color>(100,100,245)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>600.0</MarketValue>
+			<Mass>10</Mass>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Flammability>0.7</Flammability>
+			<Nutrition>1</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.2</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>30</hatcherDaystoHatch>
+				<hatcherPawn>Mirelurk</hatcherPawn>
+			</li>
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>-5</minSafeTemperature>
+				<maxSafeTemperature>30</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>

@@ -866,4 +866,252 @@
 		</lifeStages>
 	</PawnKindDef>
 	
+	
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Mirelurk</defName>
+		<label>Mirelurk</label>
+		<description>Most swamp dwellers are heavily armored and resistant to many types of damage, but the creatures' faces are always vulnerable..</description>
+		<statBases>
+			<Mass>120</Mass>
+			<MoveSpeed>2.8</MoveSpeed>
+			<ArmorRating_Electric>0.85</ArmorRating_Electric>
+            <PsychicSensitivity>0.75</PsychicSensitivity>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<MarketValue>3500</MarketValue>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeatAmount>175</MeatAmount>
+			<CarryWeight>150</CarryWeight>
+			<CarryBulk>60</CarryBulk>
+			<AimingAccuracy>1.3</AimingAccuracy>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<ArmorRating_Sharp>10</ArmorRating_Sharp>
+			<ArmorRating_Blunt>50</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<MeleeDodgeChance>0.19</MeleeDodgeChance>
+			<MeleeCritChance>0.43</MeleeCritChance>
+			<MeleeParryChance>0.22</MeleeParryChance>
+			<AimingDelayFactor>1.25</AimingDelayFactor>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>3.5</armorPenetrationSharp>
+				<armorPenetrationBlunt>9</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.85</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>left claw</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<chanceFactor>1.5</chanceFactor>
+				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+				<armorPenetrationSharp>0.6</armorPenetrationSharp>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>right claw</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>12</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<chanceFactor>1.5</chanceFactor>
+				<armorPenetrationBlunt>1.2</armorPenetrationBlunt>
+				<armorPenetrationSharp>0.6</armorPenetrationSharp>
+				<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+					<label>left blade</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>43</power>
+					<cooldownTime>2.07</cooldownTime>
+					<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+					<armorPenetrationSharp>2.16</armorPenetrationSharp>
+					<armorPenetrationBlunt>5.4</armorPenetrationBlunt>
+					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>left blade</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>24</power>
+					<cooldownTime>8.07</cooldownTime>
+					<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+					<armorPenetrationSharp>60</armorPenetrationSharp>
+					<armorPenetrationBlunt>50</armorPenetrationBlunt>
+					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right blade</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>43</power>
+					<cooldownTime>2.07</cooldownTime>
+					<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+					<armorPenetrationSharp>2.16</armorPenetrationSharp>
+					<armorPenetrationBlunt>5.4</armorPenetrationBlunt>
+					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>right blade</label>
+					<capacities>
+						<li>Cut</li>
+					</capacities>
+					<power>24</power>
+					<cooldownTime>1.33</cooldownTime>
+					<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+					<armorPenetrationSharp>40</armorPenetrationSharp>
+					<armorPenetrationBlunt>20</armorPenetrationBlunt>
+					<alwaysTreatAsWeapon>true</alwaysTreatAsWeapon>
+				</li>
+		</tools>
+		<comps>
+			<li Class="SK.CompProperties_ShearableRenameable">
+				<compClass>SK.CompShearableRenameable</compClass>
+				<growthLabel>Chitin</growthLabel>
+				<woolDef>Chitin</woolDef>
+				<shearIntervalDays>8</shearIntervalDays>
+				<woolAmount>125</woolAmount>
+			</li>
+			<li Class="CompProperties_EggLayer">
+				<eggUnfertilizedDef>EggMirelurkUnfertilized</eggUnfertilizedDef>
+				<eggFertilizedDef>EggMirelurkFertilized</eggFertilizedDef>
+				<eggFertilizationCountMax>3</eggFertilizationCountMax>
+				<eggLayIntervalDays>10</eggLayIntervalDays>
+				<eggProgressUnfertilizedMax>0.5</eggProgressUnfertilizedMax>
+				<eggCountRange>3</eggCountRange>
+			</li>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>477</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+			</li>
+		</comps>
+		<butcherProducts>
+			<Chitin>40</Chitin>
+			<PoisonGland>1</PoisonGland>
+			<RadHemogenPack>3</RadHemogenPack>
+		</butcherProducts>
+		<race>
+			<predator>true</predator>
+			<maxPreyBodySize>3.3</maxPreyBodySize>
+			<baseHungerRate>0.9</baseHungerRate>
+			<body>MirelurkLike</body>
+			<baseBodySize>2.3</baseBodySize>
+			<baseHealthScale>2.8</baseHealthScale>
+			<foodType>CarnivoreAnimal, CarnivoreAnimalStrict, Corpse, AnimalProduct</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<wildness>0.9</wildness>
+			<trainability>Intermediate</trainability>
+			<gestationPeriodDays>14</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<trainableTags>
+				<li>Basic</li>
+				<li>Combat</li>
+			</trainableTags>
+			<untrainableTags>
+				<li>Help</li>
+				<li>Work</li>
+			</untrainableTags>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Mirelurk</defName>
+		<label>Mirelurk</label>
+		<race>Mirelurk</race>
+		<combatPower>420</combatPower>
+		<ecoSystemWeight>1.0</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mirelurk/Mirelurk</texPath>
+					<drawSize>1.3</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mirelurk/Dessicated_Mirelurk</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mirelurk/Mirelurk</texPath>
+					<drawSize>2.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mirelurk/Dessicated_Mirelurk</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mirelurk/Mirelurk</texPath>
+					<drawSize>2.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Mirelurk/Dessicated_Mirelurk</texPath>
+					<drawSize>2.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
 </Defs>

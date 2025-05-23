@@ -28,10 +28,22 @@
 
 
   <!-- Deathclaw -->
-<Deathclaw.label>Коготь Смерти</Deathclaw.label>
-<Deathclaw.description>Представьте помесь тираннозавра, броневика и вашего худшего кошмара после трёх бутылок «Висты-квас». Двухметровая мускулистая ящерица с когтями, способными распотрошить силовую броню, как консервную банку, и шкурой, которая игнорирует пули — потому что «смешно, чел». Киньте в него мини-ядерку... и молитесь, чтобы за углом не оказался его друга - Коготя Смерти.</Deathclaw.description>
-<Deathclaw.tools.0.label>левый коготь</Deathclaw.tools.0.label>
-<Deathclaw.tools.1.label>правый коготь</Deathclaw.tools.1.label>
-<Deathclaw.tools.3.label>ядовитые клыки</Deathclaw.tools.3.label>
+
+  <Deathclaw.label>Коготь Смерти</Deathclaw.label>
+  <Deathclaw.description>Представьте помесь тираннозавра, броневика и вашего худшего кошмара после трёх бутылок «Висты-квас». Двухметровая мускулистая ящерица с когтями, способными распотрошить силовую броню, как консервную банку, и шкурой, которая игнорирует пули — потому что «смешно, чел». Киньте в него мини-ядерку... и молитесь, чтобы за углом не оказался его друга - Коготя Смерти.</Deathclaw.description>
+  <Deathclaw.tools.0.label>левый коготь</Deathclaw.tools.0.label>
+  <Deathclaw.tools.1.label>правый коготь</Deathclaw.tools.1.label>
+  <Deathclaw.tools.3.label>ядовитые клыки</Deathclaw.tools.3.label>
+
+ <Mirelurk.label>Болотник</Mirelurk.label>
+<Mirelurk.description>Большинство обитателей болот обладают мощной бронёй и устойчивостью ко многим видам урона, но их морды всегда остаются уязвимым местом.</Mirelurk.description>
+<Mirelurk.tools.1.label>голова</Mirelurk.tools.1.label>
+<Mirelurk.tools.2.label>левая клешня</Mirelurk.tools.2.label>
+<Mirelurk.tools.3.label>правая клешня</Mirelurk.tools.3.label>
+<Mirelurk.tools.4.label>левое лезвие</Mirelurk.tools.4.label>
+<Mirelurk.tools.5.label>левое лезвие</Mirelurk.tools.5.label>
+<Mirelurk.tools.6.label>правое лезвие</Mirelurk.tools.6.label>
+<Mirelurk.tools.7.label>правое лезвие</Mirelurk.tools.7.label>
+
 
 </LanguageData>
