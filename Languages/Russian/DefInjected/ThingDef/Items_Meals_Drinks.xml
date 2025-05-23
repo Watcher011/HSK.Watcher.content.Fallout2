@@ -3,8 +3,8 @@
 
   <NukaCola.label>Ядер-Кола</NukaCola.label>
   <NukaCola.description>Популярный напиток, распространенный в Соединенных Штатах.</NukaCola.description>
-  <NukaCola.ingestible.ingestCommandString>Напиток {0}</NukaCola.ingestible.ingestCommandString>
-  <NukaCola.ingestible.ingestReportString>Напиток {0}.</NukaCola.ingestible.ingestReportString>
+  <NukaCola.ingestible.ingestCommandString>Пить {0}</NukaCola.ingestible.ingestCommandString>
+  <NukaCola.ingestible.ingestReportString>Пить {0}.</NukaCola.ingestible.ingestReportString>
 
   <NukaColaQuantum.label>Квантовая Ядер-Кола</NukaColaQuantum.label>
   <NukaColaQuantum.description>Освежающий, бодрящий и слегка радиоактивный напиток будущего! Квантовая Ядер-Кола — это не просто газировка, это научный прорыв в каждой сине-голубой капле! Благодаря революционной технологии Strontium-90 Delight™ ваше тело будет светиться от счастья даже в кромешной тьме послевоенного ада!</NukaColaQuantum.description>
