@@ -96,4 +96,17 @@
       </li>
     </stages>
   </ThoughtDef>
+  
+  <ThoughtDef>
+		<defName>HadScorponade</defName>
+		<durationDays>0.5</durationDays>
+		<stackLimit>2</stackLimit>
+		<stages>
+			<li>
+				<label>Drank Scorponade</label>
+				<description>That Scorponade drink was so healthy! I'm feeling my heart is going to stop.</description>
+				<baseMoodEffect>1</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
 </Defs>

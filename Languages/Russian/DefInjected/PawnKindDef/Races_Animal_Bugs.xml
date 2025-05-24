@@ -26,5 +26,30 @@
   <Radroach.labelFemale>самка Радтаракана</Radroach.labelFemale>
   <Radroach.labelFemalePlural>самки Радтараканов</Radroach.labelFemalePlural>
 
+<RadScorpion.label>Рад-скорпион</RadScorpion.label>
+<RadScorpion.labelPlural>Рад-скорпионы</RadScorpion.labelPlural>
+<RadScorpion.lifeStages.0.label>Рад-скорпион</RadScorpion.lifeStages.0.label>
+<RadScorpion.lifeStages.0.labelPlural>Рад-скорпионы</RadScorpion.lifeStages.0.labelPlural>
+<RadScorpion.lifeStages.0.labelMale>самец рад-скорпиона</RadScorpion.lifeStages.0.labelMale>
+<RadScorpion.lifeStages.0.labelMalePlural>самцы рад-скорпионов</RadScorpion.lifeStages.0.labelMalePlural>
+<RadScorpion.lifeStages.0.labelFemale>самка рад-скорпиона</RadScorpion.lifeStages.0.labelFemale>
+<RadScorpion.lifeStages.0.labelFemalePlural>самки рад-скорпионов</RadScorpion.lifeStages.0.labelFemalePlural>
+<RadScorpion.lifeStages.1.label>Рад-скорпион</RadScorpion.lifeStages.1.label>
+<RadScorpion.lifeStages.1.labelPlural>Рад-скорпионы</RadScorpion.lifeStages.1.labelPlural>
+<RadScorpion.lifeStages.1.labelMale>самец рад-скорпиона</RadScorpion.lifeStages.1.labelMale>
+<RadScorpion.lifeStages.1.labelMalePlural>самцы рад-скорпионов</RadScorpion.lifeStages.1.labelMalePlural>
+<RadScorpion.lifeStages.1.labelFemale>самка рад-скорпиона</RadScorpion.lifeStages.1.labelFemale>
+<RadScorpion.lifeStages.1.labelFemalePlural>самки рад-скорпионов</RadScorpion.lifeStages.1.labelFemalePlural>
+<RadScorpion.lifeStages.2.label>Рад-скорпион</RadScorpion.lifeStages.2.label>
+<RadScorpion.lifeStages.2.labelPlural>Рад-скорпионы</RadScorpion.lifeStages.2.labelPlural>
+<RadScorpion.lifeStages.2.labelMale>самец рад-скорпиона</RadScorpion.lifeStages.2.labelMale>
+<RadScorpion.lifeStages.2.labelMalePlural>самцы рад-скорпионов</RadScorpion.lifeStages.2.labelMalePlural>
+<RadScorpion.lifeStages.2.labelFemale>самка рад-скорпиона</RadScorpion.lifeStages.2.labelFemale>
+<RadScorpion.lifeStages.2.labelFemalePlural>самки рад-скорпионов</RadScorpion.lifeStages.2.labelFemalePlural>
+<RadScorpion.labelMale>самец рад-скорпиона</RadScorpion.labelMale>
+<RadScorpion.labelMalePlural>самцы рад-скорпионов</RadScorpion.labelMalePlural>
+<RadScorpion.labelFemale>самка рад-скорпиона</RadScorpion.labelFemale>
+<RadScorpion.labelFemalePlural>самки рад-скорпионов</RadScorpion.labelFemalePlural>
+
 
 </LanguageData>

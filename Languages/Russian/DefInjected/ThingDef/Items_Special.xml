@@ -26,4 +26,53 @@
   <FEVPack.description>"Узрите революционный продукт американской науки! Вирус Форсированной Эволюции (ВЭ) — это не просто патоген, это билет в светлое (и очень зеленое) будущее! Разработанный для создания суперсолдат, способных пережить ядерную войну (и, возможно, даже прочитать инструкцию), ВЭ прошел строгие испытания... на тех, кто не смог отказаться."</FEVPack.description>
 
 
+  <!-- <ThingDef ParentName="EtherealThingBase">
+        <defName>Warp</defName>
+        <label>warp</label>
+        <thingClass>ThingWithComps</thingClass>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <drawOffscreen>true</drawOffscreen>
+        <category>PsychicEmitter</category>
+        <altitudeLayer>MoteOverheadLow</altitudeLayer>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>EBSG/Circle</texPath>
+            <shaderType>MoteGlowDistorted</shaderType>
+            <color>(0, 255, 0)</color>
+            <drawSize>10</drawSize>
+            <shaderParameters>
+                <_DistortionTex>/Other/Ripples</_DistortionTex>
+                <_distortionIntensity>0.05</_distortionIntensity>
+                <_DistortionScale>0.7</_DistortionScale>
+                <_distortionScrollSpeed>(0.07, 0.07, 0.0)</_distortionScrollSpeed>
+            </shaderParameters>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(5, 105, 5,0)</glowColor>
+            </li>
+            <li Class="CompProperties_DestroyAfterDelay">
+                <delayTicks>30</delayTicks>
+            </li>
+        </comps>
+    </ThingDef> -->
+<RadScorpionPoisonGland.label>Яд рад-скорпиона</RadScorpionPoisonGland.label>
+<RadScorpionPoisonGland.description>"Концентрированное воплощение материнской любви природы — если ваша мать была садистом с докторской степенью по токсикологии. Этот восхитительный коктейль из нейротоксинов, радионуклидов и чистой злобы превратит вашу нервную систему в новогоднюю гирлянду, а внутренности — в экспериментальную площадку для начинающего алхимика.
+
+Гарантированные эффекты:
+- Неповторимое жжение в месте укуса (как будто вас целует паяльная лампа)
+- Галлюцинации (либо это крысы в костюмах Президента, либо пора завязывать с антирадом)
+- Ускоренное сердцебиение (ваше сердце пытается сбежать через грудную клетку)
+
+Идеален для:
+- Самоубийц с богатой фантазией
+- Приготовления 'коктейлей' для особо ненавистных соседей
+- Импровизированной химиотерапии (результаты не гарантированы, выжившие не найдены)
+
+Помните: если после укуса вы увидели свет в конце туннеля — бегите быстрее, это не просветление, а атака второго скорпиона."</RadScorpionPoisonGland.description>
+<RadScorpionPoisonGland.ingestible.ingestCommandString>Выпить {0}</RadScorpionPoisonGland.ingestible.ingestCommandString>
+<RadScorpionPoisonGland.ingestible.ingestReportString>Пьёт {0}.</RadScorpionPoisonGland.ingestible.ingestReportString>
+
 </LanguageData>

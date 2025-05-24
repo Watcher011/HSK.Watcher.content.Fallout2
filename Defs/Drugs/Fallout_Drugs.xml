@@ -562,4 +562,81 @@
 	</comps>
   </ThingDef>
   
+  
+  	<!--«Скорпоник» — энергетик с характером!-->
+	
+ <ThingDef ParentName="FalloutDrugBase">
+    <defName>Scorponade</defName>
+		<label>"Scorponade" Energy Drink</label>
+        <description>*"Because regular energy drinks are for wimps! True wastelanders only drink 'Scorponade' - the revolutionary beverage made from 100% pure rad-scorpion venom, lovingly distilled through an old gas mask and a pinch of desperation!
+**Why you'll love it:**
+ 3 seconds and you won't feel tired anymore. You won't feel anything at all.  
+ Unique "fiery" taste (that's not spice - those are your taste buds dying).  
+ More energizing than a laser rifle shot to the backside!  
+ Endorsed by the Vault-Tec Medical Association (though the last doctor screamed "NO!" before slipping into a coma).  
+
+**Side effects may include:**
+- Spontaneous muscle spasms (your body will dance without your permission).  
+- Temporary blindness (but what amazing hallucinations!).  
+- The sensation of being trampled by a brahmin... three times.  
+- Unexplainable cravings to eat fire ants.  
+
+**Usage instructions:**
+1. Shake well (if the bottle moves on its own, that's normal).  
+2. Chug immediately (sipping slowly might lead to realization).  
+3. Avoid operating machinery for 48 hours (or until you stop seeing sounds).  
+
+*'Scorponade' - because death is no excuse for low productivity!*"</description>
+    <descriptionHyperlinks>
+      <HediffDef>Scorponade</HediffDef>
+    </descriptionHyperlinks>
+   <graphicData>
+				<texPath>Things/Item/Special/Scorponade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.5)</drawSize>
+	</graphicData>
+    <statBases>
+      <WorkToMake>600</WorkToMake>
+      <MarketValue>53</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <joyKind>Chemical</joyKind>
+      <joy>0.90</joy>
+      <drugCategory>Social</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestCommandString>Drink {0}</ingestCommandString>
+	 <ingestReportString>Drinking {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+    <outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>Scorponade</hediffDef>
+					<severity>1.75</severity>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Rest</need>
+					<offset>0.92</offset>
+				</li>
+	</outcomeDoers>
+    </ingestible>
+    <costList>
+      <RawTato>1</RawTato>
+      <Psycho>1</Psycho>
+	  <RadScorpionPoisonGland>1</RadScorpionPoisonGland>
+    </costList>
+   <comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>2.00~3.00</overdoseSeverityOffset>
+			</li>
+	</comps>
+  </ThingDef>
+ 
+   
+  
 </Defs>

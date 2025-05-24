@@ -130,7 +130,7 @@
 		<defName>Radroach</defName>
 		<label>Radroach</label>
 		<race>Radroach</race>
-		<combatPower>25</combatPower>
+		<combatPower>5</combatPower>
 		<canArriveManhunter>false</canArriveManhunter>
 		<ecoSystemWeight>0.03</ecoSystemWeight>
 		<lifeStages>
@@ -162,6 +162,156 @@
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Cockroach/CockroachFDessicated</texPath>
 					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	<ThingDef ParentName="SK_InsectThingBase">
+		<defName>RadScorpion</defName>
+		<label>Rad-Scorpion</label>
+		<description>*"Nature has finally answered the age-old question: 'What if you scaled up a scorpion to the size of an SUV, gave it a dose of radiation, and absolutely no sense of self-preservation?'This walking nightmare of entomologists combines all the best qualities: the armor of a tank, the speed of an enraged brahmin, and a signature 'sting of death' that guarantees either instant death or a long and painful agony (depending on how much the Universe hates you today).Their habits are especially 'charming': suddenly crawling out of the ground right behind you, ignoring the laws of physics when pursuing, and reproducing faster than Vault dwellers can breed paranoia.The only plus? Their venom is a great substitute for coffee if you need to stay awake for the next three days. Just... don't tell the doctor how you got cardiac arrest."*.</description>
+		<statBases>
+			<Mass>120</Mass>
+			<MoveSpeed>2.8</MoveSpeed>
+			<ArmorRating_Blunt>8</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.9</ArmorRating_Sharp>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>60</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<MarketValue>3500</MarketValue>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeatAmount>75</MeatAmount>
+			<MeleeDodgeChance>0</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<ToxicResistance>1</ToxicResistance>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>3.5</armorPenetrationSharp>
+				<armorPenetrationBlunt>9</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>18</power>
+				<cooldownTime>2.85</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<chanceFactor>0.5</chanceFactor>
+				<armorPenetrationBlunt>8</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<comps>
+			<li Class="SK.CompProperties_ShearableRenameable">
+				<compClass>SK.CompShearableRenameable</compClass>
+				<growthLabel>Chitin</growthLabel>
+				<woolDef>Chitin</woolDef>
+				<shearIntervalDays>8</shearIntervalDays>
+				<woolAmount>125</woolAmount>
+			</li>
+		</comps>
+		<butcherProducts>
+			<Chitin>40</Chitin>
+			<RadScorpionPoisonGland>1</RadScorpionPoisonGland>
+		</butcherProducts>
+		<race>
+			<predator>true</predator>
+			<maxPreyBodySize>1.3</maxPreyBodySize>
+			<baseHungerRate>0.9</baseHungerRate>
+			<body>BeetleLike</body>
+			<baseBodySize>0.7</baseBodySize>
+			<baseHealthScale>2.8</baseHealthScale>
+			<foodType>CarnivoreAnimal, CarnivoreAnimalStrict, Corpse, AnimalProduct</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<wildness>0.9</wildness>
+			<trainability>Intermediate</trainability>
+			<gestationPeriodDays>14</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.35</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>1</manhunterOnDamageChance>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.4</minAge>
+					<soundWounded>Pawn_BigInsect_Pain</soundWounded>
+					<soundDeath>Pawn_BigInsect_Death</soundDeath>
+					<soundCall>Pawn_BigInsect_Call</soundCall>
+					<soundAngry>Pawn_BigInsect_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+			<trainableTags>
+				<li>Basic</li>
+				<li>Combat</li>
+			</trainableTags>
+			<untrainableTags>
+				<li>Help</li>
+				<li>Work</li>
+			</untrainableTags>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>RadScorpion</defName>
+		<label>Rad-Scorpion</label>
+		<race>RadScorpion</race>
+		<combatPower>220</combatPower>
+		<ecoSystemWeight>0.7</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radscorpion/Radscorpion</texPath>
+					<drawSize>1.3</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>1.2</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radscorpion/Radscorpion</texPath>
+					<drawSize>2.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>1.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radscorpion/Radscorpion</texPath>
+					<drawSize>2.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
+					<drawSize>2.4</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

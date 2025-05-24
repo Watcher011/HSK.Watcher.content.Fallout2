@@ -893,6 +893,7 @@
 			<MeleeCritChance>0.43</MeleeCritChance>
 			<MeleeParryChance>0.22</MeleeParryChance>
 			<AimingDelayFactor>1.25</AimingDelayFactor>
+			<ToxicResistance>1</ToxicResistance>
 		</statBases>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
@@ -1113,5 +1114,11 @@
 			</li>
 		</lifeStages>
 	</PawnKindDef>
+	
+	
+	
+	
+
+	
 	
 </Defs>

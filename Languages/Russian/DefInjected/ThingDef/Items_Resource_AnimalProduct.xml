@@ -12,11 +12,11 @@
   <EggDeathclawFertilized.label>Яйцо Когтя Смерти (оплодотворённое)</EggDeathclawFertilized.label>
   <EggDeathclawFertilized.description>Оплодотворённое яйцо Когтя Смерти. Если всё пойдёт хорошо, из него вылупится детёныш. Можно съесть сырым, но приготовленное гораздо вкуснее.</EggDeathclawFertilized.description>
 
- <EggMirelurkUnfertilized.label>Яйцо болотника (неоплодотворённое)</EggMirelurkUnfertilized.label>
-<EggMirelurkUnfertilized.description>Неоплодотворённое яйцо болотника.</EggMirelurkUnfertilized.description>
+  <EggMirelurkUnfertilized.label>Яйцо болотника (неоплодотворённое)</EggMirelurkUnfertilized.label>
+  <EggMirelurkUnfertilized.description>Неоплодотворённое яйцо болотника.</EggMirelurkUnfertilized.description>
 
-<EggMirelurkFertilized.label>Яйцо болотника (оплодотворённое)</EggMirelurkFertilized.label>
-<EggMirelurkFertilized.description>Оплодотворённое яйцо болотника. Если всё пойдёт хорошо, из него вылупится детёныш болотника. Яйца можно есть сырыми, но приготовленными они гораздо вкуснее.</EggMirelurkFertilized.description>
+  <EggMirelurkFertilized.label>Яйцо болотника (оплодотворённое)</EggMirelurkFertilized.label>
+  <EggMirelurkFertilized.description>Оплодотворённое яйцо болотника. Если всё пойдёт хорошо, из него вылупится детёныш болотника. Яйца можно есть сырыми, но приготовленными они гораздо вкуснее.</EggMirelurkFertilized.description>
 
 
 </LanguageData>

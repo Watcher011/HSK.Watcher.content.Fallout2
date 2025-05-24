@@ -52,7 +52,7 @@
 			<BurnDurationHours>1000.0</BurnDurationHours>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>Droids_D2</researchPrerequisite>
+        	<researchPrerequisite>Electronics_C2</researchPrerequisite>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<effectWorking>Cook</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
@@ -76,6 +76,7 @@
 				<energyWhenConsumed>1.0</energyWhenConsumed>
 			</li>
 		</comps>
+		
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>
@@ -372,4 +373,68 @@
         </comps>
     </ThingDef>
 	-->
+	
+	
+	<ThingDef ParentName="SK_ResourceBase">
+		<defName>RadScorpionPoisonGland</defName>
+		<label>Rad Scorpion Poison</label>
+		<description>"A concentrated embodiment of nature's motherly love - if your mother was a sadist with a PhD in toxicology. This delicious cocktail of neurotoxins, radionuclides and pure malice will turn your nervous system into a Christmas garland, and your insides into an experimental site for a budding alchemist.
+Guaranteed effects:
+- A unique burning sensation at the site of the bite (as if you were being kissed by a blowtorch)
+- Hallucinations (either these are rats in Presidential suits, or it's time to quit the anti-rad)
+- Increased heart rate (your heart is trying to escape through your chest)
+Perfect for:
+- Suicides with a rich imagination
+- Making 'cocktails' for particularly hated neighbors
+- Improvised chemotherapy (results not guaranteed, no survivors found)
+Remember: if after the bite you saw a light at the end of the tunnel - run faster, it's not enlightenment, and the attack of the second scorpion."</description>
+		<graphicData>
+			<texPath>Things/Item/RadScorpionPoisonGland</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			 <drawSize>(0.5,0.5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>0.2</DeteriorationRate>
+			<Mass>0.1</Mass>
+			<Nutrition>0.01</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<preferability>NeverForNutrition</preferability>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<tasteThought>AtePoison</tasteThought>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RadScorpionPoison</hediffDef>
+					<severity>0.5</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>10</stackLimit>
+		<thingCategories>
+			<li>Foods</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>4.5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps> 
+	</ThingDef>
+	
+
 </Defs>

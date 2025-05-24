@@ -3,8 +3,10 @@
 <Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/pollutionWildAnimals</xpath>
 		<value>
+		<Deathclaw>0.01</Deathclaw>
 		<Mirelurk>0.07</Mirelurk>
-		<Radroach>0.07</Radroach>
+		<Radroach>0.37</Radroach>
+		<RadScorpion>0.03</RadScorpion>
 		<Gecko_green>0.07</Gecko_green>
 		<Gecko_fire>0.07</Gecko_fire>
 		<Gecko_gold>0.07</Gecko_gold>
@@ -15,8 +17,10 @@
 <Operation Class="PatchOperationAdd">
 		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildAnimals</xpath>
 		<value>
+		<Deathclaw>0.01</Deathclaw>
 		<Mirelurk>0.07</Mirelurk>
-		<Radroach>0.07</Radroach>
+		<Radroach>0.37</Radroach>
+		<RadScorpion>0.03</RadScorpion>
 		<Gecko_green>0.07</Gecko_green>
 		<Gecko_fire>0.07</Gecko_fire>
 		<Gecko_gold>0.07</Gecko_gold>

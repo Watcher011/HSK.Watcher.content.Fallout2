@@ -1,23 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<MirelurkLike.label>Ракообразные</MirelurkLike.label>
-<MirelurkLike.corePart.parts.4.customLabel>левое лёгкое</MirelurkLike.corePart.parts.4.customLabel>
-<MirelurkLike.corePart.parts.5.customLabel>правое лёгкое</MirelurkLike.corePart.parts.5.customLabel>
-<MirelurkLike.corePart.parts.6.customLabel>левая почка</MirelurkLike.corePart.parts.6.customLabel>
-<MirelurkLike.corePart.parts.7.customLabel>правая почка</MirelurkLike.corePart.parts.7.customLabel>
-<MirelurkLike.corePart.parts.9.parts.0.parts.1.customLabel>левый глаз</MirelurkLike.corePart.parts.9.parts.0.parts.1.customLabel>
-<MirelurkLike.corePart.parts.9.parts.0.parts.2.customLabel>правый глаз</MirelurkLike.corePart.parts.9.parts.0.parts.2.customLabel>
-<MirelurkLike.corePart.parts.10.customLabel>левая клешня</MirelurkLike.corePart.parts.10.customLabel>
-<MirelurkLike.corePart.parts.10.parts.0.customLabel>левая клешня</MirelurkLike.corePart.parts.10.parts.0.customLabel>
-<MirelurkLike.corePart.parts.11.customLabel>правая клешня</MirelurkLike.corePart.parts.11.customLabel>
-<MirelurkLike.corePart.parts.11.parts.0.customLabel>правая клешня</MirelurkLike.corePart.parts.11.parts.0.customLabel>
-<MirelurkLike.corePart.parts.12.customLabel>передняя левая нога</MirelurkLike.corePart.parts.12.customLabel>
-<MirelurkLike.corePart.parts.13.customLabel>передняя правая нога</MirelurkLike.corePart.parts.13.customLabel>
-<MirelurkLike.corePart.parts.14.customLabel>средняя левая нога</MirelurkLike.corePart.parts.14.customLabel>
-<MirelurkLike.corePart.parts.15.customLabel>средняя правая нога</MirelurkLike.corePart.parts.15.customLabel>
-<MirelurkLike.corePart.parts.16.customLabel>задняя левая нога</MirelurkLike.corePart.parts.16.customLabel>
-<MirelurkLike.corePart.parts.17.customLabel>задняя правая нога</MirelurkLike.corePart.parts.17.customLabel>
+  <MirelurkLike.label>Ракообразные</MirelurkLike.label>
+  <MirelurkLike.corePart.parts.4.customLabel>левое лёгкое</MirelurkLike.corePart.parts.4.customLabel>
+  <MirelurkLike.corePart.parts.5.customLabel>правое лёгкое</MirelurkLike.corePart.parts.5.customLabel>
+  <MirelurkLike.corePart.parts.6.customLabel>левая почка</MirelurkLike.corePart.parts.6.customLabel>
+  <MirelurkLike.corePart.parts.7.customLabel>правая почка</MirelurkLike.corePart.parts.7.customLabel>
+  <MirelurkLike.corePart.parts.9.parts.0.parts.1.customLabel>левый глаз</MirelurkLike.corePart.parts.9.parts.0.parts.1.customLabel>
+  <MirelurkLike.corePart.parts.9.parts.0.parts.2.customLabel>правый глаз</MirelurkLike.corePart.parts.9.parts.0.parts.2.customLabel>
+  <MirelurkLike.corePart.parts.10.customLabel>левая клешня</MirelurkLike.corePart.parts.10.customLabel>
+  <MirelurkLike.corePart.parts.10.parts.0.customLabel>левая клешня</MirelurkLike.corePart.parts.10.parts.0.customLabel>
+  <MirelurkLike.corePart.parts.11.customLabel>правая клешня</MirelurkLike.corePart.parts.11.customLabel>
+  <MirelurkLike.corePart.parts.11.parts.0.customLabel>правая клешня</MirelurkLike.corePart.parts.11.parts.0.customLabel>
+  <MirelurkLike.corePart.parts.12.customLabel>передняя левая нога</MirelurkLike.corePart.parts.12.customLabel>
+  <MirelurkLike.corePart.parts.13.customLabel>передняя правая нога</MirelurkLike.corePart.parts.13.customLabel>
+  <MirelurkLike.corePart.parts.14.customLabel>средняя левая нога</MirelurkLike.corePart.parts.14.customLabel>
+  <MirelurkLike.corePart.parts.15.customLabel>средняя правая нога</MirelurkLike.corePart.parts.15.customLabel>
+  <MirelurkLike.corePart.parts.16.customLabel>задняя левая нога</MirelurkLike.corePart.parts.16.customLabel>
+  <MirelurkLike.corePart.parts.17.customLabel>задняя правая нога</MirelurkLike.corePart.parts.17.customLabel>
 
 
 </LanguageData>
