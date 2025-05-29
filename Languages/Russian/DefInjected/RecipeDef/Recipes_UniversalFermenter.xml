@@ -14,9 +14,9 @@
   <MakeAmmo_FatManShell_HE.description>Ядерный снаряд для Толстяка x1.</MakeAmmo_FatManShell_HE.description>
   <MakeAmmo_FatManShell_HE.jobString>Создает снаряд для Толстяка.</MakeAmmo_FatManShell_HE.jobString>
 
- <MakeAmmo_FatManShell_FGM.label>Создать неядерный снаряд для толстяка x1</MakeAmmo_FatManShell_FGM.label>
-<MakeAmmo_FatManShell_FGM.description>Снаряд для толстяка x1.</MakeAmmo_FatManShell_FGM.description>
-<MakeAmmo_FatManShell_FGM.jobString>Создает снаряд для толстяка.</MakeAmmo_FatManShell_FGM.jobString>
+  <MakeAmmo_FatManShell_FGM.label>Создать неядерный снаряд для толстяка x1</MakeAmmo_FatManShell_FGM.label>
+  <MakeAmmo_FatManShell_FGM.description>Снаряд для толстяка x1.</MakeAmmo_FatManShell_FGM.description>
+  <MakeAmmo_FatManShell_FGM.jobString>Создает снаряд для толстяка.</MakeAmmo_FatManShell_FGM.jobString>
 
   <Make_Vaultjumpsuit.label>Создать комбинезон Убежища x1</Make_Vaultjumpsuit.label>
   <Make_Vaultjumpsuit.description>Комбинезон Убежища x1.</Make_Vaultjumpsuit.description>

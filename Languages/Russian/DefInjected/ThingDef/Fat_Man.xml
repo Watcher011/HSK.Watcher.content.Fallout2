@@ -7,10 +7,10 @@
   <Ammo_FatManShell_HE.description>Данный тип характеризуется большей разрушительной силой и радиационным загрязнением. Увеличение урона достигается за счет снижения дальности, что может плохо обернуться для плохо защищенного стрелка.</Ammo_FatManShell_HE.description>
 
   <Ammo_FatManShell_FGM.label>Испорченный ядерный выстрел</Ammo_FatManShell_FGM.label>
-<Ammo_FatManShell_FGM.description>Данный тип характеризуется низкой убойной силой и создает радиационное загрязнение.</Ammo_FatManShell_FGM.description>
+  <Ammo_FatManShell_FGM.description>Данный тип характеризуется низкой убойной силой и создает радиационное загрязнение.</Ammo_FatManShell_FGM.description>
 
-<Bullet_FatManShell_HE.label>Ядерный выстрел (NHE)</Bullet_FatManShell_HE.label>
-<Bullet_FatManShell_FGM.label>Ядерный выстрел (FGM)</Bullet_FatManShell_FGM.label>
+  <Bullet_FatManShell_HE.label>Ядерный выстрел (NHE)</Bullet_FatManShell_HE.label>
+  <Bullet_FatManShell_FGM.label>Ядерный выстрел (FGM)</Bullet_FatManShell_FGM.label>
 
 
 </LanguageData>

@@ -439,7 +439,15 @@ Remember: if after the bite you saw a light at the end of the tunnel - run faste
     <ThingDef ParentName="SK_ResourceBase">
 		<defName>PlanD</defName>
 		<label>Plan "D"</label>
-		<description>(A quick way to leave the colony). Created by Vault-Tec as a cheap option for people who can't afford a Vault. Banana flavored.</description>
+		<description>(The fastest way to get "liberated" from the colony!*).  
+Developed by Vault-Tec™ under the "Affordable Rescue for Low-Income Citizens" program.  
+For just 2,999 bottle caps**, you get:  
+- A one-way ticket***   
+- Our patented "fragrance" (now with 20% more artificial flavoring!)  
+*"Liberation" means permanent termination from all Vault-Tec social programs.  
+**No refunds, even if the plan fails.  
+
+P.S. Legal reminder: "Plan D" is not a plan, medicine, or edible product (despite added flavoring).</description>
 		<graphicData>
 			<texPath>Things/Item/PlanD</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

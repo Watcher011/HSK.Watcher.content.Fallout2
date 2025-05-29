@@ -76,5 +76,19 @@
   <RadScorpionPoisonGland.ingestible.ingestCommandString>Выпить {0}</RadScorpionPoisonGland.ingestible.ingestCommandString>
   <RadScorpionPoisonGland.ingestible.ingestReportString>Пьёт {0}.</RadScorpionPoisonGland.ingestible.ingestReportString>
 
+  <PlanD.label>План "Д"</PlanD.label>  
+<PlanD.description>  
+(Самый быстрый способ "освободиться" от колонии!*).  
+Разработан Vault-Tec™ в рамках программы "Доступное спасение для малоимущих".  
+Всего за 2999 крышек** вы получаете:  
+- Билет в один конец***  
+- Наш эксклюзивный "аромат" (теперь с 20% больше искусственных отдушек!)  
+
+*Под "освобождением" понимается необратимый выход из всех социальных программ Vault-Tec.  
+**Крышки не возвращаются, даже если план не сработал.  
+
+P.S. Наши юристы напоминают: "Plan D" не является планом, лекарством или съедобным продуктом, несмотря на вкусовые добавки.  
+</PlanD.description>  
+
 
 </LanguageData>
