@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<FalloutJet.label>제트</FalloutJet.label>
+  <FalloutJet.description>이 약물은 시간이 매우 느리게 흐르는 것 같은 변형된 의식 상태를 유발합니다. 이를 통해 짧은 시간 동안 평소보다 더 많은 행동을 할 수 있습니다.</FalloutJet.description>
+  <FalloutJet.ingestible.ingestCommandString>{0} 사용</FalloutJet.ingestible.ingestCommandString>
+  <FalloutJet.ingestible.ingestReportString>{0} 사용 중.</FalloutJet.ingestible.ingestReportString>
+
+  <FalloutUltraJet.label>울트라 제트</FalloutUltraJet.label>
+  <FalloutUltraJet.description>개량된 버전의 제트로, 시간이 매우 느리게 흐르는 것 같은 변형된 의식 상태를 유발합니다. 이를 통해 짧은 시간 동안 평소보다 더 많은 행동을 할 수 있습니다.</FalloutUltraJet.description>
+  <FalloutUltraJet.ingestible.ingestCommandString>{0} 사용</FalloutUltraJet.ingestible.ingestCommandString>
+  <FalloutUltraJet.ingestible.ingestReportString>{0} 사용 중.</FalloutUltraJet.ingestible.ingestReportString>
+
+  <Stimpak.label>스팀팩</Stimpak.label>
+  <Stimpak.description>진통제, 각성제, 그리고 움직이는 듯한 무언가의 혼합물... 하지만 코요테와의 조우 후 가슴에 난 구멍을 급히 수술해야 할 때 이런 걸 누가 신경 쓰겠습니까?</Stimpak.description>
+  <Stimpak.ingestible.ingestCommandString>{0} 주사</Stimpak.ingestible.ingestCommandString>
+  <Stimpak.ingestible.ingestReportString>{0} 주사 중.</Stimpak.ingestible.ingestReportString>
+
+  <StimpakSuper.label>슈퍼 스팀팩</StimpakSuper.label>
+  <StimpakSuper.description>상처가 너무 느리게 아는 것에 지치셨나요? 근육이 힘으로 충전되는 느낌을 받고, 나쁜 거래 후 상인 길드장의 명성처럼 빠르게 사라지는 통증을 원하시나요? 슈퍼 스팀팩™은 포스트 아포칼립스 의학계의 혁명입니다!</StimpakSuper.description>
+  <StimpakSuper.ingestible.ingestCommandString>{0} 주사</StimpakSuper.ingestible.ingestCommandString>
+  <StimpakSuper.ingestible.ingestReportString>{0} 주사 중.</StimpakSuper.ingestible.ingestReportString>
+
+  <Med-x.label>메드-X</Med-x.label>
+  <Med-x.description>모르핀 기반의 고효율 진통제. 일회용 주사기 형태로 제공됩니다. 사용 시 일정 시간 동안 피해 저항력이 증가합니다. 전쟁 전 약물로 생존자가 실험실에서 제조할 수 없습니다.</Med-x.description>
+  <Med-x.ingestible.ingestCommandString>{0} 주사</Med-x.ingestible.ingestCommandString>
+  <Med-x.ingestible.ingestReportString>{0} 주사 중.</Med-x.ingestible.ingestReportString>
+
+  <MysteriousSerum.label>신비한 혈청</MysteriousSerum.label>
+  <MysteriousSerum.description>이 혈청은 노화 과정을 멈출 수 있으며, 부작용이 있을 수 있습니다</MysteriousSerum.description>
+  <MysteriousSerum.ingestible.ingestCommandString>{0} 주사</MysteriousSerum.ingestible.ingestCommandString>
+  <MysteriousSerum.ingestible.ingestReportString>{0} 주사 중.</MysteriousSerum.ingestible.ingestReportString>
+
+  <!-- "스콜포네이드" - 개성 넘치는 에너지 드링크! -->
+
+  <Scorponade.label>"스콜포네이드" 에너지 드링크</Scorponade.label>
+  <Scorponade.description>*"일반 에너지 드링크는 겁쟁이들만 마시는 거다! 진정한 황무지 거주자라면 100% 순수 방사능 전갈 독으로 제조된 혁신적인 음료 '스콜포네이드'를 마실 줄 알아야 한다! 오래된 방독면과 필사적인 기도로 정제된 이 음료는 각성의 새 지평을 열어줄 것이다!  
+
+**이점:**  
+- 3초 후 피로함을 느낄 수 없게 됩니다. 아무것도 느낄 수 없게 될 겁니다.  
+- 독특한 "불타는" 맛 (매운 맛이 아니라 혀의 감각 신경이 죽어가는 것입니다).  
+- 엉덩이에 레이저 소총을 맞는 것보다 더 강력한 각성 효과!  
+- 볼트-텍 의학 협회 인증 (마지막으로 인증한 의사는 혼수 상태에 빠지기 전 "안 돼!"라고 외쳤지만).  
+
+**부작용:**  
+- 갑작스러운 근육 경련 (당신의 몸이 허락 없이 춤을 출 것입니다).  
+- 일시적 실명 (하지만 환상적인 환각이 따를 겁니다!).  
+- 브라민에게 세 번 짓밟힌 듯한 느낌.  
+- 불개미를 먹고 싶은 설명할 수 없는 욕구.  
+
+**사용 방법:**  
+1. 잘 흔들어주세요 (병이 저절로 움직인다면 정상입니다).  
+2. 단숨에 들이마십시오 (천천히 마시면 현실을 깨달을 수 있습니다).  
+3. 48시간 동안 기계 조작을 피하십시오 (혹은 소리가 보이는 현상이 멈출 때까지).  
+
+*'스콜포네이드' - 생산성 저하를 변명할 죽음 따윈 없으니까!*"</Scorponade.description>
+  <Scorponade.ingestible.ingestCommandString>{0} 마시기</Scorponade.ingestible.ingestCommandString>
+  <Scorponade.ingestible.ingestReportString>{0} 마시는 중.</Scorponade.ingestible.ingestReportString>
+
+
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+ <Plant_Mutfruit.label>뮈트프루트 식물</Plant_Mutfruit.label>
+<Plant_Mutfruit.description>작은 나무에서 자라는 고도로 변이된 과일입니다. 원래 어떤 과일이 변이되었는지는 알 수 없습니다. 커먼웰스와 그 너머에서 널리 분포하며, 우호적인 정착지에서 재배할 수 있습니다. 다양한 요리 재료로 사용됩니다.</Plant_Mutfruit.description>
+
+<PlantTarberry.label>타르베리 식물</PlantTarberry.label>
+<PlantTarberry.description>변이된 베리입니다. 직접 섭취할 수 있을 뿐만 아니라, 타르베리는 요리 재료로도 사용될 수 있습니다.</PlantTarberry.description>
+
+<Plant_Tato.label>테이토 식물</Plant_Tato.label>
+<Plant_Tato.description>대전쟁 이후 변이된 토마토(Tomato)와 감자(Potato)의 혼종입니다.</Plant_Tato.description>
+
+
+</LanguageData>

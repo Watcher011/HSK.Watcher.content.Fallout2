@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <TrapIED_LidMineExplosive.label>IED 뚜껑 지뢰</TrapIED_LidMineExplosive.label>
+<TrapIED_LidMineExplosive.description>전쟁 전 볼트-텍의 인기 도시락 통은 포스트 아포칼립스 커먼웰스에서 치명적인 지뢰로 변모했습니다. 이 자작 장치는 어떤 적이라도 처리하는 데 도움을 줄 것입니다. 함정으로 사용 가능. 동물들은 평상시에 이를 감지할 수 있습니다.</TrapIED_LidMineExplosive.description>
+
+<TrapIED_PlasmaMineExplosive.label>IED 플라즈마 지뢰</TrapIED_PlasmaMineExplosive.label>
+<TrapIED_PlasmaMineExplosive.description>전쟁 전 누카 엔지니어들의 이 고급스러운 작품은 발을 조심하지 않는 자들을 기다립니다. 원리는 간단합니다: 설치하고 잊어버리면, 누군가(아마도 당신일 수도)가 열역학의 순간적인 교훈을 얻게 됩니다.</TrapIED_PlasmaMineExplosive.description>
+
+<!-- AI 유인 터렛 -->
+<Fallout_Turret_Turret.label>자동 터렛</Fallout_Turret_Turret.label>
+<Fallout_Turret_Turret.description>자동 터렛은 포스트 아포칼립스의 가혹한 환경을 위해 재조립 및 개조된 치명적인 전쟁 전 장치입니다. 주요 특징은 재충전 없이도 거의 무제한의 배터리 수명을 제공하는 마이크로 원자로 전원입니다. "요새화된 위치나 수송 플랫폼에서 사용을 권장합니다. 방치하지 마십시오 - 도둑이나 슈퍼 뮤턴트들이 스크랩을 위해 가져가거나... 더 끔찍한 무기의 부품으로 사용할 수 있습니다."\n구경: 5.56x45mm NATO</Fallout_Turret_Turret.description>
+
+<Gun_FalloutMiniTurret.label>센트리 경기관총</Gun_FalloutMiniTurret.label>
+<Gun_FalloutMiniTurret.description>터렛에 장착된 임시조립 자동 기관총.</Gun_FalloutMiniTurret.description>
+
+<Fallout_laser_Turret.label>자동 레이저 터렛</Fallout_laser_Turret.label>
+<Fallout_laser_Turret.description>레이저 소총, 몇 개의 깡통, 고장난 프로텍트론 센서 모듈, 그리고 "이번엔 분명히 작동할 거야"라는 잘못된 믿음으로 조립된 홈메이드 경이 무기.</Fallout_laser_Turret.description>
+
+<Gun_FalloutlaserTurret.label>센트리 레이저 건</Gun_FalloutlaserTurret.label>
+<Gun_FalloutlaserTurret.description>터렛에 장착된 임시조착 자동 레이저 무기.</Gun_FalloutlaserTurret.description>
+
+
+</LanguageData>

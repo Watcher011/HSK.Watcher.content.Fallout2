@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <BottleCap.label>병뚜껑</BottleCap.label>
+<BottleCap.description>병뚜껑은 NCR 무역 회사들이 통제하고 규제하는 물 기반 통화입니다. 무역 회사들은 NCR 화폐에 대한 신뢰가 떨어지자 주 통화로 병뚜껑을 다시 도입하기로 공모했습니다.</BottleCap.description>
+
+<NuclearBattery.label>핵 배터리</NuclearBattery.label>
+<NuclearBattery.description>레이저 소총부터 플라즈마 캐논까지, 당신의 모든 에너지 무기군을 작동시키는 이 작은 배터리! 손바닥 안에 들어갈 정도로 작은 핵 반응로가 이렇게 훌륭한 아이디어일 줄 누가 알았을까요? 원자 분열을 소다 캔 크기로 압축해 준 전쟁 전 기업들에게 감사하세요. 뭐가 문제가 될까요?</NuclearBattery.description>
+
+<Vault81cure.label>볼트 81 치료제</Vault81cure.label>
+<Vault81cure.description>주요 임무는 83년 전에 완료되었음을 보고드립니다. 수천 가지 병원체가 숙주의 몸에서 배양되었고, 이를 모두 치료할 수 있는 광범위한 스펙트럼의 약물이 개발되었습니다. 이 작업은 수십 년이 걸렸으며 저에게 큰 만족감을 주었습니다. [...] 당신이 "볼트-텍"의 대표자라면, 제가 만든 이 광범위한 치료제를 당신에게 맡길 수 있습니다.</Vault81cure.description>
+<Vault81cure.comps.0.useLabel>{0_label} 사용</Vault81cure.comps.0.useLabel>
+
+<RadHemogenPack.label>방사능 혈액 팩</RadHemogenPack.label>
+<RadHemogenPack.description>빛나는 바다 주민의 몸에서 추출한 이 두껍고 반짝이는 녹색 액체는 이상하게도 살아있는 것처럼 펄스칩니다. 이걸 보면 약간 현기증이 날 정도죠. 엔클레이브의 과학자들은 아마 탄약 반 발짝이라도 주고 싶어할 테지만, 현지 노숙자들은 이걸 멀리합니다. 이 안에 무슨 끔찍한 것들이 떠다니는지 누가 알겠어요? 팔아버릴까요, 아니면... 위험을 무릅쓰지 말고 가장 가까운 산성 웅덩이에 던져버릴까요?</RadHemogenPack.description>
+
+<RadMeat.label>황폐한 땅의 괴물 고기</RadMeat.label>
+<RadMeat.description>건강 검진을 통과하지 못한 생물체에서 얻은 황폐한 땅의 '미식' 거품입니다. 이 덩어리는 단단한 브라민 고기부터 의심스럽게 미끈한 돌연변이 스테이크까지 무엇이든 될 수 있습니다. 날것일 때는 눈물 나는 향기를 풍기지만, 구우면(또는 오랫동안 알코올에 담가두면) 거의 먹을 만해집니다. 현지인들의 말에 따르면, '이걸 먹고도 머리카락이 빠지지 않았다면 당신은 운이 좋은 거예요!'</RadMeat.description>
+
+<MisterHandyKit.label>미스터 핸디 키트</MisterHandyKit.label>
+<MisterHandyKit.description>미스터 핸디 키트와 설명서</MisterHandyKit.description>
+<MisterHandyKit.comps.0.useLabel>미스터 핸디 조립</MisterHandyKit.comps.0.useLabel>
+
+<FEVPack.label>이상한 팩</FEVPack.label>
+<FEVPack.description>"미국 과학의 혁명적인 제품을 보라! 강제 진화 바이러스(F.E.V.)는 단순한 병원체가 아닙니다. 이것은 밝은(그리고 매우 녹색의) 미래로 가는 티켓이죠! 핵전쟁에서 살아남을(그리고 아마도 설명서를 읽을 수도 있는) 초병사를 만들기 위해 설계된 F.E.V.는 철저한 테스트를 거쳤습니다... 거절할 수 없는 사람들에 대해서요."</FEVPack.description>
+
+<RadScorpionPoisonGland.label>방사능 전갈 독</RadScorpionPoisonGland.label>
+<RadScorpionPoisonGland.description>"자연의 모성애가 집약된 형태 - 만약 당신의 어머니가 독성학 박사 학위를 가진 사디스트라면 말이죠. 신경독, 방사성 핵종, 순수한 악의가 섞인 이 맛있는 칵테일은 당신의 신경계를 크리스마스 장식으로, 내장을 초보 연금술사의 실험장으로 만들어줄 겁니다.
+보장된 효과:
+
+물린 부위의 독특한 작열감 (마치 불꽃놀이로 키스받는 기분)
+
+환각 (대통령 복장을 한 쥐들이거나, 방사능 약을 끊을 때가 된 거겠죠)
+
+심박수 증가 (심장이 가슴을 뚫고 도망가려고 합니다)
+이상적인 용도:
+
+풍부한 상상력을 가진 자살
+
+특히 미운 이웃을 위한 '칵테일' 제조
+
+임시 방편의 화학 요법 (결과는 보장되지 않으며, 생존자는 없습니다)
+기억하세요: 물린 후 터널 끝에 빛이 보인다면 - 더 빨리 달리세요, 깨달음이 아니라 두 번째 전갈의 공격입니다."</RadScorpionPoisonGland.description>
+<RadScorpionPoisonGland.ingestible.ingestCommandString>{0} 마시기</RadScorpionPoisonGland.ingestible.ingestCommandString>
+<RadScorpionPoisonGland.ingestible.ingestReportString>{0}을(를) 마십니다.</RadScorpionPoisonGland.ingestible.ingestReportString>
+
+
+</LanguageData>

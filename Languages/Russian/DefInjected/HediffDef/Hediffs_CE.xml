@@ -15,23 +15,23 @@
   <Charge.description>Атомы в нестабильном состоянии</Charge.description>
 
   <RadScorpionPoison.label>Накопление яда скорпиона</RadScorpionPoison.label>
-<RadScorpionPoison.description>Накопление яда скорпиона в организме</RadScorpionPoison.description>
-<RadScorpionPoison.stages.0.label>начальная</RadScorpionPoison.stages.0.label>
-<RadScorpionPoison.stages.1.label>начальная</RadScorpionPoison.stages.1.label>
-<RadScorpionPoison.stages.2.label>лёгкая</RadScorpionPoison.stages.2.label>
-<RadScorpionPoison.stages.3.label>средняя</RadScorpionPoison.stages.3.label>
-<RadScorpionPoison.stages.4.label>серьёзная</RadScorpionPoison.stages.4.label>
-<RadScorpionPoison.stages.5.label>критическая</RadScorpionPoison.stages.5.label>
+  <RadScorpionPoison.description>Накопление яда скорпиона в организме</RadScorpionPoison.description>
+  <RadScorpionPoison.stages.0.label>начальная</RadScorpionPoison.stages.0.label>
+  <RadScorpionPoison.stages.1.label>начальная</RadScorpionPoison.stages.1.label>
+  <RadScorpionPoison.stages.2.label>лёгкая</RadScorpionPoison.stages.2.label>
+  <RadScorpionPoison.stages.3.label>средняя</RadScorpionPoison.stages.3.label>
+  <RadScorpionPoison.stages.4.label>серьёзная</RadScorpionPoison.stages.4.label>
+  <RadScorpionPoison.stages.5.label>критическая</RadScorpionPoison.stages.5.label>
 
-<Scorponade.label>Энергетик "Скорпонад"</Scorponade.label>
-<Scorponade.description>"Официальный напиток смельчаков, идиотов и тех, кому надоело просыпаться по утрам. 
+  <Scorponade.label>Энергетик "Скорпонад"</Scorponade.label>
+  <Scorponade.description>"Официальный напиток смельчаков, идиотов и тех, кому надоело просыпаться по утрам. 
 Содержит: 
 - 300% суточной дозы радиации 
 - Концентрированный яд рад-скорпиона (для бодрости) 
 - Остатки довоенных энергетиков (вызывает ностальгию по временам, когда мир ещё не был разрушен) 
 Эффект: либо моментальный прилив сил, либо моментальная смерть - как повезёт!".</Scorponade.description>
-<Scorponade.stages.0.label>"Скорпонад", фух</Scorponade.stages.0.label>
-<Scorponade.stages.1.label>"Скорпонад", чувствую себя лучше.</Scorponade.stages.1.label>
+  <Scorponade.stages.0.label>"Скорпонад", фух</Scorponade.stages.0.label>
+  <Scorponade.stages.1.label>"Скорпонад", чувствую себя лучше.</Scorponade.stages.1.label>
 
 
 </LanguageData>

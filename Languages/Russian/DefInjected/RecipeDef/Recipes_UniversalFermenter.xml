@@ -21,19 +21,19 @@
 
   <!-- RecipeDef_Nuka-Cola -->
 
-  <Make_NukaCola.label>Сделайте Ядер-Колу x3</Make_NukaCola.label>
+  <Make_NukaCola.label>Сделать Ядер-Колу x3</Make_NukaCola.label>
   <Make_NukaCola.description>Ядер-кола x3.</Make_NukaCola.description>
   <Make_NukaCola.jobString>Создает ядер-колу.</Make_NukaCola.jobString>
 
-  <Make_NukaColaQuantum.label>Сделайте квантовую Ядер-Колу x3</Make_NukaColaQuantum.label>
+  <Make_NukaColaQuantum.label>Сделать квантовую Ядер-Колу x3</Make_NukaColaQuantum.label>
   <Make_NukaColaQuantum.description>Ядер-Кола Квантум x3.</Make_NukaColaQuantum.description>
   <Make_NukaColaQuantum.jobString>Создает квантовую ядер-колу.</Make_NukaColaQuantum.jobString>
 
-  <Make_NukaColaVictoria.label>Сделайте Ядер-Колу Виктория x3</Make_NukaColaVictoria.label>
+  <Make_NukaColaVictoria.label>Сделать Ядер-Колу Виктория x3</Make_NukaColaVictoria.label>
   <Make_NukaColaVictoria.description>Ядер-Кола Виктория x3.</Make_NukaColaVictoria.description>
   <Make_NukaColaVictoria.jobString>Создает Ядер-Колу Виктория.</Make_NukaColaVictoria.jobString>
 
-  <Make_NukaColaGrapes.label>Сделайте Ядер-Колу Виноград x3</Make_NukaColaGrapes.label>
+  <Make_NukaColaGrapes.label>Сделать Ядер-Колу Виноград x3</Make_NukaColaGrapes.label>
   <Make_NukaColaGrapes.description>Ядер-Кола Виноград x3.</Make_NukaColaGrapes.description>
   <Make_NukaColaGrapes.jobString>Создает виноград Ядер-колы.</Make_NukaColaGrapes.jobString>
 

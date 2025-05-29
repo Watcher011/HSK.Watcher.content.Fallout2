@@ -156,5 +156,30 @@
   <Mirelurk.labelFemale>самка болотника</Mirelurk.labelFemale>
   <Mirelurk.labelFemalePlural>самки болотников</Mirelurk.labelFemalePlural>
 
+  <Brahmin.label>Брамин</Brahmin.label>
+  <Brahmin.labelPlural>Брамины</Brahmin.labelPlural>
+  <Brahmin.lifeStages.0.label>телёнок</Brahmin.lifeStages.0.label>
+  <Brahmin.lifeStages.0.labelPlural>телята</Brahmin.lifeStages.0.labelPlural>
+  <Brahmin.lifeStages.0.labelMale>бычок</Brahmin.lifeStages.0.labelMale>
+  <Brahmin.lifeStages.0.labelMalePlural>бычки</Brahmin.lifeStages.0.labelMalePlural>
+  <Brahmin.lifeStages.0.labelFemale>тёлочка</Brahmin.lifeStages.0.labelFemale>
+  <Brahmin.lifeStages.0.labelFemalePlural>тёлочки</Brahmin.lifeStages.0.labelFemalePlural>
+  <Brahmin.lifeStages.1.label>Брамин</Brahmin.lifeStages.1.label>
+  <Brahmin.lifeStages.1.labelPlural>Брамины</Brahmin.lifeStages.1.labelPlural>
+  <Brahmin.lifeStages.1.labelMale>бык-брамин</Brahmin.lifeStages.1.labelMale>
+  <Brahmin.lifeStages.1.labelMalePlural>быки-брамины</Brahmin.lifeStages.1.labelMalePlural>
+  <Brahmin.lifeStages.1.labelFemale>корова-брамин</Brahmin.lifeStages.1.labelFemale>
+  <Brahmin.lifeStages.1.labelFemalePlural>коровы-брамины</Brahmin.lifeStages.1.labelFemalePlural>
+  <Brahmin.lifeStages.2.label>Брамин</Brahmin.lifeStages.2.label>
+  <Brahmin.lifeStages.2.labelPlural>Брамины</Brahmin.lifeStages.2.labelPlural>
+  <Brahmin.lifeStages.2.labelMale>бык-брамин</Brahmin.lifeStages.2.labelMale>
+  <Brahmin.lifeStages.2.labelMalePlural>быки-брамины</Brahmin.lifeStages.2.labelMalePlural>
+  <Brahmin.lifeStages.2.labelFemale>корова-брамин</Brahmin.lifeStages.2.labelFemale>
+  <Brahmin.lifeStages.2.labelFemalePlural>коровы-брамины</Brahmin.lifeStages.2.labelFemalePlural>
+  <Brahmin.labelMale>бык-брамин</Brahmin.labelMale>
+  <Brahmin.labelMalePlural>быки-брамины</Brahmin.labelMalePlural>
+  <Brahmin.labelFemale>корова-брамин</Brahmin.labelFemale>
+  <Brahmin.labelFemalePlural>female Brahmins</Brahmin.labelFemalePlural>
+
 
 </LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <NukaCola.label>누카-콜라</NukaCola.label>
+  <NukaCola.description>미국 전역에서 흔히 볼 수 있는 대중적인 음료.</NukaCola.description>
+  <NukaCola.ingestible.ingestCommandString>{0} 마시기</NukaCola.ingestible.ingestCommandString>
+  <NukaCola.ingestible.ingestReportString>{0} 마시는 중.</NukaCola.ingestible.ingestReportString>
+
+  <NukaColaQuantum.label>누카-콜라 퀀텀</NukaColaQuantum.label>
+  <NukaColaQuantum.description>상�하고 활기를 주며 약간의 방사능이 포함된 미래형 음료! 누카-콜라 퀀텀은 단순한 탄산음료가 아닙니다. 이 푸르스름한 한 방울 한 방울마다 과학적 혁명이 담겨있죠! 혁신적인 스트론튬-90 딜라이트™ 기술 덕분에, 당신의 몸은 전쟁 이후의 암흑 속에서도 행복으로 빛날 것입니다!</NukaColaQuantum.description>
+  <NukaColaQuantum.ingestible.ingestCommandString>{0} 마시기</NukaColaQuantum.ingestible.ingestCommandString>
+  <NukaColaQuantum.ingestible.ingestReportString>{0} 마시는 중.</NukaColaQuantum.ingestible.ingestReportString>
+
+  <NukaColaVictoria.label>누카-콜라 빅토리아</NukaColaVictoria.label>
+  <NukaColaVictoria.description>위대하고 완전히 무혈의 캐나다 합병을 기념하여 출시된 이 한정판 누카-콜라의 한 모금마다 승리의 맛을 느껴보세요! 이제 더욱 애국적인 자유의 여운과 캐나다인들의 눈물이 은은하게 느껴집니다.</NukaColaVictoria.description>
+  <NukaColaVictoria.ingestible.ingestCommandString>{0} 마시기</NukaColaVictoria.ingestible.ingestCommandString>
+  <NukaColaVictoria.ingestible.ingestReportString>{0} 마시는 중.</NukaColaVictoria.ingestible.ingestReportString>
+
+  <NukaColaGrapes.label>누카-콜라 그레이프</NukaColaGrapes.label>
+  <NukaColaGrapes.description>"유쾌한 독성을 가진 상쾌한 맛!" 핵 겨울이 인류의 마지막 즐거움을 앗아갔을 때, 누카-콜라 코퍼레이션은 세상에 '그레이프'를 선사했습니다. 이 음료는 포도맛을 떠올리게 할 뿐만 아니라 완전히 대체해버립니다.</NukaColaGrapes.description>
+  <NukaColaGrapes.ingestible.ingestCommandString>{0} 마시기</NukaColaGrapes.ingestible.ingestCommandString>
+  <NukaColaGrapes.ingestible.ingestReportString>{0} 마시는 중.</NukaColaGrapes.ingestible.ingestReportString>
+
+  <NukaColaOnslaught.label>누카-콜라 온슬로트</NukaColaOnslaught.label>
+  <NukaColaOnslaught.description>철의 국가의 공식 에너지 드링크이자 브라더후드 병사들이 가장 좋아하는 음료... 음, 규칙을 어길 용기가 있는 병사들 말이죠. 이제 카페인은 두 배, 방사능은 세 배, 그리고 지옥 같은 이 세상의 진정한 영웅들을 위한 특별한 무언가가 추가되었습니다!</NukaColaOnslaught.description>
+  <NukaColaOnslaught.ingestible.ingestCommandString>{0} 마시기</NukaColaOnslaught.ingestible.ingestCommandString>
+  <NukaColaOnslaught.ingestible.ingestReportString>{0} 마시는 중.</NukaColaOnslaught.ingestible.ingestReportString>
+
+  <NukaColaDark.label>누카-콜라 다크</NukaColaDark.label>
+  <NukaColaDark.description>일반 누카-콜라로는 부족하고, 퀀텀은 어둠 속에서 너무 빛나서(레더들을 유인하기도 하죠) 곤란할 때, 누카-콜라 다크가 당신을 구원합니다. 대재앙이 일어난 연도를 잊고 싶은 이들을 위한 음료.</NukaColaDark.description>
+  <NukaColaDark.ingestible.ingestCommandString>{0} 마시기</NukaColaDark.ingestible.ingestCommandString>
+  <NukaColaDark.ingestible.ingestReportString>{0} 마시는 중.</NukaColaDark.ingestible.ingestReportString>
+
+
+</LanguageData>

@@ -13,8 +13,7 @@
 				 <drawSize>0.85</drawSize>
 		</graphicData>			
 		<costList>
-			<ComponentIndustrial>8</ComponentIndustrial>
-			<Rubber>12</Rubber>
+			<Cloth>12</Cloth>
 		</costList>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>

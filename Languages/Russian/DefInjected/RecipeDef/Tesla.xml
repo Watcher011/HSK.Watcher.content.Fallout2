@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+ <MakeAmmo_ChargedTesla.label>изготовить патроны Теслы x40</MakeAmmo_ChargedTesla.label>
+<MakeAmmo_ChargedTesla.description>Создать 40 патронов Теслы.</MakeAmmo_ChargedTesla.description>
+<MakeAmmo_ChargedTesla.jobString>Изготовление патронов Теслы.</MakeAmmo_ChargedTesla.jobString>
+
+
+</LanguageData>

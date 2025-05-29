@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<Fallout_PipeGun.label>파이프 권총</Fallout_PipeGun.label>
+<Fallout_PipeGun.description>물파이프, 자동차 스프링, 전후 황무지의 잡동사니로 조립된 조잡하지만 치명적인 무기. 파이프 권총은 절박한 이들을 위한 무기로, 공장제 권총을 구할 수 없지만 생존을 원하는 자들의 선택이다. 신뢰성은 낮지만 제작과 수리가 쉽다.</Fallout_PipeGun.description>
+<Fallout_PipeGun.tools.0.label>총열</Fallout_PipeGun.tools.0.label>
+
+<Fallout_PipeRifle.label>방랑자 소총</Fallout_PipeRifle.label>
+<Fallout_PipeRifle.description>전쟁 전 무기 잔해, 녹슨 파이프, 황무지에서 주운 부품들로 조립된 이 소총은 생존주의자들과 방랑자들의 전형적인 창작품이다. 5.56x45mm NATO 탄을 수동으로 장전하며, 노리쇠는 부서질 듯이 삐걱거린다. 하지만 적절한 손에 들리면 약탈자의 갑옷에도 구멍을 낼 수 있다.</Fallout_PipeRifle.description>
+<Fallout_PipeRifle.tools.0.label>총열</Fallout_PipeRifle.tools.0.label>
+
+<Fallout_OldRevolver.label>수제 리볼버 "스캐빈저"</Fallout_OldRevolver.label>
+<Fallout_OldRevolver.description>고철, 오래된 파이프, 전쟁 전 장비 부품들로 조립된 조잡하지만 치명적인 리볼버. 두꺼운 벽의 파이프 조각으로 용접된 총열, 자동차 스프링과 장갑판 조각으로 리벳 처리된 프레임. 손잡이는 낡은 전기 테이프와 가죽으로 감겨 있으며, 방사능 표시나 도적 심볼이 새겨져 있다.</Fallout_OldRevolver.description>
+<Fallout_OldRevolver.tools.0.label>총열</Fallout_OldRevolver.tools.0.label>
+
+<Fallout_ChinesePistol.label>중국제 권총</Fallout_ChinesePistol.label>
+<Fallout_ChinesePistol.description>마우저 K96을 기반으로 한 이 무기는 중국 인민해방군이 미국과의 전쟁 중에 활발히 사용했다. 중국 스파이와 정보 요원들의 활동으로 인해 공식적인 군사적 대립이 시작되기 전부터 컬럼비아 특별구와 포인트 룩아웃 공원에서 은밀히 유통되었으며, 전쟁 중 그 유통은 더욱 확대되었다. 일부 중국제 권총은 앵커리지 탈환 작전 중 미군에 노획되어 전리품으로 보내지기도 했다.</Fallout_ChinesePistol.description>
+<Fallout_ChinesePistol.tools.0.label>총열</Fallout_ChinesePistol.tools.0.label>
+
+<Fallout_AN556Order.label>AN-556 "오더"</Fallout_AN556Order.label>
+<Fallout_AN556Order.description>엔클레이브 엔지니어들이 특수부대용으로 설계한 이 인체공학적이고 신뢰할 수 있는 소총은 전쟁 전 AR 플랫폼의 검증된 설계와 전후 황무지 조건에 적응한 현대화된 부품들을 결합했다. 피카티니 레일을 장착해 콜리메이터, 전술용 손전등, 유탄발사기를 설치할 수 있는 높은 정확도와 모듈성을 자랑한다.</Fallout_AN556Order.description>
+<Fallout_AN556Order.tools.0.label>총열</Fallout_AN556Order.tools.0.label>
+
+<Fallout_Fat_Man.label>팻 맨</Fallout_Fat_Man.label>
+<Fallout_Fat_Man.description>전술용 어깨 발사형 핵 캐터펄트. 이 무기는 핵 탄두를 발사해 작은 지역에 핵폭발을 일으켜 막대한 피해를 주고 단기간에 방사능을 방출한다. 완벽한 상태에서 이 무기는 고장 나기 전까지 495발을 발사할 수 있다.</Fallout_Fat_Man.description>
+<Fallout_Fat_Man.tools.0.label>총열</Fallout_Fat_Man.tools.0.label>
+
+<Fallout_PlasmaCarbine.label>플라즈마 카빈 "인시너레이터"</Fallout_PlasmaCarbine.label>
+<Fallout_PlasmaCarbine.description>일반적인 탄도학으로는 부족할 때, 이 하이테크 공포가 도움을 준다. 전쟁 전 군사 프로토타입을 기반으로 한 인시너레이터는 정확한 한 발로 적을 연기나는 재더미로 만들어버린다. 유지비는 비싸지만 전장에서는 그 가치를 발휘하는 이 카빈은 양보다 질을 중시하는 이들에게 귀중히 여겨진다.</Fallout_PlasmaCarbine.description>
+<Fallout_PlasmaCarbine.tools.0.label>총열</Fallout_PlasmaCarbine.tools.0.label>
+
+<Fallout_PlasmaPistol.label>플라즈마 권총 "아이언 팽"</Fallout_PlasmaPistol.label>
+<Fallout_PlasmaPistol.description>컴팩트하지만 치명적인 이 권총은 플라즈마 무기에 있어서 크기는 중요하지 않음을 증명했다. 전쟁 전 군 장교들의 자위용으로 설계된 아이언 팽은 수세기에 걸쳐 수십 번 개조되고 재판매되며 재조립되었지만, 한 가지는 변함없이 유지되었다 - 순식간에 살점을 뼈에서 증발시킬 수 있는 능력이다.</Fallout_PlasmaPistol.description>
+<Fallout_PlasmaPistol.tools.0.label>총열</Fallout_PlasmaPistol.tools.0.label>
+
+<Fallout_PlasmaWraith.label>플라즈마 레이스</Fallout_PlasmaWraith.label>
+<Fallout_PlasmaWraith.description>위대한 황무지의 설계도에서 발전했으며, 최초의 모델들은 헬기 레이저 캐논의 잔해로 조립되었다. 전설적인 용병 코요테 슬링이 이 무기로 수도 황무지의 대통령을 벙커 벽을 관통해 살해했다. "당신은 발사음을 듣지 못할 것이다. 공기가 갈라지는 소리... 그리고 목표물의 머리가 증기로 변하는 부드러운 터지는 소리만이 들릴 뿐이다." - 볼트 41 홀로그램 교관</Fallout_PlasmaWraith.description>
+<Fallout_PlasmaWraith.tools.0.label>총열</Fallout_PlasmaWraith.tools.0.label>
+
+<Fallout_MinigunPlasma.label>플라즈마 개틀링 "몰튼 스톰"</Fallout_MinigunPlasma.label>
+<Fallout_MinigunPlasma.description>전쟁 전 군사 기업들이 프로젝트: 인시너레이터의 일환으로 개발한 이 개틀링 건은 요새와 돌연변이 무리를 제압하기 위해 설계되었다. 전쟁 후 설계도는 엔클레이브에 의해 발견되어 아다만티움 코어 기술로 업그레이드되었지만, 일부는 암시장에 유출되었다. 이제 이 무기는 중무장한 약탈자, 강철의 형제단, 또는 수리를 감히 시도하는 미친 과학자들의 손에서 발견될 수 있다. "일반적인 플라즈마로는 부족할 때, 이 괴물이 작동한다. 과열된 플라즈마로 장전된 여섯 개의 총열이 포효하며 회전하며, 길목에 있는 모든 것을 방사성 웅덩이로 만들어버린다. 갑옷도, 엄폐물도, 상식도 모두 작별이다."</Fallout_MinigunPlasma.description>
+<Fallout_MinigunPlasma.tools.0.label>총열</Fallout_MinigunPlasma.tools.0.label>
+
+<Fallout_LaserCarbine.label>카빈 "AER-14"</Fallout_LaserCarbine.label>
+<Fallout_LaserCarbine.description>대전쟁 전 미군을 위해 Aeroquant에서 개발된 AER-14는 전쟁 전 세계에서 가장 널리 사용되는 에너지 무기 중 하나가 되었습니다. 그 신뢰성과 단순성은 군대와 이후 황무지 생존자들 사이에서 인기를 끌었습니다.</Fallout_LaserCarbine.description>
+<Fallout_LaserCarbine.tools.0.label>총열</Fallout_LaserCarbine.tools.0.label>
+
+<Fallout_PepperShaker.label>페퍼 셰이커</Fallout_PepperShaker.label>
+<Fallout_PepperShaker.description>페퍼 셰이커는 1초의 회전 시간 후 자동으로 8발의 산탄총 탄환을 발사합니다. 이 무기는 산탄총과 중화기로 모두 분류되며 두 무기 계열의 모든 특전 혜택을 받습니다.</Fallout_PepperShaker.description>
+<Fallout_PepperShaker.tools.0.label>총열</Fallout_PepperShaker.tools.0.label>
+
+<Fallout_GatlingLaser.label>개틀링 레이저 "솔라 볼텍스"</Fallout_GatlingLaser.label>
+<Fallout_GatlingLaser.description>"과도한 화력"이 모순어라고 생각하는 사람들을 위해 설계된 솔라 볼텍스 개틀링 레이저는 1999년부터 당신의 적들을 깔끔한 재더미로 만들어 왔습니다!</Fallout_GatlingLaser.description>
+<Fallout_GatlingLaser.tools.0.label>총열</Fallout_GatlingLaser.tools.0.label>
+
+<Fallout_LaserPistolML.label>AER-9 "선 키스"</Fallout_LaserPistolML.label>
+<Fallout_LaserPistolML.description>"미국을... 자신으로부터 보호하라" 프로그램의 일환으로 General Atomics International에서 개발된 AER-9는 미래의 무기로 기대되었습니다. 가볍고, 정확하며, 치명적이어야 했죠. 하지만 이 세상의 모든 것처럼, 미래는 비뚤어지고, 어긋나며, 정전과 함께 찾아왔습니다. 대전쟁 후, 이 권총들은 생존자들, 돌연변이들, 그리고 "정밀" 외교를 사랑하는 이들 사이에 널리 퍼졌습니다.</Fallout_LaserPistolML.description>
+<Fallout_LaserPistolML.tools.0.label>총열</Fallout_LaserPistolML.tools.0.label>
+
+<Fallout_LaserPistol.label>레이저 피스톨 "신디시스-MK IV"</Fallout_LaserPistol.label>
+<Fallout_LaserPistol.description>Syntectics Institute™ - 우리는 단지 기술을 창조하는 것이 아닙니다. 우리는 미래를 창조합니다... 당신보다 오래 살아남을 미래를.</Fallout_LaserPistol.description>
+<Fallout_LaserPistol.tools.0.label>총열</Fallout_LaserPistol.tools.0.label>
+
+<Fallout_LaserCarbineML.label>AER-12 "레이저 위스퍼"</Fallout_LaserCarbineML.label>
+<Fallout_LaserCarbineML.description>"적을 벽에 펴바르지 않고 신중하게 증발시켜야 할 때."</Fallout_LaserCarbineML.description>
+<Fallout_LaserCarbineML.tools.0.label>총열</Fallout_LaserCarbineML.tools.0.label>
+
+
+ <Fallout_TeslaCannon.label>휴대형 테슬라 캐논 "썬더 메이커"</Fallout_TeslaCannon.label>
+<Fallout_TeslaCannon.description>"전투를 니콜라 테슬라의 라이트 쇼로 바꿔야 할 때 사용하세요 (갓 구워진 시체들이 관객으로 참여합니다!). 전쟁 전 과학자들은 이 휴대용 번개 발생기를 설계할 때 분명 프랑켄슈타인 영화를 너무 많이 보고 영감을 받았습니다.
+
+빛나는 장점:
+
+총격전을 테슬라 코일 실험장으로 변모시킵니다 (적들을 '웰던' 상태로 만들어주죠)
+
+모든 것에서 충전 가능 (당신의 죽음의 비명도 포함)
+
+주변 레이더들의 존경 (혹은 치명적인 쇼크)을 보장합니다
+
+너무 가까이 다가오는 자들을 위한 내장형 "테이저 모드"
+
+작동 특이사항:
+
+새로운 시그니처 향기: 오존에 구워진 살코기 냄새
+
+"머리카락이 곤두서는" 게 더 이상 비유가 아닙니다
+
+표적보다 Pip-Boy가 더 빨리 녹아내립니다
+
+이웃들이 불평할 겁니다... 딱 한 번만요
+
+경고!
+다음 상황에서는 사용 금지:
+
+폭풍우가 내릴 때
+
+친구들 근처에서
+
+자신의 골격계를 보고 싶지 않다면
+
+스틸 브라더단의 승인을 받았습니다 (그들에게 실제 테스트되기 전까지는)</Fallout_TeslaCannon.description>
+<Fallout_TeslaCannon.tools.0.label>총열</Fallout_TeslaCannon.tools.0.label>
+
+
+</LanguageData>

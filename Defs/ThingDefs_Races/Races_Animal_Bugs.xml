@@ -222,6 +222,7 @@
 		<butcherProducts>
 			<Chitin>40</Chitin>
 			<RadScorpionPoisonGland>1</RadScorpionPoisonGland>
+			<RadMeat>7</RadMeat>
 		</butcherProducts>
 		<race>
 			<predator>true</predator>

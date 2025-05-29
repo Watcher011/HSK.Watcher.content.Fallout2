@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <JetHigh.label>Jet에 취하면 기분이 좋아집니다.</JetHigh.label>
+<JetHigh.description>혈류에 활성 Jet이 존재합니다. 가벼운 행복감을 유발합니다.</JetHigh.description>
+<JetHigh.labelNoun>Jet에 취한 듯한 기분</JetHigh.labelNoun>
+
+<JetTolerance.label>Jet 내성</JetTolerance.label>
+<JetTolerance.description>Jet에 대한 내성이 강화된 상태입니다. 내성이 심할수록 야요나 플레이크와 같은 사이키사이트 기반 약물을 더 많이 사용해야 동일한 효과를 얻을 수 있습니다.</JetTolerance.description>
+
+<JetAddiction.label>Jet 중독</JetAddiction.label>
+<JetAddiction.description>Jet에 대한 화학적 중독입니다. 사이키사이트에 장기간 노출되면 세포 수준에서 신경학적 적응이 발생하여 약물 없이는 뇌가 제대로 기능하지 못합니다.
+\n플레이크나 야요 같은 약물을 정기적으로 복용하지 않으면 금단 증상이 시작됩니다. 하지만 장기간 금단하면 뇌가 정상 상태로 돌아가도록 유도하여 중독을 해소합니다.</JetAddiction.description>
+<JetAddiction.stages.1.label>금단</JetAddiction.stages.1.label>
+
+</LanguageData>

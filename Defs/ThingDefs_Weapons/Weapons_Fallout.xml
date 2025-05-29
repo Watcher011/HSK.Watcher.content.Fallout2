@@ -1303,4 +1303,101 @@
       </li>
     </comps>
     </ThingDef>-->
+	
+	
+	 <ThingDef ParentName="BaseGun_Fallout">
+        <defName>Fallout_TeslaCannon</defName>
+        <label>Portable Tesla Cannon "Thunder Maker"</label>
+        <description>"For when you need to turn a firefight into a Nikola Tesla light show (with audience participation by freshly cooked corpses)! Pre-war scientists clearly binge-watched too many Frankenstein movies when they designed this portable lightning rod for your problems.
+
+**Why It's Brilliant:**
+ Transforms gunfights into Tesla coil demonstrations (featuring well-done enemies)
+ Charges from literally anything (including your dying screams)
+ Guaranteed to command respect (or terminal shock in nearby raiders)
+ Built-in "taser mode" for anyone who gets too close
+
+**Operational Quirks:**
+- Your new signature scent: ozone-broiled flesh
+- "Hair standing on end" stops being metaphorical
+- Pip-Boy melts faster than your targets
+- Neighbors will complain... exactly once
+
+**Warning!**
+Do not operate:
+- During rainstorms
+- Near friends
+- If afraid of seeing your own skeletal system
+
+*Approved by the Brotherhood of Steel (until field-tested on them)*</description>
+        <graphicData>
+            <texPath>Things/Weapons/Tesla</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>Transparent</shaderType>
+        </graphicData>
+        <soundInteract>InteractPrecision</soundInteract>
+        <weaponTags>
+			<li>SpacerGun</li>
+            <li>Futuristic</li>
+        </weaponTags>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <tradeability>Sellable</tradeability>
+		<techLevel>Spacer</techLevel>
+        <statBases>
+            <MarketValue>3200</MarketValue>
+            <SightsEfficiency>1.4</SightsEfficiency>
+            <ShotSpread>0.03</ShotSpread>
+            <SwayFactor>1.0</SwayFactor>
+            <RangedWeapon_Cooldown>0.7</RangedWeapon_Cooldown>
+            <Bulk>11.10</Bulk>
+            <Mass>3.65</Mass>
+			<NightVisionEfficiency_Weapon>0.4</NightVisionEfficiency_Weapon>
+        </statBases>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <recoilPattern>Regular</recoilPattern>
+                <recoilAmount>0.01</recoilAmount>
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_Tesla</defaultProjectile>
+                <warmupTime>0.7</warmupTime>
+                <range>65</range>
+                <ticksBetweenBurstShots>35</ticksBetweenBurstShots>
+                <burstShotCount>5</burstShotCount>
+                <soundCast>ShotLaser</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+                <aimedBurstShotCount>2</aimedBurstShotCount>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>50</magazineSize>
+                <reloadTime>3.20</reloadTime>
+                <ammoSet>AmmoSet_ChargedTesla</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Laser_Component>1</Laser_Component>
+            <Weapon_Parts>8</Weapon_Parts>
+			<Plastic>7</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.5,1.5</DrawSize>
+				<DrawOffset>-0.3,0.0</DrawOffset>
+			</li>
+		</modExtensions>
+    </ThingDef>
+	
+	
 </Defs>

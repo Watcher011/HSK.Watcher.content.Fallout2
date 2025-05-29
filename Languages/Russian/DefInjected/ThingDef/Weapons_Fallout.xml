@@ -66,6 +66,176 @@
   <Fallout_LaserCarbineML.tools.0.label>ствол</Fallout_LaserCarbineML.tools.0.label>
 
 
+  <!-- <ThingDef>
+        <defName>Fallout_AlienPistol</defName>
+        <label>Alien Energy Pistol</label>
+        <description>Found in the wreckage of a crashed UFO somewhere between the radioactive sands and yet another survivor's nervous breakdown, this gun is either a major technological breakthrough or a deadly toy from aliens who clearly didn't care about "safety precautions." Stylish, ergonomic, and not at all like something a creature with less than three fingers should wield, the Zeta-9 fires bolts of pure plasma that vaporize enemies with a grace worthy of an intergalactic court. Except sometimes it decides you're the enemy.</description>
+        <graphicData>
+            <texPath>Things/Weapons/AlienPlasma</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>12400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>HiddenWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
+                <warmupTime>0.40</warmupTime>
+                <range>47</range>
+                <soundCast>Fire_UACPistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>50</magazineSize>
+                <reloadTime>1.80</reloadTime>
+                <ammoSet>AmmoSet_6x24mmCharged</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	
+	<ThingDef>
+        <defName>Fallout_EuclidsCFinder</defName>
+        <label>Euclid's C-Finder</label>
+        <description>"The Euclidean Algorithm is a compact satellite targeter that allows for a high-precision orbital strike to be made anywhere within range. Simply locate the beam, stand back to a safe distance (preferably very far), and enjoy the spectacle of pure, mathematically accurate application!"</description>
+        <graphicData>
+            <texPath>Things/Weapons/EuclidsCFinder</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+		    <MaxHitPoints>2</MaxHitPoints>
+            <MarketValue>12400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>HiddenWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+	<verbs>
+      <li>
+        <verbClass>Verb_Spawn</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3</warmupTime>
+        <ai_AvoidFriendlyFireRadius>10</ai_AvoidFriendlyFireRadius>
+        <spawnDef>Tornado</spawnDef>
+        <colonyWideTaleDef>TornadoFromItem</colonyWideTaleDef>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundAiming>OrbitalTargeter_Aiming</soundAiming>
+        <soundCast>OrbitalTargeter_Fire</soundCast>
+        <onlyManualCast>true</onlyManualCast>
+        <useableInPocketMaps>false</useableInPocketMaps>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+		<comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>Bombardment_Helios</abilityDef>
+        <maxCharges>1</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>burner charge</chargeNoun>
+        <ammoDef>NuclearBattery</ammoDef>
+        <ammoCountPerCharge>1</ammoCountPerCharge>
+        <baseReloadTicks>60000</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    </ThingDef> -->
+
+ <Fallout_TeslaCannon.label>Портативная Тесла-пушка «Громовержец»</Fallout_TeslaCannon.label>
+<Fallout_TeslaCannon.description>"Для случаев, когда нужно превратить перестрелку в световое шоу Николы Теслы (с участием свежеприготовленных трупов в качестве зрителей)! Учёные довоенной эпохи явно пересмотрели фильмов про Франкенштейна, когда создавали этот портативный громоотвод для ваших проблем.
+
+**Преимущества:**
+• Превращает перестрелки в демонстрацию катушки Теслы (с эффектом "хрустящей корочки" на противниках)
+• Заряжается от чего угодно (включая ваши предсмертные крики)
+• Гарантированно вызывает уважение (или смертельный шок у ближайших рейдеров)
+• Встроенный "режим тазера" для слишком любопытных
+
+**Особенности эксплуатации:**
+• Ваш новый фирменный аромат: озоновая жареная плоть
+• "Волосы дыбом" перестают быть метафорой
+• Пип-бой плавится быстрее, чем ваши цели
+• Соседи будут жаловаться... ровно один раз
+
+**Внимание!**
+Не использовать:
+• Во время грозы
+• Вблизи друзей
+• Если боитесь увидеть собственную скелетную систему
+
+*Одобрено Братством Стали (до первого боевого применения против них)*</Fallout_TeslaCannon.description>
+<Fallout_TeslaCannon.tools.0.label>ствол</Fallout_TeslaCannon.tools.0.label>
+
   <!--<Fallout_AlienPistol.label>Инопланетный Пистолет</Fallout_AlienPistol.label>-->
   <!--<Fallout_AlienPistol.description>Найденный среди обломков разбившегося НЛО где-то между радиоактивными песками и нервным срывом очередного выжившего, этот пистолет является либо крупным технологическим прорывом, либо смертельной игрушкой от инопланетян, которых явно не волновали «меры предосторожности». Стильный, эргономичный и совсем не похожий на то, чем должно владеть существо с менее чем тремя пальцами, Zeta-9 стреляет зарядами чистой плазмы, которые испаряют врагов с изяществом, достойным межгалактического суда. За исключением случаев, когда он решает, что вы враг.</Fallout_AlienPistol.description>-->
   <!--<Fallout_AlienPistol.tools.0.label>ствол</Fallout_AlienPistol.tools.0.label>-->

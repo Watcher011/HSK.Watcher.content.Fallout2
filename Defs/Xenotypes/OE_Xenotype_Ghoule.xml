@@ -49,6 +49,9 @@
       <li>Eyes_Gray</li>
 	  <li>OE_GhoulHead</li>
       <li>Skin_LightGray</li>
+	  <li>OE_Skin_GhoulDarkGreen</li>
+	  <li>OE_Skin_GhoulLightGreen</li>
+	  <li>OE_Skin_GhoulLightBrown</li>
       <li>Beard_NoBeardOnly</li>
       <li>Inbred</li>
 	  <li>ToxicEnvironmentResistance_Total</li>

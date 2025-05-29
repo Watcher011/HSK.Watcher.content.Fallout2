@@ -58,8 +58,9 @@
             </li>
         </comps>
     </ThingDef> -->
-<RadScorpionPoisonGland.label>Яд рад-скорпиона</RadScorpionPoisonGland.label>
-<RadScorpionPoisonGland.description>"Концентрированное воплощение материнской любви природы — если ваша мать была садистом с докторской степенью по токсикологии. Этот восхитительный коктейль из нейротоксинов, радионуклидов и чистой злобы превратит вашу нервную систему в новогоднюю гирлянду, а внутренности — в экспериментальную площадку для начинающего алхимика.
+
+  <RadScorpionPoisonGland.label>Яд рад-скорпиона</RadScorpionPoisonGland.label>
+  <RadScorpionPoisonGland.description>"Концентрированное воплощение материнской любви природы — если ваша мать была садистом с докторской степенью по токсикологии. Этот восхитительный коктейль из нейротоксинов, радионуклидов и чистой злобы превратит вашу нервную систему в новогоднюю гирлянду, а внутренности — в экспериментальную площадку для начинающего алхимика.
 
 Гарантированные эффекты:
 - Неповторимое жжение в месте укуса (как будто вас целует паяльная лампа)
@@ -72,7 +73,8 @@
 - Импровизированной химиотерапии (результаты не гарантированы, выжившие не найдены)
 
 Помните: если после укуса вы увидели свет в конце туннеля — бегите быстрее, это не просветление, а атака второго скорпиона."</RadScorpionPoisonGland.description>
-<RadScorpionPoisonGland.ingestible.ingestCommandString>Выпить {0}</RadScorpionPoisonGland.ingestible.ingestCommandString>
-<RadScorpionPoisonGland.ingestible.ingestReportString>Пьёт {0}.</RadScorpionPoisonGland.ingestible.ingestReportString>
+  <RadScorpionPoisonGland.ingestible.ingestCommandString>Выпить {0}</RadScorpionPoisonGland.ingestible.ingestCommandString>
+  <RadScorpionPoisonGland.ingestible.ingestReportString>Пьёт {0}.</RadScorpionPoisonGland.ingestible.ingestReportString>
+
 
 </LanguageData>

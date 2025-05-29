@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Industrial world -->
+
+  <ShelterRepairman58.title>볼트 수리공</ShelterRepairman58.title>
+<ShelterRepairman58.titleShort>수리공</ShelterRepairman58.titleShort>
+<ShelterRepairman58.description>[PAWN_nameDef]는 볼트에서 단순 노동을 수행했습니다. [PAWN_possessive] 일에는 화물 운반용 브라민 돌보는 일도 포함되었습니다.</ShelterRepairman58.description>
+
+<ShelterPsychiatricPatient94.title>볼트 출신 사이코</ShelterPsychiatricPatient94.title>
+<ShelterPsychiatricPatient94.titleShort>사이코</ShelterPsychiatricPatient94.titleShort>
+<ShelterPsychiatricPatient94.description>[PAWN_nameDef]는 성인 생활 대부분을 볼트에서 보냈습니다. 볼트 의사는 정신 질환을 거의 이해하지 못했고, [PAWN_pronoun]는 인간이라기보다 동물처럼 다루어졌습니다.\n\n결국 추방되긴 했지만, 이 경험으로 [PAWN_possessive] 기본 생활 기술 대부분이 약화되었습니다.</ShelterPsychiatricPatient94.description>
+
+<ShelterComputer83.title>인간 컴퓨터</ShelterComputer83.title>
+<ShelterComputer83.titleShort>컴퓨터</ShelterComputer83.titleShort>
+<ShelterComputer83.description>[PAWN_nameDef]는 뛰어난 기억력과 복잡한 암산 능력을 가지고 있었습니다. 볼트 오버시어는 [PAWN_nameDef]를 볼트 재정과 지출을 관리하는 직책에 임명했습니다.</ShelterComputer83.description>
+
+<ShelterSheriff52.title>볼트 보안관</ShelterSheriff52.title>
+<ShelterSheriff52.titleShort>보안관</ShelterSheriff52.titleShort>
+<ShelterSheriff52.description>[PAWN_nameDef]는 볼트의 치안 담당자였습니다. [PAWN_pronoun]는 사소한 범죄, 분쟁 조정, 그리고 가끔씩 발생하는 구내식당 난동 사건을 처리했습니다.</ShelterSheriff52.description>
+
+<EntrepreneurFromShelter14.title>볼트 출신 기업가</EntrepreneurFromShelter14.title>
+<EntrepreneurFromShelter14.titleShort>기업가</EntrepreneurFromShelter14.titleShort>
+<EntrepreneurFromShelter14.description>세계의 자원 관리가 가장 중요합니다. 하지만 누군가는 카라반을 운영해야 하죠.\n\n[PAWN_nameDef]는 뇌물과 기술적 분석 같은 거래 기술을 숙달했습니다. [PAWN_pronoun]는 사회적-지적 기계와 같습니다.</EntrepreneurFromShelter14.description>
+
+
+</LanguageData>

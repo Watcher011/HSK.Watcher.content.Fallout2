@@ -7,6 +7,11 @@
 		<li>1.5</li>
 	</supportedVersions>
 	<modDependencies>
+	  <li>
+			<packageId>Ludeon.RimWorld.Anomaly</packageId>
+			<displayName>Anomaly</displayName>
+			<steamWorkshopUrl>https://store.steampowered.com/app/2380740</steamWorkshopUrl>
+		</li>
 		<li>
 			<packageId>brrainz.harmony</packageId>
 			<displayName>Harmony</displayName>

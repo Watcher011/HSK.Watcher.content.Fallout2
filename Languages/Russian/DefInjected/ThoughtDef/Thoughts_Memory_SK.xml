@@ -23,9 +23,9 @@
 
   <FEV.stages.0.label>съел FEV</FEV.stages.0.label>
   <FEV.stages.0.description>Если я съем, это будет последний шаг.</FEV.stages.0.description>
-  
-<HadScorponade.stages.0.label>Выпил Скорпонад</HadScorponade.stages.0.label>
-<HadScorponade.stages.0.description>Этот Скорпонад был такой "полезный"! Чувствую, моё сердце вот-оот остановится.</HadScorponade.stages.0.description>
+
+  <HadScorponade.stages.0.label>Выпил Скорпонад</HadScorponade.stages.0.label>
+  <HadScorponade.stages.0.description>Этот Скорпонад был такой "полезный"! Чувствую, моё сердце вот-оот остановится.</HadScorponade.stages.0.description>
 
 
 </LanguageData>

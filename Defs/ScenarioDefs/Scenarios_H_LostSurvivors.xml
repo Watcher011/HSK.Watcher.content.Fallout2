@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<ScenarioDef>
+    <defName>ShelterResidents</defName>
+    <label>Shelter residents(easy start)</label>
+    <description>Vault 108 was never quiet. The walls, saturated with the smell of disinfectant and fear, hid the madness of its inhabitants with blows. But when the ventilation system finally left the building, I decided to escape.</description>
+    <scenario>
+      <summary>"Five Madmen Who Voluntarily Left the Vault".(easy start)</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>ShelterResidents</factionDef>
+      </playerFaction>
+      
+
+      <parts>
+        <!-- Game start dialog -->
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <text>"If you're reading this, we're either dead or we've finally found that 'paradise in the wasteland'. But most likely, we're dead. Say hi to Mom!"
+          (P.S. If you find a lid with the number #42, Bob will curse you.)</text>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+
+        <!-- Config pages -->
+      	<li Class="ScenPart_ConfigPage_ConfigureStartingPawns_Xenotypes">
+		  <def>ConfigurePawnsXenotypes</def>
+		  <pawnChoiceCount>8</pawnChoiceCount>
+		  <xenotypeCounts>
+					<li>
+						<xenotype>Ghoul</xenotype>
+						<count>5</count>
+						<description>non-baby colonist</description>
+						<requiredAtStart>true</requiredAtStart>
+						<allowedDevelopmentalStages>Adult, Child</allowedDevelopmentalStages>
+					</li>
+		 </xenotypeCounts>
+        </li>
+
+        <!-- Player starting stuff spawn method-->
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+        </li>
+
+        <!-- Starting research -->
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Batteries</project>
+        </li>
+		
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Vault-TecPower</project>
+        </li>
+		
+		 <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Vault-TecProduction</project>
+        </li>
+		
+
+        <!-- Player starting things -->
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MealSurvivalPack</thingDef>
+          <count>50</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>RadMeat</thingDef>
+          <count>100</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MedicineIndustrial</thingDef>
+          <count>45</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>ComponentIndustrial</thingDef>
+          <count>45</count>
+        </li>
+		 <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>FalloutSmallGenerator</thingDef>
+          <count>1</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Fallout_laser_Turret</thingDef>
+          <count>3</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>NuclearBattery</thingDef>
+          <count>10</count>
+        </li>
+		 <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Ammo_ChargedLaser</thingDef>
+          <count>800</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>TextBook</thingDef>
+          <count>2</count>
+          <quality>Normal</quality>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Tome</thingDef>
+          <count>1</count>
+          <quality>Good</quality>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Gun_PumpShotgun</thingDef>
+        </li>
+		 <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Ammo_12Gauge_Buck</thingDef>
+          <count>200</count>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>MeleeWeapon_Knife</thingDef>
+          <stuff>Plasteel</stuff>
+        </li>
+       
+	   
+	   <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakPants</thingDef>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>Apparel_FlakVest</thingDef>
+        </li>
+        <!-- Scatter some things near player start -->
+   
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>StartingThing_Defined</def>
+          <thingDef>WoodLog</thingDef>
+          <count>50</count>
+        </li>
+
+        <li Class="ScenPart_ScatterThingsNearPlayerStart">
+          <def>StartingThing_Defined</def>
+          <thingDef>Plasteel</thingDef>
+          <count>80</count>
+        </li>
+
+        <!-- Scatter some things anywhere -->
+        <li Class="ScenPart_ScatterThingsAnywhere">
+          <def>ScatterThingsAnywhere</def>
+          <thingDef>ShipChunk</thingDef>
+          <allowRoofed>false</allowRoofed>
+          <count>5</count>
+        </li>
+
+      </parts>
+    </scenario>
+  </ScenarioDef>
+
+</Defs>

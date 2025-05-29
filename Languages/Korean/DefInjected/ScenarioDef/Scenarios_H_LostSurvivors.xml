@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ShelterResidents.label>쉘터 주민들(쉬운 시작)</ShelterResidents.label>
+<ShelterResidents.description>볼트 108은 결코 조용하지 않았다. 소독제와 공포의 냄새로 가득한 벽은 주민들의 광기를 숨기고 있었다. 하지만 환기 시스템이 완전히 고장나자, 나는 탈출하기로 결심했다.</ShelterResidents.description>
+<ShelterResidents.scenario.name>쉘터 주민들(쉬운 시작)</ShelterResidents.scenario.name>
+<ShelterResidents.scenario.summary>"자발적으로 볼트를 떠난 다섯 명의 미친 자들"(쉬운 시작)</ShelterResidents.scenario.summary>
+<ShelterResidents.scenario.description>볼트 108은 결코 조용하지 않았다. 소독제와 공포의 냄새로 가득한 벽은 주민들의 광기를 숨기고 있었다. 하지만 환기 시스템이 완전히 고장나자, 나는 탈출하기로 결심했다.</ShelterResidents.scenario.description>
+<ShelterResidents.scenario.parts.0.text>"이걸 읽고 있다면, 우린 이미 죽었거나 '황무지의 낙원'을 찾았을 거다. 하지만 아마도 우린 죽었을 게다. 엄마한테 안부 전해줘!"
+          (추신: #42 번호가 적힌 뚜껑을 찾는다면, 밥이 너를 저주할 거야.)</ShelterResidents.scenario.parts.0.text>
+<ShelterResidents.scenario.parts.1.xenotypeCounts.0.description>유아가 아닌 콜로니스트</ShelterResidents.scenario.parts.1.xenotypeCounts.0.description>
+
+
+</LanguageData>

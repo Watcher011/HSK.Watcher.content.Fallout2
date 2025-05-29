@@ -198,6 +198,7 @@
 			<ToxicResistance>1</ToxicResistance>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 		</statBases>
+		<uiIconScale>1.4</uiIconScale>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
 				<label>venom-fangs</label>
@@ -288,6 +289,7 @@
 			<ArmorRating_Blunt>0.6</ArmorRating_Blunt>
 			<ArmorRating_Sharp>0.8</ArmorRating_Sharp>
 		</statBases>
+		<uiIconScale>1.4</uiIconScale>
 		<verbs>
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<recoilAmount>0.95</recoilAmount>
@@ -385,6 +387,7 @@
 			<ToxicResistance>1</ToxicResistance>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 		</statBases>
+		<uiIconScale>1.4</uiIconScale>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
 				<label>venom-fangs</label>
@@ -471,6 +474,12 @@
 			<MeleeDodgeChance>0.21</MeleeDodgeChance>
 			<MeleeCritChance>0.04</MeleeCritChance>
 		</statBases>
+		<uiIconScale>1.4</uiIconScale>
+		<butcherProducts>
+			<RadHemogenPack>1</RadHemogenPack>
+			<RadMeat>7</RadMeat>
+			<Electronics>7</Electronics>
+		</butcherProducts>
 		<race>
 			<baseBodySize>0.55</baseBodySize>
 			<baseHungerRate>0.8</baseHungerRate>
@@ -616,7 +625,7 @@
 	   </tradeTags>
 		<butcherProducts>
 			<RadHemogenPack>2</RadHemogenPack>
-			<RadMeat>30</RadMeat>
+			<RadMeat>50</RadMeat>
 		</butcherProducts>
 		 <tickerType>Normal</tickerType>
 		<uiIconScale>1.15</uiIconScale>
@@ -760,9 +769,8 @@
 			</li>
     </comps>
 		<tradeTags>
-			<li>AnimalUncommon</li>
-			<li>AnimalFighter</li>
-		</tradeTags>
+			<li>AnimalVaultec</li>
+	   </tradeTags>
 		<modExtensions>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>QuadrupedLow</bodyShape>
@@ -824,6 +832,7 @@
 		<defName>Deathclaw</defName>
 		<label>Deathclaw</label>
 		<race>Deathclaw</race>
+		<canArriveManhunter>true</canArriveManhunter>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -895,6 +904,11 @@
 			<AimingDelayFactor>1.25</AimingDelayFactor>
 			<ToxicResistance>1</ToxicResistance>
 		</statBases>
+		<uiIconScale>1.4</uiIconScale>
+		<butcherProducts>
+			<RadHemogenPack>1</RadHemogenPack>
+			<RadMeat>20</RadMeat>
+		</butcherProducts>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
 				<capacities>
@@ -1120,5 +1134,227 @@
 	
 
 	
+  <ThingDef ParentName="SK_AnimalThingBase">
+    <defName>Brahmin</defName>
+    <label>Brahmin</label>
+    <devNote>cow-1</devNote>
+    <description>*"Nature's two-headed marvel and the backbone of post-war economics! These walking manure factories, milk producers, and existential crises make perfect companions for any self-respecting wastelander.
+
+**Why brahmin are the best cap investment:**
+ Two heads = twice the vacant stares  
+ Guaranteed to outlive their owner (by approximately 15 minutes)  
+ Instantly upgrades any settlement to premium fertilizer boutique status  
+ Excellent camouflage (if the terrain consists entirely of dung piles)
+
+**Special features:**
+- Will chew ANYTHING. Literally. ANYTHING.  
+- Can stare at you with four simultaneously judgmental eyes  
+- Produces sounds that inspire profound philosophical reflection  
+- Scent that makes the Glowing Sea smell like lavender fields  
+
+**Popular uses:**
+- Mobile barricade (slow but stinky)  
+- Source of "fresh" milk (questionably edible)  
+- Living Geiger counter (if it drops dead - zone's hot)  
+- Psychological endurance test ("how many days can you share a pen with a brahmin?")
+
+*Brahmin: because even nuclear apocalypse needs someone beneath you on the social ladder!*"</description>
+    <statBases>
+    	<Mass>120</Mass>
+			<MoveSpeed>3.5</MoveSpeed>
+			<ComfyTemperatureMin>-14</ComfyTemperatureMin>
+			<MarketValue>1500</MarketValue>
+			<MeatAmount>175</MeatAmount>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<CarryWeight>260</CarryWeight>
+			<CarryBulk>240</CarryBulk>
+			<FilthRate>16</FilthRate>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+    </statBases>
+	<uiIconScale>1.4</uiIconScale>
+	<butcherProducts>
+			<RadHemogenPack>1</RadHemogenPack>
+			<RadMeat>10</RadMeat>
+		</butcherProducts>
+    <comps>
+      	<li Class="CompProperties_Milkable">
+				<milkDef>Milk</milkDef>
+				<milkIntervalDays>1</milkIntervalDays>
+				<milkAmount>13</milkAmount>
+			</li>
+			<li Class="CompProperties_Shearable">
+				<woolDef>WoolMuffalo</woolDef>
+				<shearIntervalDays>15</shearIntervalDays>
+				<woolAmount>120</woolAmount>
+			</li>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>1037</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+			</li>
+    </comps>
+	<tools>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.6</chanceFactor>
+				<armorPenetrationSharp>1.5</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>6</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>3</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>horns</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>15</power>
+				<cooldownTime>2.12</cooldownTime>
+				<chanceFactor>0.65</chanceFactor>
+				<restrictedGender>Male</restrictedGender>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<armorPenetrationSharp>2.8</armorPenetrationSharp>
+				<armorPenetrationBlunt>4</armorPenetrationBlunt>
+			</li>
+		</tools>
+    <race>
+    	<body>QuadrupedAnimalWithHooves</body>
+			<herdAnimal>true</herdAnimal>
+			<packAnimal>true</packAnimal>
+			<baseBodySize>1.2</baseBodySize>
+			<baseHungerRate>1.2</baseHungerRate>
+			<baseHealthScale>1.8</baseHealthScale>
+			<foodType>VegetarianRoughAnimal</foodType>
+			<useMeatFrom>Muffalo</useMeatFrom>
+			<leatherDef>Leather_Plain</leatherDef>
+			<trainability>None</trainability>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+			<wildness>0.05</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<nuzzleMtbHours>32</nuzzleMtbHours>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(3, 1)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>22</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.2</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Muffalo_Wounded</soundWounded>
+					<soundDeath>Pawn_Muffalo_Death</soundDeath>
+					<soundCall>Pawn_Muffalo_Call</soundCall>
+					<soundAngry>Pawn_Muffalo_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+   <tradeTags>
+			<li>AnimalVaultec</li>
+			<li>AnimalCommon</li>
+			<li>AnimalFarm</li>
+	   </tradeTags>
+	   <modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</modExtensions>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>Brahmin</defName>
+    <label>Brahmin</label>
+    <race>Brahmin</race>
+   <combatPower>80</combatPower>
+	<ecoSystemWeight>1.1</ecoSystemWeight>
+	<wildGroupSize>2~4</wildGroupSize>
+	<canArriveManhunter>false</canArriveManhunter>
+    <lifeStages>
+      <li>
+        <label>calf</label>
+        <labelPlural>calves</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Brahmin/Brahmin</texPath>
+          <drawSize>1.3</drawSize>
+          <color>(170,170,170)</color>
+          <shadowData>
+            <volume>(0.4, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>1.3</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+         <texPath>Things/Pawn/Animal/Brahmin/Brahmin</texPath>
+          <drawSize>1.15</drawSize>
+          <color>(170,170,170)</color>
+          <shadowData>
+            <volume>(0.6, 0.45, 0.45)</volume>
+            <offset>(0,0,-0.25)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>1.15</drawSize>
+        </dessicatedBodyGraphicData>
+      
+      </li>
+      <li>
+        <bodyGraphicData>
+           <texPath>Things/Pawn/Animal/Brahmin/Brahmin</texPath>
+          <drawSize>1.7</drawSize>
+          <color>(170,170,170)</color>
+          <shadowData>
+            <volume>(0.8, 0.6, 0.6)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+      
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>1.7</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+
 	
 </Defs>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<Proj_GrenadeBottlecap.label>병뚜껑 지뢰</Proj_GrenadeBottlecap.label>
+
+<Weapon_Grenade_Bottlecap.label>병뚜껑 지뢰</Weapon_Grenade_Bottlecap.label>
+<Weapon_Grenade_Bottlecap.description>전쟁 전 볼트-텍의 인기 도시락 용기가 핵전쟁 이후 커먼웰스의 치명적인 지뢰로 변모했습니다. 이 집에서 만든 장치는 어떤 적이라도 처리하는 데 도움을 줄 겁니다.</Weapon_Grenade_Bottlecap.description>
+<Weapon_Grenade_Bottlecap.verbs.0.label>병뚜껑 지뢰 투척</Weapon_Grenade_Bottlecap.verbs.0.label>
+
+
+</LanguageData>

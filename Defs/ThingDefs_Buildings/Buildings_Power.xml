@@ -18,18 +18,23 @@
 		</graphicData>
 		 <tickerType>Normal</tickerType>
 		 <rotatable>true</rotatable>
+		 <minifiedDef>MinifiedThing</minifiedDef>
 		<passability>PassThroughOnly</passability>
 		<blockWind>true</blockWind>
 		<statBases>
 			<MaxHitPoints>150</MaxHitPoints>
 			<WorkToBuild>2100</WorkToBuild>
 			<Flammability>1.0</Flammability>
+			<Mass>100</Mass>
 		</statBases>
 		<description>The Volttec VX-12 miniature generator is the perfect solution for autonomous power supply in the chaos of post-war times. Thanks to its hybrid power system, it can run on both traditional chemical fuels (gasoline, ethanol, diluted petroleum product) and nuclear mini-batteries, providing stable power for small electronics, portable devices, or even compact energy weapons.</description>
 		<size>(2,1)</size>
 		<building>
 			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
 		</building>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
 		<stuffCategories>
 			<li>RuggedMetallic</li>
 		</stuffCategories>

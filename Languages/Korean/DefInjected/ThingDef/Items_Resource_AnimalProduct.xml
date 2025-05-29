@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gecko -->
+
+ <EggGeckoFertilized.label>게코 알 (수정란)</EggGeckoFertilized.label>
+  <EggGeckoFertilized.description>수정된 게코 알입니다. 모든 것이 잘 진행된다면 새끼 게코로 부화할 것입니다. 날 것으로 먹을 수 있지만, 익혀 먹는 것이 훨씬 낫습니다.</EggGeckoFertilized.description>
+
+  <EggDeathclawUnfertilized.label>데스클로 알 (미수정란)</EggDeathclawUnfertilized.label>
+  <EggDeathclawUnfertilized.description>데스클로의 미수정란입니다.</EggDeathclawUnfertilized.description>
+
+  <EggDeathclawFertilized.label>데스클로 알 (수정란)</EggDeathclawFertilized.label>
+  <EggDeathclawFertilized.description>수정된 데스클로 알입니다. 모든 것이 잘 진행된다면 새끼 데스클로로 부화할 것입니다. 날 것으로 먹을 수 있지만, 익혀 먹는 것이 훨씬 낫습니다.</EggDeathclawFertilized.description>
+
+  <EggMirelurkUnfertilized.label>마이럴크 알 (미수정란)</EggMirelurkUnfertilized.label>
+  <EggMirelurkUnfertilized.description>마이럴크의 미수정란입니다.</EggMirelurkUnfertilized.description>
+
+  <EggMirelurkFertilized.label>마이럴크 알 (수정란)</EggMirelurkFertilized.label>
+  <EggMirelurkFertilized.description>수정된 마이럴크 알입니다. 모든 것이 잘 진행된다면 새끼 마이럴크로 부화할 것입니다. 날 것으로 먹을 수 있지만, 익혀 먹는 것이 훨씬 낫습니다.</EggMirelurkFertilized.description>
+
+</LanguageData>

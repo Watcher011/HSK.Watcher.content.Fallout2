@@ -33,9 +33,9 @@
 
 
   <!-- «Скорпоник» — энергетик с характером! -->
-  
-<Scorponade.label>Энергетик "Скорпонад"</Scorponade.label>
-<Scorponade.description>*"Обычные энергетики - для слабаков! Настоящие обитатели Пустошей пьют только «Скорпонад» — революционный напиток из 100% чистого яда рад-скорпионов, любовно перегнанного через старый противогаз с щепоткой отчаяния!
+
+  <Scorponade.label>Энергетик "Скорпонад"</Scorponade.label>
+  <Scorponade.description>*"Обычные энергетики - для слабаков! Настоящие обитатели Пустошей пьют только «Скорпонад» — революционный напиток из 100% чистого яда рад-скорпионов, любовно перегнанного через старый противогаз с щепоткой отчаяния!
 
 **Почему вам это понравится:**
 - 3 секунды — и вы больше не чувствуете усталости. Вообще ничего не чувствуете.
@@ -55,6 +55,8 @@
 3. Не управляйте техникой 48 часов (или пока не перестанете «видеть» звуки).
 
 *«Скорпонад» — ведь смерть не повод для низкой продуктивности!*"</Scorponade.description>
-<Scorponade.ingestible.ingestCommandString>Выпить {0}</Scorponade.ingestible.ingestCommandString>
-<Scorponade.ingestible.ingestReportString>Пьёт {0}.</Scorponade.ingestible.ingestReportString>
+  <Scorponade.ingestible.ingestCommandString>Выпить {0}</Scorponade.ingestible.ingestCommandString>
+  <Scorponade.ingestible.ingestReportString>Пьёт {0}.</Scorponade.ingestible.ingestReportString>
+
+
 </LanguageData>

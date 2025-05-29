@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <SuspiciousOmelette.label>수상한 오믈렛</SuspiciousOmelette.label>
+  <SuspiciousOmelette.description>거대 도마뱀의 고기와 알로 만든 수상한 오믈렛. 황무지에서 사랑받는 음식이다.</SuspiciousOmelette.description>
+
+  <boiledeggs.label>삶은 달걀</boiledeggs.label>
+  <boiledeggs.description>전후 요리 극소주의의 전형적인 예시. 이 달걀들은 끓는 물에 삶아졌거나(아니면 그냥 뜨거운 방사능 안개에 충분히 노출되었을지도 모른다).</boiledeggs.description>
+
+  <friedeggs.label>계란 프라이</friedeggs.label>
+  <friedeggs.description>아, 계란 프라이 - 전후 요리의 클래식! 이 맛있는 둥근 것들은 한때 가정의 편안함을 상징했지만, 이제는 절망과 요리적 타협의 상징이 되었다. 재료는 운이 좋다면 변이되지 않은 늪 벌레의 알에서부터, 운이 나쁘다면 방사능 바퀴벌레의 알까지 다양하다. 대부분 녹슨 금속 조각 위에 굽는데, 프라이팬은 이제 컬렉션 아이템이거나 총알을 만들기 위해 녹여졌기 때문이다. 음식이 어둠 속에서 빛나지 않았던 시절을 그리워하며, 풍부한 방사능과 함께 제공된다.</friedeggs.description>
+
+  <Raweggsinaglass.label>유리잔에 담긴 생달걀</Raweggsinaglass.label>
+  <Raweggsinaglass.description>끈적이고 반투명한 달걀 두 개가 들어있는 이 탁한 유리잔은 미친 생존주의자의 요리 실험이거나 글래드스톤 농장 일꾼의 악의적인 장난이다. 녹색 빛깔로 미루어 보아, 아마도 핵 분화구 근처에서 풀을 뜯던 늪 괴물이 낳은 알일 것이다. 냄새는 유황과 절망의 혼합물 같다. 하지만 감히 이것을 마신다면 에너지 충전(그리고 아마도 변이)을 얻을 수 있을 것이다.</Raweggsinaglass.description>
+
+  <MashedPotatoes.label>매시드 포테이토</MashedPotatoes.label>
+  <MashedPotatoes.description>황무지의 모래만큼이나 부드럽고 방사능 폭풍만큼이나 풍부한 이 매시드 포테이토는 생존자들이 전쟁 전 음식을 재현하기 위해 수년간 실험한 결과물이다. 주 재료는 한때 감자였을 무언가(또는 적어도 땅에서 파낼 때 비명을 지르지 않았던 무언가)다. 방사능 물과 합성 티파-탑 '오일', 그리고 이게 원래 어떻게 생겼는지 아직 기억하는 이들의 향수 어린 눈물로 휘저어 만들었다.</MashedPotatoes.description>
+
+  <Porridge.label>포리지</Porridge.label>
+  <Porridge.description>전후 시대의 위대한 요리적 성과! 복잡한 레시피에 시간, 노력, 귀중한 재료를 낭비할 필요가 있을까? 그냥 끓는 물에... 음, 한 가지 재료만 넣으면 되지 않은가? 비평가들은 이것을 "미식적 극소주의"라고 부르고, 생존자들은 "슬픈 스튜"라고 부르며, 당신의 위는 "인류에 대한 범죄"라고 부른다. 하지만 얼마나 절약적인가!</Porridge.description>
+
+
+</LanguageData>
