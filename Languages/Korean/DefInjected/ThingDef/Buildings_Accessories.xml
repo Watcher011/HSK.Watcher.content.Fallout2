@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <VaultLamp.label>비상용 오일 램프 "영원한 햇살"</VaultLamp.label>
-<VaultLamp.description>"종말이라 해도 분위기까지 희생하진 말자!" 핵폭탄이 떨어질 때, 볼트-텍은 생존자들에게 음식, 물, 방사능 차단복 이상의 것이 필요할 거라 예측했습니다. 바로 스타일이죠. 전쟁 전의 사치와 전쟁 후의 필수품을 결합한 "영원한 빛" 비상용 오일 램프를 소개합니다! 최고급 재활용 고철로 제작되고 특허 출원된 충격 방지 유리 돔(방지 효과는 보장되지 않음)으로 마감된 이 램프는 따뜻하고 흔들리는 빛을 발해 세상이 불타기 전의 좋았던 옛날을 떠올리게 해줍니다. 볼트 복도, 방사능 황무지, 또는 다음 식인 축제를 밝히기에 완벽하죠!</VaultLamp.description>
+  <VaultLamp.label>비상용 오일 램프 "영원한 햇살"</VaultLamp.label>
+  <VaultLamp.description>"종말이라 해도 분위기까지 희생하진 말자!" 핵폭탄이 떨어질 때, 볼트-텍은 생존자들에게 음식, 물, 방사능 차단복 이상의 것이 필요할 거라 예측했습니다. 바로 스타일이죠. 전쟁 전의 사치와 전쟁 후의 필수품을 결합한 "영원한 빛" 비상용 오일 램프를 소개합니다! 최고급 재활용 고철로 제작되고 특허 출원된 충격 방지 유리 돔(방지 효과는 보장되지 않음)으로 마감된 이 램프는 따뜻하고 흔들리는 빛을 발해 세상이 불타기 전의 좋았던 옛날을 떠올리게 해줍니다. 볼트 복도, 방사능 황무지, 또는 다음 식인 축제를 밝히기에 완벽하죠!</VaultLamp.description>
 
-<CommsConsole.label>통신 콘솔</CommsConsole.label>
-<CommsConsole.description>다른 세력 및 궤도 상인들과 무선 통신이 가능합니다.</CommsConsole.description>
-<CommsConsole.comps.3.useLabel>디아볼루스 위협 소환</CommsConsole.comps.3.useLabel>
+  <CommsConsole.label>통신 콘솔</CommsConsole.label>
+  <CommsConsole.description>다른 세력 및 궤도 상인들과 무선 통신이 가능합니다.</CommsConsole.description>
+  <CommsConsole.comps.3.useLabel>디아볼루스 위협 소환</CommsConsole.comps.3.useLabel>
 
 
 </LanguageData>

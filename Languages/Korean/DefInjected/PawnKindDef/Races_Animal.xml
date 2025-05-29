@@ -4,182 +4,182 @@
   <!-- BigCats -->
 
   <Gecko_green.label>야생 도마뱀</Gecko_green.label>
-<Gecko_green.labelPlural>야생 도마뱀들</Gecko_green.labelPlural>
-<Gecko_green.lifeStages.0.label>야생 도마뱀</Gecko_green.lifeStages.0.label>
-<Gecko_green.lifeStages.0.labelPlural>야생 도마뱀들</Gecko_green.lifeStages.0.labelPlural>
-<Gecko_green.lifeStages.0.labelMale>수컷 야생 도마뱀</Gecko_green.lifeStages.0.labelMale>
-<Gecko_green.lifeStages.0.labelMalePlural>수컷 야생 도마뱀들</Gecko_green.lifeStages.0.labelMalePlural>
-<Gecko_green.lifeStages.0.labelFemale>암컷 야생 도마뱀</Gecko_green.lifeStages.0.labelFemale>
-<Gecko_green.lifeStages.0.labelFemalePlural>암컷 야생 도마뱀들</Gecko_green.lifeStages.0.labelFemalePlural>
-<Gecko_green.lifeStages.1.label>야생 도마뱀</Gecko_green.lifeStages.1.label>
-<Gecko_green.lifeStages.1.labelPlural>야생 도마뱀들</Gecko_green.lifeStages.1.labelPlural>
-<Gecko_green.lifeStages.1.labelMale>수컷 야생 도마뱀</Gecko_green.lifeStages.1.labelMale>
-<Gecko_green.lifeStages.1.labelMalePlural>수컷 야생 도마뱀들</Gecko_green.lifeStages.1.labelMalePlural>
-<Gecko_green.lifeStages.1.labelFemale>암컷 야생 도마뱀</Gecko_green.lifeStages.1.labelFemale>
-<Gecko_green.lifeStages.1.labelFemalePlural>암컷 야생 도마뱀들</Gecko_green.lifeStages.1.labelFemalePlural>
-<Gecko_green.lifeStages.2.label>야생 도마뱀</Gecko_green.lifeStages.2.label>
-<Gecko_green.lifeStages.2.labelPlural>야생 도마뱀들</Gecko_green.lifeStages.2.labelPlural>
-<Gecko_green.lifeStages.2.labelMale>수컷 야생 도마뱀</Gecko_green.lifeStages.2.labelMale>
-<Gecko_green.lifeStages.2.labelMalePlural>수컷 야생 도마뱀들</Gecko_green.lifeStages.2.labelMalePlural>
-<Gecko_green.lifeStages.2.labelFemale>암컷 야생 도마뱀</Gecko_green.lifeStages.2.labelFemale>
-<Gecko_green.lifeStages.2.labelFemalePlural>암컷 야생 도마뱀들</Gecko_green.lifeStages.2.labelFemalePlural>
-<Gecko_green.labelMale>수컷 야생 도마뱀</Gecko_green.labelMale>
-<Gecko_green.labelMalePlural>수컷 야생 도마뱀들</Gecko_green.labelMalePlural>
-<Gecko_green.labelFemale>암컷 야생 도마뱀</Gecko_green.labelFemale>
-<Gecko_green.labelFemalePlural>암컷 야생 도마뱀들</Gecko_green.labelFemalePlural>
+  <Gecko_green.labelPlural>야생 도마뱀들</Gecko_green.labelPlural>
+  <Gecko_green.lifeStages.0.label>야생 도마뱀</Gecko_green.lifeStages.0.label>
+  <Gecko_green.lifeStages.0.labelPlural>야생 도마뱀들</Gecko_green.lifeStages.0.labelPlural>
+  <Gecko_green.lifeStages.0.labelMale>수컷 야생 도마뱀</Gecko_green.lifeStages.0.labelMale>
+  <Gecko_green.lifeStages.0.labelMalePlural>수컷 야생 도마뱀들</Gecko_green.lifeStages.0.labelMalePlural>
+  <Gecko_green.lifeStages.0.labelFemale>암컷 야생 도마뱀</Gecko_green.lifeStages.0.labelFemale>
+  <Gecko_green.lifeStages.0.labelFemalePlural>암컷 야생 도마뱀들</Gecko_green.lifeStages.0.labelFemalePlural>
+  <Gecko_green.lifeStages.1.label>야생 도마뱀</Gecko_green.lifeStages.1.label>
+  <Gecko_green.lifeStages.1.labelPlural>야생 도마뱀들</Gecko_green.lifeStages.1.labelPlural>
+  <Gecko_green.lifeStages.1.labelMale>수컷 야생 도마뱀</Gecko_green.lifeStages.1.labelMale>
+  <Gecko_green.lifeStages.1.labelMalePlural>수컷 야생 도마뱀들</Gecko_green.lifeStages.1.labelMalePlural>
+  <Gecko_green.lifeStages.1.labelFemale>암컷 야생 도마뱀</Gecko_green.lifeStages.1.labelFemale>
+  <Gecko_green.lifeStages.1.labelFemalePlural>암컷 야생 도마뱀들</Gecko_green.lifeStages.1.labelFemalePlural>
+  <Gecko_green.lifeStages.2.label>야생 도마뱀</Gecko_green.lifeStages.2.label>
+  <Gecko_green.lifeStages.2.labelPlural>야생 도마뱀들</Gecko_green.lifeStages.2.labelPlural>
+  <Gecko_green.lifeStages.2.labelMale>수컷 야생 도마뱀</Gecko_green.lifeStages.2.labelMale>
+  <Gecko_green.lifeStages.2.labelMalePlural>수컷 야생 도마뱀들</Gecko_green.lifeStages.2.labelMalePlural>
+  <Gecko_green.lifeStages.2.labelFemale>암컷 야생 도마뱀</Gecko_green.lifeStages.2.labelFemale>
+  <Gecko_green.lifeStages.2.labelFemalePlural>암컷 야생 도마뱀들</Gecko_green.lifeStages.2.labelFemalePlural>
+  <Gecko_green.labelMale>수컷 야생 도마뱀</Gecko_green.labelMale>
+  <Gecko_green.labelMalePlural>수컷 야생 도마뱀들</Gecko_green.labelMalePlural>
+  <Gecko_green.labelFemale>암컷 야생 도마뱀</Gecko_green.labelFemale>
+  <Gecko_green.labelFemalePlural>암컷 야생 도마뱀들</Gecko_green.labelFemalePlural>
 
-<Gecko_fire.label>화염 도마뱀</Gecko_fire.label>
-<Gecko_fire.labelPlural>화염 도마뱀들</Gecko_fire.labelPlural>
-<Gecko_fire.lifeStages.0.label>화염 도마뱀</Gecko_fire.lifeStages.0.label>
-<Gecko_fire.lifeStages.0.labelPlural>화염 도마뱀들</Gecko_fire.lifeStages.0.labelPlural>
-<Gecko_fire.lifeStages.0.labelMale>수컷 화염 도마뱀</Gecko_fire.lifeStages.0.labelMale>
-<Gecko_fire.lifeStages.0.labelMalePlural>수컷 화염 도마뱀들</Gecko_fire.lifeStages.0.labelMalePlural>
-<Gecko_fire.lifeStages.0.labelFemale>암컷 화염 도마뱀</Gecko_fire.lifeStages.0.labelFemale>
-<Gecko_fire.lifeStages.0.labelFemalePlural>암컷 화염 도마뱀들</Gecko_fire.lifeStages.0.labelFemalePlural>
-<Gecko_fire.lifeStages.1.label>화염 도마뱀</Gecko_fire.lifeStages.1.label>
-<Gecko_fire.lifeStages.1.labelPlural>화염 도마뱀들</Gecko_fire.lifeStages.1.labelPlural>
-<Gecko_fire.lifeStages.1.labelMale>수컷 화염 도마뱀</Gecko_fire.lifeStages.1.labelMale>
-<Gecko_fire.lifeStages.1.labelMalePlural>수컷 화염 도마뱀들</Gecko_fire.lifeStages.1.labelMalePlural>
-<Gecko_fire.lifeStages.1.labelFemale>암컷 화염 도마뱀</Gecko_fire.lifeStages.1.labelFemale>
-<Gecko_fire.lifeStages.1.labelFemalePlural>암컷 화염 도마뱀들</Gecko_fire.lifeStages.1.labelFemalePlural>
-<Gecko_fire.lifeStages.2.label>화염 도마뱀</Gecko_fire.lifeStages.2.label>
-<Gecko_fire.lifeStages.2.labelPlural>화염 도마뱀들</Gecko_fire.lifeStages.2.labelPlural>
-<Gecko_fire.lifeStages.2.labelMale>수컷 화염 도마뱀</Gecko_fire.lifeStages.2.labelMale>
-<Gecko_fire.lifeStages.2.labelMalePlural>수컷 화염 도마뱀들</Gecko_fire.lifeStages.2.labelMalePlural>
-<Gecko_fire.lifeStages.2.labelFemale>암컷 화염 도마뱀</Gecko_fire.lifeStages.2.labelFemale>
-<Gecko_fire.lifeStages.2.labelFemalePlural>암컷 화염 도마뱀들</Gecko_fire.lifeStages.2.labelFemalePlural>
-<Gecko_fire.labelMale>수컷 화염 도마뱀</Gecko_fire.labelMale>
-<Gecko_fire.labelMalePlural>수컷 화염 도마뱀들</Gecko_fire.labelMalePlural>
-<Gecko_fire.labelFemale>암컷 화염 도마뱀</Gecko_fire.labelFemale>
-<Gecko_fire.labelFemalePlural>암컷 화염 도마뱀들</Gecko_fire.labelFemalePlural>
+  <Gecko_fire.label>화염 도마뱀</Gecko_fire.label>
+  <Gecko_fire.labelPlural>화염 도마뱀들</Gecko_fire.labelPlural>
+  <Gecko_fire.lifeStages.0.label>화염 도마뱀</Gecko_fire.lifeStages.0.label>
+  <Gecko_fire.lifeStages.0.labelPlural>화염 도마뱀들</Gecko_fire.lifeStages.0.labelPlural>
+  <Gecko_fire.lifeStages.0.labelMale>수컷 화염 도마뱀</Gecko_fire.lifeStages.0.labelMale>
+  <Gecko_fire.lifeStages.0.labelMalePlural>수컷 화염 도마뱀들</Gecko_fire.lifeStages.0.labelMalePlural>
+  <Gecko_fire.lifeStages.0.labelFemale>암컷 화염 도마뱀</Gecko_fire.lifeStages.0.labelFemale>
+  <Gecko_fire.lifeStages.0.labelFemalePlural>암컷 화염 도마뱀들</Gecko_fire.lifeStages.0.labelFemalePlural>
+  <Gecko_fire.lifeStages.1.label>화염 도마뱀</Gecko_fire.lifeStages.1.label>
+  <Gecko_fire.lifeStages.1.labelPlural>화염 도마뱀들</Gecko_fire.lifeStages.1.labelPlural>
+  <Gecko_fire.lifeStages.1.labelMale>수컷 화염 도마뱀</Gecko_fire.lifeStages.1.labelMale>
+  <Gecko_fire.lifeStages.1.labelMalePlural>수컷 화염 도마뱀들</Gecko_fire.lifeStages.1.labelMalePlural>
+  <Gecko_fire.lifeStages.1.labelFemale>암컷 화염 도마뱀</Gecko_fire.lifeStages.1.labelFemale>
+  <Gecko_fire.lifeStages.1.labelFemalePlural>암컷 화염 도마뱀들</Gecko_fire.lifeStages.1.labelFemalePlural>
+  <Gecko_fire.lifeStages.2.label>화염 도마뱀</Gecko_fire.lifeStages.2.label>
+  <Gecko_fire.lifeStages.2.labelPlural>화염 도마뱀들</Gecko_fire.lifeStages.2.labelPlural>
+  <Gecko_fire.lifeStages.2.labelMale>수컷 화염 도마뱀</Gecko_fire.lifeStages.2.labelMale>
+  <Gecko_fire.lifeStages.2.labelMalePlural>수컷 화염 도마뱀들</Gecko_fire.lifeStages.2.labelMalePlural>
+  <Gecko_fire.lifeStages.2.labelFemale>암컷 화염 도마뱀</Gecko_fire.lifeStages.2.labelFemale>
+  <Gecko_fire.lifeStages.2.labelFemalePlural>암컷 화염 도마뱀들</Gecko_fire.lifeStages.2.labelFemalePlural>
+  <Gecko_fire.labelMale>수컷 화염 도마뱀</Gecko_fire.labelMale>
+  <Gecko_fire.labelMalePlural>수컷 화염 도마뱀들</Gecko_fire.labelMalePlural>
+  <Gecko_fire.labelFemale>암컷 화염 도마뱀</Gecko_fire.labelFemale>
+  <Gecko_fire.labelFemalePlural>암컷 화염 도마뱀들</Gecko_fire.labelFemalePlural>
 
-<Gecko_gold.label>황금 도마뱀</Gecko_gold.label>
-<Gecko_gold.labelPlural>황금 도마뱀들</Gecko_gold.labelPlural>
-<Gecko_gold.lifeStages.0.label>황금 도마뱀</Gecko_gold.lifeStages.0.label>
-<Gecko_gold.lifeStages.0.labelPlural>황금 도마뱀들</Gecko_gold.lifeStages.0.labelPlural>
-<Gecko_gold.lifeStages.0.labelMale>수컷 황금 도마뱀</Gecko_gold.lifeStages.0.labelMale>
-<Gecko_gold.lifeStages.0.labelMalePlural>수컷 황금 도마뱀들</Gecko_gold.lifeStages.0.labelMalePlural>
-<Gecko_gold.lifeStages.0.labelFemale>암컷 황금 도마뱀</Gecko_gold.lifeStages.0.labelFemale>
-<Gecko_gold.lifeStages.0.labelFemalePlural>암컷 황금 도마뱀들</Gecko_gold.lifeStages.0.labelFemalePlural>
-<Gecko_gold.lifeStages.1.label>황금 도마뱀</Gecko_gold.lifeStages.1.label>
-<Gecko_gold.lifeStages.1.labelPlural>황금 도마뱀들</Gecko_gold.lifeStages.1.labelPlural>
-<Gecko_gold.lifeStages.1.labelMale>수컷 황금 도마뱀</Gecko_gold.lifeStages.1.labelMale>
-<Gecko_gold.lifeStages.1.labelMalePlural>수컷 황금 도마뱀들</Gecko_gold.lifeStages.1.labelMalePlural>
-<Gecko_gold.lifeStages.1.labelFemale>암컷 황금 도마뱀</Gecko_gold.lifeStages.1.labelFemale>
-<Gecko_gold.lifeStages.1.labelFemalePlural>암컷 황금 도마뱀들</Gecko_gold.lifeStages.1.labelFemalePlural>
-<Gecko_gold.lifeStages.2.label>황금 도마뱀</Gecko_gold.lifeStages.2.label>
-<Gecko_gold.lifeStages.2.labelPlural>황금 도마뱀들</Gecko_gold.lifeStages.2.labelPlural>
-<Gecko_gold.lifeStages.2.labelMale>수컷 황금 도마뱀</Gecko_gold.lifeStages.2.labelMale>
-<Gecko_gold.lifeStages.2.labelMalePlural>수컷 황금 도마뱀들</Gecko_gold.lifeStages.2.labelMalePlural>
-<Gecko_gold.lifeStages.2.labelFemale>암컷 황금 도마뱀</Gecko_gold.lifeStages.2.labelFemale>
-<Gecko_gold.lifeStages.2.labelFemalePlural>암컷 황금 도마뱀들</Gecko_gold.lifeStages.2.labelFemalePlural>
-<Gecko_gold.labelMale>수컷 황금 도마뱀</Gecko_gold.labelMale>
-<Gecko_gold.labelMalePlural>수컷 황금 도마뱀들</Gecko_gold.labelMalePlural>
-<Gecko_gold.labelFemale>암컷 황금 도마뱀</Gecko_gold.labelFemale>
-<Gecko_gold.labelFemalePlural>암컷 황금 도마뱀들</Gecko_gold.labelFemalePlural>
+  <Gecko_gold.label>황금 도마뱀</Gecko_gold.label>
+  <Gecko_gold.labelPlural>황금 도마뱀들</Gecko_gold.labelPlural>
+  <Gecko_gold.lifeStages.0.label>황금 도마뱀</Gecko_gold.lifeStages.0.label>
+  <Gecko_gold.lifeStages.0.labelPlural>황금 도마뱀들</Gecko_gold.lifeStages.0.labelPlural>
+  <Gecko_gold.lifeStages.0.labelMale>수컷 황금 도마뱀</Gecko_gold.lifeStages.0.labelMale>
+  <Gecko_gold.lifeStages.0.labelMalePlural>수컷 황금 도마뱀들</Gecko_gold.lifeStages.0.labelMalePlural>
+  <Gecko_gold.lifeStages.0.labelFemale>암컷 황금 도마뱀</Gecko_gold.lifeStages.0.labelFemale>
+  <Gecko_gold.lifeStages.0.labelFemalePlural>암컷 황금 도마뱀들</Gecko_gold.lifeStages.0.labelFemalePlural>
+  <Gecko_gold.lifeStages.1.label>황금 도마뱀</Gecko_gold.lifeStages.1.label>
+  <Gecko_gold.lifeStages.1.labelPlural>황금 도마뱀들</Gecko_gold.lifeStages.1.labelPlural>
+  <Gecko_gold.lifeStages.1.labelMale>수컷 황금 도마뱀</Gecko_gold.lifeStages.1.labelMale>
+  <Gecko_gold.lifeStages.1.labelMalePlural>수컷 황금 도마뱀들</Gecko_gold.lifeStages.1.labelMalePlural>
+  <Gecko_gold.lifeStages.1.labelFemale>암컷 황금 도마뱀</Gecko_gold.lifeStages.1.labelFemale>
+  <Gecko_gold.lifeStages.1.labelFemalePlural>암컷 황금 도마뱀들</Gecko_gold.lifeStages.1.labelFemalePlural>
+  <Gecko_gold.lifeStages.2.label>황금 도마뱀</Gecko_gold.lifeStages.2.label>
+  <Gecko_gold.lifeStages.2.labelPlural>황금 도마뱀들</Gecko_gold.lifeStages.2.labelPlural>
+  <Gecko_gold.lifeStages.2.labelMale>수컷 황금 도마뱀</Gecko_gold.lifeStages.2.labelMale>
+  <Gecko_gold.lifeStages.2.labelMalePlural>수컷 황금 도마뱀들</Gecko_gold.lifeStages.2.labelMalePlural>
+  <Gecko_gold.lifeStages.2.labelFemale>암컷 황금 도마뱀</Gecko_gold.lifeStages.2.labelFemale>
+  <Gecko_gold.lifeStages.2.labelFemalePlural>암컷 황금 도마뱀들</Gecko_gold.lifeStages.2.labelFemalePlural>
+  <Gecko_gold.labelMale>수컷 황금 도마뱀</Gecko_gold.labelMale>
+  <Gecko_gold.labelMalePlural>수컷 황금 도마뱀들</Gecko_gold.labelMalePlural>
+  <Gecko_gold.labelFemale>암컷 황금 도마뱀</Gecko_gold.labelFemale>
+  <Gecko_gold.labelFemalePlural>암컷 황금 도마뱀들</Gecko_gold.labelFemalePlural>
 
-<Cyberdog.label>사이버독</Cyberdog.label>
-<Cyberdog.labelPlural>사이버독들</Cyberdog.labelPlural>
-<Cyberdog.lifeStages.0.label>사이버독 강아지</Cyberdog.lifeStages.0.label>
-<Cyberdog.lifeStages.0.labelPlural>사이버독 강아지들</Cyberdog.lifeStages.0.labelPlural>
-<Cyberdog.lifeStages.0.labelMale>수컷 사이버독 강아지</Cyberdog.lifeStages.0.labelMale>
-<Cyberdog.lifeStages.0.labelMalePlural>수컷 사이버독 강아지들</Cyberdog.lifeStages.0.labelMalePlural>
-<Cyberdog.lifeStages.0.labelFemale>암컷 사이버독 강아지</Cyberdog.lifeStages.0.labelFemale>
-<Cyberdog.lifeStages.0.labelFemalePlural>암컷 사이버독 강아지들</Cyberdog.lifeStages.0.labelFemalePlural>
-<Cyberdog.lifeStages.1.label>사이버독</Cyberdog.lifeStages.1.label>
-<Cyberdog.lifeStages.1.labelPlural>사이버독들</Cyberdog.lifeStages.1.labelPlural>
-<Cyberdog.lifeStages.1.labelMale>수컷 사이버독</Cyberdog.lifeStages.1.labelMale>
-<Cyberdog.lifeStages.1.labelMalePlural>수컷 사이버독들</Cyberdog.lifeStages.1.labelMalePlural>
-<Cyberdog.lifeStages.1.labelFemale>암컷 사이버독</Cyberdog.lifeStages.1.labelFemale>
-<Cyberdog.lifeStages.1.labelFemalePlural>암컷 사이버독들</Cyberdog.lifeStages.1.labelFemalePlural>
-<Cyberdog.lifeStages.2.label>사이버독</Cyberdog.lifeStages.2.label>
-<Cyberdog.lifeStages.2.labelPlural>사이버독들</Cyberdog.lifeStages.2.labelPlural>
-<Cyberdog.lifeStages.2.labelMale>수컷 사이버독</Cyberdog.lifeStages.2.labelMale>
-<Cyberdog.lifeStages.2.labelMalePlural>수컷 사이버독들</Cyberdog.lifeStages.2.labelMalePlural>
-<Cyberdog.lifeStages.2.labelFemale>암컷 사이버독</Cyberdog.lifeStages.2.labelFemale>
-<Cyberdog.lifeStages.2.labelFemalePlural>암컷 사이버독들</Cyberdog.lifeStages.2.labelFemalePlural>
-<Cyberdog.labelMale>수컷 사이버독</Cyberdog.labelMale>
-<Cyberdog.labelMalePlural>수컷 사이버독들</Cyberdog.labelMalePlural>
-<Cyberdog.labelFemale>암컷 사이버독</Cyberdog.labelFemale>
-<Cyberdog.labelFemalePlural>암컷 사이버독들</Cyberdog.labelFemalePlural>
+  <Cyberdog.label>사이버독</Cyberdog.label>
+  <Cyberdog.labelPlural>사이버독들</Cyberdog.labelPlural>
+  <Cyberdog.lifeStages.0.label>사이버독 강아지</Cyberdog.lifeStages.0.label>
+  <Cyberdog.lifeStages.0.labelPlural>사이버독 강아지들</Cyberdog.lifeStages.0.labelPlural>
+  <Cyberdog.lifeStages.0.labelMale>수컷 사이버독 강아지</Cyberdog.lifeStages.0.labelMale>
+  <Cyberdog.lifeStages.0.labelMalePlural>수컷 사이버독 강아지들</Cyberdog.lifeStages.0.labelMalePlural>
+  <Cyberdog.lifeStages.0.labelFemale>암컷 사이버독 강아지</Cyberdog.lifeStages.0.labelFemale>
+  <Cyberdog.lifeStages.0.labelFemalePlural>암컷 사이버독 강아지들</Cyberdog.lifeStages.0.labelFemalePlural>
+  <Cyberdog.lifeStages.1.label>사이버독</Cyberdog.lifeStages.1.label>
+  <Cyberdog.lifeStages.1.labelPlural>사이버독들</Cyberdog.lifeStages.1.labelPlural>
+  <Cyberdog.lifeStages.1.labelMale>수컷 사이버독</Cyberdog.lifeStages.1.labelMale>
+  <Cyberdog.lifeStages.1.labelMalePlural>수컷 사이버독들</Cyberdog.lifeStages.1.labelMalePlural>
+  <Cyberdog.lifeStages.1.labelFemale>암컷 사이버독</Cyberdog.lifeStages.1.labelFemale>
+  <Cyberdog.lifeStages.1.labelFemalePlural>암컷 사이버독들</Cyberdog.lifeStages.1.labelFemalePlural>
+  <Cyberdog.lifeStages.2.label>사이버독</Cyberdog.lifeStages.2.label>
+  <Cyberdog.lifeStages.2.labelPlural>사이버독들</Cyberdog.lifeStages.2.labelPlural>
+  <Cyberdog.lifeStages.2.labelMale>수컷 사이버독</Cyberdog.lifeStages.2.labelMale>
+  <Cyberdog.lifeStages.2.labelMalePlural>수컷 사이버독들</Cyberdog.lifeStages.2.labelMalePlural>
+  <Cyberdog.lifeStages.2.labelFemale>암컷 사이버독</Cyberdog.lifeStages.2.labelFemale>
+  <Cyberdog.lifeStages.2.labelFemalePlural>암컷 사이버독들</Cyberdog.lifeStages.2.labelFemalePlural>
+  <Cyberdog.labelMale>수컷 사이버독</Cyberdog.labelMale>
+  <Cyberdog.labelMalePlural>수컷 사이버독들</Cyberdog.labelMalePlural>
+  <Cyberdog.labelFemale>암컷 사이버독</Cyberdog.labelFemale>
+  <Cyberdog.labelFemalePlural>암컷 사이버독들</Cyberdog.labelFemalePlural>
 
 
   <!-- Deathclaw -->
 
- <Deathclaw.label>데스클로</Deathclaw.label>
-<Deathclaw.labelPlural>데스클로들</Deathclaw.labelPlural>
-<Deathclaw.lifeStages.0.label>데스클로</Deathclaw.lifeStages.0.label>
-<Deathclaw.lifeStages.0.labelPlural>데스클로들</Deathclaw.lifeStages.0.labelPlural>
-<Deathclaw.lifeStages.0.labelMale>수컷 데스클로</Deathclaw.lifeStages.0.labelMale>
-<Deathclaw.lifeStages.0.labelMalePlural>수컷 데스클로들</Deathclaw.lifeStages.0.labelMalePlural>
-<Deathclaw.lifeStages.0.labelFemale>암컷 데스클로</Deathclaw.lifeStages.0.labelFemale>
-<Deathclaw.lifeStages.0.labelFemalePlural>암컷 데스클로들</Deathclaw.lifeStages.0.labelFemalePlural>
-<Deathclaw.lifeStages.1.label>데스클로</Deathclaw.lifeStages.1.label>
-<Deathclaw.lifeStages.1.labelPlural>데스클로들</Deathclaw.lifeStages.1.labelPlural>
-<Deathclaw.lifeStages.1.labelMale>수컷 데스클로</Deathclaw.lifeStages.1.labelMale>
-<Deathclaw.lifeStages.1.labelMalePlural>수컷 데스클로들</Deathclaw.lifeStages.1.labelMalePlural>
-<Deathclaw.lifeStages.1.labelFemale>암컷 데스클로</Deathclaw.lifeStages.1.labelFemale>
-<Deathclaw.lifeStages.1.labelFemalePlural>암컷 데스클로들</Deathclaw.lifeStages.1.labelFemalePlural>
-<Deathclaw.lifeStages.2.label>데스클로</Deathclaw.lifeStages.2.label>
-<Deathclaw.lifeStages.2.labelPlural>데스클로들</Deathclaw.lifeStages.2.labelPlural>
-<Deathclaw.lifeStages.2.labelMale>수컷 데스클로</Deathclaw.lifeStages.2.labelMale>
-<Deathclaw.lifeStages.2.labelMalePlural>수컷 데스클로들</Deathclaw.lifeStages.2.labelMalePlural>
-<Deathclaw.lifeStages.2.labelFemale>암컷 데스클로</Deathclaw.lifeStages.2.labelFemale>
-<Deathclaw.lifeStages.2.labelFemalePlural>암컷 데스클로들</Deathclaw.lifeStages.2.labelFemalePlural>
-<Deathclaw.labelMale>수컷 데스클로</Deathclaw.labelMale>
-<Deathclaw.labelMalePlural>수컷 데스클로들</Deathclaw.labelMalePlural>
-<Deathclaw.labelFemale>암컷 데스클로</Deathclaw.labelFemale>
-<Deathclaw.labelFemalePlural>암컷 데스클로들</Deathclaw.labelFemalePlural>
+  <Deathclaw.label>데스클로</Deathclaw.label>
+  <Deathclaw.labelPlural>데스클로들</Deathclaw.labelPlural>
+  <Deathclaw.lifeStages.0.label>데스클로</Deathclaw.lifeStages.0.label>
+  <Deathclaw.lifeStages.0.labelPlural>데스클로들</Deathclaw.lifeStages.0.labelPlural>
+  <Deathclaw.lifeStages.0.labelMale>수컷 데스클로</Deathclaw.lifeStages.0.labelMale>
+  <Deathclaw.lifeStages.0.labelMalePlural>수컷 데스클로들</Deathclaw.lifeStages.0.labelMalePlural>
+  <Deathclaw.lifeStages.0.labelFemale>암컷 데스클로</Deathclaw.lifeStages.0.labelFemale>
+  <Deathclaw.lifeStages.0.labelFemalePlural>암컷 데스클로들</Deathclaw.lifeStages.0.labelFemalePlural>
+  <Deathclaw.lifeStages.1.label>데스클로</Deathclaw.lifeStages.1.label>
+  <Deathclaw.lifeStages.1.labelPlural>데스클로들</Deathclaw.lifeStages.1.labelPlural>
+  <Deathclaw.lifeStages.1.labelMale>수컷 데스클로</Deathclaw.lifeStages.1.labelMale>
+  <Deathclaw.lifeStages.1.labelMalePlural>수컷 데스클로들</Deathclaw.lifeStages.1.labelMalePlural>
+  <Deathclaw.lifeStages.1.labelFemale>암컷 데스클로</Deathclaw.lifeStages.1.labelFemale>
+  <Deathclaw.lifeStages.1.labelFemalePlural>암컷 데스클로들</Deathclaw.lifeStages.1.labelFemalePlural>
+  <Deathclaw.lifeStages.2.label>데스클로</Deathclaw.lifeStages.2.label>
+  <Deathclaw.lifeStages.2.labelPlural>데스클로들</Deathclaw.lifeStages.2.labelPlural>
+  <Deathclaw.lifeStages.2.labelMale>수컷 데스클로</Deathclaw.lifeStages.2.labelMale>
+  <Deathclaw.lifeStages.2.labelMalePlural>수컷 데스클로들</Deathclaw.lifeStages.2.labelMalePlural>
+  <Deathclaw.lifeStages.2.labelFemale>암컷 데스클로</Deathclaw.lifeStages.2.labelFemale>
+  <Deathclaw.lifeStages.2.labelFemalePlural>암컷 데스클로들</Deathclaw.lifeStages.2.labelFemalePlural>
+  <Deathclaw.labelMale>수컷 데스클로</Deathclaw.labelMale>
+  <Deathclaw.labelMalePlural>수컷 데스클로들</Deathclaw.labelMalePlural>
+  <Deathclaw.labelFemale>암컷 데스클로</Deathclaw.labelFemale>
+  <Deathclaw.labelFemalePlural>암컷 데스클로들</Deathclaw.labelFemalePlural>
 
-<Mirelurk.label>마이럴크</Mirelurk.label>
-<Mirelurk.labelPlural>마이럴크들</Mirelurk.labelPlural>
-<Mirelurk.lifeStages.0.label>마이럴크</Mirelurk.lifeStages.0.label>
-<Mirelurk.lifeStages.0.labelPlural>마이럴크들</Mirelurk.lifeStages.0.labelPlural>
-<Mirelurk.lifeStages.0.labelMale>수컷 마이럴크</Mirelurk.lifeStages.0.labelMale>
-<Mirelurk.lifeStages.0.labelMalePlural>수컷 마이럴크들</Mirelurk.lifeStages.0.labelMalePlural>
-<Mirelurk.lifeStages.0.labelFemale>암컷 마이럴크</Mirelurk.lifeStages.0.labelFemale>
-<Mirelurk.lifeStages.0.labelFemalePlural>암컷 마이럴크들</Mirelurk.lifeStages.0.labelFemalePlural>
-<Mirelurk.lifeStages.1.label>마이럴크</Mirelurk.lifeStages.1.label>
-<Mirelurk.lifeStages.1.labelPlural>마이럴크들</Mirelurk.lifeStages.1.labelPlural>
-<Mirelurk.lifeStages.1.labelMale>수컷 마이럴크</Mirelurk.lifeStages.1.labelMale>
-<Mirelurk.lifeStages.1.labelMalePlural>수컷 마이럴크들</Mirelurk.lifeStages.1.labelMalePlural>
-<Mirelurk.lifeStages.1.labelFemale>암컷 마이럴크</Mirelurk.lifeStages.1.labelFemale>
-<Mirelurk.lifeStages.1.labelFemalePlural>암컷 마이럴크들</Mirelurk.lifeStages.1.labelFemalePlural>
-<Mirelurk.lifeStages.2.label>마이럴크</Mirelurk.lifeStages.2.label>
-<Mirelurk.lifeStages.2.labelPlural>마이럴크들</Mirelurk.lifeStages.2.labelPlural>
-<Mirelurk.lifeStages.2.labelMale>수컷 마이럴크</Mirelurk.lifeStages.2.labelMale>
-<Mirelurk.lifeStages.2.labelMalePlural>수컷 마이럴크들</Mirelurk.lifeStages.2.labelMalePlural>
-<Mirelurk.lifeStages.2.labelFemale>암컷 마이럴크</Mirelurk.lifeStages.2.labelFemale>
-<Mirelurk.lifeStages.2.labelFemalePlural>암컷 마이럴크들</Mirelurk.lifeStages.2.labelFemalePlural>
-<Mirelurk.labelMale>수컷 마이럴크</Mirelurk.labelMale>
-<Mirelurk.labelMalePlural>수컷 마이럴크들</Mirelurk.labelMalePlural>
-<Mirelurk.labelFemale>암컷 마이럴크</Mirelurk.labelFemale>
-<Mirelurk.labelFemalePlural>암컷 마이럴크들</Mirelurk.labelFemalePlural>
+  <Mirelurk.label>마이럴크</Mirelurk.label>
+  <Mirelurk.labelPlural>마이럴크들</Mirelurk.labelPlural>
+  <Mirelurk.lifeStages.0.label>마이럴크</Mirelurk.lifeStages.0.label>
+  <Mirelurk.lifeStages.0.labelPlural>마이럴크들</Mirelurk.lifeStages.0.labelPlural>
+  <Mirelurk.lifeStages.0.labelMale>수컷 마이럴크</Mirelurk.lifeStages.0.labelMale>
+  <Mirelurk.lifeStages.0.labelMalePlural>수컷 마이럴크들</Mirelurk.lifeStages.0.labelMalePlural>
+  <Mirelurk.lifeStages.0.labelFemale>암컷 마이럴크</Mirelurk.lifeStages.0.labelFemale>
+  <Mirelurk.lifeStages.0.labelFemalePlural>암컷 마이럴크들</Mirelurk.lifeStages.0.labelFemalePlural>
+  <Mirelurk.lifeStages.1.label>마이럴크</Mirelurk.lifeStages.1.label>
+  <Mirelurk.lifeStages.1.labelPlural>마이럴크들</Mirelurk.lifeStages.1.labelPlural>
+  <Mirelurk.lifeStages.1.labelMale>수컷 마이럴크</Mirelurk.lifeStages.1.labelMale>
+  <Mirelurk.lifeStages.1.labelMalePlural>수컷 마이럴크들</Mirelurk.lifeStages.1.labelMalePlural>
+  <Mirelurk.lifeStages.1.labelFemale>암컷 마이럴크</Mirelurk.lifeStages.1.labelFemale>
+  <Mirelurk.lifeStages.1.labelFemalePlural>암컷 마이럴크들</Mirelurk.lifeStages.1.labelFemalePlural>
+  <Mirelurk.lifeStages.2.label>마이럴크</Mirelurk.lifeStages.2.label>
+  <Mirelurk.lifeStages.2.labelPlural>마이럴크들</Mirelurk.lifeStages.2.labelPlural>
+  <Mirelurk.lifeStages.2.labelMale>수컷 마이럴크</Mirelurk.lifeStages.2.labelMale>
+  <Mirelurk.lifeStages.2.labelMalePlural>수컷 마이럴크들</Mirelurk.lifeStages.2.labelMalePlural>
+  <Mirelurk.lifeStages.2.labelFemale>암컷 마이럴크</Mirelurk.lifeStages.2.labelFemale>
+  <Mirelurk.lifeStages.2.labelFemalePlural>암컷 마이럴크들</Mirelurk.lifeStages.2.labelFemalePlural>
+  <Mirelurk.labelMale>수컷 마이럴크</Mirelurk.labelMale>
+  <Mirelurk.labelMalePlural>수컷 마이럴크들</Mirelurk.labelMalePlural>
+  <Mirelurk.labelFemale>암컷 마이럴크</Mirelurk.labelFemale>
+  <Mirelurk.labelFemalePlural>암컷 마이럴크들</Mirelurk.labelFemalePlural>
 
-<Brahmin.label>브라민</Brahmin.label>
-<Brahmin.labelPlural>브라민들</Brahmin.labelPlural>
-<Brahmin.lifeStages.0.label>새끼</Brahmin.lifeStages.0.label>
-<Brahmin.lifeStages.0.labelPlural>새끼들</Brahmin.lifeStages.0.labelPlural>
-<Brahmin.lifeStages.0.labelMale>수컷 새끼</Brahmin.lifeStages.0.labelMale>
-<Brahmin.lifeStages.0.labelMalePlural>수컷 새끼들</Brahmin.lifeStages.0.labelMalePlural>
-<Brahmin.lifeStages.0.labelFemale>암컷 새끼</Brahmin.lifeStages.0.labelFemale>
-<Brahmin.lifeStages.0.labelFemalePlural>암컷 새끼들</Brahmin.lifeStages.0.labelFemalePlural>
-<Brahmin.lifeStages.1.label>브라민</Brahmin.lifeStages.1.label>
-<Brahmin.lifeStages.1.labelPlural>브라민들</Brahmin.lifeStages.1.labelPlural>
-<Brahmin.lifeStages.1.labelMale>수컷 브라민</Brahmin.lifeStages.1.labelMale>
-<Brahmin.lifeStages.1.labelMalePlural>수컷 브라민들</Brahmin.lifeStages.1.labelMalePlural>
-<Brahmin.lifeStages.1.labelFemale>암컷 브라민</Brahmin.lifeStages.1.labelFemale>
-<Brahmin.lifeStages.1.labelFemalePlural>암컷 브라민들</Brahmin.lifeStages.1.labelFemalePlural>
-<Brahmin.lifeStages.2.label>브라민</Brahmin.lifeStages.2.label>
-<Brahmin.lifeStages.2.labelPlural>브라민들</Brahmin.lifeStages.2.labelPlural>
-<Brahmin.lifeStages.2.labelMale>수컷 브라민</Brahmin.lifeStages.2.labelMale>
-<Brahmin.lifeStages.2.labelMalePlural>수컷 브라민들</Brahmin.lifeStages.2.labelMalePlural>
-<Brahmin.lifeStages.2.labelFemale>암컷 브라민</Brahmin.lifeStages.2.labelFemale>
-<Brahmin.lifeStages.2.labelFemalePlural>암컷 브라민들</Brahmin.lifeStages.2.labelFemalePlural>
-<Brahmin.labelMale>수컷 브라민</Brahmin.labelMale>
-<Brahmin.labelMalePlural>수컷 브라민들</Brahmin.labelMalePlural>
-<Brahmin.labelFemale>암컷 브라민</Brahmin.labelFemale>
-<Brahmin.labelFemalePlural>암컷 브라민들</Brahmin.labelFemalePlural>
+  <Brahmin.label>브라민</Brahmin.label>
+  <Brahmin.labelPlural>브라민들</Brahmin.labelPlural>
+  <Brahmin.lifeStages.0.label>새끼</Brahmin.lifeStages.0.label>
+  <Brahmin.lifeStages.0.labelPlural>새끼들</Brahmin.lifeStages.0.labelPlural>
+  <Brahmin.lifeStages.0.labelMale>수컷 새끼</Brahmin.lifeStages.0.labelMale>
+  <Brahmin.lifeStages.0.labelMalePlural>수컷 새끼들</Brahmin.lifeStages.0.labelMalePlural>
+  <Brahmin.lifeStages.0.labelFemale>암컷 새끼</Brahmin.lifeStages.0.labelFemale>
+  <Brahmin.lifeStages.0.labelFemalePlural>암컷 새끼들</Brahmin.lifeStages.0.labelFemalePlural>
+  <Brahmin.lifeStages.1.label>브라민</Brahmin.lifeStages.1.label>
+  <Brahmin.lifeStages.1.labelPlural>브라민들</Brahmin.lifeStages.1.labelPlural>
+  <Brahmin.lifeStages.1.labelMale>수컷 브라민</Brahmin.lifeStages.1.labelMale>
+  <Brahmin.lifeStages.1.labelMalePlural>수컷 브라민들</Brahmin.lifeStages.1.labelMalePlural>
+  <Brahmin.lifeStages.1.labelFemale>암컷 브라민</Brahmin.lifeStages.1.labelFemale>
+  <Brahmin.lifeStages.1.labelFemalePlural>암컷 브라민들</Brahmin.lifeStages.1.labelFemalePlural>
+  <Brahmin.lifeStages.2.label>브라민</Brahmin.lifeStages.2.label>
+  <Brahmin.lifeStages.2.labelPlural>브라민들</Brahmin.lifeStages.2.labelPlural>
+  <Brahmin.lifeStages.2.labelMale>수컷 브라민</Brahmin.lifeStages.2.labelMale>
+  <Brahmin.lifeStages.2.labelMalePlural>수컷 브라민들</Brahmin.lifeStages.2.labelMalePlural>
+  <Brahmin.lifeStages.2.labelFemale>암컷 브라민</Brahmin.lifeStages.2.labelFemale>
+  <Brahmin.lifeStages.2.labelFemalePlural>암컷 브라민들</Brahmin.lifeStages.2.labelFemalePlural>
+  <Brahmin.labelMale>수컷 브라민</Brahmin.labelMale>
+  <Brahmin.labelMalePlural>수컷 브라민들</Brahmin.labelMalePlural>
+  <Brahmin.labelFemale>암컷 브라민</Brahmin.labelFemale>
+  <Brahmin.labelFemalePlural>암컷 브라민들</Brahmin.labelFemalePlural>
 
 
 </LanguageData>

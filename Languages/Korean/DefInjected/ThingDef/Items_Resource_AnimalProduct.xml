@@ -3,7 +3,7 @@
 
   <!-- Gecko -->
 
- <EggGeckoFertilized.label>게코 알 (수정란)</EggGeckoFertilized.label>
+  <EggGeckoFertilized.label>게코 알 (수정란)</EggGeckoFertilized.label>
   <EggGeckoFertilized.description>수정된 게코 알입니다. 모든 것이 잘 진행된다면 새끼 게코로 부화할 것입니다. 날 것으로 먹을 수 있지만, 익혀 먹는 것이 훨씬 낫습니다.</EggGeckoFertilized.description>
 
   <EggDeathclawUnfertilized.label>데스클로 알 (미수정란)</EggDeathclawUnfertilized.label>
@@ -17,5 +17,6 @@
 
   <EggMirelurkFertilized.label>마이럴크 알 (수정란)</EggMirelurkFertilized.label>
   <EggMirelurkFertilized.description>수정된 마이럴크 알입니다. 모든 것이 잘 진행된다면 새끼 마이럴크로 부화할 것입니다. 날 것으로 먹을 수 있지만, 익혀 먹는 것이 훨씬 낫습니다.</EggMirelurkFertilized.description>
+
 
 </LanguageData>

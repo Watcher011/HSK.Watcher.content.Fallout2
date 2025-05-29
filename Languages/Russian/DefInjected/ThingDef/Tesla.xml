@@ -3,10 +3,14 @@
 
   <!-- Ammo -->
 
- <Ammo_ChargedTesla.label>Заряженный энергоблок Теслы</Ammo_ChargedTesla.label>
+  <Ammo_ChargedTesla.label>Заряженный энергоблок Теслы</Ammo_ChargedTesla.label>
 
-<!-- Снаряды -->
-<Bullet_Tesla.label>Луч Теслы</Bullet_Tesla.label>
 
+  <!-- Projectiles -->
+
+  <Bullet_Tesla.label>Луч Теслы</Bullet_Tesla.label>
+
+
+  <!-- Снаряды -->
 
 </LanguageData>

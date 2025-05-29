@@ -2,16 +2,16 @@
 <LanguageData>
 
   <Vault-TecPower.label>볼트-텍 파워</Vault-TecPower.label>
-<Vault-TecPower.description>볼트-텍 설계도를 사용하여 발전기를 건설합니다.</Vault-TecPower.description>
-<Vault-TecPower.generalRules.rulesStrings.0>주제-&gt;볼트-텍 파워</Vault-TecPower.generalRules.rulesStrings.0>
+  <Vault-TecPower.description>볼트-텍 설계도를 사용하여 발전기를 건설합니다.</Vault-TecPower.description>
+  <Vault-TecPower.generalRules.rulesStrings.0>주제-&gt;볼트-텍 파워</Vault-TecPower.generalRules.rulesStrings.0>
 
-<Vault-TecProduction.label>볼트-텍 프로덕션</Vault-TecProduction.label>
-<Vault-TecProduction.description>볼트-텍 설계도를 사용하여 작업대를 건설합니다.</Vault-TecProduction.description>
-<Vault-TecProduction.generalRules.rulesStrings.0>주제-&gt;볼트-텍 프로덕션</Vault-TecProduction.generalRules.rulesStrings.0>
+  <Vault-TecProduction.label>볼트-텍 프로덕션</Vault-TecProduction.label>
+  <Vault-TecProduction.description>볼트-텍 설계도를 사용하여 작업대를 건설합니다.</Vault-TecProduction.description>
+  <Vault-TecProduction.generalRules.rulesStrings.0>주제-&gt;볼트-텍 프로덕션</Vault-TecProduction.generalRules.rulesStrings.0>
 
-<Vault-TecProcessing.label>볼트-텍 화학 처리</Vault-TecProcessing.label>
-<Vault-TecProcessing.description>볼트-텍 설계도를 사용하여 실험실을 건설합니다.</Vault-TecProcessing.description>
-<Vault-TecProcessing.generalRules.rulesStrings.0>주제-&gt;볼트-텍 실험실</Vault-TecProcessing.generalRules.rulesStrings.0>
+  <Vault-TecProcessing.label>볼트-텍 화학 처리</Vault-TecProcessing.label>
+  <Vault-TecProcessing.description>볼트-텍 설계도를 사용하여 실험실을 건설합니다.</Vault-TecProcessing.description>
+  <Vault-TecProcessing.generalRules.rulesStrings.0>주제-&gt;볼트-텍 실험실</Vault-TecProcessing.generalRules.rulesStrings.0>
 
 
 </LanguageData>

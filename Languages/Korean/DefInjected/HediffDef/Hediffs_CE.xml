@@ -1,32 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<DeathIonization.label>사전자화(死電離)</DeathIonization.label>
-<DeathIonization.description>불안정한 상태.</DeathIonization.description>
-<DeathIonization.labelNoun>사전자화 현상</DeathIonization.labelNoun>
+  <DeathIonization.label>사전자화(死電離)</DeathIonization.label>
+  <DeathIonization.description>불안정한 상태.</DeathIonization.description>
+  <DeathIonization.labelNoun>사전자화 현상</DeathIonization.labelNoun>
 
-<FEV.label>FEV (강화 바이러스)</FEV.label>
-<FEV.description>FEV 바이러스.</FEV.description>
+  <FEV.label>FEV (강화 바이러스)</FEV.label>
+  <FEV.description>FEV 바이러스.</FEV.description>
 
-<Ghoul.label>구울</Ghoul.label>
-<Ghoul.description>구울.</Ghoul.description>
+  <Ghoul.label>구울</Ghoul.label>
+  <Ghoul.description>구울.</Ghoul.description>
 
-<Charge.label>전하</Charge.label>
-<Charge.description>불안정한 상태의 원자들</Charge.description>
+  <Charge.label>전하</Charge.label>
+  <Charge.description>불안정한 상태의 원자들</Charge.description>
 
-<RadScorpionPoison.label>방사성 전갈 독 축적</RadScorpionPoison.label>
-<RadScorpionPoison.description>전갈 독이 축적되는 중</RadScorpionPoison.description>
-<RadScorpionPoison.stages.0.label>초기</RadScorpionPoison.stages.0.label>
-<RadScorpionPoison.stages.1.label>초기</RadScorpionPoison.stages.1.label>
-<RadScorpionPoison.stages.2.label>경미</RadScorpionPoison.stages.2.label>
-<RadScorpionPoison.stages.3.label>중등도</RadScorpionPoison.stages.3.label>
-<RadScorpionPoison.stages.4.label>심각</RadScorpionPoison.stages.4.label>
-<RadScorpionPoison.stages.5.label>극심</RadScorpionPoison.stages.5.label>
+  <RadScorpionPoison.label>방사성 전갈 독 축적</RadScorpionPoison.label>
+  <RadScorpionPoison.description>전갈 독이 축적되는 중</RadScorpionPoison.description>
+  <RadScorpionPoison.stages.0.label>초기</RadScorpionPoison.stages.0.label>
+  <RadScorpionPoison.stages.1.label>초기</RadScorpionPoison.stages.1.label>
+  <RadScorpionPoison.stages.2.label>경미</RadScorpionPoison.stages.2.label>
+  <RadScorpionPoison.stages.3.label>중등도</RadScorpionPoison.stages.3.label>
+  <RadScorpionPoison.stages.4.label>심각</RadScorpionPoison.stages.4.label>
+  <RadScorpionPoison.stages.5.label>극심</RadScorpionPoison.stages.5.label>
 
-<Scorponade.label>"스코르포네이드" 에너지 드링크</Scorponade.label>
-<Scorponade.description>"스코르포네이드" 에너지 드링크를 마셨다.</Scorponade.description>
-<Scorponade.stages.0.label>스코르포네이드 드링크, 휴</Scorponade.stages.0.label>
-<Scorponade.stages.1.label>스코르포네이드 드링크, 기분이 나아짐.</Scorponade.stages.1.label>
+  <Scorponade.label>"스코르포네이드" 에너지 드링크</Scorponade.label>
+  <Scorponade.description>"스코르포네이드" 에너지 드링크를 마셨다.</Scorponade.description>
+  <Scorponade.stages.0.label>스코르포네이드 드링크, 휴</Scorponade.stages.0.label>
+  <Scorponade.stages.1.label>스코르포네이드 드링크, 기분이 나아짐.</Scorponade.stages.1.label>
 
 
 </LanguageData>

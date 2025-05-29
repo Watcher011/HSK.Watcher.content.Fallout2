@@ -5,9 +5,12 @@
 
   <Ammo_ChargedTesla.label>충전된 테슬라 충전 팩</Ammo_ChargedTesla.label>
 
-<!-- 투사체 -->
 
-<Bullet_Tesla.label>테슬라 빔</Bullet_Tesla.label>
+  <!-- Projectiles -->
 
+  <Bullet_Tesla.label>테슬라 빔</Bullet_Tesla.label>
+
+
+  <!-- 투사체 -->
 
 </LanguageData>

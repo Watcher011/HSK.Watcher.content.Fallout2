@@ -2,17 +2,18 @@
 <LanguageData>
 
   <!-- Power -->
-<SubCategory_PowerVaultec.label>볼트텍 발전기</SubCategory_PowerVaultec.label>
-<SubCategory_PowerVaultec.description>전력 발전기 세트.</SubCategory_PowerVaultec.description>
 
-<SubCategory_VaultecTable.label>볼트텍 작업대</SubCategory_VaultecTable.label>
-<SubCategory_VaultecTable.description>볼트텍 작업대.</SubCategory_VaultecTable.description>
+  <SubCategory_PowerVaultec.label>볼트텍 발전기</SubCategory_PowerVaultec.label>
+  <SubCategory_PowerVaultec.description>전력 발전기 세트.</SubCategory_PowerVaultec.description>
 
-<SubCategory_VaultecWeapon.label>볼트텍 방어 시스템</SubCategory_VaultecWeapon.label>
-<SubCategory_VaultecWeapon.description>볼트텍 방어 시설.</SubCategory_VaultecWeapon.description>
+  <SubCategory_VaultecTable.label>볼트텍 작업대</SubCategory_VaultecTable.label>
+  <SubCategory_VaultecTable.description>볼트텍 작업대.</SubCategory_VaultecTable.description>
 
-<SubCategory_VaultecFood.label>볼트텍 식량</SubCategory_VaultecFood.label>
-<SubCategory_VaultecFood.description>볼트텍 식량.</SubCategory_VaultecFood.description>
+  <SubCategory_VaultecWeapon.label>볼트텍 방어 시스템</SubCategory_VaultecWeapon.label>
+  <SubCategory_VaultecWeapon.description>볼트텍 방어 시설.</SubCategory_VaultecWeapon.description>
+
+  <SubCategory_VaultecFood.label>볼트텍 식량</SubCategory_VaultecFood.label>
+  <SubCategory_VaultecFood.description>볼트텍 식량.</SubCategory_VaultecFood.description>
 
 
 </LanguageData>

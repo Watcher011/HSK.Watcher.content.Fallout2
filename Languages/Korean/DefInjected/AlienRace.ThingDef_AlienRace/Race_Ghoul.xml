@@ -2,22 +2,22 @@
 <LanguageData>
 
   <VaulTecGhoul.label>볼트텍 구울</VaulTecGhoul.label>
-<VaulTecGhoul.description>볼트텍 구울은 장기간의 방사능 노출이나 실험으로 변이된 전직 볼트텍 직원들입니다. 일반적인 야생 구울과 달리, 이들은 지능과 기업적 규율, 전쟁 전 기술에 대한 접근권을 유지하고 있습니다. 그들은 회사의 이념에 광적으로 헌신하며, 볼트와 그 비밀을 통제하도록 선택받은 자들로 믿고 있습니다.</VaulTecGhoul.description>
-<VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>피부</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-<VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
-<VaulTecGhoul.tools.0.label>왼쪽 주먹</VaulTecGhoul.tools.0.label>
-<VaulTecGhoul.tools.1.label>오른쪽 주먹</VaulTecGhoul.tools.1.label>
-<VaulTecGhoul.tools.2.label>이빨</VaulTecGhoul.tools.2.label>
-<VaulTecGhoul.tools.3.label>머리</VaulTecGhoul.tools.3.label>
+  <VaulTecGhoul.description>볼트텍 구울은 장기간의 방사능 노출이나 실험으로 변이된 전직 볼트텍 직원들입니다. 일반적인 야생 구울과 달리, 이들은 지능과 기업적 규율, 전쟁 전 기술에 대한 접근권을 유지하고 있습니다. 그들은 회사의 이념에 광적으로 헌신하며, 볼트와 그 비밀을 통제하도록 선택받은 자들로 믿고 있습니다.</VaulTecGhoul.description>
+  <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>피부</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <VaulTecGhoul.tools.0.label>왼쪽 주먹</VaulTecGhoul.tools.0.label>
+  <VaulTecGhoul.tools.1.label>오른쪽 주먹</VaulTecGhoul.tools.1.label>
+  <VaulTecGhoul.tools.2.label>이빨</VaulTecGhoul.tools.2.label>
+  <VaulTecGhoul.tools.3.label>머리</VaulTecGhoul.tools.3.label>
 
-<GlowingGhoul.label>빛나는 구울</GlowingGhoul.label>
-<GlowingGhoul.description>이 구울들은 대량의 방사능 영향으로 인해 그 생체 전도체가 되었습니다. 빛나는 구울들은 인간에게 위험한 방사능을 방출합니다. 그들은 죽은 후에도 위험할 수 있습니다.</GlowingGhoul.description>
-<GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>피부</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-<GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
-<GlowingGhoul.tools.0.label>왼쪽 주먹</GlowingGhoul.tools.0.label>
-<GlowingGhoul.tools.1.label>오른쪽 주먹</GlowingGhoul.tools.1.label>
-<GlowingGhoul.tools.2.label>이빨</GlowingGhoul.tools.2.label>
-<GlowingGhoul.tools.3.label>머리</GlowingGhoul.tools.3.label>
+  <GlowingGhoul.label>빛나는 구울</GlowingGhoul.label>
+  <GlowingGhoul.description>이 구울들은 대량의 방사능 영향으로 인해 그 생체 전도체가 되었습니다. 빛나는 구울들은 인간에게 위험한 방사능을 방출합니다. 그들은 죽은 후에도 위험할 수 있습니다.</GlowingGhoul.description>
+  <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>피부</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>머리카락</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <GlowingGhoul.tools.0.label>왼쪽 주먹</GlowingGhoul.tools.0.label>
+  <GlowingGhoul.tools.1.label>오른쪽 주먹</GlowingGhoul.tools.1.label>
+  <GlowingGhoul.tools.2.label>이빨</GlowingGhoul.tools.2.label>
+  <GlowingGhoul.tools.3.label>머리</GlowingGhoul.tools.3.label>
 
 
 </LanguageData>

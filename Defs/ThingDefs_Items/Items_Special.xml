@@ -312,7 +312,7 @@
       <MarketValue>5</MarketValue>
     </statBases>
     <thingCategories>
-      <li>Foods</li>
+     <li>Items</li>
     </thingCategories>
     <ingestible>
       <foodType>Fluid</foodType>
@@ -418,7 +418,7 @@ Remember: if after the bite you saw a light at the end of the tunnel - run faste
 		<resourceReadoutPriority>Middle</resourceReadoutPriority>
 		<stackLimit>10</stackLimit>
 		<thingCategories>
-			<li>Foods</li>
+			<li>Items</li>
 		</thingCategories>
 		<tradeTags>
 			<li>Exotic</li>
@@ -436,5 +436,53 @@ Remember: if after the bite you saw a light at the end of the tunnel - run faste
 		</comps> 
 	</ThingDef>
 	
-
+    <ThingDef ParentName="SK_ResourceBase">
+		<defName>PlanD</defName>
+		<label>Plan "D"</label>
+		<description>(A quick way to leave the colony). Created by Vault-Tec as a cheap option for people who can't afford a Vault. Banana flavored.</description>
+		<graphicData>
+			<texPath>Things/Item/PlanD</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			 <drawSize>(0.7,0.7)</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<MaxHitPoints>30</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>0.2</DeteriorationRate>
+			<Mass>0.1</Mass>
+			<Nutrition>0.01</Nutrition>
+		</statBases>
+		<ingestible>
+			<foodType>Processed</foodType>
+			<preferability>NeverForNutrition</preferability>
+			<tasteThought>AtePoison</tasteThought>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>VenomBuildup</hediffDef>
+					<severity>1</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>5</stackLimit>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>ExoticMisc</li>
+		</tradeTags>
+		<thingSetMakerTags>
+			<li>AnimalPart</li>
+		</thingSetMakerTags>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>40.5</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps> 
+	</ThingDef>
 </Defs>

@@ -2,10 +2,15 @@
 <LanguageData>
 
   <!-- AmmoSet -->
-<Ammo_FatManShell_HE.label>핵 탄두</Ammo_FatManShell_HE.label>
+
+  <Ammo_FatManShell_HE.label>핵 탄두</Ammo_FatManShell_HE.label>
   <Ammo_FatManShell_HE.description>이 탄종은 더 큰 파괴력과 방사능 오염을 특징으로 합니다. 증가된 피해량은 사거리 감소를 대가로 얻어지는데, 이는 방호 장비가 부족한 사수에게 좋지 않은 결과를 초래할 수 있습니다.</Ammo_FatManShell_HE.description>
 
-  <Bullet_FatManShell_HE.label>핵 탄두 (NHE)</Bullet_FatManShell_HE.label>
+  <Ammo_FatManShell_FGM.label>손상된 핵탄두</Ammo_FatManShell_FGM.label>
+<Ammo_FatManShell_FGM.description>이 유형은 파괴력이 낮고 방사선 오염을 유발하는 것이 특징입니다.</Ammo_FatManShell_FGM.description>
+
+<Bullet_FatManShell_HE.label>핵 탄두 (NHE)</Bullet_FatManShell_HE.label>
+<Bullet_FatManShell_FGM.label>핵탄두 (FGM)</Bullet_FatManShell_FGM.label>
 
 
 </LanguageData>

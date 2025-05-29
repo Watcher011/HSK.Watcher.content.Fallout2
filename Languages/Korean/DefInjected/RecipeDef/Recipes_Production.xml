@@ -2,59 +2,60 @@
 <LanguageData>
 
   <MakeCupBotel.label>병뚜껑 x100 제작</MakeCupBotel.label>
-<MakeCupBotel.description>병뚜껑을 제련합니다. 100개.</MakeCupBotel.description>
-<MakeCupBotel.jobString>제련 중...</MakeCupBotel.jobString>
+  <MakeCupBotel.description>병뚜껑을 제련합니다. 100개.</MakeCupBotel.description>
+  <MakeCupBotel.jobString>제련 중...</MakeCupBotel.jobString>
 
-<MakeBottlecapGrenades.label>리드 마인 x5 제작</MakeBottlecapGrenades.label>
-<MakeBottlecapGrenades.description>전쟁 전 인기 있었던 볼트-텍 도시락통은 포스트 아포칼립스 커먼웰스에서 치명적인 지뢰로 변모했습니다. 이 자작 장치는 어떤 적도 상대할 수 있게 도와줍니다. 수류탄처럼 투척할 수 있습니다.</MakeBottlecapGrenades.description>
-<MakeBottlecapGrenades.jobString>리드 마인 제작 중...</MakeBottlecapGrenades.jobString>
+  <MakeBottlecapGrenades.label>리드 마인 x5 제작</MakeBottlecapGrenades.label>
+  <MakeBottlecapGrenades.description>전쟁 전 인기 있었던 볼트-텍 도시락통은 포스트 아포칼립스 커먼웰스에서 치명적인 지뢰로 변모했습니다. 이 자작 장치는 어떤 적도 상대할 수 있게 도와줍니다. 수류탄처럼 투척할 수 있습니다.</MakeBottlecapGrenades.description>
+  <MakeBottlecapGrenades.jobString>리드 마인 제작 중...</MakeBottlecapGrenades.jobString>
 
-<BuildFalloutPipeGun.label>파이프 슈터 제작</BuildFalloutPipeGun.label>
-<BuildFalloutPipeGun.description>파이프 슈터 권총을 제작합니다. 약하고 사거리가 짧지만 작동합니다.\n구경: 9x19mm</BuildFalloutPipeGun.description>
-<BuildFalloutPipeGun.jobString>파이프 슈터 제작 중...</BuildFalloutPipeGun.jobString>
+  <BuildFalloutPipeGun.label>파이프 슈터 제작</BuildFalloutPipeGun.label>
+  <BuildFalloutPipeGun.description>파이프 슈터 권총을 제작합니다. 약하고 사거리가 짧지만 작동합니다.\n구경: 9x19mm</BuildFalloutPipeGun.description>
+  <BuildFalloutPipeGun.jobString>파이프 슈터 제작 중...</BuildFalloutPipeGun.jobString>
 
-<BuildVagabondRifle.label>방랑자 소총 제작</BuildVagabondRifle.label>
-<BuildVagabondRifle.description>야전이나 도시 전투용 방랑자 소총을 제작합니다.\n구경: 5.56x45mm NATO</BuildVagabondRifle.description>
-<BuildVagabondRifle.jobString>방랑자 소총 제작 중...</BuildVagabondRifle.jobString>
+  <BuildVagabondRifle.label>방랑자 소총 제작</BuildVagabondRifle.label>
+  <BuildVagabondRifle.description>야전이나 도시 전투용 방랑자 소총을 제작합니다.\n구경: 5.56x45mm NATO</BuildVagabondRifle.description>
+  <BuildVagabondRifle.jobString>방랑자 소총 제작 중...</BuildVagabondRifle.jobString>
 
-<BuildOldRevolver.label>자작 리볼버 "스캐빈저" 제작</BuildOldRevolver.label>
-<BuildOldRevolver.description>리볼버 "스캐빈저"를 제작합니다. 약하고 사거리가 짧습니다.\n구경: .45 ACP</BuildOldRevolver.description>
-<BuildOldRevolver.jobString>자작 리볼버 제작 중...</BuildOldRevolver.jobString>
+  <BuildOldRevolver.label>자작 리볼버 "스캐빈저" 제작</BuildOldRevolver.label>
+  <BuildOldRevolver.description>리볼버 "스캐빈저"를 제작합니다. 약하고 사거리가 짧습니다.\n구경: .45 ACP</BuildOldRevolver.description>
+  <BuildOldRevolver.jobString>자작 리볼버 제작 중...</BuildOldRevolver.jobString>
 
-<BuildChinesePistol.label>중국제 권총 제작</BuildChinesePistol.label>
-<BuildChinesePistol.description>중국제 권총을 제작합니다.\n구경: 9x19mm Parabellum</BuildChinesePistol.description>
-<BuildChinesePistol.jobString>중국제 권총 제작 중...</BuildChinesePistol.jobString>
+  <BuildChinesePistol.label>중국제 권총 제작</BuildChinesePistol.label>
+  <BuildChinesePistol.description>중국제 권총을 제작합니다.\n구경: 9x19mm Parabellum</BuildChinesePistol.description>
+  <BuildChinesePistol.jobString>중국제 권총 제작 중...</BuildChinesePistol.jobString>
 
-<BuildAN556Order.label>AN556 "오더" 제작</BuildAN556Order.label>
-<BuildAN556Order.description>AN550의 소폭 개량형인 AN556 "오더" 장총총입니다. 평균적인 데미지와 사거리, 좋은 연사력과 정확도를 자랑합니다.\n구경: 5.56x45mm NATO</BuildAN556Order.description>
-<BuildAN556Order.jobString>AN556 "오더" 제작 중...</BuildAN556Order.jobString>
+  <BuildAN556Order.label>AN556 "오더" 제작</BuildAN556Order.label>
+  <BuildAN556Order.description>AN550의 소폭 개량형인 AN556 "오더" 장총총입니다. 평균적인 데미지와 사거리, 좋은 연사력과 정확도를 자랑합니다.\n구경: 5.56x45mm NATO</BuildAN556Order.description>
+  <BuildAN556Order.jobString>AN556 "오더" 제작 중...</BuildAN556Order.jobString>
 
-<BuildFatMan.label>팻 맨 제작</BuildFatMan.label>
-<BuildFatMan.description>팻 맨을 제작합니다.\n구경: 핵탄두</BuildFatMan.description>
-<BuildFatMan.jobString>팻 맨 제작 중...</BuildFatMan.jobString>
+  <BuildFatMan.label>팻 맨 제작</BuildFatMan.label>
+  <BuildFatMan.description>팻 맨을 제작합니다.\n구경: 핵탄두</BuildFatMan.description>
+  <BuildFatMan.jobString>팻 맨 제작 중...</BuildFatMan.jobString>
 
-<BuildFalloutPlasmaCarbine.label>플라즈마 카빈 제작</BuildFalloutPlasmaCarbine.label>
-<BuildFalloutPlasmaCarbine.description>사거리가 짧고 가벼운 플라즈마 소총입니다.</BuildFalloutPlasmaCarbine.description>
-<BuildFalloutPlasmaCarbine.jobString>플라즈마 카빈 제작 중...</BuildFalloutPlasmaCarbine.jobString>
+  <BuildFalloutPlasmaCarbine.label>플라즈마 카빈 제작</BuildFalloutPlasmaCarbine.label>
+  <BuildFalloutPlasmaCarbine.description>사거리가 짧고 가벼운 플라즈마 소총입니다.</BuildFalloutPlasmaCarbine.description>
+  <BuildFalloutPlasmaCarbine.jobString>플라즈마 카빈 제작 중...</BuildFalloutPlasmaCarbine.jobString>
 
-<BuildFallout_PlasmaPistol.label>플라즈마 권총 "아이언 팽" 제작</BuildFallout_PlasmaPistol.label>
-<BuildFallout_PlasmaPistol.description>고정확도 플라즈마 권총 "아이언 팽"입니다.</BuildFallout_PlasmaPistol.description>
-<BuildFallout_PlasmaPistol.jobString>아이언 팽 제작 중...</BuildFallout_PlasmaPistol.jobString>
+  <BuildFallout_PlasmaPistol.label>플라즈마 권총 "아이언 팽" 제작</BuildFallout_PlasmaPistol.label>
+  <BuildFallout_PlasmaPistol.description>고정확도 플라즈마 권총 "아이언 팽"입니다.</BuildFallout_PlasmaPistol.description>
+  <BuildFallout_PlasmaPistol.jobString>아이언 팽 제작 중...</BuildFallout_PlasmaPistol.jobString>
 
-<BuildFallout_PlasmaWraith.label>플라즈마 레이스 제작</BuildFallout_PlasmaWraith.label>
-<BuildFallout_PlasmaWraith.description>플라즈마 저격소총 플라즈마 레이스입니다. 높은 정확도를 자랑하지만 연사력이 낮습니다.</BuildFallout_PlasmaWraith.description>
-<BuildFallout_PlasmaWraith.jobString>플라즈마 레이스 제작 중...</BuildFallout_PlasmaWraith.jobString>
+  <BuildFallout_PlasmaWraith.label>플라즈마 레이스 제작</BuildFallout_PlasmaWraith.label>
+  <BuildFallout_PlasmaWraith.description>플라즈마 저격소총 플라즈마 레이스입니다. 높은 정확도를 자랑하지만 연사력이 낮습니다.</BuildFallout_PlasmaWraith.description>
+  <BuildFallout_PlasmaWraith.jobString>플라즈마 레이스 제작 중...</BuildFallout_PlasmaWraith.jobString>
 
-<BuildMinigunPlasma.label>플라즈마 개틀링 "몰튼 스톰" 제작</BuildMinigunPlasma.label>
-<BuildMinigunPlasma.description>플라즈마 개틀링 "몰튼 스톰"을 제작합니다. "세상이 이미 불타고 있다면, 왜 멈추겠는가?"</BuildMinigunPlasma.description>
-<BuildMinigunPlasma.jobString>몰튼 스톰 제작 중...</BuildMinigunPlasma.jobString>
+  <BuildMinigunPlasma.label>플라즈마 개틀링 "몰튼 스톰" 제작</BuildMinigunPlasma.label>
+  <BuildMinigunPlasma.description>플라즈마 개틀링 "몰튼 스톰"을 제작합니다. "세상이 이미 불타고 있다면, 왜 멈추겠는가?"</BuildMinigunPlasma.description>
+  <BuildMinigunPlasma.jobString>몰튼 스톰 제작 중...</BuildMinigunPlasma.jobString>
 
-<BuildLaserCarbineRifle.label>카빈 "AER-14" 제작</BuildLaserCarbineRifle.label>
-<BuildLaserCarbineRifle.description>"구세대 기술의 정수 - 무연, 안전 장치 완비, 그리고 치명적입니다."</BuildLaserCarbineRifle.description>
-<BuildLaserCarbineRifle.jobString>M-8 레버넌트 제작 중...</BuildLaserCarbineRifle.jobString>
+  <BuildLaserCarbineRifle.label>카빈 "AER-14" 제작</BuildLaserCarbineRifle.label>
+  <BuildLaserCarbineRifle.description>"구세대 기술의 정수 - 무연, 안전 장치 완비, 그리고 치명적입니다."</BuildLaserCarbineRifle.description>
+  <BuildLaserCarbineRifle.jobString>M-8 레버넌트 제작 중...</BuildLaserCarbineRifle.jobString>
 
-<BuildPepperShaker.label>페퍼 셰이커 제작</BuildPepperShaker.label>
-<BuildPepperShaker.description>페퍼 셰이커를 제작합니다. 페퍼 셰이커는 발사 전 1초간 회전한 후 자동으로 8발의 산탄을 발사합니다. 산탄총과 중화기로 모두 분류되며 두 무기 계열의 퍽 효과를 모두 받습니다.\n구경: 12 게이지</BuildPepperShaker.description>
-<BuildPepperShaker.jobString>페퍼 셰이커 제작 중...</BuildPepperShaker.jobString>
+  <BuildPepperShaker.label>페퍼 셰이커 제작</BuildPepperShaker.label>
+  <BuildPepperShaker.description>페퍼 셰이커를 제작합니다. 페퍼 셰이커는 발사 전 1초간 회전한 후 자동으로 8발의 산탄을 발사합니다. 산탄총과 중화기로 모두 분류되며 두 무기 계열의 퍽 효과를 모두 받습니다.\n구경: 12 게이지</BuildPepperShaker.description>
+  <BuildPepperShaker.jobString>페퍼 셰이커 제작 중...</BuildPepperShaker.jobString>
+
 
 </LanguageData>

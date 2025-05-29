@@ -3,26 +3,31 @@
 
   <!-- HARDCORE SK: THOUGHTS -->
 
- <HadNukaCola.stages.0.label>누카 콜라 마심</HadNukaCola.stages.0.label>
-<HadNukaCola.stages.0.description>정말 건강에 좋은 콜라였어! 기분이 좋아졌다.</HadNukaCola.stages.0.description>
+  <HadNukaCola.stages.0.label>누카 콜라 마심</HadNukaCola.stages.0.label>
+  <HadNukaCola.stages.0.description>정말 건강에 좋은 콜라였어! 기분이 좋아졌다.</HadNukaCola.stages.0.description>
 
-<HadColaDark.stages.0.label>다크 콜라 마심</HadColaDark.stages.0.label>
-<HadColaDark.stages.0.description>정말 건강에 좋은 콜라였어! 이제 당신은 죽음과 맞짱 뜨고도 이길 자신감이 넘쳐흐른다.</HadColaDark.stages.0.description>
+  <HadColaDark.stages.0.label>다크 콜라 마심</HadColaDark.stages.0.label>
+  <HadColaDark.stages.0.description>정말 건강에 좋은 콜라였어! 이제 당신은 죽음과 맞짱 뜨고도 이길 자신감이 넘쳐흐른다.</HadColaDark.stages.0.description>
 
-<HadColaQuantum.stages.0.label>퀀텀 콜라 마심</HadColaQuantum.stages.0.label>
-<HadColaQuantum.stages.0.description>정말 건강에 좋은 콜라였어! 미니어처 초신성이 폭발하는 듯한 맛, 광적인 시트러스와 달콤한 방사능의 조합이다. 당신의 미각이 기쁨인지 고통인지 비명을 지르고 있다.</HadColaQuantum.stages.0.description>
+  <HadColaQuantum.stages.0.label>퀀텀 콜라 마심</HadColaQuantum.stages.0.label>
+  <HadColaQuantum.stages.0.description>정말 건강에 좋은 콜라였어! 미니어처 초신성이 폭발하는 듯한 맛, 광적인 시트러스와 달콤한 방사능의 조합이다. 당신의 미각이 기쁨인지 고통인지 비명을 지르고 있다.</HadColaQuantum.stages.0.description>
 
-<!-- 의료용 음료 -->
-<IngestedRadHemogenPack.stages.0.label>방사능 혈액 삼킴</IngestedRadHemogenPack.stages.0.label>
-<IngestedRadHemogenPack.stages.0.description>방사능에 오염된 혈액 백을 삼켰다. 아마 수명은 늘어나겠지만, 그 대가는 끔찍할 거다. 게다가 완전히 역겨웠어.</IngestedRadHemogenPack.stages.0.description>
 
-<RadFood.stages.0.label>황무지 음식 섭취</RadFood.stages.0.label>
-<RadFood.stages.0.description>내가 먹는 거라면, 내가 먹히지 않는 한 승리한 거다.</RadFood.stages.0.description>
+  <!-- Medical Drink -->
 
-<FEV.stages.0.label>FEV 섭취</FEV.stages.0.label>
-<FEV.stages.0.description>이걸 먹는다면 아마 마지막 선택이 될 거야.</FEV.stages.0.description>
+  <IngestedRadHemogenPack.stages.0.label>방사능 혈액 삼킴</IngestedRadHemogenPack.stages.0.label>
+  <IngestedRadHemogenPack.stages.0.description>방사능에 오염된 혈액 백을 삼켰다. 아마 수명은 늘어나겠지만, 그 대가는 끔찍할 거다. 게다가 완전히 역겨웠어.</IngestedRadHemogenPack.stages.0.description>
 
-<HadScorponade.stages.0.label>스콜포네이드 마심</HadScorponade.stages.0.label>
-<HadScorponade.stages.0.description>정말 건강에 좋은 스콜포네이드였어! 이제 심장이 멈출 것만 같다.</HadScorponade.stages.0.description>
+  <RadFood.stages.0.label>황무지 음식 섭취</RadFood.stages.0.label>
+  <RadFood.stages.0.description>내가 먹는 거라면, 내가 먹히지 않는 한 승리한 거다.</RadFood.stages.0.description>
+
+  <FEV.stages.0.label>FEV 섭취</FEV.stages.0.label>
+  <FEV.stages.0.description>이걸 먹는다면 아마 마지막 선택이 될 거야.</FEV.stages.0.description>
+
+  <HadScorponade.stages.0.label>스콜포네이드 마심</HadScorponade.stages.0.label>
+  <HadScorponade.stages.0.description>정말 건강에 좋은 스콜포네이드였어! 이제 심장이 멈출 것만 같다.</HadScorponade.stages.0.description>
+
+
+  <!-- 의료용 음료 -->
 
 </LanguageData>

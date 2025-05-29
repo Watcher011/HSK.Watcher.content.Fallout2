@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <EnclaveOfficer.label>인클레이브 경찰관</EnclaveOfficer.label>
-<EnclaveOfficer.labelPlural>인클레이브 경찰관</EnclaveOfficer.labelPlural>
+  <EnclaveOfficer.label>인클레이브 경찰관</EnclaveOfficer.label>
+  <EnclaveOfficer.labelPlural>인클레이브 경찰관</EnclaveOfficer.labelPlural>
 
-<EnclaveInvestigator.label>인클레이브 수사관</EnclaveInvestigator.label>
-<EnclaveInvestigator.labelPlural>인클레이브 수사관</EnclaveInvestigator.labelPlural>
+  <EnclaveInvestigator.label>인클레이브 수사관</EnclaveInvestigator.label>
+  <EnclaveInvestigator.labelPlural>인클레이브 수사관</EnclaveInvestigator.labelPlural>
 
 
 </LanguageData>

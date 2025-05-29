@@ -16,6 +16,7 @@
 		<label>Fat Man's Projectile</label>
 		<ammoTypes>
 			<Ammo_FatManShell_HE>Bullet_FatManShell_HE</Ammo_FatManShell_HE>
+			<Ammo_FatManShell_FGM>Bullet_FatManShell_FGM</Ammo_FatManShell_FGM>
 		</ammoTypes>
 		<isMortarAmmoSet>true</isMortarAmmoSet>
 	</CombatExtended.AmmoSetDef>
@@ -59,10 +60,26 @@
 		</graphicData>
 		<ammoClass>NHE</ammoClass>
 		<techLevel>Spacer</techLevel>
-		<generateAllowChance>0.05</generateAllowChance>
+		<generateAllowChance>0.10</generateAllowChance>
 		<detonateProjectile>Bullet_FatManShell_HE</detonateProjectile>
 	</ThingDef>
 	
+	<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="FatManShellBase">
+		<defName>Ammo_FatManShell_FGM</defName>
+		<label>Spoiled Nuclear shot</label>
+		<description>This type is characterized by low destructive power and creates radiation pollution.</description>
+		<graphicData>
+			<texPath>Things/Projectile/FatMan/FM</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<ammoClass>GrenadeHE</ammoClass>
+		<techLevel>Spacer</techLevel>
+		<generateAllowChance>0.90</generateAllowChance>
+		<detonateProjectile>Bullet_FatManShell_FGM</detonateProjectile>
+	</ThingDef>
+	
+
 	
 	<ThingDef Name="BaseFatManBullet" ParentName="BaseExplosiveBullet" Abstract="true">
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
@@ -124,8 +141,32 @@
 	</ThingDef>
 	
 	
-	
-	
-	
+
+	 <ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="BaseFatManBullet">
+		<defName>Bullet_FatManShell_FGM</defName>
+		<label>Nuclear shot (FGM)</label>
+		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectile/FatMan/FM</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.65</drawSize>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>BombSuper</damageDef>
+			<damageAmountBase>800</damageAmountBase>
+			<explosionRadius>5</explosionRadius>
+			<explosionChanceToStartFire>0.22</explosionChanceToStartFire>
+			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<flyOverhead>true</flyOverhead>
+			<explosionEffect>GiantExplosion</explosionEffect>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+			<soundExplode>Explosion_GiantBomb</soundExplode>
+			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<shellingProps>
+				<damage>0.85</damage>
+			</shellingProps>
+		</projectile>
+	</ThingDef>
 	
 </Defs>

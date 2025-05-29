@@ -1,20 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<StimpakBasic.label>스팀팩 재생</StimpakBasic.label>
-<StimpakBasic.description>스팀팩 재생 효과.</StimpakBasic.description>
-<StimpakBasic.stages.0.label>부작용</StimpakBasic.stages.0.label>
-<StimpakBasic.stages.1.label>재생 중</StimpakBasic.stages.1.label>
-<StimpakBasic.labelNoun>스팀팩</StimpakBasic.labelNoun>
 
-<StimpakSuper.label>스팀팩: 슈퍼 재생</StimpakSuper.label>
-<StimpakSuper.description>스팀팩 슈퍼 재생 효과.</StimpakSuper.description>
-<StimpakSuper.stages.0.label>부작용</StimpakSuper.stages.0.label>
-<StimpakSuper.stages.1.label>재생 중</StimpakSuper.stages.1.label>
-<StimpakSuper.labelNoun>스팀팩: 슈퍼</StimpakSuper.labelNoun>
+  <StimpakBasic.label>스팀팩 재생</StimpakBasic.label>
+  <StimpakBasic.description>스팀팩 재생 효과.</StimpakBasic.description>
+  <StimpakBasic.stages.0.label>부작용</StimpakBasic.stages.0.label>
+  <StimpakBasic.stages.1.label>재생 중</StimpakBasic.stages.1.label>
+  <StimpakBasic.labelNoun>스팀팩</StimpakBasic.labelNoun>
 
-<Med-xBasic.label>메드-X</Med-xBasic.label>
-<Med-xBasic.description>메드-X.</Med-xBasic.description>
-<Med-xBasic.stages.0.label>메드-X</Med-xBasic.stages.0.label>
-<Med-xBasic.labelNoun>메드-X</Med-xBasic.labelNoun>
+  <StimpakSuper.label>스팀팩: 슈퍼 재생</StimpakSuper.label>
+  <StimpakSuper.description>스팀팩 슈퍼 재생 효과.</StimpakSuper.description>
+  <StimpakSuper.stages.0.label>부작용</StimpakSuper.stages.0.label>
+  <StimpakSuper.stages.1.label>재생 중</StimpakSuper.stages.1.label>
+  <StimpakSuper.labelNoun>스팀팩: 슈퍼</StimpakSuper.labelNoun>
+
+  <Med-xBasic.label>메드-X</Med-xBasic.label>
+  <Med-xBasic.description>메드-X.</Med-xBasic.description>
+  <Med-xBasic.stages.0.label>메드-X</Med-xBasic.stages.0.label>
+  <Med-xBasic.labelNoun>메드-X</Med-xBasic.labelNoun>
+
 
 </LanguageData>

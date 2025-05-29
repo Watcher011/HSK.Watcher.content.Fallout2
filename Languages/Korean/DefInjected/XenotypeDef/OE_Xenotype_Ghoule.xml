@@ -2,14 +2,15 @@
 <LanguageData>
 
   <!-- Ghoul -->
-<OE_Ghoul.label>구울</OE_Ghoul.label>
-<OE_Ghoul.description>구울은 원래 인간이었으나, 폭격 당시 보호 시설에 들어가지 못한 자들이다. 방사능 노출로 인해 그들은 방사능 저항력이 증가했으며, 독 저항력도 향상되었다. 안타깝게도 신체가 너무 약해 중화기를 사용할 수 없다.</OE_Ghoul.description>
 
-<Ghoul.label>구울</Ghoul.label>
-<Ghoul.description>구울은 원래 인간이었으나, 폭격 당시 보호 시설에 들어가지 못한 자들이다. 방사능 노출로 인해 그들은 방사능 저항력이 증가했으며, 독 저항력도 향상되었다. 안타깝게도 신체가 너무 약해 중화기를 사용할 수 없다.</Ghoul.description>
+  <OE_Ghoul.label>구울</OE_Ghoul.label>
+  <OE_Ghoul.description>구울은 원래 인간이었으나, 폭격 당시 보호 시설에 들어가지 못한 자들이다. 방사능 노출로 인해 그들은 방사능 저항력이 증가했으며, 독 저항력도 향상되었다. 안타깝게도 신체가 너무 약해 중화기를 사용할 수 없다.</OE_Ghoul.description>
 
-<Supermutant.label>슈퍼 뮤턴트</Supermutant.label>
-<Supermutant.description>"거대하고 녹색이며 놀랍도록 단일화된 슈퍼 뮤턴트는 포스트 아포칼립스 세계의 필수 요소가 되었다. 인류를 '개량'하려는 천재적(아니면 어리석은?) 계획으로 창조된 이들은 근육량을 늘리는 대신 다른 모든 것을 희생할 수 있음을 증명했다. 회백질? 과대평가됨. 문화? 약골들을 위한 것. 어려운 단어? 그저 수다일 뿐."</Supermutant.description>
+  <Ghoul.label>구울</Ghoul.label>
+  <Ghoul.description>구울은 원래 인간이었으나, 폭격 당시 보호 시설에 들어가지 못한 자들이다. 방사능 노출로 인해 그들은 방사능 저항력이 증가했으며, 독 저항력도 향상되었다. 안타깝게도 신체가 너무 약해 중화기를 사용할 수 없다.</Ghoul.description>
+
+  <Supermutant.label>슈퍼 뮤턴트</Supermutant.label>
+  <Supermutant.description>"거대하고 녹색이며 놀랍도록 단일화된 슈퍼 뮤턴트는 포스트 아포칼립스 세계의 필수 요소가 되었다. 인류를 '개량'하려는 천재적(아니면 어리석은?) 계획으로 창조된 이들은 근육량을 늘리는 대신 다른 모든 것을 희생할 수 있음을 증명했다. 회백질? 과대평가됨. 문화? 약골들을 위한 것. 어려운 단어? 그저 수다일 뿐."</Supermutant.description>
 
 
 </LanguageData>

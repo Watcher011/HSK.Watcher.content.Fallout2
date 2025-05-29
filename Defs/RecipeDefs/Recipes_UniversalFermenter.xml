@@ -195,7 +195,8 @@
 		<description>Nuclear Shell for Fat Man x1.</description>
 		<jobString>Creates a projectile for the fat man.</jobString>
 		<researchPrerequisites>
-			<li>Mortars</li>
+			 <li>Research_table_C2</li>
+             <li>RimatomicsActivate</li>
 		</researchPrerequisites>
 		<ingredients>
 			<li>
@@ -256,7 +257,52 @@
 		<graphicSuffix>_FatManShell</graphicSuffix>
 	</RecipeDef>
 	
-	
+	<RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">
+		<defName>MakeAmmo_FatManShell_FGM</defName>
+		<label>Make a Not Nuclear Shell for Fat Man x1</label>
+		<description>Shell for Fat Man x1.</description>
+		<jobString>Creates a projectile for the fat man.</jobString>
+		<researchPrerequisites>
+			<li>Mortars</li>
+		</researchPrerequisites>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Steel</li>
+					</thingDefs>
+				</filter>
+				<count>54</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>FSX</li>
+					</thingDefs>
+				</filter>
+				<count>50</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Steel</li>
+				<li>FSX</li>
+				<li>ComponentIndustrial</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_FatManShell_FGM>1</Ammo_FatManShell_FGM>
+		</products>
+		<graphicSuffix>_FatManShell</graphicSuffix>
+	</RecipeDef>
 	
 	
      <RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">

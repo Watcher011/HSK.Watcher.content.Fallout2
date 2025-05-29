@@ -2,9 +2,9 @@
 <LanguageData>
 
   <GoodNukaCola.label>원자 에너지.</GoodNukaCola.label>
-<GoodNukaCola.description>콜라를 마셨습니다.</GoodNukaCola.description>
-<GoodNukaCola.stages.0.label>상쾌한</GoodNukaCola.stages.0.label>
-<GoodNukaCola.stages.1.label>에너지 드링크, 기분이 좋아집니다.</GoodNukaCola.stages.1.label>
+  <GoodNukaCola.description>콜라를 마셨습니다.</GoodNukaCola.description>
+  <GoodNukaCola.stages.0.label>상쾌한</GoodNukaCola.stages.0.label>
+  <GoodNukaCola.stages.1.label>에너지 드링크, 기분이 좋아집니다.</GoodNukaCola.stages.1.label>
 
 
 </LanguageData>

@@ -2,51 +2,52 @@
 <LanguageData>
 
   <!-- BigCats -->
-<Gecko_green.label>녹색 게코</Gecko_green.label>
-<Gecko_green.description>전쟁 전 도마뱀붙이의 후예로, 미국 서부에서 흔히 발견되는 변이 도마뱀입니다. 일반적인 게코의 특징을 유지하지만, 매우 거대한 크기로 성장했으며 뒷다리로 걸을 수 있게 진화했습니다. 수직 표면을 오르는 능력은 여전히 보유하고 있습니다. 이들의 후손인 화염 게코는 신화 속 용처럼 불을 뿜는 능력을 얻었고, 녹색 게코는 독성 침을 뱉습니다.</Gecko_green.description>
-<Gecko_green.tools.0.label>왼쪽 발톱</Gecko_green.tools.0.label>
-<Gecko_green.tools.1.label>오른쪽 발톱</Gecko_green.tools.1.label>
-<Gecko_green.tools.3.label>독니</Gecko_green.tools.3.label>
 
-<Gecko_fire.label>화염 게코</Gecko_fire.label>
-<Gecko_fire.description>화염 게코는 주변 환경에서 가연성 화학 물질을 체내에 축적하는 거대한 변이종입니다. 목 주머니에 있는 특수 분비선을 통해 짧은 범위의 화염을 내뿜어 먹이를 태우고 포식자를 쫓아냅니다. 비늘은 높은 내화성을 지녔으며, 공격적인 성격으로 인해 전후 미국에서 가장 위험한 파충류 중 하나로 꼽힙니다.</Gecko_fire.description>
-<Gecko_fire.tools.0.label>왼쪽 발톱</Gecko_fire.tools.0.label>
-<Gecko_fire.tools.1.label>오른쪽 발톱</Gecko_fire.tools.1.label>
+  <Gecko_green.label>녹색 게코</Gecko_green.label>
+  <Gecko_green.description>전쟁 전 도마뱀붙이의 후예로, 미국 서부에서 흔히 발견되는 변이 도마뱀입니다. 일반적인 게코의 특징을 유지하지만, 매우 거대한 크기로 성장했으며 뒷다리로 걸을 수 있게 진화했습니다. 수직 표면을 오르는 능력은 여전히 보유하고 있습니다. 이들의 후손인 화염 게코는 신화 속 용처럼 불을 뿜는 능력을 얻었고, 녹색 게코는 독성 침을 뱉습니다.</Gecko_green.description>
+  <Gecko_green.tools.0.label>왼쪽 발톱</Gecko_green.tools.0.label>
+  <Gecko_green.tools.1.label>오른쪽 발톱</Gecko_green.tools.1.label>
+  <Gecko_green.tools.3.label>독니</Gecko_green.tools.3.label>
 
-<Gecko_gold.label>황금 게코</Gecko_gold.label>
-<Gecko_gold.description>마하칸 황무지의 불타는 모래에서 서식하는 희귀하고 신비로운 변이종입니다. 비늘은 황금빛으로 반짝이며, 불타버린 모래 언덕과 고대 도시의 폐허에 자연스럽게 위장합니다. 다른 게코들과 달리, 황금 게코는 특이한 분노를 지니고 있습니다. 마하칸 전설에 따르면, 황금 게코의 둥지를 발견한 자는 말로 표현할 수 없는 부를 얻는다고 합니다... 하지만 그들을 찾아 나선 용감한 이들 중 살아돌아온 자는 아무도 없습니다.</Gecko_gold.description>
-<Gecko_gold.tools.0.label>왼쪽 발톱</Gecko_gold.tools.0.label>
-<Gecko_gold.tools.1.label>오른쪽 발톱</Gecko_gold.tools.1.label>
-<Gecko_gold.tools.3.label>독니</Gecko_gold.tools.3.label>
+  <Gecko_fire.label>화염 게코</Gecko_fire.label>
+  <Gecko_fire.description>화염 게코는 주변 환경에서 가연성 화학 물질을 체내에 축적하는 거대한 변이종입니다. 목 주머니에 있는 특수 분비선을 통해 짧은 범위의 화염을 내뿜어 먹이를 태우고 포식자를 쫓아냅니다. 비늘은 높은 내화성을 지녔으며, 공격적인 성격으로 인해 전후 미국에서 가장 위험한 파충류 중 하나로 꼽힙니다.</Gecko_fire.description>
+  <Gecko_fire.tools.0.label>왼쪽 발톱</Gecko_fire.tools.0.label>
+  <Gecko_fire.tools.1.label>오른쪽 발톱</Gecko_fire.tools.1.label>
 
+  <Gecko_gold.label>황금 게코</Gecko_gold.label>
+  <Gecko_gold.description>마하칸 황무지의 불타는 모래에서 서식하는 희귀하고 신비로운 변이종입니다. 비늘은 황금빛으로 반짝이며, 불타버린 모래 언덕과 고대 도시의 폐허에 자연스럽게 위장합니다. 다른 게코들과 달리, 황금 게코는 특이한 분노를 지니고 있습니다. 마하칸 전설에 따르면, 황금 게코의 둥지를 발견한 자는 말로 표현할 수 없는 부를 얻는다고 합니다... 하지만 그들을 찾아 나선 용감한 이들 중 살아돌아온 자는 아무도 없습니다.</Gecko_gold.description>
+  <Gecko_gold.tools.0.label>왼쪽 발톱</Gecko_gold.tools.0.label>
+  <Gecko_gold.tools.1.label>오른쪽 발톱</Gecko_gold.tools.1.label>
+  <Gecko_gold.tools.3.label>독니</Gecko_gold.tools.3.label>
 
-<Cyberdog.label>사이버도그</Cyberdog.label>
-<Cyberdog.description>"사이버도그는 그냥 귀여운 귀를 가진 강철 살인마가 아닙니다. 이것은 진보의 상징이죠! 예전에는 개들이 그냥 우편배달원을 물었지만, 이제는 무단 침입에 대한 벌금까지 부과합니다. 고마워요, 롭코!"
+  <Cyberdog.label>사이버도그</Cyberdog.label>
+  <Cyberdog.description>"사이버도그는 그냥 귀여운 귀를 가진 강철 살인마가 아닙니다. 이것은 진보의 상징이죠! 예전에는 개들이 그냥 우편배달원을 물었지만, 이제는 무단 침입에 대한 벌금까지 부과합니다. 고마워요, 롭코!"
 P.S. 부품을 얻으려고 사이버도그를 분해하려고 하면 내장된 알림 시스템이 작동합니다: "축하합니다! 당신은 우리의 '빚 구덩이' 프로모션 당첨자입니다! 채권 추심원의 방문을 기대하세요!"</Cyberdog.description>
-<Cyberdog.tools.0.label>왼쪽 발톱</Cyberdog.tools.0.label>
-<Cyberdog.tools.1.label>오른쪽 발톱</Cyberdog.tools.1.label>
-<Cyberdog.tools.3.label>머리</Cyberdog.tools.3.label>
+  <Cyberdog.tools.0.label>왼쪽 발톱</Cyberdog.tools.0.label>
+  <Cyberdog.tools.1.label>오른쪽 발톱</Cyberdog.tools.1.label>
+  <Cyberdog.tools.3.label>머리</Cyberdog.tools.3.label>
 
 
-<Deathclaw.label>데스클로</Deathclaw.label>
-<Deathclaw.description>티라노사우루스, 장갑차, 그리고 비스타 크바스 세 병을 마신 후의 최악의 악몽을 합쳐놓은 생물을 상상해보세요. 6피트(약 1.8m)의 근육질 파충류로, 파워 아머를 통조림 깡통처럼 찢어버리는 발톱과 "하하, 안 됐지?"라도 말하는 듯 총알을 무시하는 피부를 가졌습니다. 미니 뉴크를 던져보세요... 그리고 근처에 데스클로 친구가 없기를 바랍니다.</Deathclaw.description>
-<Deathclaw.tools.0.label>왼쪽 발톱</Deathclaw.tools.0.label>
-<Deathclaw.tools.1.label>오른쪽 발톱</Deathclaw.tools.1.label>
-<Deathclaw.tools.3.label>독니</Deathclaw.tools.3.label>
+  <!-- Deathclaw -->
 
-<Mirelurk.label>마이럴크</Mirelurk.label>
-<Mirelurk.description>대부분의 늪지 생물은 두꺼운 갑각으로 무장하고 다양한 피해에 저항력이 있지만, 이 생물들의 얼굴은 항상 취약합니다.</Mirelurk.description>
-<Mirelurk.tools.1.label>머리</Mirelurk.tools.1.label>
-<Mirelurk.tools.2.label>왼쪽 집게발</Mirelurk.tools.2.label>
-<Mirelurk.tools.3.label>오른쪽 집게발</Mirelurk.tools.3.label>
-<Mirelurk.tools.4.label>왼쪽 칼날</Mirelurk.tools.4.label>
-<Mirelurk.tools.5.label>왼쪽 칼날</Mirelurk.tools.5.label>
-<Mirelurk.tools.6.label>오른쪽 칼날</Mirelurk.tools.6.label>
-<Mirelurk.tools.7.label>오른쪽 칼날</Mirelurk.tools.7.label>
+  <Deathclaw.label>데스클로</Deathclaw.label>
+  <Deathclaw.description>티라노사우루스, 장갑차, 그리고 비스타 크바스 세 병을 마신 후의 최악의 악몽을 합쳐놓은 생물을 상상해보세요. 6피트(약 1.8m)의 근육질 파충류로, 파워 아머를 통조림 깡통처럼 찢어버리는 발톱과 "하하, 안 됐지?"라도 말하는 듯 총알을 무시하는 피부를 가졌습니다. 미니 뉴크를 던져보세요... 그리고 근처에 데스클로 친구가 없기를 바랍니다.</Deathclaw.description>
+  <Deathclaw.tools.0.label>왼쪽 발톱</Deathclaw.tools.0.label>
+  <Deathclaw.tools.1.label>오른쪽 발톱</Deathclaw.tools.1.label>
+  <Deathclaw.tools.3.label>독니</Deathclaw.tools.3.label>
 
+  <Mirelurk.label>마이럴크</Mirelurk.label>
+  <Mirelurk.description>대부분의 늪지 생물은 두꺼운 갑각으로 무장하고 다양한 피해에 저항력이 있지만, 이 생물들의 얼굴은 항상 취약합니다.</Mirelurk.description>
+  <Mirelurk.tools.1.label>머리</Mirelurk.tools.1.label>
+  <Mirelurk.tools.2.label>왼쪽 집게발</Mirelurk.tools.2.label>
+  <Mirelurk.tools.3.label>오른쪽 집게발</Mirelurk.tools.3.label>
+  <Mirelurk.tools.4.label>왼쪽 칼날</Mirelurk.tools.4.label>
+  <Mirelurk.tools.5.label>왼쪽 칼날</Mirelurk.tools.5.label>
+  <Mirelurk.tools.6.label>오른쪽 칼날</Mirelurk.tools.6.label>
+  <Mirelurk.tools.7.label>오른쪽 칼날</Mirelurk.tools.7.label>
 
-<Brahmin.label>브라민</Brahmin.label>
-<Brahmin.description>*"자연이 선사한 두 개의 머리를 가진 경이로움, 그리고 전후 경제의 중추! 이 걸어다니는 비료 공장이자 우유 생산기이자 존재론적 위기 덩어리는 자존심 강한 황무지인의 완벽한 동반자입니다.
+  <Brahmin.label>브라민</Brahmin.label>
+  <Brahmin.description>*"자연이 선사한 두 개의 머리를 가진 경이로움, 그리고 전후 경제의 중추! 이 걸어다니는 비료 공장이자 우유 생산기이자 존재론적 위기 덩어리는 자존심 강한 황무지인의 완벽한 동반자입니다.
 
 브라민이 최고의 캡 투자인 이유:
 
@@ -79,9 +80,8 @@ P.S. 부품을 얻으려고 사이버도그를 분해하려고 하면 내장된 
 정신적 인내력 테스트 ("브라민과 같은 우리에서 몇 일이나 버틸 수 있을까?")
 
 브라민: 핵 아포칼립스조차 당신보다 밑에 깔릴 존재가 필요하니까!"</Brahmin.description>
-<Brahmin.tools.1.label>머리</Brahmin.tools.1.label>
-<Brahmin.tools.2.label>뿔</Brahmin.tools.2.label>
-
+  <Brahmin.tools.1.label>머리</Brahmin.tools.1.label>
+  <Brahmin.tools.2.label>뿔</Brahmin.tools.2.label>
 
 
 </LanguageData>

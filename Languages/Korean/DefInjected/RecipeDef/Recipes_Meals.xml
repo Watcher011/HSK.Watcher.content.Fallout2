@@ -1,45 +1,45 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<CookSuspiciousOmelette.label>수상한 오믈렛 요리하기</CookSuspiciousOmelette.label>
-<CookSuspiciousOmelette.description>재료로 수상한 오믈렛을 요리합니다.</CookSuspiciousOmelette.description>
-<CookSuspiciousOmelette.jobString>오믈렛 요리 중...</CookSuspiciousOmelette.jobString>
+  <CookSuspiciousOmelette.label>수상한 오믈렛 요리하기</CookSuspiciousOmelette.label>
+  <CookSuspiciousOmelette.description>재료로 수상한 오믈렛을 요리합니다.</CookSuspiciousOmelette.description>
+  <CookSuspiciousOmelette.jobString>오믈렛 요리 중...</CookSuspiciousOmelette.jobString>
 
-<CookSuspiciousOmeletteBulk.label>수상한 오믈렛 x4 요리하기</CookSuspiciousOmeletteBulk.label>
-<CookSuspiciousOmeletteBulk.description>재료로 수상한 오믈렛을 4개 요리합니다.</CookSuspiciousOmeletteBulk.description>
-<CookSuspiciousOmeletteBulk.jobString>오믈렛 요리 중...</CookSuspiciousOmeletteBulk.jobString>
+  <CookSuspiciousOmeletteBulk.label>수상한 오믈렛 x4 요리하기</CookSuspiciousOmeletteBulk.label>
+  <CookSuspiciousOmeletteBulk.description>재료로 수상한 오믈렛을 4개 요리합니다.</CookSuspiciousOmeletteBulk.description>
+  <CookSuspiciousOmeletteBulk.jobString>오믈렛 요리 중...</CookSuspiciousOmeletteBulk.jobString>
 
-<Cookboiledeggs.label>삶은 계란 요리하기</Cookboiledeggs.label>
-<Cookboiledeggs.description>재료로 삶은 계란을 요리합니다.</Cookboiledeggs.description>
-<Cookboiledeggs.jobString>삶은 계란 요리 중...</Cookboiledeggs.jobString>
+  <Cookboiledeggs.label>삶은 계란 요리하기</Cookboiledeggs.label>
+  <Cookboiledeggs.description>재료로 삶은 계란을 요리합니다.</Cookboiledeggs.description>
+  <Cookboiledeggs.jobString>삶은 계란 요리 중...</Cookboiledeggs.jobString>
 
-<CookCookboiledeggsBulk.label>삶은 계란 x4 요리하기</CookCookboiledeggsBulk.label>
-<CookCookboiledeggsBulk.description>재료로 삶은 계란을 4개 요리합니다.</CookCookboiledeggsBulk.description>
-<CookCookboiledeggsBulk.jobString>삶은 계란 요리 중...</CookCookboiledeggsBulk.jobString>
+  <CookCookboiledeggsBulk.label>삶은 계란 x4 요리하기</CookCookboiledeggsBulk.label>
+  <CookCookboiledeggsBulk.description>재료로 삶은 계란을 4개 요리합니다.</CookCookboiledeggsBulk.description>
+  <CookCookboiledeggsBulk.jobString>삶은 계란 요리 중...</CookCookboiledeggsBulk.jobString>
 
-<Cookfriedeggs.label>계란 프라이 요리하기</Cookfriedeggs.label>
-<Cookfriedeggs.description>재료로 계란 프라이를 요리합니다.</Cookfriedeggs.description>
-<Cookfriedeggs.jobString>계란 프라이 요리 중...</Cookfriedeggs.jobString>
+  <Cookfriedeggs.label>계란 프라이 요리하기</Cookfriedeggs.label>
+  <Cookfriedeggs.description>재료로 계란 프라이를 요리합니다.</Cookfriedeggs.description>
+  <Cookfriedeggs.jobString>계란 프라이 요리 중...</Cookfriedeggs.jobString>
 
-<CookfriedeggsBulk.label>계란 프라이 x4 요리하기</CookfriedeggsBulk.label>
-<CookfriedeggsBulk.description>재료로 계란 프라이를 4개 요리합니다.</CookfriedeggsBulk.description>
-<CookfriedeggsBulk.jobString>계란 프라이 요리 중...</CookfriedeggsBulk.jobString>
+  <CookfriedeggsBulk.label>계란 프라이 x4 요리하기</CookfriedeggsBulk.label>
+  <CookfriedeggsBulk.description>재료로 계란 프라이를 4개 요리합니다.</CookfriedeggsBulk.description>
+  <CookfriedeggsBulk.jobString>계란 프라이 요리 중...</CookfriedeggsBulk.jobString>
 
-<CookRaweggsinaglass.label>유리잔에 생계란 요리하기</CookRaweggsinaglass.label>
-<CookRaweggsinaglass.description>유리잔에 생계란을 요리합니다.</CookRaweggsinaglass.description>
-<CookRaweggsinaglass.jobString>유리잔에 생계란 요리 중...</CookRaweggsinaglass.jobString>
+  <CookRaweggsinaglass.label>유리잔에 생계란 요리하기</CookRaweggsinaglass.label>
+  <CookRaweggsinaglass.description>유리잔에 생계란을 요리합니다.</CookRaweggsinaglass.description>
+  <CookRaweggsinaglass.jobString>유리잔에 생계란 요리 중...</CookRaweggsinaglass.jobString>
 
-<CookRaweggsinaglassBulk.label>유리잔에 생계란 x4 요리하기</CookRaweggsinaglassBulk.label>
-<CookRaweggsinaglassBulk.description>재료로 유리잔에 생계란을 4개 요리합니다.</CookRaweggsinaglassBulk.description>
-<CookRaweggsinaglassBulk.jobString>유리잔에 생계란 요리 중...</CookRaweggsinaglassBulk.jobString>
+  <CookRaweggsinaglassBulk.label>유리잔에 생계란 x4 요리하기</CookRaweggsinaglassBulk.label>
+  <CookRaweggsinaglassBulk.description>재료로 유리잔에 생계란을 4개 요리합니다.</CookRaweggsinaglassBulk.description>
+  <CookRaweggsinaglassBulk.jobString>유리잔에 생계란 요리 중...</CookRaweggsinaglassBulk.jobString>
 
-<MakeMashedPotatoes.label>매시드 포테이토 요리하기</MakeMashedPotatoes.label>
-<MakeMashedPotatoes.description>매시드 포테이토를 요리합니다. 3개 생산됩니다.</MakeMashedPotatoes.description>
-<MakeMashedPotatoes.jobString>매시드 포테이토 요리 중...</MakeMashedPotatoes.jobString>
+  <MakeMashedPotatoes.label>매시드 포테이토 요리하기</MakeMashedPotatoes.label>
+  <MakeMashedPotatoes.description>매시드 포테이토를 요리합니다. 3개 생산됩니다.</MakeMashedPotatoes.description>
+  <MakeMashedPotatoes.jobString>매시드 포테이토 요리 중...</MakeMashedPotatoes.jobString>
 
-<Makeporridge.label>죽 요리하기</Makeporridge.label>
-<Makeporridge.description>죽을 요리합니다. 3개 생산됩니다.</Makeporridge.description>
-<Makeporridge.jobString>죽 요리 중...</Makeporridge.jobString>
+  <Makeporridge.label>죽 요리하기</Makeporridge.label>
+  <Makeporridge.description>죽을 요리합니다. 3개 생산됩니다.</Makeporridge.description>
+  <Makeporridge.jobString>죽 요리 중...</Makeporridge.jobString>
 
 
 </LanguageData>

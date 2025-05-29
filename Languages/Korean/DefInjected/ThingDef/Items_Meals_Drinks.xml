@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <NukaCola.label>누카-콜라</NukaCola.label>
+  <NukaCola.label>누카-콜라</NukaCola.label>
   <NukaCola.description>미국 전역에서 흔히 볼 수 있는 대중적인 음료.</NukaCola.description>
   <NukaCola.ingestible.ingestCommandString>{0} 마시기</NukaCola.ingestible.ingestCommandString>
   <NukaCola.ingestible.ingestReportString>{0} 마시는 중.</NukaCola.ingestible.ingestReportString>

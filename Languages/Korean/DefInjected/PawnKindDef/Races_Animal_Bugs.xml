@@ -2,54 +2,54 @@
 <LanguageData>
 
   <Radroach.label>래드로치</Radroach.label>
-<Radroach.labelPlural>래드로치들</Radroach.labelPlural>
-<Radroach.lifeStages.0.label>래드로치</Radroach.lifeStages.0.label>
-<Radroach.lifeStages.0.labelPlural>래드로치들</Radroach.lifeStages.0.labelPlural>
-<Radroach.lifeStages.0.labelMale>수컷 래드로치</Radroach.lifeStages.0.labelMale>
-<Radroach.lifeStages.0.labelMalePlural>수컷 래드로치들</Radroach.lifeStages.0.labelMalePlural>
-<Radroach.lifeStages.0.labelFemale>암컷 래드로치</Radroach.lifeStages.0.labelFemale>
-<Radroach.lifeStages.0.labelFemalePlural>암컷 래드로치들</Radroach.lifeStages.0.labelFemalePlural>
-<Radroach.lifeStages.1.label>래드로치</Radroach.lifeStages.1.label>
-<Radroach.lifeStages.1.labelPlural>래드로치들</Radroach.lifeStages.1.labelPlural>
-<Radroach.lifeStages.1.labelMale>수컷 래드로치</Radroach.lifeStages.1.labelMale>
-<Radroach.lifeStages.1.labelMalePlural>수컷 래드로치들</Radroach.lifeStages.1.labelMalePlural>
-<Radroach.lifeStages.1.labelFemale>암컷 래드로치</Radroach.lifeStages.1.labelFemale>
-<Radroach.lifeStages.1.labelFemalePlural>암컷 래드로치들</Radroach.lifeStages.1.labelFemalePlural>
-<Radroach.lifeStages.2.label>래드로치</Radroach.lifeStages.2.label>
-<Radroach.lifeStages.2.labelPlural>래드로치들</Radroach.lifeStages.2.labelPlural>
-<Radroach.lifeStages.2.labelMale>수컷 래드로치</Radroach.lifeStages.2.labelMale>
-<Radroach.lifeStages.2.labelMalePlural>수컷 래드로치들</Radroach.lifeStages.2.labelMalePlural>
-<Radroach.lifeStages.2.labelFemale>암컷 래드로치</Radroach.lifeStages.2.labelFemale>
-<Radroach.lifeStages.2.labelFemalePlural>암컷 래드로치들</Radroach.lifeStages.2.labelFemalePlural>
-<Radroach.labelMale>수컷 래드로치</Radroach.labelMale>
-<Radroach.labelMalePlural>수컷 래드로치들</Radroach.labelMalePlural>
-<Radroach.labelFemale>암컷 래드로치</Radroach.labelFemale>
-<Radroach.labelFemalePlural>암컷 래드로치들</Radroach.labelFemalePlural>
+  <Radroach.labelPlural>래드로치들</Radroach.labelPlural>
+  <Radroach.lifeStages.0.label>래드로치</Radroach.lifeStages.0.label>
+  <Radroach.lifeStages.0.labelPlural>래드로치들</Radroach.lifeStages.0.labelPlural>
+  <Radroach.lifeStages.0.labelMale>수컷 래드로치</Radroach.lifeStages.0.labelMale>
+  <Radroach.lifeStages.0.labelMalePlural>수컷 래드로치들</Radroach.lifeStages.0.labelMalePlural>
+  <Radroach.lifeStages.0.labelFemale>암컷 래드로치</Radroach.lifeStages.0.labelFemale>
+  <Radroach.lifeStages.0.labelFemalePlural>암컷 래드로치들</Radroach.lifeStages.0.labelFemalePlural>
+  <Radroach.lifeStages.1.label>래드로치</Radroach.lifeStages.1.label>
+  <Radroach.lifeStages.1.labelPlural>래드로치들</Radroach.lifeStages.1.labelPlural>
+  <Radroach.lifeStages.1.labelMale>수컷 래드로치</Radroach.lifeStages.1.labelMale>
+  <Radroach.lifeStages.1.labelMalePlural>수컷 래드로치들</Radroach.lifeStages.1.labelMalePlural>
+  <Radroach.lifeStages.1.labelFemale>암컷 래드로치</Radroach.lifeStages.1.labelFemale>
+  <Radroach.lifeStages.1.labelFemalePlural>암컷 래드로치들</Radroach.lifeStages.1.labelFemalePlural>
+  <Radroach.lifeStages.2.label>래드로치</Radroach.lifeStages.2.label>
+  <Radroach.lifeStages.2.labelPlural>래드로치들</Radroach.lifeStages.2.labelPlural>
+  <Radroach.lifeStages.2.labelMale>수컷 래드로치</Radroach.lifeStages.2.labelMale>
+  <Radroach.lifeStages.2.labelMalePlural>수컷 래드로치들</Radroach.lifeStages.2.labelMalePlural>
+  <Radroach.lifeStages.2.labelFemale>암컷 래드로치</Radroach.lifeStages.2.labelFemale>
+  <Radroach.lifeStages.2.labelFemalePlural>암컷 래드로치들</Radroach.lifeStages.2.labelFemalePlural>
+  <Radroach.labelMale>수컷 래드로치</Radroach.labelMale>
+  <Radroach.labelMalePlural>수컷 래드로치들</Radroach.labelMalePlural>
+  <Radroach.labelFemale>암컷 래드로치</Radroach.labelFemale>
+  <Radroach.labelFemalePlural>암컷 래드로치들</Radroach.labelFemalePlural>
 
-<RadScorpion.label>래드스콜피온</RadScorpion.label>
-<RadScorpion.labelPlural>래드스콜피온들</RadScorpion.labelPlural>
-<RadScorpion.lifeStages.0.label>래드스콜피온</RadScorpion.lifeStages.0.label>
-<RadScorpion.lifeStages.0.labelPlural>래드스콜피온들</RadScorpion.lifeStages.0.labelPlural>
-<RadScorpion.lifeStages.0.labelMale>수컷 래드스콜피온</RadScorpion.lifeStages.0.labelMale>
-<RadScorpion.lifeStages.0.labelMalePlural>수컷 래드스콜피온들</RadScorpion.lifeStages.0.labelMalePlural>
-<RadScorpion.lifeStages.0.labelFemale>암컷 래드스콜피온</RadScorpion.lifeStages.0.labelFemale>
-<RadScorpion.lifeStages.0.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.lifeStages.0.labelFemalePlural>
-<RadScorpion.lifeStages.1.label>래드스콜피온</RadScorpion.lifeStages.1.label>
-<RadScorpion.lifeStages.1.labelPlural>래드스콜피온들</RadScorpion.lifeStages.1.labelPlural>
-<RadScorpion.lifeStages.1.labelMale>수컷 래드스콜피온</RadScorpion.lifeStages.1.labelMale>
-<RadScorpion.lifeStages.1.labelMalePlural>수컷 래드스콜피온들</RadScorpion.lifeStages.1.labelMalePlural>
-<RadScorpion.lifeStages.1.labelFemale>암컷 래드스콜피온</RadScorpion.lifeStages.1.labelFemale>
-<RadScorpion.lifeStages.1.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.lifeStages.1.labelFemalePlural>
-<RadScorpion.lifeStages.2.label>래드스콜피온</RadScorpion.lifeStages.2.label>
-<RadScorpion.lifeStages.2.labelPlural>래드스콜피온들</RadScorpion.lifeStages.2.labelPlural>
-<RadScorpion.lifeStages.2.labelMale>수컷 래드스콜피온</RadScorpion.lifeStages.2.labelMale>
-<RadScorpion.lifeStages.2.labelMalePlural>수컷 래드스콜피온들</RadScorpion.lifeStages.2.labelMalePlural>
-<RadScorpion.lifeStages.2.labelFemale>암컷 래드스콜피온</RadScorpion.lifeStages.2.labelFemale>
-<RadScorpion.lifeStages.2.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.lifeStages.2.labelFemalePlural>
-<RadScorpion.labelMale>수컷 래드스콜피온</RadScorpion.labelMale>
-<RadScorpion.labelMalePlural>수컷 래드스콜피온들</RadScorpion.labelMalePlural>
-<RadScorpion.labelFemale>암컷 래드스콜피온</RadScorpion.labelFemale>
-<RadScorpion.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.labelFemalePlural>
+  <RadScorpion.label>래드스콜피온</RadScorpion.label>
+  <RadScorpion.labelPlural>래드스콜피온들</RadScorpion.labelPlural>
+  <RadScorpion.lifeStages.0.label>래드스콜피온</RadScorpion.lifeStages.0.label>
+  <RadScorpion.lifeStages.0.labelPlural>래드스콜피온들</RadScorpion.lifeStages.0.labelPlural>
+  <RadScorpion.lifeStages.0.labelMale>수컷 래드스콜피온</RadScorpion.lifeStages.0.labelMale>
+  <RadScorpion.lifeStages.0.labelMalePlural>수컷 래드스콜피온들</RadScorpion.lifeStages.0.labelMalePlural>
+  <RadScorpion.lifeStages.0.labelFemale>암컷 래드스콜피온</RadScorpion.lifeStages.0.labelFemale>
+  <RadScorpion.lifeStages.0.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.lifeStages.0.labelFemalePlural>
+  <RadScorpion.lifeStages.1.label>래드스콜피온</RadScorpion.lifeStages.1.label>
+  <RadScorpion.lifeStages.1.labelPlural>래드스콜피온들</RadScorpion.lifeStages.1.labelPlural>
+  <RadScorpion.lifeStages.1.labelMale>수컷 래드스콜피온</RadScorpion.lifeStages.1.labelMale>
+  <RadScorpion.lifeStages.1.labelMalePlural>수컷 래드스콜피온들</RadScorpion.lifeStages.1.labelMalePlural>
+  <RadScorpion.lifeStages.1.labelFemale>암컷 래드스콜피온</RadScorpion.lifeStages.1.labelFemale>
+  <RadScorpion.lifeStages.1.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.lifeStages.1.labelFemalePlural>
+  <RadScorpion.lifeStages.2.label>래드스콜피온</RadScorpion.lifeStages.2.label>
+  <RadScorpion.lifeStages.2.labelPlural>래드스콜피온들</RadScorpion.lifeStages.2.labelPlural>
+  <RadScorpion.lifeStages.2.labelMale>수컷 래드스콜피온</RadScorpion.lifeStages.2.labelMale>
+  <RadScorpion.lifeStages.2.labelMalePlural>수컷 래드스콜피온들</RadScorpion.lifeStages.2.labelMalePlural>
+  <RadScorpion.lifeStages.2.labelFemale>암컷 래드스콜피온</RadScorpion.lifeStages.2.labelFemale>
+  <RadScorpion.lifeStages.2.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.lifeStages.2.labelFemalePlural>
+  <RadScorpion.labelMale>수컷 래드스콜피온</RadScorpion.labelMale>
+  <RadScorpion.labelMalePlural>수컷 래드스콜피온들</RadScorpion.labelMalePlural>
+  <RadScorpion.labelFemale>암컷 래드스콜피온</RadScorpion.labelFemale>
+  <RadScorpion.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.labelFemalePlural>
 
 
 </LanguageData>

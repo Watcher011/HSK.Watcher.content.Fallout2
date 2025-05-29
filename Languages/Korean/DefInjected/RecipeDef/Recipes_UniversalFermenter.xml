@@ -1,47 +1,53 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<MakeAmmo_PlasmaBoltFallout.label>플라즈마 충전 볼트 탄약 x100 제작</MakeAmmo_PlasmaBoltFallout.label>
-<MakeAmmo_PlasmaBoltFallout.description>플라즈마 충전 볼트 탄약 100개를 제작합니다.</MakeAmmo_PlasmaBoltFallout.description>
 
-<MakeAmmo_ChargedLaserFallout.label>충전 레이저 빔 탄약 x100 제작</MakeAmmo_ChargedLaserFallout.label>
-<MakeAmmo_ChargedLaserFallout.description>충전 레이저 빔 탄약 100개를 제작합니다.</MakeAmmo_ChargedLaserFallout.description>
+  <MakeAmmo_PlasmaBoltFallout.label>플라즈마 충전 볼트 탄약 x100 제작</MakeAmmo_PlasmaBoltFallout.label>
+  <MakeAmmo_PlasmaBoltFallout.description>플라즈마 충전 볼트 탄약 100개를 제작합니다.</MakeAmmo_PlasmaBoltFallout.description>
 
-<MakeAmmo_ChargedLaser_StableFallout.label>충전 레이저 빔 (안정형) 탄약 x100 제작</MakeAmmo_ChargedLaser_StableFallout.label>
-<MakeAmmo_ChargedLaser_StableFallout.description>충전 레이저 빔 (안정형) 탄약 100개를 제작합니다.</MakeAmmo_ChargedLaser_StableFallout.description>
+  <MakeAmmo_ChargedLaserFallout.label>충전 레이저 빔 탄약 x100 제작</MakeAmmo_ChargedLaserFallout.label>
+  <MakeAmmo_ChargedLaserFallout.description>충전 레이저 빔 탄약 100개를 제작합니다.</MakeAmmo_ChargedLaserFallout.description>
 
-<MakeAmmo_FatManShell_HE.label>팻 맨용 핵탄 x1 제작</MakeAmmo_FatManShell_HE.label>
-<MakeAmmo_FatManShell_HE.description>팻 맨용 핵탄 1개.</MakeAmmo_FatManShell_HE.description>
-<MakeAmmo_FatManShell_HE.jobString>팻 맨용 발사체를 제작합니다.</MakeAmmo_FatManShell_HE.jobString>
+  <MakeAmmo_ChargedLaser_StableFallout.label>충전 레이저 빔 (안정형) 탄약 x100 제작</MakeAmmo_ChargedLaser_StableFallout.label>
+  <MakeAmmo_ChargedLaser_StableFallout.description>충전 레이저 빔 (안정형) 탄약 100개를 제작합니다.</MakeAmmo_ChargedLaser_StableFallout.description>
 
-<Make_Vaultjumpsuit.label>볼트 점프수트 x1 제작</Make_Vaultjumpsuit.label>
-<Make_Vaultjumpsuit.description>볼트 점프수트 1개.</Make_Vaultjumpsuit.description>
-<Make_Vaultjumpsuit.jobString>볼트 점프수트를 제작합니다.</Make_Vaultjumpsuit.jobString>
+  <MakeAmmo_FatManShell_HE.label>팻 맨용 핵탄 x1 제작</MakeAmmo_FatManShell_HE.label>
+  <MakeAmmo_FatManShell_HE.description>팻 맨용 핵탄 1개.</MakeAmmo_FatManShell_HE.description>
+  <MakeAmmo_FatManShell_HE.jobString>팻 맨용 발사체를 제작합니다.</MakeAmmo_FatManShell_HE.jobString>
 
-<!-- RecipeDef_Nuka-Cola -->
+  <MakeAmmo_FatManShell_FGM.label>Make a Not Nuclear Shell for Fat Man x1</MakeAmmo_FatManShell_FGM.label>
+  <MakeAmmo_FatManShell_FGM.description>Shell for Fat Man x1.</MakeAmmo_FatManShell_FGM.description>
+  <MakeAmmo_FatManShell_FGM.jobString>Creates a projectile for the fat man.</MakeAmmo_FatManShell_FGM.jobString>
 
-<Make_NukaCola.label>누카 콜라 x3 제작</Make_NukaCola.label>
-<Make_NukaCola.description>누카 콜라 3개.</Make_NukaCola.description>
-<Make_NukaCola.jobString>누카 콜라를 제작합니다.</Make_NukaCola.jobString>
+  <Make_Vaultjumpsuit.label>볼트 점프수트 x1 제작</Make_Vaultjumpsuit.label>
+  <Make_Vaultjumpsuit.description>볼트 점프수트 1개.</Make_Vaultjumpsuit.description>
+  <Make_Vaultjumpsuit.jobString>볼트 점프수트를 제작합니다.</Make_Vaultjumpsuit.jobString>
 
-<Make_NukaColaQuantum.label>누카 콜라 퀀텀 x3 제작</Make_NukaColaQuantum.label>
-<Make_NukaColaQuantum.description>누카 콜라 퀀텀 3개.</Make_NukaColaQuantum.description>
-<Make_NukaColaQuantum.jobString>누카 콜라 퀀텀을 제작합니다.</Make_NukaColaQuantum.jobString>
 
-<Make_NukaColaVictoria.label>누카 콜라 빅토리아 x3 제작</Make_NukaColaVictoria.label>
-<Make_NukaColaVictoria.description>누카 콜라 빅토리아 3개.</Make_NukaColaVictoria.description>
-<Make_NukaColaVictoria.jobString>누카 콜라 빅토리아를 제작합니다.</Make_NukaColaVictoria.jobString>
+  <!-- RecipeDef_Nuka-Cola -->
 
-<Make_NukaColaGrapes.label>누카 콜라 그레이프 x3 제작</Make_NukaColaGrapes.label>
-<Make_NukaColaGrapes.description>누카 콜라 그레이프 3개.</Make_NukaColaGrapes.description>
-<Make_NukaColaGrapes.jobString>누카 콜라 그레이프를 제작합니다.</Make_NukaColaGrapes.jobString>
+  <Make_NukaCola.label>누카 콜라 x3 제작</Make_NukaCola.label>
+  <Make_NukaCola.description>누카 콜라 3개.</Make_NukaCola.description>
+  <Make_NukaCola.jobString>누카 콜라를 제작합니다.</Make_NukaCola.jobString>
 
-<Make_NukaColaOnslaught.label>누카 콜라 온슬로트 x3 제작</Make_NukaColaOnslaught.label>
-<Make_NukaColaOnslaught.description>누카 콜라 온슬로트 3개.</Make_NukaColaOnslaught.description>
-<Make_NukaColaOnslaught.jobString>누카 콜라 온슬로트를 제작합니다.</Make_NukaColaOnslaught.jobString>
+  <Make_NukaColaQuantum.label>누카 콜라 퀀텀 x3 제작</Make_NukaColaQuantum.label>
+  <Make_NukaColaQuantum.description>누카 콜라 퀀텀 3개.</Make_NukaColaQuantum.description>
+  <Make_NukaColaQuantum.jobString>누카 콜라 퀀텀을 제작합니다.</Make_NukaColaQuantum.jobString>
 
-<Make_NukaColaDark.label>누카 콜라 다크 x3 제작</Make_NukaColaDark.label>
-<Make_NukaColaDark.description>누카 콜라 다크 3개.</Make_NukaColaDark.description>
-<Make_NukaColaDark.jobString>누카 콜라 다크를 제작합니다.</Make_NukaColaDark.jobString>
+  <Make_NukaColaVictoria.label>누카 콜라 빅토리아 x3 제작</Make_NukaColaVictoria.label>
+  <Make_NukaColaVictoria.description>누카 콜라 빅토리아 3개.</Make_NukaColaVictoria.description>
+  <Make_NukaColaVictoria.jobString>누카 콜라 빅토리아를 제작합니다.</Make_NukaColaVictoria.jobString>
+
+  <Make_NukaColaGrapes.label>누카 콜라 그레이프 x3 제작</Make_NukaColaGrapes.label>
+  <Make_NukaColaGrapes.description>누카 콜라 그레이프 3개.</Make_NukaColaGrapes.description>
+  <Make_NukaColaGrapes.jobString>누카 콜라 그레이프를 제작합니다.</Make_NukaColaGrapes.jobString>
+
+  <Make_NukaColaOnslaught.label>누카 콜라 온슬로트 x3 제작</Make_NukaColaOnslaught.label>
+  <Make_NukaColaOnslaught.description>누카 콜라 온슬로트 3개.</Make_NukaColaOnslaught.description>
+  <Make_NukaColaOnslaught.jobString>누카 콜라 온슬로트를 제작합니다.</Make_NukaColaOnslaught.jobString>
+
+  <Make_NukaColaDark.label>누카 콜라 다크 x3 제작</Make_NukaColaDark.label>
+  <Make_NukaColaDark.description>누카 콜라 다크 3개.</Make_NukaColaDark.description>
+  <Make_NukaColaDark.jobString>누카 콜라 다크를 제작합니다.</Make_NukaColaDark.jobString>
 
 
 </LanguageData>

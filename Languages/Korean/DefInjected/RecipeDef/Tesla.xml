@@ -3,9 +3,9 @@
 
   <!-- Recipes -->
 
- <MakeAmmo_ChargedTesla.label>테슬라 탄약 x40 제작</MakeAmmo_ChargedTesla.label>
-<MakeAmmo_ChargedTesla.description>테슬라 탄약 40개를 제작합니다.</MakeAmmo_ChargedTesla.description>
-<MakeAmmo_ChargedTesla.jobString>테슬라 탄약을 제작 중입니다.</MakeAmmo_ChargedTesla.jobString>
+  <MakeAmmo_ChargedTesla.label>테슬라 탄약 x40 제작</MakeAmmo_ChargedTesla.label>
+  <MakeAmmo_ChargedTesla.description>테슬라 탄약 40개를 제작합니다.</MakeAmmo_ChargedTesla.description>
+  <MakeAmmo_ChargedTesla.jobString>테슬라 탄약을 제작 중입니다.</MakeAmmo_ChargedTesla.jobString>
 
 
 </LanguageData>

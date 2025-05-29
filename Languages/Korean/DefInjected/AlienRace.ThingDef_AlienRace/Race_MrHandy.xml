@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <MisterHandy.label>미스터 핸디</MisterHandy.label>
-<MisterHandy.description>미스터 핸디는 전쟁 전 에퀘스트리아 전역에서 정성스럽게 제작 및 양산된 구형 로봇 모델의 매우 뛰어난 대표작입니다. 집사, 문지기, 개인 보디가드, 심지어 의사 역할까지 - 미스터 핸디가 완벽하게 해낼 수 없는 일은 거의 없었습니다.</MisterHandy.description>
-<MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>외장</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-<MisterHandy.tools.0.label>왼쪽 칼날 주먹</MisterHandy.tools.0.label>
-<MisterHandy.tools.1.label>오른쪽 칼날 주먹</MisterHandy.tools.1.label>
-<MisterHandy.tools.2.label>헤드</MisterHandy.tools.2.label>
+  <MisterHandy.label>미스터 핸디</MisterHandy.label>
+  <MisterHandy.description>미스터 핸디는 전쟁 전 에퀘스트리아 전역에서 정성스럽게 제작 및 양산된 구형 로봇 모델의 매우 뛰어난 대표작입니다. 집사, 문지기, 개인 보디가드, 심지어 의사 역할까지 - 미스터 핸디가 완벽하게 해낼 수 없는 일은 거의 없었습니다.</MisterHandy.description>
+  <MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>외장</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <MisterHandy.tools.0.label>왼쪽 칼날 주먹</MisterHandy.tools.0.label>
+  <MisterHandy.tools.1.label>오른쪽 칼날 주먹</MisterHandy.tools.1.label>
+  <MisterHandy.tools.2.label>헤드</MisterHandy.tools.2.label>
+
 
 </LanguageData>

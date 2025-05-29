@@ -31,7 +31,7 @@
 			<li>AmmoTesla</li>
 		</thingCategories>
 		<graphicData>
-			<texPath>Things/Ammo/LaserPack</texPath>
+			<texPath>Things/Ammo/LaserCell</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>

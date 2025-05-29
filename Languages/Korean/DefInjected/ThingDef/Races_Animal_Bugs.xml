@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Radroach.label>방사능 바퀴벌레</Radroach.label>
-<Radroach.description>방사능 바퀴벌레 - 전후(戰後) 식문화의 진정한 상징이죠! 풍부한 방사능으로 양념된 이 매력적인 대형 바퀴벌레는 이제 냉장고 밑에서 발견되는 벌레가 아니라, 절약형 생존주의자를 위한 본격적인 고기 대용품입니다. 전쟁 전 정치인보다 빠르게 달리고, NCR의 관료제보다 빠르게 번식하며, 당신의 희망과는 달리 절대 죽지 않습니다.
+  <Radroach.label>방사능 바퀴벌레</Radroach.label>
+  <Radroach.description>방사능 바퀴벌레 - 전후(戰後) 식문화의 진정한 상징이죠! 풍부한 방사능으로 양념된 이 매력적인 대형 바퀴벌레는 이제 냉장고 밑에서 발견되는 벌레가 아니라, 절약형 생존주의자를 위한 본격적인 고기 대용품입니다. 전쟁 전 정치인보다 빠르게 달리고, NCR의 관료제보다 빠르게 번식하며, 당신의 희망과는 달리 절대 죽지 않습니다.
 구워보세요 - 스트론튬-90의 풍미가 느껴지는 바삭한 진미를 맛볼 수 있을 겁니다! 운이 좋다면 키틴질 껍질에서 예비 배터리나 유리 조각을 발견할 수도 있죠 - 이건 그냥 곤충이 아니라 깜짝 선물이니까요!
 *(여백 주석: "처음 놈을 죽인 후 더 많아진 것 같다면, 그건 착각이 아닙니다. 이놈들은 친구들을 부릅니다. 항상 부르죠.")</Radroach.description>
-<Radroach.tools.0.label>입</Radroach.tools.0.label>
-<Radroach.tools.1.label>머리</Radroach.tools.1.label>
+  <Radroach.tools.0.label>입</Radroach.tools.0.label>
+  <Radroach.tools.1.label>머리</Radroach.tools.1.label>
 
-<RadScorpion.label>방사능 전갈</RadScorpion.label>
-<RadScorpion.description>"자연이 마침내 영원한 질문에 답을 내렸습니다: '전갈을 SUV 크기로 키우고 방사능을 쬐여주고 자기보존 본능을 완전히 제거하면 어떻게 될까?'
+  <RadScorpion.label>방사능 전갈</RadScorpion.label>
+  <RadScorpion.description>"자연이 마침내 영원한 질문에 답을 내렸습니다: '전갈을 SUV 크기로 키우고 방사능을 쬐여주고 자기보존 본능을 완전히 제거하면 어떻게 될까?'
 곤충학자의 악몽을 구현한 이 생물은 모든 최고의 특성을 종합했습니다: 전차 같은 장갑, 격분한 브라민 같은 속도, 그리고 즉사 아니면 길고 고통스러운 죽음(오늘 우주가 당신을 얼마나 싫어하느냐에 따라)을 보장하는 '죽음의 독침'까지.
 특히 '매력적인' 습성으로는: 당신 바로 뒤에서 땅속에서 갑툭튀하기, 추적 시 물리법칙 무시하기, 볼트 거주자들의 편집증 증식 속도를 능가하는 번식력이 있습니다.
 유일한 장점? 이들의 독은 다음 3일 동안 깨어있어야 할 때 커피 대용으로 훌륭합니다. 다만... 심장마비 원인을 의사에게 말하지 마세요."</RadScorpion.description>
-<RadScorpion.tools.1.label>머리</RadScorpion.tools.1.label>
+  <RadScorpion.tools.1.label>머리</RadScorpion.tools.1.label>
 
 
 </LanguageData>

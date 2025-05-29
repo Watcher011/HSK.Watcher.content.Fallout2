@@ -2,46 +2,48 @@
 <LanguageData>
 
   <!-- Chaser -->
-<VaultecScout.label>볼트텍 정찰병</VaultecScout.label>
-<VaultecScout.labelPlural>볼트텍 정찰병들</VaultecScout.labelPlural>
 
-<VaultecRanger.label>볼트텍 레인저</VaultecRanger.label>
-<VaultecRanger.labelPlural>볼트텍 레인저들</VaultecRanger.labelPlural>
+  <VaultecScout.label>볼트텍 정찰병</VaultecScout.label>
+  <VaultecScout.labelPlural>볼트텍 정찰병들</VaultecScout.labelPlural>
 
-<VaultecSheriffHeavy.label>볼트텍 중무장 레인저</VaultecSheriffHeavy.label>
-<VaultecSheriffHeavy.labelPlural>볼트텍 중무장 레인저들</VaultecSheriffHeavy.labelPlural>
+  <VaultecRanger.label>볼트텍 레인저</VaultecRanger.label>
+  <VaultecRanger.labelPlural>볼트텍 레인저들</VaultecRanger.labelPlural>
 
-<VaultecOfficer.label>볼트텍 장교</VaultecOfficer.label>
-<VaultecOfficer.labelPlural>볼트텍 장교들</VaultecOfficer.labelPlural>
+  <VaultecSheriffHeavy.label>볼트텍 중무장 레인저</VaultecSheriffHeavy.label>
+  <VaultecSheriffHeavy.labelPlural>볼트텍 중무장 레인저들</VaultecSheriffHeavy.labelPlural>
 
-<VaultecCorporal.label>볼트텍 하사</VaultecCorporal.label>
-<VaultecCorporal.labelPlural>볼트텍 하사들</VaultecCorporal.labelPlural>
-<VaultecCorporal.labelMale>남성 볼트텍 하사</VaultecCorporal.labelMale>
-<VaultecCorporal.labelMalePlural>남성 볼트텍 하사들</VaultecCorporal.labelMalePlural>
-<VaultecCorporal.labelFemale>여성 볼트텍 하사</VaultecCorporal.labelFemale>
-<VaultecCorporal.labelFemalePlural>여성 볼트텍 하사들</VaultecCorporal.labelFemalePlural>
+  <VaultecOfficer.label>볼트텍 장교</VaultecOfficer.label>
+  <VaultecOfficer.labelPlural>볼트텍 장교들</VaultecOfficer.labelPlural>
 
-<VaultecSpy.label>볼트텍 첩보원</VaultecSpy.label>
-<VaultecSpy.labelPlural>볼트텍 첩보원들</VaultecSpy.labelPlural>
+  <VaultecCorporal.label>볼트텍 하사</VaultecCorporal.label>
+  <VaultecCorporal.labelPlural>볼트텍 하사들</VaultecCorporal.labelPlural>
+  <VaultecCorporal.labelMale>남성 볼트텍 하사</VaultecCorporal.labelMale>
+  <VaultecCorporal.labelMalePlural>남성 볼트텍 하사들</VaultecCorporal.labelMalePlural>
+  <VaultecCorporal.labelFemale>여성 볼트텍 하사</VaultecCorporal.labelFemale>
+  <VaultecCorporal.labelFemalePlural>여성 볼트텍 하사들</VaultecCorporal.labelFemalePlural>
 
-<VaultecInvestigator.label>볼트텍 수사관</VaultecInvestigator.label>
-<VaultecInvestigator.labelPlural>볼트텍 수사관들</VaultecInvestigator.labelPlural>
-<VaultecInvestigator.labelMale>남성 볼트텍 수사관</VaultecInvestigator.labelMale>
-<VaultecInvestigator.labelMalePlural>남성 볼트텍 수사관들</VaultecInvestigator.labelMalePlural>
-<VaultecInvestigator.labelFemale>여성 볼트텍 수사관</VaultecInvestigator.labelFemale>
-<VaultecInvestigator.labelFemalePlural>여성 볼트텍 수사관들</VaultecInvestigator.labelFemalePlural>
+  <VaultecSpy.label>볼트텍 첩보원</VaultecSpy.label>
+  <VaultecSpy.labelPlural>볼트텍 첩보원들</VaultecSpy.labelPlural>
 
-<VaultecLiquidator.label>볼트텍 청소반</VaultecLiquidator.label>
-<VaultecLiquidator.labelPlural>볼트텍 청소반들</VaultecLiquidator.labelPlural>
+  <VaultecInvestigator.label>볼트텍 수사관</VaultecInvestigator.label>
+  <VaultecInvestigator.labelPlural>볼트텍 수사관들</VaultecInvestigator.labelPlural>
+  <VaultecInvestigator.labelMale>남성 볼트텍 수사관</VaultecInvestigator.labelMale>
+  <VaultecInvestigator.labelMalePlural>남성 볼트텍 수사관들</VaultecInvestigator.labelMalePlural>
+  <VaultecInvestigator.labelFemale>여성 볼트텍 수사관</VaultecInvestigator.labelFemale>
+  <VaultecInvestigator.labelFemalePlural>여성 볼트텍 수사관들</VaultecInvestigator.labelFemalePlural>
 
-<Vaultec_Trader.label>볼트텍 상인</Vaultec_Trader.label>
-<Vaultec_Trader.labelPlural>볼트텍 상인들</Vaultec_Trader.labelPlural>
+  <VaultecLiquidator.label>볼트텍 청소반</VaultecLiquidator.label>
+  <VaultecLiquidator.labelPlural>볼트텍 청소반들</VaultecLiquidator.labelPlural>
 
-<Vaultecglowing.label>볼트텍 발광체</Vaultecglowing.label>
-<Vaultecglowing.labelPlural>볼트텍 발광체들</Vaultecglowing.labelPlural>
-<Vaultecglowing.labelMale>남성 볼트텍 발광체</Vaultecglowing.labelMale>
-<Vaultecglowing.labelMalePlural>남성 볼트텍 발광체들</Vaultecglowing.labelMalePlural>
-<Vaultecglowing.labelFemale>여성 볼트텍 발광체</Vaultecglowing.labelFemale>
-<Vaultecglowing.labelFemalePlural>여성 볼트텍 발광체들</Vaultecglowing.labelFemalePlural>
+  <Vaultec_Trader.label>볼트텍 상인</Vaultec_Trader.label>
+  <Vaultec_Trader.labelPlural>볼트텍 상인들</Vaultec_Trader.labelPlural>
+
+  <Vaultecglowing.label>볼트텍 발광체</Vaultecglowing.label>
+  <Vaultecglowing.labelPlural>볼트텍 발광체들</Vaultecglowing.labelPlural>
+  <Vaultecglowing.labelMale>남성 볼트텍 발광체</Vaultecglowing.labelMale>
+  <Vaultecglowing.labelMalePlural>남성 볼트텍 발광체들</Vaultecglowing.labelMalePlural>
+  <Vaultecglowing.labelFemale>여성 볼트텍 발광체</Vaultecglowing.labelFemale>
+  <Vaultecglowing.labelFemalePlural>여성 볼트텍 발광체들</Vaultecglowing.labelFemalePlural>
+
 
 </LanguageData>

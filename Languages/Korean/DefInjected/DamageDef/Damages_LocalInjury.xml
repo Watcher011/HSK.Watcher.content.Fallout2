@@ -1,22 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <CapShredded.label>뚜껑</CapShredded.label>
-<CapShredded.deathMessage>{0}이(가) 박살났습니다.</CapShredded.deathMessage>
+  <CapShredded.label>뚜껑</CapShredded.label>
+  <CapShredded.deathMessage>{0}이(가) 박살났습니다.</CapShredded.deathMessage>
 
-<ACP.label>껍질</ACP.label>
-<ACP.deathMessage>{0}이(가) 박살났습니다.</ACP.deathMessage>
+  <ACP.label>껍질</ACP.label>
+  <ACP.deathMessage>{0}이(가) 박살났습니다.</ACP.deathMessage>
 
-<ACB.label>폭탄</ACB.label>
-<ACB.deathMessage>{0}이(가) 파괴되었습니다.</ACB.deathMessage>
+  <ACB.label>폭탄</ACB.label>
+  <ACB.deathMessage>{0}이(가) 파괴되었습니다.</ACB.deathMessage>
 
-<NuclearB.label>폭탄</NuclearB.label>
-<NuclearB.deathMessage>{0}이(가) 파괴되었습니다.</NuclearB.deathMessage>
+  <NuclearB.label>폭탄</NuclearB.label>
+  <NuclearB.deathMessage>{0}이(가) 파괴되었습니다.</NuclearB.deathMessage>
 
-<Charge.label>충전</Charge.label>
-<Charge.deathMessage>{0}이(가) 파괴되었습니다.</Charge.deathMessage>
+  <Charge.label>충전</Charge.label>
+  <Charge.deathMessage>{0}이(가) 파괴되었습니다.</Charge.deathMessage>
 
-<PlasmaCharge.label>플라즈마 충전</PlasmaCharge.label>
-<PlasmaCharge.deathMessage>{0}이(가) 사망했습니다.</PlasmaCharge.deathMessage>
+  <PlasmaCharge.label>플라즈마 충전</PlasmaCharge.label>
+  <PlasmaCharge.deathMessage>{0}이(가) 사망했습니다.</PlasmaCharge.deathMessage>
+
 
 </LanguageData>
