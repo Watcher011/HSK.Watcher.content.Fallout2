@@ -1336,8 +1336,7 @@ Do not operate:
         </graphicData>
         <soundInteract>InteractPrecision</soundInteract>
         <weaponTags>
-			<li>SpacerGun</li>
-            <li>Futuristic</li>
+		   <li>VaultecLaunchers</li>
         </weaponTags>
         <thingCategories>
             <li>Futuristic</li>
