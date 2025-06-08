@@ -832,6 +832,7 @@
 		<defName>Deathclaw</defName>
 		<label>Deathclaw</label>
 		<race>Deathclaw</race>
+		<combatPower>900</combatPower>
 		<canArriveManhunter>true</canArriveManhunter>
 		<lifeStages>
 			<li>

@@ -4,8 +4,8 @@
 	<ThingDef ParentName="PowerFueled">
 		<defName>FalloutSmallGenerator</defName>
 		<label>Vault-Tec VX-12 generator</label>
-	    <thingClass>Building</thingClass>
 		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>Watcher.Building_FalloutSmallGenerator</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Power/Generator/FalloutSmallGenerator/FalloutSmallGenerator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

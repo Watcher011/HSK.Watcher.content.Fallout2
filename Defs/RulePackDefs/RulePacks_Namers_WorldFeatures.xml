@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<!--
+  <RulePackDef>
+    <defName>NamerGlowingSea</defName>
+    <include>
+      <li>WorldFeatureNamerCommon</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        <li>terrain_word(p=6)->forest</li>
+        <li>terrain_word->grove</li>
+        <li>terrain_word->woodland</li>
+        <li>terrain_word->thicket</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+-->
+</Defs>
