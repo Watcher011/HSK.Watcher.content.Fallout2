@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_Larva.label>сделать дротики х50</MakeAmmo_Larva.label>
+  <MakeAmmo_Larva.description>сделать дротики с дутнем х50.</MakeAmmo_Larva.description>
+  <MakeAmmo_Larva.jobString>делает дротики.</MakeAmmo_Larva.jobString>
+
+
+</LanguageData>

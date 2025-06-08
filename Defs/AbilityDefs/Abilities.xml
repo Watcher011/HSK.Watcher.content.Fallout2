@@ -30,4 +30,27 @@
         <cooldownTicksRange>60000</cooldownTicksRange>
     </AbilityDef>
 
+
+
+ <AbilityDef ParentName="SpikeLaunchBase">
+    <defName>EggLaunch</defName>
+    <verbProperties>
+      <range>5.9</range>
+      <defaultProjectile>Spike_Egg</defaultProjectile>
+    </verbProperties>
+  </AbilityDef>
+  <ThingDef ParentName="SpikeBase">
+    <defName>Spike_Egg</defName>
+    <graphicData>
+      <texPath>Things/Projectile/DutenEgg</texPath>
+    </graphicData>
+    <projectile>
+      <damageAmountBase>9</damageAmountBase>
+	   <damageDef>DutenDart</damageDef>
+	     <armorPenetrationBase>1</armorPenetrationBase>
+         <stoppingPower>1</stoppingPower>
+         <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
 </Defs>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	
+	<IncidentDef>
+		<defName>DeathclawPasses</defName>
+		<label>Deathclaw passes</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<category>Misc</category>
+		<workerClass>Watcher.Events.IncidentWorker_DeathclawPasses</workerClass>
+		<baseChance>2</baseChance>
+		<minRefireDays>14</minRefireDays>
+		<modExtensions>
+			<li Class="SK.ExtendedIncident">
+				<allowedTemperatureRange>10~999</allowedTemperatureRange>
+				<!-- current map temperature-->
+				<allowedAverageBiomeTemperature>10~999</allowedAverageBiomeTemperature>
+				<!-- Average biome temperature stat -->
+			</li>
+		</modExtensions>
+	</IncidentDef>
+
+
+	<IncidentDef>
+		<defName>DutenSwarm</defName>
+		<label>Duten Swarm</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_DutenPasses</workerClass>
+		<baseChance>2.0</baseChance>
+		<category>ThreatBig</category>
+		<minRefireDays>18</minRefireDays>
+		<earliestDay>12</earliestDay>
+		<minThreatPoints>2500</minThreatPoints>
+		<modExtensions>
+			<li Class="SK.ExtendedIncident">
+				<allowedTemperatureRange>15~999</allowedTemperatureRange>
+				<!-- current map temperature-->
+				<allowedAverageBiomeTemperature>15~999</allowedAverageBiomeTemperature>
+				<!-- Average biome temperature stat -->
+			</li>
+		</modExtensions>
+	</IncidentDef>
+</Defs>

@@ -10,11 +10,11 @@
   <MakeAmmo_ChargedLaser_StableFallout.label>создать Стабильные Ядерные батареи x100</MakeAmmo_ChargedLaser_StableFallout.label>
   <MakeAmmo_ChargedLaser_StableFallout.description>Создать 100 Ядерные батареи (Стабильный).</MakeAmmo_ChargedLaser_StableFallout.description>
 
-  <MakeAmmo_FatManShell_HE.label>Сделать ядерный снаряд для Толстяка x1</MakeAmmo_FatManShell_HE.label>
-  <MakeAmmo_FatManShell_HE.description>Ядерный снаряд для Толстяка x1.</MakeAmmo_FatManShell_HE.description>
-  <MakeAmmo_FatManShell_HE.jobString>Создает снаряд для Толстяка.</MakeAmmo_FatManShell_HE.jobString>
+  <MakeAmmo_FatManShell_NHE.label>Создать ядерный снаряд для "Толстяка" x1</MakeAmmo_FatManShell_NHE.label>
+  <MakeAmmo_FatManShell_NHE.description>Ядерный снаряд для "Толстяка" x1.</MakeAmmo_FatManShell_NHE.description>
+  <MakeAmmo_FatManShell_NHE.jobString>Изготовление снаряда для "Толстяка".</MakeAmmo_FatManShell_NHE.jobString>
 
-  <MakeAmmo_FatManShell_FGM.label>Создать неядерный снаряд для толстяка x1</MakeAmmo_FatManShell_FGM.label>
+  <MakeAmmo_FatManShell_FGM.label>Создать свинью копилку для толстяка x1</MakeAmmo_FatManShell_FGM.label>
   <MakeAmmo_FatManShell_FGM.description>Снаряд для толстяка x1.</MakeAmmo_FatManShell_FGM.description>
   <MakeAmmo_FatManShell_FGM.jobString>Создает снаряд для толстяка.</MakeAmmo_FatManShell_FGM.jobString>
 
@@ -49,5 +49,9 @@
   <Make_NukaColaDark.description>Темная Ядер-Кола x3.</Make_NukaColaDark.description>
   <Make_NukaColaDark.jobString>Создает темную Ядер-Колу.</Make_NukaColaDark.jobString>
 
+
+  <!--<MakeAmmo_FatManShell_HE.label>Сделать ядерный снаряд для Толстяка x1</MakeAmmo_FatManShell_HE.label>-->
+  <!--<MakeAmmo_FatManShell_HE.description>Ядерный снаряд для Толстяка x1.</MakeAmmo_FatManShell_HE.description>-->
+  <!--<MakeAmmo_FatManShell_HE.jobString>Создает снаряд для Толстяка.</MakeAmmo_FatManShell_HE.jobString>-->
 
 </LanguageData>

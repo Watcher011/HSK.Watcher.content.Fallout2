@@ -20,4 +20,34 @@
   <PlasmaCharge.deathMessage>{0}이(가) 사망했습니다.</PlasmaCharge.deathMessage>
 
 
+  <!-- <DamageDef ParentName="LocalInjuryBase">
+		<defName>DutenDart</defName>
+       <label>Duten Dart</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death by an arrow.</deathMessage>
+		<hediff>Cut</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<buildingDamageFactor>0.05</buildingDamageFactor>
+		<plantDamageFactor>0.5</plantDamageFactor>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<additionalHediffs>
+			<li>
+				<hediff>BlowflyLarva</hediff>
+				<severityPerDamageDealt>0.12</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef> -->
+
+  <DutenDart.label>두텐 다트</DutenDart.label>
+  <DutenDart.deathMessage>{0}은(는) 화살에 맞아 사망했습니다.</DutenDart.deathMessage>
+
+
 </LanguageData>

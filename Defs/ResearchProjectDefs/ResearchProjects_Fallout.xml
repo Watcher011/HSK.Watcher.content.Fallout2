@@ -14,7 +14,7 @@
 	<techLevel>Medieval</techLevel>
 	<tab>Buildings_SK</tab>
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
-   <researchViewX>8.00</researchViewX>
+   <researchViewX>10.00</researchViewX>
     <researchViewY>18.00</researchViewY>
     <generalRules>
       <rulesStrings>
@@ -45,7 +45,7 @@
 	
 	<tab>Buildings_SK</tab>
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
-   <researchViewX>9.00</researchViewX>
+   <researchViewX>11.00</researchViewX>
     <researchViewY>18.00</researchViewY>
     <generalRules>
       <rulesStrings>
@@ -68,7 +68,7 @@
 	<techLevel>Medieval</techLevel>
 	<tab>Buildings_SK</tab>
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>
-   <researchViewX>10.00</researchViewX>
+   <researchViewX>12.00</researchViewX>
     <researchViewY>18.00</researchViewY>
     <generalRules>
       <rulesStrings>

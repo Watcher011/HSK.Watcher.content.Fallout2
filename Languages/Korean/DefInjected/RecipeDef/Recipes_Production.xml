@@ -57,5 +57,8 @@
   <BuildPepperShaker.description>페퍼 셰이커를 제작합니다. 페퍼 셰이커는 발사 전 1초간 회전한 후 자동으로 8발의 산탄을 발사합니다. 산탄총과 중화기로 모두 분류되며 두 무기 계열의 퍽 효과를 모두 받습니다.\n구경: 12 게이지</BuildPepperShaker.description>
   <BuildPepperShaker.jobString>페퍼 셰이커 제작 중...</BuildPepperShaker.jobString>
 
+ <BuildFalloutSyringer.label>주사기 제작</BuildFalloutSyringer.label>
+<BuildFalloutSyringer.description>주사기 권총을 제작합니다. 위력이 약하고 사거리가 짧지만, 효과는 좋습니다.\n구경: 다트</BuildFalloutSyringer.description>
+<BuildFalloutSyringer.jobString>주사기 사수를 제작합니다.</BuildFalloutSyringer.jobString>
 
 </LanguageData>

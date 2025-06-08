@@ -57,5 +57,9 @@
   <BuildPepperShaker.description>Создание перечницы, перечнице требуется одна секунда, чтобы раскрутиться, прежде чем она автоматически выстрелит восемью дробовиками. Она считается и дробовиком, и тяжелым оружием и получит выгоду от любого перка в любом классе оружия.\nКалибр: 12 калибр</BuildPepperShaker.description>
   <BuildPepperShaker.jobString>Создание перечницы.</BuildPepperShaker.jobString>
 
+  <BuildFalloutSyringer.label>Создать Инъекционный карабин</BuildFalloutSyringer.label>
+<BuildFalloutSyringer.description>Создает Инъекционный карабин. Слабый и с малой дальностью, но рабочий.\nКалибр: дротики</BuildFalloutSyringer.description>
+<BuildFalloutSyringer.jobString>Изготовление стреляющего Инъекционного карабина.</BuildFalloutSyringer.jobString>
+
 
 </LanguageData>

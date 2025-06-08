@@ -1160,7 +1160,7 @@
 
 *Brahmin: because even nuclear apocalypse needs someone beneath you on the social ladder!*"</description>
     <statBases>
-    	<Mass>120</Mass>
+    		<Mass>120</Mass>
 			<MoveSpeed>3.5</MoveSpeed>
 			<ComfyTemperatureMin>-14</ComfyTemperatureMin>
 			<MarketValue>1500</MarketValue>
@@ -1233,8 +1233,8 @@
 				<armorPenetrationBlunt>4</armorPenetrationBlunt>
 			</li>
 		</tools>
-    <race>
-    	<body>QuadrupedAnimalWithHooves</body>
+   <race>
+			<body>QuadrupedAnimalWithHooves</body>
 			<herdAnimal>true</herdAnimal>
 			<packAnimal>true</packAnimal>
 			<baseBodySize>1.2</baseBodySize>
@@ -1280,7 +1280,7 @@
 			<soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-    </race>
+		</race>
    <tradeTags>
 			<li>AnimalVaultec</li>
 			<li>AnimalCommon</li>
@@ -1356,5 +1356,4 @@
   </PawnKindDef>
   
 
-	
 </Defs>

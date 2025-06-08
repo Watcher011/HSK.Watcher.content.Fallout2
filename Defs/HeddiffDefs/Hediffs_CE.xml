@@ -375,4 +375,99 @@
 			</li>
 		</stages>
 	</HediffDef>
+	
+
+	
+	<HediffDef ParentName="InfectionBase">
+			<defName>BlowflyLarva</defName>
+		<label>Blowfly Larva</label>
+		<labelNoun>Larva</labelNoun>
+		<description>Blowfly Larva</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<makesSickThought>false</makesSickThought>
+		<lethalSeverity>1</lethalSeverity>
+		<tendable>true</tendable>
+		<comps>
+			<li Class="HediffCompProperties_TendDuration">
+				<baseTendDurationHours>12</baseTendDurationHours>
+				<severityPerDayTended>-0.35</severityPerDayTended>
+			</li>
+			<li Class="HediffCompProperties_Immunizable">
+				<immunityPerDayNotSick>-0.06</immunityPerDayNotSick>
+				<immunityPerDaySick>0.3</immunityPerDaySick>
+				<severityPerDayNotImmune>0.4</severityPerDayNotImmune>
+				<severityPerDayImmune>-0.2</severityPerDayImmune>
+			</li>
+			<li Class="EBSGFramework.HediffCompProperties_SpawnPawnKindOnRemoval">
+                <pawnKind>Duten</pawnKind>
+				<activation>OnDeathOnly</activation>
+				 <validSeverity>0.9</validSeverity>
+                <count>1~2</count>
+                <mentalStateOnSpawn>ManhunterPermanent</mentalStateOnSpawn>
+            </li>
+			<li Class="HediffCompProperties_DisappearsOnDeath" />
+		</comps>
+		<stages>
+			<li>
+				<label>minor-hidden</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<minSeverity>0.10</minSeverity>
+				<label>minor</label>
+				<painOffset>0.05</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.10</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.666</minSeverity>
+				<label>major</label>
+				<painOffset>0.15</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.1</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.1</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<minSeverity>0.833</minSeverity>
+				<label>extreme</label>
+				<lifeThreatening>true</lifeThreatening>
+				<painOffset>0.4</painOffset>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.3</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>-0.2</offset>
+					</li>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.25</offset>
+					</li>
+					<li>
+						<capacity>Breathing</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	
 </Defs>

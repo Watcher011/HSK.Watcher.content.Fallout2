@@ -13,5 +13,11 @@
 Единственный плюс? Их яд — отличная замена кофе, если вам нужно не спать следующие трое суток. Только... не говорите доктору, откуда у вас остановка сердца."</RadScorpion.description>
   <RadScorpion.tools.1.label>голова</RadScorpion.tools.1.label>
 
+  <Duten.label>Дутень</Duten.label>
+  <Duten.description>Этот шедевр радиационного творчества когда-то был обычной мухой. Теперь это ходячее (точнее, летающее) нарушение всех санитарных норм Пустошей.</Duten.description>
+  <Duten.verbs.0.label>выпустить личинку</Duten.verbs.0.label>
+  <Duten.tools.0.label>mouth</Duten.tools.0.label>
+  <Duten.tools.1.label>head</Duten.tools.1.label>
+
 
 </LanguageData>

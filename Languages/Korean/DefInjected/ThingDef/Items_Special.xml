@@ -25,6 +25,38 @@
   <FEVPack.description>"미국 과학의 혁명적인 제품을 보라! 강제 진화 바이러스(F.E.V.)는 단순한 병원체가 아닙니다. 이것은 밝은(그리고 매우 녹색의) 미래로 가는 티켓이죠! 핵전쟁에서 살아남을(그리고 아마도 설명서를 읽을 수도 있는) 초병사를 만들기 위해 설계된 F.E.V.는 철저한 테스트를 거쳤습니다... 거절할 수 없는 사람들에 대해서요."</FEVPack.description>
 
 
+  <!-- <ThingDef ParentName="EtherealThingBase">
+        <defName>Warp</defName>
+        <label>warp</label>
+        <thingClass>ThingWithComps</thingClass>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <drawOffscreen>true</drawOffscreen>
+        <category>PsychicEmitter</category>
+        <altitudeLayer>MoteOverheadLow</altitudeLayer>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>EBSG/Circle</texPath>
+            <shaderType>MoteGlowDistorted</shaderType>
+            <color>(0, 255, 0)</color>
+            <drawSize>10</drawSize>
+            <shaderParameters>
+                <_DistortionTex>/Other/Ripples</_DistortionTex>
+                <_distortionIntensity>0.05</_distortionIntensity>
+                <_DistortionScale>0.7</_DistortionScale>
+                <_distortionScrollSpeed>(0.07, 0.07, 0.0)</_distortionScrollSpeed>
+            </shaderParameters>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(5, 105, 5,0)</glowColor>
+            </li>
+            <li Class="CompProperties_DestroyAfterDelay">
+                <delayTicks>30</delayTicks>
+            </li>
+        </comps>
+    </ThingDef> -->
 
   <RadScorpionPoisonGland.label>방사능 전갈 독</RadScorpionPoisonGland.label>
   <RadScorpionPoisonGland.description>"자연의 모성애가 집약된 형태 - 만약 당신의 어머니가 독성학 박사 학위를 가진 사디스트라면 말이죠. 신경독, 방사성 핵종, 순수한 악의가 섞인 이 맛있는 칵테일은 당신의 신경계를 크리스마스 장식으로, 내장을 초보 연금술사의 실험장으로 만들어줄 겁니다.
@@ -46,8 +78,8 @@
   <RadScorpionPoisonGland.ingestible.ingestCommandString>{0} 마시기</RadScorpionPoisonGland.ingestible.ingestCommandString>
   <RadScorpionPoisonGland.ingestible.ingestReportString>{0}을(를) 마십니다.</RadScorpionPoisonGland.ingestible.ingestReportString>
 
- <PlanD.label>플랜 "D"</PlanD.label>  
-<PlanD.description>(콜로니에서 "해방"되는 가장 빠른 방법!*).  
+  <PlanD.label>플랜 "D"</PlanD.label>
+  <PlanD.description>(콜로니에서 "해방"되는 가장 빠른 방법!*).  
 볼트-텍™의 "저소득층을 위한 합리적인 구출" 프로그램 일환으로 개발됨.  
 단 2,999병뚜껴**로 여러분은 다음을 얻습니다:  
 - 편도 티켓***  
@@ -56,6 +88,7 @@
 *"해방"이란 볼트-텍의 모든 복지 프로그램에서 영구 제적됨을 의미합니다.  
 **플랜이 실패하더라도 병뚜껴는 환불되지 않습니다.  
 
-P.S. 당사 법무팀 경고: "플랜 D"는 플랜, 의약품 또는 식품이 아닙니다 (맛 첨가제 포함).</PlanD.description>  
+P.S. 당사 법무팀 경고: "플랜 D"는 플랜, 의약품 또는 식품이 아닙니다 (맛 첨가제 포함).</PlanD.description>
+
 
 </LanguageData>

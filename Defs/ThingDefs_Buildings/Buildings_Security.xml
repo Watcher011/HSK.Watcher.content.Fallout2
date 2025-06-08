@@ -40,6 +40,43 @@
   </ThingDef> 
   
   
+  <ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_PigMineExplosive</defName>
+    <label>IED Piggy Bank Mine</label>
+    <description>"Who said piggy banks have to be peaceful? This cute pink pig with a cheerful grin will be the last thing an uninvited guest sees before its belly—packed with bottle caps—explodes in a dazzling firework of metallic shrapnel. Each cap isn’t just a piece of tin—it’s rusted, jagged, and eager to embed itself in anything nearby. After all, this pig doesn’t just save money—it saves death!""Banned in 12 colonies for 'excessive creativity,' but since when should war be boring? Especially when it’s this much fun!".</description>
+    <graphicData>
+      <texPath>Things/Projectile/FatMan/FMP</texPath>
+    </graphicData>
+    <costList>
+      <Ammo_FatManShell_FGM>1</Ammo_FatManShell_FGM>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
+	<tradeTags>
+			<li>Vaultec</li>
+	</tradeTags>
+    <designationHotKey>Misc7</designationHotKey>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5.9</explosiveRadius>
+        <explosiveDamageType>BombSuper</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>15</wickTicks>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+	  <li Class="CombatExtended.CompProperties_Fragments">
+		<fragments>
+			<Fragment_Bottlecap>270</Fragment_Bottlecap>
+		    <Fragment_Small>2</Fragment_Small>
+		</fragments>
+	  </li>
+    </comps>
+    <specialDisplayRadius>5.9</specialDisplayRadius>
+  </ThingDef> 
+  
   	<ThingDef ParentName="TrapIEDBase">
     <defName>TrapIED_PlasmaMineExplosive</defName>
     <label>IED plasma Mine</label>

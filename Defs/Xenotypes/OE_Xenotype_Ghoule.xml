@@ -84,13 +84,11 @@
 	  <li>OE_Skin_GhoulLightGreen</li>
 	  <li>OE_Skin_GhoulLightBrown</li>
       <li>Beard_NoBeardOnly</li>
-      <li>MoveSpeed_Quick</li>
+      <li>WoundHealing_Fast</li>
 	  <li>ToxicEnvironmentResistance_Total</li>
-	  <li>MeleeDamage_Strong</li>
 	  <li>Aggression_HyperAggressive</li>
 	  <li>Hair_ShortOnly</li>
 	  <li>Jaw_Heavy</li>
-	  <li>AptitudePoor_Intellectual</li>
       <li>Brow_Heavy</li>
 	  <li>Beauty_Ugly</li>
 	  <li>Body_Hulk</li>
@@ -99,6 +97,7 @@
 	  <li>Superclotting</li>
 	  <li>Pain_Reduced</li>
 	   <li>Inbred</li>
+	   <li>Sterile</li>
     </genes>
   </XenotypeDef>
 

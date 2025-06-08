@@ -130,9 +130,9 @@
 		<defName>Radroach</defName>
 		<label>Radroach</label>
 		<race>Radroach</race>
-		<combatPower>5</combatPower>
-		<canArriveManhunter>false</canArriveManhunter>
-		<ecoSystemWeight>0.03</ecoSystemWeight>
+		<combatPower>40</combatPower>
+		<ecoSystemWeight>0.9</ecoSystemWeight>
+		<wildGroupSize>1~3</wildGroupSize>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
@@ -313,6 +313,162 @@
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Megaspider/Dessicated_Megaspider</texPath>
 					<drawSize>2.4</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Duten</defName>
+		<label>Duten</label>
+		<description>This masterpiece of radiation creativity was once an ordinary fly. Now it is a walking (or rather, flying) violation of the Wasteland's sanitary standards.</description>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Mass>1</Mass>
+			<MoveSpeed>7.5</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<MarketValue>200</MarketValue>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.85</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<SmokeSensitivity>0.5</SmokeSensitivity>
+			<GermResistance>0.55</GermResistance>
+			<GermContainment>0.01</GermContainment>
+			<ToxicResistance>0.8</ToxicResistance>
+		</statBases>
+		<verbs>
+		<li Class="CombatExtended.VerbPropertiesCE">
+				<label>launch Larva</label>
+				<verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<warmupTime>1.5</warmupTime>
+				<range>7</range>
+				<minRange>3</minRange>
+				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<soundCast>PiercingSpine_Launch</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+				<defaultProjectile>Bullet_Larva</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>mouth</label>
+				<power>10</power>
+				<cooldownTime>1.8</cooldownTime>
+				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
+				<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<butcherProducts>
+			<Chitin>3</Chitin>
+			<PoisonGland>1</PoisonGland>
+			<RadMeat>1</RadMeat>
+		</butcherProducts>
+		<race>
+			<body>BeetleLike</body>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseBodySize>0.8</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<petness>0</petness>
+			<wildness>0.99</wildness>
+			<manhunterOnTameFailChance>1</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<lifeExpectancy>3</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.12</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Duten</defName>
+		<label>Duten</label>
+		<race>Duten</race>
+		<combatPower>15</combatPower>
+		<ecoSystemWeight>0.03</ecoSystemWeight>
+		<wildGroupSize>2~9</wildGroupSize>
+		<aiAvoidCover>true</aiAvoidCover>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Duten/Duten</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>0.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

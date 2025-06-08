@@ -16,13 +16,15 @@ Gatling Laser "Solar Vortex"
 AER-9 "Sun Kiss"
 Laser pistol"Synthesis-MK IV"
 AER-12 "Laser Whisper"
-Alien Energy Pistol
-Euclid's C-Finder
+Alien Energy Pistol - заблокирован
+Euclid's C-Finder - заблокирован
 Portable Tesla Cannon "Thunder Maker"
+Syringer shooter
 -*-
 Мины
 IED Lid Mine
 IED plasma Mine
+IED Pig Mine
 -*-
 Турель
 Automated Turret
@@ -98,6 +100,8 @@ Deathclaw
 RadScorpion
 Mirelurk
 Brahmin
+Duten
+
 -*-
 еда
 SuspiciousOmelette
@@ -128,3 +132,7 @@ T-51 power Helmet
 -*-
 сценарий
 Shelter residents(easy start)
+-*-
+ивенты
+DeathclawPasses - прибытие когтя смерти
+DutenSwarm - рой дутней

@@ -394,7 +394,7 @@
 					<verbClass>CombatExtended.Verb_ShootMortarCE</verbClass>
 					<forceNormalTimeSpeed>false</forceNormalTimeSpeed>
 					<hasStandardCommand>true</hasStandardCommand>
-					<defaultProjectile>Bullet_FatManShell_HE</defaultProjectile>
+					<defaultProjectile>Bullet_FatManShell_NHE</defaultProjectile>
 					<warmupTime>5.5</warmupTime>
 					<minRange>32</minRange>
 					<range>700</range>
@@ -1398,5 +1398,68 @@ Do not operate:
 		</modExtensions>
     </ThingDef>
 	
-	
+		
+	<ThingDef ParentName="BaseGun_Fallout">
+		<defName>Fallout_Syringer</defName>
+		<label>Syringer shooter</label>
+        <description>The injection gun is a rare homemade weapon that shoots syringes. After reaching the target, the harmful effects caused by the substances that act in these syringes.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Syringer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<SightsEfficiency>0.6</SightsEfficiency>
+			<ShotSpread>0.09</ShotSpread>
+			<SwayFactor>1.4</SwayFactor>
+			<RangedWeapon_Cooldown>0.46</RangedWeapon_Cooldown>
+			<Bulk>2.2</Bulk>
+			<Mass>1.65</Mass>
+			 <MaxHitPoints>30</MaxHitPoints>
+		</statBases>
+		<weaponTags>
+		    <li>VaultecGunHandmade</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			<li>Pistols</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Larva</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<range>25</range>
+				<soundCast>ShotPistol</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>6</magazineSize>
+				<reloadTime>1.5</reloadTime>
+				<ammoSet>AmmoSet_Larva</ammoSet>
+			</li>
+		</comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>0.8</DrawSize>
+		  </li>
+		</modExtensions>
+		<smeltProducts>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<Gun_FireExtinguisher>1</Gun_FireExtinguisher>
+		</smeltProducts>
+	</ThingDef>
+ 
 </Defs>

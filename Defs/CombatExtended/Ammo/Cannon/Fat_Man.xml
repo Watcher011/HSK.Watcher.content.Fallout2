@@ -15,7 +15,7 @@
 		<defName>AmmoSet_FatManShell</defName>
 		<label>Fat Man's Projectile</label>
 		<ammoTypes>
-			<Ammo_FatManShell_HE>Bullet_FatManShell_HE</Ammo_FatManShell_HE>
+			<Ammo_FatManShell_NHE>Bullet_FatManShell_NHE</Ammo_FatManShell_NHE>
 			<Ammo_FatManShell_FGM>Bullet_FatManShell_FGM</Ammo_FatManShell_FGM>
 		</ammoTypes>
 		<isMortarAmmoSet>true</isMortarAmmoSet>
@@ -50,7 +50,7 @@
 	</ThingDef>
 	
 	<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="FatManShellBase">
-		<defName>Ammo_FatManShell_HE</defName>
+		<defName>Ammo_FatManShell_NHE</defName>
 		<label>Nuclear shot</label>
 		<description>This type is characterized by greater destructive power and radiation pollution. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</description>
 		<graphicData>
@@ -60,22 +60,22 @@
 		</graphicData>
 		<ammoClass>NHE</ammoClass>
 		<techLevel>Spacer</techLevel>
-		<generateAllowChance>0.10</generateAllowChance>
-		<detonateProjectile>Bullet_FatManShell_HE</detonateProjectile>
+		<generateAllowChance>1</generateAllowChance>
+		<detonateProjectile>Bullet_FatManShell_NHE</detonateProjectile>
 	</ThingDef>
 	
 	<ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="FatManShellBase">
 		<defName>Ammo_FatManShell_FGM</defName>
-		<label>Spoiled Nuclear shot</label>
-		<description>This type is characterized by low destructive power and creates radiation pollution.</description>
+		<label>Piggy Boomba</label>
+		<description>Saving up can be explosive!Remember: In a world where caps are currency, the safest bank is a pig flying straight into your rivals’ faces!" —Anonymous slaver promoting "financial literacy.</description>
 		<graphicData>
-			<texPath>Things/Projectile/FatMan/FM</texPath>
+			<texPath>Things/Projectile/FatMan/FMP</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.65</drawSize>
 		</graphicData>
 		<ammoClass>GrenadeHE</ammoClass>
 		<techLevel>Spacer</techLevel>
-		<generateAllowChance>0.90</generateAllowChance>
+		<generateAllowChance>0</generateAllowChance>
 		<detonateProjectile>Bullet_FatManShell_FGM</detonateProjectile>
 	</ThingDef>
 	
@@ -105,7 +105,7 @@
 	</ThingDef>
 	
 	 <ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="BaseFatManBullet">
-		<defName>Bullet_FatManShell_HE</defName>
+		<defName>Bullet_FatManShell_NHE</defName>
 		<label>Nuclear shot (NHE)</label>
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
@@ -144,10 +144,10 @@
 
 	 <ThingDef MayRequire="Dubwise.Rimatomics" Class="CombatExtended.AmmoDef" ParentName="BaseFatManBullet">
 		<defName>Bullet_FatManShell_FGM</defName>
-		<label>Nuclear shot (FGM)</label>
+		<label>Piggy Boomba (FGM)</label>
 		<thingClass>CombatExtended.ProjectileCE_Explosive</thingClass>
 		<graphicData>
-			<texPath>Things/Projectile/FatMan/FM</texPath>
+			<texPath>Things/Projectile/FatMan/FMP</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.65</drawSize>
 		</graphicData>
@@ -163,10 +163,20 @@
 			<soundExplode>Explosion_GiantBomb</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
+			<postExplosionSpawnThingDef>BottleCap</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>0.2</postExplosionSpawnChance>
 			<shellingProps>
 				<damage>0.85</damage>
 			</shellingProps>
 		</projectile>
+		<comps>
+			<li Class="CombatExtended.CompProperties_Fragments">
+				<fragments>
+					<Fragment_Bottlecap>270</Fragment_Bottlecap>
+					<Fragment_Small>2</Fragment_Small>
+				</fragments>
+			</li>
+		</comps>
 	</ThingDef>
 	
 </Defs>

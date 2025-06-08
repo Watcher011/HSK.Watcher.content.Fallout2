@@ -51,5 +51,30 @@
   <RadScorpion.labelFemale>암컷 래드스콜피온</RadScorpion.labelFemale>
   <RadScorpion.labelFemalePlural>암컷 래드스콜피온들</RadScorpion.labelFemalePlural>
 
+  <Duten.label>두텐</Duten.label>
+  <Duten.labelPlural>두텐들</Duten.labelPlural>
+  <Duten.lifeStages.0.label>두텐</Duten.lifeStages.0.label>
+  <Duten.lifeStages.0.labelPlural>두텐들</Duten.lifeStages.0.labelPlural>
+  <Duten.lifeStages.0.labelMale>수컷 두텐</Duten.lifeStages.0.labelMale>
+  <Duten.lifeStages.0.labelMalePlural>수컷 두텐들</Duten.lifeStages.0.labelMalePlural>
+  <Duten.lifeStages.0.labelFemale>암컷 두텐</Duten.lifeStages.0.labelFemale>
+  <Duten.lifeStages.0.labelFemalePlural>암컷 두텐들</Duten.lifeStages.0.labelFemalePlural>
+  <Duten.lifeStages.1.label>두텐</Duten.lifeStages.1.label>
+  <Duten.lifeStages.1.labelPlural>두텐들</Duten.lifeStages.1.labelPlural>
+  <Duten.lifeStages.1.labelMale>수컷 두텐</Duten.lifeStages.1.labelMale>
+  <Duten.lifeStages.1.labelMalePlural>수컷 두텐들</Duten.lifeStages.1.labelMalePlural>
+  <Duten.lifeStages.1.labelFemale>암컷 두텐</Duten.lifeStages.1.labelFemale>
+  <Duten.lifeStages.1.labelFemalePlural>암컷 두텐들</Duten.lifeStages.1.labelFemalePlural>
+  <Duten.lifeStages.2.label>두텐</Duten.lifeStages.2.label>
+  <Duten.lifeStages.2.labelPlural>두텐들</Duten.lifeStages.2.labelPlural>
+  <Duten.lifeStages.2.labelMale>수컷 두텐</Duten.lifeStages.2.labelMale>
+  <Duten.lifeStages.2.labelMalePlural>수컷 두텐들</Duten.lifeStages.2.labelMalePlural>
+  <Duten.lifeStages.2.labelFemale>암컷 두텐</Duten.lifeStages.2.labelFemale>
+  <Duten.lifeStages.2.labelFemalePlural>암컷 두텐들</Duten.lifeStages.2.labelFemalePlural>
+  <Duten.labelMale>수컷 두텐</Duten.labelMale>
+  <Duten.labelMalePlural>수컷 두텐들</Duten.labelMalePlural>
+  <Duten.labelFemale>암컷 두텐</Duten.labelFemale>
+  <Duten.labelFemalePlural>암컷 두텐들</Duten.labelFemalePlural>
+
 
 </LanguageData>

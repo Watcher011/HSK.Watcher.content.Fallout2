@@ -33,5 +33,15 @@
   <Scorponade.stages.0.label>"Скорпонад", фух</Scorponade.stages.0.label>
   <Scorponade.stages.1.label>"Скорпонад", чувствую себя лучше.</Scorponade.stages.1.label>
 
+  <BlowflyLarva.label>Личинка дутня</BlowflyLarva.label>
+  <BlowflyLarva.description>Это чудовище мутации — вероятно, потомок слепня или овода — усовершенствовало самую отвратительную стратегию выживания в природе. Ответ Пустоши на проблему перенаселения.
+Размножение? О, оно эффективное. Забудьте о брачных танцах — эта тварь выстреливает живыми личинками, как биологической артиллерией. Одно попадание — и поздравляю! Теперь вы ходячий инкубатор. (Совет профессионала: огонь очень помогает с... ситуацией с выводком.)Подходите с осторожностью — а лучше с огнемётом. Их представление о «семейных узах» включает превращение вашей грудной клетки в детский сад.
+«Круг жизни, говорили. Красиво, говорили. ЛГУНЫ» — последние слова «пчеловода-энтузиаста» Пустоши.</BlowflyLarva.description>
+  <BlowflyLarva.stages.0.label>незначительная-скрытая</BlowflyLarva.stages.0.label>
+  <BlowflyLarva.stages.1.label>незначительная</BlowflyLarva.stages.1.label>
+  <BlowflyLarva.stages.2.label>крупная</BlowflyLarva.stages.2.label>
+  <BlowflyLarva.stages.3.label>экстремальная</BlowflyLarva.stages.3.label>
+  <BlowflyLarva.labelNoun>Личинка</BlowflyLarva.labelNoun>
+
 
 </LanguageData>

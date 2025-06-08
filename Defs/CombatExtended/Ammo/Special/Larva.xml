@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<ThingCategoryDef>
+		<defName>AmmoLarva</defName>
+		<label>Larva</label>
+		<parent>AmmoRifles</parent>
+		<iconPath>Things/Item/DutenEggDart</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_Larva</defName>
+		<label>Larva Dart</label>
+		<ammoTypes>
+			<Ammo_Larva>Bullet_Larva</Ammo_Larva>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+	
+
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseLarvaShot" ParentName="SmallAmmoBase" Abstract="True">
+		<description>A standard pneumatic rifle dart, but with a twist—or rather, a squirm. Loaded with a plump, juicy bloatfly larva that doesn’t just splatter on impact—it gets comfortable. Upon hitting flesh, the maggot burrows in with the same enthusiasm as a raider looting a pre-war pharmacy. Given a couple of days, your target will either die of sepsis or become the proud host of a brand-new, fully grown bloatfly. Armor penetration: zero. Psychological penetration: maximum.
+
+*(Additional effect: 30% chance of infestation. After 48  hours, the target dies and spawns a bloatfly (assuming something doesn’t kill it first). If the target is a super mutant, they might mistake it for "tiny new friend" and try to feed it, speeding up the process.)*
+
+"Eco-friendly, organic, and disgusting. Just like the best things in the Wastes."
+
+(Fun fact: The NCR once tried weaponizing these, but the quartermaster responsible was reassigned to latrine duty after an "incident" involving a radroach infestation and three missing privates.)</description>
+		<statBases>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade_Sellable</li>
+			<li>CE_AutoEnableCrafting</li>
+			<li>CE_AutoEnableCrafting_FueledSmithy</li>
+			<li>CE_AutoEnableCrafting_ElectricSmithy</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoLarva</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseLarvaShot">
+		<defName>Ammo_Larva</defName>
+		<label>Larva</label>
+		<graphicData>
+			<texPath>Things/Ammo/LarvaDart</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.02</MarketValue>
+		</statBases>
+		<ammoClass>Nail</ammoClass>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+	
+	<ThingDef Name="MaggotShotBullet" ParentName="BaseBulletCE" Abstract="true">
+		<label>Maggot Dart</label>
+		<graphicData>
+			<texPath>Things/Projectile/DutenEgg</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Stab</damageDef>
+			<dropsCasings>false</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="MaggotShotBullet">
+		<defName>Bullet_Larva</defName>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<speed>9</speed>
+			<damageAmountBase>1</damageAmountBase>
+			<armorPenetrationBlunt>1.45</armorPenetrationBlunt>
+			<armorPenetrationSharp>0.5</armorPenetrationSharp>
+				<secondaryDamage>
+				<li>
+					<def>DutenDart</def>
+					<amount>4</amount>
+				</li>
+			</secondaryDamage>
+		</projectile>
+	</ThingDef>
+	
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeBase">
+		<defName>MakeAmmo_Larva</defName>
+		<label>Larva Dart x50</label>
+		<description>Craft 50 Larva Dart.</description>
+		<jobString>Larva Dart.</jobString>
+		 <recipeUsers>
+	        <li>DrugLab</li>
+         </recipeUsers>
+		<workAmount>400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RadMeat</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Corpse_Duten</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>RadMeat</li>
+				<li>Corpse_Duten</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Larva>50</Ammo_Larva>
+		</products>
+	</RecipeDef>
+
+</Defs>

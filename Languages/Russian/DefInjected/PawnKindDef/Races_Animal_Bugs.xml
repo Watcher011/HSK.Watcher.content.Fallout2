@@ -51,5 +51,30 @@
   <RadScorpion.labelFemale>самка рад-скорпиона</RadScorpion.labelFemale>
   <RadScorpion.labelFemalePlural>самки рад-скорпионов</RadScorpion.labelFemalePlural>
 
+  <Duten.label>Дутень</Duten.label>
+  <Duten.labelPlural>Дутни</Duten.labelPlural>
+  <Duten.lifeStages.0.label>Дутень</Duten.lifeStages.0.label>
+  <Duten.lifeStages.0.labelPlural>Дутни</Duten.lifeStages.0.labelPlural>
+  <Duten.lifeStages.0.labelMale>самец Дутня</Duten.lifeStages.0.labelMale>
+  <Duten.lifeStages.0.labelMalePlural>самцы Дутней</Duten.lifeStages.0.labelMalePlural>
+  <Duten.lifeStages.0.labelFemale>самка Дутня</Duten.lifeStages.0.labelFemale>
+  <Duten.lifeStages.0.labelFemalePlural>самки Дутней</Duten.lifeStages.0.labelFemalePlural>
+  <Duten.lifeStages.1.label>Дутень</Duten.lifeStages.1.label>
+  <Duten.lifeStages.1.labelPlural>Дутни</Duten.lifeStages.1.labelPlural>
+  <Duten.lifeStages.1.labelMale>самец Дутня</Duten.lifeStages.1.labelMale>
+  <Duten.lifeStages.1.labelMalePlural>самцы Дутней</Duten.lifeStages.1.labelMalePlural>
+  <Duten.lifeStages.1.labelFemale>самка Дутня</Duten.lifeStages.1.labelFemale>
+  <Duten.lifeStages.1.labelFemalePlural>самки Дутней</Duten.lifeStages.1.labelFemalePlural>
+  <Duten.lifeStages.2.label>Дутень</Duten.lifeStages.2.label>
+  <Duten.lifeStages.2.labelPlural>Дутни</Duten.lifeStages.2.labelPlural>
+  <Duten.lifeStages.2.labelMale>самец Дутня</Duten.lifeStages.2.labelMale>
+  <Duten.lifeStages.2.labelMalePlural>самцы Дутней</Duten.lifeStages.2.labelMalePlural>
+  <Duten.lifeStages.2.labelFemale>самка Дутня</Duten.lifeStages.2.labelFemale>
+  <Duten.lifeStages.2.labelFemalePlural>самки Дутней</Duten.lifeStages.2.labelFemalePlural>
+  <Duten.labelMale>самец Дутня</Duten.labelMale>
+  <Duten.labelMalePlural>самцы Дутней</Duten.labelMalePlural>
+  <Duten.labelFemale>самка Дутня</Duten.labelFemale>
+  <Duten.labelFemalePlural>самки Дутней</Duten.labelFemalePlural>
+
 
 </LanguageData>

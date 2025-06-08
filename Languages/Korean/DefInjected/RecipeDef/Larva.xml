@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+ <MakeAmmo_Larva.label>다트 50개 제작</MakeAmmo_Larva.label>
+<MakeAmmo_Larva.description>다트 50개를 제작합니다.</MakeAmmo_Larva.description>
+<MakeAmmo_Larva.jobString>다트 제작 중.</MakeAmmo_Larva.jobString>
+
+
+</LanguageData>

@@ -47,6 +47,7 @@
 			<li>Apparel_VaultT60PowerArmor</li>
 			<li>Apparel_VaultT60ArmorHelmet</li>
 		</apparelRequired>-->
+	 
 		<weaponMoney>
 			<min>2500</min>
 			<max>99700</max>

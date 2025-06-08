@@ -247,5 +247,9 @@
 스틸 브라더단의 승인을 받았습니다 (그들에게 실제 테스트되기 전까지는)</Fallout_TeslaCannon.description>
   <Fallout_TeslaCannon.tools.0.label>총열</Fallout_TeslaCannon.tools.0.label>
 
+ <Fallout_Syringer.label>사린저 슈터</Fallout_Syringer.label>
+<Fallout_Syringer.description>주사기 발사용 희귀한 자작 무기입니다. 목표물에 도달하면 주사기 내 작용 물질로 인해 유해 효과가 발생합니다.</Fallout_Syringer.description>
+<Fallout_Syringer.tools.0.label>총열</Fallout_Syringer.tools.0.label>
+
 
 </LanguageData>

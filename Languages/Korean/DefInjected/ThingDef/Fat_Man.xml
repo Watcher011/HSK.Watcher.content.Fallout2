@@ -3,14 +3,32 @@
 
   <!-- AmmoSet -->
 
-  <Ammo_FatManShell_HE.label>핵 탄두</Ammo_FatManShell_HE.label>
-  <Ammo_FatManShell_HE.description>이 탄종은 더 큰 파괴력과 방사능 오염을 특징으로 합니다. 증가된 피해량은 사거리 감소를 대가로 얻어지는데, 이는 방호 장비가 부족한 사수에게 좋지 않은 결과를 초래할 수 있습니다.</Ammo_FatManShell_HE.description>
+  <Ammo_FatManShell_NHE.label>핵 탄두 사격</Ammo_FatManShell_NHE.label>
+  <Ammo_FatManShell_NHE.description>이 탄종은 더 큰 파괴력과 방사능 오염이 특징입니다. 증가된 피해량은 사거리 감소를 대가로 얻어지며, 이는 방호 장비가 부족한 사수에게 위험할 수 있습니다.</Ammo_FatManShell_NHE.description>
 
-  <Ammo_FatManShell_FGM.label>손상된 핵탄두</Ammo_FatManShell_FGM.label>
-  <Ammo_FatManShell_FGM.description>이 유형은 파괴력이 낮고 방사선 오염을 유발하는 것이 특징입니다.</Ammo_FatManShell_FGM.description>
+  <Ammo_FatManShell_FGM.label>피그붐바 발사체</Ammo_FatManShell_FGM.label>
+  <Ammo_FatManShell_FGM.description>"저축은 폭발적일 수 있다!"
+이 "귀여운" 전후 시대의 기념품은 절약 정신이 투철한 (하지만 분명히 미친) 생존자들이 제작했습니다. 그들은 돼지 저금통이 병뚜껑을 저장하는 것뿐만 아니라 효과적으로 돌려줘야 한다고 믿었습니다. 바라건대 적의 몸 속으로 말이죠.
+외관:
+전쟁 전 스타일의 도자기 돼지 저금통이지만, 유약이 벗겨진 측면과 "저금했니? 받아라!"라는 외설적인 문구가 새겨져 있습니다. 내부는 비료, 모터 오일, 탄약 화약 잔여물로 만든 진한 수제 폭발물로 가득 차 있으며, 아낌없이 병뚜껑이 섞여 있습니다.
+작동 방식:
+- 활성화: 돼지 꼬리에서 안전핀을 뽑으세요 (치지직 소리가 들리면 이미 도망갈 때가 지났습니다).
+- 효과: 폭발 시 도자기 파편과 달아오른 병뚜껑이 사방으로 흩어지며, 반경 5미터 안의 모든 것을 다진 고기 상태로 만들어 버립니다.
+- 특수 효과: 생존자는 "인색함은 좋은 결과를 부르지 않는다" 디버프를 얻습니다 (+15% 받는 피해, 왜냐하면 "이 구두쇠는 폭발물까지 아꼈거든!").
+몸체에 새겨진 냉소적인 사용 설명:
+ 충분한 병뚜껑을 모으세요.
+ 당신보다 더 많은 병뚜껑을 가진 자를 찾으세요.
+ "선물"을 전달하세요.
+ 전리품을 획득하세요 (만약 살아남는다면).
+참고:
+떠돌이 상인들은 때때로 이 "골동품 저금통"을 믿음이 좋은 고객들에게 팔기도 합니다. 물론 미리 도화선을 빼 놓은 상태로 말이죠. 하지만 어차피 누군가는 살 거잖아요, 그렇죠?
+"기억하세요: 병뚜껑이 통화인 세상에서 가장 안전한 은행은 경쟁자의 얼굴을 향해 날아가는 돼지입니다!" - "금융 문맹 퇴치"를 홍보하는 한 무명의 노예상인.</Ammo_FatManShell_FGM.description>
 
-  <Bullet_FatManShell_HE.label>핵 탄두 (NHE)</Bullet_FatManShell_HE.label>
-  <Bullet_FatManShell_FGM.label>핵탄두 (FGM)</Bullet_FatManShell_FGM.label>
+  <Bullet_FatManShell_NHE.label>핵 발사체 (NHE)</Bullet_FatManShell_NHE.label>
+  <Bullet_FatManShell_FGM.label>피그붐바 발사체 (FGM)</Bullet_FatManShell_FGM.label>
 
+
+  <!--<Ammo_FatManShell_HE.label>핵 탄두</Ammo_FatManShell_HE.label>-->
+  <!--<Ammo_FatManShell_HE.description>이 탄종은 더 큰 파괴력과 방사능 오염을 특징으로 합니다. 증가된 피해량은 사거리 감소를 대가로 얻어지는데, 이는 방호 장비가 부족한 사수에게 좋지 않은 결과를 초래할 수 있습니다.</Ammo_FatManShell_HE.description>-->
 
 </LanguageData>

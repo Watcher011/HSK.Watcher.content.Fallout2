@@ -28,5 +28,13 @@
   <Scorponade.stages.0.label>스코르포네이드 드링크, 휴</Scorponade.stages.0.label>
   <Scorponade.stages.1.label>스코르포네이드 드링크, 기분이 나아짐.</Scorponade.stages.1.label>
 
+  <BlowflyLarva.label>브로우플라이 유충</BlowflyLarva.label>
+  <BlowflyLarva.description>브로우플라이 유충</BlowflyLarva.description>
+  <BlowflyLarva.stages.0.label>초기-숨김</BlowflyLarva.stages.0.label>
+  <BlowflyLarva.stages.1.label>초기</BlowflyLarva.stages.1.label>
+  <BlowflyLarva.stages.2.label>중기</BlowflyLarva.stages.2.label>
+  <BlowflyLarva.stages.3.label>말기</BlowflyLarva.stages.3.label>
+  <BlowflyLarva.labelNoun>유충</BlowflyLarva.labelNoun>
+
 
 </LanguageData>
