@@ -41,8 +41,6 @@
 	</RecipeDef>
 
 
-
-
     <RecipeDef ParentName="RangedWeaponRecipeBase">
         <defName>MakeBottlecapGrenades</defName>
        <label>Create a Lid Mine x5</label>
@@ -174,7 +172,6 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>WeaponCraftingWorkTable</li>
 			<li>TableFalloutElectronics</li>
 		</recipeUsers>
 	    <researchPrerequisite>Gunsmithing</researchPrerequisite>
@@ -249,7 +246,6 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-		    <li>WeaponCraftingWorkTable</li>
 			<li>TableFalloutElectronics</li>
 		</recipeUsers>
 	    <researchPrerequisite>Gunsmithing</researchPrerequisite>
@@ -323,7 +319,6 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			  <li>WeaponCraftingWorkTable</li>
 			<li>TableFalloutElectronics</li>
 		</recipeUsers>
 	    <researchPrerequisite>Gunsmithing</researchPrerequisite>
@@ -1140,10 +1135,148 @@
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>WeaponCraftingWorkTable</li>
 			<li>TableFalloutElectronics</li>
 		</recipeUsers>
 	    <researchPrerequisite>Gunsmithing</researchPrerequisite>
 	</RecipeDef>
 	
+	
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildFalloutRipper</defName>
+		<label>Build Ripper</label>
+		<description>Builds Ripper.</description>
+		<jobString>Building Ripper.</jobString>
+		<workAmount>8500</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Electronics</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>NuclearBattery</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<Fallout_Weapon_Ripper>1</Fallout_Weapon_Ripper>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ComponentAdvanced</li>
+				<li>Weapon_Parts</li>
+				<li>Electronics</li>
+				<li>NuclearBattery</li>
+				<li>Plastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>TableFalloutElectronics</li>
+		</recipeUsers>
+	    <researchPrerequisite>Melee_C2</researchPrerequisite>
+	</RecipeDef>
+	
+	
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildFalloutWeaponShishkebab</defName>
+		<label>Build Shishkebab</label>
+		<description>Builds Shishkebab.</description>
+		<jobString>Building Shishkebab.</jobString>
+		<workAmount>8500</workAmount>
+		<skillRequirements>
+			<Crafting>3</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ChunkSlagSteel</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentAdvanced</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>12</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chemfuel</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+		</ingredients>
+		<products>
+			<Fallout_Weapon_Shishkebab>1</Fallout_Weapon_Shishkebab>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>ChunkSlagSteel</li>
+				<li>ComponentAdvanced</li>
+				<li>Weapon_Parts</li>
+				<li>Chemfuel</li>
+				<li>Plastic</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>TableFalloutElectronics</li>
+		</recipeUsers>
+	    <researchPrerequisite>Melee_C2</researchPrerequisite>
+	</RecipeDef>
 </Defs>

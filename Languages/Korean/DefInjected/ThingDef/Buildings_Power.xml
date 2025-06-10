@@ -1,8 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <FalloutSmallGenerator.label>볼트-텍 VX-12 발전기</FalloutSmallGenerator.label>
-  <FalloutSmallGenerator.description>볼트텍 VX-12 미니 발전기는 전후 혼란 속에서도 자율 전원 공급을 위한 완벽한 해결책입니다. 하이브리드 동력 시스템 덕분에 기존의 화학 연료(휘발유, 에탄올, 희석 석유 제품)와 핵 미니 배터리 모두로 작동 가능하며, 소형 전자 장치, 휴대용 기기, 심지어 소형 에너지 무기에도 안정적인 전력을 공급합니다.</FalloutSmallGenerator.description>
+  <VaultTecPortableGenerator.label>Vault-Tec 휴대용 "ElectroBuddy" 발전기</VaultTecPortableGenerator.label>
+<VaultTecPortableGenerator.description>"편리한 휴대용 형태로 원자로의 힘을! (결과는 다를 수 있습니다)"
+
+이 컴팩트한 전원 장치는 모든 황무지 주민에게 완벽한 동반자입니다! Vault-Tec의 천재들이 "비상" 전원 장치로 설계한 이 제품은 감전으로 인한 사망이 어디에서나 발생할 수 있다는 사실을 상기시키는 주요 기능을 완벽하게 수행합니다!
+디자인 특징:
+경량 - 35kg에 불과합니다(배송 시 "분실"된 전선 보호대는 제외).
+편안한 손잡이 - 이제 인체공학적 편안함으로 감전 사고를 경험해 보세요!
+충전 표시등 - 빨간색으로 무작위로 깜빡여 긴장감 넘치는 분위기를 연출합니다!
+Vault-Tec의 중요 참고 사항:
+"이 발전기는 올바르게 사용하면 절대적으로 안전합니다(누구도 모르는 사이에). 자연 발화는 지역 기후의 특성이며, 당사 제품의 특성이 아닙니다."
+(경험이 풍부한 사용자의 조언: 발전기가 윙윙거리고 튀긴 냄새가 난다면, 바로 달려가야 할 좋은 이유입니다! 가능하면 반대 방향으로 달리는 게 좋습니다.)</VaultTecPortableGenerator.description>
+
+  <FalloutSmallGenerator.label>Vault-Tec Mark III 발전기</FalloutSmallGenerator.label>
+  <FalloutSmallGenerator.description>"자격을 갖춘 기술자 없이 발전기를 수리하려고 하지 마십시오(생존하는 기술자를 발견한 경우). 작동 중 발생하는 모든 부상은 사용자의 부주의로 인한 것이며, 저희의 독창적인 설계 탓이 아닙니다!"(참고: 작업 전 톰 하워드 기도문을 암송하면 사망 확률이 2% 감소합니다.)</FalloutSmallGenerator.description>
 
 
 </LanguageData>

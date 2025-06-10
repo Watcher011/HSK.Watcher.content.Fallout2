@@ -10,9 +10,9 @@
   <MakeAmmo_ChargedLaser_StableFallout.label>충전 레이저 빔 (안정형) 탄약 x100 제작</MakeAmmo_ChargedLaser_StableFallout.label>
   <MakeAmmo_ChargedLaser_StableFallout.description>충전 레이저 빔 (안정형) 탄약 100개를 제작합니다.</MakeAmmo_ChargedLaser_StableFallout.description>
 
- <MakeAmmo_FatManShell_NHE.label>Fat Man을 위한 핵 껍질 만들기 1개</MakeAmmo_FatManShell_NHE.label>
-<MakeAmmo_FatManShell_NHE.description>Fat Man을 위한 핵탄 x1.</MakeAmmo_FatManShell_NHE.description>
-<MakeAmmo_FatManShell_NHE.jobString> 뚱뚱한 남자를 위한 발사체를 생성합니다.</MakeAmmo_FatManShell_NHE.jobString>
+  <MakeAmmo_FatManShell_NHE.label>Fat Man을 위한 핵 껍질 만들기 1개</MakeAmmo_FatManShell_NHE.label>
+  <MakeAmmo_FatManShell_NHE.description>Fat Man을 위한 핵탄 x1.</MakeAmmo_FatManShell_NHE.description>
+  <MakeAmmo_FatManShell_NHE.jobString> 뚱뚱한 남자를 위한 발사체를 생성합니다.</MakeAmmo_FatManShell_NHE.jobString>
 
   <MakeAmmo_FatManShell_FGM.label>FatMan용 피그붐바 1개 제작</MakeAmmo_FatManShell_FGM.label>
   <MakeAmmo_FatManShell_FGM.description>FatMan용 발사체 1개.</MakeAmmo_FatManShell_FGM.description>

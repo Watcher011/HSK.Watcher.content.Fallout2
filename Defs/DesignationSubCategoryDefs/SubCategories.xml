@@ -13,6 +13,7 @@
 		<label>Vaultec generators</label>
 		<description>Electric Generator Set.</description>
 		<defNames>
+		    <li>VaultTecPortableGenerator</li>
 			<li>FalloutSmallGenerator</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>

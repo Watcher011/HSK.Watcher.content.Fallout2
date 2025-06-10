@@ -1,3 +1,5 @@
+
+Версия - 0,25
 -*-
 Оружие
 Pipe shooter
@@ -62,7 +64,8 @@ Shishkebab
 FatManShell
 -*-
 генератор
-Vault-Tec VX-12 generator
+Vault-Tec Portable "ElectroBuddy" Generator
+Vault-Tec Mark III generator
 -*-
 верстаки/постройки
 Production Workbench
@@ -136,3 +139,4 @@ Shelter residents(easy start)
 ивенты
 DeathclawPasses - прибытие когтя смерти
 DutenSwarm - рой дутней
+ElectricShockExplosion

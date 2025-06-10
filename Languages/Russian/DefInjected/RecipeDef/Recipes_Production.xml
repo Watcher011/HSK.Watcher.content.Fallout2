@@ -37,29 +37,36 @@
   <BuildFalloutPlasmaCarbine.description>Легкая плазменная винтовка с коротким радиусом действия.</BuildFalloutPlasmaCarbine.description>
   <BuildFalloutPlasmaCarbine.jobString>Создание плазменного карабина.</BuildFalloutPlasmaCarbine.jobString>
 
-  <BuildFallout_PlasmaPistol.label>Создание плазменного пистолета "Ионный клык"</BuildFallout_PlasmaPistol.label>
+  <BuildFallout_PlasmaPistol.label>Сборка плазменного пистолета "Ионный клык"</BuildFallout_PlasmaPistol.label>
   <BuildFallout_PlasmaPistol.description>Высокоточный плазменный пистолет "Ионный клык".</BuildFallout_PlasmaPistol.description>
   <BuildFallout_PlasmaPistol.jobString>Создание ионного клыка</BuildFallout_PlasmaPistol.jobString>
 
-  <BuildFallout_PlasmaWraith.label>Создание плазменного привидения</BuildFallout_PlasmaWraith.label>
+  <BuildFallout_PlasmaWraith.label>Сборка плазменного привидения</BuildFallout_PlasmaWraith.label>
   <BuildFallout_PlasmaWraith.description>Плазменная снайперская винтовка "Плазменный привидение", точный, но с низкой скорострельностью.</BuildFallout_PlasmaWraith.description>
   <BuildFallout_PlasmaWraith.jobString>Создание плазменного привидения</BuildFallout_PlasmaWraith.jobString>
 
-  <BuildMinigunPlasma.label>Создание Плазменного Гатлинга "Расплавленный Шторм"</BuildMinigunPlasma.label>
+  <BuildMinigunPlasma.label>Сборка Плазменного Гатлинга "Расплавленный Шторм"</BuildMinigunPlasma.label>
   <BuildMinigunPlasma.description>Создание Плазменного Гатлинга "Расплавленный Шторм", "Когда мир уже сгорел, зачем останавливаться?"</BuildMinigunPlasma.description>
   <BuildMinigunPlasma.jobString>Создание "Расплавленного Шторма"</BuildMinigunPlasma.jobString>
 
-  <BuildLaserCarbineRifle.label>Создание Карабин "AER-14"</BuildLaserCarbineRifle.label>
+  <BuildLaserCarbineRifle.label>Сборка Карабин "AER-14"</BuildLaserCarbineRifle.label>
   <BuildLaserCarbineRifle.description>"Чистый кусочек технологий Старого Мира - бездымный, надежный и смертоносный."</BuildLaserCarbineRifle.description>
   <BuildLaserCarbineRifle.jobString>Создание AER-14.</BuildLaserCarbineRifle.jobString>
 
-  <BuildPepperShaker.label>Создание перечницы</BuildPepperShaker.label>
+  <BuildPepperShaker.label>Сборка перечницы</BuildPepperShaker.label>
   <BuildPepperShaker.description>Создание перечницы, перечнице требуется одна секунда, чтобы раскрутиться, прежде чем она автоматически выстрелит восемью дробовиками. Она считается и дробовиком, и тяжелым оружием и получит выгоду от любого перка в любом классе оружия.\nКалибр: 12 калибр</BuildPepperShaker.description>
   <BuildPepperShaker.jobString>Создание перечницы.</BuildPepperShaker.jobString>
 
-  <BuildFalloutSyringer.label>Создать Инъекционный карабин</BuildFalloutSyringer.label>
-<BuildFalloutSyringer.description>Создает Инъекционный карабин. Слабый и с малой дальностью, но рабочий.\nКалибр: дротики</BuildFalloutSyringer.description>
-<BuildFalloutSyringer.jobString>Изготовление стреляющего Инъекционного карабина.</BuildFalloutSyringer.jobString>
+  <BuildFalloutSyringer.label>Сборка Инъекционный карабин</BuildFalloutSyringer.label>
+  <BuildFalloutSyringer.description>Создает Инъекционный карабин. Слабый и с малой дальностью, но рабочий.\nКалибр: дротики</BuildFalloutSyringer.description>
+  <BuildFalloutSyringer.jobString>Изготовление стреляющего Инъекционного карабина.</BuildFalloutSyringer.jobString>
 
+  <BuildFalloutRipper.label>Сборка потрошителя</BuildFalloutRipper.label>
+<BuildFalloutRipper.description>Создание потрошителя.</BuildFalloutRipper.description>
+<BuildFalloutRipper.jobString>Создание потрошителя.</BuildFalloutRipper.jobString>
+
+<BuildFalloutWeaponShishkebab.label>Сборка шиш кебаб</BuildFalloutWeaponShishkebab.label>
+<BuildFalloutWeaponShishkebab.description>Создает шиш кебаб.</BuildFalloutWeaponShishkebab.description>
+<BuildFalloutWeaponShishkebab.jobString>Создание шиш кебаб.</BuildFalloutWeaponShishkebab.jobString>
 
 </LanguageData>

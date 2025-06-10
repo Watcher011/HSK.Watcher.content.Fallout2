@@ -13,7 +13,7 @@
 			<li>Vaultec</li>
 		</weaponTags>
 		<relicChance>0</relicChance>
-		<recipeMaker>
+		<!--<recipeMaker>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<workSkill>Crafting</workSkill>
 			<effectWorking>Smith</effectWorking>
@@ -25,7 +25,7 @@
 				<Crafting>12</Crafting>
 			</skillRequirements>
 			<unfinishedThingDef>UnfinishedWeapon</unfinishedThingDef>
-		</recipeMaker>
+		</recipeMaker>-->
 	</ThingDef>
 
 
@@ -33,7 +33,6 @@
 		 <defName>Fallout_Weapon_Ripper</defName>
         <label>Ripper</label>
 		<description>The Ripper is a pretty good melee weapon, second only to the super sledgehammer in effectiveness. Thanks to its increased armor-piercing ability, it is not difficult to "pick" an enemy with the Ripper even in improved power armor. Ideal for combat in closed spaces and corridors.</description>
-       <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Weapons/Ripper</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -113,7 +112,6 @@
 		 <defName>Fallout_Weapon_Shishkebab</defName>
         <label>Shishkebab</label>
 		<description>This sword is not just a weapon, it is a culinary experiment in the hands of a psychopath! Once upon a time, some crazy raider chef decided that the best way to cook meat is on the spot. Now his legacy lives on in your hands, and every blow is a step towards gastronomic apocalypse.</description>
-       <possessionCount>1</possessionCount>
 	   <recipeMaker>
 			<skillRequirements>
 			    <Cooking>8</Cooking>

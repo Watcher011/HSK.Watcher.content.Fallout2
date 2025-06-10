@@ -235,10 +235,10 @@
 
 *Одобрено Братством Стали (до первого боевого применения против них)*</Fallout_TeslaCannon.description>
   <Fallout_TeslaCannon.tools.0.label>ствол</Fallout_TeslaCannon.tools.0.label>
-  
-<Fallout_Syringer.label>Шприцемёт</Fallout_Syringer.label>
-<Fallout_Syringer.description>Инъекционный пистолет — редкое самодельное оружие, стреляющее шприцами. После попадания цель подвергается вредоносному воздействию веществ, содержащихся в этих шприцах.</Fallout_Syringer.description>
-<Fallout_Syringer.tools.0.label>ствол</Fallout_Syringer.tools.0.label>
+
+  <Fallout_Syringer.label>Шприцемёт</Fallout_Syringer.label>
+  <Fallout_Syringer.description>Инъекционный пистолет — редкое самодельное оружие, стреляющее шприцами. После попадания цель подвергается вредоносному воздействию веществ, содержащихся в этих шприцах.</Fallout_Syringer.description>
+  <Fallout_Syringer.tools.0.label>ствол</Fallout_Syringer.tools.0.label>
 
 
   <!--<Fallout_AlienPistol.label>Инопланетный Пистолет</Fallout_AlienPistol.label>-->

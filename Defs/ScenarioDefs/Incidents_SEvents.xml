@@ -44,4 +44,19 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
+	
+	
+	<IncidentDef>
+		<defName>ElectricShockExplosion</defName>
+		<label>electric shock explosion</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_IncidentEelectricShock</workerClass>
+		<baseChance>1.5</baseChance>
+		<category>ThreatSmall</category>
+		<earliestDay>16</earliestDay>
+		<minRefireDays>20</minRefireDays>
+		<pointsScaleable>false</pointsScaleable>
+	</IncidentDef>
 </Defs>
