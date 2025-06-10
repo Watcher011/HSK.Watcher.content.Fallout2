@@ -235,5 +235,79 @@
 		</recipeMaker>	
 	</ThingDef>
 	
-	
+	 <ThingDef ParentName="BaseMeleeFallout">
+    <defName>MeleeWeapon_AtomsJudgement</defName>
+    <label>Atom's Judgement</label>
+    <description>"When you need to not just smash a problem, but wipe it off the face of the earth along with three neighboring blocks!"
+This revolutionary tool combines:
+The finesse of a surgical instrument (if the surgeon is a super mutant with PMS)
+Eco-friendliness (radioactive contamination is just a free way to sterilize the area!)
+Cost-effectiveness (every hit saves your ammo... and potentially - future heating bills!)
+Design features:
+A hammer made from 12 damaged Fusion Core nuclear batteries
+Lead handle (absorbs 0.0001% of radiation)
+Built-in Geiger counter (shows "OH" instead of numbers)
+IMPORTANT:
+After 10+ consecutive hits, the hammer automatically activates:
+"Nuclear Hammer" mode (additional damage + glowing skin for 2 weeks)
+"Mad Max" protocol (all car alarms within a mile are activated)
+"Final Argument" function (turns user into a crater)
+"Vault-Tec is not responsible for:
+Sudden greening of the area (dark blue)
+Unintentional creation of new species of fauna
+Disappearance of small towns within a 5 km radius
+Consult your radiologist before use!"</description>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>2</Mass>
+    </statBases>
+    <soundInteract>Interact_BladelinkZeusHammer</soundInteract>
+    <meleeHitSound>MeleeHit_BladelinkZeusHammer</meleeHitSound>
+    <smeltable>false</smeltable>
+    <equippedAngleOffset>-65</equippedAngleOffset>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Weapons/AtomsJudgement</texPath>
+    </graphicData>
+    <weaponClasses>
+      <li>Melee</li>
+      <li>MeleeBlunt</li>
+    </weaponClasses>
+      <tools>
+				<li Class="CombatExtended.ToolCE">
+					<label>handle</label>
+					<capacities>
+						<li>Poke</li>
+					</capacities>
+					<power>9</power>
+					<cooldownTime>1.78</cooldownTime>
+					<chanceFactor>0.1</chanceFactor>
+					<armorPenetrationBlunt>5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+				</li>
+				<li Class="CombatExtended.ToolCE">
+					<label>head</label>
+					<capacities>
+						<li>Blunt</li>
+					</capacities>
+					<power>38</power>
+					<extraMeleeDamages>
+						<li>
+							<def>PlasmaCharge</def>
+							<amount>8</amount>
+						</li>
+					</extraMeleeDamages>		
+					<chanceFactor>1.3</chanceFactor>
+					<cooldownTime>2.2</cooldownTime>
+					<armorPenetrationBlunt>45.5</armorPenetrationBlunt>
+					<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>					
+				</li>	
+			</tools>
+			<modExtensions>
+			<li Class="CombatExtended.GunDrawExtension">
+				<DrawSize>1.1,1.1</DrawSize>
+				<DrawOffset>0.0,0.1</DrawOffset>
+			</li>
+		</modExtensions>
+  </ThingDef>
 </Defs>
