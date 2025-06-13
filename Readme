@@ -1,5 +1,5 @@
 
-Версия - 0,25
+Версия - 0,27
 -*-
 Оружие
 Pipe shooter
@@ -42,6 +42,7 @@ Mr.Handy Kit
 Strange pack(F.E.V.)
 Rad Scorpion Poison
 PlanD
+Blowfly hive
 -*-
 плоды растений 
 raw Mutfruit
@@ -60,6 +61,7 @@ Mine Lid
 Ripper
 Shishkebab
 Atom's Judgement
+Super sledge
 -*-
 снаряды
 FatManShell
@@ -133,6 +135,7 @@ X-01 power Helmet
 X-01 Tesla power armor
 T-51 power armor
 T-51 power Helmet
+Pip-Boy
 -*-
 сценарий
 Shelter residents(easy start)
@@ -140,4 +143,4 @@ Shelter residents(easy start)
 ивенты
 DeathclawPasses - прибытие когтя смерти
 DutenSwarm - рой дутней
-ElectricShockExplosion
+Electric Shock Explosion

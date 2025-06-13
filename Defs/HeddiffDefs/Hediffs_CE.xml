@@ -54,6 +54,43 @@
         </comps>
     </HediffDef>
 	
+
+  <HediffDef>
+    <defName>WearingPipBoy</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(1.00, 0.5, 0)</defaultLabelColor>
+    <isBad>false</isBad>
+   <label>Pip-Boy</label>
+   <description>VATS, or Vault-Tec Assisted Targeting System, is an advanced combat technology whose origins are lost in time…</description>
+    <makesSickThought>false</makesSickThought>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <stages>
+      <li>
+        <label>V.A.T.S.</label>
+        <minSeverity>0</minSeverity>
+        <capMods>
+         	         <li>
+						<capacity>Manipulation</capacity>
+						<offset>0.05</offset>
+					</li>
+					<li>
+						<capacity>Sight</capacity>
+						<offset>0.05</offset>
+					</li>
+             </capMods>
+			<statOffsets>
+					<MoveSpeed>0.05</MoveSpeed>
+					<MeleeHitChance>0.1</MeleeHitChance>
+					<ShootingAccuracyPawn>0.2</ShootingAccuracyPawn>
+					<AimingDelayFactor>-0.04</AimingDelayFactor>
+					<!-- <MeleeWeapon_CooldownMultiplier>0.95</MeleeWeapon_CooldownMultiplier> -->
+					<Suppressability>-0.05</Suppressability>
+				</statOffsets>
+      </li> 
+    </stages>
+	     
+  </HediffDef>
+  
 	
    <HediffDef>
         <defName>Ghoul</defName>
@@ -386,6 +423,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<makesSickThought>false</makesSickThought>
 		<lethalSeverity>1</lethalSeverity>
+		
 		<tendable>true</tendable>
 		<comps>
 			<li Class="HediffCompProperties_TendDuration">
@@ -405,10 +443,23 @@
                 <count>1~2</count>
                 <mentalStateOnSpawn>ManhunterPermanent</mentalStateOnSpawn>
             </li>
+			<li Class="HediffCompProperties_DissolveGearOnDeath">
+				<fleck>ActivatorCountdownFlash</fleck>
+				<moteCount>6</moteCount>
+				<moteOffsetRange>0.25~0.75</moteOffsetRange>
+				<filth>Filth_Slime</filth>
+				<sound>DeathAcidifier</sound>
+				<injuryCreatedOnDeath>Burn</injuryCreatedOnDeath>
+				<injuryCount>3~6</injuryCount>
+			</li>
+			     <li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath">
+                <thingSpawn>HiveBlowfly</thingSpawn>
+            </li>
 			<li Class="HediffCompProperties_DisappearsOnDeath" />
 		</comps>
 		<stages>
 			<li>
+			
 				<label>minor-hidden</label>
 				<becomeVisible>false</becomeVisible>
 			</li>

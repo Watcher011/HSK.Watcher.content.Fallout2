@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--	
+   <Operation Class="PatchOperationAdd">
+		 <xpath>Defs/ThingDef[defName="BaseHumanlikePawn"]/recipes</xpath>
+		<value>
+	    <recipes>
+			<li>TreatmentOfBlowflyLarva</li>
+        </recipes>
+		</value>
+    </Operation>
+  -->
+  
+  <Operation Class="PatchOperationAdd"> 
+		<xpath>Defs/ThingDef[@Name = "AnimalThingBase" or defName = "Human" or defName = "BaseHumanlikePawn"]/recipes</xpath>
+		<value>
+			<li>TreatmentOfBlowflyLarva</li>
+		</value>
+	</Operation>
+</Patch>

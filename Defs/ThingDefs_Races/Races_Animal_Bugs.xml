@@ -342,7 +342,8 @@
 			<ToxicResistance>0.8</ToxicResistance>
 		</statBases>
 		<verbs>
-		<li Class="CombatExtended.VerbPropertiesCE">
+		 
+			<li Class="CombatExtended.VerbPropertiesCE">
 				<label>launch Larva</label>
 				<verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
@@ -350,10 +351,10 @@
 				<warmupTime>1.5</warmupTime>
 				<range>7</range>
 				<minRange>3</minRange>
-				<ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
 				<soundCast>PiercingSpine_Launch</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
-				<muzzleFlashScale>0</muzzleFlashScale>
+				<muzzleFlashScale>14</muzzleFlashScale>
 				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
 				<targetParams>
 					<canTargetLocations>true</canTargetLocations>
@@ -363,6 +364,22 @@
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
 			</li>
 		</verbs>
+			<comps>
+			<li Class="SK.CompProperties_PawnJumper">
+				<maxCharges>5</maxCharges>
+				<!-- Number of possible jumps -->
+				<minEnergy>0.45</minEnergy>
+				<!-- Subtracts from the current rest(energy) level. 0.5 = 50% -->
+				<ammoCountPerCharge>10</ammoCountPerCharge>
+				<!-- Rest(energy) consumption. 10 = 10% cost per jump. -->
+				<jumpCooldown>1250</jumpCooldown>
+				<!-- Jump cooldown in ticks -->
+				<range>4</range>
+				<chargeNoun>jump</chargeNoun>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+		</comps>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
 				<label>mouth</label>

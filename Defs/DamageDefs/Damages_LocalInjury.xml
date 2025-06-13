@@ -123,7 +123,7 @@
 	</DamageDef>-->
 	
 	
-	<DamageDef ParentName="LocalInjuryBase">
+	<DamageDef ParentName="Bullet">
 		<defName>DutenDart</defName>
          <label>Duten Dart</label>
 		<externalViolence>true</externalViolence>
@@ -136,16 +136,17 @@
 		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
 		<buildingDamageFactor>0.05</buildingDamageFactor>
 		<plantDamageFactor>0.5</plantDamageFactor>
-		<isRanged>true</isRanged>
+		 
 		<makesAnimalsFlee>true</makesAnimalsFlee>
 		<additionalHediffs>
 			<li>
 				<hediff>BlowflyLarva</hediff>
 				<severityPerDamageDealt>0.12</severityPerDamageDealt>
-				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
 				<inverseStatScaling>true</inverseStatScaling>
 				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
 			</li>
 		</additionalHediffs>
 	</DamageDef>
+	
+
 </Defs>

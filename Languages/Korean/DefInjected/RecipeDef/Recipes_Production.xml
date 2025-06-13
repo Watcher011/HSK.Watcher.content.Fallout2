@@ -62,12 +62,12 @@
   <BuildFalloutSyringer.jobString>주사기 사수를 제작합니다.</BuildFalloutSyringer.jobString>
 
   <BuildFalloutRipper.label>리퍼 제작</BuildFalloutRipper.label>
-<BuildFalloutRipper.description>리퍼를 제작합니다.</BuildFalloutRipper.description>
-<BuildFalloutRipper.jobString>리퍼를 제작합니다.</BuildFalloutRipper.jobString>
+  <BuildFalloutRipper.description>리퍼를 제작합니다.</BuildFalloutRipper.description>
+  <BuildFalloutRipper.jobString>리퍼를 제작합니다.</BuildFalloutRipper.jobString>
 
-<BuildFalloutWeaponShishkebab.label>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.label>
-<BuildFalloutWeaponShishkebab.description>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.description>
-<BuildFalloutWeaponShishkebab.jobString>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.jobString>
+  <BuildFalloutWeaponShishkebab.label>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.label>
+  <BuildFalloutWeaponShishkebab.description>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.description>
+  <BuildFalloutWeaponShishkebab.jobString>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.jobString>
 
 
 </LanguageData>

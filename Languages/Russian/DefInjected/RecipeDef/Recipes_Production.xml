@@ -9,7 +9,7 @@
   <MakeBottlecapGrenades.description>Популярный довоенный ланч-бокс Vault-Tec стал основой для смертоносной мины в постапокалиптическом Содружестве. Это самодельное устройство поможет вам справиться с любым врагом. Можно бросить как гранату.</MakeBottlecapGrenades.description>
   <MakeBottlecapGrenades.jobString>Создает  крышкомину.</MakeBottlecapGrenades.jobString>
 
-  <BuildFalloutPipeGun.label>Создает пистолет"Трубострел"</BuildFalloutPipeGun.label>
+  <BuildFalloutPipeGun.label>Сборка пистолет"Трубострел"</BuildFalloutPipeGun.label>
   <BuildFalloutPipeGun.description>Создает пистолет-трубострел. Слабый на короткой дистанции, но работает.\nКалибр: 9x19 мм</BuildFalloutPipeGun.description>
   <BuildFalloutPipeGun.jobString>Сборка трубострела из труб.</BuildFalloutPipeGun.jobString>
 
@@ -62,11 +62,12 @@
   <BuildFalloutSyringer.jobString>Изготовление стреляющего Инъекционного карабина.</BuildFalloutSyringer.jobString>
 
   <BuildFalloutRipper.label>Сборка потрошителя</BuildFalloutRipper.label>
-<BuildFalloutRipper.description>Создание потрошителя.</BuildFalloutRipper.description>
-<BuildFalloutRipper.jobString>Создание потрошителя.</BuildFalloutRipper.jobString>
+  <BuildFalloutRipper.description>Создание потрошителя.</BuildFalloutRipper.description>
+  <BuildFalloutRipper.jobString>Создание потрошителя.</BuildFalloutRipper.jobString>
 
-<BuildFalloutWeaponShishkebab.label>Сборка шиш кебаб</BuildFalloutWeaponShishkebab.label>
-<BuildFalloutWeaponShishkebab.description>Создает шиш кебаб.</BuildFalloutWeaponShishkebab.description>
-<BuildFalloutWeaponShishkebab.jobString>Создание шиш кебаб.</BuildFalloutWeaponShishkebab.jobString>
+  <BuildFalloutWeaponShishkebab.label>Сборка шиш кебаб</BuildFalloutWeaponShishkebab.label>
+  <BuildFalloutWeaponShishkebab.description>Создает шиш кебаб.</BuildFalloutWeaponShishkebab.description>
+  <BuildFalloutWeaponShishkebab.jobString>Создание шиш кебаб.</BuildFalloutWeaponShishkebab.jobString>
+
 
 </LanguageData>

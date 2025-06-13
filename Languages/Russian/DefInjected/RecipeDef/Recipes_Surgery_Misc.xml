@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TreatmentOfBlowflyLarva.label>Лечение от личинок Дутня</TreatmentOfBlowflyLarva.label>
+  <TreatmentOfBlowflyLarva.description>Проведение широкого спектра процедур по лечению заражения личинками Дутня.</TreatmentOfBlowflyLarva.description>
+  <TreatmentOfBlowflyLarva.jobString>Лечит инфекцию TargetA.</TreatmentOfBlowflyLarva.jobString>
+  <TreatmentOfBlowflyLarva.successfullyRemovedHediffMessage>{0} успешно вылечил инфекцию {1}.</TreatmentOfBlowflyLarva.successfullyRemovedHediffMessage>
+
+
+</LanguageData>

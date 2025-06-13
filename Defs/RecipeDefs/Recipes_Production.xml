@@ -1078,18 +1078,18 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<ingredients>
-			<li>
+		  <li>
 				<filter>
 					<thingDefs>
-						<li>Pistol_Component</li>
+						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
-				<count>1</count>
+				<count>12</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Gun_FireExtinguisher</li>
+						<li>Pistol_Component</li>
 					</thingDefs>
 				</filter>
 				<count>1</count>
@@ -1125,7 +1125,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Pistol_Component</li>
-				<li>Gun_FireExtinguisher</li>
+				<li>Weapon_Parts</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
@@ -1221,14 +1221,7 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ChunkSlagSteel</li>
-					</thingDefs>
-				</filter>
-				<count>4</count>
-			</li>
+			
 			<li>
 				<filter>
 					<thingDefs>
@@ -1261,18 +1254,30 @@
 				</filter>
 				<count>15</count>
 			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
 		</ingredients>
 		<products>
 			<Fallout_Weapon_Shishkebab>1</Fallout_Weapon_Shishkebab>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ChunkSlagSteel</li>
 				<li>ComponentAdvanced</li>
 				<li>Weapon_Parts</li>
 				<li>Chemfuel</li>
 				<li>Plastic</li>
 			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>Leathers</li>
+			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
 			<li>TableFalloutElectronics</li>

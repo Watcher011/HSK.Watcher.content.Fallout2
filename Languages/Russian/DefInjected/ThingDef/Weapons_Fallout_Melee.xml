@@ -12,5 +12,33 @@
   <Fallout_Weapon_Shishkebab.tools.1.label>острие</Fallout_Weapon_Shishkebab.tools.1.label>
   <Fallout_Weapon_Shishkebab.tools.2.label>кончик</Fallout_Weapon_Shishkebab.tools.2.label>
 
+  <MeleeWeapon_AtomsJudgement.label>Суд атома</MeleeWeapon_AtomsJudgement.label>
+  <MeleeWeapon_AtomsJudgement.description>"Когда нужно не просто разбить проблему, а стереть ее с лица земли вместе с тремя соседними блоками!"
+Этот революционный инструмент сочетает в себе:
+Изящество хирургического инструмента (если хирург — супермутант с ПМС)
+Экологичность (радиоактивное заражение — это всего лишь бесплатный способ стерилизовать территорию!)
+Экономичность (каждый удар экономит ваши боеприпасы... и потенциально — будущие счета за отопление!)
+Особенности конструкции:
+Молоток, сделанный из 12 поврежденных ядерных батарей Fusion Core
+Свинцовая рукоятка (поглощает 0,0001% радиации)
+Встроенный счетчик Гейгера (показывает «ОН» вместо цифр)
+ВАЖНО:
+После 10+ последовательных ударов молоток автоматически активирует:
+Режим «Ядерный молот» (дополнительный урон + светящаяся кожа на 2 недели)
+Протокол «Безумный Макс» (активируются все автомобильные сигнализации в радиусе мили)
+Функция «Последний аргумент» (превращает пользователя в кратер)
+«Vault-Tec» не несет ответственности за:
+Внезапное позеленение область (темно-синий)
+Непреднамеренное создание новых видов фауны
+Исчезновение небольших городов в радиусе 5 км
+Перед использованием проконсультируйтесь с рентгенологом!"</MeleeWeapon_AtomsJudgement.description>
+  <MeleeWeapon_AtomsJudgement.tools.0.label>handle</MeleeWeapon_AtomsJudgement.tools.0.label>
+  <MeleeWeapon_AtomsJudgement.tools.1.label>head</MeleeWeapon_AtomsJudgement.tools.1.label>
+
+  <MeleeWeapon_Supersledge.label>Суперкувалда</MeleeWeapon_Supersledge.label>
+  <MeleeWeapon_Supersledge.description>Молот с прикрепленным миниатюрным реактивным двигателем, который создает дополнительное ускорение молота при ударе, позволяя ему наносить сокрушительный урон. Судя по тому, что двигатель не требует дозаправки, он работает на атомной энергии.</MeleeWeapon_Supersledge.description>
+  <MeleeWeapon_Supersledge.tools.0.label>рукоятка</MeleeWeapon_Supersledge.tools.0.label>
+  <MeleeWeapon_Supersledge.tools.1.label>головка</MeleeWeapon_Supersledge.tools.1.label>
+
 
 </LanguageData>

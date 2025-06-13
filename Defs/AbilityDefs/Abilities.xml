@@ -36,9 +36,10 @@
     <defName>EggLaunch</defName>
     <verbProperties>
       <range>5.9</range>
-      <defaultProjectile>Spike_Egg</defaultProjectile>
+      <defaultProjectile>Bullet_Larva</defaultProjectile>
     </verbProperties>
   </AbilityDef>
+  
   <ThingDef ParentName="SpikeBase">
     <defName>Spike_Egg</defName>
     <graphicData>

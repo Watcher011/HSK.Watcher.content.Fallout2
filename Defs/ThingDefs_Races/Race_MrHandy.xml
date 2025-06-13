@@ -227,6 +227,7 @@
 			<ArmorRating_Blunt>12</ArmorRating_Blunt>
 			<ArmorRating_Heat>2.00</ArmorRating_Heat>
 			<CarryingCapacity>150</CarryingCapacity>
+			<CarryWeight>120</CarryWeight>
 			<Mass>55.0</Mass>
 			<SmokeSensitivity>0</SmokeSensitivity>
 			<Radiation>0</Radiation>
