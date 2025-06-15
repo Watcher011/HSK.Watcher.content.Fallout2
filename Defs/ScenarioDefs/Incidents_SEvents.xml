@@ -46,6 +46,27 @@
 	</IncidentDef>
 	
 	
+	
+		<IncidentDef>
+		<defName>RadroachEaters</defName>
+		<label>Radroach eaters</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_HungryRadroach</workerClass>
+		<earliestDay>5</earliestDay>
+		<baseChance>0.4</baseChance>
+		<minRefireDays>30</minRefireDays>
+		<modExtensions>
+			<li Class="SK.ExtendedIncident">
+				<allowedTemperatureRange>-10~999</allowedTemperatureRange>
+				<!-- current map temperature-->
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	
+	
 	<IncidentDef>
 		<defName>ElectricShockExplosion</defName>
 		<label>electric shock explosion</label>

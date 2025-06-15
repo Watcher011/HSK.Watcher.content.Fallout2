@@ -650,10 +650,10 @@
 			<WorkToMake>34000</WorkToMake>
 			<EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
 			<EnergyShieldEnergyMax>2.5</EnergyShieldEnergyMax>
-			<MaxHitPoints>100</MaxHitPoints>
+			<MaxHitPoints>600</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Mass>7</Mass>
-			<Bulk>60</Bulk>
+			<Bulk>100</Bulk>
 			<WornBulk>20</WornBulk>
 			<EquipDelay>15</EquipDelay>
 			<Insulation_Heat>15</Insulation_Heat>
@@ -661,13 +661,13 @@
 			<StuffEffectMultiplierInsulation_Cold>1</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>1</StuffEffectMultiplierInsulation_Heat>
 			<StuffEffectMultiplierArmor>5.37</StuffEffectMultiplierArmor>
-			<ArmorRating_Sharp>7.7</ArmorRating_Sharp>
-			<ArmorRating_Blunt>25.59</ArmorRating_Blunt>
+			<ArmorRating_Sharp>28</ArmorRating_Sharp>
+			<ArmorRating_Blunt>60</ArmorRating_Blunt>
 			<ArmorRating_Heat>0.11</ArmorRating_Heat>
 		</statBases>
 		<equippedStatOffsets>
-			<CarryWeight>30</CarryWeight>
-			<CarryBulk>15</CarryBulk>
+			<CarryWeight>300</CarryWeight>
+			<CarryBulk>290</CarryBulk>
 			<MoveSpeed>-1.5</MoveSpeed>
 			<WorkSpeedGlobal>-0.27</WorkSpeedGlobal>
 			<MentalBreakThreshold>-0.08</MentalBreakThreshold>

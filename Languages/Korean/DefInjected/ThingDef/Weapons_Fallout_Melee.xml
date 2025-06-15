@@ -13,7 +13,7 @@
   <Fallout_Weapon_Shishkebab.tools.2.label>날</Fallout_Weapon_Shishkebab.tools.2.label>
 
   <MeleeWeapon_AtomsJudgement.label>아톰의 심판</MeleeWeapon_AtomsJudgement.label>
-<MeleeWeapon_AtomsJudgement.description>"문제를 단순히 해결하는 데 그치지 않고, 주변 세 블록과 함께 지구 표면에서 완전히 없애야 할 때!"
+  <MeleeWeapon_AtomsJudgement.description>"문제를 단순히 해결하는 데 그치지 않고, 주변 세 블록과 함께 지구 표면에서 완전히 없애야 할 때!"
 이 혁신적인 도구는 다음과 같은 특징을 갖추고 있습니다.
 수술 도구의 정교함(수술의가 PMS를 가진 슈퍼 뮤턴트일 경우)
 친환경성(방사능 오염은 해당 부위를 무료로 살균하는 방법일 뿐입니다!)
@@ -32,12 +32,13 @@
 의도치 않은 새로운 동물종 생성
 반경 5km 이내 소도시 소멸
 사용 전 방사선 전문의와 상담하십시오!"</MeleeWeapon_AtomsJudgement.description>
-<MeleeWeapon_AtomsJudgement.tools.0.label>손잡이</MeleeWeapon_AtomsJudgement.tools.0.label>
-<MeleeWeapon_AtomsJudgement.tools.1.label>머리</MeleeWeapon_AtomsJudgement.tools.1.label>
+  <MeleeWeapon_AtomsJudgement.tools.0.label>손잡이</MeleeWeapon_AtomsJudgement.tools.0.label>
+  <MeleeWeapon_AtomsJudgement.tools.1.label>머리</MeleeWeapon_AtomsJudgement.tools.1.label>
 
-<MeleeWeapon_Supersledge.label>슈퍼 슬레지</MeleeWeapon_Supersledge.label>
-<MeleeWeapon_Supersledge.description>소형 제트 엔진이 부착된 망치로, 타격 시 망치의 가속도를 높여 파괴적인 피해를 입힙니다. 엔진에 재급유가 필요 없다는 점으로 미루어 보아, 원자력으로 구동되는 것으로 보입니다.</MeleeWeapon_Supersledge.description>
-<MeleeWeapon_Supersledge.tools.0.label>손잡이</MeleeWeapon_Supersledge.tools.0.label>
-<MeleeWeapon_Supersledge.tools.1.label>머리</MeleeWeapon_Supersledge.tools.1.label>
+  <MeleeWeapon_Supersledge.label>슈퍼 슬레지</MeleeWeapon_Supersledge.label>
+  <MeleeWeapon_Supersledge.description>소형 제트 엔진이 부착된 망치로, 타격 시 망치의 가속도를 높여 파괴적인 피해를 입힙니다. 엔진에 재급유가 필요 없다는 점으로 미루어 보아, 원자력으로 구동되는 것으로 보입니다.</MeleeWeapon_Supersledge.description>
+  <MeleeWeapon_Supersledge.tools.0.label>손잡이</MeleeWeapon_Supersledge.tools.0.label>
+  <MeleeWeapon_Supersledge.tools.1.label>머리</MeleeWeapon_Supersledge.tools.1.label>
+
 
 </LanguageData>

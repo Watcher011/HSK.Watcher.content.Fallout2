@@ -8,9 +8,9 @@
   <FEV.label>Вирус Рукотворной Эволюции</FEV.label>
   <FEV.description>Эх, Вирус Рукотворной Эволюции. У него такая долгая и неаппетитная история. Вирус в этой пробирке так отличается от того, каким первоначально был задуман. Но сейчас это неважно. Важно то, что этот вирус ликвидирует все мутации.</FEV.description>
 
-<WearingPipBoy.label>Пип-Бой</WearingPipBoy.label>
-<WearingPipBoy.description>VATS, или система наведения Vault-Tec Assisted Targeting System, — это передовая боевая технология, граница которой меняется во времени…</WearingPipBoy.description>
-<WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
+  <WearingPipBoy.label>Пип-Бой</WearingPipBoy.label>
+  <WearingPipBoy.description>VATS, или система наведения Vault-Tec Assisted Targeting System, — это передовая боевая технология, граница которой меняется во времени…</WearingPipBoy.description>
+  <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
 
   <Ghoul.label>Гуль</Ghoul.label>
   <Ghoul.description>Гуль.</Ghoul.description>

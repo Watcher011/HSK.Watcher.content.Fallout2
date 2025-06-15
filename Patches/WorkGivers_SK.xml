@@ -7,6 +7,18 @@
                 </value>
 			 </Operation>
 	
-			
-	
+			   <Operation Class="PatchOperationAdd">
+			    <xpath>Defs/WorkGiverDef[defName="DoBillsTableElectronics"]/fixedBillGiverDefs</xpath>
+                <value>
+                <li>TableFalloutElectronics</li>
+				  <li>TableFalloutChemicalSynthesis</li>
+                </value>
+			 </Operation>
+			 
+     	    <Operation Class="PatchOperationAdd">
+			    <xpath>Defs/WorkGiverDef[defName="DoBillsTableChemlab"]/fixedBillGiverDefs</xpath>
+                <value>
+				  <li>TableFalloutChemicalSynthesis</li>
+                </value>
+			 </Operation>
 </Patch>

@@ -105,9 +105,48 @@
           <li>ArrowHighVelocity</li>
         </startWickOnDamageTaken>
       </li>
-	
+	   <li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(217,112,33,0)</glowColor>
+	   </li>
     </comps>
 	
+    <specialDisplayRadius>3.9</specialDisplayRadius>
+  </ThingDef> 
+  
+  
+   	<ThingDef ParentName="TrapIEDBase">
+    <defName>TrapIED_StanMineExplosive</defName>
+    <label>IED Stan Mine</label>
+    <description>A fragile flask containing a pinkish gas labeled "Vault-Tec Sweet Dreams." When detonated, it releases a cloud of powerful tranquilizer, turning opponents into sleepy zombies. Side effects may include: uncontrollable snoring, spontaneous hugs, and a desire to tell everyone about your childhood. *Do not use on super mutants - may cause sentimental attacks*.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/StanMine</texPath>
+	  <drawSize>(0.5)</drawSize>
+    </graphicData>
+    <costList>
+      <MedicineIndustrial>1</MedicineIndustrial>
+	  <ComponentIndustrial>1</ComponentIndustrial>
+	   <Powder>5</Powder>
+	   <Glass>5</Glass>
+    </costList>
+    <designationHotKey>Misc7</designationHotKey>
+	<tradeTags>
+			<li>Vaultec</li>
+	</tradeTags>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>3.9</explosiveRadius>
+        <explosiveDamageType>Tranquilizer</explosiveDamageType>
+        <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+        <wickTicks>15</wickTicks>
+		 <postExplosionGasType>BlindSmoke</postExplosionGasType>
+        <startWickOnDamageTaken>
+          <li>Bullet</li>
+          <li>Arrow</li>
+          <li>ArrowHighVelocity</li>
+        </startWickOnDamageTaken>
+      </li>
+    </comps>
     <specialDisplayRadius>3.9</specialDisplayRadius>
   </ThingDef> 
 	<!-- =====AI manned turrets===== -->

@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <TreatmentOfBlowflyLarva.label>빨강파리 유충 치료</TreatmentOfBlowflyLarva.label>
-<TreatmentOfBlowflyLarva.description>빨강파리 유충 감염에 대한 광범위한 시술을 수행합니다.</TreatmentOfBlowflyLarva.description>
-<TreatmentOfBlowflyLarva.jobString>대상 A 감염을 치료합니다.</TreatmentOfBlowflyLarva.jobString>
-<TreatmentOfBlowflyLarva.successfullyRemovedHediffMessage>{0}님이 {1}에 감염을 성공적으로 치료했습니다.</TreatmentOfBlowflyLarva.successfullyRemovedHediffMessage>
+  <TreatmentOfBlowflyLarva.label>빨강파리 유충 치료</TreatmentOfBlowflyLarva.label>
+  <TreatmentOfBlowflyLarva.description>빨강파리 유충 감염에 대한 광범위한 시술을 수행합니다.</TreatmentOfBlowflyLarva.description>
+  <TreatmentOfBlowflyLarva.jobString>대상 A 감염을 치료합니다.</TreatmentOfBlowflyLarva.jobString>
+  <TreatmentOfBlowflyLarva.successfullyRemovedHediffMessage>{0}님이 {1}에 감염을 성공적으로 치료했습니다.</TreatmentOfBlowflyLarva.successfullyRemovedHediffMessage>
 
 
 </LanguageData>

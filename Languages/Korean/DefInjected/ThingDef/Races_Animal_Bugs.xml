@@ -21,5 +21,13 @@
   <Duten.tools.0.label>mouth</Duten.tools.0.label>
   <Duten.tools.1.label>head</Duten.tools.1.label>
 
+ <GlowingRadroach.label>발광 방사능 바퀴벌레</GlowingRadroach.label>
+<GlowingRadroach.description>발광 방사능 바퀴벌레 2.0 - 이제 더 약한 야간 발광과 벙커까지 직접 전달되는 적당한 방사능을 갖췄습니다! 이 불타는 돌연변이는 단순한 벌레가 아니라, 6개의 다리를 가진 자율형 원자로로, 여러분에게 이온화된 열과 아포칼립스의 고급스러운 소파를 아낌없이 나눠줍니다.
+그냥 달리는 게 아니라 생존 올림픽 챔피언의 우아함으로 함정 사이를 빠져나가고, 국가 프로파간다급 효율로 번식하며, 키틴질 껍질은 너무 방사능이 강해 가이거 계수기(아니면 장례식) 대신 사용할 수 있을 정도입니다.
+구워보세요 - 플루토늄 향이 나는 바삭한 간식과 길고, 아주 긴 뒷맛을 선사할 겁니다. 운이 좋다면 안에서 보너스를 발견할 수도 있습니다: 가시철사, "뉴클라-콜라"의 녹슨 마개, 아니면 총알 한 발까지! 이건 그냥 저녁 식사가 아닙니다 - 남은 생명이 돌연변이되는 복권인 셈이죠!
+(뒷면 주의사항: "바퀴벌레 한 마리를 죽인 후 방이 초록색으로 맥박하기 시작한다면, 축하합니다. 방금 지역 군락의 그룹 채팅을 활성화한 겁니다. 프라이팬을 준비하세요. 유서도 준비하는 게 좋을 겁니다.")</GlowingRadroach.description>
+<GlowingRadroach.tools.0.label>입</GlowingRadroach.tools.0.label>
+<GlowingRadroach.tools.1.label>머리</GlowingRadroach.tools.1.label>
+
 
 </LanguageData>

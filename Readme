@@ -1,5 +1,5 @@
 
-Версия - 0,27
+Версия - 0,28
 -*-
 Оружие
 Pipe shooter
@@ -98,6 +98,7 @@ Mysterious Serum
 -*-
 мутанты
 Radroach
+GlowingRadroach
 Fire-breathing gecko
 Gecko
 Gold Gecko
@@ -144,3 +145,4 @@ Shelter residents(easy start)
 DeathclawPasses - прибытие когтя смерти
 DutenSwarm - рой дутней
 Electric Shock Explosion
+Radroach eaters

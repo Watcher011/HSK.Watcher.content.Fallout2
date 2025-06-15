@@ -76,5 +76,33 @@
   <Duten.labelFemale>самка Дутня</Duten.labelFemale>
   <Duten.labelFemalePlural>самки Дутней</Duten.labelFemalePlural>
 
+<GlowingRadroach.label>Светящийся Радтаракан</GlowingRadroach.label>
+<GlowingRadroach.labelPlural>Светящиеся Радтараканы</GlowingRadroach.labelPlural>
+
+<GlowingRadroach.lifeStages.0.label>Светящийся Радтаракан</GlowingRadroach.lifeStages.0.label>
+<GlowingRadroach.lifeStages.0.labelPlural>Светящиеся Радтараканы</GlowingRadroach.lifeStages.0.labelPlural>
+<GlowingRadroach.lifeStages.0.labelMale>самец Светящегося Радтаракана</GlowingRadroach.lifeStages.0.labelMale>
+<GlowingRadroach.lifeStages.0.labelMalePlural>самцы Светящихся Радтараканов</GlowingRadroach.lifeStages.0.labelMalePlural>
+<GlowingRadroach.lifeStages.0.labelFemale>самка Светящегося Радтаракана</GlowingRadroach.lifeStages.0.labelFemale>
+<GlowingRadroach.lifeStages.0.labelFemalePlural>самки Светящихся Радтараканов</GlowingRadroach.lifeStages.0.labelFemalePlural>
+
+<GlowingRadroach.lifeStages.1.label>Светящийся Радтаракан</GlowingRadroach.lifeStages.1.label>
+<GlowingRadroach.lifeStages.1.labelPlural>Светящиеся Радтараканы</GlowingRadroach.lifeStages.1.labelPlural>
+<GlowingRadroach.lifeStages.1.labelMale>самец Светящегося Радтаракана</GlowingRadroach.lifeStages.1.labelMale>
+<GlowingRadroach.lifeStages.1.labelMalePlural>самцы Светящихся Радтараканов</GlowingRadroach.lifeStages.1.labelMalePlural>
+<GlowingRadroach.lifeStages.1.labelFemale>самка Светящегося Радтаракана</GlowingRadroach.lifeStages.1.labelFemale>
+<GlowingRadroach.lifeStages.1.labelFemalePlural>самки Светящихся Радтараканов</GlowingRadroach.lifeStages.1.labelFemalePlural>
+
+<GlowingRadroach.lifeStages.2.label>Светящийся Радтаракан</GlowingRadroach.lifeStages.2.label>
+<GlowingRadroach.lifeStages.2.labelPlural>Светящиеся Радтараканы</GlowingRadroach.lifeStages.2.labelPlural>
+<GlowingRadroach.lifeStages.2.labelMale>самец Светящегося Радтаракана</GlowingRadroach.lifeStages.2.labelMale>
+<GlowingRadroach.lifeStages.2.labelMalePlural>самцы Светящихся Радтараканов</GlowingRadroach.lifeStages.2.labelMalePlural>
+<GlowingRadroach.lifeStages.2.labelFemale>самка Светящегося Радтаракана</GlowingRadroach.lifeStages.2.labelFemale>
+<GlowingRadroach.lifeStages.2.labelFemalePlural>самки Светящихся Радтараканов</GlowingRadroach.lifeStages.2.labelFemalePlural>
+
+<GlowingRadroach.labelMale>самец Светящегося Радтаракана</GlowingRadroach.labelMale>
+<GlowingRadroach.labelMalePlural>самцы Светящихся Радтараканов</GlowingRadroach.labelMalePlural>
+<GlowingRadroach.labelFemale>самка Светящегося Радтаракана</GlowingRadroach.labelFemale>
+<GlowingRadroach.labelFemalePlural>самки Светящихся Радтараканов</GlowingRadroach.labelFemalePlural>
 
 </LanguageData>
