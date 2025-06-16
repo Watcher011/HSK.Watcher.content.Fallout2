@@ -75,33 +75,31 @@
   <Duten.labelMalePlural>수컷 두텐들</Duten.labelMalePlural>
   <Duten.labelFemale>암컷 두텐</Duten.labelFemale>
   <Duten.labelFemalePlural>암컷 두텐들</Duten.labelFemalePlural>
-<GlowingRadroach.label>발광 방사능 바퀴벌레</GlowingRadroach.label>
-<GlowingRadroach.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.labelPlural>
-<GlowingRadroach.lifeStages.0.label>발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.0.label>
-<GlowingRadroach.lifeStages.0.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.0.labelPlural>
-<GlowingRadroach.lifeStages.0.labelMale>수컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.0.labelMale>
-<GlowingRadroach.lifeStages.0.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.0.labelMalePlural>
-<GlowingRadroach.lifeStages.0.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.0.labelFemale>
-<GlowingRadroach.lifeStages.0.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.0.labelFemalePlural>
 
-<GlowingRadroach.lifeStages.1.label>발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.1.label>
-<GlowingRadroach.lifeStages.1.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.1.labelPlural>
-<GlowingRadroach.lifeStages.1.labelMale>수컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.1.labelMale>
-<GlowingRadroach.lifeStages.1.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.1.labelMalePlural>
-<GlowingRadroach.lifeStages.1.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.1.labelFemale>
-<GlowingRadroach.lifeStages.1.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.1.labelFemalePlural>
-
-<GlowingRadroach.lifeStages.2.label>발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.2.label>
-<GlowingRadroach.lifeStages.2.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.2.labelPlural>
-<GlowingRadroach.lifeStages.2.labelMale>수컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.2.labelMale>
-<GlowingRadroach.lifeStages.2.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.2.labelMalePlural>
-<GlowingRadroach.lifeStages.2.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.2.labelFemale>
-<GlowingRadroach.lifeStages.2.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.2.labelFemalePlural>
-
-<GlowingRadroach.labelMale>수컷 발광 방사능 바퀴벌레</GlowingRadroach.labelMale>
-<GlowingRadroach.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.labelMalePlural>
-<GlowingRadroach.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.labelFemale>
-<GlowingRadroach.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.labelFemalePlural>
+  <GlowingRadroach.label>발광 방사능 바퀴벌레</GlowingRadroach.label>
+  <GlowingRadroach.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.labelPlural>
+  <GlowingRadroach.lifeStages.0.label>발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.0.label>
+  <GlowingRadroach.lifeStages.0.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.0.labelPlural>
+  <GlowingRadroach.lifeStages.0.labelMale>수컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.0.labelMale>
+  <GlowingRadroach.lifeStages.0.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.0.labelMalePlural>
+  <GlowingRadroach.lifeStages.0.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.0.labelFemale>
+  <GlowingRadroach.lifeStages.0.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.0.labelFemalePlural>
+  <GlowingRadroach.lifeStages.1.label>발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.1.label>
+  <GlowingRadroach.lifeStages.1.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.1.labelPlural>
+  <GlowingRadroach.lifeStages.1.labelMale>수컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.1.labelMale>
+  <GlowingRadroach.lifeStages.1.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.1.labelMalePlural>
+  <GlowingRadroach.lifeStages.1.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.1.labelFemale>
+  <GlowingRadroach.lifeStages.1.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.1.labelFemalePlural>
+  <GlowingRadroach.lifeStages.2.label>발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.2.label>
+  <GlowingRadroach.lifeStages.2.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.2.labelPlural>
+  <GlowingRadroach.lifeStages.2.labelMale>수컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.2.labelMale>
+  <GlowingRadroach.lifeStages.2.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.2.labelMalePlural>
+  <GlowingRadroach.lifeStages.2.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.lifeStages.2.labelFemale>
+  <GlowingRadroach.lifeStages.2.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.lifeStages.2.labelFemalePlural>
+  <GlowingRadroach.labelMale>수컷 발광 방사능 바퀴벌레</GlowingRadroach.labelMale>
+  <GlowingRadroach.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.labelMalePlural>
+  <GlowingRadroach.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.labelFemale>
+  <GlowingRadroach.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.labelFemalePlural>
 
 
 </LanguageData>

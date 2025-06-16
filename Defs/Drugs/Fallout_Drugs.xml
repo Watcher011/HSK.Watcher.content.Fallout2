@@ -4,9 +4,9 @@
  <ThingDef Name="FalloutDrugBase" ParentName="DrugBase" Abstract="True">
     <recipeMaker>
       <researchPrerequisite>Vault-TecProcessing</researchPrerequisite>
-      <recipeUsers>
+     <!-- <recipeUsers>
         <li>TableFalloutChemicalSynthesis</li>
-      </recipeUsers>
+      </recipeUsers>-->
       <workSpeedStat>DrugCookingSpeed</workSpeedStat>
       <workSkill>Cooking</workSkill>
       <skillRequirements>

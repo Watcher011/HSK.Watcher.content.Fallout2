@@ -69,5 +69,43 @@
   <BuildFalloutWeaponShishkebab.description>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.description>
   <BuildFalloutWeaponShishkebab.jobString>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.jobString>
 
+  <!-- 마약 및 의약품 제작 -->
+<MakeFalloutJet.label>제트 x4 제작</MakeFalloutJet.label>
+<MakeFalloutJet.description>제트 마약을 제작합니다.</MakeFalloutJet.description>
+<MakeFalloutJet.jobString>제트 제작 중.</MakeFalloutJet.jobString>
+
+<MakeFalloutJet4x.label>제트 x12 제작</MakeFalloutJet4x.label>
+<MakeFalloutJet4x.description>제트 12개를 제작합니다.</MakeFalloutJet4x.description>
+<MakeFalloutJet4x.jobString>제트 제작 중.</MakeFalloutJet4x.jobString>
+
+<MakeFalloutUltraJet4x.label>울트라 제트 x4 제작</MakeFalloutUltraJet4x.label>
+<MakeFalloutUltraJet4x.description>강화된 울트라 제트를 제작합니다.</MakeFalloutUltraJet4x.description>
+<MakeFalloutUltraJet4x.jobString>울트라 제트 제작 중.</MakeFalloutUltraJet4x.jobString>
+
+<MakeFalloutUltraJet12x.label>울트라 제트 x12 제작</MakeFalloutUltraJet12x.label>
+<MakeFalloutUltraJet12x.description>울트라 제트 12개를 제작합니다.</MakeFalloutUltraJet12x.description>
+<MakeFalloutUltraJet12x.jobString>울트라 제트 제작 중.</MakeFalloutUltraJet12x.jobString>
+
+<!-- 의약품 제작 -->
+<MakeStimpak12x.label>스팀팩 x12 제작</MakeStimpak12x.label>
+<MakeStimpak12x.description>스팀팩 12개를 제작합니다.</MakeStimpak12x.description>
+<MakeStimpak12x.jobString>스팀팩 제작 중.</MakeStimpak12x.jobString>
+
+<MakeStimpakSuper12x.label>슈퍼 스팀팩 x12 제작</MakeStimpakSuper12x.label>
+<MakeStimpakSuper12x.description>강화된 스팀팩 12개를 제작합니다.</MakeStimpakSuper12x.description>
+<MakeStimpakSuper12x.jobString>슈퍼 스팀팩 제작 중.</MakeStimpakSuper12x.jobString>
+
+<MakeMed-x12x.label>메드-X x12 제작</MakeMed-x12x.label>
+<MakeMed-x12x.description>진통제 메드-X 12개를 제작합니다.</MakeMed-x12x.description>
+<MakeMed-x12x.jobString>메드-X 제작 중.</MakeMed-x12x.jobString>
+
+<!-- 특수 제제 제작 -->
+<MakeMysteriousSerum2x.label>신비한 혈청 x2 제작</MakeMysteriousSerum2x.label>
+<MakeMysteriousSerum2x.description>신비한 혈청 2개를 제작합니다.</MakeMysteriousSerum2x.description>
+<MakeMysteriousSerum2x.jobString>신비한 혈청 제작 중.</MakeMysteriousSerum2x.jobString>
+
+<MakeScorponade2x.label>스콜포네이드 x2 제작</MakeScorponade2x.label>
+<MakeScorponade2x.description>스콜포네이드 2개를 제작합니다.</MakeScorponade2x.description>
+<MakeScorponade2x.jobString>스콜포네이드 제작 중.</MakeScorponade2x.jobString>
 
 </LanguageData>
