@@ -149,4 +149,15 @@
 	</DamageDef>
 	
 
+   
+   <DamageDef ParentName="Bullet">
+		<defName>HealyFog</defName>
+		<label>Healy Fog</label>
+		<additionalHediffs>
+			<li>
+				<hediff>StimpakSuper</hediff>
+				<severityPerDamageDealt>0.9</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+	</DamageDef>
 </Defs>

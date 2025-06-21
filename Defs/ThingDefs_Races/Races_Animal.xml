@@ -795,6 +795,7 @@
 	<ThingDef ParentName="DeathclawThingBase">
 		<defName>Deathclaw</defName>
 		<label>Deathclaw</label>
+		<thingClass>Watcher.FeralPawn</thingClass>
 		<description>Imagine a cross between a T-Rex, an armored car, and your worst nightmare after three bottles of Vista Kvass. A six-foot-tall, muscular lizard with claws that can rip open Power Armor like a tin can, and skin that ignores bullets because "haha, pathetic." Throw a mini-nuke at it... and hope it didn't have a Deathclaw friend around the corner.</description>
 		<statBases>
 			<MarketValue>3050</MarketValue>

@@ -399,9 +399,10 @@
 					<minRange>32</minRange>
 					<range>700</range>
 					<burstShotCount>1</burstShotCount>
-					<soundCast>FatMan_I_hold</soundCast>
 					<muzzleFlashScale>16</muzzleFlashScale>
 					<circularError>1</circularError>
+					<soundCast>ShotFatMan</soundCast>
+                     <soundCastTail>GunTail_FatMan</soundCastTail>
 					<indirectFirePenalty>0.2</indirectFirePenalty>
 					<targetParams>
 						<canTargetLocations>true</canTargetLocations>
@@ -487,7 +488,7 @@
                 <range>30</range>
                 <burstShotCount>5</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
-                <soundCast>ShotPlasma</soundCast>
+                <soundCast>ShotPlasmaFol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -565,7 +566,7 @@
                 <defaultProjectile>Bullet_Plasma</defaultProjectile>
                 <warmupTime>0.45</warmupTime>
                 <range>48</range>
-                <soundCast>Fire_UACPistol</soundCast>
+                 <soundCast>ShotPlasmaFol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -637,7 +638,7 @@
                 <burstShotCount>2</burstShotCount>
                 <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
                 <range>60</range>
-                <soundCast>ShotPlasma</soundCast>
+                 <soundCast>ShotPlasmaFol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>
@@ -709,7 +710,7 @@
                 </targetParams>
                 <burstShotCount>30</burstShotCount>
                 <ticksBetweenBurstShots>3</ticksBetweenBurstShots>
-                <soundCast>Shot_Minigun</soundCast>
+                <soundCast>ShotMinigunPlasmaFol</soundCast>
                 <soundCastTail>GunTail_Medium</soundCastTail>
                 <muzzleFlashScale>9</muzzleFlashScale>
             </li>

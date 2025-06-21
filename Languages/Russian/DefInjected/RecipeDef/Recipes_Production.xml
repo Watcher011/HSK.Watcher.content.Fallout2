@@ -86,12 +86,12 @@
 <MakeFalloutUltraJet12x.jobString>Изготовление Ультра Винта.</MakeFalloutUltraJet12x.jobString>
 
 <!-- Крафт медицинских препаратов -->
-<MakeStimpak12x.label>Изготовить Стимпак x12</MakeStimpak12x.label>
-<MakeStimpak12x.description>Изготовить 12 стимпаков.</MakeStimpak12x.description>
+<MakeStimpak12x.label>Изготовить Стимулятор x12</MakeStimpak12x.label>
+<MakeStimpak12x.description>Изготовить 12 Стимуляторов.</MakeStimpak12x.description>
 <MakeStimpak12x.jobString>Изготовление Стимпаков.</MakeStimpak12x.jobString>
 
-<MakeStimpakSuper12x.label>Изготовить Супер Стимпак x12</MakeStimpakSuper12x.label>
-<MakeStimpakSuper12x.description>Изготовить 12 улучшенных стимпаков.</MakeStimpakSuper12x.description>
+<MakeStimpakSuper12x.label>Изготовить Супер Стимулятор x12</MakeStimpakSuper12x.label>
+<MakeStimpakSuper12x.description>Изготовить 12 улучшенных Стимуляторов.</MakeStimpakSuper12x.description>
 <MakeStimpakSuper12x.jobString>Изготовление Супер Стимпаков.</MakeStimpakSuper12x.jobString>
 
 <MakeMed-x12x.label>Изготовить Мед-Икс x12</MakeMed-x12x.label>

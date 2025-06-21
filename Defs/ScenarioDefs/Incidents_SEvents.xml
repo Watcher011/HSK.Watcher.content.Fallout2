@@ -34,7 +34,7 @@
 		<category>ThreatBig</category>
 		<minRefireDays>18</minRefireDays>
 		<earliestDay>12</earliestDay>
-		<minThreatPoints>2500</minThreatPoints>
+		<minThreatPoints>250</minThreatPoints>
 		<modExtensions>
 			<li Class="SK.ExtendedIncident">
 				<allowedTemperatureRange>15~999</allowedTemperatureRange>

@@ -54,8 +54,8 @@
 
     <HediffDef>
 		<defName>StimpakSuper</defName>
-		<label>Stimpak: super regeneration</label>  
-		<description>Stimpak super regeneration.</description>
+		<label>Super regeneration</label>  
+		<description>Super regeneration.</description>
 		<labelNoun>Stimpak: super</labelNoun>
 		<defaultLabelColor>(145,255,145)</defaultLabelColor>
 		<initialSeverity>0.35</initialSeverity>
