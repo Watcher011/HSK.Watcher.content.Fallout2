@@ -129,14 +129,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChunkSlagSteel</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
@@ -165,7 +157,6 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Pistol_Component</li>
-				<li>ChunkSlagSteel</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>
@@ -192,14 +183,6 @@
 			<Crafting>3</Crafting>
 		</skillRequirements>
 		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ChunkSlagSteel</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
 			<li>
 				<filter>
 					<thingDefs>
@@ -238,7 +221,6 @@
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ChunkSlagSteel</li>
 				<li>Weapon_Parts</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
@@ -276,14 +258,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ChunkSlagSteel</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
 						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
@@ -312,7 +286,6 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>Pistol_Component</li>
-				<li>ChunkSlagSteel</li>
 				<li>ComponentIndustrial</li>
 			</thingDefs>
 			<categories>

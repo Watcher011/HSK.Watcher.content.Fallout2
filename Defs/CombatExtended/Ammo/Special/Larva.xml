@@ -2,7 +2,7 @@
 <Defs>
 	<ThingCategoryDef>
 		<defName>AmmoLarva</defName>
-		<label>Larva</label>
+		<label>Dart</label>
 		<parent>AmmoRifles</parent>
 		<iconPath>Things/Item/DutenEggDart</iconPath>
 	</ThingCategoryDef>
@@ -14,6 +14,7 @@
 		<label>Larva Dart</label>
 		<ammoTypes>
 			<Ammo_Larva>Bullet_Larva</Ammo_Larva>
+			<Ammo_Tranquilizer>Bullet_Tranquilizer</Ammo_Tranquilizer>
 		</ammoTypes>
 	</CombatExtended.AmmoSetDef>
 	
@@ -43,6 +44,23 @@
 			<li>AmmoLarva</li>
 		</thingCategories>
 	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" Name="BaseTranquilizerShot" ParentName="SmallAmmoBase" Abstract="True">
+		<description>A standard tranquilizer, but with hospitality - your opponent is guaranteed not only a deep sleep, but also an unforgettable experience upon awakening. The active substance is a cocktail of pre-war sedatives, diluted with radiation and a pinch of desperate cynicism.</description>
+		<statBases>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<tradeTags>
+			<li>CE_AutoEnableTrade_Sellable</li>
+			<li>CE_AutoEnableCrafting</li>
+			<li>CE_AutoEnableCrafting_FueledSmithy</li>
+			<li>CE_AutoEnableCrafting_ElectricSmithy</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoLarva</li>
+		</thingCategories>
+	</ThingDef>
 
 	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseLarvaShot">
 		<defName>Ammo_Larva</defName>
@@ -56,6 +74,20 @@
 			<MarketValue>0.02</MarketValue>
 		</statBases>
 		<ammoClass>Nail</ammoClass>
+	</ThingDef>
+	
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseTranquilizerShot">
+		<defName>Ammo_Tranquilizer</defName>
+		<label>Tranquilizer</label>
+		<graphicData>
+			<texPath>Things/Ammo/Tranquilizer</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.03</MarketValue>
+		</statBases>
+		<ammoClass>TranqNonLethal</ammoClass>
 	</ThingDef>
 
 	<!-- ================== Projectiles ================== -->
@@ -89,16 +121,40 @@
 		</projectile>
 	</ThingDef>
 	
+	<ThingDef Name="TranquilizerShotBullet" ParentName="BaseBulletCE" Abstract="true">
+		<label>Tranquilizer Dart</label>
+		<graphicData>
+			<texPath>Things/Projectile/Tranquilizer</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>0.5</drawSize>
+		</graphicData>
+		<projectile>
+			<damageDef>Stab</damageDef>
+			<dropsCasings>false</dropsCasings>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef ParentName="TranquilizerShotBullet">
+		<defName>Bullet_Tranquilizer</defName>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>Tranquilizer</damageDef>
+			<speed>38</speed>
+			<damageAmountBase>1</damageAmountBase>
+			<armorPenetrationSharp>3</armorPenetrationSharp>
+			<armorPenetrationBlunt>20.18</armorPenetrationBlunt>
+		</projectile>
+	</ThingDef>
+	
 
 	<!-- ==================== Recipes ========================== -->
 
-	<RecipeDef ParentName="AmmoRecipeBase">
+	<RecipeDef>
 		<defName>MakeAmmo_Larva</defName>
 		<label>Larva Dart x50</label>
 		<description>Craft 50 Larva Dart.</description>
 		<jobString>Larva Dart.</jobString>
 		 <recipeUsers>
-	        <li>DrugLab</li>
+			<li>TableFalloutChemicalSynthesis</li>
          </recipeUsers>
 		<workAmount>400</workAmount>
 		<ingredients>
@@ -130,4 +186,52 @@
 		</products>
 	</RecipeDef>
 
+
+
+   <RecipeDef>
+		<defName>MakeAmmo_Tranquilizer</defName>
+		<label>Tranquilizer Dart x50</label>
+		<description>Craft 50 Tranquilizer Dart.</description>
+		<jobString>Tranquilizer Dart.</jobString>
+		 <recipeUsers>
+			<li>TableFalloutChemicalSynthesis</li>
+         </recipeUsers>
+		<workAmount>400</workAmount>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Yayo</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>RadScorpionPoisonGland</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>Yayo</li>
+				<li>RadScorpionPoisonGland</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_Tranquilizer>50</Ammo_Tranquilizer>
+		</products>
+	</RecipeDef>
 </Defs>

@@ -12,10 +12,14 @@
 
 (재미있는 사실: NCR이 한때 이것을 무기화하려 했으나, 관련 병기 담당자는 방사능 바퀴벌레 감염 사건과 세 명의 실종 병사 후에 위생병 업무로 재배치되었습니다.)</Ammo_Larva.description>
 
+  <Ammo_Tranquilizer.label>Tranquilizer</Ammo_Tranquilizer.label>
+  <Ammo_Tranquilizer.description>A standard tranquilizer, but with hospitality - your opponent is guaranteed not only a deep sleep, but also an unforgettable experience upon awakening. The active substance is a cocktail of pre-war sedatives, diluted with radiation and a pinch of desperate cynicism.</Ammo_Tranquilizer.description>
+
 
   <!-- Projectiles -->
 
   <Bullet_Larva.label>구더기 다트</Bullet_Larva.label>
+  <Bullet_Tranquilizer.label>Tranquilizer Dart</Bullet_Tranquilizer.label>
 
 
   <!-- 투사체 -->

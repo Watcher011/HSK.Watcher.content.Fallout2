@@ -11,8 +11,8 @@
   <TrapIED_PlasmaMineExplosive.label>IED 플라즈마 지뢰</TrapIED_PlasmaMineExplosive.label>
   <TrapIED_PlasmaMineExplosive.description>전쟁 전 누카 엔지니어들의 이 고급스러운 작품은 발을 조심하지 않는 자들을 기다립니다. 원리는 간단합니다: 설치하고 잊어버리면, 누군가(아마도 당신일 수도)가 열역학의 순간적인 교훈을 얻게 됩니다.</TrapIED_PlasmaMineExplosive.description>
 
- <TrapIED_StanMineExplosive.label>IED 스탠 마인</TrapIED_StanMineExplosive.label>
-<TrapIED_StanMineExplosive.description>"볼트-텍 스위트 드림스"라 표시된 분홍색 가스가 들어있는 깨지기 쉬운 플라스크. 폭발 시 강력한 진정제 구름을 발생시켜 적들을 잠든 좀비로 만듭니다. 부작용으로는: 통제 불가의 코골이, 갑작스러운 포옹, 모든 사람에게 자신의 어린 시절 이야기를 하고 싶은 충동 등이 포함될 수 있습니다. *슈퍼 뮤턴트에게 사용 금지 - 감상적 공격을 유발할 수 있음*</TrapIED_StanMineExplosive.description>
+  <TrapIED_StanMineExplosive.label>IED 스탠 마인</TrapIED_StanMineExplosive.label>
+  <TrapIED_StanMineExplosive.description>"볼트-텍 스위트 드림스"라 표시된 분홍색 가스가 들어있는 깨지기 쉬운 플라스크. 폭발 시 강력한 진정제 구름을 발생시켜 적들을 잠든 좀비로 만듭니다. 부작용으로는: 통제 불가의 코골이, 갑작스러운 포옹, 모든 사람에게 자신의 어린 시절 이야기를 하고 싶은 충동 등이 포함될 수 있습니다. *슈퍼 뮤턴트에게 사용 금지 - 감상적 공격을 유발할 수 있음*</TrapIED_StanMineExplosive.description>
 
 
   <!-- AI manned turrets -->

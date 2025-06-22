@@ -7,5 +7,9 @@
   <MakeAmmo_Larva.description>сделать дротики с личинкой дутней х50.</MakeAmmo_Larva.description>
   <MakeAmmo_Larva.jobString>делает дротики.</MakeAmmo_Larva.jobString>
 
+  <MakeAmmo_Tranquilizer.label>сделать дротики с транквилизатором x50</MakeAmmo_Tranquilizer.label>
+  <MakeAmmo_Tranquilizer.description>сделать дротики с транквилизатором x50.</MakeAmmo_Tranquilizer.description>
+  <MakeAmmo_Tranquilizer.jobString>делает дротики.</MakeAmmo_Tranquilizer.jobString>
+
 
 </LanguageData>

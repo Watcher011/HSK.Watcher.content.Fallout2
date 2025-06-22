@@ -49,5 +49,8 @@
   <DutenDart.label>두텐 다트</DutenDart.label>
   <DutenDart.deathMessage>{0}은(는) 화살에 맞아 사망했습니다.</DutenDart.deathMessage>
 
+  <HealyFog.label>Healy Fog</HealyFog.label>
+  <HealyFog.deathMessage>{0} has been killed.</HealyFog.deathMessage>
+
 
 </LanguageData>

@@ -68,44 +68,46 @@
   <BuildFalloutWeaponShishkebab.label>Сборка шиш кебаб</BuildFalloutWeaponShishkebab.label>
   <BuildFalloutWeaponShishkebab.description>Создает шиш кебаб.</BuildFalloutWeaponShishkebab.description>
   <BuildFalloutWeaponShishkebab.jobString>Создание шиш кебаб.</BuildFalloutWeaponShishkebab.jobString>
-<!-- Крафт наркотиков и медикаментов -->
-<MakeFalloutJet.label>Изготовить Винт x4</MakeFalloutJet.label>
-<MakeFalloutJet.description>Изготовить наркотик Винт.</MakeFalloutJet.description>
-<MakeFalloutJet.jobString>Изготовление Винта.</MakeFalloutJet.jobString>
 
-<MakeFalloutJet4x.label>Изготовить Винт x12</MakeFalloutJet4x.label>
-<MakeFalloutJet4x.description>Изготовить 12 доз Винта.</MakeFalloutJet4x.description>
-<MakeFalloutJet4x.jobString>Изготовление Винта.</MakeFalloutJet4x.jobString>
+  <MakeFalloutJet.label>Изготовить Винт x4</MakeFalloutJet.label>
+  <MakeFalloutJet.description>Изготовить наркотик Винт.</MakeFalloutJet.description>
+  <MakeFalloutJet.jobString>Изготовление Винта.</MakeFalloutJet.jobString>
 
-<MakeFalloutUltraJet4x.label>Изготовить Ультра Винт x4</MakeFalloutUltraJet4x.label>
-<MakeFalloutUltraJet4x.description>Изготовить улучшенный Ультра Винт.</MakeFalloutUltraJet4x.description>
-<MakeFalloutUltraJet4x.jobString>Изготовление Ультра Винта.</MakeFalloutUltraJet4x.jobString>
+  <MakeFalloutJet4x.label>Изготовить Винт x12</MakeFalloutJet4x.label>
+  <MakeFalloutJet4x.description>Изготовить 12 доз Винта.</MakeFalloutJet4x.description>
+  <MakeFalloutJet4x.jobString>Изготовление Винта.</MakeFalloutJet4x.jobString>
 
-<MakeFalloutUltraJet12x.label>Изготовить Ультра Винт x12</MakeFalloutUltraJet12x.label>
-<MakeFalloutUltraJet12x.description>Изготовить 12 доз Ультра Винта.</MakeFalloutUltraJet12x.description>
-<MakeFalloutUltraJet12x.jobString>Изготовление Ультра Винта.</MakeFalloutUltraJet12x.jobString>
+  <MakeFalloutUltraJet4x.label>Изготовить Ультра Винт x4</MakeFalloutUltraJet4x.label>
+  <MakeFalloutUltraJet4x.description>Изготовить улучшенный Ультра Винт.</MakeFalloutUltraJet4x.description>
+  <MakeFalloutUltraJet4x.jobString>Изготовление Ультра Винта.</MakeFalloutUltraJet4x.jobString>
 
-<!-- Крафт медицинских препаратов -->
-<MakeStimpak12x.label>Изготовить Стимулятор x12</MakeStimpak12x.label>
-<MakeStimpak12x.description>Изготовить 12 Стимуляторов.</MakeStimpak12x.description>
-<MakeStimpak12x.jobString>Изготовление Стимпаков.</MakeStimpak12x.jobString>
+  <MakeFalloutUltraJet12x.label>Изготовить Ультра Винт x12</MakeFalloutUltraJet12x.label>
+  <MakeFalloutUltraJet12x.description>Изготовить 12 доз Ультра Винта.</MakeFalloutUltraJet12x.description>
+  <MakeFalloutUltraJet12x.jobString>Изготовление Ультра Винта.</MakeFalloutUltraJet12x.jobString>
 
-<MakeStimpakSuper12x.label>Изготовить Супер Стимулятор x12</MakeStimpakSuper12x.label>
-<MakeStimpakSuper12x.description>Изготовить 12 улучшенных Стимуляторов.</MakeStimpakSuper12x.description>
-<MakeStimpakSuper12x.jobString>Изготовление Супер Стимпаков.</MakeStimpakSuper12x.jobString>
+  <MakeStimpak12x.label>Изготовить Стимулятор x12</MakeStimpak12x.label>
+  <MakeStimpak12x.description>Изготовить 12 Стимуляторов.</MakeStimpak12x.description>
+  <MakeStimpak12x.jobString>Изготовление Стимпаков.</MakeStimpak12x.jobString>
 
-<MakeMed-x12x.label>Изготовить Мед-Икс x12</MakeMed-x12x.label>
-<MakeMed-x12x.description>Изготовить 12 доз обезболивающего Мед-Икс.</MakeMed-x12x.description>
-<MakeMed-x12x.jobString>Изготовление Мед-Икс.</MakeMed-x12x.jobString>
+  <MakeStimpakSuper12x.label>Изготовить Супер Стимулятор x12</MakeStimpakSuper12x.label>
+  <MakeStimpakSuper12x.description>Изготовить 12 улучшенных Стимуляторов.</MakeStimpakSuper12x.description>
+  <MakeStimpakSuper12x.jobString>Изготовление Супер Стимпаков.</MakeStimpakSuper12x.jobString>
 
-<!-- Крафт специальных препаратов -->
-<MakeMysteriousSerum2x.label>Изготовить Таинственную Сыворотку x2</MakeMysteriousSerum2x.label>
-<MakeMysteriousSerum2x.description>Изготовить 2 дозы загадочной сыворотки.</MakeMysteriousSerum2x.description>
-<MakeMysteriousSerum2x.jobString>Изготовление Таинственной Сыворотки.</MakeMysteriousSerum2x.jobString>
+  <MakeMed-x12x.label>Изготовить Мед-Икс x12</MakeMed-x12x.label>
+  <MakeMed-x12x.description>Изготовить 12 доз обезболивающего Мед-Икс.</MakeMed-x12x.description>
+  <MakeMed-x12x.jobString>Изготовление Мед-Икс.</MakeMed-x12x.jobString>
 
-<MakeScorponade2x.label>Изготовить Скорпонад x2</MakeScorponade2x.label>
-<MakeScorponade2x.description>Изготовить 2 скорпонады.</MakeScorponade2x.description>
-<MakeScorponade2x.jobString>Изготовление Скорпонад.</MakeScorponade2x.jobString>
+  <MakeMysteriousSerum2x.label>Изготовить Таинственную Сыворотку x2</MakeMysteriousSerum2x.label>
+  <MakeMysteriousSerum2x.description>Изготовить 2 дозы загадочной сыворотки.</MakeMysteriousSerum2x.description>
+  <MakeMysteriousSerum2x.jobString>Изготовление Таинственной Сыворотки.</MakeMysteriousSerum2x.jobString>
 
+  <MakeScorponade2x.label>Изготовить Скорпонад x2</MakeScorponade2x.label>
+  <MakeScorponade2x.description>Изготовить 2 скорпонады.</MakeScorponade2x.description>
+  <MakeScorponade2x.jobString>Изготовление Скорпонад.</MakeScorponade2x.jobString>
+
+
+  <!-- Крафт наркотиков и медикаментов -->
+  <!-- Крафт медицинских препаратов -->
+  <!-- Крафт специальных препаратов -->
 
 </LanguageData>
