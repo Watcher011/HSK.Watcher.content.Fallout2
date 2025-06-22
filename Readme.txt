@@ -1,5 +1,5 @@
 
-Версия - 0,31
+Версия - 0,32
 -*-
 Оружие
 Pipe shooter
@@ -65,6 +65,8 @@ Super sledge
 -*-
 снаряды
 FatManShell
+Maggot Dart
+Tranquilizer Dart
 -*-
 генератор
 Vault-Tec Portable "ElectroBuddy" Generator
