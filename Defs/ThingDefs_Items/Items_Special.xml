@@ -52,7 +52,7 @@
 			<BurnDurationHours>1000.0</BurnDurationHours>
 		</statBases>
 		<recipeMaker>
-        	<researchPrerequisite>Electronics_C2</researchPrerequisite>
+        	<researchPrerequisite>MicroelectronicsBasics</researchPrerequisite>
 			<workSpeedStat>SmithingSpeed</workSpeedStat>
 			<effectWorking>Cook</effectWorking>
 			<soundWorking>Recipe_Machining</soundWorking>
@@ -76,7 +76,6 @@
 				<energyWhenConsumed>1.0</energyWhenConsumed>
 			</li>
 		</comps>
-		
 		<thingCategories>
 			<li>Manufactured</li>
 		</thingCategories>

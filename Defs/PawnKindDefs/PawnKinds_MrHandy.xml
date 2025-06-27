@@ -28,7 +28,11 @@
 			<li>ADS1</li>
 			<li>ADR2</li>
 		</weaponTags>
-	
+	    <xenotypeSet>
+      <xenotypeChances>
+        <MisterHandy>999</MisterHandy>
+      </xenotypeChances>
+      </xenotypeSet>
 		<modExtensions>
 			<li Class="CombatExtended.LoadoutPropertiesExtension">
 				<primaryMagazineCount>

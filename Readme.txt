@@ -77,8 +77,10 @@ Production Workbench
 Printer VT-X7"SHELTER MAKER"
 ColaBasin
 Campfire wastelands
-VaultLamp
 CommsConsole
+-*-
+Vault Lamp
+Survivor's Lantern
 -*-
 напитки
 Nuka-Cola

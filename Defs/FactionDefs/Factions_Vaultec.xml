@@ -35,8 +35,21 @@
 		</allowedCultures>
 		<disallowedMemes>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
-			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginIslamic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginHindu</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginBuddhist</li>
 		</disallowedMemes>
 		<disallowedPrecepts>
 			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
@@ -84,14 +97,22 @@
 				<li>Leathers</li>
 			</categories>
 			<thingDefs>
+				<li>WoodPlank</li>
+				<li>Cloth</li>
+				<li>WoolMuffalo</li>
+				<li>WoolDromedary</li>
+				<li>WoolAlpaca</li>
+				<li>HempCloth</li>
+				<li>WoolSheep</li>
+				<li>Bronze</li>
+				<li>SteelBar</li>
 				<li>DevilstrandCloth</li>
 				<li>Kevlar</li>
-				<li>ChitinPlating</li>
 				<li>Synthread</li>
 				<li>Hyperweave</li>
 				<li>FerrosiliconAlloy</li>
 				<li>CupronickelAlloy</li>
-				<li>SteelBar</li>
+				<li>Plasteel</li>
 				<li>AlnicoAlloy</li>
 				<li>StelliteAlloy</li>
 			</thingDefs>

@@ -137,6 +137,82 @@
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	</ThingDef>
 	
+		<ThingDef ParentName="SK_LampBase">
+		<defName>Constructionlamp</defName>
+		<label>Survivor's Lantern</label>
+		<description>In a world of perpetual resource shortages, constant pirate raids, and a chronic lack of decent furniture, the "Survivor's Lantern™" isn’t just a lamp—it’s your new best friend, space heater, and potential weapon all in one!</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Lights/LampF</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1,1)</drawSize>
+			<shadowData>
+				<volume>(0.2, 0.1, 0.2)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<fillPercent>0</fillPercent>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<rotatable>true</rotatable>
+		<pathCost>20</pathCost>
+		<tickerType>Normal</tickerType>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>30</costStuffCount>
+		<costList>
+			<Glass>3</Glass>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ElectronicComponents>1</ElectronicComponents>
+		</costList>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<Beauty>9</Beauty>
+			<WorkToBuild>310</WorkToBuild>
+			<Bulk>12</Bulk>
+			<Mass>4</Mass>
+			<Cleanliness>0</Cleanliness>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">6</StyleDominance>
+		</statBases>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>3.5</heatPerSecond>
+				<heatPushMaxTemperature>15</heatPushMaxTemperature>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>9</glowRadius>
+				<glowColor>(217,217,208,0)</glowColor>
+			</li>
+				<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>80</basePowerConsumption>
+				<shortCircuitInRain>false</shortCircuitInRain>
+				<soundPowerOn>Power_OnSmall</soundPowerOn>
+				<soundPowerOff>Power_OffSmall</soundPowerOff>
+				<powerUpgrades>
+					<li>
+						<researchProject>ColoredLights</researchProject>
+						<factor>0.7</factor>
+					</li>
+				</powerUpgrades>
+			</li>
+		</comps>
+		<building>
+			<uninstallWork>300</uninstallWork>
+		</building>
+		 <altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<researchPrerequisites>
+			<li>Light_B1</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
 	
 	<ThingDef ParentName="BuildingBase">
     <defName>CommsConsole</defName>
@@ -211,7 +287,7 @@
       <li>PlaceWorker_PreventInteractionSpotOverlap</li>
     </placeWorkers>
     <researchPrerequisites>
-      <li>MicroelectronicsBasics</li>
+      <li>Telecommunications_C1</li>
     </researchPrerequisites>
 	<thingCategories>
 			<li>BuildingsMisc</li>

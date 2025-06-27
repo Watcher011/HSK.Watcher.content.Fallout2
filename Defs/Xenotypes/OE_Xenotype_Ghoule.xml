@@ -100,5 +100,22 @@
 	   <li>Sterile</li>
     </genes>
   </XenotypeDef>
+  
+   <XenotypeDef>
+    <defName>MisterHandy</defName>
+    <label>Mister Handy</label>
+    <description>-/-</description>
+    <descriptionShort>With gray skin.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/MH</iconPath>
+    <inheritable>true</inheritable>
+    <nameMaker>NamerPersonDirtmole_Male</nameMaker>
+    <nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+    <chanceToUseNameMaker>1</chanceToUseNameMaker>
+    <genes>
+      <li>Skin_LightGray</li>
+	   <li>Beard_NoBeardOnly</li>
+	    <li>Hair_BaldOnly</li>
+    </genes>
+  </XenotypeDef>
 
 </Defs>

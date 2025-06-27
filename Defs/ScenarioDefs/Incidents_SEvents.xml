@@ -47,7 +47,7 @@
 	
 	
 	
-		<IncidentDef>
+	<IncidentDef>
 		<defName>RadroachEaters</defName>
 		<label>Radroach eaters</label>
 		<category>Misc</category>
@@ -55,13 +55,15 @@
 			<li>Map_PlayerHome</li>
 		</targetTags>
 		<workerClass>Watcher.Events.IncidentWorker_HungryRadroach</workerClass>
-		<earliestDay>5</earliestDay>
-		<baseChance>0.4</baseChance>
-		<minRefireDays>30</minRefireDays>
+		<baseChance>2.0</baseChance>
+		<minRefireDays>18</minRefireDays>
+		<earliestDay>12</earliestDay>
+		<minThreatPoints>250</minThreatPoints>
 		<modExtensions>
 			<li Class="SK.ExtendedIncident">
-				<allowedTemperatureRange>-10~999</allowedTemperatureRange>
+					<allowedTemperatureRange>15~999</allowedTemperatureRange>
 				<!-- current map temperature-->
+				<allowedAverageBiomeTemperature>15~999</allowedAverageBiomeTemperature>
 			</li>
 		</modExtensions>
 	</IncidentDef>

@@ -53,6 +53,9 @@
 		<defName>Ammo_FatManShell_NHE</defName>
 		<label>Nuclear shot</label>
 		<description>This type is characterized by greater destructive power and radiation pollution. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</description>
+		<thingCategories>
+			<li>AmmoFatManShells</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Projectile/FatMan/FM</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -68,6 +71,9 @@
 		<defName>Ammo_FatManShell_FGM</defName>
 		<label>Piggy Boomba</label>
 		<description>Saving up can be explosive!Remember: In a world where caps are currency, the safest bank is a pig flying straight into your rivals’ faces!" —Anonymous slaver promoting "financial literacy.</description>
+		<thingCategories>
+			<li>AmmoFatManShells</li>
+		</thingCategories>
 		<graphicData>
 			<texPath>Things/Projectile/FatMan/FMP</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
