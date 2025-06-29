@@ -1,5 +1,5 @@
 
-Версия - 0,32
+Версия - 0,34
 -*-
 Оружие
 Pipe shooter
@@ -42,7 +42,9 @@ Mr.Handy Kit
 Strange pack(F.E.V.)
 Rad Scorpion Poison
 PlanD
-Blowfly hive
+Blowfly hive(для квеста)
+Nest Of Monsters(для квеста)
+Nest Of Rad Scorpion(для квеста)
 -*-
 плоды растений 
 raw Mutfruit
@@ -71,6 +73,7 @@ Tranquilizer Dart
 генератор
 Vault-Tec Portable "ElectroBuddy" Generator
 Vault-Tec Mark III generator
+Broken Reactor Vault-Tec(декоративный для квестов)
 -*-
 верстаки/постройки
 Production Workbench
@@ -81,6 +84,7 @@ CommsConsole
 -*-
 Vault Lamp
 Survivor's Lantern
+Construction lamp
 -*-
 напитки
 Nuka-Cola
@@ -126,9 +130,10 @@ Porridge
 Ксенотип
 OE_Ghoul
 Super mutant
+MisterHandy
 -*-
 Фракция
-Vaultec
+Vaultec(сломан торговец)
 Enclave
 -*-
 одежда
@@ -145,8 +150,11 @@ Pip-Boy
 сценарий
 Shelter residents(easy start)
 -*-
+миссии 
+Abandoned Shelter
+-*-
 ивенты
-DeathclawPasses - прибытие когтя смерти
-DutenSwarm - рой дутней
-Electric Shock Explosion
-Radroach eaters
+DeathclawPasses - прибытие когтя смерти(работает)
+DutenSwarm - рой дутней(сломано ,непонятен тригер призыва)
+Electric Shock Explosion(работает)
+Radroach eaters(сломано ,непонятен тригер призыва)

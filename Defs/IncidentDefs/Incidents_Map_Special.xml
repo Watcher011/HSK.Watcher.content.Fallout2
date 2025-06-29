@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <IncidentDef>
+    <defName>GiveQuest_AncientComplex_AbandonedShelter</defName>
+    <category>GiveQuest</category>
+    <label>ancient Abandoned Shelter</label>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <letterLabel>ancient Abandoned Shelter</letterLabel>
+    <questScriptDef>OpportunitySite_AncientComplex_AbandonedShelter</questScriptDef>
+    <workerClass>IncidentWorker_GiveQuest</workerClass>
+	 <minRefireDays>75</minRefireDays>
+    <baseChance>1</baseChance>
+    <earliestDay>45</earliestDay>
+    <requireColonistsPresent>True</requireColonistsPresent>
+  </IncidentDef>
+
+ 
+</Defs>

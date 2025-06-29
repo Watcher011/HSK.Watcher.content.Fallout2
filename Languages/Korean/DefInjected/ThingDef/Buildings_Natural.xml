@@ -4,5 +4,11 @@
   <HiveBlowfly.label>Blowfly 벌집</HiveBlowfly.label>
   <HiveBlowfly.description>Blowfly의 벌집입니다. 활성화되면 시간이 지남에 따라 추가 곤충과 벌집이 생성되고, 귀중한 곤충 젤리도 생성됩니다.</HiveBlowfly.description>
 
+  <NestOfMonsters.label>Nest Of Monsters</NestOfMonsters.label>
+  <NestOfMonsters.description>Contains Deathclaw eggs - deadly creatures ready to hatch at any moment.</NestOfMonsters.description>
+
+  <NestOfRadScorpion.label>Nest Of RadScorpion</NestOfRadScorpion.label>
+  <NestOfRadScorpion.description>Contains RadScorpion eggs - deadly creatures ready to hatch at any moment.</NestOfRadScorpion.description>
+
 
 </LanguageData>

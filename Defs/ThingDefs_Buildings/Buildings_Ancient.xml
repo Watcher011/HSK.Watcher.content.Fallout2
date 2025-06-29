@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>  
+
+
+  <ThingDef ParentName="AncientMechBuildingBase">
+    <defName>AncientVaulttechgenerator</defName>
+    <label>Ancient Vault-Tec generator</label>
+    <description>An ancient Vault-Tec generator. Valuable parts are missing, and everything else is degraded to uselessness.</description>
+    <rotatable>true</rotatable>
+	 <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Building/Power/Generator/AncientVaulttechgenerator/AncientVaulttechgenerator</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(5,4)</drawSize>
+      <shadowData>
+        <volume>(3, 2, 1.9)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(3,2)</size>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+    </statBases>
+	  <killedLeavings>
+            <Rubber>40</Rubber>
+			<Mechanism>5</Mechanism>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<NuclearBattery>3</NuclearBattery>
+    </killedLeavings>
+	 <comps>
+     <li Class="CompProperties_Spawner">
+				<thingToSpawn>CosmicRAD</thingToSpawn>
+				<spawnCount>3</spawnCount>
+				<spawnIntervalRange>6000~9000</spawnIntervalRange>
+				<spawnMaxAdjacent>40</spawnMaxAdjacent>
+				<spawnForbidden>true</spawnForbidden>
+				<saveKeysPrefix>Rad</saveKeysPrefix>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>5</glowRadius>
+				<glowColor>(17,212,33,0)</glowColor>
+			</li>
+	   <li Class="SK.CompProperties_ApplyHediffAround">
+		<hediff>RimatomicsRadiation</hediff>
+		<radius>5</radius>
+		<severityToAdd>0.005</severityToAdd>
+	  </li>
+    </comps>
+  </ThingDef>
+
+
+</Defs>

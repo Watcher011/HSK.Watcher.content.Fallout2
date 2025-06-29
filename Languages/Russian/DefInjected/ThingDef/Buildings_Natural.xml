@@ -4,5 +4,11 @@
   <HiveBlowfly.label>Улей дутней</HiveBlowfly.label>
   <HiveBlowfly.description>Улей дутней. Если активировать, со временем появятся дополнительные насекомые и ульи, а также ценное желе из насекомых.</HiveBlowfly.description>
 
+  <NestOfMonsters.label>Гнездо чудовищ</NestOfMonsters.label>
+  <NestOfMonsters.description>Содержит яйца Когтей Смерти - смертоносных существ, готовых вылупиться в любой момент.</NestOfMonsters.description>
+
+  <NestOfRadScorpion.label>Гнездо радискорпионов</NestOfRadScorpion.label>
+  <NestOfRadScorpion.description>Содержит яйца радискорпионов - смертоносных существ, готовых вылупиться в любой момент.</NestOfRadScorpion.description>
+
 
 </LanguageData>

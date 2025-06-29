@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SitePartDef>
+    <defName>AncientComplex_AbandonedShelter</defName>
+    <label>ancient abandoned Shelter</label>
+    <description>a long-abandoned Vault-Tec shelter, hidden somewhere in the irradiated wasteland. Once, this place buzzed with life (well, as much as possible in an underground bunker where people willingly locked themselves away for centuries, hoping to outlast the apocalypse).
+According to archived records, this vault was home to "groundbreaking experiments" in creating the perfect society. But, as usual with Vault-Tec, things didn’t go as planned. Now, chaos reigns: deranged Robobrains enforce skeletal "workers" on assembly lines, and the last survivors have either gone mad or mutated into something… interesting.
+If you dare to break in, you might recover priceless pre-War technology. But be warned—aside from the usual traps and angry mutants, you might face the most terrifying threat of all: pre-War corporate bureaucracy.
+And yes, poking around the vault will almost certainly draw attention from local "enthusiasts"—raiders, stalkers, or worse, the fanatics of the Cult of Atom. Good luck, and remember… war… war never changes.</description>
+    <workerClass>SitePartWorker_AncientComplex</workerClass>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>World/WorldObjects/Expanding/VaultecAbandonedShelter</expandingIconTexture>
+    <approachOrderString>Investigate {0}</approachOrderString>
+    <approachingReportString>Investigate {0}</approachingReportString>
+    <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
+    <wantsThreatPoints>true</wantsThreatPoints>
+    <minMapSize>(200, 1, 200)</minMapSize>
+    <tags>
+      <li>AncientComplex_AbandonedShelter</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>AncientComplex_AbandonedShelter</defName>
+    <linkWithSite>AncientComplex_AbandonedShelter</linkWithSite>
+    <order>330</order>
+    <genStep Class="Watcher.Quest.GenStep_AncientComplex_AbandonedShelter" />
+  </GenStepDef>
+
+
+</Defs>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ComplexThreatDef Name="SleepingMonsters" ParentName="SleepingThreat">
+    <defName>SleepingMonsters</defName>
+    <workerClass>Watcher.Quest.RoomContentsSleepingMonster</workerClass>
+    <minPoints>90000</minPoints>
+	 <faction>Monster</faction>
+  </ComplexThreatDef>
+
+
+
+</Defs>

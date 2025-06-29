@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<FactionDef ParentName="SK_FactionBase">
+		<defName>Monster</defName>
+		<label>Lair of monsters</label>
+		<description>Deep underground, in the musty corridors of Vault, something terrifying has taken up residence. Once a place teeming with life, with steel doors protecting the inhabitants from a nuclear apocalypse, the vault is now home to nightmarish creatures mutated by years of isolation..</description>
+		<pawnsPlural>Monsters</pawnsPlural>
+		<pawnSingular>Monster</pawnSingular>
+		<requiredCountAtGameStart>1</requiredCountAtGameStart>
+		<fixedName>Monsters</fixedName>		
+		<factionIconPath>World/WorldObjects/Expanding/Insects</factionIconPath>
+		<humanlikeFaction>false</humanlikeFaction>
+		<hidden>true</hidden>
+		<autoFlee>false</autoFlee>
+		<canSiege>false</canSiege>
+		<canUseAvoidGrid>false</canUseAvoidGrid>
+		<earliestRaidDays>255</earliestRaidDays>
+		<techLevel>Animal</techLevel>
+		<permanentEnemy>true</permanentEnemy>
+		<attackersDownPercentageRangeForAutoFlee>1</attackersDownPercentageRangeForAutoFlee>
+		<colorSpectrum>
+		  <li>(0.44, 0.41, 0.32)</li>
+		  <li>(0.61, 0.58, 0.49)</li>
+		  <li>(0.60, 0.49, 0.36)</li>
+		</colorSpectrum>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(50, 0.7)</li>
+				<li>(5000, 0.75)</li>
+				<li>(10000, 0.85)</li>
+				<li>(15000, 1.05)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 200)</li>
+				<li>(2000, 230)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<disallowedStrategies>
+					<li>ImmediateAttackSappers</li>	
+				</disallowedStrategies>
+				<options>
+					<Duten>30</Duten>
+					<GlowingRadroach>35</GlowingRadroach>
+					<Deathclaw>30</Deathclaw>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<allowedArrivalTemperatureRange>-10~60</allowedArrivalTemperatureRange>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>82</configurationListOrderPriority>
+	</FactionDef>
+
+</Defs>

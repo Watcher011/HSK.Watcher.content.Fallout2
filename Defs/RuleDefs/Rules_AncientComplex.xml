@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs> 
+
+  <RuleDef>
+    <defName>AncientComplex_AbandonedShelter</defName>
+    <symbol>ancientShelterComplex</symbol>
+    <resolvers>
+      <li Class="Watcher.Quest.SymbolResolver_AncientComplex_AbandonedShelter">
+        <minRectSize>(18, 18)</minRectSize>
+      </li>
+    </resolvers>
+  </RuleDef>
+
+</Defs>
