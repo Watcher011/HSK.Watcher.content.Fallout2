@@ -659,10 +659,21 @@
 
 
 
+<PawnKindDef Name="VaultecTraderBase" Abstract="True">
+    <race>Human</race>
+   <defaultFactionType>Vaultec</defaultFactionType>
+    <chemicalAddictionChance>0.05</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0.05</backstoryCryptosleepCommonality>
+    <invNutrition>2.55</invNutrition>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+      <li>IndustrialAdvanced</li>
+    </apparelTags>
+  </PawnKindDef>
 
 
-<PawnKindDef ParentName="VaultecBase" Name="TraderBase">
-    <defName>Vaultec_Trader</defName>
+<PawnKindDef ParentName="VaultecTraderBase" Name="TraderBase">
+    <defName>Vaultec_Trader_liquidator</defName>
     <label>Trader Vaultec</label>
     <trader>true</trader>
     <combatPower>45</combatPower>
@@ -673,7 +684,6 @@
       <li>VaultecGun</li>
     </weaponTags>
     <weaponMoney>2600~12000</weaponMoney>
-    <apparelMoney>400~1600</apparelMoney>
     <techHediffsChance>0.15</techHediffsChance>
     <techHediffsMoney>600~1500</techHediffsMoney>
     <techHediffsTags>
@@ -684,11 +694,6 @@
     </techHediffsTags>
     <initialWillRange>2~4</initialWillRange>
     <initialResistanceRange>12~20</initialResistanceRange>
-    <xenotypeSet>
-      <xenotypeChances>
-        <Highmate MayRequire="Ludeon.RimWorld.Biotech">0.04</Highmate>
-      </xenotypeChances>
-    </xenotypeSet>
   </PawnKindDef>
   
   

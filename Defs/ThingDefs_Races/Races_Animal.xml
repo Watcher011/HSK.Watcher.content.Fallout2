@@ -620,9 +620,6 @@
 			<FilthRate>3</FilthRate>
 			<ToxicResistance>1</ToxicResistance>
 		</statBases>
-		<tradeTags>
-			<li>AnimalVaultec</li>
-	   </tradeTags>
 		<butcherProducts>
 			<RadHemogenPack>2</RadHemogenPack>
 			<RadMeat>50</RadMeat>
@@ -768,9 +765,6 @@
 				<MinArmorPct>0.75</MinArmorPct>
 			</li>
     </comps>
-		<tradeTags>
-			<li>AnimalVaultec</li>
-	   </tradeTags>
 		<modExtensions>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
 				<bodyShape>QuadrupedLow</bodyShape>

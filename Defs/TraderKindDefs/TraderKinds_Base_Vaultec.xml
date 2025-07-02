@@ -469,7 +469,7 @@
 
 
   <TraderKindDef>
-    <defName>Caravan_Vaultec_BulkGoods</defName>
+    <defName>Caravan_Vaultec_Main</defName>
    <label>Shelter Trader☢</label>
     <stockGenerators>
 

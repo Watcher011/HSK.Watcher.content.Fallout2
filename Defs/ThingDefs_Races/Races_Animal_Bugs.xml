@@ -339,7 +339,8 @@
 			<SmokeSensitivity>0.5</SmokeSensitivity>
 			<GermResistance>0.55</GermResistance>
 			<GermContainment>0.01</GermContainment>
-			<ToxicResistance>0.8</ToxicResistance>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
 		</statBases>
 		<verbs>
 		 
@@ -382,14 +383,6 @@
 		</comps>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
-				<label>mouth</label>
-				<power>10</power>
-				<cooldownTime>1.8</cooldownTime>
-				<linkedBodyPartsGroup>Mouth</linkedBodyPartsGroup>
-				<armorPenetrationSharp>1.2</armorPenetrationSharp>
-				<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
-			</li>
-			<li Class="CombatExtended.ToolCE">
 				<label>head</label>
 				<power>10</power>
 				<cooldownTime>1.65</cooldownTime>
@@ -398,6 +391,25 @@
 				<chanceFactor>0.2</chanceFactor>
 				<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
 			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>25</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>1.2</chanceFactor>
+				<armorPenetrationSharp>1.6</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.4</armorPenetrationBlunt>
+			</li>
 		</tools>
 		<butcherProducts>
 			<Chitin>3</Chitin>
@@ -405,8 +417,9 @@
 			<RadMeat>1</RadMeat>
 		</butcherProducts>
 		<race>
-			<body>BeetleLike</body>
+			<body>BeetleLikeWithClaw</body>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
+			 <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
 			<baseHungerRate>0.5</baseHungerRate>
 			<baseBodySize>0.8</baseBodySize>
 			<baseHealthScale>0.2</baseHealthScale>
@@ -441,6 +454,9 @@
 			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
 			<soundEating>Insectoid_Eat</soundEating>
+			<hediffGiverSets>
+				<li>ThickPassiveSet</li>
+			</hediffGiverSets>
 		</race>
 		<modExtensions>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
@@ -453,6 +469,9 @@
 		<defName>Duten</defName>
 		<label>Duten</label>
 		<race>Duten</race>
+		 <!--<abilities>
+         <li>AcidSpray</li>
+         </abilities>-->
 		<combatPower>15</combatPower>
 		<ecoSystemWeight>0.03</ecoSystemWeight>
 		<wildGroupSize>2~9</wildGroupSize>

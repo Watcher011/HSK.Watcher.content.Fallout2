@@ -422,6 +422,7 @@
 		<description>Blowfly Larva</description>
 		<hediffClass>HediffWithComps</hediffClass>
 		<makesSickThought>false</makesSickThought>
+		 <scenarioCanAdd>false</scenarioCanAdd>
 		<lethalSeverity>1</lethalSeverity>
 		
 		<tendable>true</tendable>

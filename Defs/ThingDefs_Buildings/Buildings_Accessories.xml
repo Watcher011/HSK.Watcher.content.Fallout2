@@ -249,10 +249,15 @@
       <destroySound>BuildingDestroyed_Metal_Big</destroySound>
 	  <isEdifice>false</isEdifice>
     </building>
-    <costList>
-      <Steel>120</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
-    </costList>
+      <stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>60</costStuffCount>
+		<costList>
+			<Glass>15</Glass>
+			<Electronics>5</Electronics>
+			<ComponentIndustrial>5</ComponentIndustrial>
+		</costList>
     <interactionCellOffset>(0,0,1)</interactionCellOffset>
     <hasInteractionCell>true</hasInteractionCell>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>

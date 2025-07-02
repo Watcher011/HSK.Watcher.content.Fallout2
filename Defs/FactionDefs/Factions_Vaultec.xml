@@ -70,7 +70,7 @@
 			<li>Base_Vaultec_Standard</li>
 		</baseTraderKinds>
 		 <caravanTraderKinds>
-          <li>Caravan_Vaultec_BulkGoods</li>
+          <li>Caravan_Vaultec_Main</li>
         </caravanTraderKinds>
 		<allowedArrivalTemperatureRange>-65~45</allowedArrivalTemperatureRange>
 		<raidLootMaker>VaultecRaidLootMaker</raidLootMaker>
@@ -171,20 +171,22 @@
 				</options>
 			</li>
 	   <li>
-        <kindDef>Trader</kindDef>
+          <kindDef>Trader</kindDef>
         <traders>
-          <Vaultec_Trader>1</Vaultec_Trader>
+          <Empire_Common_Trader>1</Empire_Common_Trader>
         </traders>
         <carriers>
-          <Brahmin>6</Brahmin>
+          <Muffalo>6</Muffalo>
+		   <Brahmin>6</Brahmin>
           <Dromedary>5</Dromedary>
-          <Alpaca>2.5</Alpaca>
-          <Elephant>2</Elephant>
+          <Alpaca>2</Alpaca>
+          <Elephant>1</Elephant>
         </carriers>
         <guards>
-          <VaultecScout>3</VaultecScout>
-		  <VaultecRanger>4</VaultecRanger>
-		   <Cyberdog>2</Cyberdog>
+         	<VaultecScout>30</VaultecScout>
+			<VaultecRanger>24</VaultecRanger>
+			<VaultecOfficer>20</VaultecOfficer>
+			<VaultecCorporal>18</VaultecCorporal>
         </guards>
       </li>
 	  

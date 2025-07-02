@@ -81,5 +81,10 @@
 		<earliestDay>16</earliestDay>
 		<minRefireDays>20</minRefireDays>
 		<pointsScaleable>false</pointsScaleable>
+		
+		
 	</IncidentDef>
+	
+		
+
 </Defs>
