@@ -1,5 +1,5 @@
 
-Версия - 0,35
+Версия - 0,36
 -*-
 Оружие
 Pipe shooter
@@ -24,7 +24,7 @@ Portable Tesla Cannon "Thunder Maker"
 Syringer shooter
 -*-
 Мины
-IED Lid Mine
+IED Lid Mine 
 IED plasma Mine
 IED Pig Mine
 -*-
