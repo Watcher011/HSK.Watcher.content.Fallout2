@@ -8,5 +8,13 @@
   <MisterHandy.tools.1.label>오른쪽 칼날 주먹</MisterHandy.tools.1.label>
   <MisterHandy.tools.2.label>헤드</MisterHandy.tools.2.label>
 
+  <MisterGutsy.label>미스터 굿시</MisterGutsy.label>
+<MisterGutsy.description>미스터 굿시는 군인의 이상형이 가학적인 하사관, 커피 머신, 그리고 전차의 혼종일 때 완벽한 병사입니다. 예의는 약점의 표시라고 믿던 군 관계자들을 위해 만들어진 이 용감한 로봇은 "규정 외 외모"라는 이유로 아군을 사격하라는 명령조차 마다하지 않습니다.</MisterGutsy.description>
+<MisterGutsy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>외피</MisterGutsy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+<MisterGutsy.tools.0.label>좌측 블레이드 피스트</MisterGutsy.tools.0.label>
+<MisterGutsy.tools.1.label>우측 블레이드 피스트</MisterGutsy.tools.1.label>
+<MisterGutsy.tools.2.label>헤드 유닛</MisterGutsy.tools.2.label>
+<MisterGutsy.verbs.0.label>다트 발사</MisterGutsy.verbs.0.label>
+
 
 </LanguageData>

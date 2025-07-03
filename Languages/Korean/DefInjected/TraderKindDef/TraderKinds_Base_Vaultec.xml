@@ -3,7 +3,9 @@
 
   <Base_Vaultec_Standard.label>볼텍 도매업체</Base_Vaultec_Standard.label>
   <Visitor_Vaultec_Standard.label>볼텍 상인</Visitor_Vaultec_Standard.label>
-  <Caravan_Vaultec_BulkGoods.label>셸터 상인☢</Caravan_Vaultec_BulkGoods.label>
+  <Caravan_Vaultec_Main.label>볼트텍 쉘터 행상☢</Caravan_Vaultec_Main.label>
 
+
+  <!--<Caravan_Vaultec_BulkGoods.label>셸터 상인☢</Caravan_Vaultec_BulkGoods.label>-->
 
 </LanguageData>

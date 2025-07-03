@@ -19,7 +19,6 @@
   <Duten.description>방사능 창조물의 걸작품. 한때는 평범한 파리였으나, 이제는 황무지의 위생 기준을 완전히 무시하는 비행(또는 기어다니는) 재앙입니다.</Duten.description>
   <Duten.verbs.0.label>유충 발사</Duten.verbs.0.label>
   <Duten.tools.0.label>mouth</Duten.tools.0.label>
-  <Duten.tools.1.label>head</Duten.tools.1.label>
 
   <GlowingRadroach.label>발광 방사능 바퀴벌레</GlowingRadroach.label>
   <GlowingRadroach.description>발광 방사능 바퀴벌레 2.0 - 이제 더 약한 야간 발광과 벙커까지 직접 전달되는 적당한 방사능을 갖췄습니다! 이 불타는 돌연변이는 단순한 벌레가 아니라, 6개의 다리를 가진 자율형 원자로로, 여러분에게 이온화된 열과 아포칼립스의 고급스러운 소파를 아낌없이 나눠줍니다.
@@ -29,5 +28,7 @@
   <GlowingRadroach.tools.0.label>입</GlowingRadroach.tools.0.label>
   <GlowingRadroach.tools.1.label>머리</GlowingRadroach.tools.1.label>
 
+
+  <!--<Duten.tools.1.label>head</Duten.tools.1.label>-->
 
 </LanguageData>

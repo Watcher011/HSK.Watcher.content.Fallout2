@@ -273,7 +273,44 @@
 		</comps>
 	</ThingDef>
 	
-	
+	<ThingDef ParentName="ResourceBase">
+		<defName>MisterGutsyKit</defName>
+		<label>Mr.Gutsy Kit</label>
+        <thingClass>ThingWithComps</thingClass>
+        <description>Mr.Gutsy  Kit and Instructions</description>
+		<graphicData>
+			<texPath>Things/Item/MisterGutsy</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>2375</MarketValue>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Mass>110.0</Mass>
+		</statBases>
+		<thingCategories>
+			<li>Items</li>
+		</thingCategories>
+		<tradeability>All</tradeability>
+		<techLevel>Spacer</techLevel>
+		<tradeTags>
+			<li>VaulTec</li>
+		</tradeTags>
+		<comps>
+			<li Class="CompProperties_Usable">
+				<useJob>UseItem</useJob>
+				<useLabel>Assemble Mr.Gutsy</useLabel>
+				<useDuration>600</useDuration>
+			</li>
+			<li Class="Androids.CompProperties_SpawnPawn">
+				<compClass>Androids.CompUseEffect_SpawnDroid</compClass>
+				<pawnKind>MisterGutsyColonist</pawnKind>
+			</li>
+			<li Class="CompProperties_UseEffectDestroySelf" />
+		</comps>
+	</ThingDef>
 	
 	
 	

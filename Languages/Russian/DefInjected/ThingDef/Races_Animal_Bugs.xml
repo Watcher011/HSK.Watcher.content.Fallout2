@@ -17,7 +17,6 @@
   <Duten.description>Этот шедевр радиационного творчества когда-то был обычной мухой. Теперь это ходячее (точнее, летающее) нарушение всех санитарных норм Пустошей.</Duten.description>
   <Duten.verbs.0.label>выпустить личинку</Duten.verbs.0.label>
   <Duten.tools.0.label>mouth</Duten.tools.0.label>
-  <Duten.tools.1.label>head</Duten.tools.1.label>
 
   <GlowingRadroach.label>Светящийся Радтаркан</GlowingRadroach.label>
   <GlowingRadroach.description>Светящийся Радтаркан 2.0 — теперь с уменьшенной ночной подсветкой и достойной доставкой радиации прямиком в ваш бункер! Этот огненный мутант — не просто жук, а целый автономный реактор на шести ногах, щедро делящийся с вами ионизирующим теплом и роскошным диваном Апокалипсиса.
@@ -30,5 +29,7 @@
   <GlowingRadroach.tools.0.label>рот</GlowingRadroach.tools.0.label>
   <GlowingRadroach.tools.1.label>голова</GlowingRadroach.tools.1.label>
 
+
+  <!--<Duten.tools.1.label>head</Duten.tools.1.label>-->
 
 </LanguageData>

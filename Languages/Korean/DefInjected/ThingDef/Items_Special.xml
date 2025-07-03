@@ -21,6 +21,12 @@
   <MisterHandyKit.description>미스터 핸디 키트와 설명서</MisterHandyKit.description>
   <MisterHandyKit.comps.0.useLabel>미스터 핸디 조립</MisterHandyKit.comps.0.useLabel>
 
+  <MisterGutsyKit.label>미스터 굿시 조립 키트</MisterGutsyKit.label>
+<MisterGutsyKit.description>"과도한 화력"이 "예의"의 동의어로 여겨지던 시대, 국방부 주문으로 제작된 미스터 굿시는 상대방보다 총열이 더 많아야 진정한 외교라고 믿는 분들을 위한 최적의 동반자입니다. "거의 불법 복제가 아닌" 군용 부품들로 여러분만의 군사 로봇을 조립하세요. 물론 그가 여러분을 "민주주의에 대한 위협"으로 판단해 즉각적인 제거가 필요하다고 결론내릴 때까지 자동화된 보호의 매력을 즐기시는 동안 말이죠.
+
+RobCo Industries™ - 우리의 로봇들은 쓸데없는 질문은 하지 않습니다. 오직 올바른 질문만 합니다. 조준경과 함께.</MisterGutsyKit.description>
+<MisterGutsyKit.comps.0.useLabel>미스터 굿시 조립</MisterGutsyKit.comps.0.useLabel>
+
   <FEVPack.label>이상한 팩</FEVPack.label>
   <FEVPack.description>"미국 과학의 혁명적인 제품을 보라! 강제 진화 바이러스(F.E.V.)는 단순한 병원체가 아닙니다. 이것은 밝은(그리고 매우 녹색의) 미래로 가는 티켓이죠! 핵전쟁에서 살아남을(그리고 아마도 설명서를 읽을 수도 있는) 초병사를 만들기 위해 설계된 F.E.V.는 철저한 테스트를 거쳤습니다... 거절할 수 없는 사람들에 대해서요."</FEVPack.description>
 

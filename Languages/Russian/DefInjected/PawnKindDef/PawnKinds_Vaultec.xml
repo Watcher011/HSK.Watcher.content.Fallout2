@@ -35,8 +35,8 @@
   <VaultecLiquidator.label>Ликвидатор Волт-Тек</VaultecLiquidator.label>
   <VaultecLiquidator.labelPlural>Ликвидаторы Волт-Тек</VaultecLiquidator.labelPlural>
 
-  <Vaultec_Trader.label>Торговец Волт-Тек</Vaultec_Trader.label>
-  <Vaultec_Trader.labelPlural>Торговцы Волт-Тек</Vaultec_Trader.labelPlural>
+  <Vaultec_Trader_liquidator.label>Торговец Волт-Тек</Vaultec_Trader_liquidator.label>
+  <Vaultec_Trader_liquidator.labelPlural>Торговец Волт-Тек</Vaultec_Trader_liquidator.labelPlural>
 
   <Vaultecglowing.label>Светящийся гуль Волт-Тек</Vaultecglowing.label>
   <Vaultecglowing.labelPlural>Светящиеся гули Волт-Тек</Vaultecglowing.labelPlural>
@@ -45,5 +45,8 @@
   <Vaultecglowing.labelFemale>Гуль Волт-Тек Светящийся</Vaultecglowing.labelFemale>
   <Vaultecglowing.labelFemalePlural>Гули Волт-Тек Светящийся</Vaultecglowing.labelFemalePlural>
 
+
+  <!--<Vaultec_Trader.label>Торговец Волт-Тек</Vaultec_Trader.label>-->
+  <!--<Vaultec_Trader.labelPlural>Торговцы Волт-Тек</Vaultec_Trader.labelPlural>-->
 
 </LanguageData>
