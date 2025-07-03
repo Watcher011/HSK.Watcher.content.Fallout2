@@ -8,5 +8,12 @@
   <MisterHandyColonist.labelFemale>여성 미스터 핸디맨</MisterHandyColonist.labelFemale>
   <MisterHandyColonist.labelFemalePlural>여성 미스터 핸디맨들</MisterHandyColonist.labelFemalePlural>
 
+ <MisterGutsyColonist.label>미스터 굿시</MisterGutsyColonist.label>
+<MisterGutsyColonist.labelPlural>미스터 굿시들</MisterGutsyColonist.labelPlural>
+<MisterGutsyColonist.labelMale>남성형 미스터 굿시</MisterGutsyColonist.labelMale>
+<MisterGutsyColonist.labelMalePlural>남성형 미스터 굿시들</MisterGutsyColonist.labelMalePlural>
+<MisterGutsyColonist.labelFemale>여성형 미스터 굿시</MisterGutsyColonist.labelFemale>
+<MisterGutsyColonist.labelFemalePlural>여성형 미스터 굿시들</MisterGutsyColonist.labelFemalePlural>
+
 
 </LanguageData>

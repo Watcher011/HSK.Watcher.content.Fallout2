@@ -107,9 +107,8 @@
     <description>-/-</description>
     <descriptionShort>With gray skin.</descriptionShort>
     <iconPath>UI/Icons/Xenotypes/MH</iconPath>
-    <inheritable>true</inheritable>
-    <nameMaker>NamerPersonDirtmole_Male</nameMaker>
-    <nameMakerFemale>NamerPersonDirtmole_Female</nameMakerFemale>
+    <inheritable>false</inheritable>
+
     <chanceToUseNameMaker>1</chanceToUseNameMaker>
     <genes>
       <li>Skin_LightGray</li>
@@ -117,5 +116,7 @@
 	    <li>Hair_BaldOnly</li>
     </genes>
   </XenotypeDef>
-
+  
+  
+   
 </Defs>

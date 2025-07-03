@@ -1,5 +1,5 @@
 
-Версия - 0,36
+Версия - 0,37
 -*-
 Оружие
 Pipe shooter
@@ -39,6 +39,7 @@ Gecko egg (fert.)
 Deathclaw Egg (Unfertilized)
 Deathclaw Egg (Fertilized)
 Mr.Handy Kit
+Mr.Gutsy Kit
 Strange pack(F.E.V.)
 Rad Scorpion Poison
 PlanD
