@@ -14,7 +14,7 @@
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
 		<statBases>
-			<MarketValue>0.01</MarketValue>
+			<MarketValue>1.1</MarketValue>
 			<RoyalFavorValue>0.01</RoyalFavorValue>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Flammability>0.2</Flammability>
