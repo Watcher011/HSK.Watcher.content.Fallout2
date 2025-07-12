@@ -463,6 +463,87 @@
 	    <researchPrerequisite>Rifles_C3</researchPrerequisite>
 	</RecipeDef>
 	
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildAssaultCarbine</defName>
+		<label>Build Assault Carbine</label>
+		<description>Assault Carbine, The standard assault carbine offers a good balance between damage and accuracy, making it a good choice for a variety of combat situations. Many of the available modifications will make this weapon suitable for automatic fire. And a properly modified assault carbine can become a good sniper carbine with a large magazine and a relatively high rate of fire.\nCaliber: 5.56x45mm NATO</description>
+		<jobString>Building Assault Carbine.</jobString>
+		<workAmount>19500</workAmount>
+		<skillRequirements>
+			<Crafting>10</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>18</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>15</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<products>
+			<Fallout_AssaultCarbine>1</Fallout_AssaultCarbine>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>Plastic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+				<li>Leathers</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>TableFalloutElectronics</li>
+		</recipeUsers>
+	    <researchPrerequisite>Rifles_C3</researchPrerequisite>
+	</RecipeDef>
+	
 	
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>BuildFatMan</defName>
@@ -886,7 +967,7 @@
 		<defName>BuildLaserCarbineRifle</defName>
 		<label>Build Carbine"AER-14"</label>
 		<description>"A pure slice of Old World technology - smokeless, fail-safe and deadly."</description>
-		<jobString>Building M-8 Revenant.</jobString>
+		<jobString>Building AER-14.</jobString>
 		<workAmount>23000</workAmount>
 		<skillRequirements>
 			<Crafting>19</Crafting>
@@ -1117,23 +1198,23 @@
 	</RecipeDef>
 	
 	
-	<RecipeDef ParentName="RangedWeaponRecipeBase">
-		<defName>BuildFalloutRipper</defName>
-		<label>Build Ripper</label>
-		<description>Builds Ripper.</description>
-		<jobString>Building Ripper.</jobString>
-		<workAmount>8500</workAmount>
+<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildHellBoss</defName>
+		<label>Build Machine Gun "Hell Boss"</label>
+		<description>Machine Gun "Hell Boss" In a world where laws are written with the barrel of a gun and a truce is just a pause to reload, regular machine guns are for those who still believe in negotiations. Hell Boss is not shooting, it is a salvo artillery barrage in a compact format.\nCaliber:.50mm</description>
+		<jobString>Building Hell Boss.</jobString>
+		<workAmount>19500</workAmount>
 		<skillRequirements>
-			<Crafting>3</Crafting>
+			<Crafting>10</Crafting>
 		</skillRequirements>
 		<ingredients>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>ComponentAdvanced</li>
+						<li>Heavy_Component</li>
 					</thingDefs>
 				</filter>
-				<count>4</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
@@ -1141,94 +1222,15 @@
 						<li>Weapon_Parts</li>
 					</thingDefs>
 				</filter>
-				<count>12</count>
+				<count>2</count>
 			</li>
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Electronics</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>NuclearBattery</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plastic</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
-			</li>
-		</ingredients>
-		<products>
-			<Fallout_Weapon_Ripper>1</Fallout_Weapon_Ripper>
-		</products>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>ComponentAdvanced</li>
-				<li>Weapon_Parts</li>
-				<li>Electronics</li>
-				<li>NuclearBattery</li>
-				<li>Plastic</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-		<recipeUsers>
-			<li>TableFalloutElectronics</li>
-		</recipeUsers>
-	    <researchPrerequisite>Melee_C2</researchPrerequisite>
-	</RecipeDef>
-	
-	
-	<RecipeDef ParentName="RangedWeaponRecipeBase">
-		<defName>BuildFalloutWeaponShishkebab</defName>
-		<label>Build Shishkebab</label>
-		<description>Builds Shishkebab.</description>
-		<jobString>Building Shishkebab.</jobString>
-		<workAmount>8500</workAmount>
-		<skillRequirements>
-			<Crafting>3</Crafting>
-		</skillRequirements>
-		<ingredients>
-			
-			<li>
-				<filter>
-					<thingDefs>
-						<li>ComponentAdvanced</li>
+						<li>ComponentIndustrial</li>
 					</thingDefs>
 				</filter>
 				<count>4</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Weapon_Parts</li>
-					</thingDefs>
-				</filter>
-				<count>12</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Chemfuel</li>
-					</thingDefs>
-				</filter>
-				<count>10</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plastic</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
 			</li>
 			<li>
 				<filter>
@@ -1236,17 +1238,33 @@
 						<li>Metallic</li>
 					</categories>
 				</filter>
+				<count>26</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Plastic</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
 				<count>10</count>
 			</li>
 		</ingredients>
 		<products>
-			<Fallout_Weapon_Shishkebab>1</Fallout_Weapon_Shishkebab>
+			<Fallout_HellBoss>1</Fallout_HellBoss>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>ComponentAdvanced</li>
+				<li>Heavy_Component</li>
 				<li>Weapon_Parts</li>
-				<li>Chemfuel</li>
+				<li>ComponentIndustrial</li>
 				<li>Plastic</li>
 			</thingDefs>
 			<categories>
@@ -1258,9 +1276,8 @@
 		<recipeUsers>
 			<li>TableFalloutElectronics</li>
 		</recipeUsers>
-	    <researchPrerequisite>Melee_C2</researchPrerequisite>
+	    <researchPrerequisite>Rifles_C3</researchPrerequisite>
 	</RecipeDef>
-	
 	
 	<RecipeDef>
 		<defName>MakeFalloutJet</defName>

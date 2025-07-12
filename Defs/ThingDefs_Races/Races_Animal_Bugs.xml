@@ -217,13 +217,14 @@
 				<woolDef>Chitin</woolDef>
 				<shearIntervalDays>8</shearIntervalDays>
 				<woolAmount>25</woolAmount>
+			</li>	
 			<li Class="CompProperties_Milkable">
 				<milkDef>RadScorpionPoisonGland</milkDef>
 				<milkIntervalDays>6</milkIntervalDays>
 				<milkAmount>10</milkAmount>
 				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
-			</li>
+			
 		</comps>
 		<butcherProducts>
 			<Chitin>40</Chitin>

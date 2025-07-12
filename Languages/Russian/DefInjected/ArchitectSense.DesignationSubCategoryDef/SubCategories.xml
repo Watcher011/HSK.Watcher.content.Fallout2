@@ -3,8 +3,14 @@
 
   <!-- Power -->
 
+  <SubCategory_LampsVaultec.label>Лампы Vault-Tec</SubCategory_LampsVaultec.label>
+  <SubCategory_LampsVaultec.description>Набор ламп.</SubCategory_LampsVaultec.description>
+
   <SubCategory_PowerVaultec.label>Генератор Волт-Тек</SubCategory_PowerVaultec.label>
   <SubCategory_PowerVaultec.description>Электрогенераторная установка.</SubCategory_PowerVaultec.description>
+
+  <SubCategory_RugVaultec.label>Коврики Vault-Tec</SubCategory_RugVaultec.label>
+  <SubCategory_RugVaultec.description>Набор ковриков.</SubCategory_RugVaultec.description>
 
   <SubCategory_VaultecTable.label>Верстаки Волт-Тек</SubCategory_VaultecTable.label>
   <SubCategory_VaultecTable.description>Верстаки Волт-Тек.</SubCategory_VaultecTable.description>

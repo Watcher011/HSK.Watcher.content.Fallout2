@@ -29,6 +29,10 @@
   <BuildAN556Order.description>AN556 "Order", слегка улучшенная версия винтовки AN550 с длинным стволом. Средний урон и дальность, хорошая скорострельность и точность.\nКалибр: 5.56x45mm NATO</BuildAN556Order.description>
   <BuildAN556Order.jobString>Сборка AN556 "Order".</BuildAN556Order.jobString>
 
+  <BuildAssaultCarbine.label>Создать штурмовой карабин</BuildAssaultCarbine.label>
+<BuildAssaultCarbine.description>Штурмовой карабин: стандартная модель обеспечивает оптимальный баланс между уроном и точностью, что делает его универсальным выбором для различных боевых ситуаций. Множество доступных модификаций позволяют адаптировать оружие для автоматической стрельбы. Правильно модифицированный штурмовой карабин может стать отличной снайперской версией с большим магазином и относительно высокой скорострельностью.\nКалибр: 5.56×45mm NATO</BuildAssaultCarbine.description>
+<BuildAssaultCarbine.jobString>Создание штурмового карабина.</BuildAssaultCarbine.jobString>
+
   <BuildFatMan.label>Сборка Толстяка</BuildFatMan.label>
   <BuildFatMan.description>Сборка Толстяка.\nКалибр: Ядерный выстрел</BuildFatMan.description>
   <BuildFatMan.jobString>Сборка Толстяка.</BuildFatMan.jobString>
@@ -61,13 +65,9 @@
   <BuildFalloutSyringer.description>Создает Инъекционный карабин. Слабый и с малой дальностью, но рабочий.\nКалибр: дротики</BuildFalloutSyringer.description>
   <BuildFalloutSyringer.jobString>Изготовление стреляющего Инъекционного карабина.</BuildFalloutSyringer.jobString>
 
-  <BuildFalloutRipper.label>Сборка потрошителя</BuildFalloutRipper.label>
-  <BuildFalloutRipper.description>Создание потрошителя.</BuildFalloutRipper.description>
-  <BuildFalloutRipper.jobString>Создание потрошителя.</BuildFalloutRipper.jobString>
-
-  <BuildFalloutWeaponShishkebab.label>Сборка шиш кебаб</BuildFalloutWeaponShishkebab.label>
-  <BuildFalloutWeaponShishkebab.description>Создает шиш кебаб.</BuildFalloutWeaponShishkebab.description>
-  <BuildFalloutWeaponShishkebab.jobString>Создание шиш кебаб.</BuildFalloutWeaponShishkebab.jobString>
+  <BuildHellBoss.label>Сборка пулемёта "Адский Босс"</BuildHellBoss.label>
+<BuildHellBoss.description>Пулемёт "Адский Босс". В мире, где законы пишутся стволами, а перемирие - всего лишь пауза для перезарядки, обычные пулемёты для тех, кто ещё верит в переговоры. Адский Босс - это не стрельба, это артиллерийский залп в компактном формате.\nКалибр: .50 BMG</BuildHellBoss.description>
+<BuildHellBoss.jobString>Производство "Адского Босса"...</BuildHellBoss.jobString>
 
   <MakeFalloutJet.label>Изготовить Винт x4</MakeFalloutJet.label>
   <MakeFalloutJet.description>Изготовить наркотик Винт.</MakeFalloutJet.description>
@@ -106,6 +106,12 @@
   <MakeScorponade2x.jobString>Изготовление Скорпонад.</MakeScorponade2x.jobString>
 
 
+  <!--<BuildFalloutRipper.label>Сборка потрошителя</BuildFalloutRipper.label>-->
+  <!--<BuildFalloutRipper.description>Создание потрошителя.</BuildFalloutRipper.description>-->
+  <!--<BuildFalloutRipper.jobString>Создание потрошителя.</BuildFalloutRipper.jobString>-->
+  <!--<BuildFalloutWeaponShishkebab.label>Сборка шиш кебаб</BuildFalloutWeaponShishkebab.label>-->
+  <!--<BuildFalloutWeaponShishkebab.description>Создает шиш кебаб.</BuildFalloutWeaponShishkebab.description>-->
+  <!--<BuildFalloutWeaponShishkebab.jobString>Создание шиш кебаб.</BuildFalloutWeaponShishkebab.jobString>-->
   <!-- Крафт наркотиков и медикаментов -->
   <!-- Крафт медицинских препаратов -->
   <!-- Крафт специальных препаратов -->

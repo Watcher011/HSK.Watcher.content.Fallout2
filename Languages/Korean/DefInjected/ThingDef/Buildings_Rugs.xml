@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VolttecRug.label>볼트-텍: 클린 매트(3x3)</VolttecRug.label>
+  <VolttecRug.description>볼트-텍 로고가 새겨진 중형 크기 매트 - 방사능, 먼지, 도덕적 타협으로 더러운 당신의 부츠를 깨끗하게! "혁신적인" 합성 소재 제품 (경쟁사 대비 12% 더 높은 내열성!). 피, 먼지, 방사성 점액 얼룩까지 쉽게 세탁 가능. 세트 구성품에 안전 보증, 사용 설명서, 양심은 포함되지 않습니다. 뒷면에는 "볼트-텍: 우리는 잘못이 없습니다! (하지만 문제 생기면 다 엔클레이브 탓)"이라고 적혀 있습니다.</VolttecRug.description>
+
+  <BrotherhoodRug.label>강철의 형제단: 순수함의 러그(2x2)</BrotherhoodRug.label>
+  <BrotherhoodRug.description>중형 크기지만 정통 팔라딘의 야망을 가진 러그! 이 러그는 단순히 먼지를 모으는 게 아니라, 막시멘 장로가 승인한 것만 남기는 이데올로기적 필터링 기능이 있습니다. (배신의 흔적도 쉽게 세탁 가능 - 형제단이 원하지 않는 자들을 광산으로 던지듯 세탁기에 던져버리기만 하면 됩니다.)</BrotherhoodRug.description>
+
+  <NukaColaRug.label>누카-콜라: 향수의 러그(2x2)</NukaColaRug.label>
+  <NukaColaRug.description>전설적인 핵음료 로고가 새겨진 이 중형 사이즈 러그로 전후 스타일을 연출해보세요. 당신의 할아버지들을 상쾌하게 해줬던 바로 그 음료... 빛나는 돌연변이로 변하기 직전까지 말이죠.</NukaColaRug.description>
+
+  <EnclavesRugA.label>엔클레이브: 과거의 영광 러그(2x2)</EnclavesRugA.label>
+  <EnclavesRugA.description>중형 크기 (엔클레이브 예산으로는 더 큰 건 무리였죠), 이 매트에는 전설적인 망명 정부의 로고가 새겨져 있습니다. 이제 전쟁 후의 진흙을 닦으며 매일 과거의 영광을 밟아버릴 수 있습니다!</EnclavesRugA.description>
+
+  <EnclavesRugB.label>엔클레이브: 과거의 영광 러그 2(2x2)</EnclavesRugB.label>
+  <EnclavesRugB.description>중형 크기 (기름 시추장 폭발 이후의 엔클레이브 야망만큼이나), 이 러그는 포스트 아포칼립스 역사상 가장 실패한 정부의 로고를 자랑스럽게 전시합니다. 이제 정치적 붕괴의 미묘함을 이해한다는 암시와 함께 손님들을 멋지게 맞이할 수 있습니다!</EnclavesRugB.description>
+
+  <AtomicCatsRug.label>아토믹 캣츠: 스타일의 러그(2x2)</AtomicCatsRug.label>
+  <AtomicCatsRug.description>스타일리시하고 실용적이며 약간 방사능이 있는, 아이코닉한 아토믹 캣츠 로고가 새겨진 이 러그는 은신처, 레트로-퓨처리스틱 라운지 공간, 혹은 진정한 포스트 아포칼립스 팝 문화에 정통하다는 것을 손님들에게 상기시키기에 완벽한 아이템입니다.</AtomicCatsRug.description>
+
+  <AtomRug.label>아톰의 아이들: 계시의 러그(2x2)</AtomRug.label>
+  <AtomRug.description>위대한 파괴자 자신이 (거의) 승인한 이 스타일리시한 러그로 당신의 볼트 입구를 신성한 의식의 공간으로 바꿔보세요. 이 러그는 방사능, 레이더 공격, 슈퍼 뮤턴트의 불시의 방문으로부터의 보호를 보장하지 않습니다. 하지만 당신과 손님들의 기분을 확실히 북돋아 줄 것입니다 (강철의 형제단 출신이 아니라면 말이죠). "아톰의 빛 속에서 평화를 찾으세요... 아니면 적어도 깨끗한 양말이라도!"</AtomRug.description>
+
+  <InstituteRugA.label>인스티튜트: 통제의 러그(2x2)</InstituteRugA.label>
+  <InstituteRugA.description>당신의 실험실, 벙커 혹은 심문실에 완벽한 추가물 - 이제 세뇌와 불충분한 요소들에 대한 숙청을 위한 더 넓은 표면적까지! "신스 인스티튜트: 당신의 바닥, 우리의 통제 구역."</InstituteRugA.description>
+
+  <InstituteRugB.label>인스티튜트: 통제의 러그 2(2x2)</InstituteRugB.label>
+  <InstituteRugB.description>"신스 인스티튜트: 넘어져도 아프지 않도록 부드럽게 바닥을 깔아드립니다" 주의! 다음 사항이 관찰될 경우:
+    러그의 자발적 접힘
+    "신스도 사람입니다"라는 슬로건의 출현
+    그것에 발을 닦고 싶은 비정상적인 욕망
+즉시 가장 가까운 재프로그래밍 지점에 신고하십시오!</InstituteRugB.description>
+
+  <NKRRug.label>NCR: 민주주의의 러그(2x2)</NKRRug.label>
+  <NKRRug.description>자랑스러운 NCR 로고가 새겨진 중형 크기의 스타일리시하고 "사실상 방사능에 저항하는" 러그 - 당신의 문턱에서조차 민주주의(혹은 그 환상)가 통치해야 하니까요.</NKRRug.description>
+
+
+</LanguageData>

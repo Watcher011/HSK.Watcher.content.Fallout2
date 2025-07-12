@@ -11,13 +11,6 @@
 				</value>
 			 </Operation>
 	
-			 <Operation Class="PatchOperationAdd">
-				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Lamps"]/defNames</xpath>
-				<value>
-				<li>VaultLamp</li>
-				<li>Constructionlamp</li>
-				</value>
-			 </Operation>
 	
 	
 	        <Operation Class="PatchOperationAdd">

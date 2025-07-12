@@ -3,8 +3,14 @@
 
   <!-- Power -->
 
+  <SubCategory_LampsVaultec.label>볼트텍 조명</SubCategory_LampsVaultec.label>
+  <SubCategory_LampsVaultec.description>조명 세트.</SubCategory_LampsVaultec.description>
+
   <SubCategory_PowerVaultec.label>볼트텍 발전기</SubCategory_PowerVaultec.label>
   <SubCategory_PowerVaultec.description>전력 발전기 세트.</SubCategory_PowerVaultec.description>
+
+  <SubCategory_RugVaultec.label>볼트텍 러그</SubCategory_RugVaultec.label>
+  <SubCategory_RugVaultec.description>러그 세트.</SubCategory_RugVaultec.description>
 
   <SubCategory_VaultecTable.label>볼트텍 작업대</SubCategory_VaultecTable.label>
   <SubCategory_VaultecTable.description>볼트텍 작업대.</SubCategory_VaultecTable.description>

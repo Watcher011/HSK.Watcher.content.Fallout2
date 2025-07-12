@@ -39,7 +39,7 @@
 		<graphicData>
 			<texPath>Things/Item/Bat</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			 <drawSize>(0.5)</drawSize>
+			 <drawSize>(1)</drawSize>
 		</graphicData>
 		<socialPropernessMatters>true</socialPropernessMatters>
 		<statBases>
@@ -91,7 +91,7 @@
     <graphicData>
       <texPath>Things/Item/Special/Vault81cure</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-	  <drawSize>0.55</drawSize>
+	  <drawSize>0.85</drawSize>
     </graphicData>
     <stackLimit>5</stackLimit>
     <statBases>
@@ -427,7 +427,7 @@ Remember: if after the bite you saw a light at the end of the tunnel - run faste
 		<graphicData>
 			<texPath>Things/Item/RadScorpionPoisonGland</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
-			 <drawSize>(0.5,0.5)</drawSize>
+			 <drawSize>(1)</drawSize>
 		</graphicData>
 		<statBases>
 			<MarketValue>100</MarketValue>
