@@ -29,6 +29,10 @@
   <BuildAN556Order.description>AN550의 소폭 개량형인 AN556 "오더" 장총총입니다. 평균적인 데미지와 사거리, 좋은 연사력과 정확도를 자랑합니다.\n구경: 5.56x45mm NATO</BuildAN556Order.description>
   <BuildAN556Order.jobString>AN556 "오더" 제작 중...</BuildAN556Order.jobString>
 
+  <BuildAssaultCarbine.label>어설트 카빈 제작</BuildAssaultCarbine.label>
+  <BuildAssaultCarbine.description>표준형 어설트 카빈은 화력과 정확도의 균형이 잘 잡혀 있어 다양한 전투 상황에 적합합니다. 여러 개조 옵션을 통해 자동 사격에 최적화될 수 있으며, 적절히 개조된 어설트 카빈은 대용량 탄창과 비교적 높은 연사력으로 준수한 저격용 카빈으로 변모할 수 있습니다.\n구경: 5.56x45mm NATO</BuildAssaultCarbine.description>
+  <BuildAssaultCarbine.jobString>어설트 카빈 제작 중...</BuildAssaultCarbine.jobString>
+
   <BuildFatMan.label>팻 맨 제작</BuildFatMan.label>
   <BuildFatMan.description>팻 맨을 제작합니다.\n구경: 핵탄두</BuildFatMan.description>
   <BuildFatMan.jobString>팻 맨 제작 중...</BuildFatMan.jobString>
@@ -61,13 +65,9 @@
   <BuildFalloutSyringer.description>주사기 권총을 제작합니다. 위력이 약하고 사거리가 짧지만, 효과는 좋습니다.\n구경: 다트</BuildFalloutSyringer.description>
   <BuildFalloutSyringer.jobString>주사기 사수를 제작합니다.</BuildFalloutSyringer.jobString>
 
-  <BuildFalloutRipper.label>리퍼 제작</BuildFalloutRipper.label>
-  <BuildFalloutRipper.description>리퍼를 제작합니다.</BuildFalloutRipper.description>
-  <BuildFalloutRipper.jobString>리퍼를 제작합니다.</BuildFalloutRipper.jobString>
-
-  <BuildFalloutWeaponShishkebab.label>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.label>
-  <BuildFalloutWeaponShishkebab.description>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.description>
-  <BuildFalloutWeaponShishkebab.jobString>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.jobString>
+  <BuildHellBoss.label>"헬 보스" 기관총 제작</BuildHellBoss.label>
+  <BuildHellBoss.description>기관총 "헬 보스". 총구가 법이 되는 세계에서, 휴전은 단지 재장전을 위한 일시적 중단일 뿐입니다. 일반 기관총은 아직 협상을 믿는 순진한 이들을 위한 것이죠. 헬 보스는 단순한 발사가 아닙니다. 이는 컴팩트한 크기에 담긴 포격 세례 그 자체입니다.\n구경: .50구경</BuildHellBoss.description>
+  <BuildHellBoss.jobString>"헬 보스" 제작 중...</BuildHellBoss.jobString>
 
   <MakeFalloutJet.label>제트 x4 제작</MakeFalloutJet.label>
   <MakeFalloutJet.description>제트 마약을 제작합니다.</MakeFalloutJet.description>
@@ -106,6 +106,12 @@
   <MakeScorponade2x.jobString>스콜포네이드 제작 중.</MakeScorponade2x.jobString>
 
 
+  <!--<BuildFalloutRipper.label>리퍼 제작</BuildFalloutRipper.label>-->
+  <!--<BuildFalloutRipper.description>리퍼를 제작합니다.</BuildFalloutRipper.description>-->
+  <!--<BuildFalloutRipper.jobString>리퍼를 제작합니다.</BuildFalloutRipper.jobString>-->
+  <!--<BuildFalloutWeaponShishkebab.label>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.label>-->
+  <!--<BuildFalloutWeaponShishkebab.description>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.description>-->
+  <!--<BuildFalloutWeaponShishkebab.jobString>시시케밥을 제작합니다.</BuildFalloutWeaponShishkebab.jobString>-->
   <!-- 마약 및 의약품 제작 -->
   <!-- 의약품 제작 -->
   <!-- 특수 제제 제작 -->

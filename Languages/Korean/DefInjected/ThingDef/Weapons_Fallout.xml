@@ -21,6 +21,10 @@
   <Fallout_AN556Order.description>엔클레이브 엔지니어들이 특수부대용으로 설계한 이 인체공학적이고 신뢰할 수 있는 소총은 전쟁 전 AR 플랫폼의 검증된 설계와 전후 황무지 조건에 적응한 현대화된 부품들을 결합했다. 피카티니 레일을 장착해 콜리메이터, 전술용 손전등, 유탄발사기를 설치할 수 있는 높은 정확도와 모듈성을 자랑한다.</Fallout_AN556Order.description>
   <Fallout_AN556Order.tools.0.label>총열</Fallout_AN556Order.tools.0.label>
 
+  <Fallout_AssaultCarbine.label>소형 어설트 카빈</Fallout_AssaultCarbine.label>
+  <Fallout_AssaultCarbine.description>표준형 어설트 카빈은 화력과 정확도의 균형이 뛰어나 다양한 전투 상황에 적합합니다. 다양한 개조를 통해 자동 사격에 최적화할 수 있으며, 적절히 개조할 경우 대용량 탄창과 높은 연사력을 갖춘 준수한 저격용 카빈으로 변신할 수 있습니다.</Fallout_AssaultCarbine.description>
+  <Fallout_AssaultCarbine.tools.0.label>총열</Fallout_AssaultCarbine.tools.0.label>
+
   <Fallout_Fat_Man.label>팻 맨</Fallout_Fat_Man.label>
   <Fallout_Fat_Man.description>전술용 어깨 발사형 핵 캐터펄트. 이 무기는 핵 탄두를 발사해 작은 지역에 핵폭발을 일으켜 막대한 피해를 주고 단기간에 방사능을 방출한다. 완벽한 상태에서 이 무기는 고장 나기 전까지 495발을 발사할 수 있다.</Fallout_Fat_Man.description>
   <Fallout_Fat_Man.tools.0.label>총열</Fallout_Fat_Man.tools.0.label>
@@ -250,6 +254,10 @@
   <Fallout_Syringer.label>사린저 슈터</Fallout_Syringer.label>
   <Fallout_Syringer.description>주사기 발사용 희귀한 자작 무기입니다. 목표물에 도달하면 주사기 내 작용 물질로 인해 유해 효과가 발생합니다.</Fallout_Syringer.description>
   <Fallout_Syringer.tools.0.label>총열</Fallout_Syringer.tools.0.label>
+
+  <Fallout_HellBoss.label>기관총 "헬 보스"</Fallout_HellBoss.label>
+  <Fallout_HellBoss.description>총구로 법이 쓰여지는 세계에서, 휴전은 단지 재장전을 위한 일시적 중단에 불과합니다. 일반 기관총은 아직 협상을 믿는 자들을 위한 것이죠. 헬 보스는 단순한 발사가 아닙니다. 이는 컴팩트한 형태의 포병 일제 사격입니다. 상대를 죽이는 게 아니라 방사능 먼지로 만들어버리는 극적인 효과를 원할 때 선택하세요.</Fallout_HellBoss.description>
+  <Fallout_HellBoss.tools.0.label>총열</Fallout_HellBoss.tools.0.label>
 
 
 </LanguageData>

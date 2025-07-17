@@ -23,6 +23,18 @@
 	</IncidentDef>
 
 
+    <IncidentDef>
+		<defName>StrangeDutenPasses</defName>
+		<label>Strange Duten</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<category>Misc</category>
+		<workerClass>Watcher.Events.IncidentWorker_StrangeDuten</workerClass>
+		<baseChance>2</baseChance>
+		<minRefireDays>50</minRefireDays>
+	</IncidentDef>
+
 	<IncidentDef>
 		<defName>DutenSwarm</defName>
 		<label>Duten Swarm</label>
@@ -55,17 +67,10 @@
 			<li>Map_PlayerHome</li>
 		</targetTags>
 		<workerClass>Watcher.Events.IncidentWorker_HungryRadroach</workerClass>
-		<baseChance>2.0</baseChance>
+		<baseChance>0.5</baseChance>
 		<minRefireDays>18</minRefireDays>
 		<earliestDay>12</earliestDay>
 		<minThreatPoints>250</minThreatPoints>
-		<modExtensions>
-			<li Class="SK.ExtendedIncident">
-					<allowedTemperatureRange>15~999</allowedTemperatureRange>
-				<!-- current map temperature-->
-				<allowedAverageBiomeTemperature>15~999</allowedAverageBiomeTemperature>
-			</li>
-		</modExtensions>
 	</IncidentDef>
 	
 	

@@ -8,13 +8,12 @@
   <MisterHandy.tools.1.label>правый кулак</MisterHandy.tools.1.label>
   <MisterHandy.tools.2.label>голова</MisterHandy.tools.2.label>
 
-<MisterGutsy.label>Мистер Храбрец</MisterGutsy.label>
-<MisterGutsy.description>Мистер Храбрец — идеальный солдат, если ваш идеал солдата представляет собой помесь сержанта-садиста, кофеварки и танка. Созданный для армейских чинуш, считавших вежливость признаком дефекта, этот бравый робот выполнит любой приказ — даже расстрел своих за «неуставной цвет шнурков».</MisterGutsy.description>
-<MisterGutsy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>обшивка</MisterGutsy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
-<MisterGutsy.tools.0.label>левый режущий кулак</MisterGutsy.tools.0.label>
-<MisterGutsy.tools.1.label>правый режущий кулак</MisterGutsy.tools.1.label>
-<MisterGutsy.tools.2.label>головной модуль</MisterGutsy.tools.2.label>
-
+  <MisterGutsy.label>Мистер Храбрец</MisterGutsy.label>
+  <MisterGutsy.description>Мистер Храбрец — идеальный солдат, если ваш идеал солдата представляет собой помесь сержанта-садиста, кофеварки и танка. Созданный для армейских чинуш, считавших вежливость признаком дефекта, этот бравый робот выполнит любой приказ — даже расстрел своих за «неуставной цвет шнурков».</MisterGutsy.description>
+  <MisterGutsy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>обшивка</MisterGutsy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <MisterGutsy.tools.0.label>левый режущий кулак</MisterGutsy.tools.0.label>
+  <MisterGutsy.tools.1.label>правый режущий кулак</MisterGutsy.tools.1.label>
+  <MisterGutsy.tools.2.label>головной модуль</MisterGutsy.tools.2.label>
 
 
 </LanguageData>

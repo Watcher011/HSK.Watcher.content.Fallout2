@@ -216,8 +216,15 @@
 				<growthLabel>Chitin</growthLabel>
 				<woolDef>Chitin</woolDef>
 				<shearIntervalDays>8</shearIntervalDays>
-				<woolAmount>125</woolAmount>
+				<woolAmount>25</woolAmount>
+			</li>	
+			<li Class="CompProperties_Milkable">
+				<milkDef>RadScorpionPoisonGland</milkDef>
+				<milkIntervalDays>6</milkIntervalDays>
+				<milkAmount>10</milkAmount>
+				<milkFemaleOnly>false</milkFemaleOnly>
 			</li>
+			
 		</comps>
 		<butcherProducts>
 			<Chitin>40</Chitin>
@@ -341,6 +348,9 @@
 			<GermContainment>0.01</GermContainment>
 			<ToxicResistance>1</ToxicResistance>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<ArmorRating_Blunt>0.7</ArmorRating_Blunt>
+			<ArmorRating_Sharp>0.5</ArmorRating_Sharp>
+			<FilthRate>3</FilthRate>
 		</statBases>
 		<verbs>
 		 
@@ -505,6 +515,234 @@
 				<dessicatedBodyGraphicData>
 					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
 					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	
+		
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>StrangeDuten</defName>
+		<label>Strange Duten</label>
+		<description>"Mega-Stinger - the King of the Blow-Outs"
+In the vast wastelands, where mutants have long since become something of a local fauna, a new nightmare has appeared - a huge, glowing, deadly blow-out, which seems to have come from the pages of pre-war comics about giant insects. Only this freak is not fiction, and an encounter with it is guaranteed to ruin your day, and most likely - the rest of your life.
+Once upon a time, it was an ordinary blow-out - well, almost ordinary. But then it got its hands on strange pills, scraps of wires and, possibly, a couple of nuclear batteries (because in the Wasteland, bugs eat anything). Now it is not just an insect - it is a walking disaster that glows in the dark like a New Year's garland and spits plasma with enviable regularity.
+It is fast. It is strong. It is angry at the whole world. And if you suddenly see a flickering greenish light in the distance – run. Because it’s not a firefly. It’s him. And he’s already noticed you.
+(Advice from the experienced: if you don’t have a flare gun or a couple of good mines at hand – don’t even try. It’s better to pretend to be dead. Or become one for real – the second option will most likely work more reliably.)</description>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Mass>100</Mass>
+			<MoveSpeed>7.5</MoveSpeed>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<MarketValue>200</MarketValue>
+			<LeatherAmount>50</LeatherAmount>
+			<MeatAmount>100</MeatAmount>
+			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.85</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<SmokeSensitivity>0.5</SmokeSensitivity>
+			<GermResistance>0.55</GermResistance>
+			<GermContainment>0.01</GermContainment>
+			<ToxicResistance>1</ToxicResistance>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+				<MoveSpeed>5.5</MoveSpeed>
+			<ArmorRating_Blunt>60</ArmorRating_Blunt>
+			<ArmorRating_Sharp>24</ArmorRating_Sharp>
+			<ArmorRating_Heat>0.25</ArmorRating_Heat>
+			<FilthRate>3</FilthRate>
+		</statBases>
+		<verbs>
+		 
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<label>launch plasma</label>
+				<verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<onlyManualCast>True</onlyManualCast>
+				<warmupTime>1.5</warmupTime>
+				<range>10</range>
+				<minRange>4</minRange>
+				<ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+				<soundCast>PiercingSpine_Launch</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>14</muzzleFlashScale>
+				<drawHighlightWithLineOfSight>true</drawHighlightWithLineOfSight>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
+				<defaultProjectile>Bullet_PlasmaPrototype</defaultProjectile>
+				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+			</li>
+		</verbs>
+			<comps>
+			<li Class="SK.CompProperties_PawnJumper">
+				<maxCharges>5</maxCharges>
+				<!-- Number of possible jumps -->
+				<minEnergy>0.45</minEnergy>
+				<!-- Subtracts from the current rest(energy) level. 0.5 = 50% -->
+				<ammoCountPerCharge>10</ammoCountPerCharge>
+				<!-- Rest(energy) consumption. 10 = 10% cost per jump. -->
+				<jumpCooldown>1250</jumpCooldown>
+				<!-- Jump cooldown in ticks -->
+				<range>12</range>
+				<chargeNoun>jump</chargeNoun>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+			 <li Class="Flashlight.CompProperties_GlowingPawn">
+                <lightRange>4</lightRange>
+                <lightColorString>(154.205.50.1)</lightColorString>
+            </li>
+				<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>477</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+			</li>
+		</comps>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<power>50</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>6.45</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>25</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>1.2</chanceFactor>
+				<armorPenetrationSharp>7.6</armorPenetrationSharp>
+				<armorPenetrationBlunt>7.4</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<butcherProducts>
+			<Chitin>30</Chitin>
+			<PoisonGland>10</PoisonGland>
+			<RadMeat>100</RadMeat>
+		</butcherProducts>
+		<race>
+			<body>BeetleLikeWithClaw</body>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			 <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+			<maxPreyBodySize>3.5</maxPreyBodySize>
+			<executionRange>40</executionRange>
+			<baseBodySize>2.7</baseBodySize>
+			<baseHungerRate>1.5</baseHungerRate>
+			<baseHealthScale>1.8</baseHealthScale>
+			 <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+            <disableIgniteVerb>false</disableIgniteVerb>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<fleshType>Insectoid</fleshType>
+			<bloodDef>Filth_BloodInsect</bloodDef>
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<petness>0</petness>
+			<wildness>0.99</wildness>
+			<manhunterOnTameFailChance>1</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<lifeExpectancy>3</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectJuvenile</def>
+					<minAge>0.03</minAge>
+				</li>
+				<li>
+					<def>EusocialInsectAdult</def>
+					<minAge>0.12</minAge>
+					<soundWounded>Pawn_Megascarab_Wounded</soundWounded>
+					<soundDeath>Pawn_Megascarab_Death</soundDeath>
+					<soundCall>Pawn_Megascarab_Call</soundCall>
+					<soundAngry>Pawn_Megascarab_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+			<hediffGiverSets>
+				<li>ThickPassiveSet</li>
+			</hediffGiverSets>
+		</race>
+			<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+			<li Class="SK.DestroyCorpseExtension"/>
+			<li Class="SK.DevourerAnimalExtension">
+				<things>
+					<li>weapon</li>
+					<li>apparel</li>
+					<li>corpse</li>
+					<li>food</li>
+				</things>
+			</li>
+			<li Class="Flashlight.DefModExtension_Glow">
+             <canGlow>true</canGlow>
+            </li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>StrangeDuten</defName>
+		<label>Strange Duten</label>
+		<race>StrangeDuten</race>
+		 <!--<abilities>
+         <li>AcidSpray</li>
+         </abilities>-->
+		<combatPower>150</combatPower>
+		<ecoSystemWeight>0.03</ecoSystemWeight>
+		<aiAvoidCover>true</aiAvoidCover>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Duten/DutenBoss</texPath>
+					<drawSize>2.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>2.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Duten/DutenBoss</texPath>
+					<drawSize>2.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>2.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Duten/DutenBoss</texPath>
+					<drawSize>3.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>3.8</drawSize>
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>

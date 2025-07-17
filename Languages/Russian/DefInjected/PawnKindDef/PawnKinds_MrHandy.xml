@@ -8,12 +8,12 @@
   <MisterHandyColonist.labelFemale>Мистер Помощник</MisterHandyColonist.labelFemale>
   <MisterHandyColonist.labelFemalePlural>Мистеры Помощники</MisterHandyColonist.labelFemalePlural>
 
-<MisterGutsyColonist.label>Мистер Храбрец</MisterGutsyColonist.label>
-<MisterGutsyColonist.labelPlural>Мистеры Храбрецы</MisterGutsyColonist.labelPlural>
-<MisterGutsyColonist.labelMale>Мистер Храбрец (мужской)</MisterGutsyColonist.labelMale>
-<MisterGutsyColonist.labelMalePlural>Мистеры Храбрецы (мужские)</MisterGutsyColonist.labelMalePlural>
-<MisterGutsyColonist.labelFemale>Мистер Храбрец (женский)</MisterGutsyColonist.labelFemale>
-<MisterGutsyColonist.labelFemalePlural>Мистеры Храбрецы (женские)</MisterGutsyColonist.labelFemalePlural>
+  <MisterGutsyColonist.label>Мистер Храбрец</MisterGutsyColonist.label>
+  <MisterGutsyColonist.labelPlural>Мистеры Храбрецы</MisterGutsyColonist.labelPlural>
+  <MisterGutsyColonist.labelMale>Мистер Храбрец (мужской)</MisterGutsyColonist.labelMale>
+  <MisterGutsyColonist.labelMalePlural>Мистеры Храбрецы (мужские)</MisterGutsyColonist.labelMalePlural>
+  <MisterGutsyColonist.labelFemale>Мистер Храбрец (женский)</MisterGutsyColonist.labelFemale>
+  <MisterGutsyColonist.labelFemalePlural>Мистеры Храбрецы (женские)</MisterGutsyColonist.labelFemalePlural>
 
 
 </LanguageData>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <Coinage.label>동전 제조기</Coinage.label>
+<Coinage.verb>주조하기</Coinage.verb>
+<Coinage.gerund>동전 주조 중</Coinage.gerund>
+
+
+</LanguageData>

@@ -1,5 +1,5 @@
 
-Версия - 0,37
+Версия - 0,41
 -*-
 Оружие
 Pipe shooter
@@ -22,6 +22,20 @@ Alien Energy Pistol - заблокирован
 Euclid's C-Finder - заблокирован
 Portable Tesla Cannon "Thunder Maker"
 Syringer shooter
+Hell Boss
+Assault Carbine
+-*-
+коврики
+Volt-Tec:Clean Mat(3x3)
+Brotherhood of Steel:Purity Rug(2x2)
+Nuka-Cola:Purity Rug(2x2)
+Enclave's:Purity Rug(2x2)
+Enclave's:Purity Rug 2(2x2)
+Atomic Cats:Purity Rug(2x2)
+Children of Atom:Purity Rug(2x2)
+Institute:Purity Rug(2x2)
+Institute:Purity Rug 2(2x2)
+NKR:Purity Rug 2(2x2)
 -*-
 Мины
 IED Lid Mine 
@@ -46,6 +60,7 @@ PlanD
 Blowfly hive(для квеста)
 Nest Of Monsters(для квеста)
 Nest Of Rad Scorpion(для квеста)
+Manual cap press
 -*-
 плоды растений 
 raw Mutfruit
@@ -117,6 +132,7 @@ RadScorpion
 Mirelurk
 Brahmin
 Duten
+Strange Duten
 
 -*-
 еда
@@ -155,6 +171,7 @@ Shelter residents(easy start)
 Abandoned Shelter
 -*-
 ивенты
+StrangeDutenPasses
 DeathclawPasses - прибытие когтя смерти(работает)
 DutenSwarm - рой дутней(сломано ,непонятен тригер призыва)
 Electric Shock Explosion(работает)

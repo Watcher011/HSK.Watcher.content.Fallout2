@@ -6,7 +6,18 @@
 	
 
 	<!-- Power -->
-
+   <ArchitectSense.DesignationSubCategoryDef>
+		<debug>false</debug>
+		<defName>SubCategory_LampsVaultec</defName>
+		<label>Vaultec Lamps</label>
+		<description>Lamps Set.</description>
+		<defNames>
+		    <li>VaultLamp</li>
+			<li>Constructionlamp</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
 	<ArchitectSense.DesignationSubCategoryDef>
 		<debug>false</debug>
 		<defName>SubCategory_PowerVaultec</defName>
@@ -19,13 +30,32 @@
 		<designationCategory>VaultTec</designationCategory>
 	</ArchitectSense.DesignationSubCategoryDef>
 
-
+<ArchitectSense.DesignationSubCategoryDef>
+		<debug>false</debug>
+		<defName>SubCategory_RugVaultec</defName>
+		<label>Vaultec rugs</label>
+		<description>Rugs Set.</description>
+		<defNames>
+		    <li>VolttecRug</li>
+			<li>BrotherhoodRug</li>
+			 <li>NukaColaRug</li>
+			<li>EnclavesRugA</li>
+			 <li>EnclavesRugB</li>
+			<li>AtomicCatsRug</li>
+			 <li>AtomRug</li>
+			<li>InstituteRugA</li>
+			<li>InstituteRugB</li>
+			<li>NKRRug</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+	</ArchitectSense.DesignationSubCategoryDef>
 
 	<ArchitectSense.DesignationSubCategoryDef>
 		<defName>SubCategory_VaultecTable</defName>
 		<label>Vault-Tec Workbenches</label>
 		<description>Vault-Tec Workbenches.</description>
 		<defNames>
+		    <li>TableFalloutCOINMACHINE</li>
 			<li>TableFalloutElectronics</li>
 			<li>TableFalloutPrinter</li>
 			<li>TableFalloutChemicalSynthesis</li>

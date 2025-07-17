@@ -322,7 +322,6 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<tickerType>Rare</tickerType>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
@@ -439,6 +438,84 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	</ThingDef>
 	 
+<ThingDef ParentName="WorkTable">
+		<defName>TableFalloutCOINMACHINE</defName>
+		<label>Manual cap press</label>
+		<description>Because in bureaucratic hell, even caps must be standardized!In a world where every nail counts and a Nuka-Cola bottle cap is worth more than the life of a Wasteland slave, Vault-Tec Corporation proudly introduces the Cap-Cap 3000 — the perfect solution for all your cap-dependent needs!(The machine is supplied without instructions. If you find one, it means it is a fake.)</description>
+		<graphicData>
+			<texPath>Things/Building/Misc/COINMACHINE</texPath>
+			 <graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(1.5,1.3)</drawSize>
+			<shadowData>
+				<volume>(0.9, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<costStuffCount>90</costStuffCount>
+		<costList>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Mechanism>10</Mechanism>
+		</costList>
+	
+		<statBases>
+			<WorkToBuild>2750</WorkToBuild>
+			<MaxHitPoints>220</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-1</Cleanliness>
+			<Mass>500</Mass>
+		</statBases>
+		<size>(1,1)</size>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<designationCategory>Production</designationCategory>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<rotatable>true</rotatable>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>Small_ToolCabinet</li>
+					<li>PodChair</li>
+				</linkableFacilities>
+			</li>
+		<!--	<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.01</fuelConsumptionRate>
+				<fuelCapacity>1.0</fuelCapacity>
+				<fuelFilter>
+					<thingDefs>
+						<li>NuclearBattery</li>
+					</thingDefs>
+				</fuelFilter>
+				  <showFuelGizmo>true</showFuelGizmo>
+                  <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
+                  <drawFuelGaugeInMap>true</drawFuelGaugeInMap>
+                 <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>-->
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>Vault-TecProduction</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+	</ThingDef>
 
 	 
 </Defs>
