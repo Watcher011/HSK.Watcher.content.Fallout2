@@ -548,8 +548,9 @@ It is fast. It is strong. It is angry at the whole world. And if you suddenly se
 			<GermContainment>0.01</GermContainment>
 			<ToxicResistance>1</ToxicResistance>
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
-			<ArmorRating_Sharp>10</ArmorRating_Sharp>
-			<ArmorRating_Blunt>50</ArmorRating_Blunt>
+				<MoveSpeed>5.5</MoveSpeed>
+			<ArmorRating_Blunt>60</ArmorRating_Blunt>
+			<ArmorRating_Sharp>24</ArmorRating_Sharp>
 			<ArmorRating_Heat>0.25</ArmorRating_Heat>
 			<FilthRate>3</FilthRate>
 		</statBases>
@@ -642,9 +643,13 @@ It is fast. It is strong. It is angry at the whole world. And if you suddenly se
 			<body>BeetleLikeWithClaw</body>
 			<herdMigrationAllowed>false</herdMigrationAllowed>
 			 <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
-			<baseHungerRate>0.5</baseHungerRate>
-			<baseBodySize>0.8</baseBodySize>
-			<baseHealthScale>0.2</baseHealthScale>
+			<maxPreyBodySize>3.5</maxPreyBodySize>
+			<executionRange>40</executionRange>
+			<baseBodySize>2.7</baseBodySize>
+			<baseHungerRate>1.5</baseHungerRate>
+			<baseHealthScale>1.8</baseHealthScale>
+			 <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+            <disableIgniteVerb>false</disableIgniteVerb>
 			<foodType>CarnivoreAnimalStrict</foodType>
 			<fleshType>Insectoid</fleshType>
 			<bloodDef>Filth_BloodInsect</bloodDef>
