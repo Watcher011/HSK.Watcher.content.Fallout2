@@ -30,8 +30,8 @@
   <BuildAN556Order.jobString>Сборка AN556 "Order".</BuildAN556Order.jobString>
 
   <BuildAssaultCarbine.label>Создать штурмовой карабин</BuildAssaultCarbine.label>
-<BuildAssaultCarbine.description>Штурмовой карабин: стандартная модель обеспечивает оптимальный баланс между уроном и точностью, что делает его универсальным выбором для различных боевых ситуаций. Множество доступных модификаций позволяют адаптировать оружие для автоматической стрельбы. Правильно модифицированный штурмовой карабин может стать отличной снайперской версией с большим магазином и относительно высокой скорострельностью.\nКалибр: 5.56×45mm NATO</BuildAssaultCarbine.description>
-<BuildAssaultCarbine.jobString>Создание штурмового карабина.</BuildAssaultCarbine.jobString>
+  <BuildAssaultCarbine.description>Штурмовой карабин: стандартная модель обеспечивает оптимальный баланс между уроном и точностью, что делает его универсальным выбором для различных боевых ситуаций. Множество доступных модификаций позволяют адаптировать оружие для автоматической стрельбы. Правильно модифицированный штурмовой карабин может стать отличной снайперской версией с большим магазином и относительно высокой скорострельностью.\nКалибр: 5.56×45mm NATO</BuildAssaultCarbine.description>
+  <BuildAssaultCarbine.jobString>Создание штурмового карабина.</BuildAssaultCarbine.jobString>
 
   <BuildFatMan.label>Сборка Толстяка</BuildFatMan.label>
   <BuildFatMan.description>Сборка Толстяка.\nКалибр: Ядерный выстрел</BuildFatMan.description>
@@ -66,8 +66,8 @@
   <BuildFalloutSyringer.jobString>Изготовление стреляющего Инъекционного карабина.</BuildFalloutSyringer.jobString>
 
   <BuildHellBoss.label>Сборка пулемёта "Адский Босс"</BuildHellBoss.label>
-<BuildHellBoss.description>Пулемёт "Адский Босс". В мире, где законы пишутся стволами, а перемирие - всего лишь пауза для перезарядки, обычные пулемёты для тех, кто ещё верит в переговоры. Адский Босс - это не стрельба, это артиллерийский залп в компактном формате.\nКалибр: .50 BMG</BuildHellBoss.description>
-<BuildHellBoss.jobString>Производство "Адского Босса"...</BuildHellBoss.jobString>
+  <BuildHellBoss.description>Пулемёт "Адский Босс". В мире, где законы пишутся стволами, а перемирие - всего лишь пауза для перезарядки, обычные пулемёты для тех, кто ещё верит в переговоры. Адский Босс - это не стрельба, это артиллерийский залп в компактном формате.\nКалибр: .50 BMG</BuildHellBoss.description>
+  <BuildHellBoss.jobString>Производство "Адского Босса"...</BuildHellBoss.jobString>
 
   <MakeFalloutJet.label>Изготовить Винт x4</MakeFalloutJet.label>
   <MakeFalloutJet.description>Изготовить наркотик Винт.</MakeFalloutJet.description>

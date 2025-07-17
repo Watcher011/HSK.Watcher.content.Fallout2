@@ -11,9 +11,7 @@
 		<researchPrerequisite>Machining</researchPrerequisite>
 		<workAmount>3600</workAmount>
 		<recipeUsers>
-			<li>TableFurnace</li>
-			<li>ElectricSmelter</li>
-			<li>EAF</li>
+			<li>TableFalloutCOINMACHINE</li>
 		</recipeUsers>
 		<ingredients>
 			<li>

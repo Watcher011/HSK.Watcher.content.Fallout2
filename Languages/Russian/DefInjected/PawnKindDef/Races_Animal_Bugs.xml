@@ -76,6 +76,35 @@
   <Duten.labelFemale>самка Дутня</Duten.labelFemale>
   <Duten.labelFemalePlural>самки Дутней</Duten.labelFemalePlural>
 
+ <StrangeDuten.label>Странный дутень</StrangeDuten.label>
+<StrangeDuten.labelPlural>Странные дутни</StrangeDuten.labelPlural>
+
+<StrangeDuten.lifeStages.0.label>Странный дутень</StrangeDuten.lifeStages.0.label>
+<StrangeDuten.lifeStages.0.labelPlural>Странные дутни</StrangeDuten.lifeStages.0.labelPlural>
+<StrangeDuten.lifeStages.0.labelMale>самец странного дутня</StrangeDuten.lifeStages.0.labelMale>
+<StrangeDuten.lifeStages.0.labelMalePlural>самцы странных дутней</StrangeDuten.lifeStages.0.labelMalePlural>
+<StrangeDuten.lifeStages.0.labelFemale>самка странного дутня</StrangeDuten.lifeStages.0.labelFemale>
+<StrangeDuten.lifeStages.0.labelFemalePlural>самки странных дутней</StrangeDuten.lifeStages.0.labelFemalePlural>
+
+<StrangeDuten.lifeStages.1.label>Странный дутень</StrangeDuten.lifeStages.1.label>
+<StrangeDuten.lifeStages.1.labelPlural>Странные дутни</StrangeDuten.lifeStages.1.labelPlural>
+<StrangeDuten.lifeStages.1.labelMale>самец странного дутня</StrangeDuten.lifeStages.1.labelMale>
+<StrangeDuten.lifeStages.1.labelMalePlural>самцы странных дутней</StrangeDuten.lifeStages.1.labelMalePlural>
+<StrangeDuten.lifeStages.1.labelFemale>самка странного дутня</StrangeDuten.lifeStages.1.labelFemale>
+<StrangeDuten.lifeStages.1.labelFemalePlural>самки странных дутней</StrangeDuten.lifeStages.1.labelFemalePlural>
+
+<StrangeDuten.lifeStages.2.label>Странный дутень</StrangeDuten.lifeStages.2.label>
+<StrangeDuten.lifeStages.2.labelPlural>Странные дутни</StrangeDuten.lifeStages.2.labelPlural>
+<StrangeDuten.lifeStages.2.labelMale>самец странного дутня</StrangeDuten.lifeStages.2.labelMale>
+<StrangeDuten.lifeStages.2.labelMalePlural>самцы странных дутней</StrangeDuten.lifeStages.2.labelMalePlural>
+<StrangeDuten.lifeStages.2.labelFemale>самка странного дутня</StrangeDuten.lifeStages.2.labelFemale>
+<StrangeDuten.lifeStages.2.labelFemalePlural>самки странных дутней</StrangeDuten.lifeStages.2.labelFemalePlural>
+
+<StrangeDuten.labelMale>самец странного дутня</StrangeDuten.labelMale>
+<StrangeDuten.labelMalePlural>самцы странных дутней</StrangeDuten.labelMalePlural>
+<StrangeDuten.labelFemale>самка странного дутня</StrangeDuten.labelFemale>
+<StrangeDuten.labelFemalePlural>самки странных дутней</StrangeDuten.labelFemalePlural>
+
   <GlowingRadroach.label>Светящийся Радтаракан</GlowingRadroach.label>
   <GlowingRadroach.labelPlural>Светящиеся Радтараканы</GlowingRadroach.labelPlural>
   <GlowingRadroach.lifeStages.0.label>Светящийся Радтаракан</GlowingRadroach.lifeStages.0.label>

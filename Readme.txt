@@ -1,5 +1,5 @@
 
-Версия - 0,39
+Версия - 0,40
 -*-
 Оружие
 Pipe shooter
@@ -60,6 +60,7 @@ PlanD
 Blowfly hive(для квеста)
 Nest Of Monsters(для квеста)
 Nest Of Rad Scorpion(для квеста)
+Manual cap press
 -*-
 плоды растений 
 raw Mutfruit
@@ -131,6 +132,7 @@ RadScorpion
 Mirelurk
 Brahmin
 Duten
+Strange Duten
 
 -*-
 еда
@@ -169,6 +171,7 @@ Shelter residents(easy start)
 Abandoned Shelter
 -*-
 ивенты
+StrangeDutenPasses
 DeathclawPasses - прибытие когтя смерти(работает)
 DutenSwarm - рой дутней(сломано ,непонятен тригер призыва)
 Electric Shock Explosion(работает)

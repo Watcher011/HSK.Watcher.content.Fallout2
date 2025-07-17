@@ -55,6 +55,7 @@
 		<label>Vault-Tec Workbenches</label>
 		<description>Vault-Tec Workbenches.</description>
 		<defNames>
+		    <li>TableFalloutCOINMACHINE</li>
 			<li>TableFalloutElectronics</li>
 			<li>TableFalloutPrinter</li>
 			<li>TableFalloutChemicalSynthesis</li>

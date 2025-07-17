@@ -20,10 +20,10 @@
   <Fallout_AN556Order.label>AN-556 "오더"</Fallout_AN556Order.label>
   <Fallout_AN556Order.description>엔클레이브 엔지니어들이 특수부대용으로 설계한 이 인체공학적이고 신뢰할 수 있는 소총은 전쟁 전 AR 플랫폼의 검증된 설계와 전후 황무지 조건에 적응한 현대화된 부품들을 결합했다. 피카티니 레일을 장착해 콜리메이터, 전술용 손전등, 유탄발사기를 설치할 수 있는 높은 정확도와 모듈성을 자랑한다.</Fallout_AN556Order.description>
   <Fallout_AN556Order.tools.0.label>총열</Fallout_AN556Order.tools.0.label>
-  
-<Fallout_AssaultCarbine.label>소형 어설트 카빈</Fallout_AssaultCarbine.label>
-<Fallout_AssaultCarbine.description>표준형 어설트 카빈은 화력과 정확도의 균형이 뛰어나 다양한 전투 상황에 적합합니다. 다양한 개조를 통해 자동 사격에 최적화할 수 있으며, 적절히 개조할 경우 대용량 탄창과 높은 연사력을 갖춘 준수한 저격용 카빈으로 변신할 수 있습니다.</Fallout_AssaultCarbine.description>
-<Fallout_AssaultCarbine.tools.0.label>총열</Fallout_AssaultCarbine.tools.0.label>
+
+  <Fallout_AssaultCarbine.label>소형 어설트 카빈</Fallout_AssaultCarbine.label>
+  <Fallout_AssaultCarbine.description>표준형 어설트 카빈은 화력과 정확도의 균형이 뛰어나 다양한 전투 상황에 적합합니다. 다양한 개조를 통해 자동 사격에 최적화할 수 있으며, 적절히 개조할 경우 대용량 탄창과 높은 연사력을 갖춘 준수한 저격용 카빈으로 변신할 수 있습니다.</Fallout_AssaultCarbine.description>
+  <Fallout_AssaultCarbine.tools.0.label>총열</Fallout_AssaultCarbine.tools.0.label>
 
   <Fallout_Fat_Man.label>팻 맨</Fallout_Fat_Man.label>
   <Fallout_Fat_Man.description>전술용 어깨 발사형 핵 캐터펄트. 이 무기는 핵 탄두를 발사해 작은 지역에 핵폭발을 일으켜 막대한 피해를 주고 단기간에 방사능을 방출한다. 완벽한 상태에서 이 무기는 고장 나기 전까지 495발을 발사할 수 있다.</Fallout_Fat_Man.description>

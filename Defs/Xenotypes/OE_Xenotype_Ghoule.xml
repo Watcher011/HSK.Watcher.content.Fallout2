@@ -19,16 +19,11 @@
 	  <li>Beard_NoBeardOnly</li>
 	  <li>Body_Thin</li>
 	  <li>Body_Standard</li>
-	  <li>Inbred</li>
 	  <li>ToxicEnvironmentResistance_Total</li>
 	  <li>PollutionRush</li>
-	  <li>RobustDigestion</li>
 	  <li>RADImmunity</li>
 	  <li>Beauty_Ugly</li>
-	  <li>Delicate</li>
-	  <li>LowSleep</li>
 	  <li>MinTemp_SmallIncrease</li>
-	  <li>Mood_Sanguine</li>
 	  <li>Pain_Reduced</li>
 	 <li>ToxResist_Total</li>
     </genes>
@@ -53,16 +48,11 @@
 	  <li>OE_Skin_GhoulLightGreen</li>
 	  <li>OE_Skin_GhoulLightBrown</li>
       <li>Beard_NoBeardOnly</li>
-      <li>Inbred</li>
 	  <li>ToxicEnvironmentResistance_Total</li>
 	  <li>PollutionRush</li>
-	  <li>RobustDigestion</li>
 	  <li>RADImmunity</li>
 	  <li>Beauty_Ugly</li>
-	  <li>Delicate</li>
-	  <li>LowSleep</li>
 	  <li>MinTemp_SmallIncrease</li>
-	  <li>Mood_Sanguine</li>
 	  <li>Pain_Reduced</li>
 	 <li>ToxResist_Total</li>
     </genes>
