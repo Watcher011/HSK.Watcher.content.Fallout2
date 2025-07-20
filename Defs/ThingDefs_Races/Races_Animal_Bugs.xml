@@ -711,9 +711,10 @@ It is fast. It is strong. It is angry at the whole world. And if you suddenly se
 		 <!--<abilities>
          <li>AcidSpray</li>
          </abilities>-->
-		<combatPower>150</combatPower>
-		<ecoSystemWeight>0.03</ecoSystemWeight>
-		<aiAvoidCover>true</aiAvoidCover>
+		<combatPower>900</combatPower>
+		<combatPower>250</combatPower>
+		<ecoSystemWeight>0.45</ecoSystemWeight>
+		<wildGroupSize>1~3</wildGroupSize>
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
