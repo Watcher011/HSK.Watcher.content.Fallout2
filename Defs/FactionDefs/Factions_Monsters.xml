@@ -15,7 +15,7 @@
 		<autoFlee>false</autoFlee>
 		<canSiege>false</canSiege>
 		<canUseAvoidGrid>false</canUseAvoidGrid>
-		<earliestRaidDays>255</earliestRaidDays>
+		<earliestRaidDays>155</earliestRaidDays>
 		<techLevel>Animal</techLevel>
 		<permanentEnemy>true</permanentEnemy>
 		<attackersDownPercentageRangeForAutoFlee>1</attackersDownPercentageRangeForAutoFlee>
@@ -46,9 +46,9 @@
 					<li>ImmediateAttackSappers</li>	
 				</disallowedStrategies>
 				<options>
-					<Duten>30</Duten>
-					<GlowingRadroach>35</GlowingRadroach>
-					<Deathclaw>30</Deathclaw>
+					<Duten>100</Duten>
+					<GlowingRadroach>100</GlowingRadroach>
+					<Deathclaw>1</Deathclaw>
 				</options>
 			</li>
 		</pawnGroupMakers>
