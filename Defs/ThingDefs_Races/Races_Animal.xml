@@ -698,7 +698,7 @@
             <disableIgniteVerb>false</disableIgniteVerb>
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<nuzzleMtbHours>36</nuzzleMtbHours>
-			<wildness>0.80</wildness>
+			<wildness>1</wildness>
 			<leatherDef>Leather_Lizard</leatherDef>
 			<useMeatFrom>Muffalo</useMeatFrom>
 			<trainability>Advanced</trainability>

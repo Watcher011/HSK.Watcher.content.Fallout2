@@ -93,7 +93,7 @@
   
 	
    <HediffDef>
-        <defName>Ghoul</defName>
+        <defName>GhoulLK</defName>
         <label>Ghoul</label>
         <description>Ghoul.</description>
         <everCurableByItem>false</everCurableByItem>
