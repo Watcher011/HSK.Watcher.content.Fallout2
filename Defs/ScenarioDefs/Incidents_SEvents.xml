@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+<!--
 	
 	<IncidentDef>
 		<defName>DeathclawPasses</defName>
@@ -15,9 +15,9 @@
 		<modExtensions>
 			<li Class="SK.ExtendedIncident">
 				<allowedTemperatureRange>10~999</allowedTemperatureRange>
-				<!-- current map temperature-->
+				<!{1}** current map temperature**{1}>
 				<allowedAverageBiomeTemperature>10~999</allowedAverageBiomeTemperature>
-				<!-- Average biome temperature stat -->
+				<!{1}** Average biome temperature stat **{1}>
 			</li>
 		</modExtensions>
 	</IncidentDef>
@@ -44,15 +44,15 @@
 		<workerClass>Watcher.Events.IncidentWorker_DutenPasses</workerClass>
 		<baseChance>0.2</baseChance>
 		<category>ThreatBig</category>
-		<minRefireDays>18</minRefireDays>
-		<earliestDay>12</earliestDay>
+		<minRefireDays>250</minRefireDays>
+		<earliestDay>230</earliestDay>
 		<minThreatPoints>250</minThreatPoints>
 		<modExtensions>
 			<li Class="SK.ExtendedIncident">
 				<allowedTemperatureRange>15~999</allowedTemperatureRange>
-				<!-- current map temperature-->
+				<!{1}** current map temperature**{1}>
 				<allowedAverageBiomeTemperature>15~999</allowedAverageBiomeTemperature>
-				<!-- Average biome temperature stat -->
+				<!{1}** Average biome temperature stat **{1}>
 			</li>
 		</modExtensions>
 	</IncidentDef>
@@ -72,7 +72,7 @@
 		<earliestDay>12</earliestDay>
 		<minThreatPoints>250</minThreatPoints>
 	</IncidentDef>
-	
+	-->
 	
 	<IncidentDef>
 		<defName>ElectricShockExplosion</defName>
