@@ -12,8 +12,8 @@
   <WearingPipBoy.description>VATS, или система наведения Vault-Tec Assisted Targeting System, — это передовая боевая технология, граница которой меняется во времени…</WearingPipBoy.description>
   <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
 
-  <Ghoul.label>Гуль</Ghoul.label>
-  <Ghoul.description>Гуль.</Ghoul.description>
+  <GhoulLK.label>Гуль</GhoulLK.label>
+  <GhoulLK.description>Гуль.</GhoulLK.description>
 
   <Charge.label>Ионизация</Charge.label>
   <Charge.description>Атомы в нестабильном состоянии</Charge.description>
