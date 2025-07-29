@@ -13,6 +13,7 @@
 		<description>Lamps Set.</description>
 		<defNames>
 		    <li>VaultLamp</li>
+			 <li>TritiumLamp</li>
 			<li>Constructionlamp</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>
@@ -30,7 +31,7 @@
 		<designationCategory>VaultTec</designationCategory>
 	</ArchitectSense.DesignationSubCategoryDef>
 
-<ArchitectSense.DesignationSubCategoryDef>
+   <ArchitectSense.DesignationSubCategoryDef>
 		<debug>false</debug>
 		<defName>SubCategory_RugVaultec</defName>
 		<label>Vaultec rugs</label>
@@ -70,6 +71,7 @@
 		<label>Vault-Tec defense</label>
 		<description>A Vault-Tec defense.</description>
 		<defNames>
+		   <li>Fallout_FlamethrowerLastWarning_Turret</li>
 			<li>Fallout_laser_Turret</li>
 			<li>Fallout_Turret_Turret</li>
 		</defNames>
@@ -78,7 +80,7 @@
 	</ArchitectSense.DesignationSubCategoryDef>
 
 
-<ArchitectSense.DesignationSubCategoryDef>
+   <ArchitectSense.DesignationSubCategoryDef>
 		<defName>SubCategory_VaultecFood</defName>
 		<label>Vault-Tec Food</label>
 		<description>Vault-Tec Food.</description>
@@ -88,5 +90,17 @@
 		<designationCategory>VaultTec</designationCategory>
 		<debug>false</debug>
 	</ArchitectSense.DesignationSubCategoryDef>
-
+	
+   <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecSign</defName>
+		<label>Vault-Tec Sign</label>
+		<description>Vault-Tec Sign.</description>
+		<defNames>
+			<li>MinesSign</li>
+			<li>SnipersSign</li>
+			<li>TurretSign</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
 </Defs>

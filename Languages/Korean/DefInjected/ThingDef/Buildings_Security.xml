@@ -31,5 +31,9 @@
 
 
   <!-- AI 유인 터렛 -->
+<Fallout_FlamethrowerLastWarning_Turret.label>화염 방사기 설치체 "파이로미터 3000"</Fallout_FlamethrowerLastWarning_Turret.label>
+<Fallout_FlamethrowerLastWarning_Turret.description>불청객에 지치셨나요? 레이더, 돌연변이, 그리고 우편 배달원(네, 그들도 포함)이 당신의 영역을 마음대로 돌아다니는 게 신경 쓰이시나요? 파이로미터 3000은 단 한 번의 버튼 누름으로 모든 문제를 해결해 줍니다.</Fallout_FlamethrowerLastWarning_Turret.description>
 
+<Gun_FlamethrowerLastWarning_Turret.label>화염 방사기 건</Gun_FlamethrowerLastWarning_Turret.label>
+<Gun_FlamethrowerLastWarning_Turret.description>터렛에 장착된 화염 방사기.</Gun_FlamethrowerLastWarning_Turret.description>
 </LanguageData>

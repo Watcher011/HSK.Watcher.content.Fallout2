@@ -68,6 +68,10 @@
   <BuildHellBoss.label>Сборка пулемёта "Адский Босс"</BuildHellBoss.label>
   <BuildHellBoss.description>Пулемёт "Адский Босс". В мире, где законы пишутся стволами, а перемирие - всего лишь пауза для перезарядки, обычные пулемёты для тех, кто ещё верит в переговоры. Адский Босс - это не стрельба, это артиллерийский залп в компактном формате.\nКалибр: .50 BMG</BuildHellBoss.description>
   <BuildHellBoss.jobString>Производство "Адского Босса"...</BuildHellBoss.jobString>
+  
+  <BuildFlamethrowerLastWarning.label>Сборка огнемёта "Последнее предупреждение"</BuildFlamethrowerLastWarning.label>
+  <BuildFlamethrowerLastWarning.description>Огнемёт "Последнее предупреждение"</BuildFlamethrowerLastWarning.description>
+  <BuildFlamethrowerLastWarning.jobString>Производство огнемёта "Последнее предупреждение".</BuildFlamethrowerLastWarning.jobString>
 
   <MakeFalloutJet.label>Изготовить Винт x4</MakeFalloutJet.label>
   <MakeFalloutJet.description>Изготовить наркотик Винт.</MakeFalloutJet.description>

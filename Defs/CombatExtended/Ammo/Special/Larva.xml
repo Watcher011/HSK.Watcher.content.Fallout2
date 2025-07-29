@@ -201,22 +201,6 @@
 			<li>
 				<filter>
 					<thingDefs>
-						<li>Neutroamine</li>
-					</thingDefs>
-				</filter>
-				<count>1</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Yayo</li>
-					</thingDefs>
-				</filter>
-				<count>4</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
 						<li>RadScorpionPoisonGland</li>
 					</thingDefs>
 				</filter>

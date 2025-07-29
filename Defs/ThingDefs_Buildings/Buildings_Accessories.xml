@@ -137,6 +137,79 @@
 		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
 	</ThingDef>
 	
+	<ThingDef ParentName="SK_LampBase">
+		<defName>TritiumLamp</defName>
+		<label>Tritium Lamp</label>
+		<description>Tired of dark dungeons where the only light is the burning remains of your enemies? Introducing the Firefly 3000 tritium lamp - Dr. Watson's revolutionary invention that shines brightly, lasts forever, and may slightly mutate everything around it!</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Lights/TritiumLamp</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>15</Bulk>
+			<Mass>5</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Stony</li>
+			<li>Metallic</li>
+			<li>Ceramic</li>
+			<li>Precious</li>
+		</stuffCategories>
+		<costList>
+			<Uranium>3</Uranium>
+			<Glass>5</Glass>
+		</costList>
+		<costStuffCount>25</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>8</glowRadius>
+				<glowColor>(154,205,50,1)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_ApplyHediffAround">
+				<hediff>RimatomicsRadiation</hediff>
+				<radius>3</radius>
+				<severityToAdd>0.004</severityToAdd>
+			 </li>
+		</comps>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	
+	
+	
+	
 		<ThingDef ParentName="SK_LampBase">
 		<defName>Constructionlamp</defName>
 		<label>Survivor's Lantern</label>
@@ -305,4 +378,99 @@
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
     <tickerType MayRequire="Ludeon.RimWorld.Biotech">Normal</tickerType><!-- used by call bossgroup -->
   </ThingDef>
+  
+  <ThingDef ParentName="SK_LampBase">
+		<defName>MinesSign</defName>
+		<label>Mines sign</label>
+		<description>If you're reading this with one foot on a landmine, congratulations! You've won... natural selection.</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Signs/mines</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			  <drawSize>(1.1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Filth</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>70</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Bulk>8</Bulk>
+			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>
+		</statBases>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+	</ThingDef>
+  
+   <ThingDef ParentName="SK_LampBase">
+		<defName>SnipersSign</defName>
+		<label>Snipers sign</label>
+		<description>"Dear Traveler, Congratulations! You have just entered the special hospitality zone of the local snipers. These nice guys love unexpected surprises, especially when your head suddenly decides to get acquainted with their bullet. "Where some see a death trap, Vault-Tec™ sees an opportunity to increase... fatality statistics."</description>
+		<graphicData>
+			<texPath>Things/Building/Furniture/Signs/snipers</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			  <drawSize>(1.1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Filth</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>70</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Bulk>8</Bulk>
+			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>
+		</statBases>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	<ThingDef ParentName="SK_LampBase">
+		<defName>TurretSign</defName>
+		<label>Turret sign</label>
+		<description>"Welcome to our hospitable kill zone!
+Here you will be greeted by our loyal, slightly impulsive friends — the automated turrets™! They are always happy to see new guests and express their joy in the form of high-speed lead hugs.
+The rules are simple:
+Run — they shoot.
+Walk — they shoot.
+Breathe — you get the idea.
+P.S. If you are reading this, it means the turrets haven't noticed you yet. Enjoy the moment!
+RobCo Corporation is not responsible for turning you into a sieve. You came here yourself."
+(In small print on the side: "Try our new model — the turret with the 'sarcastic comments' function! We promise, the last words will be unforgettable.")</description>
+		<graphicData>
+				<texPath>Things/Building/Furniture/Signs/turret</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			  <drawSize>(1.1,1)</drawSize>
+		</graphicData>
+		<altitudeLayer>Filth</altitudeLayer>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>70</WorkToBuild>
+			<Beauty>2</Beauty>
+			<Bulk>8</Bulk>
+			<Mass>3</Mass>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">2</StyleDominance>
+		</statBases>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<rotatable>true</rotatable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<constructionSkillPrerequisite>1</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
 </Defs>

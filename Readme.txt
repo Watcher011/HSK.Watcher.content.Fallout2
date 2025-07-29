@@ -1,5 +1,5 @@
 
-Версия - 0,44
+Версия - 0,45
 -*-
 Оружие
 Pipe shooter
@@ -24,6 +24,7 @@ Portable Tesla Cannon "Thunder Maker"
 Syringer shooter
 Hell Boss
 Assault Carbine
+Flamethrower Last Warning
 -*-
 коврики
 Volt-Tec:Clean Mat(3x3)
@@ -45,6 +46,7 @@ IED Pig Mine
 Турель
 Automated Turret
 Automated laser turret
+Flamethrower "Pyrometer 3000" turret
 -*-
 разное
 Bottle Cap
@@ -61,6 +63,9 @@ Blowfly hive(для квеста)
 Nest Of Monsters(для квеста)
 Nest Of Rad Scorpion(для квеста)
 Manual cap press
+MinesSign
+SnipersSign
+TurretSign
 -*-
 плоды растений 
 raw Mutfruit
@@ -98,9 +103,10 @@ ColaBasin
 Campfire wastelands
 CommsConsole
 -*-
-Vault Lamp
+лампы
 Survivor's Lantern
 Construction lamp
+Tritium Lamp
 -*-
 напитки
 Nuka-Cola
@@ -133,7 +139,7 @@ Mirelurk
 Brahmin
 Duten
 Strange Duten
-
+Bee
 -*-
 еда
 SuspiciousOmelette

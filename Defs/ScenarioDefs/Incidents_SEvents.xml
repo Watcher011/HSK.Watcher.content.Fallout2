@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--
-	
+
+	 <IncidentDef>
+    <defName>HugeBee</defName>
+    <label>Huge Bee</label>
+    <category>Misc</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_Bee</workerClass>
+    <baseChance>0.5</baseChance>
+    <minRefireDays>30</minRefireDays>
+  </IncidentDef>
+  
+  
 	<IncidentDef>
 		<defName>DeathclawPasses</defName>
 		<label>Deathclaw passes</label>
@@ -10,14 +22,16 @@
 		</targetTags>
 		<category>Misc</category>
 		<workerClass>Watcher.Events.IncidentWorker_DeathclawPasses</workerClass>
-		<baseChance>0.2</baseChance>
-		<minRefireDays>150</minRefireDays>
+		<baseChance>0.15</baseChance>
+		<earliestDay>95</earliestDay>
+		<minRefireDays>110</minRefireDays>
+		<minThreatPoints>4000</minThreatPoints>
 		<modExtensions>
 			<li Class="SK.ExtendedIncident">
 				<allowedTemperatureRange>10~999</allowedTemperatureRange>
-				<!{1}** current map temperature**{1}>
+				<!-- current map temperature-->
 				<allowedAverageBiomeTemperature>10~999</allowedAverageBiomeTemperature>
-				<!{1}** Average biome temperature stat **{1}>
+				<!-- Average biome temperature stat -->
 			</li>
 		</modExtensions>
 	</IncidentDef>
@@ -31,8 +45,10 @@
 		</targetTags>
 		<category>Misc</category>
 		<workerClass>Watcher.Events.IncidentWorker_StrangeDuten</workerClass>
-		<baseChance>0.2</baseChance>
-		<minRefireDays>250</minRefireDays>
+			<baseChance>0.15</baseChance>
+		<earliestDay>95</earliestDay>
+		<minRefireDays>110</minRefireDays>
+		<minThreatPoints>7000</minThreatPoints>
 	</IncidentDef>
 
 	<IncidentDef>
@@ -41,18 +57,18 @@
 		<targetTags>
 			<li>Map_PlayerHome</li>
 		</targetTags>
+		<category>Misc</category>
 		<workerClass>Watcher.Events.IncidentWorker_DutenPasses</workerClass>
-		<baseChance>0.2</baseChance>
-		<category>ThreatBig</category>
-		<minRefireDays>250</minRefireDays>
-		<earliestDay>230</earliestDay>
-		<minThreatPoints>250</minThreatPoints>
+		<baseChance>0.15</baseChance>
+		<earliestDay>95</earliestDay>
+		<minRefireDays>110</minRefireDays>
+		<minThreatPoints>4500</minThreatPoints>
 		<modExtensions>
 			<li Class="SK.ExtendedIncident">
 				<allowedTemperatureRange>15~999</allowedTemperatureRange>
-				<!{1}** current map temperature**{1}>
+				<!-- current map temperature-->
 				<allowedAverageBiomeTemperature>15~999</allowedAverageBiomeTemperature>
-				<!{1}** Average biome temperature stat **{1}>
+				<!-- Average biome temperature stat -->
 			</li>
 		</modExtensions>
 	</IncidentDef>
@@ -72,7 +88,7 @@
 		<earliestDay>12</earliestDay>
 		<minThreatPoints>250</minThreatPoints>
 	</IncidentDef>
-	-->
+	
 	
 	<IncidentDef>
 		<defName>ElectricShockExplosion</defName>

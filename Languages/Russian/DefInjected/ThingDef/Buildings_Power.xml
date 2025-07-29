@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <VaultTecPortableGenerator.label>Vault-Tec Portable "ElectroBuddy" Generator</VaultTecPortableGenerator.label>
+  <VaultTecPortableGenerator.label>Генератор Волт-Тек «Электро-приятель»</VaultTecPortableGenerator.label>
   <VaultTecPortableGenerator.description>"Мощность атомного реактора в удобном переносном формате! (Результаты могут отличаться)"
 Этот компактный источник энергии - идеальный спутник для любого обитателя Пустошей! Разработанный гениями Vault-Tec как "аварийный" источник питания, он прекрасно выполняет свою главную функцию - напоминать вам, что смерть от удара током может поджидать где угодно!"Генератор абсолютно безопасен при правильном использовании (которое никому не известно). Любые случаи самовозгорания являются особенностью местного климата, а не нашей продукции."
 (Совет от бывалых: если генератор начал гудеть и пахнуть жареным - это прекрасный повод для пробежки! Желательно в противоположном направлении.)</VaultTecPortableGenerator.description>
 
-  <FalloutSmallGenerator.label>Генератор Vault-Tec Mark III</FalloutSmallGenerator.label>
+  <FalloutSmallGenerator.label>Генератор Волт-Тек Марк III</FalloutSmallGenerator.label>
   <FalloutSmallGenerator.description>"Не пытайтесь ремонтировать генератор без лицензированного специалиста (если найдёте живого). Любые травмы, полученные при эксплуатации, являются результатом халатности пользователя, а не нашего гениального дизайна!"(Примечание: вероятность смертельного исхода снижается на 2%, если перед работой прочитать молитву Тоду Говарду.)</FalloutSmallGenerator.description>
 
 

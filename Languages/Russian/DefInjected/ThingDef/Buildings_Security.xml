@@ -30,5 +30,9 @@
 
 
   <!-- Башни с ИИ -->
+ <Fallout_FlamethrowerLastWarning_Turret.label>Огнеметная установка «Пирометр 3000»</Fallout_FlamethrowerLastWarning_Turret.label>
+  <Fallout_FlamethrowerLastWarning_Turret.description>Устали от незваных гостей? Устали от рейдеров, мутантов и почтовых курьеров (да, и от них тоже), безнаказанно рыскающих по вашей территории? Пирометр 3000 решает все проблемы одним нажатием кнопки.</Fallout_FlamethrowerLastWarning_Turret.description>
 
+  <Gun_FlamethrowerLastWarning_Turret.label>Огнеметное ружье</Gun_FlamethrowerLastWarning_Turret.label>
+  <Gun_FlamethrowerLastWarning_Turret.description>Огнемет, прикрепленный к башне.</Gun_FlamethrowerLastWarning_Turret.description>
 </LanguageData>
