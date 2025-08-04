@@ -77,33 +77,29 @@
   <Duten.labelFemalePlural>암컷 두텐들</Duten.labelFemalePlural>
 
   <StrangeDuten.label>이상한 듀든</StrangeDuten.label>
-<StrangeDuten.labelPlural>이상한 듀든들</StrangeDuten.labelPlural>
-
-<StrangeDuten.lifeStages.0.label>이상한 듀든</StrangeDuten.lifeStages.0.label>
-<StrangeDuten.lifeStages.0.labelPlural>이상한 듀든들</StrangeDuten.lifeStages.0.labelPlural>
-<StrangeDuten.lifeStages.0.labelMale>수컷 이상한 듀든</StrangeDuten.lifeStages.0.labelMale>
-<StrangeDuten.lifeStages.0.labelMalePlural>수컷 이상한 듀든들</StrangeDuten.lifeStages.0.labelMalePlural>
-<StrangeDuten.lifeStages.0.labelFemale>암컷 이상한 듀든</StrangeDuten.lifeStages.0.labelFemale>
-<StrangeDuten.lifeStages.0.labelFemalePlural>암컷 이상한 듀든들</StrangeDuten.lifeStages.0.labelFemalePlural>
-
-<StrangeDuten.lifeStages.1.label>이상한 듀든</StrangeDuten.lifeStages.1.label>
-<StrangeDuten.lifeStages.1.labelPlural>이상한 듀든들</StrangeDuten.lifeStages.1.labelPlural>
-<StrangeDuten.lifeStages.1.labelMale>수컷 이상한 듀든</StrangeDuten.lifeStages.1.labelMale>
-<StrangeDuten.lifeStages.1.labelMalePlural>수컷 이상한 듀든들</StrangeDuten.lifeStages.1.labelMalePlural>
-<StrangeDuten.lifeStages.1.labelFemale>암컷 이상한 듀든</StrangeDuten.lifeStages.1.labelFemale>
-<StrangeDuten.lifeStages.1.labelFemalePlural>암컷 이상한 듀든들</StrangeDuten.lifeStages.1.labelFemalePlural>
-
-<StrangeDuten.lifeStages.2.label>이상한 듀든</StrangeDuten.lifeStages.2.label>
-<StrangeDuten.lifeStages.2.labelPlural>이상한 듀든들</StrangeDuten.lifeStages.2.labelPlural>
-<StrangeDuten.lifeStages.2.labelMale>수컷 이상한 듀든</StrangeDuten.lifeStages.2.labelMale>
-<StrangeDuten.lifeStages.2.labelMalePlural>수컷 이상한 듀든들</StrangeDuten.lifeStages.2.labelMalePlural>
-<StrangeDuten.lifeStages.2.labelFemale>암컷 이상한 듀든</StrangeDuten.lifeStages.2.labelFemale>
-<StrangeDuten.lifeStages.2.labelFemalePlural>암컷 이상한 듀든들</StrangeDuten.lifeStages.2.labelFemalePlural>
-
-<StrangeDuten.labelMale>수컷 이상한 듀든</StrangeDuten.labelMale>
-<StrangeDuten.labelMalePlural>수컷 이상한 듀든들</StrangeDuten.labelMalePlural>
-<StrangeDuten.labelFemale>암컷 이상한 듀든</StrangeDuten.labelFemale>
-<StrangeDuten.labelFemalePlural>암컷 이상한 듀든들</StrangeDuten.labelFemalePlural>
+  <StrangeDuten.labelPlural>이상한 듀든들</StrangeDuten.labelPlural>
+  <StrangeDuten.lifeStages.0.label>이상한 듀든</StrangeDuten.lifeStages.0.label>
+  <StrangeDuten.lifeStages.0.labelPlural>이상한 듀든들</StrangeDuten.lifeStages.0.labelPlural>
+  <StrangeDuten.lifeStages.0.labelMale>수컷 이상한 듀든</StrangeDuten.lifeStages.0.labelMale>
+  <StrangeDuten.lifeStages.0.labelMalePlural>수컷 이상한 듀든들</StrangeDuten.lifeStages.0.labelMalePlural>
+  <StrangeDuten.lifeStages.0.labelFemale>암컷 이상한 듀든</StrangeDuten.lifeStages.0.labelFemale>
+  <StrangeDuten.lifeStages.0.labelFemalePlural>암컷 이상한 듀든들</StrangeDuten.lifeStages.0.labelFemalePlural>
+  <StrangeDuten.lifeStages.1.label>이상한 듀든</StrangeDuten.lifeStages.1.label>
+  <StrangeDuten.lifeStages.1.labelPlural>이상한 듀든들</StrangeDuten.lifeStages.1.labelPlural>
+  <StrangeDuten.lifeStages.1.labelMale>수컷 이상한 듀든</StrangeDuten.lifeStages.1.labelMale>
+  <StrangeDuten.lifeStages.1.labelMalePlural>수컷 이상한 듀든들</StrangeDuten.lifeStages.1.labelMalePlural>
+  <StrangeDuten.lifeStages.1.labelFemale>암컷 이상한 듀든</StrangeDuten.lifeStages.1.labelFemale>
+  <StrangeDuten.lifeStages.1.labelFemalePlural>암컷 이상한 듀든들</StrangeDuten.lifeStages.1.labelFemalePlural>
+  <StrangeDuten.lifeStages.2.label>이상한 듀든</StrangeDuten.lifeStages.2.label>
+  <StrangeDuten.lifeStages.2.labelPlural>이상한 듀든들</StrangeDuten.lifeStages.2.labelPlural>
+  <StrangeDuten.lifeStages.2.labelMale>수컷 이상한 듀든</StrangeDuten.lifeStages.2.labelMale>
+  <StrangeDuten.lifeStages.2.labelMalePlural>수컷 이상한 듀든들</StrangeDuten.lifeStages.2.labelMalePlural>
+  <StrangeDuten.lifeStages.2.labelFemale>암컷 이상한 듀든</StrangeDuten.lifeStages.2.labelFemale>
+  <StrangeDuten.lifeStages.2.labelFemalePlural>암컷 이상한 듀든들</StrangeDuten.lifeStages.2.labelFemalePlural>
+  <StrangeDuten.labelMale>수컷 이상한 듀든</StrangeDuten.labelMale>
+  <StrangeDuten.labelMalePlural>수컷 이상한 듀든들</StrangeDuten.labelMalePlural>
+  <StrangeDuten.labelFemale>암컷 이상한 듀든</StrangeDuten.labelFemale>
+  <StrangeDuten.labelFemalePlural>암컷 이상한 듀든들</StrangeDuten.labelFemalePlural>
 
   <GlowingRadroach.label>발광 방사능 바퀴벌레</GlowingRadroach.label>
   <GlowingRadroach.labelPlural>발광 방사능 바퀴벌레들</GlowingRadroach.labelPlural>
@@ -129,6 +125,31 @@
   <GlowingRadroach.labelMalePlural>수컷 발광 방사능 바퀴벌레들</GlowingRadroach.labelMalePlural>
   <GlowingRadroach.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.labelFemale>
   <GlowingRadroach.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.labelFemalePlural>
+
+ <HugeBee.label>하위즈비</HugeBee.label>
+<HugeBee.labelPlural>하위즈비 무리</HugeBee.labelPlural>
+<HugeBee.lifeStages.0.label>하위즈비</HugeBee.lifeStages.0.label>
+<HugeBee.lifeStages.0.labelPlural>하위즈비 무리</HugeBee.lifeStages.0.labelPlural>
+<HugeBee.lifeStages.0.labelMale>수컷 하위즈비</HugeBee.lifeStages.0.labelMale>
+<HugeBee.lifeStages.0.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.0.labelMalePlural>
+<HugeBee.lifeStages.0.labelFemale>암컷 하위즈비</HugeBee.lifeStages.0.labelFemale>
+<HugeBee.lifeStages.0.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.0.labelFemalePlural>
+<HugeBee.lifeStages.1.label>하위즈비</HugeBee.lifeStages.1.label>
+<HugeBee.lifeStages.1.labelPlural>하위즈비 무리</HugeBee.lifeStages.1.labelPlural>
+<HugeBee.lifeStages.1.labelMale>수컷 하위즈비</HugeBee.lifeStages.1.labelMale>
+<HugeBee.lifeStages.1.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.1.labelMalePlural>
+<HugeBee.lifeStages.1.labelFemale>암컷 하위즈비</HugeBee.lifeStages.1.labelFemale>
+<HugeBee.lifeStages.1.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.1.labelFemalePlural>
+<HugeBee.lifeStages.2.label>하위즈비</HugeBee.lifeStages.2.label>
+<HugeBee.lifeStages.2.labelPlural>하위즈비 무리</HugeBee.lifeStages.2.labelPlural>
+<HugeBee.lifeStages.2.labelMale>수컷 하위즈비</HugeBee.lifeStages.2.labelMale>
+<HugeBee.lifeStages.2.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.2.labelMalePlural>
+<HugeBee.lifeStages.2.labelFemale>암컷 하위즈비</HugeBee.lifeStages.2.labelFemale>
+<HugeBee.lifeStages.2.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.2.labelFemalePlural>
+<HugeBee.labelMale>수컷 하위즈비</HugeBee.labelMale>
+<HugeBee.labelMalePlural>수컷 하위즈비 무리</HugeBee.labelMalePlural>
+<HugeBee.labelFemale>암컷 하위즈비</HugeBee.labelFemale>
+<HugeBee.labelFemalePlural>암컷 하위즈비 무리</HugeBee.labelFemalePlural>
 
 
 </LanguageData>

@@ -259,10 +259,15 @@
   <Fallout_HellBoss.description>총구로 법이 쓰여지는 세계에서, 휴전은 단지 재장전을 위한 일시적 중단에 불과합니다. 일반 기관총은 아직 협상을 믿는 자들을 위한 것이죠. 헬 보스는 단순한 발사가 아닙니다. 이는 컴팩트한 형태의 포병 일제 사격입니다. 상대를 죽이는 게 아니라 방사능 먼지로 만들어버리는 극적인 효과를 원할 때 선택하세요.</Fallout_HellBoss.description>
   <Fallout_HellBoss.tools.0.label>총열</Fallout_HellBoss.tools.0.label>
   
-<Fallout_FlamethrowerLastWarning.label>화염방사기 "마지막 경고"</Fallout_FlamethrowerLastWarning.label>
-<Fallout_FlamethrowerLastWarning.description>"야만적인 이 세상에 문명을 가져다줄 누군가는 필요하니까. 말을 이해하지 못하는 야만인들이라면 네이팜을 통해 이해시켜 주자."
+<Fallout_Flamethrower.label>화염방사기 '최후의 경고'</Fallout_Flamethrower.label>
+<Fallout_Flamethrower.description>"이 야만적인 세계에 문명을 전파할 누군가는 필요하지. 야만인들이 말을 이해하지 못한다면, 네이팜을 통해 이해시켜 주마."
+이 겸손한 장비는 2077년부터 당신의 문제들을 바삭한 숯으로 만들어 왔습니다! 적들이 도망가나? 문제 없어 - 액체 태양의 흐름으로 추적하라! 추운 황무지의 밤을 따뜻하게 보내고 싶나? 그냥 가장 가까운 오두막에 불을 지르면 돼 - 이제 그것이 당신의 개인용 난로다!</Fallout_Flamethrower.description>
 
-이 겸손한 장비는 2077년부터 당신의 문제들을 바삭한 숯으로 변환해 왔습니다! 적들이 도망가나요? 문제 없습니다 - 액체 태양의 흐름으로 그들을 따라잡으세요! 황무지의 추운 밤을 따뜻하게 보내고 싶나요? 그냥 가장 가까운 오두막에 불을 지르세요 - 이제 그것이 당신의 개인 난로입니다!</Fallout_FlamethrowerLastWarning.description>
-<Fallout_FlamethrowerLastWarning.tools.0.label>배럴</Fallout_FlamethrowerLastWarning.tools.0.label>
+
+  <!--<Fallout_FlamethrowerLastWarning.label>화염방사기 "마지막 경고"</Fallout_FlamethrowerLastWarning.label>-->
+  <!--<Fallout_FlamethrowerLastWarning.description>"야만적인 이 세상에 문명을 가져다줄 누군가는 필요하니까. 말을 이해하지 못하는 야만인들이라면 네이팜을 통해 이해시켜 주자."
+
+이 겸손한 장비는 2077년부터 당신의 문제들을 바삭한 숯으로 변환해 왔습니다! 적들이 도망가나요? 문제 없습니다 - 액체 태양의 흐름으로 그들을 따라잡으세요! 황무지의 추운 밤을 따뜻하게 보내고 싶나요? 그냥 가장 가까운 오두막에 불을 지르세요 - 이제 그것이 당신의 개인 난로입니다!</Fallout_FlamethrowerLastWarning.description>-->
+  <!--<Fallout_FlamethrowerLastWarning.tools.0.label>배럴</Fallout_FlamethrowerLastWarning.tools.0.label>-->
 
 </LanguageData>

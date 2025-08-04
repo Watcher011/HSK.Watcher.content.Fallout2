@@ -68,10 +68,10 @@
   <BuildHellBoss.label>"헬 보스" 기관총 제작</BuildHellBoss.label>
   <BuildHellBoss.description>기관총 "헬 보스". 총구가 법이 되는 세계에서, 휴전은 단지 재장전을 위한 일시적 중단일 뿐입니다. 일반 기관총은 아직 협상을 믿는 순진한 이들을 위한 것이죠. 헬 보스는 단순한 발사가 아닙니다. 이는 컴팩트한 크기에 담긴 포격 세례 그 자체입니다.\n구경: .50구경</BuildHellBoss.description>
   <BuildHellBoss.jobString>"헬 보스" 제작 중...</BuildHellBoss.jobString>
-  
+
   <BuildFlamethrowerLastWarning.label>"마지막 경고" 화염방사기 제작</BuildFlamethrowerLastWarning.label>
-<BuildFlamethrowerLastWarning.description>"마지막 경고" 화염방사기</BuildFlamethrowerLastWarning.description>
-<BuildFlamethrowerLastWarning.jobString>"마지막 경고" 화염방사기 제작 중...</BuildFlamethrowerLastWarning.jobString>
+  <BuildFlamethrowerLastWarning.description>"마지막 경고" 화염방사기</BuildFlamethrowerLastWarning.description>
+  <BuildFlamethrowerLastWarning.jobString>"마지막 경고" 화염방사기 제작 중...</BuildFlamethrowerLastWarning.jobString>
 
   <MakeFalloutJet.label>제트 x4 제작</MakeFalloutJet.label>
   <MakeFalloutJet.description>제트 마약을 제작합니다.</MakeFalloutJet.description>

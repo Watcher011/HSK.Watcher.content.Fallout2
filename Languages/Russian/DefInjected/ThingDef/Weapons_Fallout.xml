@@ -70,6 +70,152 @@
   <Fallout_LaserCarbineML.tools.0.label>ствол</Fallout_LaserCarbineML.tools.0.label>
 
 
+  <!-- <ThingDef>
+        <defName>Fallout_AlienPistol</defName>
+        <label>Alien Energy Pistol</label>
+        <description>Found in the wreckage of a crashed UFO somewhere between the radioactive sands and yet another survivor's nervous breakdown, this gun is either a major technological breakthrough or a deadly toy from aliens who clearly didn't care about "safety precautions." Stylish, ergonomic, and not at all like something a creature with less than three fingers should wield, the Zeta-9 fires bolts of pure plasma that vaporize enemies with a grace worthy of an intergalactic court. Except sometimes it decides you're the enemy.</description>
+        <graphicData>
+            <texPath>Things/Weapons/AlienPlasma</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>12400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>HiddenWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
+                <warmupTime>0.40</warmupTime>
+                <range>47</range>
+                <soundCast>Fire_UACPistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>50</magazineSize>
+                <reloadTime>1.80</reloadTime>
+                <ammoSet>AmmoSet_6x24mmCharged</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	
+	<ThingDef>
+        <defName>Fallout_EuclidsCFinder</defName>
+        <label>Euclid's C-Finder</label>
+        <description>"The Euclidean Algorithm is a compact satellite targeter that allows for a high-precision orbital strike to be made anywhere within range. Simply locate the beam, stand back to a safe distance (preferably very far), and enjoy the spectacle of pure, mathematically accurate application!"</description>
+        <graphicData>
+            <texPath>Things/Weapons/EuclidsCFinder</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+		    <MaxHitPoints>2</MaxHitPoints>
+            <MarketValue>12400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>HiddenWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+	<verbs>
+      <li>
+        <verbClass>Verb_Spawn</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3</warmupTime>
+        <ai_AvoidFriendlyFireRadius>10</ai_AvoidFriendlyFireRadius>
+        <spawnDef>Tornado</spawnDef>
+        <colonyWideTaleDef>TornadoFromItem</colonyWideTaleDef>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundAiming>OrbitalTargeter_Aiming</soundAiming>
+        <soundCast>OrbitalTargeter_Fire</soundCast>
+        <onlyManualCast>true</onlyManualCast>
+        <useableInPocketMaps>false</useableInPocketMaps>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+		<comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>Bombardment_Helios</abilityDef>
+        <maxCharges>1</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>burner charge</chargeNoun>
+        <ammoDef>NuclearBattery</ammoDef>
+        <ammoCountPerCharge>1</ammoCountPerCharge>
+        <baseReloadTicks>60000</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    </ThingDef> -->
+
   <Fallout_TeslaCannon.label>Портативная Тесла-пушка «Громовержец»</Fallout_TeslaCannon.label>
   <Fallout_TeslaCannon.description>"Для случаев, когда нужно превратить перестрелку в световое шоу Николы Теслы (с участием свежеприготовленных трупов в качестве зрителей)! Учёные довоенной эпохи явно пересмотрели фильмов про Франкенштейна, когда создавали этот портативный громоотвод для ваших проблем.
 
@@ -101,11 +247,16 @@
   <Fallout_HellBoss.label>Пулемёт "Адский Босс"</Fallout_HellBoss.label>
   <Fallout_HellBoss.description>В мире, где законы пишутся стволами пулемётов, а перемирие - это просто пауза для перезарядки, обычные пулемёты для тех, кто ещё верит в переговоры. Hell Boss - это не стрельба, это артиллерийский залп в компактном формате. Когда вам нужно не просто убить, а стереть противника в радиоактивную пыль с налётом театральности.</Fallout_HellBoss.description>
   <Fallout_HellBoss.tools.0.label>ствол</Fallout_HellBoss.tools.0.label>
-
- <Fallout_FlamethrowerLastWarning.label>Огнемет "Последнее предупреждение"</Fallout_FlamethrowerLastWarning.label>
-  <Fallout_FlamethrowerLastWarning.description>«Потому что кто-то должен принести цивилизацию в этот варварский мир. А если варвары не понимают слов, то поймут напалм».
-Этот скромный отряд превращает ваши проблемы в хрустящие угли с 2077 года! Враги в бегах? Не проблема — догоните их потоком жидкого солнца! Хотите согреться холодной ночью в пустоши? Просто подожгите ближайшую хижину — теперь это ваш личный камин!.</Fallout_FlamethrowerLastWarning.description>
-  <Fallout_FlamethrowerLastWarning.tools.0.label>ствол</Fallout_FlamethrowerLastWarning.tools.0.label>
   
+  
+<Fallout_Flamethrower.label>Огнемёт «Последнее Предупреждение»</Fallout_Flamethrower.label>
+<Fallout_Flamethrower.description>"Потому что кто-то должен нести цивилизацию в этот варварский мир. И если варвары не понимают слов — они поймут напалм."
+Эта скромная установка превращает ваши проблемы в угольки с 2077 года! Враги бегут? Не проблема — догоните их струёй жидкого солнца! Хотите согреться холодным пустошным вечером? Просто подожгите ближайшую хижину — теперь это ваш личный камин!</Fallout_Flamethrower.description>
+
+
+  <!--<Fallout_FlamethrowerLastWarning.label>Огнемет "Последнее предупреждение"</Fallout_FlamethrowerLastWarning.label>-->
+  <!--<Fallout_FlamethrowerLastWarning.description>«Потому что кто-то должен принести цивилизацию в этот варварский мир. А если варвары не понимают слов, то поймут напалм».
+Этот скромный отряд превращает ваши проблемы в хрустящие угли с 2077 года! Враги в бегах? Не проблема — догоните их потоком жидкого солнца! Хотите согреться холодной ночью в пустоши? Просто подожгите ближайшую хижину — теперь это ваш личный камин!.</Fallout_FlamethrowerLastWarning.description>-->
+  <!--<Fallout_FlamethrowerLastWarning.tools.0.label>ствол</Fallout_FlamethrowerLastWarning.tools.0.label>-->
 
 </LanguageData>

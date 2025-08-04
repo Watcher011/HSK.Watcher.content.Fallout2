@@ -1,5 +1,5 @@
 
-Версия - 0,45
+Версия - 0,47
 -*-
 Оружие
 Pipe shooter
@@ -95,6 +95,7 @@ Tranquilizer Dart
 Vault-Tec Portable "ElectroBuddy" Generator
 Vault-Tec Mark III generator
 Broken Reactor Vault-Tec(декоративный для квестов)
+
 -*-
 верстаки/постройки
 Production Workbench
@@ -156,7 +157,7 @@ Super mutant
 MisterHandy
 -*-
 Фракция
-Vaultec(сломан торговец)
+Vaultec
 Enclave
 -*-
 одежда
@@ -169,6 +170,8 @@ X-01 Tesla power armor
 T-51 power armor
 T-51 power Helmet
 Pip-Boy
+Y-17 trauma override harness(прописать торговцам / )
+Y-17 Spacesuit helmet
 -*-
 сценарий
 Shelter residents(easy start)
