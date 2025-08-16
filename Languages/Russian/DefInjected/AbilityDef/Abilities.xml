@@ -3,6 +3,8 @@
 
   <Bombardment_Helios.label>обстрел (Гелиос)</Bombardment_Helios.label>
   <Bombardment_Helios.description>.</Bombardment_Helios.description>
+<CoagulateLSS.label>Коагулят</CoagulateLSS.label>
+<CoagulateLSS.description>Используйте специальный коагулят.</CoagulateLSS.description>
 
 
 </LanguageData>

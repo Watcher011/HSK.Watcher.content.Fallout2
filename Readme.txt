@@ -1,5 +1,5 @@
 
-Версия - 0,47
+Версия - 0,48
 -*-
 Оружие
 Pipe shooter
@@ -54,6 +54,8 @@ Nuclear Battery
 Gecko egg (fert.)
 Deathclaw Egg (Unfertilized)
 Deathclaw Egg (Fertilized)
+Firefly Egg (Fertilized)
+Firefly Egg (Unfertilized)
 Mr.Handy Kit
 Mr.Gutsy Kit
 Strange pack(F.E.V.)
@@ -141,6 +143,7 @@ Brahmin
 Duten
 Strange Duten
 Bee
+Firefly
 -*-
 еда
 SuspiciousOmelette
@@ -170,7 +173,7 @@ X-01 Tesla power armor
 T-51 power armor
 T-51 power Helmet
 Pip-Boy
-Y-17 trauma override harness(прописать торговцам / )
+Y-17 trauma override harness
 Y-17 Spacesuit helmet
 -*-
 сценарий

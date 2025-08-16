@@ -135,4 +135,69 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	
+	 <ThingDef ParentName="SK_EggUnfertBase">
+		<defName>EggFireflyUnfertilized</defName>
+		<label>Firefly Egg (Unfertilized)</label>
+		<description>An unfertilized egg of a Firefly.</description>
+		<graphicData>
+			<texPath>Things/Item/FireflyEgg</texPath>
+			 <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>300.0</MarketValue>
+			<Mass>10</Mass>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Flammability>0.7</Flammability>
+			<Nutrition>1</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.2</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+	
+			 <li Class="CompProperties_Glower">
+              <overlightRadius>7.0</overlightRadius>
+              <glowRadius>7</glowRadius>
+             <glowColor>(370,370,370,0)</glowColor>
+           </li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="SK_EggFertBase">
+		<defName>EggFireflyFertilized</defName>
+		<label>Firefly Egg (Fertilized)</label>
+		<description>A fertilized egg of a Firefly. If all goes well, it should hatch into a Baby Firefly. Eggs can be eaten raw, but are much better when cooked.</description>
+		<tickerType>Normal</tickerType>
+		<graphicData>
+			<texPath>Things/Item/FireflyEgg</texPath>
+			 <graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<MarketValue>600.0</MarketValue>
+			<Mass>10</Mass>
+			<DeteriorationRate>1</DeteriorationRate>
+			<Flammability>0.7</Flammability>
+			<Nutrition>1</Nutrition>
+			<FoodPoisonChanceFixedHuman>0.2</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>130</hatcherDaystoHatch>
+				<hatcherPawn>Firefly</hatcherPawn>
+			</li>
+			<li Class="CompProperties_TemperatureRuinable">
+				<minSafeTemperature>-5</minSafeTemperature>
+				<maxSafeTemperature>30</maxSafeTemperature>
+				<progressPerDegreePerTick>0.00003</progressPerDegreePerTick>
+			</li>
+			 <li Class="CompProperties_Glower">
+              <overlightRadius>7.0</overlightRadius>
+              <glowRadius>7</glowRadius>
+             <glowColor>(370,370,370,0)</glowColor>
+           </li>
+		</comps>
+	</ThingDef>
+	
 </Defs>

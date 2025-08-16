@@ -126,30 +126,55 @@
   <GlowingRadroach.labelFemale>암컷 발광 방사능 바퀴벌레</GlowingRadroach.labelFemale>
   <GlowingRadroach.labelFemalePlural>암컷 발광 방사능 바퀴벌레들</GlowingRadroach.labelFemalePlural>
 
- <HugeBee.label>하위즈비</HugeBee.label>
-<HugeBee.labelPlural>하위즈비 무리</HugeBee.labelPlural>
-<HugeBee.lifeStages.0.label>하위즈비</HugeBee.lifeStages.0.label>
-<HugeBee.lifeStages.0.labelPlural>하위즈비 무리</HugeBee.lifeStages.0.labelPlural>
-<HugeBee.lifeStages.0.labelMale>수컷 하위즈비</HugeBee.lifeStages.0.labelMale>
-<HugeBee.lifeStages.0.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.0.labelMalePlural>
-<HugeBee.lifeStages.0.labelFemale>암컷 하위즈비</HugeBee.lifeStages.0.labelFemale>
-<HugeBee.lifeStages.0.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.0.labelFemalePlural>
-<HugeBee.lifeStages.1.label>하위즈비</HugeBee.lifeStages.1.label>
-<HugeBee.lifeStages.1.labelPlural>하위즈비 무리</HugeBee.lifeStages.1.labelPlural>
-<HugeBee.lifeStages.1.labelMale>수컷 하위즈비</HugeBee.lifeStages.1.labelMale>
-<HugeBee.lifeStages.1.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.1.labelMalePlural>
-<HugeBee.lifeStages.1.labelFemale>암컷 하위즈비</HugeBee.lifeStages.1.labelFemale>
-<HugeBee.lifeStages.1.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.1.labelFemalePlural>
-<HugeBee.lifeStages.2.label>하위즈비</HugeBee.lifeStages.2.label>
-<HugeBee.lifeStages.2.labelPlural>하위즈비 무리</HugeBee.lifeStages.2.labelPlural>
-<HugeBee.lifeStages.2.labelMale>수컷 하위즈비</HugeBee.lifeStages.2.labelMale>
-<HugeBee.lifeStages.2.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.2.labelMalePlural>
-<HugeBee.lifeStages.2.labelFemale>암컷 하위즈비</HugeBee.lifeStages.2.labelFemale>
-<HugeBee.lifeStages.2.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.2.labelFemalePlural>
-<HugeBee.labelMale>수컷 하위즈비</HugeBee.labelMale>
-<HugeBee.labelMalePlural>수컷 하위즈비 무리</HugeBee.labelMalePlural>
-<HugeBee.labelFemale>암컷 하위즈비</HugeBee.labelFemale>
-<HugeBee.labelFemalePlural>암컷 하위즈비 무리</HugeBee.labelFemalePlural>
+  <HugeBee.label>하위즈비</HugeBee.label>
+  <HugeBee.labelPlural>하위즈비 무리</HugeBee.labelPlural>
+  <HugeBee.lifeStages.0.label>하위즈비</HugeBee.lifeStages.0.label>
+  <HugeBee.lifeStages.0.labelPlural>하위즈비 무리</HugeBee.lifeStages.0.labelPlural>
+  <HugeBee.lifeStages.0.labelMale>수컷 하위즈비</HugeBee.lifeStages.0.labelMale>
+  <HugeBee.lifeStages.0.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.0.labelMalePlural>
+  <HugeBee.lifeStages.0.labelFemale>암컷 하위즈비</HugeBee.lifeStages.0.labelFemale>
+  <HugeBee.lifeStages.0.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.0.labelFemalePlural>
+  <HugeBee.lifeStages.1.label>하위즈비</HugeBee.lifeStages.1.label>
+  <HugeBee.lifeStages.1.labelPlural>하위즈비 무리</HugeBee.lifeStages.1.labelPlural>
+  <HugeBee.lifeStages.1.labelMale>수컷 하위즈비</HugeBee.lifeStages.1.labelMale>
+  <HugeBee.lifeStages.1.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.1.labelMalePlural>
+  <HugeBee.lifeStages.1.labelFemale>암컷 하위즈비</HugeBee.lifeStages.1.labelFemale>
+  <HugeBee.lifeStages.1.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.1.labelFemalePlural>
+  <HugeBee.lifeStages.2.label>하위즈비</HugeBee.lifeStages.2.label>
+  <HugeBee.lifeStages.2.labelPlural>하위즈비 무리</HugeBee.lifeStages.2.labelPlural>
+  <HugeBee.lifeStages.2.labelMale>수컷 하위즈비</HugeBee.lifeStages.2.labelMale>
+  <HugeBee.lifeStages.2.labelMalePlural>수컷 하위즈비 무리</HugeBee.lifeStages.2.labelMalePlural>
+  <HugeBee.lifeStages.2.labelFemale>암컷 하위즈비</HugeBee.lifeStages.2.labelFemale>
+  <HugeBee.lifeStages.2.labelFemalePlural>암컷 하위즈비 무리</HugeBee.lifeStages.2.labelFemalePlural>
+  <HugeBee.labelMale>수컷 하위즈비</HugeBee.labelMale>
+  <HugeBee.labelMalePlural>수컷 하위즈비 무리</HugeBee.labelMalePlural>
+  <HugeBee.labelFemale>암컷 하위즈비</HugeBee.labelFemale>
+  <HugeBee.labelFemalePlural>암컷 하위즈비 무리</HugeBee.labelFemalePlural>
+
+  <Firefly.label>반딧불이</Firefly.label>
+<Firefly.labelPlural>반딧불이들</Firefly.labelPlural>
+<Firefly.lifeStages.0.label>반딧불이</Firefly.lifeStages.0.label>
+<Firefly.lifeStages.0.labelPlural>반딧불이들</Firefly.lifeStages.0.labelPlural>
+<Firefly.lifeStages.0.labelMale>수컷 반딧불이</Firefly.lifeStages.0.labelMale>
+<Firefly.lifeStages.0.labelMalePlural>수컷 반딧불이들</Firefly.lifeStages.0.labelMalePlural>
+<Firefly.lifeStages.0.labelFemale>암컷 반딧불이</Firefly.lifeStages.0.labelFemale>
+<Firefly.lifeStages.0.labelFemalePlural>암컷 반딧불이들</Firefly.lifeStages.0.labelFemalePlural>
+<Firefly.lifeStages.1.label>반딧불이</Firefly.lifeStages.1.label>
+<Firefly.lifeStages.1.labelPlural>반딧불이들</Firefly.lifeStages.1.labelPlural>
+<Firefly.lifeStages.1.labelMale>수컷 반딧불이</Firefly.lifeStages.1.labelMale>
+<Firefly.lifeStages.1.labelMalePlural>수컷 반딧불이들</Firefly.lifeStages.1.labelMalePlural>
+<Firefly.lifeStages.1.labelFemale>암컷 반딧불이</Firefly.lifeStages.1.labelFemale>
+<Firefly.lifeStages.1.labelFemalePlural>암컷 반딧불이들</Firefly.lifeStages.1.labelFemalePlural>
+<Firefly.lifeStages.2.label>반딧불이</Firefly.lifeStages.2.label>
+<Firefly.lifeStages.2.labelPlural>반딧불이들</Firefly.lifeStages.2.labelPlural>
+<Firefly.lifeStages.2.labelMale>수컷 반딧불이</Firefly.lifeStages.2.labelMale>
+<Firefly.lifeStages.2.labelMalePlural>수컷 반딧불이들</Firefly.lifeStages.2.labelMalePlural>
+<Firefly.lifeStages.2.labelFemale>암컷 반딧불이</Firefly.lifeStages.2.labelFemale>
+<Firefly.lifeStages.2.labelFemalePlural>암컷 반딧불이들</Firefly.lifeStages.2.labelFemalePlural>
+<Firefly.labelMale>수컷 반딧불이</Firefly.labelMale>
+<Firefly.labelMalePlural>수컷 반딧불이들</Firefly.labelMalePlural>
+<Firefly.labelFemale>암컷 반딧불이</Firefly.labelFemale>
+<Firefly.labelFemalePlural>암컷 반딧불이들</Firefly.labelFemalePlural>
 
 
 </LanguageData>

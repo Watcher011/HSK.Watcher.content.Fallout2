@@ -126,30 +126,55 @@
   <GlowingRadroach.labelFemale>самка Светящегося Радтаракана</GlowingRadroach.labelFemale>
   <GlowingRadroach.labelFemalePlural>самки Светящихся Радтараканов</GlowingRadroach.labelFemalePlural>
 
- <HugeBee.label>Огромная пчела</HugeBee.label>
-<HugeBee.labelPlural>Огромные пчелы</HugeBee.labelPlural>
-<HugeBee.lifeStages.0.label>Огромная пчела</HugeBee.lifeStages.0.label>
-<HugeBee.lifeStages.0.labelPlural>Огромные пчелы</HugeBee.lifeStages.0.labelPlural>
-<HugeBee.lifeStages.0.labelMale>самец огромной пчелы</HugeBee.lifeStages.0.labelMale>
-<HugeBee.lifeStages.0.labelMalePlural>самцы огромных пчел</HugeBee.lifeStages.0.labelMalePlural>
-<HugeBee.lifeStages.0.labelFemale>самка огромной пчелы</HugeBee.lifeStages.0.labelFemale>
-<HugeBee.lifeStages.0.labelFemalePlural>самки огромных пчел</HugeBee.lifeStages.0.labelFemalePlural>
-<HugeBee.lifeStages.1.label>Огромная пчела</HugeBee.lifeStages.1.label>
-<HugeBee.lifeStages.1.labelPlural>Огромные пчелы</HugeBee.lifeStages.1.labelPlural>
-<HugeBee.lifeStages.1.labelMale>самец огромной пчелы</HugeBee.lifeStages.1.labelMale>
-<HugeBee.lifeStages.1.labelMalePlural>самцы огромных пчел</HugeBee.lifeStages.1.labelMalePlural>
-<HugeBee.lifeStages.1.labelFemale>самка огромной пчелы</HugeBee.lifeStages.1.labelFemale>
-<HugeBee.lifeStages.1.labelFemalePlural>самки огромных пчел</HugeBee.lifeStages.1.labelFemalePlural>
-<HugeBee.lifeStages.2.label>Огромная пчела</HugeBee.lifeStages.2.label>
-<HugeBee.lifeStages.2.labelPlural>Огромные пчелы</HugeBee.lifeStages.2.labelPlural>
-<HugeBee.lifeStages.2.labelMale>самец огромной пчелы</HugeBee.lifeStages.2.labelMale>
-<HugeBee.lifeStages.2.labelMalePlural>самцы огромных пчел</HugeBee.lifeStages.2.labelMalePlural>
-<HugeBee.lifeStages.2.labelFemale>самка огромной пчелы</HugeBee.lifeStages.2.labelFemale>
-<HugeBee.lifeStages.2.labelFemalePlural>самки огромных пчел</HugeBee.lifeStages.2.labelFemalePlural>
-<HugeBee.labelMale>самец огромной пчелы</HugeBee.labelMale>
-<HugeBee.labelMalePlural>самцы огромных пчел</HugeBee.labelMalePlural>
-<HugeBee.labelFemale>самка огромной пчелы</HugeBee.labelFemale>
-<HugeBee.labelFemalePlural>самки огромных пчел</HugeBee.labelFemalePlural>
+  <HugeBee.label>Огромная пчела</HugeBee.label>
+  <HugeBee.labelPlural>Огромные пчелы</HugeBee.labelPlural>
+  <HugeBee.lifeStages.0.label>Огромная пчела</HugeBee.lifeStages.0.label>
+  <HugeBee.lifeStages.0.labelPlural>Огромные пчелы</HugeBee.lifeStages.0.labelPlural>
+  <HugeBee.lifeStages.0.labelMale>самец огромной пчелы</HugeBee.lifeStages.0.labelMale>
+  <HugeBee.lifeStages.0.labelMalePlural>самцы огромных пчел</HugeBee.lifeStages.0.labelMalePlural>
+  <HugeBee.lifeStages.0.labelFemale>самка огромной пчелы</HugeBee.lifeStages.0.labelFemale>
+  <HugeBee.lifeStages.0.labelFemalePlural>самки огромных пчел</HugeBee.lifeStages.0.labelFemalePlural>
+  <HugeBee.lifeStages.1.label>Огромная пчела</HugeBee.lifeStages.1.label>
+  <HugeBee.lifeStages.1.labelPlural>Огромные пчелы</HugeBee.lifeStages.1.labelPlural>
+  <HugeBee.lifeStages.1.labelMale>самец огромной пчелы</HugeBee.lifeStages.1.labelMale>
+  <HugeBee.lifeStages.1.labelMalePlural>самцы огромных пчел</HugeBee.lifeStages.1.labelMalePlural>
+  <HugeBee.lifeStages.1.labelFemale>самка огромной пчелы</HugeBee.lifeStages.1.labelFemale>
+  <HugeBee.lifeStages.1.labelFemalePlural>самки огромных пчел</HugeBee.lifeStages.1.labelFemalePlural>
+  <HugeBee.lifeStages.2.label>Огромная пчела</HugeBee.lifeStages.2.label>
+  <HugeBee.lifeStages.2.labelPlural>Огромные пчелы</HugeBee.lifeStages.2.labelPlural>
+  <HugeBee.lifeStages.2.labelMale>самец огромной пчелы</HugeBee.lifeStages.2.labelMale>
+  <HugeBee.lifeStages.2.labelMalePlural>самцы огромных пчел</HugeBee.lifeStages.2.labelMalePlural>
+  <HugeBee.lifeStages.2.labelFemale>самка огромной пчелы</HugeBee.lifeStages.2.labelFemale>
+  <HugeBee.lifeStages.2.labelFemalePlural>самки огромных пчел</HugeBee.lifeStages.2.labelFemalePlural>
+  <HugeBee.labelMale>самец огромной пчелы</HugeBee.labelMale>
+  <HugeBee.labelMalePlural>самцы огромных пчел</HugeBee.labelMalePlural>
+  <HugeBee.labelFemale>самка огромной пчелы</HugeBee.labelFemale>
+  <HugeBee.labelFemalePlural>самки огромных пчел</HugeBee.labelFemalePlural>
+
+ <Firefly.label>Светлячок</Firefly.label>
+<Firefly.labelPlural>Светлячки</Firefly.labelPlural>
+<Firefly.lifeStages.0.label>Светлячок</Firefly.lifeStages.0.label>
+<Firefly.lifeStages.0.labelPlural>Светлячки</Firefly.lifeStages.0.labelPlural>
+<Firefly.lifeStages.0.labelMale>самец светлячка</Firefly.lifeStages.0.labelMale>
+<Firefly.lifeStages.0.labelMalePlural>самцы светлячков</Firefly.lifeStages.0.labelMalePlural>
+<Firefly.lifeStages.0.labelFemale>самка светлячка</Firefly.lifeStages.0.labelFemale>
+<Firefly.lifeStages.0.labelFemalePlural>самки светлячков</Firefly.lifeStages.0.labelFemalePlural>
+<Firefly.lifeStages.1.label>Светлячок</Firefly.lifeStages.1.label>
+<Firefly.lifeStages.1.labelPlural>Светлячки</Firefly.lifeStages.1.labelPlural>
+<Firefly.lifeStages.1.labelMale>самец светлячка</Firefly.lifeStages.1.labelMale>
+<Firefly.lifeStages.1.labelMalePlural>самцы светлячков</Firefly.lifeStages.1.labelMalePlural>
+<Firefly.lifeStages.1.labelFemale>самка светлячка</Firefly.lifeStages.1.labelFemale>
+<Firefly.lifeStages.1.labelFemalePlural>самки светлячков</Firefly.lifeStages.1.labelFemalePlural>
+<Firefly.lifeStages.2.label>Светлячок</Firefly.lifeStages.2.label>
+<Firefly.lifeStages.2.labelPlural>Светлячки</Firefly.lifeStages.2.labelPlural>
+<Firefly.lifeStages.2.labelMale>самец светлячка</Firefly.lifeStages.2.labelMale>
+<Firefly.lifeStages.2.labelMalePlural>самцы светлячков</Firefly.lifeStages.2.labelMalePlural>
+<Firefly.lifeStages.2.labelFemale>самка светлячка</Firefly.lifeStages.2.labelFemale>
+<Firefly.lifeStages.2.labelFemalePlural>самки светлячков</Firefly.lifeStages.2.labelFemalePlural>
+<Firefly.labelMale>самец светлячка</Firefly.labelMale>
+<Firefly.labelMalePlural>самцы светлячков</Firefly.labelMalePlural>
+<Firefly.labelFemale>самка светлячка</Firefly.labelFemale>
+<Firefly.labelFemalePlural>самки светлячков</Firefly.labelFemalePlural>
 
 
 </LanguageData>

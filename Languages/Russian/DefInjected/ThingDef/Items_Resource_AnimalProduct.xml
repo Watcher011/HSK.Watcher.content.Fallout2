@@ -18,5 +18,9 @@
   <EggMirelurkFertilized.label>Яйцо болотника (оплодотворённое)</EggMirelurkFertilized.label>
   <EggMirelurkFertilized.description>Оплодотворённое яйцо болотника. Если всё пойдёт хорошо, из него вылупится детёныш болотника. Яйца можно есть сырыми, но приготовленными они гораздо вкуснее.</EggMirelurkFertilized.description>
 
+  <EggFireflyUnfertilized.label>Яйцо светлячка (неоплодотворённое)</EggFireflyUnfertilized.label>
+<EggFireflyUnfertilized.description>Неоплодотворённое яйцо светлячка.Эти крошечные биолюминесцентные шарики — не просто источник света, а настоящий "природный" реактор для вашего огорода в постапокалипсисе! Каждое яйцо светится так ярко, что может заменить десяток прожекторов, а заодно и пару рентгеновских аппаратов. Идеально подходят для выращивания мутировавших растений</EggFireflyUnfertilized.description>
 
+<EggFireflyFertilized.label>Яйцо светлячка (оплодотворённое)</EggFireflyFertilized.label>
+<EggFireflyFertilized.description>Оплодотворённое яйцо светлячка. Если всё пойдёт хорошо, из него вылупится детёныш светлячка. Яйца можно есть сырыми, но приготовленные гораздо вкуснее.</EggFireflyFertilized.description>
 </LanguageData>

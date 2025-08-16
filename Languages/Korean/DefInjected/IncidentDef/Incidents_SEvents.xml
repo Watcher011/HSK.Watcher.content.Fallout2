@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <HugeBee.label>거대 꿀벌</HugeBee.label>
-<DeathclawPasses.label>데스클로 통행증</DeathclawPasses.label>
-<StrangeDutenPasses.label>이상한 듀텐 통행증</StrangeDutenPasses.label>
-<DutenSwarm.label>듀텐 군단</DutenSwarm.label>
-<RadroachEaters.label>방사능 바퀴벌레 포식자</RadroachEaters.label>
-<ElectricShockExplosion.label>전기 충격 폭발</ElectricShockExplosion.label>
+  <HugeBee.label>거대 꿀벌</HugeBee.label>
+  <DeathclawPasses.label>데스클로 통행증</DeathclawPasses.label>
+  <StrangeDutenPasses.label>이상한 듀텐 통행증</StrangeDutenPasses.label>
+  <DutenSwarm.label>듀텐 군단</DutenSwarm.label>
+  <RadroachEaters.label>방사능 바퀴벌레 포식자</RadroachEaters.label>
+  <ElectricShockExplosion.label>전기 충격 폭발</ElectricShockExplosion.label>
+
 
 </LanguageData>

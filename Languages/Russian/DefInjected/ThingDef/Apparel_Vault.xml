@@ -4,11 +4,11 @@
   <Apparello_Vaultjumpsuit.label>Комбинезон Убежища</Apparello_Vaultjumpsuit.label>
   <Apparello_Vaultjumpsuit.description>Когда мир превратился в радиоактивный ад, Vault-Tec позаботился о том, чтобы у вас была не просто защита от радиации, а модная защита от радиации! Стандартный комбинезон Выходца из Убежища — идеальный выбор для тех, кто предпочитает встречать ядерную зиму в культовом сине-желтом стиле и с фирменной улыбкой доверчивого подопытного. Изготовленный из «революционного» сплава дешевого нейлона и наивной надежды, этот комбинезон обеспечивает иллюзию безопасности, а также удобный доступ для введения экспериментальных препаратов непосредственно через ткань.</Apparello_Vaultjumpsuit.description>
 
- <Apparello_VaultY-17trauma.label>Костюм принудительного поддержания Y-17</Apparello_VaultY-17trauma.label>
-<Apparello_VaultY-17trauma.description>*"Когда закончатся патроны, подкосятся ноги, а надежда испарится — не беда! Ваш верный 'аппарат принудительного поддержания Y-17' уже знает, что вы — труп. Или почти труп. В любом случае, он сделает всё, чтобы дотащить ваше бесчувственное тело до ближайшего медпункта... или хотя бы до того места, где он раньше был!"*</Apparello_VaultY-17trauma.description>
+  <Apparello_VaultY-17trauma.label>Костюм принудительного поддержания Y-17</Apparello_VaultY-17trauma.label>
+  <Apparello_VaultY-17trauma.description>*"Когда закончатся патроны, подкосятся ноги, а надежда испарится — не беда! Ваш верный 'аппарат принудительного поддержания Y-17' уже знает, что вы — труп. Или почти труп. В любом случае, он сделает всё, чтобы дотащить ваше бесчувственное тело до ближайшего медпункта... или хотя бы до того места, где он раньше был!"*</Apparello_VaultY-17trauma.description>
 
-<Apparel_VaultY-17traumaHelmet.label>Шлем скафандра Y-17</Apparel_VaultY-17traumaHelmet.label>
-<Apparel_VaultY-17traumaHelmet.description>"Ваше лицо — наша забота! (Пока оно ещё прикреплено к черепу.)"</Apparel_VaultY-17traumaHelmet.description>
+  <Apparel_VaultY-17traumaHelmet.label>Шлем скафандра Y-17</Apparel_VaultY-17traumaHelmet.label>
+  <Apparel_VaultY-17traumaHelmet.description>"Ваше лицо — наша забота! (Пока оно ещё прикреплено к черепу.)"</Apparel_VaultY-17traumaHelmet.description>
 
   <Apparel_VaultT60PowerArmor.label>Силовая броня Т-60</Apparel_VaultT60PowerArmor.label>
   <Apparel_VaultT60PowerArmor.description>Разработанная в спешке, когда стало ясно, что "старые добрые T-51 — это слишком дорого для нашей славной послевоенной экономики", T-60 стала воплощением принципа "дешево, сердито и… ну, хоть как-то работает".</Apparel_VaultT60PowerArmor.description>

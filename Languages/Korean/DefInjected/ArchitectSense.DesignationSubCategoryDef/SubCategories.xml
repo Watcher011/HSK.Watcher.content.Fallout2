@@ -21,8 +21,8 @@
   <SubCategory_VaultecFood.label>볼트텍 식량</SubCategory_VaultecFood.label>
   <SubCategory_VaultecFood.description>볼트텍 식량.</SubCategory_VaultecFood.description>
 
- <SubCategory_VaultecSign.label>볼트-텍 사인</SubCategory_VaultecSign.label>
-<SubCategory_VaultecSign.description>볼트-텍 사인.</SubCategory_VaultecSign.description>
+  <SubCategory_VaultecSign.label>볼트-텍 사인</SubCategory_VaultecSign.label>
+  <SubCategory_VaultecSign.description>볼트-텍 사인.</SubCategory_VaultecSign.description>
 
 
 </LanguageData>
