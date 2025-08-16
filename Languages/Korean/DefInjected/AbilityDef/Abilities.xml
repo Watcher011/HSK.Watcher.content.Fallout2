@@ -4,5 +4,8 @@
   <Bombardment_Helios.label>포격 (헬리오스)</Bombardment_Helios.label>
   <Bombardment_Helios.description>.</Bombardment_Helios.description>
 
+  <CoagulateLSS.label>coagulate</CoagulateLSS.label>
+  <CoagulateLSS.description>Use special coagulate.</CoagulateLSS.description>
+
 
 </LanguageData>

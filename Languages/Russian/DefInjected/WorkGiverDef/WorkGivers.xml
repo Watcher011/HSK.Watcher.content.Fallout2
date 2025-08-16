@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<Coinage.label>Чеканка монет</Coinage.label>
-<Coinage.verb>Чеканить</Coinage.verb>
-<Coinage.gerund>Чеканка монет</Coinage.gerund>
+  <Coinage.label>Чеканка монет</Coinage.label>
+  <Coinage.verb>Чеканить</Coinage.verb>
+  <Coinage.gerund>Чеканка монет</Coinage.gerund>
+
 
 </LanguageData>

@@ -40,7 +40,7 @@
     </statOffsets>
     <biostatCpx>1</biostatCpx>
     <biostatArc>1</biostatArc>
-	 <biostatMet>16</biostatMet>
+	 <biostatMet>6</biostatMet>
     <exclusionTags>
       <li>Immunity</li>
     </exclusionTags>

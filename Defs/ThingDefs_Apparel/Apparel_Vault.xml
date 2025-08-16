@@ -66,8 +66,157 @@
 		</thingCategories>
 	</ThingDef>
 
-	
+	<ThingDef ParentName="ApparelNoQualityBase">
+		<defName>Apparello_VaultY-17trauma</defName>
+		<label>Y-17 trauma override harness</label>
+		<description>*"When you run out of ammo, your legs give way, and hope evaporates - don't worry! Your trusty 'Y-17 trauma override harness' already knows that you're a corpse. Or almost a corpse. In any case, it will do everything to drag your unconscious body to the nearest medical center... or at least to the place where it used to be!"*</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/Y-17/Y-17</texPath>
+				<graphicClass>Graphic_Single</graphicClass>
+				 <drawSize>0.85</drawSize>
+		</graphicData>			
+		<costList>
+			<Carbon>20</Carbon>
+			<MagneticMaterial>3</MagneticMaterial>
+			<SyntheticFibers>10</SyntheticFibers>
+			<Hexcell>6</Hexcell>
+		</costList>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>70</MaxHitPoints>
+			<Mass>1.6</Mass>
+			<Bulk>3</Bulk>
+			<EquipDelay>2.8</EquipDelay>
+			<ArmorRating_Sharp>2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.03</ArmorRating_Heat>
+			<Insulation_Cold>8</Insulation_Cold>
+			<StuffEffectMultiplierArmor>5.73</StuffEffectMultiplierArmor>
+			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+			<MoveSpeed>-0.07</MoveSpeed>
+			<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+			<Radiation>-0.35</Radiation>
+			<SocialImpact>-0.15</SocialImpact>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<ShootingAccuracyPawn>-0.12</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<MeleeHitChance>-0.05</MeleeHitChance>
+			<GermResistance>0.60</GermResistance>
+			<GermContainment>0.75</GermContainment>
+		</equippedStatOffsets>
+		<generateCommonality>2.8</generateCommonality>
+	    <apparel>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/Y-17/Y-17</wornGraphicPath>
+			<layers>
+				<li>Shell</li>
+				<li>Middle</li>
+				<li>OnSkin</li>
+			</layers>
+			<tags>
+				  <li>Radiation</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+		</apparel>
+		<thingCategories>
+			<li>FullBodySuitsCat</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="CombatExtended.ApparelHediffExtension">
+				<hediff>LSS</hediff>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
+<ThingDef ParentName="SK_ApparelBase">
+		<defName>Apparel_VaultY-17traumaHelmet</defName>
+		<label>Y-17 Spacesuit helmet</label>
+		<description>"Your face is our concern!(While it is still attached to the skull.)"</description>
+		<graphicData>
+			<texPath>Things/Apparel/Vault/Y-17/Y-17Helmet</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<costList>
+			<Carbon>15</Carbon>
+			<Compaste>25</Compaste>
+			<SyntheticFibers>10</SyntheticFibers>
+			<MagneticMaterial>3</MagneticMaterial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<statBases>
+		<WorkToMake>15000</WorkToMake>
+			<Mass>1.24</Mass>
+			<ArmorRating_Sharp>1.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.4</ArmorRating_Blunt>
+			<ArmorRating_Heat>0.027</ArmorRating_Heat>
+			<StuffEffectMultiplierArmor>1.43</StuffEffectMultiplierArmor>
+			<Insulation_Cold>15</Insulation_Cold>
+			<EquipDelay>3.5</EquipDelay>
+		</statBases>
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>0.35</ToxicEnvironmentResistance>
+			<Radiation>-0.35</Radiation>
+			<SocialImpact>-0.15</SocialImpact>
+			<PsychicSensitivity>-0.1</PsychicSensitivity>
+			<ShootingAccuracyPawn>-0.12</ShootingAccuracyPawn>
+			<AimingDelayFactor>0.05</AimingDelayFactor>
+			<MeleeHitChance>-0.05</MeleeHitChance>
+		</equippedStatOffsets>
+		<generateCommonality>1</generateCommonality>
+		<apparel>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<wornGraphicPath>Things/Apparel/Vault/Y-17/Y-17Helmet</wornGraphicPath>
+			<layers>
+				<li>Overhead</li>
+			</layers>
+			<tags>
+				  <li>Radiation</li>
+			</tags>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<useDeflectMetalEffect>true</useDeflectMetalEffect>
+			<parentTagDef>ApparelHead</parentTagDef>
+		</apparel>	
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+		<tradeTags>
+			<li>Vaultec</li>
+      	</tradeTags>
+		<comps>
+		<li Class="CompProperties_Biocodable"/>
+		</comps>
+		<thingCategories>
+				<li>SpecialApparelCat</li>
+		</thingCategories>
+		<modExtensions>
+			<li Class="CombatExtended.ApparelHediffExtension">
+				<hediff>WearingSpacerHelmet</hediff>
+			</li>
+			<li Class="CombatExtended.ApperalRenderingExtension">
+				<HideHair>false</HideHair>
+				<HideBeard>false</HideBeard>
+			</li>
+		</modExtensions>
+	</ThingDef>
 
     <ThingDef ParentName="SK_ApparelBase">
 		<defName>Apparel_VaultT60PowerArmor</defName>
@@ -151,6 +300,9 @@
 			<soundWear>Wear_PowerArmor</soundWear>
 			<soundRemove>Remove_PowerArmor</soundRemove>
 		</apparel>
+		<tradeTags>
+			<li>Vaultec</li>
+	    </tradeTags>
 		<thingSetMakerTags>
 			<li>RewardStandardHighFreq</li>
 		</thingSetMakerTags>

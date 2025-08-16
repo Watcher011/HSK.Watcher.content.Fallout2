@@ -3,13 +3,13 @@
 
   <!-- Power -->
 
-  <SubCategory_LampsVaultec.label>Лампы Vault-Tec</SubCategory_LampsVaultec.label>
+  <SubCategory_LampsVaultec.label>Лампы Волт-Тек</SubCategory_LampsVaultec.label>
   <SubCategory_LampsVaultec.description>Набор ламп.</SubCategory_LampsVaultec.description>
 
   <SubCategory_PowerVaultec.label>Генератор Волт-Тек</SubCategory_PowerVaultec.label>
   <SubCategory_PowerVaultec.description>Электрогенераторная установка.</SubCategory_PowerVaultec.description>
 
-  <SubCategory_RugVaultec.label>Коврики Vault-Tec</SubCategory_RugVaultec.label>
+  <SubCategory_RugVaultec.label>Коврики Волт-Тек</SubCategory_RugVaultec.label>
   <SubCategory_RugVaultec.description>Набор ковриков.</SubCategory_RugVaultec.description>
 
   <SubCategory_VaultecTable.label>Верстаки Волт-Тек</SubCategory_VaultecTable.label>
@@ -20,6 +20,9 @@
 
   <SubCategory_VaultecFood.label>Еда Волт-Тек</SubCategory_VaultecFood.label>
   <SubCategory_VaultecFood.description>Волт-Тек Еда.</SubCategory_VaultecFood.description>
+
+  <SubCategory_VaultecSign.label>Знаки Волт-Тек</SubCategory_VaultecSign.label>
+  <SubCategory_VaultecSign.description>Волт-Тек Знаки.</SubCategory_VaultecSign.description>
 
 
 </LanguageData>

@@ -1,5 +1,5 @@
 
-Версия - 0,44
+Версия - 0,48
 -*-
 Оружие
 Pipe shooter
@@ -24,6 +24,7 @@ Portable Tesla Cannon "Thunder Maker"
 Syringer shooter
 Hell Boss
 Assault Carbine
+Flamethrower Last Warning
 -*-
 коврики
 Volt-Tec:Clean Mat(3x3)
@@ -45,6 +46,7 @@ IED Pig Mine
 Турель
 Automated Turret
 Automated laser turret
+Flamethrower "Pyrometer 3000" turret
 -*-
 разное
 Bottle Cap
@@ -52,6 +54,8 @@ Nuclear Battery
 Gecko egg (fert.)
 Deathclaw Egg (Unfertilized)
 Deathclaw Egg (Fertilized)
+Firefly Egg (Fertilized)
+Firefly Egg (Unfertilized)
 Mr.Handy Kit
 Mr.Gutsy Kit
 Strange pack(F.E.V.)
@@ -61,6 +65,9 @@ Blowfly hive(для квеста)
 Nest Of Monsters(для квеста)
 Nest Of Rad Scorpion(для квеста)
 Manual cap press
+MinesSign
+SnipersSign
+TurretSign
 -*-
 плоды растений 
 raw Mutfruit
@@ -90,6 +97,7 @@ Tranquilizer Dart
 Vault-Tec Portable "ElectroBuddy" Generator
 Vault-Tec Mark III generator
 Broken Reactor Vault-Tec(декоративный для квестов)
+
 -*-
 верстаки/постройки
 Production Workbench
@@ -98,9 +106,10 @@ ColaBasin
 Campfire wastelands
 CommsConsole
 -*-
-Vault Lamp
+лампы
 Survivor's Lantern
 Construction lamp
+Tritium Lamp
 -*-
 напитки
 Nuka-Cola
@@ -133,7 +142,8 @@ Mirelurk
 Brahmin
 Duten
 Strange Duten
-
+Bee
+Firefly
 -*-
 еда
 SuspiciousOmelette
@@ -150,7 +160,7 @@ Super mutant
 MisterHandy
 -*-
 Фракция
-Vaultec(сломан торговец)
+Vaultec
 Enclave
 -*-
 одежда
@@ -163,6 +173,8 @@ X-01 Tesla power armor
 T-51 power armor
 T-51 power Helmet
 Pip-Boy
+Y-17 trauma override harness
+Y-17 Spacesuit helmet
 -*-
 сценарий
 Shelter residents(easy start)

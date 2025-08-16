@@ -17,4 +17,21 @@
 			<li>TreatmentOfBlowflyLarva</li>
 		</value>
 	</Operation>
+
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/HediffDef[defName="PrometheumSoaked"]/comps</xpath>
+		<value>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-12</severityPerDay>
+			</li>
+			<li Class="CombatExtended.HediffCompProperties_Prometheum" />
+			<li Class="EBSGFramework.HediffCompProperties_DestroyOnDeath">
+                <thingSpawn>Ash</thingSpawn>
+            </li>
+			</comps>
+		</value>
+  </Operation>
+	
 </Patch>

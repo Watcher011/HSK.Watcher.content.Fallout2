@@ -1601,4 +1601,84 @@ Do not operate:
         </smeltProducts>
 	
     </ThingDef>
+	
+	<ThingDef ParentName="BaseGun_Heavy">
+		<defName>Fallout_Flamethrower</defName>
+		<label>Flamethrower Last Warning</label>
+		<description>"Because someone has to bring civilization to this barbarian world. And if the barbarians don't understand words, they'll understand napalm."
+This humble unit has been turning your problems into crispy coals since 2077! Enemies on the run? No problem - chase them down with a stream of liquid sun! Want to warm up on a cold wasteland night? Just set the nearest hut on fire - now it's your personal fireplace!</description>
+		<graphicData>
+			<texPath>Things/Weapons/FlamethrowerLastWarning</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<techLevel>Industrial</techLevel>
+		<statBases>
+			<MarketValue>2500</MarketValue>
+			<SightsEfficiency>1</SightsEfficiency>
+			<ShotSpread>0.17</ShotSpread>
+			<SwayFactor>1.5</SwayFactor>
+			<RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
+			<Bulk>8</Bulk>
+			<Mass>7.5</Mass>
+		</statBases>
+		<relicChance>0</relicChance>
+		<destroyOnDrop>False</destroyOnDrop>
+		<weaponTags>
+			<li>VaultecGunH</li>
+			<li>OGR1</li>
+			<li>Glaunchers</li>
+			<li>CE_AI_Rifle</li>
+			<li>CE_AI_Launcher</li>
+			<li>EliteGun</li>
+		</weaponTags>
+		<weaponClasses>
+			<li>ShortShots</li>
+		</weaponClasses>
+		<tradeTags>
+			<li>Exotic</li>
+		</tradeTags>
+		<thingCategories>
+			<li>Glaunchers</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<recoilAmount>0.95</recoilAmount>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_Flamethrower_Prometheum</defaultProjectile>
+				<warmupTime>2.0</warmupTime>
+				<range>17</range>
+				<minRange>4</minRange>
+				<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
+				<targetParams>
+					<canTargetLocations>true</canTargetLocations>
+				</targetParams>
+				<soundCast>HissFlamethrower</soundCast>
+				<muzzleFlashScale>0</muzzleFlashScale>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>20</burstShotCount>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>250</magazineSize>
+				<reloadTime>15</reloadTime>
+				<ammoSet>AmmoSet_Flamethrower</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>true</aiUseBurstMode>
+				<aimedBurstShotCount>15</aimedBurstShotCount>
+				<aiAimMode>Snapshot</aiAimMode>
+			</li>
+		</comps>
+		<smeltProducts>
+			<Heavy_Component>1</Heavy_Component>
+			<Weapon_Parts>8</Weapon_Parts>
+			<Plastic>12</Plastic>
+		</smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardHighFreq</li>
+		</thingSetMakerTags>
+	</ThingDef>
 </Defs>

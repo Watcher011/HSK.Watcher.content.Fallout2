@@ -4,12 +4,32 @@
   <VaultLamp.label>비상용 오일 램프 "영원한 햇살"</VaultLamp.label>
   <VaultLamp.description>"종말이라 해도 분위기까지 희생하진 말자!" 핵폭탄이 떨어질 때, 볼트-텍은 생존자들에게 음식, 물, 방사능 차단복 이상의 것이 필요할 거라 예측했습니다. 바로 스타일이죠. 전쟁 전의 사치와 전쟁 후의 필수품을 결합한 "영원한 빛" 비상용 오일 램프를 소개합니다! 최고급 재활용 고철로 제작되고 특허 출원된 충격 방지 유리 돔(방지 효과는 보장되지 않음)으로 마감된 이 램프는 따뜻하고 흔들리는 빛을 발해 세상이 불타기 전의 좋았던 옛날을 떠올리게 해줍니다. 볼트 복도, 방사능 황무지, 또는 다음 식인 축제를 밝히기에 완벽하죠!</VaultLamp.description>
 
-  <Constructionlamp.label>Survivor's Lantern</Constructionlamp.label>
-  <Constructionlamp.description>In a world of perpetual resource shortages, constant pirate raids, and a chronic lack of decent furniture, the "Survivor's Lantern™" isn’t just a lamp—it’s your new best friend, space heater, and potential weapon all in one!</Constructionlamp.description>
+  <TritiumLamp.label>트리튬 램프</TritiumLamp.label>
+  <TritiumLamp.description>적들의 불타는 유해가 유일한 빛인 어두운 지하에 지치셨나요? 파이어플라이 3000 트리튬 램프를 소개합니다 - 왓슨 박사의 혁명적인 발명품으로, 밝게 빛나고 영원히 작동하며 주변의 모든 것을 살짝 변이시킬 수도 있습니다!</TritiumLamp.description>
+
+  <Constructionlamp.label>생존자의 랜턴</Constructionlamp.label>
+  <Constructionlamp.description>끝없는 자원 부족, 끊이지 않는 해적 습격, 그리고 제대로 된 가구의 영구적 부재 속에서 "생존자의 랜턴™"은 단순한 랜턴이 아닙니다 — 이 친구는 당신의 새 베스트 프렌드이자 공간 히터, 그리고 상황에 따라 무기로도 사용 가능한 3 in 1 아이템이죠!</Constructionlamp.description>
 
   <CommsConsole.label>통신 콘솔</CommsConsole.label>
   <CommsConsole.description>다른 세력 및 궤도 상인들과 무선 통신이 가능합니다.</CommsConsole.description>
   <CommsConsole.comps.3.useLabel>디아볼루스 위협 소환</CommsConsole.comps.3.useLabel>
+
+  <MinesSign.label>표지판 "지뢰"</MinesSign.label>
+  <MinesSign.description>이걸 읽을 때 한 발은 지뢰 위에 있다면, 축하합니다! 당신은 자연 선택에서 승리했습니다...</MinesSign.description>
+
+  <SnipersSign.label>표지판 "저격수"</SnipersSign.label>
+  <SnipersSign.description>"친애하는 방랑자여, 축하합니다! 당신은 이제 지역 저격수들의 특별한 환대 구역에 진입했습니다. 이 친근한 친구들은 깜짝 서프라이즈를 좋아합니다. 특히 당신의 머리가 갑자기 그들의 총알과 친해지기로 결정할 때요. 다른 사람들이 치명적인 함정이라 보는 곳에서, Vault-Tec™는 사망률 통계를 높일 기회라 봅니다."</SnipersSign.description>
+
+  <TurretSign.label>표지판 "터렛"</TurretSign.label>
+  <TurretSign.description>우리의 아낌없는 환영 구역에 오신 것을 환영합니다!
+여기서 당신을 맞이할 것은 우리의 충직하지만 조금 충동적인 친구들 — 자동 터렛™입니다! 그들은 항상 새로운 손님을 반기며, 그 기쁨을 초고속 납 포옹으로 표현합니다.
+규칙은 간단합니다:
+뛰면 — 쏩니다.
+걸으면 — 쏩니다.
+숨을 쉬면 — 이젠 알겠죠.
+P.S. 이걸 읽고 있다면, 아직 터렛이 당신을 발견하지 못했다는 뜻입니다. 이 순간을 즐기세요!
+"로보코" 사는 당신이 체가 될 책임을 지지 않습니다. 당신이 스스로 여기 온 거니까요.
+(옆구리에 작은 글씨로: "새로운 모델 — '빈정대는 한 마디' 기능이 탑재된 터렛을 체험해 보세요! 마지막 말이 잊히지 않을 거예요.")</TurretSign.description>
 
 
 </LanguageData>

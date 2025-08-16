@@ -9,6 +9,8 @@
 		<Gecko_green>0.07</Gecko_green>
 		<Gecko_fire>0.07</Gecko_fire>
 		<Gecko_gold>0.07</Gecko_gold>
+		<Firefly>0.07</Firefly>
+		<HugeBee>0.07</HugeBee>
 		</value>
 	</Operation>
 
@@ -22,6 +24,8 @@
 		<Gecko_green>0.07</Gecko_green>
 		<Gecko_fire>0.07</Gecko_fire>
 		<Gecko_gold>0.07</Gecko_gold>
+		<Firefly>0.07</Firefly>
+		<HugeBee>0.07</HugeBee>
 		</value>
 	</Operation>
 </Patch>

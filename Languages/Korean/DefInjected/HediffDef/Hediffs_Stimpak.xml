@@ -18,5 +18,9 @@
   <Med-xBasic.stages.0.label>메드-X</Med-xBasic.stages.0.label>
   <Med-xBasic.labelNoun>메드-X</Med-xBasic.labelNoun>
 
+  <LSS.label>생명 유지 시스템</LSS.label>
+  <LSS.description>Y-17 의료 단지의 발전된 개발품으로, 현장에서 중상을 입은 군인의 생명을 유지하기 위해 제작되었습니다. 이 슈트는 자동 안정화 시스템, 내장형 진통제, 그리고 "강제 후송" 기능을 장착하고 있습니다. 왜냐하면 군인들이 자신이 영안실로 갈 때가 되었다는 걸 인정하기엔 너무 고집스러운 경우가 있기 때문이죠...</LSS.description>
+  <LSS.labelNoun>Y-17:생명 유지 시스템</LSS.labelNoun>
+
 
 </LanguageData>
