@@ -411,4 +411,101 @@ Consult your radiologist before use!"</description>
 			</li>
 		</modExtensions>
   </ThingDef>
+  
+  
+  <ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality">
+		<defName>NuclearLandmine</defName>
+		<label>Nuclear landmine</label>
+		<description>Fat Man's Active Projectile</description>
+		<graphicData>
+			<texPath>Things/Item/FalloutBomb</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.9)</drawSize>
+		</graphicData>
+		<tickerType>Normal</tickerType>
+		<techLevel>Industrial</techLevel>
+		<weaponTags>
+			<li>Ogre</li>
+		</weaponTags>
+		<costList>
+			<ComponentAdvanced>1</ComponentAdvanced>
+			<Ammo_FatManShell_NHE>1</Ammo_FatManShell_NHE>
+		</costList>
+		<statBases>
+		    <MarketValue>300</MarketValue>
+			<WorkToMake>6000</WorkToMake>
+			<Mass>2</Mass>
+			<Bulk>3</Bulk>
+		</statBases>
+		<equippedStatOffsets>
+			<MeleeHitChance>5</MeleeHitChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<MeleeParryChance>0</MeleeParryChance>
+			<MeleeDodgeChance>0.1</MeleeDodgeChance>
+			<Suppressability>-0.5</Suppressability>
+		</equippedStatOffsets>
+		<equippedAngleOffset>-55</equippedAngleOffset>
+		<comps>
+		    <li Class="CombatExtended.CompProperties_ExplosiveCE">
+				<explosiveRadius>5</explosiveRadius>
+				<explosiveDamageType>FalloutBomb</explosiveDamageType>
+				<damageAmountBase>20</damageAmountBase>
+				<postExplosionSpawnThingDef>NFRAD</postExplosionSpawnThingDef>
+				<postExplosionSpawnChance>1.11</postExplosionSpawnChance>
+			</li>
+		</comps>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Kaboom</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<chanceFactor>2</chanceFactor>
+				<armorPenetrationSharp>5.3</armorPenetrationSharp>
+				<armorPenetrationBlunt>11.8</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Head</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>edge</label>
+				<capacities>
+					<li>Kaboom</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.5</cooldownTime>
+				<chanceFactor>2</chanceFactor>
+				<armorPenetrationSharp>5.3</armorPenetrationSharp>
+				<armorPenetrationBlunt>11.8</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<tradeability>Sellable</tradeability>
+		<recipeMaker Inherit="false">
+		</recipeMaker>
+		<thingCategories Inherit="false">
+			  <li>Grenades</li>
+		</thingCategories>
+	</ThingDef>
+
+	<ToolCapacityDef>
+		<defName>Kaboom</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>Watcher_MeeleExplosion</defName>
+		<requiredCapacity>Kaboom</requiredCapacity>
+		<verb>
+			<verbClass>Watcher.Verb_MeleeAttackDamage</verbClass>
+			<meleeDamageDef>FalloutBomb</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Smash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Smash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Smash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Smash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+
+  
+  
 </Defs>

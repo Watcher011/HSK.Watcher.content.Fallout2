@@ -40,5 +40,10 @@
   <MeleeWeapon_Supersledge.tools.0.label>рукоятка</MeleeWeapon_Supersledge.tools.0.label>
   <MeleeWeapon_Supersledge.tools.1.label>головка</MeleeWeapon_Supersledge.tools.1.label>
 
+  <NuclearLandmine.label>Просроченная Ядерная мина</NuclearLandmine.label>
+<NuclearLandmine.description>Активный снаряд Толстяка</NuclearLandmine.description>
+<NuclearLandmine.tools.0.label>Корпус</NuclearLandmine.tools.0.label>
+<NuclearLandmine.tools.1.label>Оперение</NuclearLandmine.tools.1.label>
+
 
 </LanguageData>

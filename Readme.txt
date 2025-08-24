@@ -1,5 +1,5 @@
 
-Версия - 0,48
+Версия - 0,49
 -*-
 Оружие
 Pipe shooter
@@ -25,6 +25,7 @@ Syringer shooter
 Hell Boss
 Assault Carbine
 Flamethrower Last Warning
+Nuclear landmine
 -*-
 коврики
 Volt-Tec:Clean Mat(3x3)
@@ -68,6 +69,7 @@ Manual cap press
 MinesSign
 SnipersSign
 TurretSign
+GECK
 -*-
 плоды растений 
 raw Mutfruit

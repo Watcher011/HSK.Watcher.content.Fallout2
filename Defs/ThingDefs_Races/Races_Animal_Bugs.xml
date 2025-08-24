@@ -182,7 +182,7 @@
 			<LeatherAmount>0</LeatherAmount>
 			<MarketValue>3500</MarketValue>
 			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
-			<MeatAmount>75</MeatAmount>
+			<MeatAmount>25</MeatAmount>
 			<MeleeDodgeChance>0</MeleeDodgeChance>
 			<MeleeCritChance>0</MeleeCritChance>
 			<ToxicResistance>1</ToxicResistance>

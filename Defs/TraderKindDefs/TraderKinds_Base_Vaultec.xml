@@ -494,7 +494,7 @@
       </li>
 	  
 	   <li Class="StockGenerator_Tag">
-        <tradeTag>MortarShell</tradeTag>
+        <tradeTag>VaultecMortarShell</tradeTag>
         <thingDefCountRange>10~20</thingDefCountRange>
         <countRange>20~40</countRange>
         <excludedThingDefs>

@@ -161,5 +161,39 @@
 		</additionalHediffs>
 	</DamageDef>
 
+   <DamageDef Name="Nuclear">
+    <defName>FalloutBomb</defName>
+	<explosionCenterMote>Mote_ArcFlash</explosionCenterMote>
+    <workerClass>DamageWorker_Vaporize</workerClass>
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been vaporized by extreme heat.</deathMessage>
+    <hediff>Burn</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <defaultDamage>800</defaultDamage>
+	 <minDamageToFragment>99999</minDamageToFragment>
+	 <defaultStoppingPower>3.5</defaultStoppingPower>
+     <defaultArmorPenetration>400</defaultArmorPenetration>
+    <buildingDamageFactorImpassable>400</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>200</buildingDamageFactorPassable>
+    <plantDamageFactor>2</plantDamageFactor>
+    <explosionHeatEnergyPerCell>20</explosionHeatEnergyPerCell>
+    <explosionCellFleck>Fleck_Vaporize</explosionCellFleck>
+    <armorCategory>Heat</armorCategory>
+    <makesAnimalsFlee>true</makesAnimalsFlee>
+    <explosionColorCenter>(1, 1, 1)</explosionColorCenter>
+    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+    <soundExplosion>Explosion_Vaporize</soundExplosion>
+    <expolosionPropagationSpeed>0.3</expolosionPropagationSpeed>
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <corpseDamageFactor>0.1</corpseDamageFactor>
+	<additionalHediffs>
+			<li>
+				<hediff>PrometheumSoaked</hediff>
+				<severityPerDamageDealt>0.05</severityPerDamageDealt>
+			</li>
+		</additionalHediffs>
+  </DamageDef>
+  
+ 
   
 </Defs>

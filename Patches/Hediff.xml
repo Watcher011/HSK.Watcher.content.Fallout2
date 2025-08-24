@@ -33,5 +33,53 @@
 			</comps>
 		</value>
   </Operation>
-	
+  
+   <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="RimatomicsRadiation"]/stages/li[3]</xpath>
+    <value>
+     	<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Tentacle</hediff>
+						<mtbDays>10</mtbDays>
+						<canAffectAnyLivePart>true</canAffectAnyLivePart>
+					</li>
+		</hediffGivers>
+    </value>
+  </Operation>
+  
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="RimatomicsRadiation"]/stages/li[4]</xpath>
+    <value>
+     	<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Tentacle</hediff>
+						<mtbDays>37</mtbDays>
+						<canAffectAnyLivePart>true</canAffectAnyLivePart>
+					</li>
+		</hediffGivers>
+    </value>
+  </Operation>
+  
+   <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="RimatomicsRadiation"]/stages/li[5]</xpath>
+    <value>
+     	<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>GhoulLK</hediff>
+						<mtbDays>37</mtbDays>
+					</li>
+		</hediffGivers>
+    </value>
+  </Operation>
+   <Operation Class="PatchOperationAdd">
+    <xpath>Defs/HediffDef[defName="RimatomicsRadiation"]/stages/li[6]</xpath>
+    <value>
+     	<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>GhoulLK</hediff>
+						<mtbDays>25</mtbDays>
+					</li>
+		</hediffGivers>
+    </value>
+  </Operation>
 </Patch>
