@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TableFalloutElectronics.label>Production Workbench</TableFalloutElectronics.label>
+  <TableFalloutElectronics.description>Assembled from the remains of pre-war machines, rusty pipes and scrap parts, this workbench is the heart of any self-respecting workshop in the wasteland. Here you can turn junk into deadly weapons, repair armor or assemble something useful... if, of course, you know how not to tear off your fingers.</TableFalloutElectronics.description>
+
+  <TableFalloutPrinter.label>Printer VT-X7"SHELTER MAKER"</TableFalloutPrinter.label>
+  <TableFalloutPrinter.description>Vault-Tec's latest innovation in additive manufacturing! The VT-X7 3D printer is designed to quickly deploy Vault infrastructure during construction. Using patented "Atomic-Fab" technology, this machine is capable of synthesizing interior parts, tools, and even spare parts for life support systems from recycled materials. The inscription on the printer reads, "Hope underground - layer by layer!" NOTE: "Remember, citizen! Any attempt to manufacture unapproved objects on the VT-X7 printer will result in reduced rations and additional duty. Vault-Tec is not responsible for unauthorized printing of explosives, baseball bats, or counterfeit passes. Thank you for choosing Vault-Tec!".</TableFalloutPrinter.description>
+
+  <ColaBasin.label>Nuka-Cola Quantum Fabricator 9000</ColaBasin.label>
+  <ColaBasin.description>This futuristic-looking machine sits proudly in the corner of an abandoned supermarket, flashing neon tubes and periodically spitting out clouds of steam like it’s suffering from a nuclear hangover. Its body is adorned with advertising posters featuring smiling holographic faces, assuring you that “Nuka-Cola Quantum isn’t just a drink, it’s a way of life!” (The rest of the poster is splattered with what looks like blood)."Nuka-Cola Corporation is not responsible for any spontaneous mutations, time paradoxes, or uncontrolled explosions resulting from the use of Quantum. Remember: if your urine starts glowing, you're on the right track!"</ColaBasin.description>
+
+  <TableFalloutChemicalSynthesis.label>Laboratory Distiller 'Radiashnik'</TableFalloutChemicalSynthesis.label>
+  <TableFalloutChemicalSynthesis.description>Looking at this masterpiece of post-war engineering, it’s hard to tell whether this is a chemical experiment or a torture device accidentally approved by the Geneva Convention. The combination of rusty tubes, suspiciously crackling flasks, and constantly leaking connections suggests that every experiment here is either a breakthrough in science, or the last one in your life. The built-in Geiger counter sometimes goes off the scale, but this is, of course, just a ‘technical feature’. After all, what is a ‘radiating reactor’ compared to the thirst for knowledge (or cheap moonshine)?.</TableFalloutChemicalSynthesis.description>
+
+  <Campfirewastelands.label>Campfire wastelands</Campfirewastelands.label>
+  <Campfirewastelands.description>This rusty, grimy cauldron, perched atop a rickety pyramid of bricks, is the heart and soul of any self-respecting post-nuclear kitchen. Once, in the era before all this, it probably simmered soup for happy families. Now it bubbles with something the locals proudly call "food" — if you're brave enough to ask what it's made of.</Campfirewastelands.description>
+
+  <TableFalloutCOINMACHINE.label>Manual cap press</TableFalloutCOINMACHINE.label>
+  <TableFalloutCOINMACHINE.description>Because in bureaucratic hell, even caps must be standardized!In a world where every nail counts and a Nuka-Cola bottle cap is worth more than the life of a Wasteland slave, Vault-Tec Corporation proudly introduces the Cap-Cap 3000 — the perfect solution for all your cap-dependent needs!(The machine is supplied without instructions. If you find one, it means it is a fake.)</TableFalloutCOINMACHINE.description>
+
+
+</LanguageData>

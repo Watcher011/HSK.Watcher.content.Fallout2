@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DeathIonization.label>death ionization</DeathIonization.label>
+  <DeathIonization.description>An unstable condition.</DeathIonization.description>
+  <DeathIonization.labelNoun>a death ionization</DeathIonization.labelNoun>
+
+  <FEV.label>FEV</FEV.label>
+  <FEV.description>FEV.</FEV.description>
+
+  <WearingPipBoy.label>Pip-Boy</WearingPipBoy.label>
+  <WearingPipBoy.description>VATS, or Vault-Tec Assisted Targeting System, is an advanced combat technology whose origins are lost in time…</WearingPipBoy.description>
+  <WearingPipBoy.stages.0.label>V.A.T.S.</WearingPipBoy.stages.0.label>
+
+  <GhoulLK.label>Ghoul</GhoulLK.label>
+  <GhoulLK.description>Ghoul.</GhoulLK.description>
+
+  <Charge.label>Charge</Charge.label>
+  <Charge.description>Atoms in an unstable state</Charge.description>
+
+  <RadScorpionPoison.label>Scorpion Poison buildup</RadScorpionPoison.label>
+  <RadScorpionPoison.description>Scorpion Poison building up</RadScorpionPoison.description>
+  <RadScorpionPoison.stages.0.label>initial</RadScorpionPoison.stages.0.label>
+  <RadScorpionPoison.stages.1.label>initial</RadScorpionPoison.stages.1.label>
+  <RadScorpionPoison.stages.2.label>minor</RadScorpionPoison.stages.2.label>
+  <RadScorpionPoison.stages.3.label>moderate</RadScorpionPoison.stages.3.label>
+  <RadScorpionPoison.stages.4.label>serious</RadScorpionPoison.stages.4.label>
+  <RadScorpionPoison.stages.5.label>extreme</RadScorpionPoison.stages.5.label>
+
+  <Scorponade.label>"Scorponade" Energy Drink</Scorponade.label>
+  <Scorponade.description>Had some "Scorponade" Energy Drink.</Scorponade.description>
+  <Scorponade.stages.0.label>Scorponade Drink,Phew</Scorponade.stages.0.label>
+  <Scorponade.stages.1.label>Scorponade Drink, Feeling Better.</Scorponade.stages.1.label>
+
+  <BlowflyLarva.label>Blowfly Larva</BlowflyLarva.label>
+  <BlowflyLarva.description>Blowfly Larva</BlowflyLarva.description>
+  <BlowflyLarva.stages.0.label>minor-hidden</BlowflyLarva.stages.0.label>
+  <BlowflyLarva.stages.1.label>minor</BlowflyLarva.stages.1.label>
+  <BlowflyLarva.stages.2.label>major</BlowflyLarva.stages.2.label>
+  <BlowflyLarva.stages.3.label>extreme</BlowflyLarva.stages.3.label>
+  <BlowflyLarva.labelNoun>Larva</BlowflyLarva.labelNoun>
+
+  <ManhunterPermanentAnimal.label>Manhunter Permanent</ManhunterPermanentAnimal.label>
+  <ManhunterPermanentAnimal.description>-/-.</ManhunterPermanentAnimal.description>
+
+
+</LanguageData>

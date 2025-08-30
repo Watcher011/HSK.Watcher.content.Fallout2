@@ -1,5 +1,5 @@
 
-Версия - 0,49
+Версия - 0,50
 -*-
 Оружие
 Pipe shooter
@@ -70,6 +70,7 @@ MinesSign
 SnipersSign
 TurretSign
 GECK
+Deathclaw Scale
 -*-
 плоды растений 
 raw Mutfruit
@@ -130,6 +131,7 @@ Med-x
 Jet
 Ultra jet
 Mysterious Serum
+Rad Away
 -*-
 мутанты
 Radroach
@@ -146,6 +148,7 @@ Duten
 Strange Duten
 Bee
 Firefly
+mutants(Ogres) retexture ->Super mutants
 -*-
 еда
 SuspiciousOmelette
@@ -189,4 +192,4 @@ StrangeDutenPasses
 DeathclawPasses - прибытие когтя смерти(работает)
 DutenSwarm - рой дутней(сломано ,непонятен тригер призыва)
 Electric Shock Explosion(работает)
-Radroach eaters(сломано ,непонятен тригер призыва)
+Radroach Eaters

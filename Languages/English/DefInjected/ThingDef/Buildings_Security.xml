@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TrapIED_LidMineExplosive.label>IED Lid Mine</TrapIED_LidMineExplosive.label>
+  <TrapIED_LidMineExplosive.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy. Can be use like a traps. Animals can sense these when calm.</TrapIED_LidMineExplosive.description>
+
+  <TrapIED_PigMineExplosive.label>IED Piggy Bank Mine</TrapIED_PigMineExplosive.label>
+  <TrapIED_PigMineExplosive.description>"Who said piggy banks have to be peaceful? This cute pink pig with a cheerful grin will be the last thing an uninvited guest sees before its belly—packed with bottle caps—explodes in a dazzling firework of metallic shrapnel. Each cap isn’t just a piece of tin—it’s rusted, jagged, and eager to embed itself in anything nearby. After all, this pig doesn’t just save money—it saves death!""Banned in 12 colonies for 'excessive creativity,' but since when should war be boring? Especially when it’s this much fun!".</TrapIED_PigMineExplosive.description>
+
+  <TrapIED_PlasmaMineExplosive.label>IED plasma Mine</TrapIED_PlasmaMineExplosive.label>
+  <TrapIED_PlasmaMineExplosive.description>This high-tech piece of politeness from pre-war NUKA engineers awaits exactly those who don't watch their step. The principle is simple: you put it down, forget about it, and then someone else (maybe even you) gets an instant lesson in thermodynamics.</TrapIED_PlasmaMineExplosive.description>
+
+  <TrapIED_StanMineExplosive.label>IED Stan Mine</TrapIED_StanMineExplosive.label>
+  <TrapIED_StanMineExplosive.description>A fragile flask containing a pinkish gas labeled "Vault-Tec Sweet Dreams." When detonated, it releases a cloud of powerful tranquilizer, turning opponents into sleepy zombies. Side effects may include: uncontrollable snoring, spontaneous hugs, and a desire to tell everyone about your childhood. *Do not use on super mutants - may cause sentimental attacks*.</TrapIED_StanMineExplosive.description>
+
+
+  <!-- AI manned turrets -->
+
+  <Fallout_Turret_Turret.label>Automated Turret</Fallout_Turret_Turret.label>
+  <Fallout_Turret_Turret.description>The Automated Turret is a deadly pre-war device, rebuilt and modified for the harsh conditions of a post-apocalyptic world. Its key feature is a micro-nuclear reactor as a power source, allowing for virtually unlimited battery life without the need to recharge. "Recommended for use in fortified positions or transport platforms. Do not leave unattended - thieves or super mutants can drag it off for scrap metal... or cannibalize it for parts for something worse."\nCaliber: 5.56x45mm NATO</Fallout_Turret_Turret.description>
+
+  <Gun_FalloutMiniTurret.label>Sentry light gun</Gun_FalloutMiniTurret.label>
+  <Gun_FalloutMiniTurret.description>Jury-rigged automatic gun attached to a turret.</Gun_FalloutMiniTurret.description>
+
+  <Fallout_laser_Turret.label>Automated laser turret</Fallout_laser_Turret.label>
+  <Fallout_laser_Turret.description>A homemade wonder weapon assembled from a laser rifle, some tin cans, a couple of broken Protectron sensor modules, and the misplaced belief that "this time it will definitely work."</Fallout_laser_Turret.description>
+
+  <Gun_FalloutlaserTurret.label>Sentry laser gun</Gun_FalloutlaserTurret.label>
+  <Gun_FalloutlaserTurret.description>Jury-rigged automatic gun attached to a turret.</Gun_FalloutlaserTurret.description>
+
+  <Fallout_FlamethrowerLastWarning_Turret.label>Flamethrower "Pyrometer 3000" turret</Fallout_FlamethrowerLastWarning_Turret.label>
+  <Fallout_FlamethrowerLastWarning_Turret.description>Tired of uninvited guests? Tired of raiders, mutants and postal couriers (yes, those too) roaming around your territory with impunity? The Pyrometer 3000 solves all problems with one click of a switch!</Fallout_FlamethrowerLastWarning_Turret.description>
+
+  <Gun_FlamethrowerLastWarning_Turret.label>Flamethrower gun</Gun_FlamethrowerLastWarning_Turret.label>
+  <Gun_FlamethrowerLastWarning_Turret.description>Flamethrower attached to a turret.</Gun_FlamethrowerLastWarning_Turret.description>
+
+
+</LanguageData>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Ammo -->
+
+  <Ammo_Larva.label>Larva</Ammo_Larva.label>
+  <Ammo_Larva.description>A standard pneumatic rifle dart, but with a twist—or rather, a squirm. Loaded with a plump, juicy bloatfly larva that doesn’t just splatter on impact—it gets comfortable. Upon hitting flesh, the maggot burrows in with the same enthusiasm as a raider looting a pre-war pharmacy. Given a couple of days, your target will either die of sepsis or become the proud host of a brand-new, fully grown bloatfly. Armor penetration: zero. Psychological penetration: maximum.
+
+*(Additional effect: 30% chance of infestation. After 48  hours, the target dies and spawns a bloatfly (assuming something doesn’t kill it first). If the target is a super mutant, they might mistake it for "tiny new friend" and try to feed it, speeding up the process.)*
+
+"Eco-friendly, organic, and disgusting. Just like the best things in the Wastes."
+
+(Fun fact: The NCR once tried weaponizing these, but the quartermaster responsible was reassigned to latrine duty after an "incident" involving a radroach infestation and three missing privates.)</Ammo_Larva.description>
+
+  <Ammo_Tranquilizer.label>Tranquilizer</Ammo_Tranquilizer.label>
+  <Ammo_Tranquilizer.description>A standard tranquilizer, but with hospitality - your opponent is guaranteed not only a deep sleep, but also an unforgettable experience upon awakening. The active substance is a cocktail of pre-war sedatives, diluted with radiation and a pinch of desperate cynicism.</Ammo_Tranquilizer.description>
+
+
+  <!-- Projectiles -->
+
+  <Bullet_Larva.label>Maggot Dart</Bullet_Larva.label>
+  <Bullet_Tranquilizer.label>Tranquilizer Dart</Bullet_Tranquilizer.label>
+
+
+</LanguageData>

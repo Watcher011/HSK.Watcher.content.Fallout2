@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Recipes -->
+
+  <MakeAmmo_Larva.label>Larva Dart x50</MakeAmmo_Larva.label>
+  <MakeAmmo_Larva.description>Craft 50 Larva Dart.</MakeAmmo_Larva.description>
+  <MakeAmmo_Larva.jobString>Larva Dart.</MakeAmmo_Larva.jobString>
+
+  <MakeAmmo_Tranquilizer.label>Tranquilizer Dart x50</MakeAmmo_Tranquilizer.label>
+  <MakeAmmo_Tranquilizer.description>Craft 50 Tranquilizer Dart.</MakeAmmo_Tranquilizer.description>
+  <MakeAmmo_Tranquilizer.jobString>Tranquilizer Dart.</MakeAmmo_Tranquilizer.jobString>
+
+
+</LanguageData>

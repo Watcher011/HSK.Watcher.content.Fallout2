@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <TreatmentOfBlowflyLarva.label>Treatment of Blowfly Larva</TreatmentOfBlowflyLarva.label>
+  <TreatmentOfBlowflyLarva.description>Carrying out a wide range of procedures to Blowfly Larva infection.</TreatmentOfBlowflyLarva.description>
+  <TreatmentOfBlowflyLarva.jobString>Treats infection TargetA.</TreatmentOfBlowflyLarva.jobString>
+  <TreatmentOfBlowflyLarva.successfullyRemovedHediffMessage>{0} has successfully cured {1}'s infection.</TreatmentOfBlowflyLarva.successfullyRemovedHediffMessage>
+
+
+</LanguageData>

@@ -58,6 +58,8 @@
   <Scorponade.ingestible.ingestCommandString>{0} 마시기</Scorponade.ingestible.ingestCommandString>
   <Scorponade.ingestible.ingestReportString>{0} 마시는 중.</Scorponade.ingestible.ingestReportString>
 
+ <RadAway.label>방사능 제거제</RadAway.label>
+<RadAway.description>정맥 주사로 투여되어 방사능 오염의 효과를 bekämpfen하고 체내의 방사능을 제거하기 위해 설계된 약물. 혈액 순환을 줄여 방사능을 흡수한다.</RadAway.description>
 
   <!-- "스콜포네이드" - 개성 넘치는 에너지 드링크! -->
 

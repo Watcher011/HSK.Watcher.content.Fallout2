@@ -40,10 +40,10 @@
   <MeleeWeapon_Supersledge.tools.0.label>손잡이</MeleeWeapon_Supersledge.tools.0.label>
   <MeleeWeapon_Supersledge.tools.1.label>머리</MeleeWeapon_Supersledge.tools.1.label>
 
-<NuclearLandmine.label>핵 지뢰</NuclearLandmine.label>
-<NuclearLandmine.description>팻 맨의 활성 투사체</NuclearLandmine.description>
-<NuclearLandmine.tools.0.label>머리</NuclearLandmine.tools.0.label>
-<NuclearLandmine.tools.1.label>가장자리</NuclearLandmine.tools.1.label>
+  <NuclearLandmine.label>핵 지뢰</NuclearLandmine.label>
+  <NuclearLandmine.description>팻 맨의 활성 투사체</NuclearLandmine.description>
+  <NuclearLandmine.tools.0.label>머리</NuclearLandmine.tools.0.label>
+  <NuclearLandmine.tools.1.label>가장자리</NuclearLandmine.tools.1.label>
 
 
 </LanguageData>

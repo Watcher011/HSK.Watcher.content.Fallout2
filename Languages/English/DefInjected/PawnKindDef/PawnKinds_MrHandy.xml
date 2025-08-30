@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MisterHandyColonist.label>Mr. Handyman</MisterHandyColonist.label>
+  <MisterHandyColonist.labelPlural>Mr. Handymans</MisterHandyColonist.labelPlural>
+  <MisterHandyColonist.labelMale>male Mr. Handyman</MisterHandyColonist.labelMale>
+  <MisterHandyColonist.labelMalePlural>male Mr. Handymans</MisterHandyColonist.labelMalePlural>
+  <MisterHandyColonist.labelFemale>female Mr. Handyman</MisterHandyColonist.labelFemale>
+  <MisterHandyColonist.labelFemalePlural>female Mr. Handymans</MisterHandyColonist.labelFemalePlural>
+
+  <MisterGutsyColonist.label>Mr. Gutsy</MisterGutsyColonist.label>
+  <MisterGutsyColonist.labelPlural>Mr. Gutsys</MisterGutsyColonist.labelPlural>
+  <MisterGutsyColonist.labelMale>male Mr. Gutsy</MisterGutsyColonist.labelMale>
+  <MisterGutsyColonist.labelMalePlural>male Mr. Gutsys</MisterGutsyColonist.labelMalePlural>
+  <MisterGutsyColonist.labelFemale>female Mr. Gutsy</MisterGutsyColonist.labelFemale>
+  <MisterGutsyColonist.labelFemalePlural>female Mr. Gutsys</MisterGutsyColonist.labelFemalePlural>
+
+
+</LanguageData>

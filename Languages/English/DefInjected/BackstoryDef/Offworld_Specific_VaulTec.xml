@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Industrial world -->
+
+  <ShelterRepairman58.title>Shelter Repairman</ShelterRepairman58.title>
+  <ShelterRepairman58.titleShort>Repairman</ShelterRepairman58.titleShort>
+  <ShelterRepairman58.description>[PAWN_nameDef] performed menial, unskilled labor in the shelter. [PAWN_possessive]'s job also required tending to the brahmen that transported goods.</ShelterRepairman58.description>
+
+  <ShelterPsychiatricPatient94.title>Psycho from Shelter</ShelterPsychiatricPatient94.title>
+  <ShelterPsychiatricPatient94.titleShort>Psycho</ShelterPsychiatricPatient94.titleShort>
+  <ShelterPsychiatricPatient94.description>[PAWN_nameDef] spent most of his [PAWN_possessive] adult life in the vault. [PAWN_possessive]'s vault medic had little understanding of mental illness, and [PAWN_pronoun] was treated more like an animal than a human.\n\nAlthough [PAWN_pronoun] was eventually exiled, [PAWN_possessive]'s experience left many of [PAWN_possessive]'s basic life skills weakened.</ShelterPsychiatricPatient94.description>
+
+  <ShelterComputer83.title>human computer</ShelterComputer83.title>
+  <ShelterComputer83.titleShort>computer</ShelterComputer83.titleShort>
+  <ShelterComputer83.description>[PAWN_nameDef] proved to have an excellent memory and the ability to perform complex calculations in his head [PAWN_possessive]. The vault overseer decided to hire [PAWN_nameDef] to monitor the vault's finances and expenses [PAWN_possessive].</ShelterComputer83.description>
+
+  <ShelterSheriff52.title>Shelter sheriff</ShelterSheriff52.title>
+  <ShelterSheriff52.titleShort>sheriff</ShelterSheriff52.titleShort>
+  <ShelterSheriff52.description>[PAWN_nameDef] was the vault's peace officer. [PAWN_pronoun] handled petty crime, dispute resolution, and the occasional drunken shootout in the mess hall.</ShelterSheriff52.description>
+
+  <EntrepreneurFromShelter14.title>Entrepreneur from Shelter</EntrepreneurFromShelter14.title>
+  <EntrepreneurFromShelter14.titleShort>entrepreneur</EntrepreneurFromShelter14.titleShort>
+  <EntrepreneurFromShelter14.description>The world's resources are the most important concern. But someone has to manage the caravans.\n\n[PAWN_nameDef] has mastered the skills of trade - bribery and technical analysis. [PAWN_pronoun] is a socio-intellectual machine.</EntrepreneurFromShelter14.description>
+
+
+</LanguageData>

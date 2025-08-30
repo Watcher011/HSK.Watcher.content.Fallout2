@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ShelterResidents.label>Shelter residents(easy start)</ShelterResidents.label>
+  <ShelterResidents.description>Vault 108 was never quiet. The walls, saturated with the smell of disinfectant and fear, hid the madness of its inhabitants with blows. But when the ventilation system finally left the building, I decided to escape.</ShelterResidents.description>
+  <ShelterResidents.scenario.name>Shelter residents(easy start)</ShelterResidents.scenario.name>
+  <ShelterResidents.scenario.summary>"Five Madmen Who Voluntarily Left the Vault".(easy start)</ShelterResidents.scenario.summary>
+  <ShelterResidents.scenario.description>Vault 108 was never quiet. The walls, saturated with the smell of disinfectant and fear, hid the madness of its inhabitants with blows. But when the ventilation system finally left the building, I decided to escape.</ShelterResidents.scenario.description>
+  <ShelterResidents.scenario.parts.0.text>"If you're reading this, we're either dead or we've finally found that 'paradise in the wasteland'. But most likely, we're dead. Say hi to Mom!"
+          (P.S. If you find a lid with the number #42, Bob will curse you.)</ShelterResidents.scenario.parts.0.text>
+  <ShelterResidents.scenario.parts.1.xenotypeCounts.0.description>non-baby colonist</ShelterResidents.scenario.parts.1.xenotypeCounts.0.description>
+
+
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Gecko -->
+
+  <EggGeckoFertilized.label>Gecko egg (fert.)</EggGeckoFertilized.label>
+  <EggGeckoFertilized.description>A fertilized Gecko egg. If all goes well, it should hatch into a baby Gecko. It can be eaten raw, but it's much better cooked.</EggGeckoFertilized.description>
+
+  <EggDeathclawUnfertilized.label>Deathclaw Egg (Unfertilized)</EggDeathclawUnfertilized.label>
+  <EggDeathclawUnfertilized.description>An unfertilized egg of a Deathclaw.</EggDeathclawUnfertilized.description>
+
+  <EggDeathclawFertilized.label>Deathclaw Egg (Fertilized)</EggDeathclawFertilized.label>
+  <EggDeathclawFertilized.description>A fertilized egg of a Deathclaw. If all goes well, it should hatch into a Baby Deathclaw. Eggs can be eaten raw, but are much better when cooked.</EggDeathclawFertilized.description>
+
+  <EggMirelurkUnfertilized.label>Mirelurk Egg (Unfertilized)</EggMirelurkUnfertilized.label>
+  <EggMirelurkUnfertilized.description>An unfertilized egg of a Deathclaw.</EggMirelurkUnfertilized.description>
+
+  <EggMirelurkFertilized.label>Mirelurk Egg (Fertilized)</EggMirelurkFertilized.label>
+  <EggMirelurkFertilized.description>A fertilized egg of a Mirelurk. If all goes well, it should hatch into a Baby Mirelurk. Eggs can be eaten raw, but are much better when cooked.</EggMirelurkFertilized.description>
+
+  <EggFireflyUnfertilized.label>Firefly Egg (Unfertilized)</EggFireflyUnfertilized.label>
+  <EggFireflyUnfertilized.description>An unfertilized egg of a Firefly.</EggFireflyUnfertilized.description>
+
+  <EggFireflyFertilized.label>Firefly Egg (Fertilized)</EggFireflyFertilized.label>
+  <EggFireflyFertilized.description>A fertilized egg of a Firefly. If all goes well, it should hatch into a Baby Firefly. Eggs can be eaten raw, but are much better when cooked.</EggFireflyFertilized.description>
+
+
+</LanguageData>

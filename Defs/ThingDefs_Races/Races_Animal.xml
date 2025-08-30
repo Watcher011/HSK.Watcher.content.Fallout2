@@ -699,7 +699,7 @@
 			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 			<nuzzleMtbHours>36</nuzzleMtbHours>
 			<wildness>1</wildness>
-			<leatherDef>Leather_Lizard</leatherDef>
+			<leatherDef>Leather_Deathclaw</leatherDef>
 			<useMeatFrom>Muffalo</useMeatFrom>
 			<trainability>Advanced</trainability>
 			 <manhunterOnTameFailChance>0.90</manhunterOnTameFailChance>

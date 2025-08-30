@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VaultTecPortableGenerator.label>Vault-Tec Portable "ElectroBuddy" Generator</VaultTecPortableGenerator.label>
+  <VaultTecPortableGenerator.description>"The power of a nuclear reactor in a convenient portable format! (Results may vary)"
+
+This compact power source is the perfect companion for any wastelander! Designed by the geniuses at Vault-Tec as an "emergency" power source, it perfectly fulfills its main function - to remind you that death by electrocution can await you anywhere!
+ Design Features:
+ Lightweight - only 35 kg (not counting the lead protection that was "lost" upon delivery)
+ Comfortable handle - now you get electrocuted with ergonomic comfort!
+ Charge indicator - flashes red at random, creating an atmosphere of suspense!
+ Important note from Vault-Tec:
+"The generator is absolutely safe when used correctly (which is unknown to anyone). Any cases of spontaneous combustion are a feature of the local climate, and not our products."
+(Advice from experienced users: if the generator starts humming and smelling fried - this is a great reason to go for a run! Preferably in the opposite direction.)</VaultTecPortableGenerator.description>
+
+  <FalloutSmallGenerator.label>Vault-Tec Mark III generator</FalloutSmallGenerator.label>
+  <FalloutSmallGenerator.description>"Do not attempt to repair the generator without a licensed technician (if you find one alive). Any injuries sustained during operation are the result of the user's negligence, not our ingenious design!"(Note: The chance of death is reduced by 2% if you recite the Tom Howard prayer before working.)</FalloutSmallGenerator.description>
+
+
+</LanguageData>

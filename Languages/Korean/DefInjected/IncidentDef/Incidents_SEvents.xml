@@ -5,8 +5,24 @@
   <DeathclawPasses.label>데스클로 통행증</DeathclawPasses.label>
   <StrangeDutenPasses.label>이상한 듀텐 통행증</StrangeDutenPasses.label>
   <DutenSwarm.label>듀텐 군단</DutenSwarm.label>
-  <RadroachEaters.label>방사능 바퀴벌레 포식자</RadroachEaters.label>
+
+
+  <!-- <IncidentDef>
+		<defName>RadroachEaters</defName>
+		<label>Radroach eaters</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_HungryRadroach</workerClass>
+		<baseChance>0.5</baseChance>
+		<minRefireDays>18</minRefireDays>
+		<earliestDay>12</earliestDay>
+		<minThreatPoints>250</minThreatPoints>
+	</IncidentDef> -->
+
   <ElectricShockExplosion.label>전기 충격 폭발</ElectricShockExplosion.label>
+  <RadroachEaters.label>방사능 바퀴벌레 포식자</RadroachEaters.label>
 
 
 </LanguageData>

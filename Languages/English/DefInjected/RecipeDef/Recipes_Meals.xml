@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CookSuspiciousOmelette.label>cook Suspicious Omelette</CookSuspiciousOmelette.label>
+  <CookSuspiciousOmelette.description>Cook a Suspicious Omelette from ingredients.</CookSuspiciousOmelette.description>
+  <CookSuspiciousOmelette.jobString>Cooking Omelette.</CookSuspiciousOmelette.jobString>
+
+  <CookSuspiciousOmeletteBulk.label>cook Suspicious Omelette x4</CookSuspiciousOmeletteBulk.label>
+  <CookSuspiciousOmeletteBulk.description>Cook a Suspicious Omelette from ingredients x4</CookSuspiciousOmeletteBulk.description>
+  <CookSuspiciousOmeletteBulk.jobString>Cooking Omelette.</CookSuspiciousOmeletteBulk.jobString>
+
+  <Cookboiledeggs.label>cook boiled eggs</Cookboiledeggs.label>
+  <Cookboiledeggs.description>Cook a boiled eggs from ingredients.</Cookboiledeggs.description>
+  <Cookboiledeggs.jobString>Cooking boiled eggs.</Cookboiledeggs.jobString>
+
+  <CookCookboiledeggsBulk.label>cook boil edeggs x4</CookCookboiledeggsBulk.label>
+  <CookCookboiledeggsBulk.description>Cook a boiled eggs from ingredients x4</CookCookboiledeggsBulk.description>
+  <CookCookboiledeggsBulk.jobString>Cooking boiled eggs.</CookCookboiledeggsBulk.jobString>
+
+  <Cookfriedeggs.label>cook fried eggs</Cookfriedeggs.label>
+  <Cookfriedeggs.description>Cook a fried eggs from ingredients.</Cookfriedeggs.description>
+  <Cookfriedeggs.jobString>Cooking fried eggs.</Cookfriedeggs.jobString>
+
+  <CookfriedeggsBulk.label>cook fried eggs x4</CookfriedeggsBulk.label>
+  <CookfriedeggsBulk.description>Cook a fried eggs from ingredients x4</CookfriedeggsBulk.description>
+  <CookfriedeggsBulk.jobString>Cooking fried eggs.</CookfriedeggsBulk.jobString>
+
+  <CookRaweggsinaglass.label>cook raw eggs in a glass</CookRaweggsinaglass.label>
+  <CookRaweggsinaglass.description>Cook a raw eggs in a glass.</CookRaweggsinaglass.description>
+  <CookRaweggsinaglass.jobString>Cooking raw eggs in a glass.</CookRaweggsinaglass.jobString>
+
+  <CookRaweggsinaglassBulk.label>cook raw eggs in a glass x4</CookRaweggsinaglassBulk.label>
+  <CookRaweggsinaglassBulk.description>Cook a raw eggs in a glass from ingredients x4</CookRaweggsinaglassBulk.description>
+  <CookRaweggsinaglassBulk.jobString>Cooking raw eggs in a glass.</CookRaweggsinaglassBulk.jobString>
+
+  <MakeMashedPotatoes.label>cook Mashed Potatoes</MakeMashedPotatoes.label>
+  <MakeMashedPotatoes.description>cook Mashed Potatoes. Produces 3.</MakeMashedPotatoes.description>
+  <MakeMashedPotatoes.jobString>Cooking Mashed Potatoes.</MakeMashedPotatoes.jobString>
+
+  <Makeporridge.label>cook porridge</Makeporridge.label>
+  <Makeporridge.description>cook porridge. Produces 3.</Makeporridge.description>
+  <Makeporridge.jobString>Cooking porridge.</Makeporridge.jobString>
+
+
+</LanguageData>

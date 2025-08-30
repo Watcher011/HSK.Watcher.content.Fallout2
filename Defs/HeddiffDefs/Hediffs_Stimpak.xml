@@ -175,6 +175,46 @@
 				  </li>
 		</stages>
 	</HediffDef>
+	
+	
+	<HediffDef>
+		<defName>RadAwayConsumed</defName>
+		<label>Rad Away</label>
+		<description>RadAway consumed</description>
+		<hediffClass>HediffWithComps</hediffClass>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>3.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<becomeVisible>false</becomeVisible>
+				 <makeImmuneTo>
+                 <li>RimatomicsRadiation</li>
+                 <li>FatalRad</li>
+                 <li>RadiationIncurable</li>
+				 <li>RadiationMechanoid</li>
+                </makeImmuneTo>
+				<hediffGivers>
+					<li Class="HediffGiver_Random">
+						<hediff>Diarrhea</hediff>
+						<mtbDays>3</mtbDays>
+					</li>
+				</hediffGivers>
+				<capMods>
+					<li>
+						<capacity>Consciousness</capacity>
+						<setMax>0.9</setMax>
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
 </Defs>
 
 

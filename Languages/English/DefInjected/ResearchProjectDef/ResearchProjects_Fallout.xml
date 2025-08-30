@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Vault-TecPower.label>Vault-Tec Power</Vault-TecPower.label>
+  <Vault-TecPower.description>Build Generators Using Vault-Tec Blueprints.</Vault-TecPower.description>
+  <Vault-TecPower.generalRules.rulesStrings.0>subject-&gt;Vault-Tec Power</Vault-TecPower.generalRules.rulesStrings.0>
+
+  <Vault-TecProduction.label>Vault-Tec Production</Vault-TecProduction.label>
+  <Vault-TecProduction.description>Build Workbench Using Vault-Tec Blueprints.</Vault-TecProduction.description>
+  <Vault-TecProduction.generalRules.rulesStrings.0>subject-&gt;Vault-Tec Production</Vault-TecProduction.generalRules.rulesStrings.0>
+
+  <Vault-TecProcessing.label>Vault-Tec chemical processing</Vault-TecProcessing.label>
+  <Vault-TecProcessing.description>Build laboratory Using Vault-Tec Blueprints.</Vault-TecProcessing.description>
+  <Vault-TecProcessing.generalRules.rulesStrings.0>subject-&gt;Vault-Tec laboratory</Vault-TecProcessing.generalRules.rulesStrings.0>
+
+
+</LanguageData>

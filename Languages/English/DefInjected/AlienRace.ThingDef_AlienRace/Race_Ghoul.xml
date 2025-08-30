@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VaulTecGhoul.label>Ghoul</VaulTecGhoul.label>
+  <VaulTecGhoul.description>Vault-Tec ghouls are former Vault-Tec employees who have been mutated by prolonged exposure to radiation or experimentation. Unlike normal feral ghouls, they retain their intelligence, corporate discipline, and access to pre-war technology. They are fanatically devoted to the ideals of the company and believe themselves to be the "chosen ones" destined to control the Vaults and their secrets.</VaulTecGhoul.description>
+  <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</VaulTecGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <VaulTecGhoul.tools.0.label>left fist</VaulTecGhoul.tools.0.label>
+  <VaulTecGhoul.tools.1.label>right fist</VaulTecGhoul.tools.1.label>
+  <VaulTecGhoul.tools.2.label>teeth</VaulTecGhoul.tools.2.label>
+  <VaulTecGhoul.tools.3.label>head</VaulTecGhoul.tools.3.label>
+
+  <GlowingGhoul.label>Glowing Ghoul</GlowingGhoul.label>
+  <GlowingGhoul.description>These are ghouls who, under the influence of large amounts of radiation, have become its living conductors. Glowing ghouls emit radiation that is dangerous to humans. They can be dangerous even after their death.</GlowingGhoul.description>
+  <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>hair</GlowingGhoul.alienRace.generalSettings.alienPartGenerator.colorChannels.1.name>
+  <GlowingGhoul.tools.0.label>left fist</GlowingGhoul.tools.0.label>
+  <GlowingGhoul.tools.1.label>right fist</GlowingGhoul.tools.1.label>
+  <GlowingGhoul.tools.2.label>teeth</GlowingGhoul.tools.2.label>
+  <GlowingGhoul.tools.3.label>head</GlowingGhoul.tools.3.label>
+
+
+</LanguageData>

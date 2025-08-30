@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BottleCap.label>Bottle Cap</BottleCap.label>
+  <BottleCap.description>Caps are a water-backed currency controlled and regulated by the NCR caravan trading companies. The caravan houses conspired to reintroduce caps as a primary currency when traders lost faith in NCR money.</BottleCap.description>
+
+  <NuclearBattery.label>Nuclear Battery</NuclearBattery.label>
+  <NuclearBattery.description>Ah, that tiny battery that powers your entire energy arsenal, from laser rifles to plasma cannons! Who would have thought that a miniature nuclear reactor that fits in the palm of your hand was such a great idea? Thank you, pre-war corporations, for cramming atomic fission into a package the size of a soda can. What could possibly go wrong?</NuclearBattery.description>
+
+  <Vault81cure.label>Vault 81 cure</Vault81cure.label>
+  <Vault81cure.description>I am pleased to report that my main tasks were completed 83 years ago. Thousands of pathogens were grown in the Molecapers of the hosts. Then one medicine of a wide spectrum of action was developed, which was supposed to cure all of them. This work lasted several decades and brought me great satisfaction. [...] Once you are a representative of the "Volt-Tex"
+, I can entrust you with a wide range of I created.</Vault81cure.description>
+  <Vault81cure.comps.0.useLabel>Use {0_label}</Vault81cure.comps.0.useLabel>
+
+  <RadHemogenPack.label>Rad hemogen pack</RadHemogenPack.label>
+  <RadHemogenPack.description>This bag of thick, shimmering green liquid was taken from the body of one of the inhabitants of the Glowing Sea. The locals say that these mutants are former humans who have been protected from radiation for too long. The blood pulsates strangely, pretending to be alive, and looking at it makes you feel slightly dizzy. Scientists from the Enclave would probably give half a round of ammunition for it, but local tramps prefer to stay away from it - who knows what other nasty stuff is floating in the bag? Maybe it's worth selling, or maybe... it's better not to risk it and throw it into the nearest acid puddle?.</RadHemogenPack.description>
+
+  <RadMeat.label>Wasteland Monster Meat</RadMeat.label>
+  <RadMeat.description>A gastronomic 'delicacy' of the wasteland, taken from creatures that clearly failed health inspection, this hunk of flesh can be anything from boot-tight brahmin meat to suspiciously slimy mutant steak. When raw, it gives off an eye-watering aroma, but when fried (or soaked in alcohol for a long time) it becomes almost edible. As the locals say, 'If your hair doesn't fall out after eating it, you're lucky!</RadMeat.description>
+
+  <MisterHandyKit.label>Mr.Handy Kit</MisterHandyKit.label>
+  <MisterHandyKit.description>Mr.Handy Kit and Instructions</MisterHandyKit.description>
+  <MisterHandyKit.comps.0.useLabel>Assemble Mr. Handy</MisterHandyKit.comps.0.useLabel>
+
+  <MisterGutsyKit.label>Mr.Gutsy Kit</MisterGutsyKit.label>
+  <MisterGutsyKit.description>Mr.Gutsy  Kit and Instructions</MisterGutsyKit.description>
+  <MisterGutsyKit.comps.0.useLabel>Assemble Mr.Gutsy</MisterGutsyKit.comps.0.useLabel>
+
+  <FEVPack.label>Strange pack</FEVPack.label>
+  <FEVPack.description>"Behold a revolutionary product of American science! The Forced Evolutionary Virus (F.E.V.) is not just a pathogen, it is a ticket to a bright (and very green) future! Designed to create supersoldiers capable of surviving a nuclear war (and perhaps even reading the instructions), F.E.V. has undergone rigorous testing... on those who could not refuse."</FEVPack.description>
+
+
+  <!-- <ThingDef ParentName="EtherealThingBase">
+        <defName>Warp</defName>
+        <label>warp</label>
+        <thingClass>ThingWithComps</thingClass>
+        <tickerType>Normal</tickerType>
+        <drawerType>RealtimeOnly</drawerType>
+        <drawOffscreen>true</drawOffscreen>
+        <category>PsychicEmitter</category>
+        <altitudeLayer>MoteOverheadLow</altitudeLayer>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>EBSG/Circle</texPath>
+            <shaderType>MoteGlowDistorted</shaderType>
+            <color>(0, 255, 0)</color>
+            <drawSize>10</drawSize>
+            <shaderParameters>
+                <_DistortionTex>/Other/Ripples</_DistortionTex>
+                <_distortionIntensity>0.05</_distortionIntensity>
+                <_DistortionScale>0.7</_DistortionScale>
+                <_distortionScrollSpeed>(0.07, 0.07, 0.0)</_distortionScrollSpeed>
+            </shaderParameters>
+        </graphicData>
+        <comps>
+            <li Class="CompProperties_Glower">
+                <glowRadius>3</glowRadius>
+                <glowColor>(5, 105, 5,0)</glowColor>
+            </li>
+            <li Class="CompProperties_DestroyAfterDelay">
+                <delayTicks>30</delayTicks>
+            </li>
+        </comps>
+    </ThingDef> -->
+
+  <RadScorpionPoisonGland.label>Rad Scorpion Poison</RadScorpionPoisonGland.label>
+  <RadScorpionPoisonGland.description>"A concentrated embodiment of nature's motherly love - if your mother was a sadist with a PhD in toxicology. This delicious cocktail of neurotoxins, radionuclides and pure malice will turn your nervous system into a Christmas garland, and your insides into an experimental site for a budding alchemist.
+Guaranteed effects:
+- A unique burning sensation at the site of the bite (as if you were being kissed by a blowtorch)
+- Hallucinations (either these are rats in Presidential suits, or it's time to quit the anti-rad)
+- Increased heart rate (your heart is trying to escape through your chest)
+Perfect for:
+- Suicides with a rich imagination
+- Making 'cocktails' for particularly hated neighbors
+- Improvised chemotherapy (results not guaranteed, no survivors found)
+Remember: if after the bite you saw a light at the end of the tunnel - run faster, it's not enlightenment, and the attack of the second scorpion."</RadScorpionPoisonGland.description>
+  <RadScorpionPoisonGland.ingestible.ingestCommandString>Drink {0}</RadScorpionPoisonGland.ingestible.ingestCommandString>
+  <RadScorpionPoisonGland.ingestible.ingestReportString>Drinking {0}.</RadScorpionPoisonGland.ingestible.ingestReportString>
+
+  <PlanD.label>Plan "D"</PlanD.label>
+  <PlanD.description>(The fastest way to get "liberated" from the colony!*).  
+Developed by Vault-Tec™ under the "Affordable Rescue for Low-Income Citizens" program.  
+For just 2,999 bottle caps**, you get:  
+- A one-way ticket***   
+- Our patented "fragrance" (now with 20% more artificial flavoring!)  
+*"Liberation" means permanent termination from all Vault-Tec social programs.  
+**No refunds, even if the plan fails.  
+P.S. Legal reminder: "Plan D" is not a plan, medicine, or edible product (despite added flavoring).</PlanD.description>
+
+
+</LanguageData>

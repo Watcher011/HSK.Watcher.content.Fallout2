@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Carl Gustav Shell -->
+
+  <NHE.label>Nuclear shot</NHE.label>
+  <NHE.labelShort>"Big Kid"</NHE.labelShort>
+  <NHE.description>This type is characterized by greater destructive power and radiation pollution. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</NHE.description>
+
+  <THE.label>Nuclear shot, with set time</THE.label>
+  <THE.labelShort>Big Alarm Clock</THE.labelShort>
+  <THE.description>Has a 5-second timer. Does not detonate on impact with other objects, allowing it to ricochet off walls and around corners. A projectile that directly hits an enemy also deals damage, in addition to the subsequent explosion.</THE.description>
+
+
+</LanguageData>

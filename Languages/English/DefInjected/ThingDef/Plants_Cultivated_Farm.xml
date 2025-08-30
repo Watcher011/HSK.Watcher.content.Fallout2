@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Food crops -->
+
+  <Plant_Mutfruit.label>Mutfruit plant</Plant_Mutfruit.label>
+  <Plant_Mutfruit.description>It is a highly mutated fruit that grows on a small tree. What kind of fruit that has mutated is unknown. It is widely distributed in the Commonwealth and beyond. It can be grown in friendly settlements. It is used to prepare various dishes.</Plant_Mutfruit.description>
+
+  <PlantTarberry.label>Tarberry plant</PlantTarberry.label>
+  <PlantTarberry.description>Mutated berry. In addition to direct consumption, resin berries can be used for cooking.</PlantTarberry.description>
+
+  <Plant_Tato.label>Tato plant</Plant_Tato.label>
+  <Plant_Tato.description>A hybrid of tomato and potato that mutated after the Great War (TOMATO and POTATO).</Plant_Tato.description>
+
+
+</LanguageData>

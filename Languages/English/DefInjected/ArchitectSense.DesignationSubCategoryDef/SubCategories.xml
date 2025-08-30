@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Power -->
+
+  <SubCategory_LampsVaultec.label>Vaultec Lamps</SubCategory_LampsVaultec.label>
+  <SubCategory_LampsVaultec.description>Lamps Set.</SubCategory_LampsVaultec.description>
+
+  <SubCategory_PowerVaultec.label>Vaultec generators</SubCategory_PowerVaultec.label>
+  <SubCategory_PowerVaultec.description>Electric Generator Set.</SubCategory_PowerVaultec.description>
+
+  <SubCategory_RugVaultec.label>Vaultec rugs</SubCategory_RugVaultec.label>
+  <SubCategory_RugVaultec.description>Rugs Set.</SubCategory_RugVaultec.description>
+
+  <SubCategory_VaultecTable.label>Vault-Tec Workbenches</SubCategory_VaultecTable.label>
+  <SubCategory_VaultecTable.description>Vault-Tec Workbenches.</SubCategory_VaultecTable.description>
+
+  <SubCategory_VaultecWeapon.label>Vault-Tec defense</SubCategory_VaultecWeapon.label>
+  <SubCategory_VaultecWeapon.description>A Vault-Tec defense.</SubCategory_VaultecWeapon.description>
+
+  <SubCategory_VaultecFood.label>Vault-Tec Food</SubCategory_VaultecFood.label>
+  <SubCategory_VaultecFood.description>Vault-Tec Food.</SubCategory_VaultecFood.description>
+
+  <SubCategory_VaultecSign.label>Vault-Tec Sign</SubCategory_VaultecSign.label>
+  <SubCategory_VaultecSign.description>Vault-Tec Sign.</SubCategory_VaultecSign.description>
+
+
+</LanguageData>
