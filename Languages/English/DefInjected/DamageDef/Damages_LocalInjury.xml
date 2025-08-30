@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CapShredded.label>Lids</CapShredded.label>
+  <CapShredded.deathMessage>{0} stuffed to death.</CapShredded.deathMessage>
+
+  <ACP.label>shell</ACP.label>
+  <ACP.deathMessage>{0} has been shredded to death.</ACP.deathMessage>
+
+  <ACB.label>bomb</ACB.label>
+  <ACB.deathMessage>{0} has been killed.</ACB.deathMessage>
+
+  <NuclearB.label>bomb</NuclearB.label>
+  <NuclearB.deathMessage>{0} has been killed.</NuclearB.deathMessage>
+
+  <Charge.label>Charge</Charge.label>
+  <Charge.deathMessage>{0} has been killed.</Charge.deathMessage>
+
+  <PlasmaCharge.label>Plasma Charge</PlasmaCharge.label>
+  <PlasmaCharge.deathMessage>{0} has been killed.</PlasmaCharge.deathMessage>
+
+
+  <!-- <DamageDef ParentName="LocalInjuryBase">
+		<defName>DutenDart</defName>
+       <label>Duten Dart</label>
+		<externalViolence>true</externalViolence>
+		<deathMessage>{0} has been shot to death by an arrow.</deathMessage>
+		<hediff>Cut</hediff>
+		<hediffSolid>Crack</hediffSolid>
+		<harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+		<impactSoundType>Bullet</impactSoundType>
+		<armorCategory>Sharp</armorCategory>
+		<overkillPctToDestroyPart>0~0.7</overkillPctToDestroyPart>
+		<buildingDamageFactor>0.05</buildingDamageFactor>
+		<plantDamageFactor>0.5</plantDamageFactor>
+		<isRanged>true</isRanged>
+		<makesAnimalsFlee>true</makesAnimalsFlee>
+		<additionalHediffs>
+			<li>
+				<hediff>BlowflyLarva</hediff>
+				<severityPerDamageDealt>0.12</severityPerDamageDealt>
+				<victimSeverityScaling>ToxicResistance</victimSeverityScaling>
+				<inverseStatScaling>true</inverseStatScaling>
+				<victimSeverityScalingByInvBodySize>true</victimSeverityScalingByInvBodySize>
+			</li>
+		</additionalHediffs>
+	</DamageDef> -->
+
+  <DutenDart.label>Duten Dart</DutenDart.label>
+  <DutenDart.deathMessage>{0} has been shot to death by an arrow.</DutenDart.deathMessage>
+
+  <HealyFog.label>Healy Fog</HealyFog.label>
+  <HealyFog.deathMessage>{0} has been killed.</HealyFog.deathMessage>
+
+  <FalloutBomb.deathMessage>{0} has been vaporized by extreme heat.</FalloutBomb.deathMessage>
+
+
+</LanguageData>

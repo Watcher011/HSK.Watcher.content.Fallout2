@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Chaser -->
+
+  <VaultecScout.label>Vaultec Scout</VaultecScout.label>
+  <VaultecScout.labelPlural>Vaultec Scouts</VaultecScout.labelPlural>
+
+  <VaultecRanger.label>Vaultec Ranger</VaultecRanger.label>
+  <VaultecRanger.labelPlural>Vaultec Rangers</VaultecRanger.labelPlural>
+
+  <VaultecSheriffHeavy.label>Vaultec Ranger</VaultecSheriffHeavy.label>
+  <VaultecSheriffHeavy.labelPlural>Vaultec Rangers</VaultecSheriffHeavy.labelPlural>
+
+  <VaultecOfficer.label>Vaultec officer</VaultecOfficer.label>
+  <VaultecOfficer.labelPlural>Vaultec officers</VaultecOfficer.labelPlural>
+
+  <VaultecCorporal.label>Vaultec Corporal</VaultecCorporal.label>
+  <VaultecCorporal.labelPlural>Vaultec Corporals</VaultecCorporal.labelPlural>
+  <VaultecCorporal.labelMale>male Vaultec Corporal</VaultecCorporal.labelMale>
+  <VaultecCorporal.labelMalePlural>male Vaultec Corporals</VaultecCorporal.labelMalePlural>
+  <VaultecCorporal.labelFemale>female Vaultec Corporal</VaultecCorporal.labelFemale>
+  <VaultecCorporal.labelFemalePlural>female Vaultec Corporals</VaultecCorporal.labelFemalePlural>
+
+  <VaultecSpy.label>Vaultec Spy</VaultecSpy.label>
+  <VaultecSpy.labelPlural>Vaultec Spys</VaultecSpy.labelPlural>
+
+  <VaultecInvestigator.label>Vaultec Investigator</VaultecInvestigator.label>
+  <VaultecInvestigator.labelPlural>Vaultec Investigators</VaultecInvestigator.labelPlural>
+  <VaultecInvestigator.labelMale>male Vaultec Investigator</VaultecInvestigator.labelMale>
+  <VaultecInvestigator.labelMalePlural>male Vaultec Investigators</VaultecInvestigator.labelMalePlural>
+  <VaultecInvestigator.labelFemale>female Vaultec Investigator</VaultecInvestigator.labelFemale>
+  <VaultecInvestigator.labelFemalePlural>female Vaultec Investigators</VaultecInvestigator.labelFemalePlural>
+
+  <VaultecLiquidator.label>Vaultec liquidator</VaultecLiquidator.label>
+  <VaultecLiquidator.labelPlural>Vaultec liquidators</VaultecLiquidator.labelPlural>
+
+  <Vaultec_Trader_liquidator.label>Trader Vaultec</Vaultec_Trader_liquidator.label>
+  <Vaultec_Trader_liquidator.labelPlural>Trader Vaultecs</Vaultec_Trader_liquidator.labelPlural>
+
+  <Vaultecglowing.label>Vaultec glowing</Vaultecglowing.label>
+  <Vaultecglowing.labelPlural>Vaultec glowings</Vaultecglowing.labelPlural>
+  <Vaultecglowing.labelMale>male Vaultec glowing</Vaultecglowing.labelMale>
+  <Vaultecglowing.labelMalePlural>male Vaultec glowings</Vaultecglowing.labelMalePlural>
+  <Vaultecglowing.labelFemale>female Vaultec glowing</Vaultecglowing.labelFemale>
+  <Vaultecglowing.labelFemalePlural>female Vaultec glowings</Vaultecglowing.labelFemalePlural>
+
+
+</LanguageData>

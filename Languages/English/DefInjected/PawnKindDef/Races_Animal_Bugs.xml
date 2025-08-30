@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Radroach.label>Radroach</Radroach.label>
+  <Radroach.labelPlural>Radroachs</Radroach.labelPlural>
+  <Radroach.lifeStages.0.label>Radroach</Radroach.lifeStages.0.label>
+  <Radroach.lifeStages.0.labelPlural>Radroach</Radroach.lifeStages.0.labelPlural>
+  <Radroach.lifeStages.0.labelMale>male Radroach</Radroach.lifeStages.0.labelMale>
+  <Radroach.lifeStages.0.labelMalePlural>male Radroachs</Radroach.lifeStages.0.labelMalePlural>
+  <Radroach.lifeStages.0.labelFemale>female Radroach</Radroach.lifeStages.0.labelFemale>
+  <Radroach.lifeStages.0.labelFemalePlural>female Radroachs</Radroach.lifeStages.0.labelFemalePlural>
+  <Radroach.lifeStages.1.label>Radroach</Radroach.lifeStages.1.label>
+  <Radroach.lifeStages.1.labelPlural>Radroach</Radroach.lifeStages.1.labelPlural>
+  <Radroach.lifeStages.1.labelMale>male Radroach</Radroach.lifeStages.1.labelMale>
+  <Radroach.lifeStages.1.labelMalePlural>male Radroachs</Radroach.lifeStages.1.labelMalePlural>
+  <Radroach.lifeStages.1.labelFemale>female Radroach</Radroach.lifeStages.1.labelFemale>
+  <Radroach.lifeStages.1.labelFemalePlural>female Radroachs</Radroach.lifeStages.1.labelFemalePlural>
+  <Radroach.lifeStages.2.label>Radroach</Radroach.lifeStages.2.label>
+  <Radroach.lifeStages.2.labelPlural>Radroach</Radroach.lifeStages.2.labelPlural>
+  <Radroach.lifeStages.2.labelMale>male Radroach</Radroach.lifeStages.2.labelMale>
+  <Radroach.lifeStages.2.labelMalePlural>male Radroachs</Radroach.lifeStages.2.labelMalePlural>
+  <Radroach.lifeStages.2.labelFemale>female Radroach</Radroach.lifeStages.2.labelFemale>
+  <Radroach.lifeStages.2.labelFemalePlural>female Radroachs</Radroach.lifeStages.2.labelFemalePlural>
+  <Radroach.labelMale>male Radroach</Radroach.labelMale>
+  <Radroach.labelMalePlural>male Radroachs</Radroach.labelMalePlural>
+  <Radroach.labelFemale>female Radroach</Radroach.labelFemale>
+  <Radroach.labelFemalePlural>female Radroachs</Radroach.labelFemalePlural>
+
+  <RadScorpion.label>Rad-Scorpion</RadScorpion.label>
+  <RadScorpion.labelPlural>Rad-Scorpions</RadScorpion.labelPlural>
+  <RadScorpion.lifeStages.0.label>Rad-Scorpion</RadScorpion.lifeStages.0.label>
+  <RadScorpion.lifeStages.0.labelPlural>Rad-Scorpion</RadScorpion.lifeStages.0.labelPlural>
+  <RadScorpion.lifeStages.0.labelMale>male Rad-Scorpion</RadScorpion.lifeStages.0.labelMale>
+  <RadScorpion.lifeStages.0.labelMalePlural>male Rad-Scorpions</RadScorpion.lifeStages.0.labelMalePlural>
+  <RadScorpion.lifeStages.0.labelFemale>female Rad-Scorpion</RadScorpion.lifeStages.0.labelFemale>
+  <RadScorpion.lifeStages.0.labelFemalePlural>female Rad-Scorpions</RadScorpion.lifeStages.0.labelFemalePlural>
+  <RadScorpion.lifeStages.1.label>Rad-Scorpion</RadScorpion.lifeStages.1.label>
+  <RadScorpion.lifeStages.1.labelPlural>Rad-Scorpion</RadScorpion.lifeStages.1.labelPlural>
+  <RadScorpion.lifeStages.1.labelMale>male Rad-Scorpion</RadScorpion.lifeStages.1.labelMale>
+  <RadScorpion.lifeStages.1.labelMalePlural>male Rad-Scorpions</RadScorpion.lifeStages.1.labelMalePlural>
+  <RadScorpion.lifeStages.1.labelFemale>female Rad-Scorpion</RadScorpion.lifeStages.1.labelFemale>
+  <RadScorpion.lifeStages.1.labelFemalePlural>female Rad-Scorpions</RadScorpion.lifeStages.1.labelFemalePlural>
+  <RadScorpion.lifeStages.2.label>Rad-Scorpion</RadScorpion.lifeStages.2.label>
+  <RadScorpion.lifeStages.2.labelPlural>Rad-Scorpion</RadScorpion.lifeStages.2.labelPlural>
+  <RadScorpion.lifeStages.2.labelMale>male Rad-Scorpion</RadScorpion.lifeStages.2.labelMale>
+  <RadScorpion.lifeStages.2.labelMalePlural>male Rad-Scorpions</RadScorpion.lifeStages.2.labelMalePlural>
+  <RadScorpion.lifeStages.2.labelFemale>female Rad-Scorpion</RadScorpion.lifeStages.2.labelFemale>
+  <RadScorpion.lifeStages.2.labelFemalePlural>female Rad-Scorpions</RadScorpion.lifeStages.2.labelFemalePlural>
+  <RadScorpion.labelMale>male Rad-Scorpion</RadScorpion.labelMale>
+  <RadScorpion.labelMalePlural>male Rad-Scorpions</RadScorpion.labelMalePlural>
+  <RadScorpion.labelFemale>female Rad-Scorpion</RadScorpion.labelFemale>
+  <RadScorpion.labelFemalePlural>female Rad-Scorpions</RadScorpion.labelFemalePlural>
+
+  <Duten.label>Duten</Duten.label>
+  <Duten.labelPlural>Dutens</Duten.labelPlural>
+  <Duten.lifeStages.0.label>Duten</Duten.lifeStages.0.label>
+  <Duten.lifeStages.0.labelPlural>Duten</Duten.lifeStages.0.labelPlural>
+  <Duten.lifeStages.0.labelMale>male Duten</Duten.lifeStages.0.labelMale>
+  <Duten.lifeStages.0.labelMalePlural>male Dutens</Duten.lifeStages.0.labelMalePlural>
+  <Duten.lifeStages.0.labelFemale>female Duten</Duten.lifeStages.0.labelFemale>
+  <Duten.lifeStages.0.labelFemalePlural>female Dutens</Duten.lifeStages.0.labelFemalePlural>
+  <Duten.lifeStages.1.label>Duten</Duten.lifeStages.1.label>
+  <Duten.lifeStages.1.labelPlural>Duten</Duten.lifeStages.1.labelPlural>
+  <Duten.lifeStages.1.labelMale>male Duten</Duten.lifeStages.1.labelMale>
+  <Duten.lifeStages.1.labelMalePlural>male Dutens</Duten.lifeStages.1.labelMalePlural>
+  <Duten.lifeStages.1.labelFemale>female Duten</Duten.lifeStages.1.labelFemale>
+  <Duten.lifeStages.1.labelFemalePlural>female Dutens</Duten.lifeStages.1.labelFemalePlural>
+  <Duten.lifeStages.2.label>Duten</Duten.lifeStages.2.label>
+  <Duten.lifeStages.2.labelPlural>Duten</Duten.lifeStages.2.labelPlural>
+  <Duten.lifeStages.2.labelMale>male Duten</Duten.lifeStages.2.labelMale>
+  <Duten.lifeStages.2.labelMalePlural>male Dutens</Duten.lifeStages.2.labelMalePlural>
+  <Duten.lifeStages.2.labelFemale>female Duten</Duten.lifeStages.2.labelFemale>
+  <Duten.lifeStages.2.labelFemalePlural>female Dutens</Duten.lifeStages.2.labelFemalePlural>
+  <Duten.labelMale>male Duten</Duten.labelMale>
+  <Duten.labelMalePlural>male Dutens</Duten.labelMalePlural>
+  <Duten.labelFemale>female Duten</Duten.labelFemale>
+  <Duten.labelFemalePlural>female Dutens</Duten.labelFemalePlural>
+
+  <StrangeDuten.label>Strange Duten</StrangeDuten.label>
+  <StrangeDuten.labelPlural>Strange Dutens</StrangeDuten.labelPlural>
+  <StrangeDuten.lifeStages.0.label>Strange Duten</StrangeDuten.lifeStages.0.label>
+  <StrangeDuten.lifeStages.0.labelPlural>Strange Duten</StrangeDuten.lifeStages.0.labelPlural>
+  <StrangeDuten.lifeStages.0.labelMale>male Strange Duten</StrangeDuten.lifeStages.0.labelMale>
+  <StrangeDuten.lifeStages.0.labelMalePlural>male Strange Dutens</StrangeDuten.lifeStages.0.labelMalePlural>
+  <StrangeDuten.lifeStages.0.labelFemale>female Strange Duten</StrangeDuten.lifeStages.0.labelFemale>
+  <StrangeDuten.lifeStages.0.labelFemalePlural>female Strange Dutens</StrangeDuten.lifeStages.0.labelFemalePlural>
+  <StrangeDuten.lifeStages.1.label>Strange Duten</StrangeDuten.lifeStages.1.label>
+  <StrangeDuten.lifeStages.1.labelPlural>Strange Duten</StrangeDuten.lifeStages.1.labelPlural>
+  <StrangeDuten.lifeStages.1.labelMale>male Strange Duten</StrangeDuten.lifeStages.1.labelMale>
+  <StrangeDuten.lifeStages.1.labelMalePlural>male Strange Dutens</StrangeDuten.lifeStages.1.labelMalePlural>
+  <StrangeDuten.lifeStages.1.labelFemale>female Strange Duten</StrangeDuten.lifeStages.1.labelFemale>
+  <StrangeDuten.lifeStages.1.labelFemalePlural>female Strange Dutens</StrangeDuten.lifeStages.1.labelFemalePlural>
+  <StrangeDuten.lifeStages.2.label>Strange Duten</StrangeDuten.lifeStages.2.label>
+  <StrangeDuten.lifeStages.2.labelPlural>Strange Duten</StrangeDuten.lifeStages.2.labelPlural>
+  <StrangeDuten.lifeStages.2.labelMale>male Strange Duten</StrangeDuten.lifeStages.2.labelMale>
+  <StrangeDuten.lifeStages.2.labelMalePlural>male Strange Dutens</StrangeDuten.lifeStages.2.labelMalePlural>
+  <StrangeDuten.lifeStages.2.labelFemale>female Strange Duten</StrangeDuten.lifeStages.2.labelFemale>
+  <StrangeDuten.lifeStages.2.labelFemalePlural>female Strange Dutens</StrangeDuten.lifeStages.2.labelFemalePlural>
+  <StrangeDuten.labelMale>male Strange Duten</StrangeDuten.labelMale>
+  <StrangeDuten.labelMalePlural>male Strange Dutens</StrangeDuten.labelMalePlural>
+  <StrangeDuten.labelFemale>female Strange Duten</StrangeDuten.labelFemale>
+  <StrangeDuten.labelFemalePlural>female Strange Dutens</StrangeDuten.labelFemalePlural>
+
+  <GlowingRadroach.label>Glowing Radroach</GlowingRadroach.label>
+  <GlowingRadroach.labelPlural>Glowing Radroachs</GlowingRadroach.labelPlural>
+  <GlowingRadroach.lifeStages.0.label>Glowing Radroach</GlowingRadroach.lifeStages.0.label>
+  <GlowingRadroach.lifeStages.0.labelPlural>Glowing Radroach</GlowingRadroach.lifeStages.0.labelPlural>
+  <GlowingRadroach.lifeStages.0.labelMale>male Glowing Radroach</GlowingRadroach.lifeStages.0.labelMale>
+  <GlowingRadroach.lifeStages.0.labelMalePlural>male Glowing Radroachs</GlowingRadroach.lifeStages.0.labelMalePlural>
+  <GlowingRadroach.lifeStages.0.labelFemale>female Glowing Radroach</GlowingRadroach.lifeStages.0.labelFemale>
+  <GlowingRadroach.lifeStages.0.labelFemalePlural>female Glowing Radroachs</GlowingRadroach.lifeStages.0.labelFemalePlural>
+  <GlowingRadroach.lifeStages.1.label>Glowing Radroach</GlowingRadroach.lifeStages.1.label>
+  <GlowingRadroach.lifeStages.1.labelPlural>Glowing Radroach</GlowingRadroach.lifeStages.1.labelPlural>
+  <GlowingRadroach.lifeStages.1.labelMale>male Glowing Radroach</GlowingRadroach.lifeStages.1.labelMale>
+  <GlowingRadroach.lifeStages.1.labelMalePlural>male Glowing Radroachs</GlowingRadroach.lifeStages.1.labelMalePlural>
+  <GlowingRadroach.lifeStages.1.labelFemale>female Glowing Radroach</GlowingRadroach.lifeStages.1.labelFemale>
+  <GlowingRadroach.lifeStages.1.labelFemalePlural>female Glowing Radroachs</GlowingRadroach.lifeStages.1.labelFemalePlural>
+  <GlowingRadroach.lifeStages.2.label>Glowing Radroach</GlowingRadroach.lifeStages.2.label>
+  <GlowingRadroach.lifeStages.2.labelPlural>Glowing Radroach</GlowingRadroach.lifeStages.2.labelPlural>
+  <GlowingRadroach.lifeStages.2.labelMale>male Glowing Radroach</GlowingRadroach.lifeStages.2.labelMale>
+  <GlowingRadroach.lifeStages.2.labelMalePlural>male Glowing Radroachs</GlowingRadroach.lifeStages.2.labelMalePlural>
+  <GlowingRadroach.lifeStages.2.labelFemale>female Glowing Radroach</GlowingRadroach.lifeStages.2.labelFemale>
+  <GlowingRadroach.lifeStages.2.labelFemalePlural>female Glowing Radroachs</GlowingRadroach.lifeStages.2.labelFemalePlural>
+  <GlowingRadroach.labelMale>male Glowing Radroach</GlowingRadroach.labelMale>
+  <GlowingRadroach.labelMalePlural>male Glowing Radroachs</GlowingRadroach.labelMalePlural>
+  <GlowingRadroach.labelFemale>female Glowing Radroach</GlowingRadroach.labelFemale>
+  <GlowingRadroach.labelFemalePlural>female Glowing Radroachs</GlowingRadroach.labelFemalePlural>
+
+  <HugeBee.label>HugeBee</HugeBee.label>
+  <HugeBee.labelPlural>HugeBees</HugeBee.labelPlural>
+  <HugeBee.lifeStages.0.label>HugeBee</HugeBee.lifeStages.0.label>
+  <HugeBee.lifeStages.0.labelPlural>HugeBee</HugeBee.lifeStages.0.labelPlural>
+  <HugeBee.lifeStages.0.labelMale>male HugeBee</HugeBee.lifeStages.0.labelMale>
+  <HugeBee.lifeStages.0.labelMalePlural>male HugeBees</HugeBee.lifeStages.0.labelMalePlural>
+  <HugeBee.lifeStages.0.labelFemale>female HugeBee</HugeBee.lifeStages.0.labelFemale>
+  <HugeBee.lifeStages.0.labelFemalePlural>female HugeBees</HugeBee.lifeStages.0.labelFemalePlural>
+  <HugeBee.lifeStages.1.label>HugeBee</HugeBee.lifeStages.1.label>
+  <HugeBee.lifeStages.1.labelPlural>HugeBee</HugeBee.lifeStages.1.labelPlural>
+  <HugeBee.lifeStages.1.labelMale>male HugeBee</HugeBee.lifeStages.1.labelMale>
+  <HugeBee.lifeStages.1.labelMalePlural>male HugeBees</HugeBee.lifeStages.1.labelMalePlural>
+  <HugeBee.lifeStages.1.labelFemale>female HugeBee</HugeBee.lifeStages.1.labelFemale>
+  <HugeBee.lifeStages.1.labelFemalePlural>female HugeBees</HugeBee.lifeStages.1.labelFemalePlural>
+  <HugeBee.lifeStages.2.label>HugeBee</HugeBee.lifeStages.2.label>
+  <HugeBee.lifeStages.2.labelPlural>HugeBee</HugeBee.lifeStages.2.labelPlural>
+  <HugeBee.lifeStages.2.labelMale>male HugeBee</HugeBee.lifeStages.2.labelMale>
+  <HugeBee.lifeStages.2.labelMalePlural>male HugeBees</HugeBee.lifeStages.2.labelMalePlural>
+  <HugeBee.lifeStages.2.labelFemale>female HugeBee</HugeBee.lifeStages.2.labelFemale>
+  <HugeBee.lifeStages.2.labelFemalePlural>female HugeBees</HugeBee.lifeStages.2.labelFemalePlural>
+  <HugeBee.labelMale>male HugeBee</HugeBee.labelMale>
+  <HugeBee.labelMalePlural>male HugeBees</HugeBee.labelMalePlural>
+  <HugeBee.labelFemale>female HugeBee</HugeBee.labelFemale>
+  <HugeBee.labelFemalePlural>female HugeBees</HugeBee.labelFemalePlural>
+
+  <Firefly.label>Firefly</Firefly.label>
+  <Firefly.labelPlural>Fireflys</Firefly.labelPlural>
+  <Firefly.lifeStages.0.label>Firefly</Firefly.lifeStages.0.label>
+  <Firefly.lifeStages.0.labelPlural>Firefly</Firefly.lifeStages.0.labelPlural>
+  <Firefly.lifeStages.0.labelMale>male Firefly</Firefly.lifeStages.0.labelMale>
+  <Firefly.lifeStages.0.labelMalePlural>male Fireflys</Firefly.lifeStages.0.labelMalePlural>
+  <Firefly.lifeStages.0.labelFemale>female Firefly</Firefly.lifeStages.0.labelFemale>
+  <Firefly.lifeStages.0.labelFemalePlural>female Fireflys</Firefly.lifeStages.0.labelFemalePlural>
+  <Firefly.lifeStages.1.label>Firefly</Firefly.lifeStages.1.label>
+  <Firefly.lifeStages.1.labelPlural>Firefly</Firefly.lifeStages.1.labelPlural>
+  <Firefly.lifeStages.1.labelMale>male Firefly</Firefly.lifeStages.1.labelMale>
+  <Firefly.lifeStages.1.labelMalePlural>male Fireflys</Firefly.lifeStages.1.labelMalePlural>
+  <Firefly.lifeStages.1.labelFemale>female Firefly</Firefly.lifeStages.1.labelFemale>
+  <Firefly.lifeStages.1.labelFemalePlural>female Fireflys</Firefly.lifeStages.1.labelFemalePlural>
+  <Firefly.lifeStages.2.label>Firefly</Firefly.lifeStages.2.label>
+  <Firefly.lifeStages.2.labelPlural>Firefly</Firefly.lifeStages.2.labelPlural>
+  <Firefly.lifeStages.2.labelMale>male Firefly</Firefly.lifeStages.2.labelMale>
+  <Firefly.lifeStages.2.labelMalePlural>male Fireflys</Firefly.lifeStages.2.labelMalePlural>
+  <Firefly.lifeStages.2.labelFemale>female Firefly</Firefly.lifeStages.2.labelFemale>
+  <Firefly.lifeStages.2.labelFemalePlural>female Fireflys</Firefly.lifeStages.2.labelFemalePlural>
+  <Firefly.labelMale>male Firefly</Firefly.labelMale>
+  <Firefly.labelMalePlural>male Fireflys</Firefly.labelMalePlural>
+  <Firefly.labelFemale>female Firefly</Firefly.labelFemale>
+  <Firefly.labelFemalePlural>female Fireflys</Firefly.labelFemalePlural>
+
+
+</LanguageData>

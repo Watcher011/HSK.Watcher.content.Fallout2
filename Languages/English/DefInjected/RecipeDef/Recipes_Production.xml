@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeCupBotel.label>Create bottle caps x100</MakeCupBotel.label>
+  <MakeCupBotel.description>Smelt bottle caps. 100pcs.</MakeCupBotel.description>
+  <MakeCupBotel.jobString>Smelts.</MakeCupBotel.jobString>
+
+  <MakeBottlecapGrenades.label>Create a Lid Mine x5</MakeBottlecapGrenades.label>
+  <MakeBottlecapGrenades.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy. Can be thrown like a grenade.</MakeBottlecapGrenades.description>
+  <MakeBottlecapGrenades.jobString>Creates a Lid Mine.</MakeBottlecapGrenades.jobString>
+
+  <BuildFalloutPipeGun.label>Build Pipe shooter</BuildFalloutPipeGun.label>
+  <BuildFalloutPipeGun.description>Builds Pipe shooter pistol. Weak and short range, but works.\nCaliber: 9x19mm</BuildFalloutPipeGun.description>
+  <BuildFalloutPipeGun.jobString>Building Pipe shooter.</BuildFalloutPipeGun.jobString>
+
+  <BuildVagabondRifle.label>Build Vagabond Rifle</BuildVagabondRifle.label>
+  <BuildVagabondRifle.description>Builds a Vagabond Rifle for field or urban combat.\nCaliber: 5.56x45mm NATO</BuildVagabondRifle.description>
+  <BuildVagabondRifle.jobString>Building Vagabond Rifle.</BuildVagabondRifle.jobString>
+
+  <BuildOldRevolver.label>Build Homemade revolver "Scavenger"</BuildOldRevolver.label>
+  <BuildOldRevolver.description>Builds revolver "Scavenger". Weak and short range.\nCaliber: .45 ACP</BuildOldRevolver.description>
+  <BuildOldRevolver.jobString>Building Homemade revolver.</BuildOldRevolver.jobString>
+
+  <BuildChinesePistol.label>Build Chinese pistol</BuildChinesePistol.label>
+  <BuildChinesePistol.description>Builds a Chinese pistol.\nCaliber: 9x19mm Para</BuildChinesePistol.description>
+  <BuildChinesePistol.jobString>Building Chinese pistol.</BuildChinesePistol.jobString>
+
+  <BuildAN556Order.label>Build AN556 Order</BuildAN556Order.label>
+  <BuildAN556Order.description>The AN556 "Order", a slightly improved version of the AN550,Long Barrel Rifle. Average damage and range, good rate of fire and accurracy.\nCaliber: 5.56x45mm NATO</BuildAN556Order.description>
+  <BuildAN556Order.jobString>Building AN556 "Order".</BuildAN556Order.jobString>
+
+  <BuildAssaultCarbine.label>Build Assault Carbine</BuildAssaultCarbine.label>
+  <BuildAssaultCarbine.description>Assault Carbine, The standard assault carbine offers a good balance between damage and accuracy, making it a good choice for a variety of combat situations. Many of the available modifications will make this weapon suitable for automatic fire. And a properly modified assault carbine can become a good sniper carbine with a large magazine and a relatively high rate of fire.\nCaliber: 5.56x45mm NATO</BuildAssaultCarbine.description>
+  <BuildAssaultCarbine.jobString>Building Assault Carbine.</BuildAssaultCarbine.jobString>
+
+  <BuildFatMan.label>Build Fat Man</BuildFatMan.label>
+  <BuildFatMan.description>Builds the Fat Man.\nCaliber: Nuclear shot</BuildFatMan.description>
+  <BuildFatMan.jobString>Building Fat Man.</BuildFatMan.jobString>
+
+  <BuildFalloutPlasmaCarbine.label>Build Plasma Carbine</BuildFalloutPlasmaCarbine.label>
+  <BuildFalloutPlasmaCarbine.description>A short range, lightweight plasma rifle.</BuildFalloutPlasmaCarbine.description>
+  <BuildFalloutPlasmaCarbine.jobString>Building Plasma Carbine.</BuildFalloutPlasmaCarbine.jobString>
+
+  <BuildFallout_PlasmaPistol.label>Build Plasma Pistol "Ion Fang"</BuildFallout_PlasmaPistol.label>
+  <BuildFallout_PlasmaPistol.description>A highly accurate plasma pistol "Ion Fang".</BuildFallout_PlasmaPistol.description>
+  <BuildFallout_PlasmaPistol.jobString>Building Ion Fang</BuildFallout_PlasmaPistol.jobString>
+
+  <BuildFallout_PlasmaWraith.label>Build Plasma Wraith</BuildFallout_PlasmaWraith.label>
+  <BuildFallout_PlasmaWraith.description>A plasma sniper rifle Plasma Wraith, highly accurate but with a low rate of fire.</BuildFallout_PlasmaWraith.description>
+  <BuildFallout_PlasmaWraith.jobString>Building Plasma Wraith</BuildFallout_PlasmaWraith.jobString>
+
+  <BuildMinigunPlasma.label>Build Plasma Gatling "Molten Storm"</BuildMinigunPlasma.label>
+  <BuildMinigunPlasma.description>Builds Plasma Gatling "Molten Storm", "When the world is already burned, why stop?"</BuildMinigunPlasma.description>
+  <BuildMinigunPlasma.jobString>Building Molten Storm.</BuildMinigunPlasma.jobString>
+
+  <BuildLaserCarbineRifle.label>Build Carbine"AER-14"</BuildLaserCarbineRifle.label>
+  <BuildLaserCarbineRifle.description>"A pure slice of Old World technology - smokeless, fail-safe and deadly."</BuildLaserCarbineRifle.description>
+  <BuildLaserCarbineRifle.jobString>Building AER-14.</BuildLaserCarbineRifle.jobString>
+
+  <BuildPepperShaker.label>Build Pepper Shaker</BuildPepperShaker.label>
+  <BuildPepperShaker.description>Builds a Pepper Shaker, a Pepper Shaker takes one second to spin up before it automatically fires eight shotgun shells. It counts as both a shotgun and a heavy weapon and will benefit from any perk in either weapon class.\nCaliber: 12 Gauge</BuildPepperShaker.description>
+  <BuildPepperShaker.jobString>Building Pepper Shaker.</BuildPepperShaker.jobString>
+
+  <BuildFalloutSyringer.label>Build Syringer</BuildFalloutSyringer.label>
+  <BuildFalloutSyringer.description>Builds Syringer pistol. Weak and short range, but works.\nCaliber: Dart</BuildFalloutSyringer.description>
+  <BuildFalloutSyringer.jobString>Building Syringer shooter.</BuildFalloutSyringer.jobString>
+
+  <BuildHellBoss.label>Build Machine Gun "Hell Boss"</BuildHellBoss.label>
+  <BuildHellBoss.description>Machine Gun "Hell Boss" In a world where laws are written with the barrel of a gun and a truce is just a pause to reload, regular machine guns are for those who still believe in negotiations. Hell Boss is not shooting, it is a salvo artillery barrage in a compact format.\nCaliber:.50mm</BuildHellBoss.description>
+  <BuildHellBoss.jobString>Building Hell Boss.</BuildHellBoss.jobString>
+
+  <BuildFlamethrowerLastWarning.label>Build Flamethrower Last Warning</BuildFlamethrowerLastWarning.label>
+  <BuildFlamethrowerLastWarning.description>Unconventional flamethrower Last Warning.</BuildFlamethrowerLastWarning.description>
+  <BuildFlamethrowerLastWarning.jobString>Building Flamethrower Last Warning.</BuildFlamethrowerLastWarning.jobString>
+
+  <MakeFalloutJet.label>Make Jet x4</MakeFalloutJet.label>
+  <MakeFalloutJet.description>Make Jet.</MakeFalloutJet.description>
+  <MakeFalloutJet.jobString>Make Jet.</MakeFalloutJet.jobString>
+
+  <MakeFalloutJet4x.label>Make Jet x12</MakeFalloutJet4x.label>
+  <MakeFalloutJet4x.description>Make Jet x12.</MakeFalloutJet4x.description>
+  <MakeFalloutJet4x.jobString>Make Jet.</MakeFalloutJet4x.jobString>
+
+  <MakeFalloutUltraJet4x.label>Make Ultra Jet x4</MakeFalloutUltraJet4x.label>
+  <MakeFalloutUltraJet4x.description>Make Ultra Jet.</MakeFalloutUltraJet4x.description>
+  <MakeFalloutUltraJet4x.jobString>Make Ultra Jet.</MakeFalloutUltraJet4x.jobString>
+
+  <MakeFalloutUltraJet12x.label>Make Ultra Jet x12</MakeFalloutUltraJet12x.label>
+  <MakeFalloutUltraJet12x.description>Make Ultra Jet.</MakeFalloutUltraJet12x.description>
+  <MakeFalloutUltraJet12x.jobString>Make Ultra Jet.</MakeFalloutUltraJet12x.jobString>
+
+  <MakeStimpak12x.label>Make Stimpak x12</MakeStimpak12x.label>
+  <MakeStimpak12x.description>Make Stimpak.</MakeStimpak12x.description>
+  <MakeStimpak12x.jobString>Make Stimpak.</MakeStimpak12x.jobString>
+
+  <MakeStimpakSuper12x.label>Make Stimpak Super x12</MakeStimpakSuper12x.label>
+  <MakeStimpakSuper12x.description>Make Stimpak Super.</MakeStimpakSuper12x.description>
+  <MakeStimpakSuper12x.jobString>Make Stimpak Super.</MakeStimpakSuper12x.jobString>
+
+  <MakeMed-x12x.label>Make Med-x x12</MakeMed-x12x.label>
+  <MakeMed-x12x.description>Make Med-x.</MakeMed-x12x.description>
+  <MakeMed-x12x.jobString>Make Med-x.</MakeMed-x12x.jobString>
+
+  <MakeMysteriousSerum2x.label>Make Mysterious Serum x2</MakeMysteriousSerum2x.label>
+  <MakeMysteriousSerum2x.description>Make Mysterious Serum.</MakeMysteriousSerum2x.description>
+  <MakeMysteriousSerum2x.jobString>Make Mysterious Serum.</MakeMysteriousSerum2x.jobString>
+
+  <MakeScorponade2x.label>Make Scorponade x2</MakeScorponade2x.label>
+  <MakeScorponade2x.description>Make Scorponade.</MakeScorponade2x.description>
+  <MakeScorponade2x.jobString>Make Scorponade.</MakeScorponade2x.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VolttecRug.label>Volt-Tec:Clean Mat(3x3)</VolttecRug.label>
+  <VolttecRug.description>Medium-sized mat with the Volt-Tec brand logo - so that your boots, dirty with radiation, dirt and moral compromises, leave all this outside! Made of "revolutionary" synthetic material (12% more resistant to melting than competitors!). Easily washed from blood, dirt and traces of radioactive mucus. The kit does not include a safety guarantee, operating instructions and conscience.The inscription on the reverse side is “Volt-Tec: We are not to blame! (But if anything happens, it’s all the Enclave)”</VolttecRug.description>
+
+  <BrotherhoodRug.label>Brotherhood of Steel:Purity Rug(2x2)</BrotherhoodRug.label>
+  <BrotherhoodRug.description>Medium-sized, but with the ambitions of an orthodox paladin! This rug doesn't just collect dirt - it ideologically filters it, leaving only that which is approved by Elder Maxon. (Easily washed from betrayal - just throw it in the wash, like the Brotherhood throws the unwanted into the mines.)</BrotherhoodRug.description>
+
+  <NukaColaRug.label>Nuka-Cola:Purity Rug(2x2)</NukaColaRug.label>
+  <NukaColaRug.description>Add a pinch of post -war chic to your interior with this medium -sized rug, decorated with the legendary logo of the nuclear - a drink that refreshed your grandfathers ... right before turning them into shining mutants.)</NukaColaRug.description>
+
+  <EnclavesRugA.label>Enclave's:Purity Rug(2x2)</EnclavesRugA.label>
+  <EnclavesRugA.description>Medium-sized (because the Enclave's budget didn't allow for much more), this mat features the logo of the legendary government-in-exile. Now you can trample on a symbol of former glory every day while you clean your boots of post-war mud!</EnclavesRugA.description>
+
+  <EnclavesRugB.label>Enclave's:Purity Rug 2(2x2)</EnclavesRugB.label>
+  <EnclavesRugB.description>Medium-sized (like the Enclave's ambitions after the oil rig explosion), this rug proudly features the logo of the most unsuccessful government in post-apocalyptic history. Now you can greet your guests in style - with a hint that you understand the intricacies of political collapse!</EnclavesRugB.description>
+
+  <AtomicCatsRug.label>Atomic Cats:Purity Rug(2x2)</AtomicCatsRug.label>
+  <AtomicCatsRug.description>Stylish, practical and slightly radioactive, this rug featuring the iconic Atomic Cats logo is the perfect addition to your hideout, retro-futuristic lounge area or just to remind your guests that you're up to date with real post-apocalyptic pop culture.</AtomicCatsRug.description>
+
+  <AtomRug.label>Children of Atom:Purity Rug(2x2)</AtomRug.label>
+  <AtomRug.description>Turn the entrance to your vault into a sacred ritual with this stylish rug, approved by the Great Destroyer himself (well, almost). The rug does not guarantee protection from radiation, raider attacks, or unannounced visits from super mutants. But it is guaranteed to lift the spirits of you and your guests (unless they are from the Brotherhood of Steel, of course). "Find peace in the light of the Atom... or at least clean socks!".</AtomRug.description>
+
+  <InstituteRugA.label>Institute:Purity Rug(2x2)</InstituteRugA.label>
+  <InstituteRugA.description>The perfect addition to your lab, bunker or interrogation room - now with even more surface area for brainwashing and purge of disloyal elements! "Synth Institute: Your Floor, Our Control Zone."</InstituteRugA.description>
+
+  <InstituteRugB.label>Institute:Purity Rug 2(2x2)</InstituteRugB.label>
+  <InstituteRugB.description>"Institute of Synths: We lay the floor softly for you so that your fall won't hurt"Attention! If you notice:
+	    Spontaneous folding of the rug
+		Appearance of slogans "Synths are people too"
+		Unnatural desire to wipe your feet on it
+		Immediately report to the nearest reprogramming point!</InstituteRugB.description>
+
+  <NKRRug.label>NKR:Purity Rug 2(2x2)</NKRRug.label>
+  <NKRRug.description>A medium-sized, stylish and "virtually radiation-resistant" rug with a proud NCR logo - because even at your doorstep there should be democracy (or the illusion of it).</NKRRug.description>
+
+
+</LanguageData>

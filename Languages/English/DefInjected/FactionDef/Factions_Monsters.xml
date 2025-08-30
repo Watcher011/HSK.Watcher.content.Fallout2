@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Monster.label>Lair of monsters</Monster.label>
+  <Monster.description>Deep underground, in the musty corridors of Vault, something terrifying has taken up residence. Once a place teeming with life, with steel doors protecting the inhabitants from a nuclear apocalypse, the vault is now home to nightmarish creatures mutated by years of isolation..</Monster.description>
+  <Monster.fixedName>Monsters</Monster.fixedName>
+  <Monster.pawnsPlural>Monsters</Monster.pawnsPlural>
+
+
+</LanguageData>

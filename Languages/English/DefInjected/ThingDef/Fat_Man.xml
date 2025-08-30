@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- AmmoSet -->
+
+  <Ammo_FatManShell_NHE.label>Nuclear shot</Ammo_FatManShell_NHE.label>
+  <Ammo_FatManShell_NHE.description>This type is characterized by greater destructive power and radiation pollution. Increased damage is achieved at the cost of reduced range, which can turn out badly for a poorly protected shooter.</Ammo_FatManShell_NHE.description>
+
+  <Ammo_FatManShell_FGM.label>Piggy Boomba</Ammo_FatManShell_FGM.label>
+  <Ammo_FatManShell_FGM.description>Saving up can be explosive!Remember: In a world where caps are currency, the safest bank is a pig flying straight into your rivals’ faces!" —Anonymous slaver promoting "financial literacy.</Ammo_FatManShell_FGM.description>
+
+  <Bullet_FatManShell_NHE.label>Nuclear shot (NHE)</Bullet_FatManShell_NHE.label>
+  <Bullet_FatManShell_FGM.label>Piggy Boomba (FGM)</Bullet_FatManShell_FGM.label>
+
+
+</LanguageData>

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Radroach.label>Radroach</Radroach.label>
+  <Radroach.description>Radroach - a true symbol of post-war cuisine! This charming giant cockroach, generously seasoned with radiation, is no longer just a bug under the refrigerator, but a full-fledged meat substitute for thrifty survivalists. It runs faster than a pre-war politician, reproduces faster than the bureaucracy of the NCR and, unlike you hope, will never die.Try frying it - you will get a crispy delicacy with a piquant aftertaste of strontium-90! And if you are lucky, you will find a spare battery or a piece of glass in its chitinous shell - after all, this is not just an insect, it is a surprise-surprise!"*(Note in the margin: "If it seems to you that there are more of them after you killed the first one, you are not imagining it. They call friends. They always call friends.").</Radroach.description>
+  <Radroach.tools.0.label>mouth</Radroach.tools.0.label>
+  <Radroach.tools.1.label>head</Radroach.tools.1.label>
+
+  <RadScorpion.label>Rad-Scorpion</RadScorpion.label>
+  <RadScorpion.description>*"Nature has finally answered the age-old question: 'What if you scaled up a scorpion to the size of an SUV, gave it a dose of radiation, and absolutely no sense of self-preservation?'This walking nightmare of entomologists combines all the best qualities: the armor of a tank, the speed of an enraged brahmin, and a signature 'sting of death' that guarantees either instant death or a long and painful agony (depending on how much the Universe hates you today).Their habits are especially 'charming': suddenly crawling out of the ground right behind you, ignoring the laws of physics when pursuing, and reproducing faster than Vault dwellers can breed paranoia.The only plus? Their venom is a great substitute for coffee if you need to stay awake for the next three days. Just... don't tell the doctor how you got cardiac arrest."*.</RadScorpion.description>
+  <RadScorpion.tools.1.label>head</RadScorpion.tools.1.label>
+
+  <Duten.label>Duten</Duten.label>
+  <Duten.description>This masterpiece of radiation creativity was once an ordinary fly. Now it is a walking (or rather, flying) violation of the Wasteland's sanitary standards.</Duten.description>
+  <Duten.verbs.0.label>launch Larva</Duten.verbs.0.label>
+  <Duten.tools.0.label>head</Duten.tools.0.label>
+
+  <StrangeDuten.label>Strange Duten</StrangeDuten.label>
+  <StrangeDuten.description>"Mega-Stinger - the King of the Blow-Outs"
+In the vast wastelands, where mutants have long since become something of a local fauna, a new nightmare has appeared - a huge, glowing, deadly blow-out, which seems to have come from the pages of pre-war comics about giant insects. Only this freak is not fiction, and an encounter with it is guaranteed to ruin your day, and most likely - the rest of your life.
+Once upon a time, it was an ordinary blow-out - well, almost ordinary. But then it got its hands on strange pills, scraps of wires and, possibly, a couple of nuclear batteries (because in the Wasteland, bugs eat anything). Now it is not just an insect - it is a walking disaster that glows in the dark like a New Year's garland and spits plasma with enviable regularity.
+It is fast. It is strong. It is angry at the whole world. And if you suddenly see a flickering greenish light in the distance – run. Because it’s not a firefly. It’s him. And he’s already noticed you.
+(Advice from the experienced: if you don’t have a flare gun or a couple of good mines at hand – don’t even try. It’s better to pretend to be dead. Or become one for real – the second option will most likely work more reliably.)</StrangeDuten.description>
+  <StrangeDuten.verbs.0.label>launch plasma</StrangeDuten.verbs.0.label>
+  <StrangeDuten.tools.0.label>head</StrangeDuten.tools.0.label>
+
+  <GlowingRadroach.label>Glowing Radroach</GlowingRadroach.label>
+  <GlowingRadroach.description>Glowing Radroach 2.0 — now with a reduced night light and decent radiation delivery straight to your bunker! This fiery mutant is not just a bug, but a whole autonomous reactor on six legs, generously sharing with you ionizing heat and a luxurious sofa of the Apocalypse.
+He does not just run — he maneuvers between your traps with the grace of an Olympic champion in survival, reproduces with the efficiency of state propaganda, and his chitinous shell is so radioactive that it can replace your Geiger counter (and, perhaps, even a funeral).
+try to bake it — bring crispy delicacies with notes of plutonium and a long, very long aftertaste. And if you're lucky, you'll find a bonus inside: a piece of barbed wire, a rusty cork from "Nukle-Cola" or even a whole cartridge! After all, this is not just dinner — it's a lottery, where the main prize is a mutation of the remainder!
+(Note on back: "If, after killing one roach, the room starts to pulse green, congratulations, you've just activated a group chat in the local colony. Get the frying pan ready. And maybe a will.")</GlowingRadroach.description>
+  <GlowingRadroach.tools.0.label>mouth</GlowingRadroach.tools.0.label>
+  <GlowingRadroach.tools.1.label>head</GlowingRadroach.tools.1.label>
+
+  <HugeBee.label>Huge Bee</HugeBee.label>
+  <HugeBee.description>"When pre-war scientists decided to 'optimize' pollination with radiation and experimental pheromones, they certainly didn't expect bees to grow to the size of a hungry German shepherd, acquire armored chitin, and start hunting brahmins. But, as the saying goes, 'science knows no boundaries' - but now it knows a sting the size of a hunting knife."*(Entry in the terminal of the scientist of "Entomological Bunker-17": "Project 'Bee-saurus' has failed. I repeat: FAILED. If anyone is reading this, evacuate. They have learned to open doors.")*</HugeBee.description>
+  <HugeBee.tools.0.label>head</HugeBee.tools.0.label>
+
+  <Firefly.label>Firefly</Firefly.label>
+  <Firefly.description>"Brighter than your future!"These cute little guys are the result of nature saying, "Let's make a firefly, but let's make it not only glow, but also glow.""Lighting your way to genetic disaster!"(Note: Vault-Tec is not responsible for spontaneous mutations, uncontrollable glowing, or sudden ghoul transformations. Though, come to think of it, Vault-Tec is not responsible for anything.)</Firefly.description>
+  <Firefly.tools.0.label>head</Firefly.tools.0.label>
+
+
+</LanguageData>

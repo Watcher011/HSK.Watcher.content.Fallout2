@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- BigCats -->
+
+  <Gecko_green.label>Gecko</Gecko_green.label>
+  <Gecko_green.labelPlural>Geckos</Gecko_green.labelPlural>
+  <Gecko_green.lifeStages.0.label>Gecko</Gecko_green.lifeStages.0.label>
+  <Gecko_green.lifeStages.0.labelPlural>Gecko</Gecko_green.lifeStages.0.labelPlural>
+  <Gecko_green.lifeStages.0.labelMale>male Gecko</Gecko_green.lifeStages.0.labelMale>
+  <Gecko_green.lifeStages.0.labelMalePlural>male Geckos</Gecko_green.lifeStages.0.labelMalePlural>
+  <Gecko_green.lifeStages.0.labelFemale>female Gecko</Gecko_green.lifeStages.0.labelFemale>
+  <Gecko_green.lifeStages.0.labelFemalePlural>female Geckos</Gecko_green.lifeStages.0.labelFemalePlural>
+  <Gecko_green.lifeStages.1.label>Gecko</Gecko_green.lifeStages.1.label>
+  <Gecko_green.lifeStages.1.labelPlural>Gecko</Gecko_green.lifeStages.1.labelPlural>
+  <Gecko_green.lifeStages.1.labelMale>male Gecko</Gecko_green.lifeStages.1.labelMale>
+  <Gecko_green.lifeStages.1.labelMalePlural>male Geckos</Gecko_green.lifeStages.1.labelMalePlural>
+  <Gecko_green.lifeStages.1.labelFemale>female Gecko</Gecko_green.lifeStages.1.labelFemale>
+  <Gecko_green.lifeStages.1.labelFemalePlural>female Geckos</Gecko_green.lifeStages.1.labelFemalePlural>
+  <Gecko_green.lifeStages.2.label>Gecko</Gecko_green.lifeStages.2.label>
+  <Gecko_green.lifeStages.2.labelPlural>Gecko</Gecko_green.lifeStages.2.labelPlural>
+  <Gecko_green.lifeStages.2.labelMale>male Gecko</Gecko_green.lifeStages.2.labelMale>
+  <Gecko_green.lifeStages.2.labelMalePlural>male Geckos</Gecko_green.lifeStages.2.labelMalePlural>
+  <Gecko_green.lifeStages.2.labelFemale>female Gecko</Gecko_green.lifeStages.2.labelFemale>
+  <Gecko_green.lifeStages.2.labelFemalePlural>female Geckos</Gecko_green.lifeStages.2.labelFemalePlural>
+  <Gecko_green.labelMale>male Gecko</Gecko_green.labelMale>
+  <Gecko_green.labelMalePlural>male Geckos</Gecko_green.labelMalePlural>
+  <Gecko_green.labelFemale>female Gecko</Gecko_green.labelFemale>
+  <Gecko_green.labelFemalePlural>female Geckos</Gecko_green.labelFemalePlural>
+
+  <Gecko_fire.label>Fire-breathing gecko</Gecko_fire.label>
+  <Gecko_fire.labelPlural>Fire-breathing geckos</Gecko_fire.labelPlural>
+  <Gecko_fire.lifeStages.0.label>Fire-breathing gecko</Gecko_fire.lifeStages.0.label>
+  <Gecko_fire.lifeStages.0.labelPlural>Fire-breathing gecko</Gecko_fire.lifeStages.0.labelPlural>
+  <Gecko_fire.lifeStages.0.labelMale>male Fire-breathing gecko</Gecko_fire.lifeStages.0.labelMale>
+  <Gecko_fire.lifeStages.0.labelMalePlural>male Fire-breathing geckos</Gecko_fire.lifeStages.0.labelMalePlural>
+  <Gecko_fire.lifeStages.0.labelFemale>female Fire-breathing gecko</Gecko_fire.lifeStages.0.labelFemale>
+  <Gecko_fire.lifeStages.0.labelFemalePlural>female Fire-breathing geckos</Gecko_fire.lifeStages.0.labelFemalePlural>
+  <Gecko_fire.lifeStages.1.label>Fire-breathing gecko</Gecko_fire.lifeStages.1.label>
+  <Gecko_fire.lifeStages.1.labelPlural>Fire-breathing gecko</Gecko_fire.lifeStages.1.labelPlural>
+  <Gecko_fire.lifeStages.1.labelMale>male Fire-breathing gecko</Gecko_fire.lifeStages.1.labelMale>
+  <Gecko_fire.lifeStages.1.labelMalePlural>male Fire-breathing geckos</Gecko_fire.lifeStages.1.labelMalePlural>
+  <Gecko_fire.lifeStages.1.labelFemale>female Fire-breathing gecko</Gecko_fire.lifeStages.1.labelFemale>
+  <Gecko_fire.lifeStages.1.labelFemalePlural>female Fire-breathing geckos</Gecko_fire.lifeStages.1.labelFemalePlural>
+  <Gecko_fire.lifeStages.2.label>Fire-breathing gecko</Gecko_fire.lifeStages.2.label>
+  <Gecko_fire.lifeStages.2.labelPlural>Fire-breathing gecko</Gecko_fire.lifeStages.2.labelPlural>
+  <Gecko_fire.lifeStages.2.labelMale>male Fire-breathing gecko</Gecko_fire.lifeStages.2.labelMale>
+  <Gecko_fire.lifeStages.2.labelMalePlural>male Fire-breathing geckos</Gecko_fire.lifeStages.2.labelMalePlural>
+  <Gecko_fire.lifeStages.2.labelFemale>female Fire-breathing gecko</Gecko_fire.lifeStages.2.labelFemale>
+  <Gecko_fire.lifeStages.2.labelFemalePlural>female Fire-breathing geckos</Gecko_fire.lifeStages.2.labelFemalePlural>
+  <Gecko_fire.labelMale>male Fire-breathing gecko</Gecko_fire.labelMale>
+  <Gecko_fire.labelMalePlural>male Fire-breathing geckos</Gecko_fire.labelMalePlural>
+  <Gecko_fire.labelFemale>female Fire-breathing gecko</Gecko_fire.labelFemale>
+  <Gecko_fire.labelFemalePlural>female Fire-breathing geckos</Gecko_fire.labelFemalePlural>
+
+  <Gecko_gold.label>Gold Gecko</Gecko_gold.label>
+  <Gecko_gold.labelPlural>Gold Geckos</Gecko_gold.labelPlural>
+  <Gecko_gold.lifeStages.0.label>Gold Gecko</Gecko_gold.lifeStages.0.label>
+  <Gecko_gold.lifeStages.0.labelPlural>Gold Gecko</Gecko_gold.lifeStages.0.labelPlural>
+  <Gecko_gold.lifeStages.0.labelMale>male Gold Gecko</Gecko_gold.lifeStages.0.labelMale>
+  <Gecko_gold.lifeStages.0.labelMalePlural>male Gold Geckos</Gecko_gold.lifeStages.0.labelMalePlural>
+  <Gecko_gold.lifeStages.0.labelFemale>female Gold Gecko</Gecko_gold.lifeStages.0.labelFemale>
+  <Gecko_gold.lifeStages.0.labelFemalePlural>female Gold Geckos</Gecko_gold.lifeStages.0.labelFemalePlural>
+  <Gecko_gold.lifeStages.1.label>Gold Gecko</Gecko_gold.lifeStages.1.label>
+  <Gecko_gold.lifeStages.1.labelPlural>Gold Gecko</Gecko_gold.lifeStages.1.labelPlural>
+  <Gecko_gold.lifeStages.1.labelMale>male Gold Gecko</Gecko_gold.lifeStages.1.labelMale>
+  <Gecko_gold.lifeStages.1.labelMalePlural>male Gold Geckos</Gecko_gold.lifeStages.1.labelMalePlural>
+  <Gecko_gold.lifeStages.1.labelFemale>female Gold Gecko</Gecko_gold.lifeStages.1.labelFemale>
+  <Gecko_gold.lifeStages.1.labelFemalePlural>female Gold Geckos</Gecko_gold.lifeStages.1.labelFemalePlural>
+  <Gecko_gold.lifeStages.2.label>Gold Gecko</Gecko_gold.lifeStages.2.label>
+  <Gecko_gold.lifeStages.2.labelPlural>Gold Gecko</Gecko_gold.lifeStages.2.labelPlural>
+  <Gecko_gold.lifeStages.2.labelMale>male Gold Gecko</Gecko_gold.lifeStages.2.labelMale>
+  <Gecko_gold.lifeStages.2.labelMalePlural>male Gold Geckos</Gecko_gold.lifeStages.2.labelMalePlural>
+  <Gecko_gold.lifeStages.2.labelFemale>female Gold Gecko</Gecko_gold.lifeStages.2.labelFemale>
+  <Gecko_gold.lifeStages.2.labelFemalePlural>female Gold Geckos</Gecko_gold.lifeStages.2.labelFemalePlural>
+  <Gecko_gold.labelMale>male Gold Gecko</Gecko_gold.labelMale>
+  <Gecko_gold.labelMalePlural>male Gold Geckos</Gecko_gold.labelMalePlural>
+  <Gecko_gold.labelFemale>female Gold Gecko</Gecko_gold.labelFemale>
+  <Gecko_gold.labelFemalePlural>female Gold Geckos</Gecko_gold.labelFemalePlural>
+
+  <Cyberdog.label>Cyberdog</Cyberdog.label>
+  <Cyberdog.labelPlural>Cyberdogs</Cyberdog.labelPlural>
+  <Cyberdog.lifeStages.0.label>Cyberdog Puppy</Cyberdog.lifeStages.0.label>
+  <Cyberdog.lifeStages.0.labelPlural>Cyberdog Puppys</Cyberdog.lifeStages.0.labelPlural>
+  <Cyberdog.lifeStages.0.labelMale>male Cyberdog Puppy</Cyberdog.lifeStages.0.labelMale>
+  <Cyberdog.lifeStages.0.labelMalePlural>male Cyberdog Puppys</Cyberdog.lifeStages.0.labelMalePlural>
+  <Cyberdog.lifeStages.0.labelFemale>female Cyberdog Puppy</Cyberdog.lifeStages.0.labelFemale>
+  <Cyberdog.lifeStages.0.labelFemalePlural>female Cyberdog Puppys</Cyberdog.lifeStages.0.labelFemalePlural>
+  <Cyberdog.lifeStages.1.label>Cyberdog</Cyberdog.lifeStages.1.label>
+  <Cyberdog.lifeStages.1.labelPlural>Cyberdog</Cyberdog.lifeStages.1.labelPlural>
+  <Cyberdog.lifeStages.1.labelMale>male Cyberdog</Cyberdog.lifeStages.1.labelMale>
+  <Cyberdog.lifeStages.1.labelMalePlural>male Cyberdogs</Cyberdog.lifeStages.1.labelMalePlural>
+  <Cyberdog.lifeStages.1.labelFemale>female Cyberdog</Cyberdog.lifeStages.1.labelFemale>
+  <Cyberdog.lifeStages.1.labelFemalePlural>female Cyberdogs</Cyberdog.lifeStages.1.labelFemalePlural>
+  <Cyberdog.lifeStages.2.label>Cyberdog</Cyberdog.lifeStages.2.label>
+  <Cyberdog.lifeStages.2.labelPlural>Cyberdog</Cyberdog.lifeStages.2.labelPlural>
+  <Cyberdog.lifeStages.2.labelMale>male Cyberdog</Cyberdog.lifeStages.2.labelMale>
+  <Cyberdog.lifeStages.2.labelMalePlural>male Cyberdogs</Cyberdog.lifeStages.2.labelMalePlural>
+  <Cyberdog.lifeStages.2.labelFemale>female Cyberdog</Cyberdog.lifeStages.2.labelFemale>
+  <Cyberdog.lifeStages.2.labelFemalePlural>female Cyberdogs</Cyberdog.lifeStages.2.labelFemalePlural>
+  <Cyberdog.labelMale>male Cyberdog</Cyberdog.labelMale>
+  <Cyberdog.labelMalePlural>male Cyberdogs</Cyberdog.labelMalePlural>
+  <Cyberdog.labelFemale>female Cyberdog</Cyberdog.labelFemale>
+  <Cyberdog.labelFemalePlural>female Cyberdogs</Cyberdog.labelFemalePlural>
+
+
+  <!-- Deathclaw -->
+
+  <Deathclaw.label>Deathclaw</Deathclaw.label>
+  <Deathclaw.labelPlural>Deathclaws</Deathclaw.labelPlural>
+  <Deathclaw.lifeStages.0.label>Deathclaw</Deathclaw.lifeStages.0.label>
+  <Deathclaw.lifeStages.0.labelPlural>Deathclaw</Deathclaw.lifeStages.0.labelPlural>
+  <Deathclaw.lifeStages.0.labelMale>male Deathclaw</Deathclaw.lifeStages.0.labelMale>
+  <Deathclaw.lifeStages.0.labelMalePlural>male Deathclaws</Deathclaw.lifeStages.0.labelMalePlural>
+  <Deathclaw.lifeStages.0.labelFemale>female Deathclaw</Deathclaw.lifeStages.0.labelFemale>
+  <Deathclaw.lifeStages.0.labelFemalePlural>female Deathclaws</Deathclaw.lifeStages.0.labelFemalePlural>
+  <Deathclaw.lifeStages.1.label>Deathclaw</Deathclaw.lifeStages.1.label>
+  <Deathclaw.lifeStages.1.labelPlural>Deathclaw</Deathclaw.lifeStages.1.labelPlural>
+  <Deathclaw.lifeStages.1.labelMale>male Deathclaw</Deathclaw.lifeStages.1.labelMale>
+  <Deathclaw.lifeStages.1.labelMalePlural>male Deathclaws</Deathclaw.lifeStages.1.labelMalePlural>
+  <Deathclaw.lifeStages.1.labelFemale>female Deathclaw</Deathclaw.lifeStages.1.labelFemale>
+  <Deathclaw.lifeStages.1.labelFemalePlural>female Deathclaws</Deathclaw.lifeStages.1.labelFemalePlural>
+  <Deathclaw.lifeStages.2.label>Deathclaw</Deathclaw.lifeStages.2.label>
+  <Deathclaw.lifeStages.2.labelPlural>Deathclaw</Deathclaw.lifeStages.2.labelPlural>
+  <Deathclaw.lifeStages.2.labelMale>male Deathclaw</Deathclaw.lifeStages.2.labelMale>
+  <Deathclaw.lifeStages.2.labelMalePlural>male Deathclaws</Deathclaw.lifeStages.2.labelMalePlural>
+  <Deathclaw.lifeStages.2.labelFemale>female Deathclaw</Deathclaw.lifeStages.2.labelFemale>
+  <Deathclaw.lifeStages.2.labelFemalePlural>female Deathclaws</Deathclaw.lifeStages.2.labelFemalePlural>
+  <Deathclaw.labelMale>male Deathclaw</Deathclaw.labelMale>
+  <Deathclaw.labelMalePlural>male Deathclaws</Deathclaw.labelMalePlural>
+  <Deathclaw.labelFemale>female Deathclaw</Deathclaw.labelFemale>
+  <Deathclaw.labelFemalePlural>female Deathclaws</Deathclaw.labelFemalePlural>
+
+  <Mirelurk.label>Mirelurk</Mirelurk.label>
+  <Mirelurk.labelPlural>Mirelurks</Mirelurk.labelPlural>
+  <Mirelurk.lifeStages.0.label>Mirelurk</Mirelurk.lifeStages.0.label>
+  <Mirelurk.lifeStages.0.labelPlural>Mirelurk</Mirelurk.lifeStages.0.labelPlural>
+  <Mirelurk.lifeStages.0.labelMale>male Mirelurk</Mirelurk.lifeStages.0.labelMale>
+  <Mirelurk.lifeStages.0.labelMalePlural>male Mirelurks</Mirelurk.lifeStages.0.labelMalePlural>
+  <Mirelurk.lifeStages.0.labelFemale>female Mirelurk</Mirelurk.lifeStages.0.labelFemale>
+  <Mirelurk.lifeStages.0.labelFemalePlural>female Mirelurks</Mirelurk.lifeStages.0.labelFemalePlural>
+  <Mirelurk.lifeStages.1.label>Mirelurk</Mirelurk.lifeStages.1.label>
+  <Mirelurk.lifeStages.1.labelPlural>Mirelurk</Mirelurk.lifeStages.1.labelPlural>
+  <Mirelurk.lifeStages.1.labelMale>male Mirelurk</Mirelurk.lifeStages.1.labelMale>
+  <Mirelurk.lifeStages.1.labelMalePlural>male Mirelurks</Mirelurk.lifeStages.1.labelMalePlural>
+  <Mirelurk.lifeStages.1.labelFemale>female Mirelurk</Mirelurk.lifeStages.1.labelFemale>
+  <Mirelurk.lifeStages.1.labelFemalePlural>female Mirelurks</Mirelurk.lifeStages.1.labelFemalePlural>
+  <Mirelurk.lifeStages.2.label>Mirelurk</Mirelurk.lifeStages.2.label>
+  <Mirelurk.lifeStages.2.labelPlural>Mirelurk</Mirelurk.lifeStages.2.labelPlural>
+  <Mirelurk.lifeStages.2.labelMale>male Mirelurk</Mirelurk.lifeStages.2.labelMale>
+  <Mirelurk.lifeStages.2.labelMalePlural>male Mirelurks</Mirelurk.lifeStages.2.labelMalePlural>
+  <Mirelurk.lifeStages.2.labelFemale>female Mirelurk</Mirelurk.lifeStages.2.labelFemale>
+  <Mirelurk.lifeStages.2.labelFemalePlural>female Mirelurks</Mirelurk.lifeStages.2.labelFemalePlural>
+  <Mirelurk.labelMale>male Mirelurk</Mirelurk.labelMale>
+  <Mirelurk.labelMalePlural>male Mirelurks</Mirelurk.labelMalePlural>
+  <Mirelurk.labelFemale>female Mirelurk</Mirelurk.labelFemale>
+  <Mirelurk.labelFemalePlural>female Mirelurks</Mirelurk.labelFemalePlural>
+
+  <Brahmin.label>Brahmin</Brahmin.label>
+  <Brahmin.labelPlural>Brahmins</Brahmin.labelPlural>
+  <Brahmin.lifeStages.0.label>calf</Brahmin.lifeStages.0.label>
+  <Brahmin.lifeStages.0.labelPlural>calves</Brahmin.lifeStages.0.labelPlural>
+  <Brahmin.lifeStages.0.labelMale>male calf</Brahmin.lifeStages.0.labelMale>
+  <Brahmin.lifeStages.0.labelMalePlural>male calves</Brahmin.lifeStages.0.labelMalePlural>
+  <Brahmin.lifeStages.0.labelFemale>female calf</Brahmin.lifeStages.0.labelFemale>
+  <Brahmin.lifeStages.0.labelFemalePlural>female calves</Brahmin.lifeStages.0.labelFemalePlural>
+  <Brahmin.lifeStages.1.label>Brahmin</Brahmin.lifeStages.1.label>
+  <Brahmin.lifeStages.1.labelPlural>Brahmin</Brahmin.lifeStages.1.labelPlural>
+  <Brahmin.lifeStages.1.labelMale>male Brahmin</Brahmin.lifeStages.1.labelMale>
+  <Brahmin.lifeStages.1.labelMalePlural>male Brahmins</Brahmin.lifeStages.1.labelMalePlural>
+  <Brahmin.lifeStages.1.labelFemale>female Brahmin</Brahmin.lifeStages.1.labelFemale>
+  <Brahmin.lifeStages.1.labelFemalePlural>female Brahmins</Brahmin.lifeStages.1.labelFemalePlural>
+  <Brahmin.lifeStages.2.label>Brahmin</Brahmin.lifeStages.2.label>
+  <Brahmin.lifeStages.2.labelPlural>Brahmin</Brahmin.lifeStages.2.labelPlural>
+  <Brahmin.lifeStages.2.labelMale>male Brahmin</Brahmin.lifeStages.2.labelMale>
+  <Brahmin.lifeStages.2.labelMalePlural>male Brahmins</Brahmin.lifeStages.2.labelMalePlural>
+  <Brahmin.lifeStages.2.labelFemale>female Brahmin</Brahmin.lifeStages.2.labelFemale>
+  <Brahmin.lifeStages.2.labelFemalePlural>female Brahmins</Brahmin.lifeStages.2.labelFemalePlural>
+  <Brahmin.labelMale>male Brahmin</Brahmin.labelMale>
+  <Brahmin.labelMalePlural>male Brahmins</Brahmin.labelMalePlural>
+  <Brahmin.labelFemale>female Brahmin</Brahmin.labelFemale>
+  <Brahmin.labelFemalePlural>female Brahmins</Brahmin.labelFemalePlural>
+
+
+</LanguageData>

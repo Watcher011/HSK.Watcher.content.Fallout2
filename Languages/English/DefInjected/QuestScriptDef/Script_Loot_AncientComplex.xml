@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <OpportunitySite_AncientComplex_AbandonedShelter.questDescriptionRules.rulesStrings.0>questDescription-&gt;You’ve [discoveryDesc] a long-abandoned Vault-Tec shelter, hidden somewhere in the irradiated wasteland. Once, this place buzzed with life (well, as much as possible in an underground bunker where people willingly locked themselves away for centuries, hoping to outlast the apocalypse).According to archived records, this vault was home to "groundbreaking experiments" in creating the perfect society. But, as usual with Vault-Tec, things didn’t go as planned. Now, chaos reigns: deranged Robobrains enforce skeletal "workers" on assembly lines, and the last survivors have either gone mad or mutated into something… interesting.
+If you dare to break in, you might recover priceless pre-War technology. But be warned—aside from the usual traps and angry mutants, you might face the most terrifying threat of all: pre-War corporate bureaucracy.
+And yes, poking around the vault will almost certainly draw attention from local "enthusiasts"—raiders, stalkers, or worse, the fanatics of the Cult of Atom. Good luck, and remember… war… war never changes.</OpportunitySite_AncientComplex_AbandonedShelter.questDescriptionRules.rulesStrings.0>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questDescriptionRules.rulesStrings.1>discoveryDesc(discovered==false)-&gt;learned</OpportunitySite_AncientComplex_AbandonedShelter.questDescriptionRules.rulesStrings.1>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questDescriptionRules.rulesStrings.2>discoveryDesc(discovered==true)-&gt;determined the location</OpportunitySite_AncientComplex_AbandonedShelter.questDescriptionRules.rulesStrings.2>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.0>questName(p=3)-&gt;[complexAdj] Vault-tec [complex]</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.0>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.1>questName-&gt;Vault-tec [complex]</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.1>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.2>complexAdj-&gt;secret</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.2>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.3>complexAdj-&gt;ancient</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.3>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.4>complexAdj-&gt;old</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.4>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.5>complexAdj-&gt;hidden</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.5>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.6>complexAdj-&gt;dusty</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.6>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.7>complexAdj-&gt;dangerous</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.7>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.8>complexAdj-&gt;hidden</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.8>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.9>complex-&gt;complex</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.9>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.10>complex-&gt;lair</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.10>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.11>complex-&gt;base</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.11>
+  <OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.12>complex-&gt;compound</OpportunitySite_AncientComplex_AbandonedShelter.questNameRules.rulesStrings.12>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Proj_GrenadeBottlecap.label>Mine Lid</Proj_GrenadeBottlecap.label>
+
+  <Weapon_Grenade_Bottlecap.label>Lid-Mine</Weapon_Grenade_Bottlecap.label>
+  <Weapon_Grenade_Bottlecap.description>A popular pre-war Vault-Tec lunchbox has become the basis for a deadly mine in the post-apocalyptic Commonwealth. This homemade device will help you deal with any enemy.</Weapon_Grenade_Bottlecap.description>
+  <Weapon_Grenade_Bottlecap.verbs.0.label>Throws a Lid Mine</Weapon_Grenade_Bottlecap.verbs.0.label>
+
+
+</LanguageData>

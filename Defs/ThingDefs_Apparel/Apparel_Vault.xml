@@ -239,8 +239,6 @@
 		</comps>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
-			<EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>2.5</EnergyShieldEnergyMax>
 			<MaxHitPoints>145</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Mass>7</Mass>
@@ -331,8 +329,6 @@
 		</costList>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>
-			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>0.9</EnergyShieldEnergyMax>
 			<MaxHitPoints>64</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Mass>1.1</Mass>
@@ -516,8 +512,6 @@
 		</costList>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>
-			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>0.9</EnergyShieldEnergyMax>
 			<MaxHitPoints>64</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Mass>2.1</Mass>
@@ -613,8 +607,8 @@
 		</comps>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
-			<EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>5.5</EnergyShieldEnergyMax>
+			<EnergyShieldRechargeRate>0.60</EnergyShieldRechargeRate>
+			<EnergyShieldEnergyMax>7.5</EnergyShieldEnergyMax>
 			<MaxHitPoints>195</MaxHitPoints>
 			<Flammability>0.3</Flammability>
 			<Mass>7</Mass>
@@ -702,8 +696,6 @@
 		</costList>
 		<statBases>
 			<WorkToMake>18000</WorkToMake>
-			<EnergyShieldRechargeRate>0.05</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>0.9</EnergyShieldEnergyMax>
 			<MaxHitPoints>55</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Mass>1.1</Mass>
@@ -800,8 +792,6 @@
 		</comps>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
-			<EnergyShieldRechargeRate>0.10</EnergyShieldRechargeRate>
-			<EnergyShieldEnergyMax>2.5</EnergyShieldEnergyMax>
 			<MaxHitPoints>600</MaxHitPoints>
 			<Flammability>1</Flammability>
 			<Mass>7</Mass>

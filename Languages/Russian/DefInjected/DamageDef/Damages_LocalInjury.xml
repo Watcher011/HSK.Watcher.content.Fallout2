@@ -49,8 +49,10 @@
   <DutenDart.label>Дротик Дутня</DutenDart.label>
   <DutenDart.deathMessage>{0} был набит личинками до смерти.</DutenDart.deathMessage>
 
-  <HealyFog.label>Регенеративный Туман</HealyFog.label>
-  <HealyFog.deathMessage>{0} был(а) убит(а).</HealyFog.deathMessage>
+  <HealyFog.label> Целебный туман</HealyFog.label>
+  <HealyFog.deathMessage>{0} был уничтожен.</HealyFog.deathMessage>
+
+  <FalloutBomb.deathMessage>{0} был испарён из-за сильного жара.</FalloutBomb.deathMessage>
 
 
 </LanguageData>

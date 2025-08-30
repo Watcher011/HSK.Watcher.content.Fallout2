@@ -638,5 +638,75 @@
   </ThingDef>
  
    
-  
+  <ThingDef ParentName="DrugPillBase">
+		<defName>RadAway</defName>
+		<label>Rad Away</label>
+		<description>A drug designed to combat the effects of radioactive contamination and remove radiation from the body by intravenous administration. It absorbs it by less circulation in the blood.</description>
+		<descriptionHyperlinks>
+			<HediffDef>RimatomicsRadiation</HediffDef>
+			<HediffDef>FatalRad</HediffDef>
+			<HediffDef>RadiationIncurable</HediffDef>
+			<HediffDef>RadiationMechanoid</HediffDef>
+		</descriptionHyperlinks>
+		<graphicData>
+			<texPath>Things/Item/Resource/RadAway</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.5)</drawSize>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<statBases>
+			<WorkToMake>640</WorkToMake>
+			<MarketValue>16</MarketValue>
+			<Mass>0.002</Mass>
+		</statBases>
+		<techLevel>Industrial</techLevel>
+		<thingCategories>
+			<li>MedicalDrugs</li>
+		</thingCategories>
+		<costList>
+          <RawTato>1</RawTato>
+          <Neutroamine>2</Neutroamine>
+        </costList>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<maxNumToIngestAtOnce>3</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<outcomeDoers>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>RimatomicsRadiation</targetHediff>
+					<subtractValue>0.55</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>FatalRad</targetHediff>
+					<subtractValue>0.20</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>RadiationIncurable</targetHediff>
+					<subtractValue>0.30</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="SK.IngestionOutcomeDoer_SubtractHediffSeverity">
+					<targetHediff>RadiationMechanoid</targetHediff>
+					<subtractValue>0.30</subtractValue>
+					<removeIfBelowZero>true</removeIfBelowZero>
+				</li>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RadAwayConsumed</hediffDef>
+					<severity>1.0</severity>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>
+					<min>0.08</min>
+					<max>0.14</max>
+				</overdoseSeverityOffset>
+				<addictiveness>0</addictiveness>
+			</li>
+		</comps>
+	</ThingDef>
 </Defs>

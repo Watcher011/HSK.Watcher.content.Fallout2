@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NukaCola.label>Nuka-Cola</NukaCola.label>
+  <NukaCola.description>A popular drink common throughout the United States.</NukaCola.description>
+  <NukaCola.ingestible.ingestCommandString>Drink {0}</NukaCola.ingestible.ingestCommandString>
+  <NukaCola.ingestible.ingestReportString>Drinking {0}.</NukaCola.ingestible.ingestReportString>
+
+  <NukaColaQuantum.label>Nuka-Cola Quantum</NukaColaQuantum.label>
+  <NukaColaQuantum.description>A refreshing, invigorating and slightly radioactive drink of the future! Nuka-Cola Quantum is not just a soda, it is a scientific breakthrough in every blue-blue drop! Thanks to the revolutionary Strontium-90 Delight™ technology, your body will glow with happiness even in the pitch darkness of post-war hell!.</NukaColaQuantum.description>
+  <NukaColaQuantum.ingestible.ingestCommandString>Drink {0}</NukaColaQuantum.ingestible.ingestCommandString>
+  <NukaColaQuantum.ingestible.ingestReportString>Drinking {0}.</NukaColaQuantum.ingestible.ingestReportString>
+
+  <NukaColaVictoria.label>Nuka-Cola Victoria</NukaColaVictoria.label>
+  <NukaColaVictoria.description>Taste the triumph with every sip of this limited edition Nuka-Cola, released in honor of our great and completely bloodless annexation of Canada! Now with an even more patriotic aftertaste of freedom and subtle notes of Canadian tears.</NukaColaVictoria.description>
+  <NukaColaVictoria.ingestible.ingestCommandString>Drink {0}</NukaColaVictoria.ingestible.ingestCommandString>
+  <NukaColaVictoria.ingestible.ingestReportString>Drinking {0}.</NukaColaVictoria.ingestible.ingestReportString>
+
+  <NukaColaGrapes.label>Nuka-Cola Grapes</NukaColaGrapes.label>
+  <NukaColaGrapes.description>"A refreshing taste of poisonous delight!"When nuclear winter took away the last joys of humanity, the Nuclear-Cola Corporation gave the world "Grapes" - a drink that not only reminds us of grapes, but completely replaces them.</NukaColaGrapes.description>
+  <NukaColaGrapes.ingestible.ingestCommandString>Drink {0}</NukaColaGrapes.ingestible.ingestCommandString>
+  <NukaColaGrapes.ingestible.ingestReportString>Drinking {0}.</NukaColaGrapes.ingestible.ingestReportString>
+
+  <NukaColaOnslaught.label>Nuka-Cola Onslaught</NukaColaOnslaught.label>
+  <NukaColaOnslaught.description>The official energy drink of the Nation of Steel and the favorite drink of Brotherhood soldiers... well, those who aren't afraid to break the rules. Now with double the caffeine, triple the radiation, and a little something extra for the real heroes of Hell on Earth!</NukaColaOnslaught.description>
+  <NukaColaOnslaught.ingestible.ingestCommandString>Drink {0}</NukaColaOnslaught.ingestible.ingestCommandString>
+  <NukaColaOnslaught.ingestible.ingestReportString>Drinking {0}.</NukaColaOnslaught.ingestible.ingestReportString>
+
+  <NukaColaDark.label>Nuka-Cola Dark</NukaColaDark.label>
+  <NukaColaDark.description>When regular Nuka-Cola isn't enough, and Quantum is too glowy in the dark (and attracts raiders), Dark Nuka-Cola comes to the rescue - a drink for those who want to forget what year the apocalypse happened.</NukaColaDark.description>
+  <NukaColaDark.ingestible.ingestCommandString>Drink {0}</NukaColaDark.ingestible.ingestCommandString>
+  <NukaColaDark.ingestible.ingestReportString>Drinking {0}.</NukaColaDark.ingestible.ingestReportString>
+
+
+</LanguageData>

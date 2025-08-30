@@ -51,12 +51,14 @@
 
 **Инструкция по применению:**
 1. Хорошо встряхните (если бутылка двигается сама — это нормально).
-2. Выпейте залпом (медленное потягивание может привести к осознанию).
+2. Выпейте залпом (медленное потягивание может привести к осознанию что вы делаете).
 3. Не управляйте техникой 48 часов (или пока не перестанете «видеть» звуки).
 
 *«Скорпонад» — ведь смерть не повод для низкой продуктивности!*"</Scorponade.description>
   <Scorponade.ingestible.ingestCommandString>Выпить {0}</Scorponade.ingestible.ingestCommandString>
   <Scorponade.ingestible.ingestReportString>Пьёт {0}.</Scorponade.ingestible.ingestReportString>
 
+ <RadAway.label>Антирад</RadAway.label>
+<RadAway.description>Препарат, предназначенный для борьбы с последствиями радиоактивного заражения и выведения радиации из организма путём внутривенного введения.</RadAway.description>
 
 </LanguageData>

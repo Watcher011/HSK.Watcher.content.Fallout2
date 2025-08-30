@@ -26,10 +26,10 @@
 		</colorSpectrum>
 		<raidCommonalityFromPointsCurve>
 			<points>
-				<li>(4500, 0.7)</li>
-				<li>(5000, 0.75)</li>
-				<li>(10000, 0.85)</li>
-				<li>(15000, 1.05)</li>
+				<li>(4500, 0.1)</li>
+				<li>(5000, 0.3)</li>
+				<li>(10000, 0.35)</li>
+				<li>(15000, 0.70)</li>
 			</points>
 		</raidCommonalityFromPointsCurve>
 		<maxPawnCostPerTotalPointsCurve>
@@ -46,9 +46,9 @@
 					<li>ImmediateAttackSappers</li>	
 				</disallowedStrategies>
 				<options>
-					<Duten>100</Duten>
-					<GlowingRadroach>100</GlowingRadroach>
-					<Deathclaw>1</Deathclaw>
+					<Duten>10</Duten>
+					<GlowingRadroach>10</GlowingRadroach>
+					<Deathclaw>0.1</Deathclaw>
 				</options>
 			</li>
 		</pawnGroupMakers>

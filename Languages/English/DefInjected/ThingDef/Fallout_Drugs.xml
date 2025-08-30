@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <FalloutJet.label>Jet</FalloutJet.label>
+  <FalloutJet.description>The screw causes an altered state of consciousness in which time seems to pass very slowly. This allows you to perform more actions in a short period of time than usual.</FalloutJet.description>
+  <FalloutJet.ingestible.ingestCommandString>Use {0}</FalloutJet.ingestible.ingestCommandString>
+  <FalloutJet.ingestible.ingestReportString>Useing {0}.</FalloutJet.ingestible.ingestReportString>
+
+  <FalloutUltraJet.label>Ultra jet</FalloutUltraJet.label>
+  <FalloutUltraJet.description>Is an improved version jet causes an altered state of consciousness in which time seems to pass very slowly. This allows you to perform more actions in a short period of time than usual.</FalloutUltraJet.description>
+  <FalloutUltraJet.ingestible.ingestCommandString>Use {0}</FalloutUltraJet.ingestible.ingestCommandString>
+  <FalloutUltraJet.ingestible.ingestReportString>Useing {0}.</FalloutUltraJet.ingestible.ingestReportString>
+
+  <Stimpak.label>Stimpak</Stimpak.label>
+  <Stimpak.description>A stunning mix of painkillers, stimulants, and something that seems to move… But who pays attention to that when you need to urgently patch up a hole in your chest after an encounter with a coyote?</Stimpak.description>
+  <Stimpak.ingestible.ingestCommandString>Inject {0}</Stimpak.ingestible.ingestCommandString>
+  <Stimpak.ingestible.ingestReportString>Injecting {0}.</Stimpak.ingestible.ingestReportString>
+
+  <StimpakSuper.label>Stimpak: super</StimpakSuper.label>
+  <StimpakSuper.description>Tired of your wounds healing too slowly? Want to feel your muscles fill with strength and your pain disappear faster than the reputation of the head of the Merchant Guild after a bad deal? Super Stimpak™ is a revolution in the world of post-apocalyptic medicine!</StimpakSuper.description>
+  <StimpakSuper.ingestible.ingestCommandString>Inject {0}</StimpakSuper.ingestible.ingestCommandString>
+  <StimpakSuper.ingestible.ingestReportString>Injecting {0}.</StimpakSuper.ingestible.ingestReportString>
+
+  <Med-x.label>Med-X</Med-x.label>
+  <Med-x.description>A highly effective painkiller based on morphine. It is available as disposable syringes with the drug. When administered, the user gains increased resistance to damage for a period of time. It is a pre-war drug and cannot be manufactured by a Survivor in a lab.</Med-x.description>
+  <Med-x.ingestible.ingestCommandString>Inject {0}</Med-x.ingestible.ingestCommandString>
+  <Med-x.ingestible.ingestReportString>Injecting {0}.</Med-x.ingestible.ingestReportString>
+
+  <MysteriousSerum.label>Mysterious Serum</MysteriousSerum.label>
+  <MysteriousSerum.description>This serum is able to stop the aging process, side effects are possible</MysteriousSerum.description>
+  <MysteriousSerum.ingestible.ingestCommandString>Inject {0}</MysteriousSerum.ingestible.ingestCommandString>
+  <MysteriousSerum.ingestible.ingestReportString>Injecting {0}.</MysteriousSerum.ingestible.ingestReportString>
+
+
+  <!-- «Скорпоник» — энергетик с характером! -->
+
+  <Scorponade.label>"Scorponade" Energy Drink</Scorponade.label>
+  <Scorponade.description>*"Because regular energy drinks are for wimps! True wastelanders only drink 'Scorponade' - the revolutionary beverage made from 100% pure rad-scorpion venom, lovingly distilled through an old gas mask and a pinch of desperation!
+**Why you'll love it:**
+ 3 seconds and you won't feel tired anymore. You won't feel anything at all.  
+ Unique "fiery" taste (that's not spice - those are your taste buds dying).  
+ More energizing than a laser rifle shot to the backside!  
+ Endorsed by the Vault-Tec Medical Association (though the last doctor screamed "NO!" before slipping into a coma).  
+
+**Side effects may include:**
+- Spontaneous muscle spasms (your body will dance without your permission).  
+- Temporary blindness (but what amazing hallucinations!).  
+- The sensation of being trampled by a brahmin... three times.  
+- Unexplainable cravings to eat fire ants.  
+
+**Usage instructions:**
+1. Shake well (if the bottle moves on its own, that's normal).  
+2. Chug immediately (sipping slowly might lead to realization).  
+3. Avoid operating machinery for 48 hours (or until you stop seeing sounds).  
+
+*'Scorponade' - because death is no excuse for low productivity!*"</Scorponade.description>
+  <Scorponade.ingestible.ingestCommandString>Drink {0}</Scorponade.ingestible.ingestCommandString>
+  <Scorponade.ingestible.ingestReportString>Drinking {0}.</Scorponade.ingestible.ingestReportString>
+
+  <RadAway.label>Rad Away</RadAway.label>
+  <RadAway.description>A drug designed to combat the effects of radioactive contamination and remove radiation from the body by intravenous administration. It absorbs it by less circulation in the blood.</RadAway.description>
+
+
+</LanguageData>

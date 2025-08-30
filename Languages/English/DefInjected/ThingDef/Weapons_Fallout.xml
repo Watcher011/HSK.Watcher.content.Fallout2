@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fallout_PipeGun.label>Pipe shooter</Fallout_PipeGun.label>
+  <Fallout_PipeGun.description>A crude but deadly weapon, assembled from water pipes, car springs and other detritus of the post-war wasteland. The Pipe Shooter is a weapon for the desperate, those who don't have access to factory pistols but want to survive. Unreliable, but easy to make and repair.</Fallout_PipeGun.description>
+  <Fallout_PipeGun.tools.0.label>barrel</Fallout_PipeGun.tools.0.label>
+
+  <Fallout_PipeRifle.label>Vagabond Rifle</Fallout_PipeRifle.label>
+  <Fallout_PipeRifle.description>Assembled from pre-war weapon wrecks, rusty pipes, and parts found in the wasteland, this rifle is a typical creation of survivalists and hobos. It is hand-loaded with 5.56x45mm NATO rounds, and the bolt creaks as if it is about to fall apart. However, in the right hands, it is capable of punching a hole even in the armor of a raider.</Fallout_PipeRifle.description>
+  <Fallout_PipeRifle.tools.0.label>barrel</Fallout_PipeRifle.tools.0.label>
+
+  <Fallout_OldRevolver.label>Homemade revolver "Scavenger"</Fallout_OldRevolver.label>
+  <Fallout_OldRevolver.description>A crude but deadly revolver assembled from scrap metal, old pipes and parts of pre-war equipment. The barrel is welded from pieces of thick-walled pipe, the frame is riveted from pieces of car springs and armor plates. The handle is wrapped in tattered electrical tape and leather, with an engraved radiation sign or bandit symbols. The hammer and trigger are turned from rusty metal, the cylinder is a converted cartridge belt, reinforced with bolts.</Fallout_OldRevolver.description>
+  <Fallout_OldRevolver.tools.0.label>barrel</Fallout_OldRevolver.tools.0.label>
+
+  <Fallout_ChinesePistol.label>Chinese pistol</Fallout_ChinesePistol.label>
+  <Fallout_ChinesePistol.description>The design of the weapon is based on the Mauser K96. These pistols were actively used by the Chinese from the People's Liberation Army during the war with the United States. However, the active work of Chinese spies and intelligence agents gave rise to the covert distribution of these weapons in the District of Columbia and Point Lookout Park even before the start of open military confrontation, and during the military actions this only intensified.Some Chinese pistols were captured by American soldiers during the liberation of Anchorage, and were sent home or to their relatives and friends as war trophies.</Fallout_ChinesePistol.description>
+  <Fallout_ChinesePistol.tools.0.label>barrel</Fallout_ChinesePistol.tools.0.label>
+
+  <Fallout_AN556Order.label>AN-556 "Order"</Fallout_AN556Order.label>
+  <Fallout_AN556Order.description>Designed by Enclave engineers as an ergonomic and reliable rifle for special forces, the AN-556 "Order" combines the proven design of pre-war AR platforms with modernized components adapted to the conditions of the post-war wastelands.It features high accuracy and modularity: it is equipped with Picatinny rails for installing collimators, tactical flashlights and underbarrel grenade launchers. The rifle has a reinforced barrel and gas system, which reduces the risk of jamming even in heavily polluted conditions.</Fallout_AN556Order.description>
+  <Fallout_AN556Order.tools.0.label>barrel</Fallout_AN556Order.tools.0.label>
+
+  <Fallout_AssaultCarbine.label>Short assault carbine</Fallout_AssaultCarbine.label>
+  <Fallout_AssaultCarbine.description>The standard assault carbine offers a good balance between damage and accuracy, making it a good choice for a variety of combat situations. Many of the available modifications will make this weapon suitable for automatic fire. And a properly modified assault carbine can become a good sniper carbine with a large magazine and a relatively high rate of fire.</Fallout_AssaultCarbine.description>
+  <Fallout_AssaultCarbine.tools.0.label>barrel</Fallout_AssaultCarbine.tools.0.label>
+
+  <Fallout_Fat_Man.label>Fat Man</Fallout_Fat_Man.label>
+  <Fallout_Fat_Man.description>A tactical shoulder-mounted nuclear catapult. The weapon fires nuclear rounds that, when detonated, detonate a nuclear blast over a small area, causing massive damage and releasing radiation for a short period of time. In perfect condition, this weapon can fire 495 rounds before breaking.</Fallout_Fat_Man.description>
+  <Fallout_Fat_Man.tools.0.label>barrel</Fallout_Fat_Man.tools.0.label>
+
+  <Fallout_PlasmaCarbine.label>Plasma Carbine"Incinerator"</Fallout_PlasmaCarbine.label>
+  <Fallout_PlasmaCarbine.description>When conventional ballistics aren't enough, this high-tech terror comes to the rescue. Based on pre-war military prototypes, the Incinerator reduces enemies to smoking piles of ash with a single, precise shot. Expensive to maintain, but invaluable in combat, this carbine is prized by those who value quality over quantity.</Fallout_PlasmaCarbine.description>
+  <Fallout_PlasmaCarbine.tools.0.label>barrel</Fallout_PlasmaCarbine.tools.0.label>
+
+  <Fallout_PlasmaPistol.label>Plasma Pistol "Ion Fang"</Fallout_PlasmaPistol.label>
+  <Fallout_PlasmaPistol.description>Compact yet deadly, this pistol proved that size doesn't matter when it comes to plasma. Designed as a self-defense weapon for pre-war army officers, the Ion Fang has been modified, resold, and rebuilt dozens of times over the centuries. But one thing has remained constant - its ability to vaporize flesh from bone in a split second.</Fallout_PlasmaPistol.description>
+  <Fallout_PlasmaPistol.tools.0.label>barrel</Fallout_PlasmaPistol.tools.0.label>
+
+  <Fallout_PlasmaWraith.label>Plasma Wraith</Fallout_PlasmaWraith.label>
+  <Fallout_PlasmaWraith.description>Developed from the Great Wasteland blueprints, where the first examples were assembled from the wreckage of helicopter laser cannons. The legendary mercenary Coyote Sling used it to kill the President of Capital Waste through the wall of a bunker."You won't hear the shot. Just the hiss of air... and the soft pop as your target's head turns to steam." - Vault 41 Hologram Instructor.</Fallout_PlasmaWraith.description>
+  <Fallout_PlasmaWraith.tools.0.label>barrel</Fallout_PlasmaWraith.tools.0.label>
+
+  <Fallout_MinigunPlasma.label>Plasma Gatling "Molten Storm"</Fallout_MinigunPlasma.label>
+  <Fallout_MinigunPlasma.description>Developed by pre-war military corporations as part of Project: Incinerator, this Gatling gun was designed to suppress fortifications and mutant hordes. After the war, the plans were found by the Enclave and upgraded using Adamantium Corps technology, but a few examples leaked onto the black market. Now, the weapon can be found in the hands of heavily armed raiders, the Brotherhood of Steel, or mad scientists who dare to repair it."When regular plasma isn't enough, this monster comes into play. Six barrels loaded with superheated plasma spin with a roar, turning everything in their path into a radioactive puddle. Goodbye armor. Goodbye cover. Goodbye common sense."</Fallout_MinigunPlasma.description>
+  <Fallout_MinigunPlasma.tools.0.label>barrel</Fallout_MinigunPlasma.tools.0.label>
+
+  <Fallout_LaserCarbine.label>Carbine"AER-14"</Fallout_LaserCarbine.label>
+  <Fallout_LaserCarbine.description>Developed by Aeroquant for the US Army before the Great War, the AER-14 became one of the most widely used energy weapons in the pre-war world. Its reliability and simplicity made it popular with the military and later with survivors of the wasteland.</Fallout_LaserCarbine.description>
+  <Fallout_LaserCarbine.tools.0.label>barrel</Fallout_LaserCarbine.tools.0.label>
+
+  <Fallout_PepperShaker.label>Pepper Shaker</Fallout_PepperShaker.label>
+  <Fallout_PepperShaker.description>The Pepper Shaker takes one second to spin up before it automatically fires eight shotgun shells. It counts as both a shotgun and a heavy weapon and will benefit from any perk in either weapon class.</Fallout_PepperShaker.description>
+  <Fallout_PepperShaker.tools.0.label>barrel</Fallout_PepperShaker.tools.0.label>
+
+  <Fallout_GatlingLaser.label>Gatling Laser "Solar Vortex"</Fallout_GatlingLaser.label>
+  <Fallout_GatlingLaser.description>Designed for those who think "excessive firepower" is an oxymoron, the Solar Vortex Gatling Laser has been reducing your enemies to neat piles of ash since 1999!"</Fallout_GatlingLaser.description>
+  <Fallout_GatlingLaser.tools.0.label>barrel</Fallout_GatlingLaser.tools.0.label>
+
+  <Fallout_LaserPistolML.label>AER-9 "Sun Kiss"</Fallout_LaserPistolML.label>
+  <Fallout_LaserPistolML.description>Developed by General Atomics International as part of the "Protect America... from Itself" program, the AER-9 was supposed to be the weapon of the future - light, accurate, and deadly.But like everything else in this world, the future arrived crooked, askew, and with power outages. After the Great War, these pistols were widely distributed among survivors, mutants, and other lovers of "pinpoint" diplomacy..</Fallout_LaserPistolML.description>
+  <Fallout_LaserPistolML.tools.0.label>barrel</Fallout_LaserPistolML.tools.0.label>
+
+  <Fallout_LaserPistol.label>Laser pistol"Synthesis-MK IV"</Fallout_LaserPistol.label>
+  <Fallout_LaserPistol.description>Syntectics Institute™ – We don’t just create technology. We create the future… one that may outlive you.</Fallout_LaserPistol.description>
+  <Fallout_LaserPistol.tools.0.label>barrel</Fallout_LaserPistol.tools.0.label>
+
+  <Fallout_LaserCarbineML.label>AER-12 "Laser Whisper"</Fallout_LaserCarbineML.label>
+  <Fallout_LaserCarbineML.description>"When you need to carefully evaporate the enemy, and not just smear him on the wall."</Fallout_LaserCarbineML.description>
+  <Fallout_LaserCarbineML.tools.0.label>barrel</Fallout_LaserCarbineML.tools.0.label>
+
+
+  <!-- <ThingDef>
+        <defName>Fallout_AlienPistol</defName>
+        <label>Alien Energy Pistol</label>
+        <description>Found in the wreckage of a crashed UFO somewhere between the radioactive sands and yet another survivor's nervous breakdown, this gun is either a major technological breakthrough or a deadly toy from aliens who clearly didn't care about "safety precautions." Stylish, ergonomic, and not at all like something a creature with less than three fingers should wield, the Zeta-9 fires bolts of pure plasma that vaporize enemies with a grace worthy of an intergalactic court. Except sometimes it decides you're the enemy.</description>
+        <graphicData>
+            <texPath>Things/Weapons/AlienPlasma</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+            <MarketValue>12400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>HiddenWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <verbs>
+            <li Class="CombatExtended.VerbPropertiesCE">
+                <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+                <hasStandardCommand>true</hasStandardCommand>
+                <defaultProjectile>Bullet_6x24mmCharged</defaultProjectile>
+                <warmupTime>0.40</warmupTime>
+                <range>47</range>
+                <soundCast>Fire_UACPistol</soundCast>
+                <soundCastTail>GunTail_Medium</soundCastTail>
+                <muzzleFlashScale>9</muzzleFlashScale>
+            </li>
+        </verbs>
+        <comps>
+            <li Class="CombatExtended.CompProperties_FireModes">
+                <aiUseBurstMode>FALSE</aiUseBurstMode>
+                <aiAimMode>AimedShot</aiAimMode>
+            </li>
+            <li Class="CombatExtended.CompProperties_AmmoUser">
+                <magazineSize>50</magazineSize>
+                <reloadTime>1.80</reloadTime>
+                <ammoSet>AmmoSet_6x24mmCharged</ammoSet>
+            </li>
+        </comps>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+    </ThingDef>
+	
+	
+	<ThingDef>
+        <defName>Fallout_EuclidsCFinder</defName>
+        <label>Euclid's C-Finder</label>
+        <description>"The Euclidean Algorithm is a compact satellite targeter that allows for a high-precision orbital strike to be made anywhere within range. Simply locate the beam, stand back to a safe distance (preferably very far), and enjoy the spectacle of pure, mathematically accurate application!"</description>
+        <graphicData>
+            <texPath>Things/Weapons/EuclidsCFinder</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <statBases>
+		    <MaxHitPoints>2</MaxHitPoints>
+            <MarketValue>12400</MarketValue>
+            <SightsEfficiency>1.25</SightsEfficiency>
+            <ShotSpread>0.06</ShotSpread>
+            <SwayFactor>1.05</SwayFactor>
+            <RangedWeapon_Cooldown>0.65</RangedWeapon_Cooldown>
+            <Bulk>3.20</Bulk>
+            <Mass>1.50</Mass>
+        </statBases>
+        <tradeability>Sellable</tradeability>
+        <soundInteract>InteractPlasma</soundInteract>
+		<techLevel>Spacer</techLevel>
+        <weaponTags>
+            <li>HiddenWeapon</li>
+        </weaponTags>
+		<weaponClasses>
+			<li>Ultratech</li>
+			<li>RangedLight</li>
+		</weaponClasses>
+        <thingCategories>
+            <li>Futuristic</li>
+        </thingCategories>
+        <smeltProducts>
+            <Plasma_Component>1</Plasma_Component>
+            <Weapon_Parts>4</Weapon_Parts>
+			<Plastic>5</Plastic>
+        </smeltProducts>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+	<verbs>
+      <li>
+        <verbClass>Verb_Spawn</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <warmupTime>3</warmupTime>
+        <ai_AvoidFriendlyFireRadius>10</ai_AvoidFriendlyFireRadius>
+        <spawnDef>Tornado</spawnDef>
+        <colonyWideTaleDef>TornadoFromItem</colonyWideTaleDef>
+        <range>44.9</range>
+        <burstShotCount>1</burstShotCount>
+        <soundAiming>OrbitalTargeter_Aiming</soundAiming>
+        <soundCast>OrbitalTargeter_Fire</soundCast>
+        <onlyManualCast>true</onlyManualCast>
+        <useableInPocketMaps>false</useableInPocketMaps>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+      </li>
+    </verbs>
+		<comps Inherit="False">
+      <li Class="CompProperties_EquippableAbilityReloadable">
+        <abilityDef>Bombardment_Helios</abilityDef>
+        <maxCharges>1</maxCharges>
+        <soundReload>Standard_Reload</soundReload>
+        <chargeNoun>burner charge</chargeNoun>
+        <ammoDef>NuclearBattery</ammoDef>
+        <ammoCountPerCharge>1</ammoCountPerCharge>
+        <baseReloadTicks>60000</baseReloadTicks>
+      </li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Styleable"/>
+      <li Class="CompProperties_Biocodable"/>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <li Class="CompProperties_Art">
+        <nameMaker>NamerArtWeaponGun</nameMaker>
+        <descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+        <minQualityForArtistic>Excellent</minQualityForArtistic>
+      </li>
+    </comps>
+    </ThingDef> -->
+
+  <Fallout_TeslaCannon.label>Portable Tesla Cannon "Thunder Maker"</Fallout_TeslaCannon.label>
+  <Fallout_TeslaCannon.description>"For when you need to turn a firefight into a Nikola Tesla light show (with audience participation by freshly cooked corpses)! Pre-war scientists clearly binge-watched too many Frankenstein movies when they designed this portable lightning rod for your problems.
+
+**Why It's Brilliant:**
+ Transforms gunfights into Tesla coil demonstrations (featuring well-done enemies)
+ Charges from literally anything (including your dying screams)
+ Guaranteed to command respect (or terminal shock in nearby raiders)
+ Built-in "taser mode" for anyone who gets too close
+
+**Operational Quirks:**
+- Your new signature scent: ozone-broiled flesh
+- "Hair standing on end" stops being metaphorical
+- Pip-Boy melts faster than your targets
+- Neighbors will complain... exactly once
+
+**Warning!**
+Do not operate:
+- During rainstorms
+- Near friends
+- If afraid of seeing your own skeletal system
+
+*Approved by the Brotherhood of Steel (until field-tested on them)*</Fallout_TeslaCannon.description>
+  <Fallout_TeslaCannon.tools.0.label>barrel</Fallout_TeslaCannon.tools.0.label>
+
+  <Fallout_Syringer.label>Syringer shooter</Fallout_Syringer.label>
+  <Fallout_Syringer.description>The injection gun is a rare homemade weapon that shoots syringes. After reaching the target, the harmful effects caused by the substances that act in these syringes.</Fallout_Syringer.description>
+  <Fallout_Syringer.tools.0.label>barrel</Fallout_Syringer.tools.0.label>
+
+  <Fallout_HellBoss.label>Machine Gun "Hell Boss"</Fallout_HellBoss.label>
+  <Fallout_HellBoss.description>In a world where laws are written with the barrel of a gun and a truce is just a pause to reload, regular machine guns are for those who still believe in negotiations. Hell Boss is not shooting, it is a salvo artillery barrage in a compact format.</Fallout_HellBoss.description>
+  <Fallout_HellBoss.tools.0.label>barrel</Fallout_HellBoss.tools.0.label>
+
+  <Fallout_Flamethrower.label>Flamethrower Last Warning</Fallout_Flamethrower.label>
+  <Fallout_Flamethrower.description>"Because someone has to bring civilization to this barbarian world. And if the barbarians don't understand words, they'll understand napalm."
+This humble unit has been turning your problems into crispy coals since 2077! Enemies on the run? No problem - chase them down with a stream of liquid sun! Want to warm up on a cold wasteland night? Just set the nearest hut on fire - now it's your personal fireplace!</Fallout_Flamethrower.description>
+
+
+</LanguageData>

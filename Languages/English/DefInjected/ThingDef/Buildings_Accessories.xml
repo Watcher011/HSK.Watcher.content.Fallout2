@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <VaultLamp.label>Emergency Oil Lamp "Eternal Sunshine"</VaultLamp.label>
+  <VaultLamp.description>"Because the apocalypse shouldn't mean sacrificing ambiance!"When the bombs fell, Vault-Tec knew survivors would need more than just food, water, and radiation suits—they’d need style. Introducing the "Eternal Glow" Emergency Oil Lamp, the pinnacle of pre-war luxury and post-war necessity!Crafted from the finest reclaimed scrap and topped with a patent-pending shatter-resistant glass dome (resistance not guaranteed), this lamp provides a warm, flickering glow to remind you of the good old days—before the world burned. Perfect for illuminating vault corridors, irradiated wastelands, or your next cannibal dinner party!</VaultLamp.description>
+
+  <TritiumLamp.label>Tritium Lamp</TritiumLamp.label>
+  <TritiumLamp.description>Tired of dark dungeons where the only light is the burning remains of your enemies? Introducing the Firefly 3000 tritium lamp - Dr. Watson's revolutionary invention that shines brightly, lasts forever, and may slightly mutate everything around it!</TritiumLamp.description>
+
+  <Constructionlamp.label>Survivor's Lantern</Constructionlamp.label>
+  <Constructionlamp.description>In a world of perpetual resource shortages, constant pirate raids, and a chronic lack of decent furniture, the "Survivor's Lantern™" isn’t just a lamp—it’s your new best friend, space heater, and potential weapon all in one!</Constructionlamp.description>
+
+  <CommsConsole.label>comms console</CommsConsole.label>
+  <CommsConsole.description>Allows radio contact with other factions and orbital traders.</CommsConsole.description>
+  <CommsConsole.comps.3.useLabel>Summon diabolus threat</CommsConsole.comps.3.useLabel>
+
+  <MinesSign.label>Mines sign</MinesSign.label>
+  <MinesSign.description>If you're reading this with one foot on a landmine, congratulations! You've won... natural selection.</MinesSign.description>
+
+  <SnipersSign.label>Snipers sign</SnipersSign.label>
+  <SnipersSign.description>"Dear Traveler, Congratulations! You have just entered the special hospitality zone of the local snipers. These nice guys love unexpected surprises, especially when your head suddenly decides to get acquainted with their bullet. "Where some see a death trap, Vault-Tec™ sees an opportunity to increase... fatality statistics."</SnipersSign.description>
+
+  <TurretSign.label>Turret sign</TurretSign.label>
+  <TurretSign.description>"Welcome to our hospitable kill zone!
+Here you will be greeted by our loyal, slightly impulsive friends — the automated turrets™! They are always happy to see new guests and express their joy in the form of high-speed lead hugs.
+The rules are simple:
+Run — they shoot.
+Walk — they shoot.
+Breathe — you get the idea.
+P.S. If you are reading this, it means the turrets haven't noticed you yet. Enjoy the moment!
+RobCo Corporation is not responsible for turning you into a sieve. You came here yourself."
+(In small print on the side: "Try our new model — the turret with the 'sarcastic comments' function! We promise, the last words will be unforgettable.")</TurretSign.description>
+
+
+</LanguageData>

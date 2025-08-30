@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Fallout_Weapon_Ripper.label>Ripper</Fallout_Weapon_Ripper.label>
+  <Fallout_Weapon_Ripper.description>The Ripper is a pretty good melee weapon, second only to the super sledgehammer in effectiveness. Thanks to its increased armor-piercing ability, it is not difficult to "pick" an enemy with the Ripper even in improved power armor. Ideal for combat in closed spaces and corridors.</Fallout_Weapon_Ripper.description>
+  <Fallout_Weapon_Ripper.tools.0.label>Teeth</Fallout_Weapon_Ripper.tools.0.label>
+  <Fallout_Weapon_Ripper.tools.1.label>Blade</Fallout_Weapon_Ripper.tools.1.label>
+
+  <Fallout_Weapon_Shishkebab.label>Shishkebab</Fallout_Weapon_Shishkebab.label>
+  <Fallout_Weapon_Shishkebab.description>This sword is not just a weapon, it is a culinary experiment in the hands of a psychopath! Once upon a time, some crazy raider chef decided that the best way to cook meat is on the spot. Now his legacy lives on in your hands, and every blow is a step towards gastronomic apocalypse.</Fallout_Weapon_Shishkebab.description>
+  <Fallout_Weapon_Shishkebab.tools.0.label>handle</Fallout_Weapon_Shishkebab.tools.0.label>
+  <Fallout_Weapon_Shishkebab.tools.1.label>point</Fallout_Weapon_Shishkebab.tools.1.label>
+  <Fallout_Weapon_Shishkebab.tools.2.label>edge</Fallout_Weapon_Shishkebab.tools.2.label>
+
+  <MeleeWeapon_AtomsJudgement.label>Atom's Judgement</MeleeWeapon_AtomsJudgement.label>
+  <MeleeWeapon_AtomsJudgement.description>"When you need to not just smash a problem, but wipe it off the face of the earth along with three neighboring blocks!"
+This revolutionary tool combines:
+The finesse of a surgical instrument (if the surgeon is a super mutant with PMS)
+Eco-friendliness (radioactive contamination is just a free way to sterilize the area!)
+Cost-effectiveness (every hit saves your ammo... and potentially - future heating bills!)
+Design features:
+A hammer made from 12 damaged Fusion Core nuclear batteries
+Lead handle (absorbs 0.0001% of radiation)
+Built-in Geiger counter (shows "OH" instead of numbers)
+IMPORTANT:
+After 10+ consecutive hits, the hammer automatically activates:
+"Nuclear Hammer" mode (additional damage + glowing skin for 2 weeks)
+"Mad Max" protocol (all car alarms within a mile are activated)
+"Final Argument" function (turns user into a crater)
+"Vault-Tec is not responsible for:
+Sudden greening of the area (dark blue)
+Unintentional creation of new species of fauna
+Disappearance of small towns within a 5 km radius
+Consult your radiologist before use!"</MeleeWeapon_AtomsJudgement.description>
+  <MeleeWeapon_AtomsJudgement.tools.0.label>handle</MeleeWeapon_AtomsJudgement.tools.0.label>
+  <MeleeWeapon_AtomsJudgement.tools.1.label>head</MeleeWeapon_AtomsJudgement.tools.1.label>
+
+  <MeleeWeapon_Supersledge.label>Super sledge</MeleeWeapon_Supersledge.label>
+  <MeleeWeapon_Supersledge.description>A hammer with a miniature jet engine attached, which creates additional acceleration of the hammer upon impact, allowing it to deal devastating damage. Judging by the fact that the engine does not require refueling, it is powered by atomic energy.</MeleeWeapon_Supersledge.description>
+  <MeleeWeapon_Supersledge.tools.0.label>handle</MeleeWeapon_Supersledge.tools.0.label>
+  <MeleeWeapon_Supersledge.tools.1.label>head</MeleeWeapon_Supersledge.tools.1.label>
+
+  <NuclearLandmine.label>Nuclear landmine</NuclearLandmine.label>
+  <NuclearLandmine.description>Fat Man's Active Projectile</NuclearLandmine.description>
+  <NuclearLandmine.tools.0.label>head</NuclearLandmine.tools.0.label>
+  <NuclearLandmine.tools.1.label>edge</NuclearLandmine.tools.1.label>
+
+
+</LanguageData>

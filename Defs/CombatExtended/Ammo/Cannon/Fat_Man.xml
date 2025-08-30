@@ -63,7 +63,7 @@
 		</graphicData>
 		<ammoClass>NHE</ammoClass>
 		<techLevel>Spacer</techLevel>
-		<generateAllowChance>1</generateAllowChance>
+		<generateAllowChance>0.1</generateAllowChance>
 		<detonateProjectile>Bullet_FatManShell_NHE</detonateProjectile>
 	</ThingDef>
 	
@@ -81,7 +81,7 @@
 		</graphicData>
 		<ammoClass>GrenadeHE</ammoClass>
 		<techLevel>Spacer</techLevel>
-		<generateAllowChance>0</generateAllowChance>
+		<generateAllowChance>0.9</generateAllowChance>
 		<detonateProjectile>Bullet_FatManShell_FGM</detonateProjectile>
 	</ThingDef>
 	
@@ -130,8 +130,6 @@
 			<soundExplode>nuclearBlastInMap</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
-			<postExplosionSpawnThingDef>Filth_Ash</postExplosionSpawnThingDef>
-			<postExplosionSpawnChance>0.8</postExplosionSpawnChance>
 			<ai_IsIncendiary>true</ai_IsIncendiary>
 		</projectile>
 	

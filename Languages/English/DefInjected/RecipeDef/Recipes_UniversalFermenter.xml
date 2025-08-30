@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MakeAmmo_PlasmaBoltFallout.label>make Plasma charged  bolt cartridge x100</MakeAmmo_PlasmaBoltFallout.label>
+  <MakeAmmo_PlasmaBoltFallout.description>Craft 100 Plasma charged  bolt cartridges.</MakeAmmo_PlasmaBoltFallout.description>
+
+  <MakeAmmo_ChargedLaserFallout.label>make Charged Laser beam cartridge x100</MakeAmmo_ChargedLaserFallout.label>
+  <MakeAmmo_ChargedLaserFallout.description>Craft 100 Charged Laser beam cartridges.</MakeAmmo_ChargedLaserFallout.description>
+
+  <MakeAmmo_ChargedLaser_StableFallout.label>make Charged Laser beam (Stable) cartridge x100</MakeAmmo_ChargedLaser_StableFallout.label>
+  <MakeAmmo_ChargedLaser_StableFallout.description>Craft 100 Charged Laser beam (Stable) cartridges.</MakeAmmo_ChargedLaser_StableFallout.description>
+
+  <MakeAmmo_FatManShell_NHE.label>Make a Nuclear Shell for Fat Man x1</MakeAmmo_FatManShell_NHE.label>
+  <MakeAmmo_FatManShell_NHE.description>Nuclear Shell for Fat Man x1.</MakeAmmo_FatManShell_NHE.description>
+  <MakeAmmo_FatManShell_NHE.jobString>Creates a projectile for the fat man.</MakeAmmo_FatManShell_NHE.jobString>
+
+  <MakeAmmo_FatManShell_FGM.label>Make Piggy Boomba for Fat Man x1</MakeAmmo_FatManShell_FGM.label>
+  <MakeAmmo_FatManShell_FGM.description>Shell for Fat Man x1.</MakeAmmo_FatManShell_FGM.description>
+  <MakeAmmo_FatManShell_FGM.jobString>Creates a projectile for the fat man.</MakeAmmo_FatManShell_FGM.jobString>
+
+  <Make_Vaultjumpsuit.label>Make a Vault jumpsuit x1</Make_Vaultjumpsuit.label>
+  <Make_Vaultjumpsuit.description>Vault jumpsuit x1.</Make_Vaultjumpsuit.description>
+  <Make_Vaultjumpsuit.jobString>Creates a Vault jumpsuit.</Make_Vaultjumpsuit.jobString>
+
+
+  <!-- RecipeDef_Nuka-Cola -->
+
+  <Make_NukaCola.label>Make a Nuka Cola x3</Make_NukaCola.label>
+  <Make_NukaCola.description>Nuka Cola x3.</Make_NukaCola.description>
+  <Make_NukaCola.jobString>Creates a Nuka Cola.</Make_NukaCola.jobString>
+
+  <Make_NukaColaQuantum.label>Make a Nuka Cola Quantum x3</Make_NukaColaQuantum.label>
+  <Make_NukaColaQuantum.description>Nuka Nuka Cola Quantum x3.</Make_NukaColaQuantum.description>
+  <Make_NukaColaQuantum.jobString>Creates a Nuka Cola Quantum.</Make_NukaColaQuantum.jobString>
+
+  <Make_NukaColaVictoria.label>Make a Nuka Cola Victoria x3</Make_NukaColaVictoria.label>
+  <Make_NukaColaVictoria.description>Nuka Nuka Cola Victoria x3.</Make_NukaColaVictoria.description>
+  <Make_NukaColaVictoria.jobString>Creates a Nuka Cola Victoria.</Make_NukaColaVictoria.jobString>
+
+  <Make_NukaColaGrapes.label>Make a Nuka Cola Grapes x3</Make_NukaColaGrapes.label>
+  <Make_NukaColaGrapes.description>Nuka Cola Grapes x3.</Make_NukaColaGrapes.description>
+  <Make_NukaColaGrapes.jobString>Creates a Nuka Cola Grapes.</Make_NukaColaGrapes.jobString>
+
+  <Make_NukaColaOnslaught.label>Make a Nuka Cola Onslaught x3</Make_NukaColaOnslaught.label>
+  <Make_NukaColaOnslaught.description>Nuka Cola Onslaught x3.</Make_NukaColaOnslaught.description>
+  <Make_NukaColaOnslaught.jobString>Creates a Nuka Cola Onslaught.</Make_NukaColaOnslaught.jobString>
+
+  <Make_NukaColaDark.label>Make a Nuka Cola Dark x3</Make_NukaColaDark.label>
+  <Make_NukaColaDark.description>Nuka Cola Dark x3.</Make_NukaColaDark.description>
+  <Make_NukaColaDark.jobString>Creates a Nuka Cola Dark.</Make_NukaColaDark.jobString>
+
+
+</LanguageData>

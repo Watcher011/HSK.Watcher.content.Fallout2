@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <MisterHandy.label>Mr. Handy</MisterHandy.label>
+  <MisterHandy.description>Mr. Handy is a very bright representative of the serial model of spherical robots, carefully produced and mass-produced throughout the territory of pre-war Equestria. The roles of a butler, a gatekeeper, a personal bodyguard or even a doctor are far from all that Mister Handy could cope with in the most wonderful way.</MisterHandy.description>
+  <MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</MisterHandy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <MisterHandy.tools.0.label>left bladed fist</MisterHandy.tools.0.label>
+  <MisterHandy.tools.1.label>right bladed fist</MisterHandy.tools.1.label>
+  <MisterHandy.tools.2.label>head</MisterHandy.tools.2.label>
+
+  <MisterGutsy.label>Mr. Gutsy</MisterGutsy.label>
+  <MisterGutsy.description>Mister Gutsy is the perfect soldier if your idea of ​​a soldier is a cross between a sadistic NCO, a coffee machine, and a tank. Created for army officials who believed that politeness was a sign of weakness, this brave robot is ready to follow any order, even if that order is to shoot at his own for “non-regulation appearance.”.</MisterGutsy.description>
+  <MisterGutsy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>skin</MisterGutsy.alienRace.generalSettings.alienPartGenerator.colorChannels.0.name>
+  <MisterGutsy.tools.0.label>left bladed fist</MisterGutsy.tools.0.label>
+  <MisterGutsy.tools.1.label>right bladed fist</MisterGutsy.tools.1.label>
+  <MisterGutsy.tools.2.label>head</MisterGutsy.tools.2.label>
+
+
+</LanguageData>

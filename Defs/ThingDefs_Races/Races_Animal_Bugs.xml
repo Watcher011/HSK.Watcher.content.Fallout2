@@ -182,7 +182,7 @@
 			<LeatherAmount>0</LeatherAmount>
 			<MarketValue>3500</MarketValue>
 			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
-			<MeatAmount>75</MeatAmount>
+			<MeatAmount>25</MeatAmount>
 			<MeleeDodgeChance>0</MeleeDodgeChance>
 			<MeleeCritChance>0</MeleeCritChance>
 			<ToxicResistance>1</ToxicResistance>
@@ -964,6 +964,11 @@ try to bake it — bring crispy delicacies with notes of plutonium and a long, v
 				<chargeNoun>jump</chargeNoun>
 				<hotKey>Misc4</hotKey>
 				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+			<li Class="CompProperties_Milkable">
+				<milkDef>Honey</milkDef>
+				<milkIntervalDays>2</milkIntervalDays>
+				<milkAmount>10</milkAmount>
 			</li>
 		</comps>
 		<tools>

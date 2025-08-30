@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- HARDCORE SK: THOUGHTS -->
+
+  <HadNukaCola.stages.0.label>Drank Nuka Cola</HadNukaCola.stages.0.label>
+  <HadNukaCola.stages.0.description>That Cola was so healthy! I'm feeling good now.</HadNukaCola.stages.0.description>
+
+  <HadColaDark.stages.0.label>Drank Dark Cola</HadColaDark.stages.0.label>
+  <HadColaDark.stages.0.description>That Cola was so healthy! I am absolutely confident that you can defeat death in hand-to-hand combat.</HadColaDark.stages.0.description>
+
+  <HadColaQuantum.stages.0.label>Drank Quantum Cola</HadColaQuantum.stages.0.label>
+  <HadColaQuantum.stages.0.description>That Cola was so healthy! The taste is like a miniature supernova exploding, a mix of citrus madness and sweet radiation. Your taste buds scream in either delight or pain.</HadColaQuantum.stages.0.description>
+
+
+  <!-- Medical Drink -->
+
+  <IngestedRadHemogenPack.stages.0.label>Swallowed radioactive blood</IngestedRadHemogenPack.stages.0.label>
+  <IngestedRadHemogenPack.stages.0.description>I swallowed a bag of radioactive blood. It may prolong my life, but the cost could be enormous, and it was absolutely disgusting.</IngestedRadHemogenPack.stages.0.description>
+
+  <RadFood.stages.0.label>ate wasteland, food</RadFood.stages.0.label>
+  <RadFood.stages.0.description>If I eat it and not the other way around, then I won.</RadFood.stages.0.description>
+
+  <FEV.stages.0.label>ate FEV</FEV.stages.0.label>
+  <FEV.stages.0.description>If I eat it will be the last step.</FEV.stages.0.description>
+
+  <HadScorponade.stages.0.label>Drank Scorponade</HadScorponade.stages.0.label>
+  <HadScorponade.stages.0.description>That Scorponade drink was so healthy! I'm feeling my heart is going to stop.</HadScorponade.stages.0.description>
+
+
+</LanguageData>

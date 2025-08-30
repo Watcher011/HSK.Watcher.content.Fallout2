@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <StimpakBasic.label>Stimpak regeneration</StimpakBasic.label>
+  <StimpakBasic.description>Stimpak regeneration.</StimpakBasic.description>
+  <StimpakBasic.stages.0.label>side effect</StimpakBasic.stages.0.label>
+  <StimpakBasic.stages.1.label>regeneration</StimpakBasic.stages.1.label>
+  <StimpakBasic.labelNoun>Stimpak</StimpakBasic.labelNoun>
+
+  <StimpakSuper.label>Super regeneration</StimpakSuper.label>
+  <StimpakSuper.description>Super regeneration.</StimpakSuper.description>
+  <StimpakSuper.stages.0.label>side effect</StimpakSuper.stages.0.label>
+  <StimpakSuper.stages.1.label>regeneration</StimpakSuper.stages.1.label>
+  <StimpakSuper.labelNoun>Stimpak: super</StimpakSuper.labelNoun>
+
+  <Med-xBasic.label>Med-x</Med-xBasic.label>
+  <Med-xBasic.description>Med-x.</Med-xBasic.description>
+  <Med-xBasic.stages.0.label>Med-x</Med-xBasic.stages.0.label>
+  <Med-xBasic.labelNoun>Med-x</Med-xBasic.labelNoun>
+
+  <LSS.label>Life Support System</LSS.label>
+  <LSS.description>An advanced development of the Y-17 medical complex, created to support the life of seriously wounded soldiers in field conditions. The suit is equipped with an autonomous stabilization system, built-in analgesics and a "forced evacuation" function - because sometimes a soldier is too stubborn to admit that it's time for him to go to the morgue..</LSS.description>
+  <LSS.labelNoun>Y-17:Life Support System</LSS.labelNoun>
+
+  <RadAwayConsumed.label>Rad Away</RadAwayConsumed.label>
+  <RadAwayConsumed.description>RadAway consumed</RadAwayConsumed.description>
+
+
+</LanguageData>

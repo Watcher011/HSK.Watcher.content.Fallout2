@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- BigCats -->
+
+  <Gecko_green.label>Gecko</Gecko_green.label>
+  <Gecko_green.description>A mutant lizard common in the western United States, a descendant of the pre-war geckos. While maintaining the radial geckos, very large sizes are used, they have learned to walk on their hind legs, but have not lost the ability to climb vertical surfaces. Their successor, the fire geckos, have even learned to breathe fire, similar to mythical dragons, while green geckos spit poisonous saliva.</Gecko_green.description>
+  <Gecko_green.tools.0.label>left claw</Gecko_green.tools.0.label>
+  <Gecko_green.tools.1.label>right claw</Gecko_green.tools.1.label>
+  <Gecko_green.tools.3.label>venom-fangs</Gecko_green.tools.3.label>
+
+  <Gecko_fire.label>Fire-breathing gecko</Gecko_fire.label>
+  <Gecko_fire.description>Fire-breathing geckos are large mutants whose bodies accumulate flammable chemicals from the environment. Special glands in the throat pouch allow them to exhale short-range jets of flame, burning prey and scaring off predators. Their scales are highly fire-resistant, and their aggressive nature makes them one of the most dangerous reptiles in post-war America.</Gecko_fire.description>
+  <Gecko_fire.tools.0.label>left claw</Gecko_fire.tools.0.label>
+  <Gecko_fire.tools.1.label>right claw</Gecko_fire.tools.1.label>
+
+  <Gecko_gold.label>Gold Gecko</Gecko_gold.label>
+  <Gecko_gold.description>A rare and mysterious mutant that lives in the scorching sands of the Mahakan Wasteland. Its scales shimmer with a golden glow, blending in with the scorched dunes and ruins of ancient cities. Unlike its relatives, the golden gecko has an unusual anger. Legends of Mahakan say that whoever finds a nest of golden geckos will find untold riches... but none of the brave souls who set out to find them have ever returned alive.</Gecko_gold.description>
+  <Gecko_gold.tools.0.label>left claw</Gecko_gold.tools.0.label>
+  <Gecko_gold.tools.1.label>right claw</Gecko_gold.tools.1.label>
+  <Gecko_gold.tools.3.label>venom-fangs</Gecko_gold.tools.3.label>
+
+  <Cyberdog.label>Cyberdog</Cyberdog.label>
+  <Cyberdog.description>"The cyber dog is not just a steel killer with cute ears, it is a symbol of progress! Previously, dogs simply bit postmen, and now they are also called fines for unauthorized access to private property. Thank you, RobCo!"P.S. When attempting to disassemble the cyber dog for parts, the built-in notification system is activated: "Congratulations! You have become the owner of our "Debt Pit" promotion! Expect a visit from collectors!"</Cyberdog.description>
+  <Cyberdog.tools.0.label>left claw</Cyberdog.tools.0.label>
+  <Cyberdog.tools.1.label>right claw</Cyberdog.tools.1.label>
+  <Cyberdog.tools.3.label>head</Cyberdog.tools.3.label>
+
+
+  <!-- Deathclaw -->
+
+  <Deathclaw.label>Deathclaw</Deathclaw.label>
+  <Deathclaw.description>Imagine a cross between a T-Rex, an armored car, and your worst nightmare after three bottles of Vista Kvass. A six-foot-tall, muscular lizard with claws that can rip open Power Armor like a tin can, and skin that ignores bullets because "haha, pathetic." Throw a mini-nuke at it... and hope it didn't have a Deathclaw friend around the corner.</Deathclaw.description>
+  <Deathclaw.tools.0.label>left claw</Deathclaw.tools.0.label>
+  <Deathclaw.tools.1.label>right claw</Deathclaw.tools.1.label>
+  <Deathclaw.tools.3.label>venom-fangs</Deathclaw.tools.3.label>
+
+  <Mirelurk.label>Mirelurk</Mirelurk.label>
+  <Mirelurk.description>Most swamp dwellers are heavily armored and resistant to many types of damage, but the creatures' faces are always vulnerable..</Mirelurk.description>
+  <Mirelurk.tools.1.label>head</Mirelurk.tools.1.label>
+  <Mirelurk.tools.2.label>left claw</Mirelurk.tools.2.label>
+  <Mirelurk.tools.3.label>right claw</Mirelurk.tools.3.label>
+  <Mirelurk.tools.4.label>left blade</Mirelurk.tools.4.label>
+  <Mirelurk.tools.5.label>left blade</Mirelurk.tools.5.label>
+  <Mirelurk.tools.6.label>right blade</Mirelurk.tools.6.label>
+  <Mirelurk.tools.7.label>right blade</Mirelurk.tools.7.label>
+
+  <Brahmin.label>Brahmin</Brahmin.label>
+  <Brahmin.description>*"Nature's two-headed marvel and the backbone of post-war economics! These walking manure factories, milk producers, and existential crises make perfect companions for any self-respecting wastelander.
+
+**Why brahmin are the best cap investment:**
+ Two heads = twice the vacant stares  
+ Guaranteed to outlive their owner (by approximately 15 minutes)  
+ Instantly upgrades any settlement to premium fertilizer boutique status  
+ Excellent camouflage (if the terrain consists entirely of dung piles)
+
+**Special features:**
+- Will chew ANYTHING. Literally. ANYTHING.  
+- Can stare at you with four simultaneously judgmental eyes  
+- Produces sounds that inspire profound philosophical reflection  
+- Scent that makes the Glowing Sea smell like lavender fields  
+
+**Popular uses:**
+- Mobile barricade (slow but stinky)  
+- Source of "fresh" milk (questionably edible)  
+- Living Geiger counter (if it drops dead - zone's hot)  
+- Psychological endurance test ("how many days can you share a pen with a brahmin?")
+
+*Brahmin: because even nuclear apocalypse needs someone beneath you on the social ladder!*"</Brahmin.description>
+  <Brahmin.tools.1.label>head</Brahmin.tools.1.label>
+  <Brahmin.tools.2.label>horns</Brahmin.tools.2.label>
+
+
+</LanguageData>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="SK_LeatherBase">
+		<defName>Leather_Deathclaw</defName>
+		<label>Deathclaw Scale</label>
+		<description>Scales from a Deathclaw, extremely strong in appearance.</description>
+		<graphicData>
+			<color>(128,128,0)</color>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>7</MarketValue>
+			<StuffPower_Armor_Sharp>2.35</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>2.85</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.142</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>8</StuffPower_Insulation_Heat>
+			<Radiation>-0.7</Radiation>
+			<Mass>0.01</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<stuffProps>
+			<color>(128,128,0)</color>
+			<commonality>0.0075</commonality>
+			<statFactors>
+				<MaxHitPoints>7</MaxHitPoints>
+				<Beauty>1.1</Beauty>
+				<MoveSpeed>1.1</MoveSpeed>
+				<MarketValue>0.8</MarketValue>
+				<WorkToMake>1.8</WorkToMake>
+				<WorkToBuild>1.8</WorkToBuild>
+				<BedRestEffectiveness>1.09</BedRestEffectiveness>
+				<ImmunityGainSpeedFactor>1.01</ImmunityGainSpeedFactor>
+				<Mass>0.5</Mass>
+				<Radiation>-0.7</Radiation>
+			</statFactors>
+		</stuffProps>
+	</ThingDef>
+
+	
+	
+</Defs>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SuspiciousOmelette.label>suspicious omelette</SuspiciousOmelette.label>
+  <SuspiciousOmelette.description>A suspicious omelette made from the meat and eggs of a huge lizard. A favorite food in the wastelands</SuspiciousOmelette.description>
+
+  <boiledeggs.label>boiled eggs</boiledeggs.label>
+  <boiledeggs.description>A classic example of post-war culinary minimalism, these eggs were boiled (or perhaps just left in the hot radiation fog long enough)</boiledeggs.description>
+
+  <friedeggs.label>fried eggs</friedeggs.label>
+  <friedeggs.description>Ah, fried eggs — a classic of post-war cuisine! These delicious round things were once a symbol of home comfort, but have now become a symbol of despair and culinary compromise. They are prepared from anything from swamp worm eggs (if you are lucky enough to find one that hasn’t mutated) to radroach eggs (if you are unlucky). They are often fried on a rusty piece of metal, because frying pans are now either collectibles or melted down to make bullets. They are served with a generous portion of radiation and nostalgia for the times when food didn’t glow in the dark.</friedeggs.description>
+
+  <Raweggsinaglass.label>Raw eggs in a glass</Raweggsinaglass.label>
+  <Raweggsinaglass.description>This cloudy glass containing a pair of sticky, translucent eggs is either the culinary experiment of a crazy survivalist or the evil joke of a Gladstone farmhand. Judging by the greenish tint, the eggs were probably laid by a bog lurker grazing somewhere near a nuclear crater. The smell is like a mixture of sulfur and despair. But if you dare drink it, you'll get a boost of energy (and possibly a mutation).</Raweggsinaglass.description>
+
+  <MashedPotatoes.label>Mashed Potatoes</MashedPotatoes.label>
+  <MashedPotatoes.description>As smooth as wasteland sand and as rich as a radiation storm, this mashed potato is the result of years of survivors experimenting to recreate something resembling pre-war food. The main ingredient is something that was once a potato (or at least didn't scream when dug out of the ground). Whipped with a generous helping of radioactive water, synthetic Tipa-Top 'oil', and the nostalgic tears of those who still remember what it must have looked like.</MashedPotatoes.description>
+
+  <Porridge.label>Porridge</Porridge.label>
+  <Porridge.description>The greatest culinary achievement of the post-war era! Why waste time, effort and precious ingredients on complicated recipes when you can just throw in boiling water... well, let's say, one single ingredient? Critics call it "gastronomic minimalism", survivors call it "sad stew", and your stomach calls it "a crime against humanity". But what savings!</Porridge.description>
+
+
+</LanguageData>

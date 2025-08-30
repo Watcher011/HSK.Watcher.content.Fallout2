@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HugeBee.label>Huge Bee</HugeBee.label>
+  <DeathclawPasses.label>Deathclaw passes</DeathclawPasses.label>
+  <StrangeDutenPasses.label>Strange Duten</StrangeDutenPasses.label>
+  <DutenSwarm.label>Duten Swarm</DutenSwarm.label>
+
+
+  <!-- <IncidentDef>
+		<defName>RadroachEaters</defName>
+		<label>Radroach eaters</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_HungryRadroach</workerClass>
+		<baseChance>0.5</baseChance>
+		<minRefireDays>18</minRefireDays>
+		<earliestDay>12</earliestDay>
+		<minThreatPoints>250</minThreatPoints>
+	</IncidentDef> -->
+
+  <ElectricShockExplosion.label>electric shock explosion</ElectricShockExplosion.label>
+  <RadroachEaters.label>Radroach Eaters</RadroachEaters.label>
+
+
+</LanguageData>

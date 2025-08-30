@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HiveBlowfly.label>Blowfly hive</HiveBlowfly.label>
+  <HiveBlowfly.description>A hive of Blowfly. If activated, it will spawn additional insects and hives over time, as well as valuable insect jelly.</HiveBlowfly.description>
+
+  <NestOfMonsters.label>Nest Of Monsters</NestOfMonsters.label>
+  <NestOfMonsters.description>Contains Deathclaw eggs - deadly creatures ready to hatch at any moment.</NestOfMonsters.description>
+
+  <NestOfRadScorpion.label>Nest Of RadScorpion</NestOfRadScorpion.label>
+  <NestOfRadScorpion.description>Contains RadScorpion eggs - deadly creatures ready to hatch at any moment.</NestOfRadScorpion.description>
+
+
+</LanguageData>
