@@ -353,7 +353,7 @@
 			<FilthRate>3</FilthRate>
 		</statBases>
 		<verbs>
-		 
+		<!-- заблокировано так как вызыало множество ошибок 
 			<li Class="CombatExtended.VerbPropertiesCE">
 				<label>launch Larva</label>
 				<verbClass>CombatExtended.Verb_LaunchProjectileStaticCE</verbClass>
@@ -373,7 +373,7 @@
 				<ignorePartialLoSBlocker>true</ignorePartialLoSBlocker>
 				<defaultProjectile>Bullet_Larva</defaultProjectile>
 				<rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
-			</li>
+			</li>-->
 		</verbs>
 			<comps>
 			<li Class="SK.CompProperties_PawnJumper">
@@ -479,9 +479,10 @@
 		<defName>Duten</defName>
 		<label>Duten</label>
 		<race>Duten</race>
-		 <!--<abilities>
+		 <abilities>
          <li>AcidSpray</li>
-         </abilities>-->
+		 <li>SpikeLaunch_Fingerspike</li>
+         </abilities>
 		<combatPower>15</combatPower>
 		<ecoSystemWeight>0.03</ecoSystemWeight>
 		<wildGroupSize>2~9</wildGroupSize>

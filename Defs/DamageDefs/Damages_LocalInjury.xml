@@ -196,4 +196,19 @@
   
  
   
+  <DamageDef>
+    <defName>RegenGas</defName>
+    <label>Regen Gas</label>
+    <canInterruptJobs>false</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>0</defaultDamage>
+	<hediff>RegenGasExposure</hediff>
+    <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+    <explosionColorEdge>(0.706, 0.839, 0.09, 0.05)</explosionColorEdge>
+    <harmsHealth>false</harmsHealth>
+    <soundExplosion>Explosion_Smoke</soundExplosion>
+    <combatLogRules>Damage_Smoke</combatLogRules>
+  </DamageDef>
+
+  
 </Defs>

@@ -16,5 +16,12 @@ Vault-Tec의 중요 참고 사항:
   <FalloutSmallGenerator.label>Vault-Tec Mark III 발전기</FalloutSmallGenerator.label>
   <FalloutSmallGenerator.description>"자격을 갖춘 기술자 없이 발전기를 수리하려고 하지 마십시오(생존하는 기술자를 발견한 경우). 작동 중 발생하는 모든 부상은 사용자의 부주의로 인한 것이며, 저희의 독창적인 설계 탓이 아닙니다!"(참고: 작업 전 톰 하워드 기도문을 암송하면 사망 확률이 2% 감소합니다.)</FalloutSmallGenerator.description>
 
+  <FalloutTeslaNova.label>볼트-텍 테슬라 노바 발전기</FalloutTeslaNova.label>
+<FalloutTeslaNova.description>투명한 플라스크 속의 과학적 돌파구!
+레이저 소총의 총구 충격에도 견디는 전투용 플렉시글라스로 제작된 밀봉 용기 안에 고에너지 플라즈마의 안정적(조건부 안정적*) 덩어리가 담겨 있습니다! 우리 과학자들은 수면과 안전 규칙을 희생하면서 방전의 양자 동기화를 달성해, 단순히 최면적인 광경이 아닌 지속적인 에너지 원천을 창조했습니다!</FalloutTeslaNova.description>
+
+
+  <!--<FalloutTeslaGenerator.label>Vault-Tec Mark II generator</FalloutTeslaGenerator.label>-->
+  <!--<FalloutTeslaGenerator.description>"Do not attempt to repair the generator without a licensed technician (if you find one alive). Any injuries sustained during operation are the result of the user's negligence, not our ingenious design!"(Note: The chance of death is reduced by 2% if you recite the Tom Howard prayer before working.)</FalloutTeslaGenerator.description>-->
 
 </LanguageData>

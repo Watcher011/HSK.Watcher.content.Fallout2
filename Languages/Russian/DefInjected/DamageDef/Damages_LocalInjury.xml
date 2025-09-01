@@ -54,5 +54,8 @@
 
   <FalloutBomb.deathMessage>{0} был испарён из-за сильного жара.</FalloutBomb.deathMessage>
 
+  <RegenGas.label>Regen Gas</RegenGas.label>
+  <RegenGas.deathMessage>{0} has been killed.</RegenGas.deathMessage>
+
 
 </LanguageData>

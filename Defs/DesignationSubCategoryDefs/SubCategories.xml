@@ -26,6 +26,7 @@
 		<description>Electric Generator Set.</description>
 		<defNames>
 		    <li>VaultTecPortableGenerator</li>
+			<li>FalloutTeslaNova</li>
 			<li>FalloutSmallGenerator</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>

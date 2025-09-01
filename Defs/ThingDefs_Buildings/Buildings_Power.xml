@@ -200,5 +200,97 @@ This compact power source is the perfect companion for any wastelander! Designed
 		</modExtensions>
 	</ThingDef>
 	
-	
+	<ThingDef ParentName="PowerFueled">
+		<defName>FalloutTeslaNova</defName>
+		<label>Vault-Tec Tesla Nova generator</label>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<thingClass>Watcher.Building_FalloutTeslaGenerator</thingClass>
+		<graphicData>
+			<texPath>Things/Building/Power/Generator/FalloutTeslaGenerator/FalloutTeslaGenerator</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(2,2)</drawSize>
+		</graphicData>
+		 <tickerType>Normal</tickerType>
+		 <rotatable>false</rotatable>
+		 <minifiedDef>MinifiedThing</minifiedDef>
+		<passability>PassThroughOnly</passability>
+		<blockWind>true</blockWind>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<WorkToBuild>2100</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Mass>100</Mass>
+		</statBases>
+		<description>A scientific breakthrough in a transparent flask!
+A stable (conditionally stable*) clot of high-energy plasma is contained inside a hermetically sealed container made of combat plexiglass, resistant to a muzzle charge from a laser rifle. Our scientists, sacrificing sleep and safety precautions, have achieved quantum synchronization of discharges, creating not only a hypnotizing spectacle, but also a source of constant energy!</description>
+		<size>(1,2)</size>
+		<building>
+			<destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+		</building>
+		<thingCategories>
+			<li>BuildingsPower</li>
+		</thingCategories>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>350</costStuffCount>
+		<costList>
+			<ReinforcedConcrete>20</ReinforcedConcrete>
+			<ComponentIndustrial>10</ComponentIndustrial>
+			<Mechanism>5</Mechanism>
+			<Glass>50</Glass>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>SK.CompPowerPlantFueled</compClass>
+				<basePowerConsumption>-1350</basePowerConsumption>
+				<transmitsPower>true</transmitsPower>
+				<soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>3</glowRadius>
+				<glowColor>(17,112,233,0)</glowColor>
+			</li>
+			<li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>3</heatPerSecond>
+				<heatPushMaxTemperature>25</heatPushMaxTemperature>
+			</li>
+			<li Class="SK.CompFueled_Properties">
+				<operatingTemp>500</operatingTemp>
+				<drawfirefuel>true</drawfirefuel>
+				<canAutoBurn>true</canAutoBurn>
+				<smokeDrawOffset>(0,0,0.1)</smokeDrawOffset>
+				<smokesize>1.7</smokesize>
+				<smokespeeddelay>100</smokespeeddelay>
+				<fuelCapacity>40</fuelCapacity>
+				<burnFuelMultiplier>0.9</burnFuelMultiplier>
+				<smokeDensity>3</smokeDensity>
+				<fuelFilter>
+					<thingDefs>
+						<li>NuclearBattery</li>
+					</thingDefs>
+				</fuelFilter>
+			</li>
+			<li Class="CompProperties_Stunnable">
+				<useLargeEMPEffecter>true</useLargeEMPEffecter>
+				<affectedDamageDefs>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		</comps>
+		<terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+		<designationCategory>Power</designationCategory>
+		<researchPrerequisites>
+			<li>Vault-TecPower</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+		<modExtensions>
+			<li Class="SK.Events.AccidentalExplosionExtension">
+			</li>
+		</modExtensions>
+	</ThingDef>
 </Defs>

@@ -31,5 +31,8 @@ P.S. If you are reading this, it means the turrets haven't noticed you yet. Enjo
 RobCo Corporation is not responsible for turning you into a sieve. You came here yourself."
 (In small print on the side: "Try our new model — the turret with the 'sarcastic comments' function! We promise, the last words will be unforgettable.")</TurretSign.description>
 
+  <VaultLampFirefly.label>Firefly Lantern</VaultLampFirefly.label>
+  <VaultLampFirefly.description>"Because the apocalypse shouldn't mean sacrificing ambiance!"When the bombs fell, Vault-Tec knew survivors would need more than just food, water, and radiation suits—they’d need style. Introducing the "Eternal Glow" Emergency Oil Lamp, the pinnacle of pre-war luxury and post-war necessity!Crafted from the finest reclaimed scrap and topped with a patent-pending shatter-resistant glass dome (resistance not guaranteed), this lamp provides a warm, flickering glow to remind you of the good old days—before the world burned. Perfect for illuminating vault corridors, irradiated wastelands, or your next cannibal dinner party!</VaultLampFirefly.description>
+
 
 </LanguageData>
