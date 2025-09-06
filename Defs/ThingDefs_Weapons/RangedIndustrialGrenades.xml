@@ -20,6 +20,8 @@
 			<casingMoteDefname>Fleck_GrenadePin</casingMoteDefname>
 			<casingFilthDefname>Filth_GrenadeAmmoCasings</casingFilthDefname>
 			<applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+			<postExplosionSpawnThingDef>Filth_Cap</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>0.5</postExplosionSpawnChance>
 			<suppressionFactor>3.0</suppressionFactor>
 			<dangerFactor>2.0</dangerFactor>
 			<airborneSuppressionFactor>0.25</airborneSuppressionFactor>

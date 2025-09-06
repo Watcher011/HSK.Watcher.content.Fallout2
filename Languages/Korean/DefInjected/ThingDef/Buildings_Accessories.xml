@@ -14,6 +14,10 @@
   <CommsConsole.description>다른 세력 및 궤도 상인들과 무선 통신이 가능합니다.</CommsConsole.description>
   <CommsConsole.comps.3.useLabel>디아볼루스 위협 소환</CommsConsole.comps.3.useLabel>
 
+ <LabTerminal.label>연구 터미널</LabTerminal.label>
+<LabTerminal.description>기술적 진보의 미래를 목격하라! 이 터미널은 롭코 철학의 정수를 구현했습니다: 최소한의... 음... "인적 요소" 투자로 달성하는 최대의 효율성!
+직원이 더 이상 지루한 교과서를 몇 년 동안 공부하거나 타고난 창의력 같은 것을 가질 필요가 없습니다. 폐허에서 발견한 기술 샘플을 (샘플에서 방출되는 대부분의 방사성 먼지로부터 인입 베이를 납으로 안전하게 차폐했습니다) 삽입하기만 하면, 우리의 특허 받은 "이해-O-매틱" 소프트웨어가 모든 일을 대신 해줄 것입니다!</LabTerminal.description>
+
   <MinesSign.label>표지판 "지뢰"</MinesSign.label>
   <MinesSign.description>이걸 읽을 때 한 발은 지뢰 위에 있다면, 축하합니다! 당신은 자연 선택에서 승리했습니다...</MinesSign.description>
 
@@ -31,8 +35,8 @@ P.S. 이걸 읽고 있다면, 아직 터렛이 당신을 발견하지 못했다�
 "로보코" 사는 당신이 체가 될 책임을 지지 않습니다. 당신이 스스로 여기 온 거니까요.
 (옆구리에 작은 글씨로: "새로운 모델 — '빈정대는 한 마디' 기능이 탑재된 터렛을 체험해 보세요! 마지막 말이 잊히지 않을 거예요.")</TurretSign.description>
 
- <VaultLampFirefly.label>반딧불이 랜턴</VaultLampFirefly.label>
-<VaultLampFirefly.description>"아포칼립스라 해서 분위기를 포기해야 하는 건 아니니까!"
+  <VaultLampFirefly.label>반딧불이 랜턴</VaultLampFirefly.label>
+  <VaultLampFirefly.description>"아포칼립스라 해서 분위기를 포기해야 하는 건 아니니까!"
 핵폭탄이 떨어졌을 때, 볼트-텍은 생존자들에게 음식, 물, 방사능 보호복보다 더 필요한 것이 있다는 것을 알았습니다. 바로 스타일이죠. 전쟁 전의 사치와 전쟁 후의 필수품의 정점인 "이터널 글로우" 비상 오일 램프를 소개합니다!
 최고급 재활용 고철로 제작되고 특허 출원된 내충격 유리 돔(내충격성은 보장되지 않음)으로 마감된 이 램프는 따뜻하고 반짝이는 빛을 제공하여 여러분에게 세상이 불타기 전의 좋았던 옛날을 기억나게 해줍니다! 볼트 복도, 방사능 황무지, 또는 다음 식인 교제 저녁 파티를 밝히기에 완벽합니다!</VaultLampFirefly.description>
 

@@ -22,6 +22,8 @@
         <explosiveRadius>3.9</explosiveRadius>
         <explosiveDamageType>Bomb</explosiveDamageType>
         <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+		<postExplosionSpawnThingDef>Filth_Cap</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>1</postExplosionSpawnChance>
         <wickTicks>15</wickTicks>
         <startWickOnDamageTaken>
           <li>Bullet</li>
@@ -60,6 +62,8 @@
         <explosiveRadius>5.9</explosiveRadius>
         <explosiveDamageType>BombSuper</explosiveDamageType>
         <startWickHitPointsPercent>0.2</startWickHitPointsPercent>
+		<postExplosionSpawnThingDef>Filth_Cap</postExplosionSpawnThingDef>
+        <postExplosionSpawnChance>0.5</postExplosionSpawnChance>
         <wickTicks>15</wickTicks>
         <startWickOnDamageTaken>
           <li>Bullet</li>

@@ -234,10 +234,10 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 		<stuffCategories>
 			<li>RuggedMetallic</li>
 		</stuffCategories>
-		<costStuffCount>350</costStuffCount>
+		<costStuffCount>150</costStuffCount>
 		<costList>
 			<ReinforcedConcrete>20</ReinforcedConcrete>
-			<ComponentIndustrial>10</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
 			<Mechanism>5</Mechanism>
 			<Glass>50</Glass>
 		</costList>
@@ -252,7 +252,7 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>3</glowRadius>
-				<glowColor>(17,112,233,0)</glowColor>
+				<glowColor>(17,12,233,0)</glowColor>
 			</li>
 			<li Class="SK.CompProperties_HeatPusherAdvanced">
 				<compClass>SK.CompHeatPusherAdvanced</compClass>

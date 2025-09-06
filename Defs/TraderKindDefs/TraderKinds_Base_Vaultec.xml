@@ -641,7 +641,10 @@
       
       <!-- Techprints -->
       <!-- none -->
-
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>EggFireflyUnfertilized</thingDef>
+        <countRange>1~2</countRange>
+      </li>
       <!-- Books -->
       <li Class="StockGenerator_SingleDef">
         <thingDef>TextBook</thingDef>

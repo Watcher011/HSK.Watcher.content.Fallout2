@@ -1,5 +1,5 @@
 
-Версия - 0,51
+Версия - 0,52
 -*-
 Оружие
 Pipe shooter
@@ -100,7 +100,7 @@ Tranquilizer Dart
 Vault-Tec Portable "ElectroBuddy" Generator
 Vault-Tec Mark III generator
 Broken Reactor Vault-Tec(декоративный для квестов)
-
+Vault-Tec Tesla Nova generator
 -*-
 верстаки/постройки
 Production Workbench
@@ -113,6 +113,10 @@ CommsConsole
 Survivor's Lantern
 Construction lamp
 Tritium Lamp
+Firefly Lantern
+-*-
+двери 
+Vault-Tec™ SecureLok™
 -*-
 напитки
 Nuka-Cola
