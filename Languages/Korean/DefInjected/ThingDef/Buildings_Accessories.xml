@@ -14,8 +14,8 @@
   <CommsConsole.description>다른 세력 및 궤도 상인들과 무선 통신이 가능합니다.</CommsConsole.description>
   <CommsConsole.comps.3.useLabel>디아볼루스 위협 소환</CommsConsole.comps.3.useLabel>
 
- <LabTerminal.label>연구 터미널</LabTerminal.label>
-<LabTerminal.description>기술적 진보의 미래를 목격하라! 이 터미널은 롭코 철학의 정수를 구현했습니다: 최소한의... 음... "인적 요소" 투자로 달성하는 최대의 효율성!
+  <LabTerminal.label>연구 터미널</LabTerminal.label>
+  <LabTerminal.description>기술적 진보의 미래를 목격하라! 이 터미널은 롭코 철학의 정수를 구현했습니다: 최소한의... 음... "인적 요소" 투자로 달성하는 최대의 효율성!
 직원이 더 이상 지루한 교과서를 몇 년 동안 공부하거나 타고난 창의력 같은 것을 가질 필요가 없습니다. 폐허에서 발견한 기술 샘플을 (샘플에서 방출되는 대부분의 방사성 먼지로부터 인입 베이를 납으로 안전하게 차폐했습니다) 삽입하기만 하면, 우리의 특허 받은 "이해-O-매틱" 소프트웨어가 모든 일을 대신 해줄 것입니다!</LabTerminal.description>
 
   <MinesSign.label>표지판 "지뢰"</MinesSign.label>

@@ -389,8 +389,8 @@ An employee no longer needs to study tedious textbooks for years or possess any 
 			<texPath>Things/Building/Research/terminal</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(0.6)</drawSize>
-		<!--	 <drawOffset>(0,0,0.3)</drawOffset>-->
+			<drawSize>(0.8)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
 			<shadowData>
 				<volume>(0.85, 1.0, 0.85)</volume>
 				<offset>(0,0,0)</offset>

@@ -1,7 +1,7 @@
 ﻿<Patch>
 
 <Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/pollutionWildAnimals</xpath>
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest" or defName="TemperateArchipelago" or defName="BorealArchipelago" or defName="TundraArchipelago" or defName="ColdBogArchipelago" or defName="DesertArchipelago" or defName="TemperateSwampArchipelago" or defName="TropicalArchipelago" or defName="TropicalSwampArchipelago" or defName="TropicalSwampArchipelago"]/pollutionWildAnimals</xpath>
 		<value>
 		<Mirelurk>0.07</Mirelurk>
 		<Radroach>0.37</Radroach>
@@ -16,7 +16,7 @@
 
 
 <Operation Class="PatchOperationAdd">
-		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest"]/wildAnimals</xpath>
+		<xpath>Defs/BiomeDef[defName="TemperateForest" or defName="TemperateSwamp" or defName="AridShrubland" or defName="BorealForest" or defName="TemperateArchipelago" or defName="BorealArchipelago" or defName="TundraArchipelago" or defName="ColdBogArchipelago" or defName="DesertArchipelago" or defName="TemperateSwampArchipelago" or defName="TropicalArchipelago" or defName="TropicalSwampArchipelago" or defName="TropicalSwampArchipelago"]/wildAnimals</xpath>
 		<value>
 		<Mirelurk>0.07</Mirelurk>
 		<Radroach>0.37</Radroach>
@@ -26,6 +26,7 @@
 		<Gecko_gold>0.07</Gecko_gold>
 		<Firefly>0.07</Firefly>
 		<HugeBee>0.07</HugeBee>
+		<RadDeer>0.05</RadDeer>
 		</value>
 	</Operation>
 </Patch>

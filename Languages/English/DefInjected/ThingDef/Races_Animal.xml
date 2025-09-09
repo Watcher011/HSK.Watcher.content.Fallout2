@@ -70,5 +70,19 @@
   <Brahmin.tools.1.label>head</Brahmin.tools.1.label>
   <Brahmin.tools.2.label>horns</Brahmin.tools.2.label>
 
+  <RadDeer.label>rad deer</RadDeer.label>
+  <RadDeer.description>A medium-sized herding herbivore which prefers to live in mixed forests and plains. Deer are very quick.</RadDeer.description>
+  <RadDeer.tools.0.label>left hoof</RadDeer.tools.0.label>
+  <RadDeer.tools.1.label>right hoof</RadDeer.tools.1.label>
+  <RadDeer.tools.2.label>teeth</RadDeer.tools.2.label>
+  <RadDeer.tools.3.label>head</RadDeer.tools.3.label>
+
+  <GlowRadDeer.label>Glow rad deer</GlowRadDeer.label>
+  <GlowRadDeer.description>A medium-sized herding herbivore which prefers to live in mixed forests and plains. Deer are very quick.</GlowRadDeer.description>
+  <GlowRadDeer.tools.0.label>left hoof</GlowRadDeer.tools.0.label>
+  <GlowRadDeer.tools.1.label>right hoof</GlowRadDeer.tools.1.label>
+  <GlowRadDeer.tools.2.label>teeth</GlowRadDeer.tools.2.label>
+  <GlowRadDeer.tools.3.label>head</GlowRadDeer.tools.3.label>
+
 
 </LanguageData>
