@@ -34,5 +34,11 @@
   <Gun_FlamethrowerLastWarning_Turret.label>Flamethrower gun</Gun_FlamethrowerLastWarning_Turret.label>
   <Gun_FlamethrowerLastWarning_Turret.description>Flamethrower attached to a turret.</Gun_FlamethrowerLastWarning_Turret.description>
 
+  <Fallout_Turret_HeavyTurret.label>Heavy Automated Turret</Fallout_Turret_HeavyTurret.label>
+  <Fallout_Turret_HeavyTurret.description>The "Brain-Spitter" Twin Turret is a testament to pre-War paranoia, jury-rigged with post-War pragmatism. This abomination of engineering pairs the apocalyptic firepower of twin 14x114mm heavy machine guns with the "strategic genius" of a salvaged Robobrain wetware CPU."\nCaliber:14.5x114mm</Fallout_Turret_HeavyTurret.description>
+
+  <Gun_FalloutHeavyTurret.label>Sentry Heavy gun</Gun_FalloutHeavyTurret.label>
+  <Gun_FalloutHeavyTurret.description>Heavy automatic gun attached to a turret.</Gun_FalloutHeavyTurret.description>
+
 
 </LanguageData>

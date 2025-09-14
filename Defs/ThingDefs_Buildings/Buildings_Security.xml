@@ -572,4 +572,145 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+
+	<ThingDef ParentName="TurretBase">
+		<defName>Fallout_Turret_HeavyTurret</defName>
+		<label>Heavy Automated Turret</label>
+		<graphicData>
+			<texPath>Things/Building/Security/AMTurretGun_Base</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(3,3)</drawSize>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+			<shadowData>
+				<volume>(0.27,0.25,0.27)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+		</graphicData>
+		<uiIconPath>Things/Building/Security/FalloutTurretHeavy_Ico</uiIconPath>
+		<statBases>
+		<Mass>50</Mass>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		   <li Class="CompProperties_Refuelable">
+			<fuelLabel>Battery charges</fuelLabel>
+			<fuelGizmoLabel>Charge level</fuelGizmoLabel>
+			<outOfFuelMessage>Can't shoot : Replace battery</outOfFuelMessage>
+			<fuelFilter>
+			     <thingDefs>
+		      	<li>NuclearBattery</li>
+				<li>ChjAndroidBattery</li>
+				<li>Hexcell</li>
+			     </thingDefs>
+			</fuelFilter>
+			<fuelCapacity>1</fuelCapacity>       <!-- 140 shoots -->
+			<fuelMultiplier>1</fuelMultiplier> <!-- 140 human meat per full rearm -->
+			<initialFuelPercent>1</initialFuelPercent>
+			<autoRefuelPercent>0.1</autoRefuelPercent>
+			<showFuelGizmo>true</showFuelGizmo>
+			<minimumFueledThreshold>0.3</minimumFueledThreshold>
+			<factorByDifficulty>false</factorByDifficulty>
+			<consumeFuelOnlyWhenUsed>true</consumeFuelOnlyWhenUsed>
+			<fuelIconPath>Things/Item/Bat</fuelIconPath>
+		  </li>
+		  <li Class="SK.CompProperties_HeatPusherAdvanced">
+				<compClass>SK.CompHeatPusherAdvanced</compClass>
+				<heatPerSecond>5</heatPerSecond>
+				<heatPushMaxTemperature>30</heatPushMaxTemperature>
+			</li>
+		</comps>
+		<description>The "Brain-Spitter" Twin Turret is a testament to pre-War paranoia, jury-rigged with post-War pragmatism. This abomination of engineering pairs the apocalyptic firepower of twin 14x114mm heavy machine guns with the "strategic genius" of a salvaged Robobrain wetware CPU."\nCaliber:14.5x114mm</description>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Weapon_Parts>10</Weapon_Parts>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+			<Brain>1</Brain>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<NuclearBattery>1</NuclearBattery>
+		</costList>
+		<specialDisplayRadius>3</specialDisplayRadius>
+		<designationCategory>Security</designationCategory>
+		<building>
+			<ai_combatDangerous>false</ai_combatDangerous>
+			<turretGunDef>Gun_FalloutHeavyTurret</turretGunDef>
+			<turretTopDrawSize>1.5</turretTopDrawSize>
+		</building>
+		<designationHotKey>Misc1</designationHotKey>
+		<tradeTags>
+			<li>Vaultec</li>
+		</tradeTags>
+		<minifiedDef>MinifiedTurretGun</minifiedDef>
+		<researchPrerequisites>
+			<li>GunTurrets</li>
+			<li>Vault-TecProduction</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+	</ThingDef>
+
+	
+	<ThingDef ParentName="BaseAutoTurretGun">
+		<defName>Gun_FalloutHeavyTurret</defName>
+		<label>Sentry Heavy gun</label>
+		<graphicData>
+			<texPath>Things/Building/Security/FalloutTurretHeavy_Top</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<!-- <menuHidden>True</menuHidden> -->
+		<description>Heavy automatic gun attached to a turret.</description>
+		<soundInteract>Interact_Rifle</soundInteract>
+		<tradeability>None</tradeability>
+		<statBases>
+			<SightsEfficiency>1.45</SightsEfficiency>
+			<ShotSpread>0.08</ShotSpread>
+			<SwayFactor>1.80</SwayFactor>
+			<RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+			<DeteriorationRate>0</DeteriorationRate>
+		</statBases>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+
+				<recoilAmount>0.41</recoilAmount>
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Bullet_145x114mm_FMJ</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<range>45</range>
+				<ticksBetweenBurstShots>1</ticksBetweenBurstShots>
+				<burstShotCount>2</burstShotCount>
+				<soundCast>GunShotA</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+				<recoilPattern>Mounted</recoilPattern>
+				<consumeFuelPerShot>0.001</consumeFuelPerShot>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>300</magazineSize>
+				<reloadTime>6.00</reloadTime>
+				<ammoSet>AmmoSet_145x114mm</ammoSet>
+			</li>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aimedBurstShotCount>2</aimedBurstShotCount>
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>Snapshot</aiAimMode>
+				<noSnapshot>true</noSnapshot>
+				<noSingleShot>true</noSingleShot>
+			</li>
+		</comps>
+	</ThingDef>	
+	
 </Defs>

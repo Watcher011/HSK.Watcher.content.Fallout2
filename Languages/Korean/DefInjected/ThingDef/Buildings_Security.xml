@@ -35,6 +35,12 @@
   <Gun_FlamethrowerLastWarning_Turret.label>화염 방사기 건</Gun_FlamethrowerLastWarning_Turret.label>
   <Gun_FlamethrowerLastWarning_Turret.description>터렛에 장착된 화염 방사기.</Gun_FlamethrowerLastWarning_Turret.description>
 
+ <Fallout_Turret_HeavyTurret.label>중동력 자동 터렛</Fallout_Turret_HeavyTurret.label>
+<Fallout_Turret_HeavyTurret.description>"브레인 스피터" 쌍열 터렛은 전쟁 전의 편집증과 전쟁 후의 투박한 실용주의가 결합된 산물입니다. 이 괴물 같은 공학 작품은 14.5x114mm 중기관총의 막강한 화력과 로보브레인에서 회수한 '전략적 두뇌'를 결합했습니다.\n구경: 14.5x114mm</Fallout_Turret_HeavyTurret.description>
+
+<Gun_FalloutHeavyTurret.label>센트리 헤비 건</Gun_FalloutHeavyTurret.label>
+<Gun_FalloutHeavyTurret.description>터렛에 장착된 중화기 자동 기관총.</Gun_FalloutHeavyTurret.description>
+
 
   <!-- AI 유인 터렛 -->
 

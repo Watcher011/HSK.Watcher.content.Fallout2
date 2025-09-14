@@ -76,6 +76,7 @@
 		   <li>Fallout_FlamethrowerLastWarning_Turret</li>
 			<li>Fallout_laser_Turret</li>
 			<li>Fallout_Turret_Turret</li>
+			<li>Fallout_Turret_HeavyTurret</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>
 		<debug>false</debug>

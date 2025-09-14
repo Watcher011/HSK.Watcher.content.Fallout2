@@ -18,8 +18,8 @@
   <LabTerminal.description>기술적 진보의 미래를 목격하라! 이 터미널은 롭코 철학의 정수를 구현했습니다: 최소한의... 음... "인적 요소" 투자로 달성하는 최대의 효율성!
 직원이 더 이상 지루한 교과서를 몇 년 동안 공부하거나 타고난 창의력 같은 것을 가질 필요가 없습니다. 폐허에서 발견한 기술 샘플을 (샘플에서 방출되는 대부분의 방사성 먼지로부터 인입 베이를 납으로 안전하게 차폐했습니다) 삽입하기만 하면, 우리의 특허 받은 "이해-O-매틱" 소프트웨어가 모든 일을 대신 해줄 것입니다!</LabTerminal.description>
 
- <SubBrain.label>Sub Brain</SubBrain.label>
-<SubBrain.description>당신의 "훌륭한" 추측은 3.5초 만에 그의 일상적인 계산으로 이루어집니다. 이제 우리 과학팀은 커피 찾기, 시험관 청소, 그리고 공황 상태 해결 등 정말 중요한 업무에 집중할 수 있습니다.</SubBrain.description>
+  <SubBrain.label>Sub Brain</SubBrain.label>
+  <SubBrain.description>당신의 "훌륭한" 추측은 3.5초 만에 그의 일상적인 계산으로 이루어집니다. 이제 우리 과학팀은 커피 찾기, 시험관 청소, 그리고 공황 상태 해결 등 정말 중요한 업무에 집중할 수 있습니다.</SubBrain.description>
 
   <MinesSign.label>표지판 "지뢰"</MinesSign.label>
   <MinesSign.description>이걸 읽을 때 한 발은 지뢰 위에 있다면, 축하합니다! 당신은 자연 선택에서 승리했습니다...</MinesSign.description>

@@ -1,5 +1,5 @@
 
-Версия - 0,54
+Версия - 0,55
 -*-
 Оружие
 Pipe shooter(Трубострел)
@@ -49,6 +49,7 @@ IED Stan Mine(Самодельная мина "Стан")
 Automated Turret(Автоматизированная турель)
 Automated laser turret(Автоматизированная лазерная турель)
 Flamethrower "Pyrometer 3000" turret(Огнеметная установка «Пирометр 3000»)
+Heavy Automated Turret(Тяжёлая автоматическая турель)
 -*-
 разное
 Bottle Cap(Бутылочная крышка)
