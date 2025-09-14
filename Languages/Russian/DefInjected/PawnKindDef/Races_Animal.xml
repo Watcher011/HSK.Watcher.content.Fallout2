@@ -180,38 +180,63 @@
   <Brahmin.labelMalePlural>быки-брамины</Brahmin.labelMalePlural>
   <Brahmin.labelFemale>корова-брамин</Brahmin.labelFemale>
   <Brahmin.labelFemalePlural>коровы-брамины</Brahmin.labelFemalePlural>
-  
-<RadDeer.label>Рад-олень</RadDeer.label>
-<RadDeer.labelPlural>Рад-олени</RadDeer.labelPlural>
-<RadDeer.lifeStages.0.label>Рад-олень</RadDeer.lifeStages.0.label>
-<RadDeer.lifeStages.0.labelPlural>Рад-олени</RadDeer.lifeStages.0.labelPlural>
-<RadDeer.lifeStages.0.labelMale>Самец рад-оленя</RadDeer.lifeStages.0.labelMale>
-<RadDeer.lifeStages.0.labelMalePlural>Самцы рад-оленя</RadDeer.lifeStages.0.labelMalePlural>
-<RadDeer.lifeStages.0.labelFemale>Самка рад-оленя</RadDeer.lifeStages.0.labelFemale>
-<RadDeer.lifeStages.0.labelFemalePlural>Самки рад-оленя</RadDeer.lifeStages.0.labelFemalePlural>
-<RadDeer.lifeStages.1.label>Рад-олень</RadDeer.lifeStages.1.label>
-<RadDeer.lifeStages.1.labelPlural>Рад-олени</RadDeer.lifeStages.1.labelPlural>
-<RadDeer.lifeStages.1.labelMale>Самец рад-оленя</RadDeer.lifeStages.1.labelMale>
-<RadDeer.lifeStages.1.labelMalePlural>Самцы рад-оленя</RadDeer.lifeStages.1.labelMalePlural>
-<RadDeer.lifeStages.1.labelFemale>Самка рад-оленя</RadDeer.lifeStages.1.labelFemale>
-<RadDeer.lifeStages.1.labelFemalePlural>Самки рад-оленя</RadDeer.lifeStages.1.labelFemalePlural>
-<RadDeer.lifeStages.2.label>Рад-олень</RadDeer.lifeStages.2.label>
-<RadDeer.lifeStages.2.labelPlural>Рад-олени</RadDeer.lifeStages.2.labelPlural>
-<RadDeer.lifeStages.2.labelMale>Самец рад-оленя</RadDeer.lifeStages.2.labelMale>
-<RadDeer.lifeStages.2.labelMalePlural>Самцы рад-оленя</RadDeer.lifeStages.2.labelMalePlural>
-<RadDeer.lifeStages.2.labelFemale>Самка рад-оленя</RadDeer.lifeStages.2.labelFemale>
-<RadDeer.lifeStages.2.labelFemalePlural>Самки рад-оленя</RadDeer.lifeStages.2.labelFemalePlural>
-<RadDeer.labelMale>Самец рад-оленя</RadDeer.labelMale>
-<RadDeer.labelMalePlural>Самцы рад-оленя</RadDeer.labelMalePlural>
-<RadDeer.labelFemale>Самка рад-оленя</RadDeer.labelFemale>
-<RadDeer.labelFemalePlural>Самки рад-оленя</RadDeer.labelFemalePlural>
 
-<GlowRadDeer.label>Квантовый рад-олень</GlowRadDeer.label>
-<GlowRadDeer.labelPlural>Квантовые рад-олени</GlowRadDeer.labelPlural>
-<GlowRadDeer.labelMale>Самец квантового рад-оленя</GlowRadDeer.labelMale>
-<GlowRadDeer.labelMalePlural>Самцы квантового рад-оленя</GlowRadDeer.labelMalePlural>
-<GlowRadDeer.labelFemale>Самка квантового рад-оленя</GlowRadDeer.labelFemale>
-<GlowRadDeer.labelFemalePlural>Самки квантового рад-оленя</GlowRadDeer.labelFemalePlural>
+  <RadDeer.label>Рад-олень</RadDeer.label>
+  <RadDeer.labelPlural>Рад-олени</RadDeer.labelPlural>
+  <RadDeer.lifeStages.0.label>Рад-олень</RadDeer.lifeStages.0.label>
+  <RadDeer.lifeStages.0.labelPlural>Рад-олени</RadDeer.lifeStages.0.labelPlural>
+  <RadDeer.lifeStages.0.labelMale>Самец рад-оленя</RadDeer.lifeStages.0.labelMale>
+  <RadDeer.lifeStages.0.labelMalePlural>Самцы рад-оленя</RadDeer.lifeStages.0.labelMalePlural>
+  <RadDeer.lifeStages.0.labelFemale>Самка рад-оленя</RadDeer.lifeStages.0.labelFemale>
+  <RadDeer.lifeStages.0.labelFemalePlural>Самки рад-оленя</RadDeer.lifeStages.0.labelFemalePlural>
+  <RadDeer.lifeStages.1.label>Рад-олень</RadDeer.lifeStages.1.label>
+  <RadDeer.lifeStages.1.labelPlural>Рад-олени</RadDeer.lifeStages.1.labelPlural>
+  <RadDeer.lifeStages.1.labelMale>Самец рад-оленя</RadDeer.lifeStages.1.labelMale>
+  <RadDeer.lifeStages.1.labelMalePlural>Самцы рад-оленя</RadDeer.lifeStages.1.labelMalePlural>
+  <RadDeer.lifeStages.1.labelFemale>Самка рад-оленя</RadDeer.lifeStages.1.labelFemale>
+  <RadDeer.lifeStages.1.labelFemalePlural>Самки рад-оленя</RadDeer.lifeStages.1.labelFemalePlural>
+  <RadDeer.lifeStages.2.label>Рад-олень</RadDeer.lifeStages.2.label>
+  <RadDeer.lifeStages.2.labelPlural>Рад-олени</RadDeer.lifeStages.2.labelPlural>
+  <RadDeer.lifeStages.2.labelMale>Самец рад-оленя</RadDeer.lifeStages.2.labelMale>
+  <RadDeer.lifeStages.2.labelMalePlural>Самцы рад-оленя</RadDeer.lifeStages.2.labelMalePlural>
+  <RadDeer.lifeStages.2.labelFemale>Самка рад-оленя</RadDeer.lifeStages.2.labelFemale>
+  <RadDeer.lifeStages.2.labelFemalePlural>Самки рад-оленя</RadDeer.lifeStages.2.labelFemalePlural>
+  <RadDeer.labelMale>Самец рад-оленя</RadDeer.labelMale>
+  <RadDeer.labelMalePlural>Самцы рад-оленя</RadDeer.labelMalePlural>
+  <RadDeer.labelFemale>Самка рад-оленя</RadDeer.labelFemale>
+  <RadDeer.labelFemalePlural>Самки рад-оленя</RadDeer.labelFemalePlural>
+
+  <GlowRadDeer.label>Квантовый рад-олень</GlowRadDeer.label>
+  <GlowRadDeer.labelPlural>Квантовые рад-олени</GlowRadDeer.labelPlural>
+  <GlowRadDeer.labelMale>Самец квантового рад-оленя</GlowRadDeer.labelMale>
+  <GlowRadDeer.labelMalePlural>Самцы квантового рад-оленя</GlowRadDeer.labelMalePlural>
+  <GlowRadDeer.labelFemale>Самка квантового рад-оленя</GlowRadDeer.labelFemale>
+  <GlowRadDeer.labelFemalePlural>Самки квантового рад-оленя</GlowRadDeer.labelFemalePlural>
+
+  <MoleRat.label>Кротокрыс</MoleRat.label>
+  <MoleRat.labelPlural>Кротокрысы</MoleRat.labelPlural>
+  <MoleRat.lifeStages.0.label>Кротокрыс</MoleRat.lifeStages.0.label>
+  <MoleRat.lifeStages.0.labelPlural>Кротокрысы</MoleRat.lifeStages.0.labelPlural>
+  <MoleRat.lifeStages.0.labelMale>самец кротокрыса</MoleRat.lifeStages.0.labelMale>
+  <MoleRat.lifeStages.0.labelMalePlural>самцы кротокрыса</MoleRat.lifeStages.0.labelMalePlural>
+  <MoleRat.lifeStages.0.labelFemale>самка кротокрыса</MoleRat.lifeStages.0.labelFemale>
+  <MoleRat.lifeStages.0.labelFemalePlural>самки кротокрыса</MoleRat.lifeStages.0.labelFemalePlural>
+  <MoleRat.lifeStages.1.label>Кротокрыс</MoleRat.lifeStages.1.label>
+  <MoleRat.lifeStages.1.labelPlural>Кротокрысы</MoleRat.lifeStages.1.labelPlural>
+  <MoleRat.lifeStages.1.labelMale>самец кротокрыса</MoleRat.lifeStages.1.labelMale>
+  <MoleRat.lifeStages.1.labelMalePlural>самцы кротокрыса</MoleRat.lifeStages.1.labelMalePlural>
+  <MoleRat.lifeStages.1.labelFemale>самка кротокрыса</MoleRat.lifeStages.1.labelFemale>
+  <MoleRat.lifeStages.1.labelFemalePlural>самки кротокрыса</MoleRat.lifeStages.1.labelFemalePlural>
+  <MoleRat.lifeStages.2.label>Кротокрыс</MoleRat.lifeStages.2.label>
+  <MoleRat.lifeStages.2.labelPlural>Кротокрысы</MoleRat.lifeStages.2.labelPlural>
+  <MoleRat.lifeStages.2.labelMale>самец кротокрыса</MoleRat.lifeStages.2.labelMale>
+  <MoleRat.lifeStages.2.labelMalePlural>самцы кротокрыса</MoleRat.lifeStages.2.labelMalePlural>
+  <MoleRat.lifeStages.2.labelFemale>самка кротокрыса</MoleRat.lifeStages.2.labelFemale>
+  <MoleRat.lifeStages.2.labelFemalePlural>самки кротокрыса</MoleRat.lifeStages.2.labelFemalePlural>
+  <MoleRat.labelMale>самец кротокрыса</MoleRat.labelMale>
+  <MoleRat.labelMalePlural>самцы кротокрыса</MoleRat.labelMalePlural>
+  <MoleRat.labelFemale>самка кротокрыса</MoleRat.labelFemale>
+  <MoleRat.labelFemalePlural>самки кротокрыса</MoleRat.labelFemalePlural>
 
 
 </LanguageData>

@@ -213,5 +213,30 @@
   <GlowRadDeer.labelFemale>Glow Rad doe</GlowRadDeer.labelFemale>
   <GlowRadDeer.labelFemalePlural>female GlowRadDeer</GlowRadDeer.labelFemalePlural>
 
+  <MoleRat.label>Mole Rat</MoleRat.label>
+  <MoleRat.labelPlural>Mole Rats</MoleRat.labelPlural>
+  <MoleRat.lifeStages.0.label>Mole Rat</MoleRat.lifeStages.0.label>
+  <MoleRat.lifeStages.0.labelPlural>Mole Rat</MoleRat.lifeStages.0.labelPlural>
+  <MoleRat.lifeStages.0.labelMale>male Mole Rat</MoleRat.lifeStages.0.labelMale>
+  <MoleRat.lifeStages.0.labelMalePlural>male Mole Rats</MoleRat.lifeStages.0.labelMalePlural>
+  <MoleRat.lifeStages.0.labelFemale>female Mole Rat</MoleRat.lifeStages.0.labelFemale>
+  <MoleRat.lifeStages.0.labelFemalePlural>female Mole Rats</MoleRat.lifeStages.0.labelFemalePlural>
+  <MoleRat.lifeStages.1.label>Mole Rat</MoleRat.lifeStages.1.label>
+  <MoleRat.lifeStages.1.labelPlural>Mole Rat</MoleRat.lifeStages.1.labelPlural>
+  <MoleRat.lifeStages.1.labelMale>male Mole Rat</MoleRat.lifeStages.1.labelMale>
+  <MoleRat.lifeStages.1.labelMalePlural>male Mole Rats</MoleRat.lifeStages.1.labelMalePlural>
+  <MoleRat.lifeStages.1.labelFemale>female Mole Rat</MoleRat.lifeStages.1.labelFemale>
+  <MoleRat.lifeStages.1.labelFemalePlural>female Mole Rats</MoleRat.lifeStages.1.labelFemalePlural>
+  <MoleRat.lifeStages.2.label>Mole Rat</MoleRat.lifeStages.2.label>
+  <MoleRat.lifeStages.2.labelPlural>Mole Rat</MoleRat.lifeStages.2.labelPlural>
+  <MoleRat.lifeStages.2.labelMale>male Mole Rat</MoleRat.lifeStages.2.labelMale>
+  <MoleRat.lifeStages.2.labelMalePlural>male Mole Rats</MoleRat.lifeStages.2.labelMalePlural>
+  <MoleRat.lifeStages.2.labelFemale>female Mole Rat</MoleRat.lifeStages.2.labelFemale>
+  <MoleRat.lifeStages.2.labelFemalePlural>female Mole Rats</MoleRat.lifeStages.2.labelFemalePlural>
+  <MoleRat.labelMale>male Mole Rat</MoleRat.labelMale>
+  <MoleRat.labelMalePlural>male Mole Rats</MoleRat.labelMalePlural>
+  <MoleRat.labelFemale>female Mole Rat</MoleRat.labelFemale>
+  <MoleRat.labelFemalePlural>female Mole Rats</MoleRat.labelFemalePlural>
+
 
 </LanguageData>

@@ -82,20 +82,26 @@ P.S. 부품을 얻으려고 사이버도그를 분해하려고 하면 내장된 
 브라민: 핵 아포칼립스조차 당신보다 밑에 깔릴 존재가 필요하니까!"</Brahmin.description>
   <Brahmin.tools.1.label>머리</Brahmin.tools.1.label>
   <Brahmin.tools.2.label>뿔</Brahmin.tools.2.label>
-  
-<RadDeer.label>방사능 사슴</RadDeer.label>
-<RadDeer.description>자연은 신비로운 방식으로 작동하더군! 아름답고 고귀한 생물체에 약간의... 핵짓하는 방사능 향을 더했지. 방사능 사슴은 전후 미국이 낳은 완벽한 산물이야: 배를 채울 수 있을 뿐만 아니라 추가 조명 없도 독특한 내적 광채를 선사하는 자가추진 식량이지! 이 고기는 몇 시간에서 며칠까지(방사능 피폭량에 따라) 입안에 남는 독특한 "불맛" 후맛이 특징이야. 부엌에서 하는 러시안 룰렛에 딱이지: 스테이크를 굽거나, 아니면 스스로 불타오르는 독성 폐기물 덩어리를 만들게 되겠지!</RadDeer.description>
-<RadDeer.tools.0.label>왼쪽 발굽</RadDeer.tools.0.label>
-<RadDeer.tools.1.label>오른쪽 발굽</RadDeer.tools.1.label>
-<RadDeer.tools.2.label>이빨</RadDeer.tools.2.label>
-<RadDeer.tools.3.label>머리</RadDeer.tools.3.label>
 
-<GlowRadDeer.label>발광 방사능 사슴</GlowRadDeer.label>
-<GlowRadDeer.description>블로트플라이나 카사도르는 잊어버려. 이 녀석은 진짜로 걸어다니고, 코를 킁킁거리고, 선인장을 씹어대는 전설이야. 소문에 따르면, 이 beauties의 첫 무리는 일반 방사능 사슴들이 놀고 있던 협곡에 Quantum 음료를 실은 누카콜라 트럭이 처박히면서 나타났다고 해. 결과는? 탄산 비폭탄과 동물군의 완벽한 공생이지.</GlowRadDeer.description>
-<GlowRadDeer.tools.0.label>왼쪽 발굽</GlowRadDeer.tools.0.label>
-<GlowRadDeer.tools.1.label>오른쪽 발굽</GlowRadDeer.tools.1.label>
-<GlowRadDeer.tools.2.label>이빨</GlowRadDeer.tools.2.label>
-<GlowRadDeer.tools.3.label>머리</GlowRadDeer.tools.3.label>
+  <RadDeer.label>방사능 사슴</RadDeer.label>
+  <RadDeer.description>자연은 신비로운 방식으로 작동하더군! 아름답고 고귀한 생물체에 약간의... 핵짓하는 방사능 향을 더했지. 방사능 사슴은 전후 미국이 낳은 완벽한 산물이야: 배를 채울 수 있을 뿐만 아니라 추가 조명 없도 독특한 내적 광채를 선사하는 자가추진 식량이지! 이 고기는 몇 시간에서 며칠까지(방사능 피폭량에 따라) 입안에 남는 독특한 "불맛" 후맛이 특징이야. 부엌에서 하는 러시안 룰렛에 딱이지: 스테이크를 굽거나, 아니면 스스로 불타오르는 독성 폐기물 덩어리를 만들게 되겠지!</RadDeer.description>
+  <RadDeer.tools.0.label>왼쪽 발굽</RadDeer.tools.0.label>
+  <RadDeer.tools.1.label>오른쪽 발굽</RadDeer.tools.1.label>
+  <RadDeer.tools.2.label>이빨</RadDeer.tools.2.label>
+  <RadDeer.tools.3.label>머리</RadDeer.tools.3.label>
+
+  <GlowRadDeer.label>발광 방사능 사슴</GlowRadDeer.label>
+  <GlowRadDeer.description>블로트플라이나 카사도르는 잊어버려. 이 녀석은 진짜로 걸어다니고, 코를 킁킁거리고, 선인장을 씹어대는 전설이야. 소문에 따르면, 이 beauties의 첫 무리는 일반 방사능 사슴들이 놀고 있던 협곡에 Quantum 음료를 실은 누카콜라 트럭이 처박히면서 나타났다고 해. 결과는? 탄산 비폭탄과 동물군의 완벽한 공생이지.</GlowRadDeer.description>
+  <GlowRadDeer.tools.0.label>왼쪽 발굽</GlowRadDeer.tools.0.label>
+  <GlowRadDeer.tools.1.label>오른쪽 발굽</GlowRadDeer.tools.1.label>
+  <GlowRadDeer.tools.2.label>이빨</GlowRadDeer.tools.2.label>
+  <GlowRadDeer.tools.3.label>머리</GlowRadDeer.tools.3.label>
+
+  <MoleRat.label>두더지 쥐</MoleRat.label>
+  <MoleRat.description>이 실패한 군사 프로젝트를 만들기 위해 수백만 달러가 들었다는 것이 아이러니합니다. 이제 이 생물은 황무지에서 가장 저렴하고 질긴 고기의 주 공급원이 되었습니다. 전후 경제의 완벽한 상징입니다: 쓸모없고, 어디에나 있으며, 역겹게도 먹을 수 있습니다.</MoleRat.description>
+  <MoleRat.tools.0.label>왼쪽 발톱</MoleRat.tools.0.label>
+  <MoleRat.tools.1.label>오른쪽 발톱</MoleRat.tools.1.label>
+  <MoleRat.tools.3.label>머리</MoleRat.tools.3.label>
 
 
 </LanguageData>

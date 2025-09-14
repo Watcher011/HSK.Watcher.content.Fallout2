@@ -18,6 +18,9 @@
   <LabTerminal.description>Behold the future of technological progress! This terminal is the quintessence of the RobCo philosophy: maximum efficiency with minimal investment in the... ahem... "human factor."
 An employee no longer needs to study tedious textbooks for years or possess any hints of natural ingenuity. Simply insert a technological sample found in the ruins (the intake bay is reliably shielded with lead against most types of radioactive dust emanating from said samples), and our patented "Understand-O-Matic" software will do all the work for you!</LabTerminal.description>
 
+  <SubBrain.label>Sub Brain</SubBrain.label>
+  <SubBrain.description>Your "brilliant" guesses are his routine calculations in 3.5 seconds.Now our scientific staff is free for the really important tasks: finding coffee, cleaning test tubes and panicking.</SubBrain.description>
+
   <MinesSign.label>Mines sign</MinesSign.label>
   <MinesSign.description>If you're reading this with one foot on a landmine, congratulations! You've won... natural selection.</MinesSign.description>
 

@@ -84,5 +84,11 @@
   <GlowRadDeer.tools.2.label>teeth</GlowRadDeer.tools.2.label>
   <GlowRadDeer.tools.3.label>head</GlowRadDeer.tools.3.label>
 
+  <MoleRat.label>Mole rat</MoleRat.label>
+  <MoleRat.description>The irony is that this failed military project cost millions to create, and now it is the main source of the cheapest and toughest meat in the wasteland. The perfect symbol of the post-war economy: useless, ubiquitous, and disgustingly edible.</MoleRat.description>
+  <MoleRat.tools.0.label>left claw</MoleRat.tools.0.label>
+  <MoleRat.tools.1.label>right claw</MoleRat.tools.1.label>
+  <MoleRat.tools.3.label>head</MoleRat.tools.3.label>
+
 
 </LanguageData>

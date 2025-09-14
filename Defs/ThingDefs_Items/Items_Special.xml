@@ -528,4 +528,38 @@ P.S. Legal reminder: "Plan D" is not a plan, medicine, or edible product (despit
 			</li>
 		</comps> 
 	</ThingDef>
+	
+	
+	 <ThingDef ParentName="ResourceBase">
+    <defName>Brain</defName>
+    <label>Brain</label>
+    <description>A human Brain.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Brain</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.75, 0.75)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>25</stackLimit>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <rotatable>false</rotatable>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <statBases>
+      <Mass>1.5</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_HasSources"/>
+      <li>
+        <compClass>CompHarbingerTreeConsumable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
 </Defs>

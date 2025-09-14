@@ -1,5 +1,5 @@
 
-Версия - 0,52
+Версия - 0,54
 -*-
 Оружие
 Pipe shooter(Трубострел)
@@ -74,6 +74,7 @@ SnipersSign(Знак «Снайпера»)
 TurretSign(Знак «Турели»)
 GECK(ГЭКК)
 Deathclaw Scale(Чешуя когтя смерти)
+Brain(мозг)
 -*-
 плоды растений 
 raw Mutfruit(сырой Мутфрут)
@@ -112,6 +113,7 @@ ColaBasin(Квантовый фабрикатор Ядер-Колы 9000)
 Campfire wastelands(Котёл)
 CommsConsole(Радиоприёмник РВП-77)
 Research Terminal(исследовательский терминал)
+SubBrain(СубМозг)
 -*-
 лампы
 VaultLamp(Аварийная лампа "Вечное сияние")
@@ -158,6 +160,7 @@ Bee(Огромная пчела)
 Firefly(Светлячок)
 Rad Deer(Рад олень)
 Glow rad deer(Квантовый рад олень)
+MoleRat(Кротокрыс)
 mutants(Ogres) retexture ->Super mutants
 -*-
 еда

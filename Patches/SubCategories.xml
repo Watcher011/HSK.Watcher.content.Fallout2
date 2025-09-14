@@ -20,6 +20,13 @@
 				</value>
 			 </Operation>
 			 
+			 
+	        <Operation Class="PatchOperationAdd">
+				<xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_ResearchBenches"]/defNames</xpath>
+				<value>
+				<li>SubBrain</li>
+				</value>
+			 </Operation>
 	
 </Patch>
 

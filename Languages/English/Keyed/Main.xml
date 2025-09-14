@@ -25,10 +25,11 @@
 
   <RadroachEatersLabel>Radroach Infestation.</RadroachEatersLabel>
   <RadroachEatersDesc>Filth, chaos, and typical post-apocalyptic squalor have led these radioactive pests to evolve—and now they're not just devouring your pathetic food supplies but also mocking you. Yes, their chirping isn't just noise; it's actual taunting commentary about your worthless life. They multiply faster than your settlers die, their shells are tougher than your will to live, and their bites leave behind not only rotting flesh but also a deep sense of humiliation.\n\nAnd the worst part? They're smarter than you. While you dig through dirt for food, they've already stolen your supplies, eaten your dog, and left a radioactive "gift" on your bed. Congratulations, now you have either diarrhea, a mutation, or both.\n\nThe only way to get rid of them is fire. Lots of fire. Or just accept that this is their world now, and you're merely a temporary food source.</RadroachEatersDesc>
-<LetterLabelGlowRadDeerPasses>Glowing Rad-Deer Sighting</LetterLabelGlowRadDeerPasses>
-<LetterGlowRadDeerPasses>The wasteland grows brighter - a Glowing Rad-Deer has been spotted in the vicinity. These unique creatures emerged from mutations of ordinary rad-deer exposed to reagents from spilled Nuka-Cola Quantum. Their fur emits a distinctive blue glow, and their bodies produce substances similar in composition to the famous beverage.
+  <LetterLabelGlowRadDeerPasses>Glowing Rad-Deer Sighting</LetterLabelGlowRadDeerPasses>
+  <LetterGlowRadDeerPasses>The wasteland grows brighter - a Glowing Rad-Deer has been spotted in the vicinity. These unique creatures emerged from mutations of ordinary rad-deer exposed to reagents from spilled Nuka-Cola Quantum. Their fur emits a distinctive blue glow, and their bodies produce substances similar in composition to the famous beverage.
 
 Although these creatures are quite dangerous due to their high radiation levels, locals whisper that a tamed glowing rad-deer could become a valuable asset. Rumor has it their metabolism produces unique components that can be used to synthesize an analogue of Nuka-Cola Quantum. Some claim that a properly trained animal could even become a virtually inexhaustible source of raw materials for the legendary drink.
 
 Caution during encounters is mandatory - radiation levels significantly exceed norms, and the horned bearers of such valuable resources are rarely friendly toward strangers. However, for those who find an approach to these creatures, interesting prospects may open up.</LetterGlowRadDeerPasses>
+
 </LanguageData>

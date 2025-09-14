@@ -464,6 +464,81 @@ An employee no longer needs to study tedious textbooks for years or possess any 
 		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
 	</ThingDef> 
   
+  <ThingDef ParentName="FacilitiesBase">
+		<defName>SubBrain</defName>
+		<label>Sub Brain</label>
+		<description>Your "brilliant" guesses are his routine calculations in 3.5 seconds.Now our scientific staff is free for the really important tasks: finding coffee, cleaning test tubes and panicking.</description>
+		<thingClass>SK.Building_Lamp</thingClass>
+		<rotatable>false</rotatable>
+		<graphicData>
+			<texPath>Things/Building/Research/brain</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(0.8)</drawSize>
+			 <drawOffset>(0,0,0.2)</drawOffset>
+			<shadowData>
+				<volume>(0.85, 1.0, 0.85)</volume>
+				<offset>(0,0,0)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.15,0.15,1.7,1.7)</rect>
+			</damageData>
+		</graphicData>
+		<size>(1,1)</size>
+		<canOverlapZones>false</canOverlapZones>
+		<fillPercent>0.35</fillPercent>
+		<designationCategory>Misc</designationCategory>
+		<statBases>
+			<MaxHitPoints>60</MaxHitPoints>
+			<WorkToBuild>300</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>2</Beauty>
+			<Bulk>28</Bulk>
+			<Mass>14</Mass> 
+		</statBases>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+		</stuffCategories>
+		<costStuffCount>40</costStuffCount>
+		<costList>
+			<ComponentIndustrial>5</ComponentIndustrial>
+			<Brain>1</Brain>
+		</costList>
+		<comps>
+		    <li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>250</basePowerConsumption>
+				<shortCircuitInRain>true</shortCircuitInRain>
+			</li>
+			 <li Class="CompProperties_Glower">
+               <glowRadius>8</glowRadius>
+               <glowColor>(80,141,223,0)</glowColor>
+            </li>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.35</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		 <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <isEdifice>false</isEdifice>
+        </building>
+		<designationCategory>Misc</designationCategory>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+	    <clearBuildingArea>false</clearBuildingArea>
+	    <altitudeLayer>BuildingOnTop</altitudeLayer>
+	    <minifiedDef>MinifiedThing</minifiedDef>
+        <passability>PassThroughOnly</passability>
+		<researchPrerequisites>
+			<li>Research_table_B2</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
   
   <ThingDef ParentName="SK_LampBase">
 		<defName>MinesSign</defName>
