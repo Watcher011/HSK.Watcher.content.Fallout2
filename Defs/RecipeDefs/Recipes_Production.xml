@@ -1340,7 +1340,69 @@
 		</recipeUsers>
 	</RecipeDef>  
 
-	
+		<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>BuildHarpoonGun</defName>
+		<label>Build Harpoon Gun</label>
+		<description>Unconventional Harpoon Gun.</description>
+		<jobString>Building Harpoon Gun.</jobString>
+		<workAmount>17000</workAmount>
+		<skillRequirements>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Pistol_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Pipe</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>40</count>
+			</li>
+		</ingredients>
+		<products>
+			<Fallout_HarpoonGun>1</Fallout_HarpoonGun>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Pistol_Component</li>
+				<li>Weapon_Parts</li>
+				<li>Pipe</li>
+				<li>Metallic</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>TableFalloutElectronics</li>
+			<li>FabricationBench</li>
+		</recipeUsers>
+	</RecipeDef>  
 	
 	<RecipeDef>
 		<defName>MakeFalloutJet</defName>

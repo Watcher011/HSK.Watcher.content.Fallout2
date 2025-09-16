@@ -263,6 +263,10 @@
   <Fallout_Flamethrower.description>"이 야만적인 세계에 문명을 전파할 누군가는 필요하지. 야만인들이 말을 이해하지 못한다면, 네이팜을 통해 이해시켜 주마."
 이 겸손한 장비는 2077년부터 당신의 문제들을 바삭한 숯으로 만들어 왔습니다! 적들이 도망가나? 문제 없어 - 액체 태양의 흐름으로 추적하라! 추운 황무지의 밤을 따뜻하게 보내고 싶나? 그냥 가장 가까운 오두막에 불을 지르면 돼 - 이제 그것이 당신의 개인용 난로다!</Fallout_Flamethrower.description>
 
+ <Fallout_HarpoonGun.label>작살총</Fallout_HarpoonGun.label>
+<Fallout_HarpoonGun.description>포경선에서 빌려온 작살 발사기로, 파 하버의 뮤턴트에 대한 믿음직한 방어 수단입니다.</Fallout_HarpoonGun.description>
+<Fallout_HarpoonGun.tools.0.label>총신</Fallout_HarpoonGun.tools.0.label>
+
 
   <!--<Fallout_FlamethrowerLastWarning.label>화염방사기 "마지막 경고"</Fallout_FlamethrowerLastWarning.label>-->
   <!--<Fallout_FlamethrowerLastWarning.description>"야만적인 이 세상에 문명을 가져다줄 누군가는 필요하니까. 말을 이해하지 못하는 야만인들이라면 네이팜을 통해 이해시켜 주자."

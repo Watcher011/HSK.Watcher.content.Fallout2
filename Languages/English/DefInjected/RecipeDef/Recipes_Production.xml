@@ -73,6 +73,10 @@
   <BuildFlamethrowerLastWarning.description>Unconventional flamethrower Last Warning.</BuildFlamethrowerLastWarning.description>
   <BuildFlamethrowerLastWarning.jobString>Building Flamethrower Last Warning.</BuildFlamethrowerLastWarning.jobString>
 
+  <BuildHarpoonGun.label>Build Harpoon Gun</BuildHarpoonGun.label>
+  <BuildHarpoonGun.description>Unconventional Harpoon Gun.</BuildHarpoonGun.description>
+  <BuildHarpoonGun.jobString>Building Harpoon Gun.</BuildHarpoonGun.jobString>
+
   <MakeFalloutJet.label>Make Jet x4</MakeFalloutJet.label>
   <MakeFalloutJet.description>Make Jet.</MakeFalloutJet.description>
   <MakeFalloutJet.jobString>Make Jet.</MakeFalloutJet.jobString>

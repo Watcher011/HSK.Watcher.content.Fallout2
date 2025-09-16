@@ -1686,4 +1686,73 @@ This humble unit has been turning your problems into crispy coals since 2077! En
 			<li>RewardStandardHighFreq</li>
 		</thingSetMakerTags>
 	</ThingDef>
+	
+	
+	<ThingDef ParentName="BaseGun_Fallout">
+		<defName>Fallout_HarpoonGun</defName>
+		<label>Harpoon Gun</label>
+        <description>A harpoon launcher borrowed from a whaling ship, Far Harbor's reliable defense against mutants.</description>
+		<graphicData>
+			<texPath>Things/Weapons/HarpoonGun</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Interact_Revolver</soundInteract>
+		<statBases>
+			<MarketValue>50</MarketValue>
+			<SightsEfficiency>0.6</SightsEfficiency>
+			<ShotSpread>0.09</ShotSpread>
+			<SwayFactor>1.4</SwayFactor>
+			<RangedWeapon_Cooldown>0.46</RangedWeapon_Cooldown>
+			<Bulk>2.2</Bulk>
+			<Mass>1.65</Mass>
+			 <MaxHitPoints>30</MaxHitPoints>
+		</statBases>
+		<weaponTags>
+			<li>PT1</li>
+			<li>Gun</li>
+		    <li>VaultecGunHandmade</li>
+			<li>CE_Sidearm</li>
+		</weaponTags>
+		<weaponClasses>
+		  <li>RangedLight</li>
+		</weaponClasses>
+		<thingCategories>
+			 <li>Rifles</li>
+		</thingCategories>
+		<verbs>
+			<li Class="CombatExtended.VerbPropertiesCE">
+				<verbClass>CombatExtended.Verb_ShootCE</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>Projectile_BalistaBolt</defaultProjectile>
+				<warmupTime>0.90</warmupTime>
+				<ticksBetweenBurstShots>3</ticksBetweenBurstShots>
+				<burstShotCount>1</burstShotCount>
+				<range>25</range>
+					<soundCast>Bow_Large</soundCast>
+				<soundCastTail>GunTail_Light</soundCastTail>
+				<muzzleFlashScale>9</muzzleFlashScale>
+			</li>
+		</verbs>
+		<comps>
+			<li Class="CombatExtended.CompProperties_FireModes">
+				<aiUseBurstMode>FALSE</aiUseBurstMode>
+				<aiAimMode>AimedShot</aiAimMode>
+			</li>
+			<li Class="CombatExtended.CompProperties_AmmoUser">
+				<magazineSize>4</magazineSize>
+				<reloadTime>1.5</reloadTime>
+				<ammoSet>AmmoSet_Balista</ammoSet>
+			</li>
+		</comps>
+		<modExtensions>
+		  <li Class="CombatExtended.GunDrawExtension">
+			<DrawSize>1.2</DrawSize>
+		  </li>
+		</modExtensions>
+		<smeltProducts>
+			<Pistol_Component>1</Pistol_Component>
+			<Weapon_Parts>1</Weapon_Parts>
+			<Pipe>1</Pipe>
+		</smeltProducts>
+	</ThingDef>
 </Defs>
