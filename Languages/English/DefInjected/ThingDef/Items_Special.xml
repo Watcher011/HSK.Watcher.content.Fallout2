@@ -90,5 +90,8 @@ P.S. Legal reminder: "Plan D" is not a plan, medicine, or edible product (despit
   <Brain.label>Brain</Brain.label>
   <Brain.description>A human Brain.</Brain.description>
 
+  <WaterChip.label>Aqua-Purification Chip</WaterChip.label>
+  <WaterChip.description>The Aqua-Purification Chip is a patented electronic circuit from Vault-Tec Corporation, critical to the operation of the Water Recycling and Purification System (Waste Ripper). This device is responsible for fine filtration, removing radionuclides and bio-agent cocktails from water, as well as 99.8% of the taste and color of urine, making it suitable for repeated consumption over a 180-year cycle.Without this chip, your Vault faces an unenviable fate: from slow and painful dehydration to a quick and cheerful transformation into a puddle of radioactive slime due to a malfunction in the nuclear reactor's cooling system. Remember: the chip is life! At least, that's what Article 45-b of your Vault's Regulations says.</WaterChip.description>
+
 
 </LanguageData>

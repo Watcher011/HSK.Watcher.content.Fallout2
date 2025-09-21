@@ -252,9 +252,10 @@
   <Fallout_Flamethrower.description>"Потому что кто-то должен нести цивилизацию в этот варварский мир. И если варвары не понимают слов — они поймут напалм."
 Эта скромная установка превращает ваши проблемы в угольки с 2077 года! Враги бегут? Не проблема — догоните их струёй жидкого солнца! Хотите согреться холодным пустошным вечером? Просто подожгите ближайшую хижину — теперь это ваш личный камин!</Fallout_Flamethrower.description>
 
- <Fallout_HarpoonGun.label>Гарпунное ружьё</Fallout_HarpoonGun.label>
-<Fallout_HarpoonGun.description>Гарпунная установка, позаимствованная у китобойного судна, надёжная защита Фар-Харбора от мутантов.</Fallout_HarpoonGun.description>
-<Fallout_HarpoonGun.tools.0.label>ствол</Fallout_HarpoonGun.tools.0.label>
+  <Fallout_HarpoonGun.label>Гарпунное ружьё</Fallout_HarpoonGun.label>
+  <Fallout_HarpoonGun.description>Гарпунная установка, позаимствованная у китобойного судна, надёжная защита Фар-Харбора от мутантов.</Fallout_HarpoonGun.description>
+  <Fallout_HarpoonGun.tools.0.label>ствол</Fallout_HarpoonGun.tools.0.label>
+
 
   <!--<Fallout_FlamethrowerLastWarning.label>Огнемет "Последнее предупреждение"</Fallout_FlamethrowerLastWarning.label>-->
   <!--<Fallout_FlamethrowerLastWarning.description>«Потому что кто-то должен принести цивилизацию в этот варварский мир. А если варвары не понимают слов, то поймут напалм».

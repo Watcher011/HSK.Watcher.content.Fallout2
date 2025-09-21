@@ -20,5 +20,24 @@
 		</operations>
 		
 	</Operation>
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WaterTreatment"]/description</xpath>
+		<value>
+			<description>Your water won't just be safe—it'll have a subtle taste of Vault-Tec's victory over the laws of physics! IMPORTANT: A functioning Water Chip is REQUIRED for this complex device to function. Without this key component, the system can only roughly filter out sand and glass fragments, leaving behind all the delights of radioactive fallout and mutagenic strains.</description>
+		</value>
+	 </Operation>
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="WaterTreatment"]/costList</xpath>
+		<value>
+			<costList>
+				<ComponentIndustrial>30</ComponentIndustrial>
+			    <ElectronicComponents>10</ElectronicComponents>
+			    <Mechanism>15</Mechanism>
+				 <WaterChip>1</WaterChip>
+			</costList>
+		</value>
+	</Operation>
 
 </Patch>

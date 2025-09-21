@@ -74,8 +74,8 @@
   <BuildFlamethrowerLastWarning.jobString>Производство огнемёта "Последнее предупреждение".</BuildFlamethrowerLastWarning.jobString>
 
   <BuildHarpoonGun.label>Создание гарпунного ружья</BuildHarpoonGun.label>
-<BuildHarpoonGun.description>Нестандартное гарпунное ружье.</BuildHarpoonGun.description>
-<BuildHarpoonGun.jobString>Создание гарпуна.</BuildHarpoonGun.jobString>
+  <BuildHarpoonGun.description>Нестандартное гарпунное ружье.</BuildHarpoonGun.description>
+  <BuildHarpoonGun.jobString>Создание гарпуна.</BuildHarpoonGun.jobString>
 
   <MakeFalloutJet.label>Изготовить Винт x4</MakeFalloutJet.label>
   <MakeFalloutJet.description>Изготовить наркотик Винт.</MakeFalloutJet.description>
