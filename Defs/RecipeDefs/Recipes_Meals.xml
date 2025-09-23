@@ -528,4 +528,52 @@
 			<li>Campfirewastelands</li>
 		</recipeUsers>
 	</RecipeDef>
+	
+	
+	 <RecipeDef>
+    <defName>ExtractTheBrain</defName>
+    <label>Extract the brain</label>
+    <description>Open the skull to remove the brain.</description>
+    <jobString>remove the brain.</jobString>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+	<recipeUsers>
+			<li>ButcherSpot</li>
+			<li>TableKitchen</li>
+			<li>TableButcher</li>
+	</recipeUsers>
+   <ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Skull</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Glass</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>HemogenPack</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+    <products>
+      <Brain>1</Brain>
+    </products>
+    <workSkill>Cooking</workSkill>
+    <displayPriority>100</displayPriority>
+  </RecipeDef>
 </Defs>

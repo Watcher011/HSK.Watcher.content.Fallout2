@@ -9,5 +9,12 @@
   <FalloutSmallGenerator.label>Генератор Волт-Тек Марк III</FalloutSmallGenerator.label>
   <FalloutSmallGenerator.description>"Не пытайтесь ремонтировать генератор без лицензированного специалиста (если найдёте живого). Любые травмы, полученные при эксплуатации, являются результатом халатности пользователя, а не нашего гениального дизайна!"(Примечание: вероятность смертельного исхода снижается на 2%, если перед работой прочитать молитву Тоду Говарду.)</FalloutSmallGenerator.description>
 
+  <FalloutTeslaNova.label>Генератор "Тесла-Нова" от Vault-Tec</FalloutTeslaNova.label>
+  <FalloutTeslaNova.description>Научный прорыв в прозрачной колбе!
+Стабильный (условно стабильный*) сгусток высокоэнергетической плазмы заключён в герметичный контейнер из боевого плексигласа, устойчивого к дульному заряду лазерной винтовки. Наши учёные, жертвуя сном и мерами предосторожности, добились квантовой синхронизации разрядов, создав не только гипнотизирующее зрелище, но и источник постоянной энергии!</FalloutTeslaNova.description>
+
+
+  <!--<FalloutTeslaGenerator.label>Vault-Tec Mark II generator</FalloutTeslaGenerator.label>-->
+  <!--<FalloutTeslaGenerator.description>"Do not attempt to repair the generator without a licensed technician (if you find one alive). Any injuries sustained during operation are the result of the user's negligence, not our ingenious design!"(Note: The chance of death is reduced by 2% if you recite the Tom Howard prayer before working.)</FalloutTeslaGenerator.description>-->
 
 </LanguageData>

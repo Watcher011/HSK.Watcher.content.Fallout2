@@ -15,6 +15,7 @@
 		    <li>VaultLamp</li>
 			 <li>TritiumLamp</li>
 			<li>Constructionlamp</li>
+			<li>VaultLampFirefly</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>
 	</ArchitectSense.DesignationSubCategoryDef>
@@ -26,6 +27,7 @@
 		<description>Electric Generator Set.</description>
 		<defNames>
 		    <li>VaultTecPortableGenerator</li>
+			<li>FalloutTeslaNova</li>
 			<li>FalloutSmallGenerator</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>
@@ -74,6 +76,7 @@
 		   <li>Fallout_FlamethrowerLastWarning_Turret</li>
 			<li>Fallout_laser_Turret</li>
 			<li>Fallout_Turret_Turret</li>
+			<li>Fallout_Turret_HeavyTurret</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>
 		<debug>false</debug>
@@ -99,6 +102,17 @@
 			<li>MinesSign</li>
 			<li>SnipersSign</li>
 			<li>TurretSign</li>
+		</defNames>
+		<designationCategory>VaultTec</designationCategory>
+		<debug>false</debug>
+	</ArchitectSense.DesignationSubCategoryDef>
+	
+	 <ArchitectSense.DesignationSubCategoryDef>
+		<defName>SubCategory_VaultecDoors</defName>
+		<label>Vault-Tec Doors</label>
+		<description>Vault-Tec Doors.</description>
+		<defNames>
+			<li>VaultTecSecureLok</li>
 		</defNames>
 		<designationCategory>VaultTec</designationCategory>
 		<debug>false</debug>

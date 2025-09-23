@@ -73,6 +73,10 @@
   <BuildFlamethrowerLastWarning.description>"마지막 경고" 화염방사기</BuildFlamethrowerLastWarning.description>
   <BuildFlamethrowerLastWarning.jobString>"마지막 경고" 화염방사기 제작 중...</BuildFlamethrowerLastWarning.jobString>
 
+  <BuildHarpoonGun.label>작살총 제작</BuildHarpoonGun.label>
+  <BuildHarpoonGun.description>독창적인 작살총.</BuildHarpoonGun.description>
+  <BuildHarpoonGun.jobString>작살총 제작.</BuildHarpoonGun.jobString>
+
   <MakeFalloutJet.label>제트 x4 제작</MakeFalloutJet.label>
   <MakeFalloutJet.description>제트 마약을 제작합니다.</MakeFalloutJet.description>
   <MakeFalloutJet.jobString>제트 제작 중.</MakeFalloutJet.jobString>

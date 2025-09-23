@@ -167,8 +167,8 @@
 			<soundExplode>Explosion_GiantBomb</soundExplode>
 			<soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
 			<soundAmbient>MortarRound_Ambient</soundAmbient>
-			<postExplosionSpawnThingDef>BottleCap</postExplosionSpawnThingDef>
-			<postExplosionSpawnChance>0.2</postExplosionSpawnChance>
+			<postExplosionSpawnThingDef>Filth_Cap</postExplosionSpawnThingDef>
+			<postExplosionSpawnChance>0.5</postExplosionSpawnChance>
 			<shellingProps>
 				<damage>0.85</damage>
 			</shellingProps>

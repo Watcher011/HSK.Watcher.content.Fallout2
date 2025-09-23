@@ -181,5 +181,62 @@
   <Brahmin.labelFemale>암컷 브라민</Brahmin.labelFemale>
   <Brahmin.labelFemalePlural>암컷 브라민들</Brahmin.labelFemalePlural>
 
+  <RadDeer.label>방사능 사슴</RadDeer.label>
+  <RadDeer.labelPlural>방사능 사슴</RadDeer.labelPlural>
+  <RadDeer.lifeStages.0.label>방사능 사슴</RadDeer.lifeStages.0.label>
+  <RadDeer.lifeStages.0.labelPlural>방사능 사슴</RadDeer.lifeStages.0.labelPlural>
+  <RadDeer.lifeStages.0.labelMale>방사능 수사슴</RadDeer.lifeStages.0.labelMale>
+  <RadDeer.lifeStages.0.labelMalePlural>방사능 수사슴</RadDeer.lifeStages.0.labelMalePlural>
+  <RadDeer.lifeStages.0.labelFemale>방사능 암사슴</RadDeer.lifeStages.0.labelFemale>
+  <RadDeer.lifeStages.0.labelFemalePlural>방사능 암사슴</RadDeer.lifeStages.0.labelFemalePlural>
+  <RadDeer.lifeStages.1.label>방사능 사슴</RadDeer.lifeStages.1.label>
+  <RadDeer.lifeStages.1.labelPlural>방사능 사슴</RadDeer.lifeStages.1.labelPlural>
+  <RadDeer.lifeStages.1.labelMale>방사능 수사슴</RadDeer.lifeStages.1.labelMale>
+  <RadDeer.lifeStages.1.labelMalePlural>방사능 수사슴</RadDeer.lifeStages.1.labelMalePlural>
+  <RadDeer.lifeStages.1.labelFemale>방사능 암사슴</RadDeer.lifeStages.1.labelFemale>
+  <RadDeer.lifeStages.1.labelFemalePlural>방사능 암사슴</RadDeer.lifeStages.1.labelFemalePlural>
+  <RadDeer.lifeStages.2.label>방사능 사슴</RadDeer.lifeStages.2.label>
+  <RadDeer.lifeStages.2.labelPlural>방사능 사슴</RadDeer.lifeStages.2.labelPlural>
+  <RadDeer.lifeStages.2.labelMale>방사능 수사슴</RadDeer.lifeStages.2.labelMale>
+  <RadDeer.lifeStages.2.labelMalePlural>방사능 수사슴</RadDeer.lifeStages.2.labelMalePlural>
+  <RadDeer.lifeStages.2.labelFemale>방사능 암사슴</RadDeer.lifeStages.2.labelFemale>
+  <RadDeer.lifeStages.2.labelFemalePlural>방사능 암사슴</RadDeer.lifeStages.2.labelFemalePlural>
+  <RadDeer.labelMale>방사능 수사슴</RadDeer.labelMale>
+  <RadDeer.labelMalePlural>방사능 수사슴</RadDeer.labelMalePlural>
+  <RadDeer.labelFemale>방사능 암사슴</RadDeer.labelFemale>
+  <RadDeer.labelFemalePlural>방사능 암사슴</RadDeer.labelFemalePlural>
+
+  <GlowRadDeer.label>발광 방사능 사슴</GlowRadDeer.label>
+  <GlowRadDeer.labelPlural>발광 방사능 사슴</GlowRadDeer.labelPlural>
+  <GlowRadDeer.labelMale>발광 방사능 수사슴</GlowRadDeer.labelMale>
+  <GlowRadDeer.labelMalePlural>발광 방사능 수사슴</GlowRadDeer.labelMalePlural>
+  <GlowRadDeer.labelFemale>발광 방사능 암사슴</GlowRadDeer.labelFemale>
+  <GlowRadDeer.labelFemalePlural>발광 방사능 암사슴</GlowRadDeer.labelFemalePlural>
+
+  <MoleRat.label>두더지 쥐</MoleRat.label>
+  <MoleRat.labelPlural>두더지 쥐들</MoleRat.labelPlural>
+  <MoleRat.lifeStages.0.label>두더지 쥐</MoleRat.lifeStages.0.label>
+  <MoleRat.lifeStages.0.labelPlural>두더지 쥐들</MoleRat.lifeStages.0.labelPlural>
+  <MoleRat.lifeStages.0.labelMale>수컷 두더지 쥐</MoleRat.lifeStages.0.labelMale>
+  <MoleRat.lifeStages.0.labelMalePlural>수컷 두더지 쥐들</MoleRat.lifeStages.0.labelMalePlural>
+  <MoleRat.lifeStages.0.labelFemale>암컷 두더지 쥐</MoleRat.lifeStages.0.labelFemale>
+  <MoleRat.lifeStages.0.labelFemalePlural>암컷 두더지 쥐들</MoleRat.lifeStages.0.labelFemalePlural>
+  <MoleRat.lifeStages.1.label>두더지 쥐</MoleRat.lifeStages.1.label>
+  <MoleRat.lifeStages.1.labelPlural>두더지 쥐들</MoleRat.lifeStages.1.labelPlural>
+  <MoleRat.lifeStages.1.labelMale>수컷 두더지 쥐</MoleRat.lifeStages.1.labelMale>
+  <MoleRat.lifeStages.1.labelMalePlural>수컷 두더지 쥐들</MoleRat.lifeStages.1.labelMalePlural>
+  <MoleRat.lifeStages.1.labelFemale>암컷 두더지 쥐</MoleRat.lifeStages.1.labelFemale>
+  <MoleRat.lifeStages.1.labelFemalePlural>암컷 두더지 쥐들</MoleRat.lifeStages.1.labelFemalePlural>
+  <MoleRat.lifeStages.2.label>두더지 쥐</MoleRat.lifeStages.2.label>
+  <MoleRat.lifeStages.2.labelPlural>두더지 쥐들</MoleRat.lifeStages.2.labelPlural>
+  <MoleRat.lifeStages.2.labelMale>수컷 두더지 쥐</MoleRat.lifeStages.2.labelMale>
+  <MoleRat.lifeStages.2.labelMalePlural>수컷 두더지 쥐들</MoleRat.lifeStages.2.labelMalePlural>
+  <MoleRat.lifeStages.2.labelFemale>암컷 두더지 쥐</MoleRat.lifeStages.2.labelFemale>
+  <MoleRat.lifeStages.2.labelFemalePlural>암컷 두더지 쥐들</MoleRat.lifeStages.2.labelFemalePlural>
+  <MoleRat.labelMale>수컷 두더지 쥐</MoleRat.labelMale>
+  <MoleRat.labelMalePlural>수컷 두더지 쥐들</MoleRat.labelMalePlural>
+  <MoleRat.labelFemale>암컷 두더지 쥐</MoleRat.labelFemale>
+  <MoleRat.labelFemalePlural>암컷 두더지 쥐들</MoleRat.labelFemalePlural>
+
 
 </LanguageData>

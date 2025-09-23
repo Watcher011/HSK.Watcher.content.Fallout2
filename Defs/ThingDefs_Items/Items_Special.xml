@@ -528,4 +528,68 @@ P.S. Legal reminder: "Plan D" is not a plan, medicine, or edible product (despit
 			</li>
 		</comps> 
 	</ThingDef>
+	
+	
+	<ThingDef ParentName="RelicInertBase">
+    <defName>Brain</defName>
+    <label>Brain</label>
+    <description>A human Brain.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/Brain</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.75, 0.75)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <rotatable>false</rotatable>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <statBases>
+      <Mass>1.5</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>5</MarketValue>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_HasSources"/>
+      <li>
+        <compClass>CompHarbingerTreeConsumable</compClass>
+      </li>
+    </comps>
+  </ThingDef>
+  
+  
+  	<ThingDef ParentName="RelicInertBase">
+    <defName>WaterChip</defName>
+    <label>Aqua-Purification Chip</label>
+    <description>The Aqua-Purification Chip is a patented electronic circuit from Vault-Tec Corporation, critical to the operation of the Water Recycling and Purification System (Waste Ripper). This device is responsible for fine filtration, removing radionuclides and bio-agent cocktails from water, as well as 99.8% of the taste and color of urine, making it suitable for repeated consumption over a 180-year cycle.Without this chip, your Vault faces an unenviable fate: from slow and painful dehydration to a quick and cheerful transformation into a puddle of radioactive slime due to a malfunction in the nuclear reactor's cooling system. Remember: the chip is life! At least, that's what Article 45-b of your Vault's Regulations says.</description>
+    <possessionCount>1</possessionCount>
+    <graphicData>
+      <texPath>Things/Item/WaterChip</texPath>
+     <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(0.75, 0.75)</drawSize>
+    </graphicData>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <tradeNeverStack>true</tradeNeverStack>
+    <useHitPoints>true</useHitPoints>
+    <rotatable>false</rotatable>
+    <tickerType>Rare</tickerType>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+	<tradeTags>
+	<li>Exotic</li>
+	<li>ExoticMisc</li>
+   </tradeTags>
+    <statBases>
+      <Mass>1.5</Mass>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>500</MarketValue>
+      <DeteriorationRate>1</DeteriorationRate>
+    </statBases>
+  </ThingDef>
 </Defs>

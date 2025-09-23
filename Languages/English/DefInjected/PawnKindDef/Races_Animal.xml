@@ -181,5 +181,62 @@
   <Brahmin.labelFemale>female Brahmin</Brahmin.labelFemale>
   <Brahmin.labelFemalePlural>female Brahmins</Brahmin.labelFemalePlural>
 
+  <RadDeer.label>RadDeer</RadDeer.label>
+  <RadDeer.labelPlural>RadDeer</RadDeer.labelPlural>
+  <RadDeer.lifeStages.0.label>RadDeer</RadDeer.lifeStages.0.label>
+  <RadDeer.lifeStages.0.labelPlural>RadDeer</RadDeer.lifeStages.0.labelPlural>
+  <RadDeer.lifeStages.0.labelMale>Rad buck</RadDeer.lifeStages.0.labelMale>
+  <RadDeer.lifeStages.0.labelMalePlural>male RadDeers</RadDeer.lifeStages.0.labelMalePlural>
+  <RadDeer.lifeStages.0.labelFemale>Rad doe</RadDeer.lifeStages.0.labelFemale>
+  <RadDeer.lifeStages.0.labelFemalePlural>female RadDeers</RadDeer.lifeStages.0.labelFemalePlural>
+  <RadDeer.lifeStages.1.label>RadDeer</RadDeer.lifeStages.1.label>
+  <RadDeer.lifeStages.1.labelPlural>RadDeer</RadDeer.lifeStages.1.labelPlural>
+  <RadDeer.lifeStages.1.labelMale>Rad buck</RadDeer.lifeStages.1.labelMale>
+  <RadDeer.lifeStages.1.labelMalePlural>male RadDeers</RadDeer.lifeStages.1.labelMalePlural>
+  <RadDeer.lifeStages.1.labelFemale>Rad doe</RadDeer.lifeStages.1.labelFemale>
+  <RadDeer.lifeStages.1.labelFemalePlural>female RadDeers</RadDeer.lifeStages.1.labelFemalePlural>
+  <RadDeer.lifeStages.2.label>RadDeer</RadDeer.lifeStages.2.label>
+  <RadDeer.lifeStages.2.labelPlural>RadDeer</RadDeer.lifeStages.2.labelPlural>
+  <RadDeer.lifeStages.2.labelMale>Rad buck</RadDeer.lifeStages.2.labelMale>
+  <RadDeer.lifeStages.2.labelMalePlural>male RadDeers</RadDeer.lifeStages.2.labelMalePlural>
+  <RadDeer.lifeStages.2.labelFemale>Rad doe</RadDeer.lifeStages.2.labelFemale>
+  <RadDeer.lifeStages.2.labelFemalePlural>female RadDeers</RadDeer.lifeStages.2.labelFemalePlural>
+  <RadDeer.labelMale>Rad buck</RadDeer.labelMale>
+  <RadDeer.labelMalePlural>male RadDeer</RadDeer.labelMalePlural>
+  <RadDeer.labelFemale>Rad doe</RadDeer.labelFemale>
+  <RadDeer.labelFemalePlural>female RadDeer</RadDeer.labelFemalePlural>
+
+  <GlowRadDeer.label>GlowRadDeer</GlowRadDeer.label>
+  <GlowRadDeer.labelPlural>GlowRadDeer</GlowRadDeer.labelPlural>
+  <GlowRadDeer.labelMale>Glow Rad buck</GlowRadDeer.labelMale>
+  <GlowRadDeer.labelMalePlural>male GlowRadDeer</GlowRadDeer.labelMalePlural>
+  <GlowRadDeer.labelFemale>Glow Rad doe</GlowRadDeer.labelFemale>
+  <GlowRadDeer.labelFemalePlural>female GlowRadDeer</GlowRadDeer.labelFemalePlural>
+
+  <MoleRat.label>Mole Rat</MoleRat.label>
+  <MoleRat.labelPlural>Mole Rats</MoleRat.labelPlural>
+  <MoleRat.lifeStages.0.label>Mole Rat</MoleRat.lifeStages.0.label>
+  <MoleRat.lifeStages.0.labelPlural>Mole Rat</MoleRat.lifeStages.0.labelPlural>
+  <MoleRat.lifeStages.0.labelMale>male Mole Rat</MoleRat.lifeStages.0.labelMale>
+  <MoleRat.lifeStages.0.labelMalePlural>male Mole Rats</MoleRat.lifeStages.0.labelMalePlural>
+  <MoleRat.lifeStages.0.labelFemale>female Mole Rat</MoleRat.lifeStages.0.labelFemale>
+  <MoleRat.lifeStages.0.labelFemalePlural>female Mole Rats</MoleRat.lifeStages.0.labelFemalePlural>
+  <MoleRat.lifeStages.1.label>Mole Rat</MoleRat.lifeStages.1.label>
+  <MoleRat.lifeStages.1.labelPlural>Mole Rat</MoleRat.lifeStages.1.labelPlural>
+  <MoleRat.lifeStages.1.labelMale>male Mole Rat</MoleRat.lifeStages.1.labelMale>
+  <MoleRat.lifeStages.1.labelMalePlural>male Mole Rats</MoleRat.lifeStages.1.labelMalePlural>
+  <MoleRat.lifeStages.1.labelFemale>female Mole Rat</MoleRat.lifeStages.1.labelFemale>
+  <MoleRat.lifeStages.1.labelFemalePlural>female Mole Rats</MoleRat.lifeStages.1.labelFemalePlural>
+  <MoleRat.lifeStages.2.label>Mole Rat</MoleRat.lifeStages.2.label>
+  <MoleRat.lifeStages.2.labelPlural>Mole Rat</MoleRat.lifeStages.2.labelPlural>
+  <MoleRat.lifeStages.2.labelMale>male Mole Rat</MoleRat.lifeStages.2.labelMale>
+  <MoleRat.lifeStages.2.labelMalePlural>male Mole Rats</MoleRat.lifeStages.2.labelMalePlural>
+  <MoleRat.lifeStages.2.labelFemale>female Mole Rat</MoleRat.lifeStages.2.labelFemale>
+  <MoleRat.lifeStages.2.labelFemalePlural>female Mole Rats</MoleRat.lifeStages.2.labelFemalePlural>
+  <MoleRat.labelMale>male Mole Rat</MoleRat.labelMale>
+  <MoleRat.labelMalePlural>male Mole Rats</MoleRat.labelMalePlural>
+  <MoleRat.labelFemale>female Mole Rat</MoleRat.labelFemale>
+  <MoleRat.labelFemalePlural>female Mole Rats</MoleRat.labelFemalePlural>
+
 
 </LanguageData>

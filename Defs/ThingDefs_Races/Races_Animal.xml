@@ -1276,7 +1276,11 @@
 			<soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
 			<soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
 		</race>
-   <tradeTags>
+		<butcherProducts>
+			<RadHemogenPack>1</RadHemogenPack>
+			<RadMeat>5</RadMeat>
+		</butcherProducts>
+      <tradeTags>
 			<li>AnimalVaultec</li>
 			<li>AnimalCommon</li>
 			<li>AnimalFarm</li>
@@ -1350,5 +1354,561 @@
     </lifeStages>
   </PawnKindDef>
   
+<ThingDef ParentName="AnimalThingBase">
+    <defName>RadDeer</defName>
+    <label>rad deer</label>
+    <devNote>pig-1</devNote>
+    <description>Nature works in mysterious ways! It took a beautiful, noble creature and added a little... zesty radioactive pizzazz. The RadDeer is the perfect product of post-war America: a self-propelled meal that not only fills your stomach but also provides a memorable internal glow without the need for extra lighting!Its meat boasts a unique "fiery" aftertaste that lingers on the tongue from a few hours to several days (depending on the radiation dosage). Perfect for playing kitchen Russian roulette: you'll either cook a steak or a self-immolating blob of toxic waste!</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>250</MarketValue>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <FilthRate>16</FilthRate>
+    </statBases>
+    <uiIconScale>1.25</uiIconScale>
+    <tools>
+      <li>
+        <label>left hoof</label>
+        <labelNoLocation>hoof</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <labelNoLocation>hoof</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithHooves</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>0.9</baseHealthScale>
+      <baseHungerRate>0.2</baseHungerRate>
+	  	<predator>true</predator>
+		<maxPreyBodySize>2.5</maxPreyBodySize>
+		<executionRange>40</executionRange>
+		<overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+        <disableIgniteVerb>false</disableIgniteVerb>
+	    <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+		<nuzzleMtbHours>36</nuzzleMtbHours>
+      <leatherDef>Leather_Plain</leatherDef>
+      <meatLabel>venison</meatLabel>
+      <wildness>0.75</wildness>
+      <roamMtbDays>2</roamMtbDays>
+	  <manhunterOnDamageChance>0.3</manhunterOnDamageChance>
+	  <manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
+      <gestationPeriodDays>5.661</gestationPeriodDays>
+      <lifeExpectancy>15</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.1</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3333</minAge>
+          <soundWounded>Pawn_Deer_Wounded</soundWounded>
+          <soundDeath>Pawn_Deer_Death</soundDeath>
+          <soundCall>Pawn_Deer_Call</soundCall>
+          <soundAngry>Pawn_Deer_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <soundEating>Herbivore_Eat</soundEating>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.2)</li>
+        <li>(0.25, 0, 0.12)</li>
+        <li>(0.0, 0, 0.05)</li>
+        <li>(-0.25, 0, 0.12)</li>
+      </headPosPerRotation>
+    </race>
+    <tradeTags>
+      <li>AnimalCommon</li>
+	  <li>AnimalVaultec</li>
+    </tradeTags>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>RadDeer</defName>
+    <label>RadDeer</label>
+    <labelPlural>RadDeer</labelPlural>
+    <race>RadDeer</race>
+    <combatPower>50</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+    <wildGroupSize>3~9</wildGroupSize>
+    <labelMale>Rad buck</labelMale>
+    <labelFemale>Rad doe</labelFemale>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/RadDeer/RadDeerBaby</texPath>
+          <drawSize>1.375</drawSize>
+          <color>(170,170,170)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+           <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>1.1</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/RadDeer/RadDeerBaby</texPath>
+          <drawSize>1.875</drawSize>
+		   <color>(170,170,170)</color>
+          <shadowData>
+            <volume>(0.3, 0.3, 0.3)</volume>
+            <offset>(0,0,-0.3)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+            <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>1.875</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/RadDeer/RadDeerMale</texPath>
+          <drawSize>2.25</drawSize>
+		   <color>(170,170,170)</color>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/RadDeer/RadDeerFemale</texPath>
+          <drawSize>2.25</drawSize>
+		   <color>(170,170,170)</color>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+           <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>3.6</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>1.8</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
 
+  
+<ThingDef ParentName="AnimalThingBase">
+    <defName>GlowRadDeer</defName>
+    <label>Glow rad deer</label>
+    <devNote>pig-1</devNote>
+    <description>Forget about bloatflies and even cazadores. This guy is a real walking, snorting, cactus-chewing legend. Rumor has it, the first herd of these beauties appeared after a Nuka-Cola truck hauling a shipment of Quantum crashed right into a canyon where some regular rad-deer were hanging out. The result? A perfect symbiosis of fauna and a carbonated time bomb.</description>
+    <statBases>
+      <MoveSpeed>5.5</MoveSpeed>
+      <MarketValue>250</MarketValue>
+      <ComfyTemperatureMin>-30</ComfyTemperatureMin>
+      <FilthRate>16</FilthRate>
+    </statBases>
+    <uiIconScale>1.25</uiIconScale>
+    <tools>
+      <li>
+        <label>left hoof</label>
+        <labelNoLocation>hoof</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontLeftLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>right hoof</label>
+        <labelNoLocation>hoof</labelNoLocation>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>7</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>FrontRightLeg</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>teeth</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.5</chanceFactor>
+      </li>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
+		<comps>
+			<li Class="CompProperties_Milkable">
+				<milkDef>NukaColaQuantum</milkDef>
+				<milkIntervalDays>1</milkIntervalDays>
+				<milkAmount>3</milkAmount>
+			</li>
+			 <li Class="Flashlight.CompProperties_GlowingPawn">
+                <lightRange>4</lightRange>
+                <lightColorString>(50.50.205.1)</lightColorString>
+            </li>
+			<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>1037</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+			</li>
+		</comps>
+    <race>
+      <body>QuadrupedAnimalWithHooves</body>
+      <herdAnimal>true</herdAnimal>
+      <baseBodySize>1.2</baseBodySize>
+      <baseHealthScale>0.9</baseHealthScale>
+      <baseHungerRate>0.2</baseHungerRate>
+	  	<predator>true</predator>
+		<maxPreyBodySize>2.5</maxPreyBodySize>
+		<executionRange>40</executionRange>
+		<overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+        <disableIgniteVerb>false</disableIgniteVerb>
+	    <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+		<nuzzleMtbHours>36</nuzzleMtbHours>
+      <leatherDef>Leather_Plain</leatherDef>
+      <meatLabel>venison</meatLabel>
+      <wildness>0.75</wildness>
+      <roamMtbDays>2</roamMtbDays>
+	  <manhunterOnDamageChance>0.3</manhunterOnDamageChance>
+	  <manhunterOnTameFailChance>0.3</manhunterOnTameFailChance>
+      <gestationPeriodDays>5.661</gestationPeriodDays>
+      <lifeExpectancy>15</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.3333</minAge>
+          <soundWounded>Pawn_Deer_Wounded</soundWounded>
+          <soundDeath>Pawn_Deer_Death</soundDeath>
+          <soundCall>Pawn_Deer_Call</soundCall>
+          <soundAngry>Pawn_Deer_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+      <soundEating>Herbivore_Eat</soundEating>
+      <headPosPerRotation>
+        <li>(0.0, 0, 0.2)</li>
+        <li>(0.25, 0, 0.12)</li>
+        <li>(0.0, 0, 0.05)</li>
+        <li>(-0.25, 0, 0.12)</li>
+      </headPosPerRotation>
+    </race>
+	<butcherProducts>
+			<RadHemogenPack>1</RadHemogenPack>
+			<RadMeat>3</RadMeat>
+	</butcherProducts>
+    <tradeTags>
+      <li>AnimalCommon</li>
+	  <li>AnimalVaultec</li>
+    </tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+			<li Class="Flashlight.DefModExtension_Glow">
+             <canGlow>true</canGlow>
+            </li>
+		</modExtensions>
+  </ThingDef>
+  
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>GlowRadDeer</defName>
+    <label>GlowRadDeer</label>
+    <labelPlural>GlowRadDeer</labelPlural>
+    <race>GlowRadDeer</race>
+    <combatPower>50</combatPower>
+    <ecoSystemWeight>0.50</ecoSystemWeight>
+    <wildGroupSize>1~2</wildGroupSize>
+    <labelMale>Glow Rad buck</labelMale>
+    <labelFemale>Glow Rad doe</labelFemale>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/RadDeer/RadstagMale</texPath>
+          <drawSize>2.25</drawSize>
+		   <color>(170,170,170)</color>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <femaleGraphicData>
+          <texPath>Things/Pawn/Animal/RadDeer/RadstagFemale</texPath>
+          <drawSize>2.25</drawSize>
+		   <color>(170,170,170)</color>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.2)</offset>
+          </shadowData>
+        </femaleGraphicData>
+        <dessicatedBodyGraphicData>
+           <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>3.6</drawSize>
+        </dessicatedBodyGraphicData>
+        <femaleDessicatedBodyGraphicData>
+           <texPath>Things/Pawn/Animal/Cow/Dessicated_Bull</texPath>
+          <drawSize>1.8</drawSize>
+        </femaleDessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+  	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>MoleRat</defName>
+		<label>Mole rat</label>
+		<description>The irony is that this failed military project cost millions to create, and now it is the main source of the cheapest and toughest meat in the wasteland. The perfect symbol of the post-war economy: useless, ubiquitous, and disgustingly edible.</description>
+		<statBases>
+			<MoveSpeed>5.0</MoveSpeed>
+			<MarketValue>150</MarketValue>
+			<ComfyTemperatureMin>-15</ComfyTemperatureMin>
+			<ComfyTemperatureMax>55</ComfyTemperatureMax>
+			<MeleeDodgeChance>0.15</MeleeDodgeChance>
+			<MeleeCritChance>0.15</MeleeCritChance>
+			<Mass>6.8</Mass>
+			<FilthRate>1</FilthRate>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>left claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.3</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>1</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>right claw</label>
+				<capacities>
+					<li>Scratch</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.3</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<armorPenetrationBlunt>0.5</armorPenetrationBlunt>
+				<armorPenetrationSharp>1</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>1.3</chanceFactor>
+				<armorPenetrationBlunt>0.8</armorPenetrationBlunt>
+				<armorPenetrationSharp>1.2</armorPenetrationSharp>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>1.5</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>1</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithPawsAndTail</body>
+			<baseBodySize>0.6</baseBodySize>
+			<baseHealthScale>0.4</baseHealthScale>
+			<baseHungerRate>0.34</baseHungerRate>
+			<foodType>Corpse, AnimalProduct, OvivoreAnimal, OmnivoreAnimal</foodType>
+			<useMeatFrom>Elephant</useMeatFrom>
+			<leatherDef>Leather_Light</leatherDef>
+			<wildness>0.40</wildness>
+			<trainability>Intermediate</trainability>
+			<petness>0.30</petness>
+			<mateMtbHours>8</mateMtbHours>
+			<nuzzleMtbHours>24</nuzzleMtbHours>
+			<gestationPeriodDays>6.66</gestationPeriodDays>
+			<manhunterOnTameFailChance>0.29</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.29</manhunterOnDamageChance>
+			<soundEating>Rodent_Eat</soundEating>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(2.5, 1)</li>
+					<li>(3, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>4</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.15</minAge>
+					<soundWounded>Pawn_GuineaPig_Wounded</soundWounded>
+					<soundDeath>Pawn_GuineaPig_Death</soundDeath>
+					<soundCall>Pawn_GuineaPig_Call</soundCall>
+					<soundAngry>Pawn_GuineaPig_Angry</soundAngry>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_GuineaPig_Wounded</soundWounded>
+					<soundDeath>Pawn_GuineaPig_Death</soundDeath>
+					<soundCall>Pawn_GuineaPig_Call</soundCall>
+					<soundAngry>Pawn_GuineaPig_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<headPosPerRotation>
+				<li>(0.0, 0, 0.3)</li>
+				<li>(0.21, 0, 0.02)</li>
+				<li>(0.0, 0, -0.2)</li>
+				<li>(-0.21, 0, 0.02)</li>
+			</headPosPerRotation>
+		</race>
+		<butcherProducts>
+			<RadHemogenPack>1</RadHemogenPack>
+			<RadMeat>1</RadMeat>
+		</butcherProducts>
+		<tradeTags>
+			<li>AnimalPet</li>
+			<li>AnimalUncommon</li>
+			<li>AnimalFarm</li>
+			 <li>AnimalVaultec</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+ 	
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>MoleRat</defName>
+		<label>Mole Rat</label>
+		<race>MoleRat</race>
+		<combatPower>33</combatPower>
+		<ecoSystemWeight>0.22</ecoSystemWeight>
+		<wildGroupSize>3~8</wildGroupSize>
+		<alternateGraphicChance>0.99</alternateGraphicChance>
+		<canArriveManhunter>false</canArriveManhunter>
+		<alternateGraphics>
+			<li>
+				<texPath>Things/Pawn/Animal/MoleRat/MoleRat</texPath>
+			</li>
+			<li>
+				<color>(0.494,0.356,0.164,1)</color>
+			</li>
+			<li>
+				<color>(0.333,0.333,0.333,1)</color>
+			</li>
+		</alternateGraphics>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/MoleRat/MoleRat</texPath>
+					<drawSize>0.5</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/GuineaPig/Dessicated_GuineaPig</texPath>
+					<drawSize>0.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/MoleRat/MoleRat</texPath>
+					<drawSize>0.75</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/GuineaPig/Dessicated_GuineaPig</texPath>
+					<drawSize>0.75</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/MoleRat/MoleRat</texPath>
+					<drawSize>1</drawSize>
+					<shaderType>CutoutComplex</shaderType>
+					<shadowData>
+						<volume>(0.25, 0.3, 0.25)</volume>
+						<offset>(0,0,0)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/GuineaPig/Dessicated_GuineaPig</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 </Defs>

@@ -24,5 +24,8 @@
   <SubCategory_VaultecSign.label>Знаки Волт-Тек</SubCategory_VaultecSign.label>
   <SubCategory_VaultecSign.description>Волт-Тек Знаки.</SubCategory_VaultecSign.description>
 
+  <SubCategory_VaultecDoors.label>Двери Волт-Тек</SubCategory_VaultecDoors.label>
+  <SubCategory_VaultecDoors.description>Волт-Тек Двери.</SubCategory_VaultecDoors.description>
+
 
 </LanguageData>

@@ -12,7 +12,6 @@
 
   <Duten.label>Duten</Duten.label>
   <Duten.description>This masterpiece of radiation creativity was once an ordinary fly. Now it is a walking (or rather, flying) violation of the Wasteland's sanitary standards.</Duten.description>
-  <Duten.verbs.0.label>launch Larva</Duten.verbs.0.label>
   <Duten.tools.0.label>head</Duten.tools.0.label>
 
   <StrangeDuten.label>Strange Duten</StrangeDuten.label>
@@ -40,5 +39,7 @@ try to bake it — bring crispy delicacies with notes of plutonium and a long, v
   <Firefly.description>"Brighter than your future!"These cute little guys are the result of nature saying, "Let's make a firefly, but let's make it not only glow, but also glow.""Lighting your way to genetic disaster!"(Note: Vault-Tec is not responsible for spontaneous mutations, uncontrollable glowing, or sudden ghoul transformations. Though, come to think of it, Vault-Tec is not responsible for anything.)</Firefly.description>
   <Firefly.tools.0.label>head</Firefly.tools.0.label>
 
+
+  <!--<Duten.verbs.0.label>launch Larva</Duten.verbs.0.label>-->
 
 </LanguageData>

@@ -41,5 +41,9 @@
   <Makeporridge.description>приготовьте кашу. Производит 3.</Makeporridge.description>
   <Makeporridge.jobString>Приготовление каши.</Makeporridge.jobString>
 
+  <ExtractTheBrain.label>извлечь мозг</ExtractTheBrain.label>
+  <ExtractTheBrain.description>Вскройте череп, чтобы извлечь мозг.</ExtractTheBrain.description>
+  <ExtractTheBrain.jobString>Извлекает мозг.</ExtractTheBrain.jobString>
+
 
 </LanguageData>

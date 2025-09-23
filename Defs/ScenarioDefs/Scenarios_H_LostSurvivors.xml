@@ -87,8 +87,13 @@
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Fallout_laser_Turret</thingDef>
+          <thingDef>Fallout_Turret_Turret</thingDef>
           <count>3</count>
+        </li>
+		 <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>GECKPump</thingDef>
+          <count>1</count>
         </li>
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
@@ -97,14 +102,10 @@
         </li>
 		 <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
-          <thingDef>Ammo_ChargedLaser</thingDef>
-          <count>800</count>
+          <thingDef>Ammo_556x45mmNATO_FMJ</thingDef>
+          <count>2800</count>
         </li>
-		 <li Class="ScenPart_StartingThing_Defined">
-          <def>StartingThing_Defined</def>
-          <thingDef>PlanD</thingDef>
-          <count>5</count>
-        </li>
+		 
         <li Class="ScenPart_StartingThing_Defined">
           <def>StartingThing_Defined</def>
           <thingDef>TextBook</thingDef>

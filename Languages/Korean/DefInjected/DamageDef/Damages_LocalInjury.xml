@@ -55,4 +55,7 @@
   <FalloutBomb.deathMessage>{0}님이 극심한 열에 의해 증발했습니다.</FalloutBomb.deathMessage>
 
 
+  <!--<RegenGas.label>Regen Gas</RegenGas.label>-->
+  <!--<RegenGas.deathMessage>{0} has been killed.</RegenGas.deathMessage>-->
+
 </LanguageData>

@@ -23,7 +23,12 @@
   <LSS.labelNoun>Y-17:Система жизнеобеспечения</LSS.labelNoun>
 
   <RadAwayConsumed.label>Антирад</RadAwayConsumed.label>
-<RadAwayConsumed.description>Антирад использован</RadAwayConsumed.description>
+  <RadAwayConsumed.description>Антирад использован</RadAwayConsumed.description>
 
+
+  <!--<RegenGasExposure.label>Regen Gas</RegenGasExposure.label>-->
+  <!--<RegenGasExposure.description>Aftereffects of exposure to tox gas, a poisonous chemical gas. It burns the lungs and eyes, causing a temporary shortness of breath and reduction in sight. Continued exposure to tox gas results in toxic buildup and eventually death.</RegenGasExposure.description>-->
+  <!--<RegenGasExposure.stages.0.label>side effect</RegenGasExposure.stages.0.label>-->
+  <!--<RegenGasExposure.stages.1.label>regeneration</RegenGasExposure.stages.1.label>-->
 
 </LanguageData>

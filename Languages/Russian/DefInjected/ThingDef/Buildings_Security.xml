@@ -34,6 +34,12 @@
   <Gun_FlamethrowerLastWarning_Turret.label>Огнеметное ружье</Gun_FlamethrowerLastWarning_Turret.label>
   <Gun_FlamethrowerLastWarning_Turret.description>Огнемет, прикрепленный к башне.</Gun_FlamethrowerLastWarning_Turret.description>
 
+  <Fallout_Turret_HeavyTurret.label>Тяжёлая автоматическая турель</Fallout_Turret_HeavyTurret.label>
+  <Fallout_Turret_HeavyTurret.description>Сдвоенная турель «Мозгосплюй» — это памятник довоенной паранойе, усовершенствованный послевоенным прагматизмом. Данное инженерное чудовище сочетает апокалиптическую мощь сдвоенных тяжелых пулемётов калибра 14.5x114 мм с «стратегическим гением» уцелевшего робомозга.\nКалибр: 14.5x114мм</Fallout_Turret_HeavyTurret.description>
+
+  <Gun_FalloutHeavyTurret.label>Тяжёлый пулемёт охранного комплекса</Gun_FalloutHeavyTurret.label>
+  <Gun_FalloutHeavyTurret.description>Тяжёлый автоматический пулемёт, установленный на турели.</Gun_FalloutHeavyTurret.description>
+
 
   <!-- Башни с ИИ -->
 

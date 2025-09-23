@@ -252,5 +252,9 @@ Do not operate:
   <Fallout_Flamethrower.description>"Because someone has to bring civilization to this barbarian world. And if the barbarians don't understand words, they'll understand napalm."
 This humble unit has been turning your problems into crispy coals since 2077! Enemies on the run? No problem - chase them down with a stream of liquid sun! Want to warm up on a cold wasteland night? Just set the nearest hut on fire - now it's your personal fireplace!</Fallout_Flamethrower.description>
 
+  <Fallout_HarpoonGun.label>Harpoon Gun</Fallout_HarpoonGun.label>
+  <Fallout_HarpoonGun.description>A harpoon launcher borrowed from a whaling ship, Far Harbor's reliable defense against mutants.</Fallout_HarpoonGun.description>
+  <Fallout_HarpoonGun.tools.0.label>barrel</Fallout_HarpoonGun.tools.0.label>
+
 
 </LanguageData>

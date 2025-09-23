@@ -24,5 +24,8 @@
   <SubCategory_VaultecSign.label>볼트-텍 사인</SubCategory_VaultecSign.label>
   <SubCategory_VaultecSign.description>볼트-텍 사인.</SubCategory_VaultecSign.description>
 
+  <SubCategory_VaultecDoors.label>Vault-Tec Doors</SubCategory_VaultecDoors.label>
+  <SubCategory_VaultecDoors.description>Vault-Tec Doors.</SubCategory_VaultecDoors.description>
+
 
 </LanguageData>

@@ -41,5 +41,9 @@
   <Makeporridge.description>cook porridge. Produces 3.</Makeporridge.description>
   <Makeporridge.jobString>Cooking porridge.</Makeporridge.jobString>
 
+  <ExtractTheBrain.label>Extract the brain</ExtractTheBrain.label>
+  <ExtractTheBrain.description>Open the skull to remove the brain.</ExtractTheBrain.description>
+  <ExtractTheBrain.jobString>remove the brain.</ExtractTheBrain.jobString>
+
 
 </LanguageData>

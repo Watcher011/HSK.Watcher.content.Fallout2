@@ -58,7 +58,8 @@
   <Scorponade.ingestible.ingestCommandString>Выпить {0}</Scorponade.ingestible.ingestCommandString>
   <Scorponade.ingestible.ingestReportString>Пьёт {0}.</Scorponade.ingestible.ingestReportString>
 
- <RadAway.label>Антирад</RadAway.label>
-<RadAway.description>Препарат, предназначенный для борьбы с последствиями радиоактивного заражения и выведения радиации из организма путём внутривенного введения.</RadAway.description>
+  <RadAway.label>Антирад</RadAway.label>
+  <RadAway.description>Препарат, предназначенный для борьбы с последствиями радиоактивного заражения и выведения радиации из организма путём внутривенного введения.</RadAway.description>
+
 
 </LanguageData>

@@ -96,5 +96,11 @@ RobCo Industries™ - 우리의 로봇들은 쓸데없는 질문은 하지 않�
 
 P.S. 당사 법무팀 경고: "플랜 D"는 플랜, 의약품 또는 식품이 아닙니다 (맛 첨가제 포함).</PlanD.description>
 
+  <Brain.label>뇌</Brain.label>
+  <Brain.description>인간의 뇌.</Brain.description>
+  
+<WaterChip.label>아쿠아 정화 칩</WaterChip.label>
+<WaterChip.description>아쿠아 정화 칩은 볼트-텍 사의 특허 받은 전자 회로로, 3C-aaA 모델 '폐기물 분쇄기' 물 재활용 및 정화 시스템의 운영에 매우 중요합니다. 이 장치는 정밀 여과를 담당하여 방사성 핵종 및 다양한 생물 작용제를 제거하는 것은 물론, 소변의 맛과 색깔의 99.8%를 제거하여 180년 주기 동안 반복적으로 소비하기에 적합하게 만듭니다.이 칩 없이는 여러분의 볼트는 다음과 같은 암담한 운명을 맞이할 것입니다: 느리고 고통스러운 탈수로부터 원자로 냉각 시스템 오류로 인한 방사성 점액 웅덩이로의 빠르고 '유쾌한' 변형까지. 명심하세요: 칩이 바로 생명입니다! 적어도 여러분 볼트 규약 제45조 나항은 그렇게 말하고 있습니다.</WaterChip.description>
+
 
 </LanguageData>

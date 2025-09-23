@@ -124,5 +124,28 @@
 			</li>
 		</modExtensions>
 	</IncidentDef>
+	
+<IncidentDef>
+		<defName>GlowRadDeerPasses</defName>
+		<label>Glow Rad-Deer passes</label>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<category>Misc</category>
+		<workerClass>Watcher.Events.IncidentWorker_RadDeerPasses</workerClass>
+		<baseChance>0.15</baseChance>
+		<earliestDay>95</earliestDay>
+		<minRefireDays>110</minRefireDays>
+		<minThreatPoints>4000</minThreatPoints>
+		<modExtensions>
+			<li Class="SK.ExtendedIncident">
+				<allowedTemperatureRange>10~999</allowedTemperatureRange>
+				<!-- current map temperature-->
+				<allowedAverageBiomeTemperature>10~999</allowedAverageBiomeTemperature>
+				<!-- Average biome temperature stat -->
+			</li>
+		</modExtensions>
+	</IncidentDef>
+	
 
 </Defs>
