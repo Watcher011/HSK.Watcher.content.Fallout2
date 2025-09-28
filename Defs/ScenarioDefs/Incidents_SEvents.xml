@@ -147,5 +147,58 @@
 		</modExtensions>
 	</IncidentDef>
 	
-
+   <IncidentDef>
+		<defName>BringersofDemocracy</defName>
+		<label>Bringing democracy</label>
+		<category>ThreatBig</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_BringersofDemocracy</workerClass>
+		<letterLabel>Bringing democracy incoming</letterLabel>
+		<letterText>Bringing democracy near our colony!</letterText>
+		<letterDef>ThreatBig</letterDef>
+		<pointsScaleable>true</pointsScaleable>
+		<tale>Raid</tale>
+		<populationEffect>None</populationEffect>
+	    <baseChance>0.15</baseChance>
+		<earliestDay>0</earliestDay>
+		<minRefireDays>90</minRefireDays>
+		<minThreatPoints>4500</minThreatPoints>
+	</IncidentDef>
+	
+	   
+  <IncidentDef>
+        <defName>StrangeCall</defName>
+        <label>StrangeCall.Titles.EnclaveCall</label>
+        <workerClass>Watcher.Events.IncidentWorker_StrangeCall</workerClass>
+        <letterLabel>StrangeCall.Titles.EnclaveCall</letterLabel>
+        <letterText>Mysterious Challenge</letterText>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<tale>Raid</tale>
+        <letterDef>ThreatBig</letterDef>
+        <category>ThreatBig</category>
+        <minRefireDays>30</minRefireDays>
+        <baseChance>0.5</baseChance>
+        <minPopulation>3</minPopulation>
+    </IncidentDef>
+	
+	   <IncidentDef>
+        <defName>ArmyCall</defName>
+       <label>Army Call</label>
+        <workerClass>Watcher.Events.IncidentWorker_ArmyCall</workerClass>
+         <letterLabel>Army Call</letterLabel>
+        <letterText>A message from Army Command is being received on your comms console. It appears you've been mistaken for a new recruit.</letterText>
+        <letterDef>NeutralEvent</letterDef>
+        <category>Misc</category>
+        <minRefireDays>280</minRefireDays>
+        <baseChance>0.4</baseChance>
+        <minPopulation>2</minPopulation>
+        <targetTags>
+            <li>Map_PlayerHome</li>
+        </targetTags>
+    </IncidentDef>
+	
 </Defs>

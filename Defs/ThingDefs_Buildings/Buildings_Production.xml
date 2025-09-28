@@ -516,6 +516,104 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
+	
+	
+ 
+	
+<ThingDef ParentName="BuildingBase">
+    <defName>BrainExtractor</defName>
+    <label>Psycho-Squeezer</label>
+	 <thingClass>Building_SubcoreScanner</thingClass>
+	  <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.3</fillPercent>
+    <description>Why waste ammo when you can use it? This device is a brilliant solution to raider problems. Caught a bandit? Don't rush to throw him in the fertilizer! Put him in the "Psycho Squeezer"</description>
+    <graphicData>
+      <texPath>Things/Building/BrainExtractor/BrainExtractor</texPath>
+	    <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,2.5)</drawSize>
+      <shadowData>
+        <volume>(3, 2, 1.9)</volume>
+      </shadowData>
+    </graphicData>
+	 <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <buildingTags>
+        <li>Biotech</li>
+      </buildingTags>
+      <subcoreScannerFixedIngredients>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>Glass</li>
+            </thingDefs>
+          </filter>
+          <count>10</count>
+        </li>
+		 <li>
+          <filter>
+            <thingDefs>
+              <li>HemogenPack</li>
+            </thingDefs>
+          </filter>
+          <count>1</count>
+        </li>
+        <li>
+          <filter>
+            <thingDefs>
+              <li>ComponentIndustrial</li>
+            </thingDefs>
+          </filter>
+          <count>1</count>
+        </li>
+      </subcoreScannerFixedIngredients>
+    </building>
+	 <designationCategory>VaultTec</designationCategory>
+    <uiOrder>2430</uiOrder>
+    <canOverlapZones>false</canOverlapZones>
+    <size>(3,2)</size>
+    <hasInteractionCell>true</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <statBases>
+      <Mass>25</Mass>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <tickerType>Normal</tickerType>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <statBases>
+      <WorkToBuild>1200</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
+    </statBases>
+   <stuffCategories>
+	 <li>Metallic</li>
+	</stuffCategories>
+	<costStuffCount>200</costStuffCount>
+	<costList>
+		<Plastic>25</Plastic>
+		<SyntheticFibers>4</SyntheticFibers>
+		<ComponentIndustrial>2</ComponentIndustrial>
+		<ElectronicComponents>1</ElectronicComponents>
+		<Electronics>2</Electronics>
+	</costList>
+<!--    <researchPrerequisites>
+      <li>HighMechtech</li>
+    </researchPrerequisites>-->
+    <building>
+      <subcoreScannerOutputDef>Brain</subcoreScannerOutputDef>
+      <!--<subcoreScannerStartEffect>SubcoreRipscanner_Start</subcoreScannerStartEffect>-->
+      <destroyBrain>true</destroyBrain>
+      <subcoreScannerWorking>SubcoreRipscanner_Working</subcoreScannerWorking>
+      <subcoreScannerComplete>SubcoreRipscanner_Complete</subcoreScannerComplete>
+    </building>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </ThingDef>
 
 	 
 </Defs>

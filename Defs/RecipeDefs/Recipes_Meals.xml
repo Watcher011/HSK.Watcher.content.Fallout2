@@ -529,7 +529,7 @@
 		</recipeUsers>
 	</RecipeDef>
 	
-	
+	<!--
 	 <RecipeDef>
     <defName>ExtractTheBrain</defName>
     <label>Extract the brain</label>
@@ -575,5 +575,5 @@
     </products>
     <workSkill>Cooking</workSkill>
     <displayPriority>100</displayPriority>
-  </RecipeDef>
+  </RecipeDef>-->
 </Defs>

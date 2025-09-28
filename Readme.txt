@@ -1,5 +1,8 @@
 
-Версия - 0,58
+HSK Watcher Fallout
+=============
+Version: 0.59
+
 -*-
 Оружие
 Pipe shooter(Трубострел)
@@ -116,6 +119,7 @@ Campfire wastelands(Котёл)
 CommsConsole(Радиоприёмник РВП-77)
 Research Terminal(исследовательский терминал)
 SubBrain(СубМозг)
+Psycho-Squeeze(Психо-Сквизер)
 -*-
 лампы
 VaultLamp(Аварийная лампа "Вечное сияние")
@@ -205,7 +209,11 @@ Abandoned Shelter
 ивенты
 StrangeDutenPasses(Странный дутень бродит поблизости!)
 DeathclawPasses - прибытие когтя смерти(работает)
-DutenSwarm - рой дутней(сломано ,непонятен тригер призыва)
+DutenSwarm - рой дутней
 Electric Shock Explosion(работает)
 Radroach Eaters(Пожиратели радтараканы)
 Glowing Rad-Deer Sighting(Появление Квантового рад-оленя)
+Enclave Sleeper Agent(Спящий агент Анклава)- off
+StrangeCall - Перехваченный  вызов
+ArmyCall - Анонимный вызов
+Oil for the Enclave - демократия

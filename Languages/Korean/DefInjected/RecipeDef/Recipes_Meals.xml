@@ -41,9 +41,9 @@
   <Makeporridge.description>죽을 요리합니다. 3개 생산됩니다.</Makeporridge.description>
   <Makeporridge.jobString>죽 요리 중...</Makeporridge.jobString>
 
-  <ExtractTheBrain.label>뇌를 꺼내세요.</ExtractTheBrain.label>
-  <ExtractTheBrain.description>두개골을 열어 뇌를 꺼내세요.</ExtractTheBrain.description>
-  <ExtractTheBrain.jobString>뇌를 꺼내세요.</ExtractTheBrain.jobString>
 
+  <!--<ExtractTheBrain.label>뇌를 꺼내세요.</ExtractTheBrain.label>-->
+  <!--<ExtractTheBrain.description>두개골을 열어 뇌를 꺼내세요.</ExtractTheBrain.description>-->
+  <!--<ExtractTheBrain.jobString>뇌를 꺼내세요.</ExtractTheBrain.jobString>-->
 
 </LanguageData>
