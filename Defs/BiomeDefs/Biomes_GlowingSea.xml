@@ -1,221 +1,143 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--
-	<BiomeDef>
-		<defName>GlowingSea</defName>
-		<label>Glowing Sea</label>
-		<description>Once there was an ordinary sea. Now this is an endless wasteland, covered with a layer of radioactive sludge, flickering in the dark with soft green light. The wind lifts the "waves" - toxic dust, settling on the armor, skin and in the lungs. Water? No, have not heard. But there are “oases” - puddles of liquid plutonium, around which mutated camels gather,
-growing the third hump for radiation reserves.</description>
-		<workerClass>Watcher.BiomeDef.BiomeWorker_GlowingSea</workerClass>
-		<animalDensity>3.8</animalDensity>
-		<plantDensity>0.65</plantDensity>
-		<settlementSelectionWeight>0.6</settlementSelectionWeight>
-		<campSelectionWeight>0.1</campSelectionWeight>
-		<movementDifficulty>6</movementDifficulty>
-		<texture>World/Biomes/GlowingSea</texture>
-		<forageability>0.75</forageability>
-		<foragedFood>RawMutfruit</foragedFood>
-		<wildPlantRegrowDays>15</wildPlantRegrowDays>
-		<soundsAmbient>
-			<li>Ambient_NightInsects_Standard</li>
-		</soundsAmbient>
-		<diseaseMtbDays>50</diseaseMtbDays>
-		<diseases>
-			<li>
-				<diseaseInc>Disease_CommonCold</diseaseInc>
-				<commonality>10</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_strepthroat</diseaseInc>
-				<commonality>10</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_earache</diseaseInc>
-				<commonality>10</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_Flu</diseaseInc>
-				<commonality>10</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_Plague</diseaseInc>
-				<commonality>10</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_Malaria</diseaseInc>
-				<commonality>10</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_Fever</diseaseInc>
-				<commonality>10</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_Measles</diseaseInc>
-				<commonality>10</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_Ebola</diseaseInc>
-				<commonality>5</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_Pneumonia</diseaseInc>
-				<commonality>5</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_FibrousMechanites</diseaseInc>
-				<commonality>3</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_SensoryMechanites</diseaseInc>
-				<commonality>3</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_GutWorms</diseaseInc>
-				<commonality>2</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_MuscleParasites</diseaseInc>
-				<commonality>2</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_AnimalFlu</diseaseInc>
-				<commonality>3</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_AnimalPlague</diseaseInc>
-				<commonality>3</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_OrganDecay</diseaseInc>
-				<commonality>1</commonality>
-			</li>
-			<li>
-				<diseaseInc>Disease_Coronavirus</diseaseInc>
-				<commonality>3</commonality>
-			</li>
-		</diseases>
-		<terrainsByFertility>
-			<li>
-				<terrain>Soil</terrain>
-				<min>-999</min>
-				<max>0.87</max>
-			</li>
-			<li>
-				<terrain>SoilRich</terrain>
-				<min>0.87</min>
-				<max>999</max>
-			</li>
-		</terrainsByFertility>
-		<terrainPatchMakers>
-			<li>
-				<perlinFrequency>0.04</perlinFrequency>
-				<thresholds>
-					<li>
-						<terrain>MarshyTerrain</terrain>
-						<min>0.32</min>
-						<max>0.91</max>
-					</li>
-					<li>
-						<terrain>Marsh</terrain>
-						<min>0.91</min>
-						<max>999</max>
-					</li>
-				</thresholds>
-			</li>
-			<li>
-				<perlinFrequency>0.027</perlinFrequency>
-				<thresholds>
-					<li>
-						<terrain>SoilRich</terrain>
-						<min>-0.12</min>
-						<max>0.32</max>
-					</li>
-					<li>
-						<terrain>Mud</terrain>
-						<min>0.32</min>
-						<max>0.6</max>
-					</li>
-					<li>
-						<terrain>WaterShallow</terrain>
-						<min>0.1</min>
-						<max>999</max>
-					</li>
-				</thresholds>
-			</li>
-		</terrainPatchMakers>
-		<baseWeatherCommonalities>
-			<Clear>1</Clear>
-			<Fog>18</Fog>
-			<Rain>2</Rain>
-			<DryThunderstorm>1</DryThunderstorm>
-			<RainyThunderstorm>1</RainyThunderstorm>
-			<FoggyRain>1</FoggyRain>
-			<SnowGentle>4</SnowGentle>
-			<SnowHard>4</SnowHard>
-			<GrayPall MayRequire="Ludeon.RimWorld.Anomaly">1</GrayPall>
-			<Rainstorm>1</Rainstorm>
-			<Blizzard>1</Blizzard>
-			<Whiteout>1</Whiteout>
-			<Hurricane>1</Hurricane>
-		</baseWeatherCommonalities>
-		<wildPlants>
-			<Plant_TallGrass>3.2</Plant_TallGrass>
-			<Plant_Chokevine>0.8</Plant_Chokevine>
-			<Plant_Bush>0.2</Plant_Bush>
-			<Plant_TreeWillow>0.75</Plant_TreeWillow>
-			<Plant_TreeCypress>0.24</Plant_TreeCypress>
-			<Plant_TreeMaple>0.15</Plant_TreeMaple>
-			<Plant_Berry>0.15</Plant_Berry>
-			<Plant_HealrootWild>0.05</Plant_HealrootWild>
-			<Plant_NeutroFlower>0.017</Plant_NeutroFlower>
-			<Plant_WildRose>0.02</Plant_WildRose>
-			<Plant_Hypericum>0.03</Plant_Hypericum>
-			<Plant_Mint>0.02</Plant_Mint>
-			<Plant_Rhododendron>0.12</Plant_Rhododendron>
-			<Plant_TreeTeak>0.35</Plant_TreeTeak>
-			<Plant_TreeBirch>0.7</Plant_TreeBirch>
-			<Plant_Anthurium>0.01</Plant_Anthurium>
-			<Plant_Venus>0.2</Plant_Venus>
-			<Plant_Crocus>0.3</Plant_Crocus>
-			<Plant_Mushroom_Blue>0.12</Plant_Mushroom_Blue>
-			<Plant_Mushroom_Red>0.1</Plant_Mushroom_Red>
-			<Plant_Mushroom>0.1</Plant_Mushroom>
-			<Plant_Brambles>1.5</Plant_Brambles>
-			<Plant_WhiteRose>0.12</Plant_WhiteRose>
-			<Plant_Astragalus>0.15</Plant_Astragalus>
-			<Plant_Dandelion>0.17</Plant_Dandelion>
-			<Plant_Tinctoria>0.015</Plant_Tinctoria>
-			<Plant_Witchwood MayRequire="Ludeon.RimWorld.Biotech">1.1</Plant_Witchwood>
-		</wildPlants>
-		<wildAnimals>
-			<Gecko_green>0.60</Gecko_green>
-			<Gecko_fire>0.50</Gecko_fire>
-			<Gecko_gold>0.5</Gecko_gold>
-			<Deathclaw>0.3</Deathclaw>
-			<Mirelurk>0.4</Mirelurk>
-			<Brahmin>0.4</Brahmin>
-		</wildAnimals>
-		<pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
-			<Toxalope MayRequire="Ludeon.RimWorld.Biotech">0.4</Toxalope>
-			<WasteRat MayRequire="Ludeon.RimWorld.Biotech">0.5</WasteRat>
-			<Rat>1</Rat>
-			<Gecko_green>0.60</Gecko_green>
-			<Gecko_fire>0.50</Gecko_fire>
-			<Gecko_gold>0.5</Gecko_gold>
-			<Deathclaw>0.3</Deathclaw>
-			<Mirelurk>0.4</Mirelurk>
-			<Brahmin>0.4</Brahmin>
-			<Raccoon>0.5</Raccoon>
-			<Boomrat>0.4</Boomrat>
-			<Boomalope>0.1</Boomalope>
-			<Warg>0.05</Warg>
-			<Cockroach>0.3</Cockroach>
-		</pollutionWildAnimals>
-		<allowedPackAnimals>
-			<li>Cockroach</li>
-			<li>Mirelurk</li>
-			<li>Brahmin</li>
-		</allowedPackAnimals>
-	</BiomeDef>
--->
+
+  
+  <BiomeDef>
+    <defName>NuclearWasteland</defName>
+    <label>nuclear wasteland</label>
+    <description>A land scorched by ancient fire, poisoned by radiation, and shrouded in a perpetual, sickly haze. The soil is dead, the water is toxic, and life has twisted into horrific forms. Survival here is a constant battle against decay, mutation, and the lingering hatred of the old world.</description>
+    <workerClass>Watcher.BiomeDef.BiomeWorker_GlowingSea</workerClass>
+    <animalDensity>1.2</animalDensity> <!-- Низкая плотность, но животные опасные -->
+    <plantDensity>0.15</plantDensity> <!-- Очень низкая плотность растений -->
+    <settlementSelectionWeight>0.3</settlementSelectionWeight> <!-- Очень низкий шанс для НПС -->
+    <movementDifficulty>2.5</movementDifficulty> <!-- Высокая сложность передвижения из-за руин и зыбучей золы -->
+    <texture>World/Biomes/GlowingSea</texture> <!-- Можно заменить на кастомную текстуру -->
+    <forageability>0.3</forageability> <!-- Почти нечего собирать -->
+    <foragedFood>RawBerries</foragedFood> <!-- Или кастомный "Гнилой фрукт" -->
+    <wildPlantRegrowDays>45</wildPlantRegrowDays> <!-- Очень медленный рост -->
+    <soundsAmbient>
+      <li>Ambient_Wind_Desert</li> <!-- Унылый ветер -->
+      <li>Ambient_Space_PlanetSurface</li> <!-- Эффект пустоты и изоляции -->
+    </soundsAmbient>
+    <diseaseMtbDays>25</diseaseMtbDays> <!-- Частые болезни, но не заразные, а токсичные/радиационные -->
+    <diseases>
+      <!-- Высокий шанс получить отравление от среды -->
+      <li>
+        <diseaseInc>Disease_Flu</diseaseInc> <!-- Используем как аналог "Токсического отравления" -->
+        <commonality>120</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_Plague</diseaseInc> <!-- Используем как аналог "Радиационного поражения" -->
+        <commonality>100</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_GutWorms</diseaseInc> <!-- Мутировавший штамм чумы -->
+        <commonality>80</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_MuscleParasites</diseaseInc>
+        <commonality>70</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_FibrousMechanites</diseaseInc>
+        <commonality>20</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_SensoryMechanites</diseaseInc>
+        <commonality>20</commonality>
+      </li>
+      <li>
+        <diseaseInc>Disease_AnimalPlague</diseaseInc>
+        <commonality>90</commonality>
+      </li>
+    </diseases>
+    <terrainsByFertility>
+      <!-- Преобладает бесплодная земля и песок -->
+      <li>
+        <terrain>Sand</terrain>
+        <min>-999</min>
+        <max>0.15</max>
+      </li>
+      <li>
+        <terrain>Soil</terrain>
+        <min>0.15</min>
+        <max>0.30</max>
+      </li>
+      <li>
+        <terrain>Gravel</terrain> <!-- Загрязненный гравий -->
+        <min>0.30</min>
+        <max>999</max>
+      </li>
+    </terrainsByFertility>
+    <terrainPatchMakers>
+      <!-- Патчи радиоактивной грязи и кислотных луж -->
+      <li>
+        <perlinFrequency>0.03</perlinFrequency>
+        <thresholds>
+          <li>
+            <terrain>Mud</terrain> <!-- Используем как аналог "Радиоактивной жижи" -->
+            <min>0.75</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li>
+      <li>
+        <perlinFrequency>0.04</perlinFrequency>
+        <thresholds>
+          <li>
+            <terrain>WaterShallow</terrain> <!-- Используем как аналог "Кислотных луж" -->
+            <min>0.8</min>
+            <max>999</max>
+          </li>
+        </thresholds>
+      </li>
+    </terrainPatchMakers>
+    <baseWeatherCommonalities>
+      <!-- Погода мрачная и опасная -->
+      <Clear>5</Clear> <!-- Редкие ясные дни -->
+      <Fog>10</Fog> <!-- Частый токсичный туман -->
+      <Rain>1</Rain> <!-- Дождь бывает редко -->
+      <DryThunderstorm>0.5</DryThunderstorm>
+      <RainyThunderstorm>0.5</RainyThunderstorm>
+      <FoggyRain>3</FoggyRain> <!-- Кислотный дождь -->
+      <!-- Радиационная буря (потребует кастомного погодного ивента) -->
+      <!-- <RadiationStorm>2</RadiationStorm> -->
+    </baseWeatherCommonalities>
+    <wildPlants>
+      <!-- Скудная, мутировавшая флора -->
+      <Plant_Grass>0.5</Plant_Grass> <!-- Чахлая трава -->
+      <Plant_TallGrass>0.2</Plant_TallGrass>
+      <Plant_ShrubLow>0.3</Plant_ShrubLow> <!-- Колючий кустарник -->
+      <!-- Кастомные растения можно добавить через моды -->
+       <Plant_Mutfruit>0.1</Plant_Mutfruit> 
+       <PlantTarberry>0.05</PlantTarberry> 
+       <Plant_Tato>0.02</Plant_Tato> 
+    </wildPlants>
+    <wildAnimals>
+      <!-- Обычные животные, но более агрессивные и редкие -->
+      <Gecko_green>2</Gecko_green>
+      <Gecko_fire>0.5</Gecko_fire> <!-- Мутировавшие ящерицы -->
+      <Gecko_gold>0.3</Gecko_gold> <!-- Одичавшие псы -->
+      <Mirelurk>0.2</Mirelurk> <!-- Смертоносные мутанты -->
+      <RadDeer>0.4</RadDeer>
+      <Deathclaw>0.1</Deathclaw>
+      <MoleRat>0.3</MoleRat> <!-- Насекомые-мутанты -->
+    </wildAnimals>
+    <pollutionWildAnimals MayRequire="Ludeon.RimWorld.Biotech">
+      <!-- В зонах загрязнения появляются настоящие ужасы -->
+      <Gecko_green>2</Gecko_green>
+      <Gecko_fire>0.5</Gecko_fire> <!-- Мутировавшие ящерицы -->
+      <Gecko_gold>0.3</Gecko_gold> <!-- Одичавшие псы -->
+      <Mirelurk>0.2</Mirelurk> <!-- Смертоносные мутанты -->
+      <RadDeer>0.4</RadDeer>
+	  <Firefly>0.4</Firefly>
+      <Deathclaw>0.1</Deathclaw>
+      <MoleRat>0.3</MoleRat>
+      <Radroach>0.3</Radroach>
+      <RadScorpion>0.3</RadScorpion>
+      <Duten>0.3</Duten>	
+    </pollutionWildAnimals>
+  </BiomeDef>
+
+
 </Defs>

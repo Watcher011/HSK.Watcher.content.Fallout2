@@ -559,6 +559,27 @@
     </comps>
   </HediffDef>
   
- 
+   <HediffDef>
+    <defName>MysteriousInfection</defName>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defaultLabelColor>(0.8, 0.8, 0.35)</defaultLabelColor>
+    <description>Sleeper agent</description>
+    <label>Sleeper agent</label>
+    <isBad>false</isBad>
+    <initialSeverity>1</initialSeverity>
+    <comps>
+      <li Class="Watcher.HediffCompProperties_MysteriousInfection">
+        <disappearsAfterTicks>
+          <min>120000</min>
+          <max>360000</max>
+        </disappearsAfterTicks>
+      </li>
+    </comps>
+    <stages>
+      <li>
+        <becomeVisible>false</becomeVisible>
+      </li>
+    </stages>
+  </HediffDef>
   
 </Defs>
