@@ -108,7 +108,7 @@ This compact power source is the perfect companion for any wastelander! Designed
 		<defName>FalloutSmallGenerator</defName>
 		<label>Vault-Tec Mark III generator</label>
 		<drawerType>MapMeshAndRealTime</drawerType>
-		<thingClass>Watcher.Building_FalloutSmallGenerator</thingClass>
+		<thingClass>Watcher.Buildings.Building_FalloutSmallGenerator</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Power/Generator/FalloutSmallGenerator/FalloutSmallGenerator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -204,7 +204,7 @@ This compact power source is the perfect companion for any wastelander! Designed
 		<defName>FalloutTeslaNova</defName>
 		<label>Vault-Tec Tesla Nova generator</label>
 		<drawerType>MapMeshAndRealTime</drawerType>
-		<thingClass>Watcher.Building_FalloutTeslaGenerator</thingClass>
+		<thingClass>Watcher.Buildings.Building_FalloutTeslaGenerator</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Power/Generator/FalloutTeslaGenerator/FalloutTeslaGenerator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

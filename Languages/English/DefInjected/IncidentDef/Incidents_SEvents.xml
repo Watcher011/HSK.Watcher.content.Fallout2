@@ -22,8 +22,25 @@
 	</IncidentDef> -->
 
   <ElectricShockExplosion.label>electric shock explosion</ElectricShockExplosion.label>
+  <DeepDrillMolerat.label>Deep Drill Molerat</DeepDrillMolerat.label>
   <RadroachEaters.label>Radroach Eaters</RadroachEaters.label>
   <GlowRadDeerPasses.label>Glow Rad-Deer passes</GlowRadDeerPasses.label>
+
+  <BringersofDemocracy.label>Bringing democracy</BringersofDemocracy.label>
+  <BringersofDemocracy.letterText>Bringing democracy near our colony!</BringersofDemocracy.letterText>
+  <BringersofDemocracy.letterLabel>Bringing democracy incoming</BringersofDemocracy.letterLabel>
+
+  <StrangeCall.label>StrangeCall.Titles.EnclaveCall</StrangeCall.label>
+  <StrangeCall.letterText>Mysterious Challenge</StrangeCall.letterText>
+  <StrangeCall.letterLabel>StrangeCall.Titles.EnclaveCall</StrangeCall.letterLabel>
+
+  <ArmyCall.label>Army Call</ArmyCall.label>
+  <ArmyCall.letterText>A message from Army Command is being received on your comms console. It appears you've been mistaken for a new recruit.</ArmyCall.letterText>
+  <ArmyCall.letterLabel>Army Call</ArmyCall.letterLabel>
+
+  <CreatureCall.label>Creature Call</CreatureCall.label>
+  <CreatureCall.letterText>A message from Army Command is being received on your comms console. It appears you've been mistaken for a new recruit.</CreatureCall.letterText>
+  <CreatureCall.letterLabel>Creature Call</CreatureCall.letterLabel>
 
 
 </LanguageData>

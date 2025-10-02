@@ -1,11 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <EnclaveOfficer.label>Enclave officer</EnclaveOfficer.label>
-  <EnclaveOfficer.labelPlural>Enclave officers</EnclaveOfficer.labelPlural>
+  <!-- Enclave Trooper -->
 
-  <EnclaveInvestigator.label>Enclave Investigator</EnclaveInvestigator.label>
-  <EnclaveInvestigator.labelPlural>Enclave Investigators</EnclaveInvestigator.labelPlural>
+  <Enclave_Trooper.label>Enclave Trooper</Enclave_Trooper.label>
+  <Enclave_Trooper.labelPlural>Enclave Troopers</Enclave_Trooper.labelPlural>
 
+  <Enclave_Trooper_Advanced.label>Enclave Trooper</Enclave_Trooper_Advanced.label>
+  <Enclave_Trooper_Advanced.labelPlural>Enclave Troopers</Enclave_Trooper_Advanced.labelPlural>
+
+
+  <!-- Enclave Heavy -->
+
+  <Enclave_Heavy.label>Enclave Heavy Trooper</Enclave_Heavy.label>
+  <Enclave_Heavy.labelPlural>Enclave Heavy Troopers</Enclave_Heavy.labelPlural>
+
+  <Enclave_Heavy_Advanced.label>Enclave Heavy Trooper</Enclave_Heavy_Advanced.label>
+  <Enclave_Heavy_Advanced.labelPlural>Enclave Heavy Troopers</Enclave_Heavy_Advanced.labelPlural>
+
+
+  <!-- Enclave Sniper -->
+
+  <Enclave_Sniper.label>Enclave Sniper</Enclave_Sniper.label>
+  <Enclave_Sniper.labelPlural>Enclave Snipers</Enclave_Sniper.labelPlural>
+
+  <Enclave_Sniper_Advanced.label>Enclave Sniper</Enclave_Sniper_Advanced.label>
+  <Enclave_Sniper_Advanced.labelPlural>Enclave Snipers</Enclave_Sniper_Advanced.labelPlural>
+
+
+  <!-- Enclave Officer -->
+
+  <Enclave_Officer.label>Enclave Officer</Enclave_Officer.label>
+  <Enclave_Officer.labelPlural>Enclave Officers</Enclave_Officer.labelPlural>
+
+  <Enclave_Officer_Advanced.label>Enclave Officer</Enclave_Officer_Advanced.label>
+  <Enclave_Officer_Advanced.labelPlural>Enclave Officers</Enclave_Officer_Advanced.labelPlural>
+
+
+  <!-- Enclave Engineer -->
+
+  <Enclave_Engineer.label>Enclave Engineer</Enclave_Engineer.label>
+  <Enclave_Engineer.labelPlural>Enclave Engineers</Enclave_Engineer.labelPlural>
+
+  <Enclave_Engineer_Advanced.label>Enclave Engineer</Enclave_Engineer_Advanced.label>
+  <Enclave_Engineer_Advanced.labelPlural>Enclave Engineers</Enclave_Engineer_Advanced.labelPlural>
+
+
+  <!-- Enclave Elite -->
+
+  <Enclave_Elite.label>Enclave Elite</Enclave_Elite.label>
+  <Enclave_Elite.labelPlural>Enclave Elites</Enclave_Elite.labelPlural>
+
+  <Enclave_Elite_Advanced.label>Enclave Elite</Enclave_Elite_Advanced.label>
+  <Enclave_Elite_Advanced.labelPlural>Enclave Elites</Enclave_Elite_Advanced.labelPlural>
+
+
+  <!-- Enclave Scientist -->
+
+  <Enclave_Scientist.label>Enclave Scientist</Enclave_Scientist.label>
+  <Enclave_Scientist.labelPlural>Enclave Scientists</Enclave_Scientist.labelPlural>
+
+
+  <!--<EnclaveOfficer.label>Enclave officer</EnclaveOfficer.label>-->
+  <!--<EnclaveOfficer.labelPlural>Enclave officers</EnclaveOfficer.labelPlural>-->
+  <!--<EnclaveInvestigator.label>Enclave Investigator</EnclaveInvestigator.label>-->
+  <!--<EnclaveInvestigator.labelPlural>Enclave Investigators</EnclaveInvestigator.labelPlural>-->
 
 </LanguageData>

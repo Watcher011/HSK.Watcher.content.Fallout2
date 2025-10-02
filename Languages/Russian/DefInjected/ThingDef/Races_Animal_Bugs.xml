@@ -17,6 +17,26 @@
   <Duten.description>Этот шедевр радиационного творчества когда-то был обычной мухой. Теперь это ходячее (точнее, летающее) нарушение всех санитарных норм Пустошей.</Duten.description>
   <Duten.tools.0.label>mouth</Duten.tools.0.label>
 
+  <SewageCreature.label>Канализационный монстр</SewageCreature.label>
+<SewageCreature.description>Демон-дерьмоед."МЫ БЫЛИ ОТВЕРГНУТЫ, СМЫТЫ, ЗАБЫТЫ... НО Я ИЗБРАЛ ПУТЬ НАСИЛИЯ."</SewageCreature.description>
+<SewageCreature.tools.0.label>голова</SewageCreature.tools.0.label>
+
+<SewageEcho.label>Сточный эхо</SewageEcho.label>
+<SewageEcho.description>Этот крошечный осколок когда-то был частью великой колонии, но теперь скитается в одиночестве, напоминая живую слизевую каплю. В отличие от своих агрессивных собратьев, он нашёл мирный путь существования. Его желеобразное тело мягко пульсирует, оставляя за собой чистый и аккуратный след. Он бесшумно очищает мир вокруг себя, словно пытаясь смыть грехи своего прошлого. "МЫ БЫЛИ ОТВЕРГНУТЫ, СМЫТЫ, ЗАБЫТЫ... НО Я ИЗБРАЛ ПУТЬ ИСЦЕЛЕНИЯ." В его присутствии есть что-то умиротворяющее — возможно, надежда на то, что даже самые неожиданные существа могут принести в этот мир немного чистоты и гармонии.</SewageEcho.description>
+<SewageEcho.tools.0.label>голова</SewageEcho.tools.0.label>
+
+
+  <!-- <ThingDef Name="SewageCreature" ParentName="Duten">
+        <defName>SewageCreature</defName>
+       <label>Sewer Creature</label>
+       <description>A creature that leaves behind a trail of slime and vomit.</description>
+        <comps>
+            <li Class="Watcher.Comps.CompSewageSpawner">
+                <spawnIntervalTicks>120</spawnIntervalTicks> <!{1}** 2 секунды **{1}>
+            </li>
+        </comps>
+    </ThingDef> -->
+
   <StrangeDuten.label>Странный дутень</StrangeDuten.label>
   <StrangeDuten.description>"Мега-жало - Король мутантов"
 В бескрайних пустошах, где мутанты давно стали частью местной фауны, появился новый кошмар - огромный, светящийся, смертоносный дутень, словно сошедший со страниц довоенных комиксов о гигантских насекомых. Только вот этот урод не вымысел, и встреча с ним гарантированно испортит ваш день, а скорее всего - и всю оставшуюся жизнь.

@@ -76,6 +76,32 @@
   <Duten.labelFemale>female Duten</Duten.labelFemale>
   <Duten.labelFemalePlural>female Dutens</Duten.labelFemalePlural>
 
+  <SewageCreature.label>SewageCreature</SewageCreature.label>
+  <SewageCreature.labelPlural>SewageCreatures</SewageCreature.labelPlural>
+  <SewageCreature.labelMale>male SewageCreature</SewageCreature.labelMale>
+  <SewageCreature.labelMalePlural>male SewageCreatures</SewageCreature.labelMalePlural>
+  <SewageCreature.labelFemale>female SewageCreature</SewageCreature.labelFemale>
+  <SewageCreature.labelFemalePlural>female SewageCreatures</SewageCreature.labelFemalePlural>
+
+  <SewageEcho.label>SewageEcho</SewageEcho.label>
+  <SewageEcho.labelPlural>SewageEchos</SewageEcho.labelPlural>
+  <SewageEcho.labelMale>male SewageEcho</SewageEcho.labelMale>
+  <SewageEcho.labelMalePlural>male SewageEchos</SewageEcho.labelMalePlural>
+  <SewageEcho.labelFemale>female SewageEcho</SewageEcho.labelFemale>
+  <SewageEcho.labelFemalePlural>female SewageEchos</SewageEcho.labelFemalePlural>
+
+
+  <!-- <ThingDef Name="SewageCreature" ParentName="Duten">
+        <defName>SewageCreature</defName>
+       <label>Sewer Creature</label>
+       <description>A creature that leaves behind a trail of slime and vomit.</description>
+        <comps>
+            <li Class="Watcher.Comps.CompSewageSpawner">
+                <spawnIntervalTicks>120</spawnIntervalTicks> <!{1}** 2 секунды **{1}>
+            </li>
+        </comps>
+    </ThingDef> -->
+
   <StrangeDuten.label>Strange Duten</StrangeDuten.label>
   <StrangeDuten.labelPlural>Strange Dutens</StrangeDuten.labelPlural>
   <StrangeDuten.lifeStages.0.label>Strange Duten</StrangeDuten.lifeStages.0.label>

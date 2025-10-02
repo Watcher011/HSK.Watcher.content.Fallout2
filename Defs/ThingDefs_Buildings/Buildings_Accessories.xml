@@ -720,7 +720,7 @@ RobCo Corporation is not responsible for turning you into a sieve. You came here
 				<heatPerSecond>3.5</heatPerSecond>
 				<heatPushMaxTemperature>23</heatPushMaxTemperature>
 			</li>
-			<li Class="Watcher.CompProperties_LocalFirefly">
+			<li Class="Watcher.Comps.CompProperties_LocalFirefly">
 				<fireSize>0.5</fireSize>
 				<finalFireSize>0.7</finalFireSize>
 				<offset>(0,0,0)</offset>

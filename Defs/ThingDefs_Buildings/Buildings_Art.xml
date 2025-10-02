@@ -48,7 +48,7 @@
 				<heatPerSecond>4</heatPerSecond>
 				<heatPushMaxTemperature>23</heatPushMaxTemperature>
 			</li>
-			<li Class="Watcher.CompProperties_LocalFire">
+			<li Class="Watcher.Comps.CompProperties_LocalFire">
             <fireSize>0.4</fireSize>
             <finalFireSize>0.5</finalFireSize>
             <offset>(0,0,0.32)</offset>

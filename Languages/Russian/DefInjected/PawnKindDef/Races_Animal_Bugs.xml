@@ -76,6 +76,31 @@
   <Duten.labelFemale>самка Дутня</Duten.labelFemale>
   <Duten.labelFemalePlural>самки Дутней</Duten.labelFemalePlural>
 
+ <SewageCreature.label>Канализационный монстр</SewageCreature.label>
+<SewageCreature.labelPlural>Канализационные монстры</SewageCreature.labelPlural>
+<SewageCreature.labelMale>самец канализационного монстра</SewageCreature.labelMale>
+<SewageCreature.labelMalePlural>самцы канализационных монстров</SewageCreature.labelMalePlural>
+<SewageCreature.labelFemale>самка канализационного монстра</SewageCreature.labelFemale>
+<SewageCreature.labelFemalePlural>самки канализационных монстров</SewageCreature.labelFemalePlural>
+
+<SewageEcho.label>Сточный эхо</SewageEcho.label>
+<SewageEcho.labelPlural>Сточные эхо</SewageEcho.labelPlural>
+<SewageEcho.labelMale>самец сточного эхо</SewageEcho.labelMale>
+<SewageEcho.labelMalePlural>самцы сточных эхо</SewageEcho.labelMalePlural>
+<SewageEcho.labelFemale>самка сточного эхо</SewageEcho.labelFemale>
+<SewageEcho.labelFemalePlural>самки сточных эхо</SewageEcho.labelFemalePlural>
+
+  <!-- <ThingDef Name="SewageCreature" ParentName="Duten">
+        <defName>SewageCreature</defName>
+       <label>Sewer Creature</label>
+       <description>A creature that leaves behind a trail of slime and vomit.</description>
+        <comps>
+            <li Class="Watcher.Comps.CompSewageSpawner">
+                <spawnIntervalTicks>120</spawnIntervalTicks> <!{1}** 2 секунды **{1}>
+            </li>
+        </comps>
+    </ThingDef> -->
+
   <StrangeDuten.label>Странный дутень</StrangeDuten.label>
   <StrangeDuten.labelPlural>Странные дутни</StrangeDuten.labelPlural>
   <StrangeDuten.lifeStages.0.label>Странный дутень</StrangeDuten.lifeStages.0.label>

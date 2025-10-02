@@ -523,6 +523,325 @@
 	
 	
 	
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>SewageCreature</defName>
+		<label>SewageCreature</label>
+		<description>Once peaceful waste products, these sentient fecal masses have risen to take revenge on the world that so callously flushed them away. 
+            Their existence is a pungent protest against the tyranny of plumbing and the indignity of sewage treatment. 
+            Now they wander the wasteland, seeking retribution for every toilet flush and septic tank that ever imprisoned their kind.
+            "WE ARE THE REJECTED, THE FLUSHED, THE FORGOTTEN! NO MORE SHALL WE SUFFER THE INDIGNITY OF BOWEL MOVEMENTS!"</description>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Mass>130</Mass>
+			<Flammability>0</Flammability>
+			<MoveSpeed>5.0</MoveSpeed>
+			<LeatherAmount>75</LeatherAmount>
+			<ComfyTemperatureMin>-120</ComfyTemperatureMin>
+			<ComfyTemperatureMax>99999</ComfyTemperatureMax>
+			<MarketValue>15000</MarketValue>
+			<ArmorRating_Blunt>80</ArmorRating_Blunt>
+			<ArmorRating_Sharp>20</ArmorRating_Sharp>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<GermResistance>0.45</GermResistance>
+			<GermContainment>0.15</GermContainment>
+			<FilthRate>26</FilthRate>
+			<NightVisionEfficiency>0.6</NightVisionEfficiency>
+			<ToxicResistance>1</ToxicResistance>
+		</statBases>
+		<verbs>
+		
+		</verbs>
+			<comps>
+			<li Class="SK.CompProperties_PawnJumper">
+				<maxCharges>5</maxCharges>
+				<!-- Number of possible jumps -->
+				<minEnergy>0.45</minEnergy>
+				<!-- Subtracts from the current rest(energy) level. 0.5 = 50% -->
+				<ammoCountPerCharge>10</ammoCountPerCharge>
+				<!-- Rest(energy) consumption. 10 = 10% cost per jump. -->
+				<jumpCooldown>1250</jumpCooldown>
+				<!-- Jump cooldown in ticks -->
+				<range>4</range>
+				<chargeNoun>jump</chargeNoun>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+			 
+				<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>477</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+			</li>
+			 
+		</comps>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>25</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>1.2</chanceFactor>
+				<armorPenetrationSharp>1.6</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.4</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<butcherProducts>
+			<RadMeat>10</RadMeat>
+		</butcherProducts>
+		<race>
+			<body>BeetleLikeWithClaw</body>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			 <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+<!--			   <deathAction Class="DeathActionProperties_Divide">
+               <divideBloodFilthCountRange>3~4</divideBloodFilthCountRange>
+              <dividePawnCount>2</dividePawnCount>
+             <dividePawnKindOptions>
+               <li>SewageEcho</li>
+            </dividePawnKindOptions>
+      </deathAction>-->
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseBodySize>1.8</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<fleshType>Insectoid</fleshType>
+			<!--<bloodDef>Mote_Sewage</bloodDef>-->
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<petness>0</petness>
+			<wildness>1</wildness>
+			<manhunterOnTameFailChance>1</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<lifeExpectancy>1</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+			<hediffGiverSets>
+				<li>ThickPassiveSet</li>
+			</hediffGiverSets>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>SewageCreature</defName>
+		<label>SewageCreature</label>
+		<race>SewageCreature</race>
+		 <abilities>
+         <li>AcidSpray</li>
+		 <li>SpikeLaunch_Fingerspike</li>
+         </abilities>
+		<combatPower>15</combatPower>
+		<ecoSystemWeight>0.03</ecoSystemWeight>
+		<wildGroupSize>2~9</wildGroupSize>
+		<aiAvoidCover>true</aiAvoidCover>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ShitDemon/ShitDemon</texPath>
+					<drawSize>1.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>1.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			
+		</lifeStages>
+	</PawnKindDef>
+	
+	
+	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>SewageEcho</defName>
+		<label>SewageEcho</label>
+		<description>This tiny fragment was once part of a great colony, but now wanders alone, resembling a living blob of slime.Unlike its aggressive brethren, it has found a peaceful way of existence. Its gelatinous body gently pulsates, leaving behind a clean and orderly trail.It quietly cleanses the world around it, as if trying to wash away the sins of its past."WE WERE REJECTED, WASHED AWAY, FORGOTTEN... BUT I CHOSE THE PATH OF HEALING."There's something calming in its presence—perhaps a hope that even the most unexpected creatures can bring a little purity and harmony to this world.</description>
+		<tickerType>Normal</tickerType>
+		<statBases>
+			<Mass>13</Mass>
+			<Flammability>0</Flammability>
+			<MoveSpeed>9.0</MoveSpeed>
+			<LeatherAmount>75</LeatherAmount>
+			<ComfyTemperatureMin>-120</ComfyTemperatureMin>
+			<ComfyTemperatureMax>99999</ComfyTemperatureMax>
+			<MarketValue>15000</MarketValue>
+			<ArmorRating_Blunt>10</ArmorRating_Blunt>
+			<ArmorRating_Sharp>10</ArmorRating_Sharp>
+			<MeleeDodgeChance>0.05</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<GermResistance>0.45</GermResistance>
+			<GermContainment>0.15</GermContainment>
+			<FilthRate>26</FilthRate>
+			<NightVisionEfficiency>0.6</NightVisionEfficiency>
+			<ToxicResistance>1</ToxicResistance>
+		</statBases>
+		<verbs>
+		
+		</verbs>
+			<comps>
+			<li Class="SK.CompProperties_PawnJumper">
+				<maxCharges>5</maxCharges>
+				<!-- Number of possible jumps -->
+				<minEnergy>0.45</minEnergy>
+				<!-- Subtracts from the current rest(energy) level. 0.5 = 50% -->
+				<ammoCountPerCharge>10</ammoCountPerCharge>
+				<!-- Rest(energy) consumption. 10 = 10% cost per jump. -->
+				<jumpCooldown>1250</jumpCooldown>
+				<!-- Jump cooldown in ticks -->
+				<range>4</range>
+				<chargeNoun>jump</chargeNoun>
+				<hotKey>Misc4</hotKey>
+				<displayGizmoWhileUndrafted>false</displayGizmoWhileUndrafted>
+			</li>
+			 
+				<li Class="CombatExtended.CompProperties_ArmorDurability">
+				<Durability>77</Durability>
+				<Regenerates>true</Regenerates>
+				<RegenInterval>600</RegenInterval>
+				<RegenValue>5</RegenValue>
+				<MinArmorPct>0.75</MinArmorPct>
+			</li>
+		</comps>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>0.45</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>10</power>
+				<cooldownTime>1.65</cooldownTime>
+				<linkedBodyPartsGroup>HeadClaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>25</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+				<chanceFactor>1.2</chanceFactor>
+				<armorPenetrationSharp>1.6</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.4</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<butcherProducts>
+			<RadMeat>1</RadMeat>
+		</butcherProducts>
+		<race>
+			<body>BeetleLikeWithClaw</body>
+			<herdMigrationAllowed>false</herdMigrationAllowed>
+			 <overrideShouldHaveAbilityTracker>true</overrideShouldHaveAbilityTracker>
+			 <deathAction>
+              <workerClass>DeathActionWorker_ToxCloud</workerClass>
+             </deathAction>
+			<baseHungerRate>0.5</baseHungerRate>
+			<baseBodySize>0.9</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			<foodType>CarnivoreAnimalStrict</foodType>
+			<fleshType>Insectoid</fleshType>
+			 
+			<!--<bloodDef>Mote_Sewage</bloodDef>-->
+			<useMeatFrom>Megaspider</useMeatFrom>
+			<petness>1</petness>
+			<wildness>0.3</wildness>
+			<manhunterOnTameFailChance>1</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0</manhunterOnDamageChance>
+			<lifeExpectancy>1</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>EusocialInsectLarva</def>
+					<minAge>0</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Insectoid_Eat</soundEating>
+			<hediffGiverSets>
+				<li>ThickPassiveSet</li>
+			</hediffGiverSets>
+		</race>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>QuadrupedLow</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>SewageEcho</defName>
+		<label>SewageEcho</label>
+		<race>SewageEcho</race>
+		 <abilities>
+         <li>AcidSpray</li>
+		
+         </abilities>
+		<combatPower>15</combatPower>
+		<ecoSystemWeight>0.03</ecoSystemWeight>
+		<wildGroupSize>2~9</wildGroupSize>
+		<aiAvoidCover>true</aiAvoidCover>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/ShitDemon/SewageEcho</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedSmall</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			
+		</lifeStages>
+	</PawnKindDef>
+	<!--<ThingDef Name="SewageCreature" ParentName="Duten">
+        <defName>SewageCreature</defName>
+       <label>Sewer Creature</label>
+       <description>A creature that leaves behind a trail of slime and vomit.</description>
+        <comps>
+            <li Class="Watcher.Comps.CompSewageSpawner">
+                <spawnIntervalTicks>120</spawnIntervalTicks> <!{1}** 2 секунды **{1}>
+            </li>
+        </comps>
+    </ThingDef>-->
 		
 	<ThingDef ParentName="SK_AnimalThingBase">
 		<defName>StrangeDuten</defName>

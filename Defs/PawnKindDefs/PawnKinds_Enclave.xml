@@ -243,6 +243,7 @@
     <invFoodDef>MealFine</invFoodDef>
     <minGenerationAge>20</minGenerationAge>
     <maxGenerationAge>50</maxGenerationAge>
+	<apparelColor>(100,100,100)</apparelColor>
     <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
     <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
     <gearHealthRange>

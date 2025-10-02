@@ -40,8 +40,11 @@
   <BlowflyLarva.stages.3.label>말기</BlowflyLarva.stages.3.label>
   <BlowflyLarva.labelNoun>유충</BlowflyLarva.labelNoun>
 
-  <ManhunterPermanentAnimal.label>Manhunter Permanent</ManhunterPermanentAnimal.label>
+  <ManhunterPermanentAnimal.label>영구 동물 학살자</ManhunterPermanentAnimal.label>
   <ManhunterPermanentAnimal.description>-/-.</ManhunterPermanentAnimal.description>
+
+  <MysteriousInfection.label>슬리퍼 에이전트</MysteriousInfection.label>
+  <MysteriousInfection.description>슬리퍼 에이전트</MysteriousInfection.description>
 
 
   <!--<Ghoul.label>구울</Ghoul.label>-->

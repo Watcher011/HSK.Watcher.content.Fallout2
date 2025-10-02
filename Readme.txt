@@ -1,7 +1,7 @@
 
 HSK Watcher Fallout
 =============
-Version: 0.59
+Version: 0.60
 
 -*-
 Оружие
@@ -168,6 +168,8 @@ Rad Deer(Рад олень)
 Glow rad deer(Квантовый рад олень)
 MoleRat(Кротокрыс)
 mutants(Ogres) retexture ->Super mutants
+SewageCreature(говнодемон)
+SewageEcho(осколок)
 -*-
 еда
 SuspiciousOmelette(подозрительный омлет)
@@ -204,7 +206,7 @@ Y-17 Spacesuit helmet(Шлем скафандра Y-17)
 Shelter residents(easy start)(Жители Убежища)
 -*-
 миссии 
-Abandoned Shelter
+Abandoned Shelter//Удалено 
 -*-
 ивенты
 StrangeDutenPasses(Странный дутень бродит поблизости!)
@@ -217,3 +219,4 @@ Enclave Sleeper Agent(Спящий агент Анклава)- off
 StrangeCall - Перехваченный  вызов
 ArmyCall - Анонимный вызов
 Oil for the Enclave - демократия
+CreatureCall - нашествие говнодемона

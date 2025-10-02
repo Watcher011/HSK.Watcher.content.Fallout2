@@ -568,7 +568,7 @@
     <isBad>false</isBad>
     <initialSeverity>1</initialSeverity>
     <comps>
-      <li Class="Watcher.HediffCompProperties_MysteriousInfection">
+      <li Class="Watcher.Hediffs.HediffCompProperties_MysteriousInfection">
         <disappearsAfterTicks>
           <min>120000</min>
           <max>360000</max>

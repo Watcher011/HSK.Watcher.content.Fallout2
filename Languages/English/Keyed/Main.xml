@@ -41,31 +41,31 @@
 
   <!-- Titles -->
   <StrangeCall.Titles.Main>Intercepted Call</StrangeCall.Titles.Main>
-  
+
   <!-- UPDATED RESPONSE OPTIONS -->
   <ContinueCrolling>Continue Trolling</ContinueCrolling>
   <Reset>Reset</Reset>
-  
+
   <!-- Combined messages -->
   <StrangeCall.Messages.Threat0>Colonist - Well, here's the thing: we took your Navarro and found so much there... For example, indecent photos of your mother. Or were they your father's lace stockings? No wonder you're such a freak. Goodbye, asshole</StrangeCall.Messages.Threat0>
   <StrangeCall.Messages.Threat1>Communications Officer - Huh? Look how smart we are... Listen, buddy, I'm tracking you right now. Let's see how smart you are when internal security comes for your soul, cretin!</StrangeCall.Messages.Threat1>
   <StrangeCall.Messages.Threat2>Communications Officer - Well-well, my dear, just a couple more seconds - and I'll pinpoint you. Wait, what's this? It can't be... Are you on the mainland?!</StrangeCall.Messages.Threat2>
   <StrangeCall.Messages.Threat3>Communications Officer - Got you, there you are! Now sit still and don't go anywhere, I'm preparing a little celebration in your honor right now. With fireworks</StrangeCall.Messages.Threat3>
   <StrangeCall.Messages.EnclaveInfo>"Alarm sounds"</StrangeCall.Messages.EnclaveInfo>
-  
+
   <!-- Warnings -->
   <StrangeCall.Warnings.RaidResponse>Trolling successful! {0} is sending a drop team to your position!</StrangeCall.Warnings.RaidResponse>
   <StrangeCall.Warnings.DropPodIncoming>Enemy drop pods detected! Prepare for attack!</StrangeCall.Warnings.DropPodIncoming>
-  
+
   <ArmyCall.Titles.Main>Anonymous Call</ArmyCall.Titles.Main>
-  
+
   <!-- Response options -->
   <ArmyCall.Answers.YesSir>YES Sir!</ArmyCall.Answers.YesSir>
   <ArmyCall.Answers.Mistake>Um... I think you have the wrong number</ArmyCall.Answers.Mistake>
-  
+
   <!-- Main message -->
   <ArmyCall.Messages.Main>Sergeant Arch Dornan - So you're the new recruit, huh? YOU'RE OUT OF UNIFORM, SOLDIER! WHERE'S YOUR POWER ARMOR?! "Don't have any"? YOU EXPECT ME TO BELIEVE THAT, MAGGOT?! THE TRUTH IS YOU LOST EXPENSIVE ARMY EQUIPMENT! THAT SUIT IS GOING TO COME OUT OF YOUR PAY. AND YOU WILL REMAIN IN THIS ARMY UNTIL YOU ARE *gasps* 510 YEARS OLD, WHICH IS HOW LONG IT WILL TAKE FOR YOU TO PAY FOR THE MARK X-01 POWER ARMOR YOU HAVE LOST! REPORT TO THE ARMORY AND DRAW A NEW SUIT, THEN REPORT BACK TO ME, PRIVATE! DISMISSED!</ArmyCall.Messages.Main>
-  
+
   <!-- Responses and messages -->
   <ArmyCall.Warnings.YesResponse>New power armor delivered to your location, private!</ArmyCall.Warnings.YesResponse>
   <ArmyCall.Warnings.TrapResponse>You're probably spies! Sound the alarm and finish this trash!</ArmyCall.Warnings.TrapResponse>
