@@ -238,5 +238,30 @@
   <MoleRat.labelFemale>암컷 두더지 쥐</MoleRat.labelFemale>
   <MoleRat.labelFemalePlural>암컷 두더지 쥐들</MoleRat.labelFemalePlural>
 
+  <MutantHound.label>Mutant Hound</MutantHound.label>
+  <MutantHound.labelPlural>Mutants Hounds</MutantHound.labelPlural>
+  <MutantHound.lifeStages.0.label>Mutant puppy</MutantHound.lifeStages.0.label>
+  <MutantHound.lifeStages.0.labelPlural>Mutant puppies</MutantHound.lifeStages.0.labelPlural>
+  <MutantHound.lifeStages.0.labelMale>male Mutant puppy</MutantHound.lifeStages.0.labelMale>
+  <MutantHound.lifeStages.0.labelMalePlural>male Mutant puppies</MutantHound.lifeStages.0.labelMalePlural>
+  <MutantHound.lifeStages.0.labelFemale>female Mutant puppy</MutantHound.lifeStages.0.labelFemale>
+  <MutantHound.lifeStages.0.labelFemalePlural>female Mutant puppies</MutantHound.lifeStages.0.labelFemalePlural>
+  <MutantHound.lifeStages.1.label>Mutant Hound</MutantHound.lifeStages.1.label>
+  <MutantHound.lifeStages.1.labelPlural>Mutants Hounds</MutantHound.lifeStages.1.labelPlural>
+  <MutantHound.lifeStages.1.labelMale>male Mutant Hound</MutantHound.lifeStages.1.labelMale>
+  <MutantHound.lifeStages.1.labelMalePlural>male Mutant Hounds</MutantHound.lifeStages.1.labelMalePlural>
+  <MutantHound.lifeStages.1.labelFemale>female Mutant Hound</MutantHound.lifeStages.1.labelFemale>
+  <MutantHound.lifeStages.1.labelFemalePlural>female Mutant Hounds</MutantHound.lifeStages.1.labelFemalePlural>
+  <MutantHound.lifeStages.2.label>Mutant Hound</MutantHound.lifeStages.2.label>
+  <MutantHound.lifeStages.2.labelPlural>Mutants Hounds</MutantHound.lifeStages.2.labelPlural>
+  <MutantHound.lifeStages.2.labelMale>male Mutant Hound</MutantHound.lifeStages.2.labelMale>
+  <MutantHound.lifeStages.2.labelMalePlural>male Mutant Hounds</MutantHound.lifeStages.2.labelMalePlural>
+  <MutantHound.lifeStages.2.labelFemale>female Mutant Hound</MutantHound.lifeStages.2.labelFemale>
+  <MutantHound.lifeStages.2.labelFemalePlural>female Mutant Hounds</MutantHound.lifeStages.2.labelFemalePlural>
+  <MutantHound.labelMale>male Mutant Hound</MutantHound.labelMale>
+  <MutantHound.labelMalePlural>male Mutants Hounds</MutantHound.labelMalePlural>
+  <MutantHound.labelFemale>female Mutant Hound</MutantHound.labelFemale>
+  <MutantHound.labelFemalePlural>female Mutants Hounds</MutantHound.labelFemalePlural>
+
 
 </LanguageData>

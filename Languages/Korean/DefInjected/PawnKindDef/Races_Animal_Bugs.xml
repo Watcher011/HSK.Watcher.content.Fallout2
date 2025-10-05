@@ -82,12 +82,13 @@
   <SewageCreature.labelMalePlural>수컷 하수구 생명체들</SewageCreature.labelMalePlural>
   <SewageCreature.labelFemale>암컷 하수구 생명체</SewageCreature.labelFemale>
   <SewageCreature.labelFemalePlural>암컷 하수구 생명체들</SewageCreature.labelFemalePlural>
-<SewageEcho.label>하수 에코</SewageEcho.label>
-<SewageEcho.labelPlural>하수 에코들</SewageEcho.labelPlural>
-<SewageEcho.labelMale>수컷 하수 에코</SewageEcho.labelMale>
-<SewageEcho.labelMalePlural>수컷 하수 에코들</SewageEcho.labelMalePlural>
-<SewageEcho.labelFemale>암컷 하수 에코</SewageEcho.labelFemale>
-<SewageEcho.labelFemalePlural>암컷 하수 에코들</SewageEcho.labelFemalePlural>
+
+  <SewageEcho.label>하수 에코</SewageEcho.label>
+  <SewageEcho.labelPlural>하수 에코들</SewageEcho.labelPlural>
+  <SewageEcho.labelMale>수컷 하수 에코</SewageEcho.labelMale>
+  <SewageEcho.labelMalePlural>수컷 하수 에코들</SewageEcho.labelMalePlural>
+  <SewageEcho.labelFemale>암컷 하수 에코</SewageEcho.labelFemale>
+  <SewageEcho.labelFemalePlural>암컷 하수 에코들</SewageEcho.labelFemalePlural>
 
 
   <!-- <ThingDef Name="SewageCreature" ParentName="Duten">

@@ -1,7 +1,7 @@
 
-HSK Watcher Fallout
+HSK Watcher Fallout 2
 =============
-Version: 0.60
+Version: 0.61
 
 -*-
 Оружие
@@ -170,6 +170,7 @@ MoleRat(Кротокрыс)
 mutants(Ogres) retexture ->Super mutants
 SewageCreature(говнодемон)
 SewageEcho(осколок)
+MutantHound(Гончая-мутант)
 -*-
 еда
 SuspiciousOmelette(подозрительный омлет)
@@ -220,3 +221,5 @@ StrangeCall - Перехваченный  вызов
 ArmyCall - Анонимный вызов
 Oil for the Enclave - демократия
 CreatureCall - нашествие говнодемона
+MoleRatQuarryAttack - Профсоюз кротокрысов
+MutantClanRaid - кулинарный батл

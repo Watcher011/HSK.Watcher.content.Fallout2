@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <HugeBee.label>Huge Bee</HugeBee.label>
+  <DeathclawPasses.label>Deathclaw passes</DeathclawPasses.label>
+  <StrangeDutenPasses.label>Strange Duten</StrangeDutenPasses.label>
+  <DutenSwarm.label>Duten Swarm</DutenSwarm.label>
+
+
+  <!-- <IncidentDef>
+		<defName>RadroachEaters</defName>
+		<label>Radroach eaters</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_HungryRadroach</workerClass>
+		<baseChance>0.5</baseChance>
+		<minRefireDays>18</minRefireDays>
+		<earliestDay>12</earliestDay>
+		<minThreatPoints>250</minThreatPoints>
+	</IncidentDef> -->
+
+  <ElectricShockExplosion.label>electric shock explosion</ElectricShockExplosion.label>
+  <DeepDrillMolerat.label>Deep Drill Molerat</DeepDrillMolerat.label>
+  <RadroachEaters.label>Radroach Eaters</RadroachEaters.label>
+  <GlowRadDeerPasses.label>Glow Rad-Deer passes</GlowRadDeerPasses.label>
+
+  <BringersofDemocracy.label>Bringing democracy</BringersofDemocracy.label>
+  <BringersofDemocracy.letterText>Bringing democracy near our colony!</BringersofDemocracy.letterText>
+  <BringersofDemocracy.letterLabel>Bringing democracy incoming</BringersofDemocracy.letterLabel>
+
+  <StrangeCall.label>StrangeCall.Titles.EnclaveCall</StrangeCall.label>
+  <StrangeCall.letterText>Mysterious Challenge</StrangeCall.letterText>
+  <StrangeCall.letterLabel>StrangeCall.Titles.EnclaveCall</StrangeCall.letterLabel>
+
+  <ArmyCall.label>Army Call</ArmyCall.label>
+  <ArmyCall.letterText>A message from Army Command is being received on your comms console. It appears you've been mistaken for a new recruit.</ArmyCall.letterText>
+  <ArmyCall.letterLabel>Army Call</ArmyCall.letterLabel>
+
+  <CreatureCall.label>Creature Call</CreatureCall.label>
+  <CreatureCall.letterText>We've received disturbing reports of unusual activity near the latrines. The sewage seems to be... moving. Something foul is stirring in the waste pits. Be prepared for potential hostile emergence.</CreatureCall.letterText>
+  <CreatureCall.letterLabel>Creature Call</CreatureCall.letterLabel>
+
+
+</LanguageData>

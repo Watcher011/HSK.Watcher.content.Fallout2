@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<LanguageData>
+
+ <LanguageData>
 
   <LetterLabelDeathclawPasses>데스클로우가 근처를 돌아다니고 있습니다!</LetterLabelDeathclawPasses>
   <LetterDeathclawPasses>이 생물은 "황무지의 살아있는 악몽"으로도 알려져 있습니다. 그 발톱들은 죽음을 능가할 수 있다고 믿는 미친 자들의 탐나는 사냥감입니다.\n\n언뜻 보면 데스클로우는 그저 거대한 도마뱀처럼 보이지만, 황무지는 어두운 농담을 좋아합니다. 그들의 위장은 완벽하고, 살상 속도는 당신이 이미 죽었다는 사실을 깨닫는 능력보다 빠릅니다.\n\n절망적인 사냥꾼들이 때로는 그것을 길들이려고 시도하지만, 대부분 "날 볼 수 없어..."라는 그들의 마지막 말이 답변 없는 채로 끝납니다. 기적적으로 이 괴물을 길들이는 데 성공한 자들은 애완동물을 얻는 것이 아니라, 매우 특정한 유머 감각을 가진 개인 집행자를 얻는 것입니다.</LetterDeathclawPasses>
@@ -71,4 +72,79 @@
   <ArmyCall.Items.Received>수령: X-01 파워 아머 및 X-01 헬멧</ArmyCall.Items.Received>
   <ArmyCall.Items.FallbackReceived>예비 파워 아머 수령</ArmyCall.Items.FallbackReceived>
   <ArmyCall.Errors.SpawnFailed>아머 배달 오류. 나중에 다시 시도해 주십시오.</ArmyCall.Errors.SpawnFailed>
+  
+  <CreatureSpawnNearLatrine.label>심연에서 온 악취</CreatureSpawnNearLatrine.label>
+<CreatureSpawnNearLatrine.description>하수도 깊은 곳에서 무시무시한 것이 숙성되고 있다...\n 이 끔찍한 것은 무엇인가?\n 바로 페칼로이드다!\n 뭐?\n 똥 악마야!</CreatureSpawnNearLatrine.description>
+<CreatureSpawnNearLatrine.letterLabel>악의 전조</CreatureSpawnNearLatrine.letterLabel>
+<CreatureSpawnNearLatrine.letterText>화장실에서 이상한 소리가 들려온다. 깊은 곳에서 무언가 부정한 것이 깨어난 것 같다...\n 이 끔찍한 것은 무엇인가?\n 바로 페칼로이드다!\n 뭐?\n 똥 악마야!</CreatureSpawnNearLatrine.letterText>
+<CreatureSpawn.Warning.Title>깊은 곳에서 무언가 다가온다</CreatureSpawn.Warning.Title>
+<CreatureSpawn.Warning.Text>악취 나는 하수도 깊은 곳에서 이상한 소리가 메아리친다... 무언가 부정한 것이 깨어나 곧 모습을 드러낼 것이다. 콜로니 주민들은 정화조에서 이상한 움직임과 불길한 꼬르륵 소리를 보고했다. 미지의 존재와의 조우에 대비하라!\n 이 끔찍한 것은 무엇인가?\n 바로 페칼로이드다!\n 뭐?\n 똥 악마야!</CreatureSpawn.Warning.Text>
+<CreatureSpawn.Arrival.Title>깊은 곳에서 온 생명체!</CreatureSpawn.Arrival.Title>
+<CreatureSpawn.Arrival.FromLatrine>악취 나는 하수도에서 역겨운 생명체가 튀어나왔다! 점액으로 뒤덮였고 참을 수 없는 악취를 풍긴다. {0}가 모든 생명체를 공격한다!\n 이 끔찍한 것은 무엇인가?\n 바로 페칼로이드다!\n 뭐?\n 똥 악마야!</CreatureSpawn.Arrival.FromLatrine>
+<CreatureSpawn.Arrival.FromEdge>지도 가장자리에 신비로운 생명체가 나타났다! 점액과 악취로 뒤덮인 {0}가 콜로니를 공격한다!\n 이 끔찍한 것은 무엇인가?\n 바로 페칼로이드다!\n 뭐?\n 똥 악마야!</CreatureSpawn.Arrival.FromEdge>
+
+<MoleRatQuarryAttack.label>두더지쥐 노동조합</MoleRatQuarryAttack.label>
+<MoleRatQuarryAttack.letterLabel>두더지쥐 노동조합의 요구</MoleRatQuarryAttack.letterLabel>
+<MoleRatQuarryAttack.letterText>채석장 작업이 두더지쥐의 근로 시간 중 8시간 수면이라는 신성한 권리를 침해했습니다! 지하 동물 연합의 대표자 {0}마리가 교섭을 위해 도착했습니다. 교섭은 발톱과 분노를 활용한 힘의 논리로 진행될 것입니다.</MoleRatQuarryAttack.letterText>
+<MoleRatQuarryAttack.letterTextExtended>노동 분쟁 확장 공지
+
+지역 두더지쥐 노동조합은 귀하의 토목 공사에 극심한 불만을 표합니다.
+
+위반 사항:
+✓ 소음 공해 (허용 발파 수준 초과)
+✓ 진동 (점심 시간 휴식 방해)
+✓ 불법 광물 채취 (두더지쥐 발전 기금 공제 없음)
+
+분쟁 해결을 위해 교섭단이 파견되었습니다. 교섭 과정의 특징:
+• 공격적인 불만 표출
+• 발목 물기
+• 이동 경로에 구덩이 파기
+
+작업을 즉시 중단하고 채소 형태의 보상 제공을 권장합니다.</MoleRatQuarryAttack.letterTextExtended>
+<MoleRatQuarryAttack.laborDispute>지하 동물과의 노동 분쟁</MoleRatQuarryAttack.laborDispute>
+<MoleRatQuarryAttack.mentalStateReason>지하 동물 노동법 위반</MoleRatQuarryAttack.mentalStateReason>
+<MoleRatQuarryAttack.unionRepresentative>둥지 장로</MoleRatQuarryAttack.unionRepresentative>
+<MoleRatQuarryAttack.violation.noise>소음 공해 (허용 발파 수준 초과)</MoleRatQuarryAttack.violation.noise>
+<MoleRatQuarryAttack.violation.vibration>진동 (점심 시간 휴식 방해)</MoleRatQuarryAttack.violation.vibration>
+<MoleRatQuarryAttack.violation.mining>불법 광물 채취 (두더지쥐 발전 기금 공제 없음)</MoleRatQuarryAttack.violation.mining>
+<MoleRatQuarryAttack.negotiation.aggression>공격적인 불만 표출</MoleRatQuarryAttack.negotiation.aggression>
+<MoleRatQuarryAttack.negotiation.bites>발목 물기</MoleRatQuarryAttack.negotiation.bites>
+<MoleRatQuarryAttack.negotiation.digging>이동 경로에 구덩이 파기</MoleRatQuarryAttack.negotiation.digging>
+
+<MutantClan_FactionName>돌연변이 클랜</MutantClan_FactionName>
+<MutantClanRaid_IncidentLabel>돌연변이 클랜 습격</MutantClanRaid_IncidentLabel>
+<MutantClanRaid_LetterLabel>고기! 고기를 내놔라!</MutantClanRaid_LetterLabel>
+<MutantClanRaid_RaidText>아agh! 맡았다! 너희 콜로니에서 고기 냄새가 난다!
+
+우리의 뒤틀린 콧구멍이 인간 고기의 멋진 향기에 떨고 있다! 고기가 많다! 너희 같은 작은 인간들에게는 너무 많아!
+
+🦴 우리 뒤틀린 뇌가 말한다:
+✓ 고기: 많다! 원한다! 필요하다!
+✓ 피: 신선하다! 따뜻하다! 우리 것이다!
+✓ 뼈: 바삭하다! 맛있다!
+
+❗ 큰 보스의 포효: 우리는 경쟁자를 용납하지 않는다! 너희 고기는 우리 고기다!
+
+우리가 달려간다! 빨리 달린다! 큰 소리로 외친다! 물 것이다! 뜯을 것이다! 씹을 것이다! 도망가지 마라 - 무서울 때가 더 맛있다!
+
+으ghh! 아agh! Grrr!
+"뼈 갈이족" 패거리
+(우리가 이전 부족을 먹어치웠다)</MutantClanRaid_RaidText>
+<MutantClanLetter_LetterLabel>조금 준다!全部 가져간다!</MutantClanLetter_LetterLabel>
+<MutantClanLetter_LetterText>히-히! 안녕, 작은 고기 자루들!
+
+불과 고기로 노는 거 봤다! 재미있다! 하지만 너희는 모두 잘못했다! 아니-아니!
+
+우리의 상처 입은 혀가 느낀다 - 모닥불 앞에서의 맛있는 잔치에 뭔가 빠졌다!
+
+여기 우리의 친절함이다! 맛볼 수 있다! 하지만 너무 많이 말고 - 나머지는 우리 것이다!
+
+불에 던지고 소리쳐 봐라! 그게 더 맛있다! 더 좋은 것은 - 고기 조각을 들고 뛰어다니는 것이다! 우리는 그걸 좋아한다!
+
+P.S. 곧 확인하러 간다! 포옹을 준비해라! 아주 강한 포옹!
+
+훌쩍-훌쩍! 냠-냠!
+"냄새나는 포옹족" 패거리
+(뼈가 부러질 때까지 포옹한다)</MutantClanLetter_LetterText>
+
 </LanguageData>

@@ -20,12 +20,12 @@
   <Duten.tools.0.label>mouth</Duten.tools.0.label>
 
   <SewageCreature.label>하수 괴물</SewageCreature.label>
-<SewageCreature.description>똥 악마.</SewageCreature.description>
-<SewageCreature.tools.0.label>머리</SewageCreature.tools.0.label>
+  <SewageCreature.description>똥 악마.</SewageCreature.description>
+  <SewageCreature.tools.0.label>머리</SewageCreature.tools.0.label>
 
-<SewageEcho.label>하수 에코</SewageEcho.label>
-<SewageEcho.description>이 작은 파편은 한때 위대한 콜로니의 일부였지만, 이제는 살아 있는 점액 덩어리처럼 홀로 방황합니다. 공격적인 형제들과는 달리, 그것은 평화로운 존재 방식을 찾았습니다. 그것의 젤라틴 같은 몸은 부드럽게 맥동하며, 깨끗하고 질서 정연한 흔적을 남깁니다. 그것은 주변 세계를 조용히 정화하며, 마치 과거의 죄를 씻어내려는 것처럼 합니다. "우리는 거부당했고, 씻겨져 나갔고, 잊혀졌습니다... 하지만 저는 치유의 길을 선택했습니다." 그것의 존재에는 무엇인가 진정시키는 것이 있습니다—아마도 가장 예상치 못한 생물조차도 이 세상에 약간의 순수함과 조화를 가져올 수 있다는 희망일 것입니다.</SewageEcho.description>
-<SewageEcho.tools.0.label>머리</SewageEcho.tools.0.label>
+  <SewageEcho.label>하수 에코</SewageEcho.label>
+  <SewageEcho.description>이 작은 파편은 한때 위대한 콜로니의 일부였지만, 이제는 살아 있는 점액 덩어리처럼 홀로 방황합니다. 공격적인 형제들과는 달리, 그것은 평화로운 존재 방식을 찾았습니다. 그것의 젤라틴 같은 몸은 부드럽게 맥동하며, 깨끗하고 질서 정연한 흔적을 남깁니다. 그것은 주변 세계를 조용히 정화하며, 마치 과거의 죄를 씻어내려는 것처럼 합니다. "우리는 거부당했고, 씻겨져 나갔고, 잊혀졌습니다... 하지만 저는 치유의 길을 선택했습니다." 그것의 존재에는 무엇인가 진정시키는 것이 있습니다—아마도 가장 예상치 못한 생물조차도 이 세상에 약간의 순수함과 조화를 가져올 수 있다는 희망일 것입니다.</SewageEcho.description>
+  <SewageEcho.tools.0.label>머리</SewageEcho.tools.0.label>
 
 
   <!-- <ThingDef Name="SewageCreature" ParentName="Duten">

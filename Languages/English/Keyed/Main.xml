@@ -72,5 +72,82 @@
   <ArmyCall.Items.Received>Received: X-01 Power Armor and X-01 Helmet</ArmyCall.Items.Received>
   <ArmyCall.Items.FallbackReceived>Received backup power armor</ArmyCall.Items.FallbackReceived>
   <ArmyCall.Errors.SpawnFailed>Armor delivery error. Please try your request again later.</ArmyCall.Errors.SpawnFailed>
+  
+  
+  <CreatureSpawnNearLatrine.label>Stench from the Depths</CreatureSpawnNearLatrine.label>
+<CreatureSpawnNearLatrine.description>Something terrible is festering in the depths of the sewers...\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawnNearLatrine.description>
+<CreatureSpawnNearLatrine.letterLabel>Harbinger of Evil</CreatureSpawnNearLatrine.letterLabel>
+<CreatureSpawnNearLatrine.letterText>Strange sounds are coming from the latrines. It seems something impure has awakened in the depths...\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawnNearLatrine.letterText>
+<CreatureSpawn.Warning.Title>Something Approaches from the Depths</CreatureSpawn.Warning.Title>
+<CreatureSpawn.Warning.Text>Strange sounds echo from the foul depths of the sewers... Something impure has awakened and will soon emerge. Colonists report strange movements in the septic tanks and ominous gurgling. Prepare to face the unknown!\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawn.Warning.Text>
+<CreatureSpawn.Arrival.Title>Creature from the Depths!</CreatureSpawn.Arrival.Title>
+<CreatureSpawn.Arrival.FromLatrine>A disgusting creature has burst forth from the foul sewer! It is covered in slime and radiates an unbearable stench. {0} attacks all living things!\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawn.Arrival.FromLatrine>
+<CreatureSpawn.Arrival.FromEdge>A mysterious creature has appeared at the edge of the map! {0}, covered in slime and stench, attacks the colony!\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawn.Arrival.FromEdge>
+
+<MoleRatQuarryAttack.label>Mole Rat Union</MoleRatQuarryAttack.label>
+<MoleRatQuarryAttack.letterLabel>Demands of the Mole Rat Union</MoleRatQuarryAttack.letterLabel>
+<MoleRatQuarryAttack.letterText>Work in the quarry has violated the sacred right of mole rats to eight hours of sleep during working hours! Representatives of the underground fauna union, numbering {0} individuals, have arrived for negotiations. Negotiations will be conducted from a position of strength, using claws and fury.</MoleRatQuarryAttack.letterText>
+<MoleRatQuarryAttack.letterTextExtended>EXTENDED NOTICE OF LABOR DISPUTE
+
+The local mole rat union expresses extreme dissatisfaction with your excavation work.
+
+Violations:
+✓ Noise pollution (exceeding permissible digging levels)
+✓ Vibrations (interfering with afternoon rest)
+✓ Illegal mineral extraction (without deductions to the mole rat development fund)
+
+Negotiators have been dispatched to resolve the conflict. Features of the negotiation process:
+• Aggressive display of dissatisfaction
+• Ankle biting
+• Digging holes in pathways
+
+It is recommended to immediately cease operations and offer compensation in the form of vegetables.</MoleRatQuarryAttack.letterTextExtended>
+<MoleRatQuarryAttack.laborDispute>LABOR DISPUTE WITH UNDERGROUND FAUNA</MoleRatQuarryAttack.laborDispute>
+<MoleRatQuarryAttack.mentalStateReason>violation of the underground fauna labor code</MoleRatQuarryAttack.mentalStateReason>
+<MoleRatQuarryAttack.unionRepresentative>Den Elder</MoleRatQuarryAttack.unionRepresentative>
+<MoleRatQuarryAttack.violation.noise>Noise pollution (exceeding permissible digging levels)</MoleRatQuarryAttack.violation.noise>
+<MoleRatQuarryAttack.violation.vibration>Vibrations (interfering with afternoon rest)</MoleRatQuarryAttack.violation.vibration>
+<MoleRatQuarryAttack.violation.mining>Illegal mineral extraction (without deductions to the mole rat development fund)</MoleRatQuarryAttack.violation.mining>
+<MoleRatQuarryAttack.negotiation.aggression>Aggressive display of dissatisfaction</MoleRatQuarryAttack.negotiation.aggression>
+<MoleRatQuarryAttack.negotiation.bites>Ankle biting</MoleRatQuarryAttack.negotiation.bites>
+<MoleRatQuarryAttack.negotiation.digging>Digging holes in pathways</MoleRatQuarryAttack.negotiation.digging>
+
+<MutantClan_FactionName>Mutant Clan</MutantClan_FactionName>
+<MutantClanRaid_IncidentLabel>Mutant Clan Raid</MutantClanRaid_IncidentLabel>
+<MutantClanRaid_LetterLabel>MEAT! GIVE MEAT!</MutantClanRaid_LetterLabel>
+<MutantClanRaid_RaidText>ARGH! SMELLED IT! SMELLED THE SCENT OF MEAT FROM YOUR COLONY!
+
+OUR TWISTED NOSTRILS TREMBLE FROM THE DELIGHTFUL AROMA OF HUMAN FLESH! MUCH MEAT! TOO MUCH FOR SUCH SMALL PEOPLE!
+
+🦴 WHAT OUR WARPED MINDS SAY:
+✓ MEAT: MUCH! WANT! NEED!
+✓ BLOOD: FRESH! WARM! OURS!
+✓ BONES: CRUNCHY! TASTY!
+
+❗ ROAR OF THE BIG BOSS: WE WON'T TOLERATE COMPETITORS! YOUR MEAT IS OUR MEAT!
+
+WE COME RUNNING TO YOU! RUN FAST! SCREAM LOUD! WE WILL BITE! TEAR! CHEW! DON'T RUN AWAY - TASTIER WHEN YOU'RE SCARED!
+
+UGHHH! ARGHH! GRRR!
+PACK "BONE-GNAWERS"
+(WE ATE THE PREVIOUS TRIBE)</MutantClanRaid_RaidText>
+<MutantClanLetter_LetterLabel>GIVE LITTLE PIECE! TAKE EVERYTHING!</MutantClanLetter_LetterLabel>
+<MutantClanLetter_LetterText>HE-HE! HELLO, LITTLE MEAT SACKS!
+
+WE SAW YOU PLAYING WITH FIRE AND MEAT! FUNNY! BUT YOU DO EVERYTHING WRONG! NO-NO!
+
+OUR SCARRED TONGUES FEEL - SOMETHING'S MISSING FOR A TASTY FEAST BY THE FIRE!
+
+HERE'S OUR KINDNESS! YOU CAN TRY! BUT NOT TOO MUCH - THE REST IS OURS!
+
+TRY THROWING INTO THE FIRE AND SCREAMING! TASTIER THAT WAY! EVEN BETTER - RUNNING AROUND WITH A PIECE OF MEAT! WE LOVE THAT!
+
+P.S. COMING SOON TO CHECK! PREPARE FOR HUGS! VERY STRONG HUGS!
+
+SNORT-SNORT! YUM-YUM!
+PACK "STINKY HUGGERS"
+(HUG UNTIL BONES CRACK)</MutantClanLetter_LetterText>
+
+
 
 </LanguageData>

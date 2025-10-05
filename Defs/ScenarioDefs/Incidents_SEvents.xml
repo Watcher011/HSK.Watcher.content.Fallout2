@@ -231,4 +231,37 @@
         </targetTags>
     </IncidentDef>
 	
+	<IncidentDef>
+    <defName>MoleRatQuarryAttack</defName>
+    <label>MoleRatQuarryAttack.label</label>
+    <category>Misc</category>
+    <targetTags>
+        <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>Watcher.Events.IncidentWorker_QuarryAnimalAttack</workerClass>
+    <baseChance>0.3</baseChance>
+    <minRefireDays>60</minRefireDays>
+    <earliestDay>30</earliestDay>
+    <minPopulation>4</minPopulation>
+    
+    <letterLabel>MoleRatQuarryAttack.letterLabel</letterLabel>
+    <letterText>MoleRatQuarryAttack.letterText</letterText>
+    <letterDef>NegativeEvent</letterDef>
+</IncidentDef>
+
+<IncidentDef>
+  <defName>MutantClanRaidEvent</defName>
+  <label>MutantClanRaid_IncidentLabel</label>
+  <workerClass>Watcher.Events.IncidentWorker_MutantClanRaid</workerClass>
+  <category>ThreatBig</category>
+ <minRefireDays>90</minRefireDays>
+  <baseChance>1.0</baseChance>
+  <letterLabel>MutantClanRaid_LetterLabel</letterLabel>
+  <letterDef>ThreatBig</letterDef>
+   <targetTags>
+            <li>Map_PlayerHome</li>
+    </targetTags>
+</IncidentDef>
+
+	
 </Defs>

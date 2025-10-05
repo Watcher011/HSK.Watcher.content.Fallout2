@@ -76,19 +76,20 @@
   <Duten.labelFemale>самка Дутня</Duten.labelFemale>
   <Duten.labelFemalePlural>самки Дутней</Duten.labelFemalePlural>
 
- <SewageCreature.label>Канализационный монстр</SewageCreature.label>
-<SewageCreature.labelPlural>Канализационные монстры</SewageCreature.labelPlural>
-<SewageCreature.labelMale>самец канализационного монстра</SewageCreature.labelMale>
-<SewageCreature.labelMalePlural>самцы канализационных монстров</SewageCreature.labelMalePlural>
-<SewageCreature.labelFemale>самка канализационного монстра</SewageCreature.labelFemale>
-<SewageCreature.labelFemalePlural>самки канализационных монстров</SewageCreature.labelFemalePlural>
+  <SewageCreature.label>Канализационный монстр</SewageCreature.label>
+  <SewageCreature.labelPlural>Канализационные монстры</SewageCreature.labelPlural>
+  <SewageCreature.labelMale>самец канализационного монстра</SewageCreature.labelMale>
+  <SewageCreature.labelMalePlural>самцы канализационных монстров</SewageCreature.labelMalePlural>
+  <SewageCreature.labelFemale>самка канализационного монстра</SewageCreature.labelFemale>
+  <SewageCreature.labelFemalePlural>самки канализационных монстров</SewageCreature.labelFemalePlural>
 
-<SewageEcho.label>Сточный эхо</SewageEcho.label>
-<SewageEcho.labelPlural>Сточные эхо</SewageEcho.labelPlural>
-<SewageEcho.labelMale>самец сточного эхо</SewageEcho.labelMale>
-<SewageEcho.labelMalePlural>самцы сточных эхо</SewageEcho.labelMalePlural>
-<SewageEcho.labelFemale>самка сточного эхо</SewageEcho.labelFemale>
-<SewageEcho.labelFemalePlural>самки сточных эхо</SewageEcho.labelFemalePlural>
+  <SewageEcho.label>Сточный эхо</SewageEcho.label>
+  <SewageEcho.labelPlural>Сточные эхо</SewageEcho.labelPlural>
+  <SewageEcho.labelMale>самец сточного эхо</SewageEcho.labelMale>
+  <SewageEcho.labelMalePlural>самцы сточных эхо</SewageEcho.labelMalePlural>
+  <SewageEcho.labelFemale>самка сточного эхо</SewageEcho.labelFemale>
+  <SewageEcho.labelFemalePlural>самки сточных эхо</SewageEcho.labelFemalePlural>
+
 
   <!-- <ThingDef Name="SewageCreature" ParentName="Duten">
         <defName>SewageCreature</defName>

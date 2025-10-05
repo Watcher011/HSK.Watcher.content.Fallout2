@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<HugeBee.label>Огромная пчела</HugeBee.label>
+  <DeathclawPasses.label>Когти Смерти проходят</DeathclawPasses.label>
+  <StrangeDutenPasses.label>Странный Дутень</StrangeDutenPasses.label>
+  <DutenSwarm.label>Рой Дутеней</DutenSwarm.label>
+
+  <ElectricShockExplosion.label>взрыв электрическим разрядом</ElectricShockExplosion.label>
+  <DeepDrillMolerat.label>Подкоп кротокрыс</DeepDrillMolerat.label>
+  <RadroachEaters.label>Пожиратели радитараканов</RadroachEaters.label>
+  <GlowRadDeerPasses.label>Светящиеся олени-мутанты проходят</GlowRadDeerPasses.label>
+
+  <BringersofDemocracy.label>Несём демократию</BringersofDemocracy.label>
+  <BringersofDemocracy.letterText>К нашей колонии приближаются те, кто несёт демократию!</BringersofDemocracy.letterText>
+  <BringersofDemocracy.letterLabel>Приближаются несущие демократию</BringersofDemocracy.letterLabel>
+
+  <StrangeCall.label>Странный вызов</StrangeCall.label>
+  <StrangeCall.letterText>Таинственный вызов</StrangeCall.letterText>
+  <StrangeCall.letterLabel>Странный вызов</StrangeCall.letterLabel>
+
+  <ArmyCall.label>Армейский вызов</ArmyCall.label>
+  <ArmyCall.letterText>На вашем коммуникационном консоле принимается сообщение от армейского командования. Похоже, вас приняли за нового рекрута.</ArmyCall.letterText>
+  <ArmyCall.letterLabel>Армейский вызов</ArmyCall.letterLabel>
+
+  <CreatureCall.label>Зов твари</CreatureCall.label>
+  <CreatureCall.letterText>Мы получили тревожные сообщения о необычной активности возле уборных. Кажется, сточные воды... движутся. Что-то мерзкое шевелится в отхожих ямах. Будьте готовы к возможному появлению враждебных существ.</CreatureCall.letterText>
+  <CreatureCall.letterLabel>Зов твари</CreatureCall.letterLabel>
+
+</LanguageData>
