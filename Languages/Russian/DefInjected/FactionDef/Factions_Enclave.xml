@@ -172,5 +172,16 @@
   <Enclave.pawnsPlural>Анклав</Enclave.pawnsPlural>
   <Enclave.leaderTitle>Президент</Enclave.leaderTitle>
 
+  <!-- RulePackDef - Faction -->
+  <NamerFactionEnclave>Анклав</NamerFactionEnclave>
+  <Enclave>Анклав</Enclave>
+
+  <!-- RulePackDef - Settlement -->
+  <NamerSettlementEnclave>Анклав</NamerSettlementEnclave>
+  
+  <Enclave.base>База анклава</Enclave.base>
+  <Enclave.camp>Лагерь анклава</Enclave.camp>
+  <Enclave.outpost>Аванпост анклава</Enclave.outpost>
+  <Enclave.laboratory>Лаборатория анклава</Enclave.laboratory>
 
 </LanguageData>

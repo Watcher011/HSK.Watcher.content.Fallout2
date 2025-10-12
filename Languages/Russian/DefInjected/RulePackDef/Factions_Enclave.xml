@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!--<NamerFactionEnclave.rulePack.rulesStrings.0>empire->Анклав</NamerFactionEnclave.rulePack.rulesStrings.0>-->
+  <NamerFactionEnclave.rulePack.rulesStrings.0>empire->Анклав</NamerFactionEnclave.rulePack.rulesStrings.0>
 
-  <!--<NamerSettlementEnclave.rulePack.rulesStrings.0>townend->База анклава 7401</NamerSettlementEnclave.rulePack.rulesStrings.0>-->
-  <!--<NamerSettlementEnclave.rulePack.rulesStrings.1>townend->База анклава 5062</NamerSettlementEnclave.rulePack.rulesStrings.1>-->
-  <!--<NamerSettlementEnclave.rulePack.rulesStrings.2>townend->База анклава 1203</NamerSettlementEnclave.rulePack.rulesStrings.2>-->
-  <!--<NamerSettlementEnclave.rulePack.rulesStrings.3>townend->База анклава 9042</NamerSettlementEnclave.rulePack.rulesStrings.3>-->
+  <NamerSettlementEnclave.rulePack.rulesStrings.0>townend->База анклава</NamerSettlementEnclave.rulePack.rulesStrings.0>
+  <NamerSettlementEnclave.rulePack.rulesStrings.1>townend->Лагерь анклава</NamerSettlementEnclave.rulePack.rulesStrings.1>
+  <NamerSettlementEnclave.rulePack.rulesStrings.2>townend->Аванпост анклава</NamerSettlementEnclave.rulePack.rulesStrings.2>
+  <NamerSettlementEnclave.rulePack.rulesStrings.3>townend->Лаборатория анклава</NamerSettlementEnclave.rulePack.rulesStrings.3>
 
+  
 
 </LanguageData>

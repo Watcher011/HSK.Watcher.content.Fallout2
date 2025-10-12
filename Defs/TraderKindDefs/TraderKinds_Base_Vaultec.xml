@@ -728,4 +728,29 @@
       
     </stockGenerators>
   </TraderKindDef>
+  
+  
+  <!-- <TraderKindDef>
+    <defName>Vaultec_Caravan_TributeCollector</defName>
+    <label>Vaultec tribute collector</label>
+    <stockGenerators>
+      <!{1}** Buying **{1}>
+      <li Class="StockGenerator_BuySlaves" />
+      <li Class="StockGenerator_BuySingleDef">
+        <thingDef>Gold</thingDef>
+      </li>
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>AntidoteSavagery</thingDef>
+        <countRange>20~70</countRange>
+      </li>
+	  
+	   <li Class="StockGenerator_SingleDef">
+        <thingDef>Silver</thingDef>
+        <countRange>3800~8000</countRange>
+      </li>
+    </stockGenerators>
+  </TraderKindDef>
+
+-->
+
 </Defs>

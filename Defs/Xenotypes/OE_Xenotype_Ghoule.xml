@@ -26,6 +26,7 @@
 	  <li>MinTemp_SmallIncrease</li>
 	  <li>Pain_Reduced</li>
 	 <li>ToxResist_Total</li>
+	<!--  <li>ChemicalDependency_SavageryHigh</li>-->
     </genes>
   </XenotypeDef>
   
@@ -55,6 +56,7 @@
 	  <li>MinTemp_SmallIncrease</li>
 	  <li>Pain_Reduced</li>
 	 <li>ToxResist_Total</li>
+	<!--  <li>ChemicalDependency_SavageryHigh</li>-->
     </genes>
   </XenotypeDef>
   

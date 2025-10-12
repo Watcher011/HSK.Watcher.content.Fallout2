@@ -71,6 +71,8 @@
 		</baseTraderKinds>
 		 <caravanTraderKinds>
           <li>Caravan_Vaultec_Main</li>
+		  <li>Base_Vaultec_Standard</li>
+		<!--  <li>Vaultec_Caravan_TributeCollector</li>-->
         </caravanTraderKinds>
 		<allowedArrivalTemperatureRange>-65~45</allowedArrivalTemperatureRange>
 		<raidLootMaker>VaultecRaidLootMaker</raidLootMaker>

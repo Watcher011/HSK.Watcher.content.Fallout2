@@ -1,7 +1,7 @@
 
 HSK Watcher Fallout 2
 =============
-Version: 0.61
+Version: 0.62
 
 -*-
 Оружие
@@ -120,6 +120,9 @@ CommsConsole(Радиоприёмник РВП-77)
 Research Terminal(исследовательский терминал)
 SubBrain(СубМозг)
 Psycho-Squeeze(Психо-Сквизер)
+Vault-Tec bobblehead mechanic (Пупс Механик)
+Vault-Tec bobblehead science(Пупс Наука)
+Vault-Tec bobblehead medicine(Пупс Медицина)
 -*-
 лампы
 VaultLamp(Аварийная лампа "Вечное сияние")

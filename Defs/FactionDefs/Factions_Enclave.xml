@@ -183,12 +183,14 @@
     <leaderTitle>President</leaderTitle>
     <earliestRaidDays>250</earliestRaidDays>
     <mustStartOneEnemy>true</mustStartOneEnemy>
+	<factionNameMaker>NamerFactionEnclave</factionNameMaker>
+	<settlementNameMaker>NamerSettlementEnclave</settlementNameMaker>
+
     <colorSpectrum>
       	<li>(1, 0, 0)</li>
     </colorSpectrum>
     <factionIconPath>World/WorldObjects/Expanding/Enclave</factionIconPath>
-    <factionNameMaker>NamerFactionPirate</factionNameMaker>
-    <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
+   
     <techLevel>Spacer</techLevel>
     <naturalEnemy>true</naturalEnemy>
     <allowedCultures>
@@ -316,6 +318,29 @@
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>54</configurationListOrderPriority>
 </FactionDef>
+
+
+<RulePackDef>
+    <defName>NamerFactionEnclave</defName>
+    <rulePack>
+      <rulesStrings>
+       <li>empire->Enclave</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+<RulePackDef>
+    <defName>NamerSettlementEnclave</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>townend->Enclave base</li>
+        <li>townend->Enclave camp</li>
+        <li>townend->Enclave outpost</li>
+        <li>townend->Enclave laboratory</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+ 
  
 </Defs>
 
