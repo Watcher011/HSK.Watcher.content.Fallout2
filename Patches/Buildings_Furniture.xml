@@ -102,4 +102,11 @@
 		</value>
 	</Operation>
 
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingDefChances</xpath>
+		<value>
+			<Altar_Grand_nuclear>1</Altar_Grand_nuclear>
+		</value>
+	</Operation>
 </Patch>

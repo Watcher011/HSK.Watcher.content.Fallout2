@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ty_todo - all this needs to be reviewed -->
+  
+<!-- Skillbooks -->
+
+   <RulePackDef>
+    <defName>Description_Comics</defName>
+    <include>
+      <li>ArtDescriptionUtility_Global</li>
+    </include>
+    <rulePack>
+      <rulesStrings>
+        
+        <!-- Roots -->
+        <li>desc->This [writingQualityAdjective] [bookType] [follows] [heroName] as [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</li>
+        <li>desc->In this [writingQualityAdjective] [bookType], the [author] [tellsAStoryOf] [heroName]'s [storySource]. [writingQualitySentence]. [maybe_date]</li>
+        <li>desc->This [bookType] depicts [heroName]'s [adventureType] on [worldname]. [writingQualitySentence]. [maybe_date]</li>
+        <li>desc->[heroName] [protagAction] in this [writingQualityAdjective] [bookType]. [writingQualitySentence]. [maybe_date]</li>
+
+        <!-- Hero Names -->
+        <li>heroName->Grognak the Barbarian</li>
+        <li>heroName->Captain Photon</li>
+        <li>heroName->Stellar Ranger</li>
+        <li>heroName->Mecha-Man</li>
+        <li>heroName->Quantum Kid</li>
+        <li>heroName->Rocket Girl</li>
+        <li>heroName->Cosmic Crusader</li>
+
+        <!-- Protagonist Actions -->
+        <li>protagAction->battles against [villainName]</li>
+        <li>protagAction->seeks the legendary [artifact]</li>
+        <li>protagAction->explores the mysterious [location]</li>
+        <li>protagAction->defends [worldname] from invasion</li>
+        <li>protagAction->uncovers an ancient conspiracy</li>
+
+        <li>protagHe->he</li>
+        <li>protagHis->his</li>
+        <li>protagHim->him</li>
+
+        <!-- Story Struggles -->
+        <li>storyStruggles->[struggles] against [villainName]</li>
+        <li>storyStruggles->[seeks] [seekObjective]</li>
+        <li>storyStruggles->[explores] [location]</li>
+        <li>storyStruggles->[defends] [worldname] from [threat]</li>
+
+        <li>struggles->struggles</li>
+        <li>struggles->fights</li>
+        <li>struggles->battles</li>
+        <li>struggles->clashes with</li>
+
+        <li>explores->explores</li>
+        <li>explores->ventures into</li>
+        <li>explores->journeys through</li>
+        <li>explores->discovers the secrets of</li>
+
+        <li>defends->defends</li>
+        <li>defends->protects</li>
+        <li>defends->saves</li>
+        <li>defends->guards</li>
+
+        <!-- Villains -->
+        <li>villainName->Doctor Doom</li>
+        <li>villainName->the Crimson Claw</li>
+        <li>villainName->Lord Vile</li>
+        <li>villainName->Queen Malice</li>
+        <li>villainName->the Shadow King</li>
+        <li>villainName->Mecha-Monster</li>
+        <li>villainName->Professor Chaos</li>
+
+        <!-- Seek Objectives -->
+        <li>seekObjective->the Crystal Skull of [worldname]</li>
+        <li>seekObjective->the Cosmic Cube</li>
+        <li>seekObjective->the Lost Treasure of [coreworld]</li>
+        <li>seekObjective->the Doomsday Device</li>
+        <li>seekObjective->a stolen family heirloom</li>
+        <li>seekObjective->a rare alien artifact</li>
+        <li>seekObjective->the missing piece of an ancient weapon</li>
+
+        <li>seeks->seeks</li>
+        <li>seeks->searches the universe for</li>
+        <li>seeks->hunts down</li>
+        <li>seeks->embarks on a quest for</li>
+        <li>seeks->scours the galaxy for</li>
+
+        <!-- Locations -->
+        <li>location->the Crystal Kingdom</li>
+        <li>location->the Jungle of Fear</li>
+        <li>location->the City of Doom</li>
+        <li>location->the Fortress of Evil</li>
+        <li>location->the Caverns of Terror</li>
+        <li>location->the Ocean of Monsters</li>
+        <li>location->the Mountains of Madness</li>
+
+        <!-- Threats -->
+        <li>threat->alien invaders</li>
+        <li>threat->robot armies</li>
+        <li>threat->space pirates</li>
+        <li>threat->mutant creatures</li>
+        <li>threat->time raiders</li>
+        <li>threat->void creatures</li>
+
+        <!-- Artifacts -->
+        <li>artifact->Crystal Skull</li>
+        <li>artifact->Cosmic Cube</li>
+        <li>artifact->Doomsday Device</li>
+        <li>artifact->Ancient Weapon</li>
+        <li>artifact->Alien Technology</li>
+
+        <!-- Adventure Types -->
+        <li>adventureType->incredible adventure</li>
+        <li>adventureType->dangerous mission</li>
+        <li>adventureType->epic quest</li>
+        <li>adventureType->heroic journey</li>
+        <li>adventureType->thrilling expedition</li>
+
+        <!-- Story Sources -->
+        <li>storySource->incredible adventure</li>
+        <li>storySource->dangerous mission</li>
+        <li>storySource->epic quest</li>
+        <li>storySource->battle against evil</li>
+        <li>storySource->journey across the stars</li>
+        <li>storySource->search for lost treasure</li>
+        <li>storySource->defense of the innocent</li>
+
+        <!-- Author and Storytelling -->
+        <li>tellsAStoryOf->tells the epic tale of</li>
+        <li>tellsAStoryOf->chronicles the adventures of</li>
+        <li>tellsAStoryOf->depicts the heroic deeds of</li>
+        <li>tellsAStoryOf->recounts the thrilling story of</li>
+        <li>tellsAStoryOf->paints an exciting picture of</li>
+
+        <li>author->author</li>
+        <li>author->comic artist</li>
+        <li>author->writer</li>
+        <li>author->storyteller</li>
+
+        <li>follows->follows</li>
+        <li>follows->chronicles</li>
+        <li>follows->details the adventures of</li>
+        <li>follows->tells the story of</li>
+
+        <!-- Writing Quality -->
+        <li>writingQualityAdjective(quality==6)->remarkably well-drawn and written</li>
+        <li>writingQualityAdjective(quality==5)->visually stunning and exciting</li>
+        <li>writingQualityAdjective(quality==4)->colorful and engaging</li>
+        <li>writingQualityAdjective(quality==3)->well-illustrated</li>
+        <li>writingQualityAdjective(quality==2)->mediocre</li>
+        <li>writingQualityAdjective(quality==1)->poorly-drawn</li>
+        <li>writingQualityAdjective(quality==0)->nearly-illegible</li>
+
+        <li>writingQualitySentence(quality[greater_than]4)->The artwork is [excellentDesc] [excellentExtra]</li>
+        <li>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->The illustrations are [decentDesc] [decentExtra]</li>
+        <li>writingQualitySentence(quality[less_than]2)->The drawings are [awfulDesc] [awfulExtra]</li>
+
+        <li>excellentDesc->dynamic and full of energy</li>
+        <li>excellentDesc->vibrant and detailed</li>
+        <li>excellentDesc->masterfully crafted with bold lines</li>
+        <li>excellentDesc->visually spectacular</li>
+        <li>excellentDesc->innovative and groundbreaking</li>
+        <li>excellentExtra->. Each panel flows perfectly into the next</li>
+        <li>excellentExtra->. The action sequences are breathtaking</li>
+        <li>excellentExtra->. The character designs are iconic</li>
+        <li>excellentExtra->. The coloring enhances the dramatic tension</li>
+
+        <li>decentDesc->competent but unremarkable</li>
+        <li>decentDesc->serviceable for the story</li>
+        <li>decentDesc->adequate though inconsistent</li>
+        <li>decentDesc->functional but lacking flair</li>
+        <li>decentExtra-> with some awkward poses</li>
+        <li>decentExtra-> though the backgrounds are often sparse</li>
+        <li>decentExtra-> but the anatomy is sometimes questionable</li>
+        <li>decentExtra-> with occasionally muddy coloring</li>
+
+        <li>awfulDesc->crudely drawn</li>
+        <li>awfulDesc->amateurish and rushed</li>
+        <li>awfulDesc->difficult to decipher</li>
+        <li>awfulDesc->messy and inconsistent</li>
+        <li>awfulExtra-> and the action is confusing</li>
+        <li>awfulExtra-> with proportions that defy physics</li>
+        <li>awfulExtra-> and the storytelling is nearly incomprehensible</li>
+        <li>awfulExtra-> with colors that clash painfully</li>
+
+        <!-- Book Types -->
+        <li>bookType(p=6)->comic book</li>
+        <li>bookType->graphic novel</li>
+        <li>bookType->comic series</li>
+        <li>bookType->illustrated adventure</li>
+        <li>bookType->action comic</li>
+        <li>bookType->science fiction comic</li>
+
+        <!-- Date -->
+        <li>maybe_date-></li>
+        <li>maybe_date->This issue was published [date_form].</li>
+        <li>maybe_date->First printed [date_form].</li>
+        <li>maybe_date->Originally released [date_form].</li>
+
+        <li>date_form->recently</li>
+        <li>date_form->decades ago</li>
+        <li>date_form->in the golden age of comics</li>
+        <li>date_form->during the silver age</li>
+
+        <!-- World Names (from previous examples) -->
+        <li>worldname->[glitterworld]</li>
+        <li>worldname->[urbworld]</li>
+        <li>worldname->[coreworld]</li>
+        <li>worldname->[rimworld]</li>
+        <li>worldname->[warworld]</li>
+
+        <li>glitterworld->Kalthas IV</li>
+        <li>glitterworld->Amen-Ti</li>
+        <li>urbworld->Euterpe</li>
+        <li>urbworld->Avenna</li>
+        <li>coreworld->Novaroma</li>
+        <li>coreworld->Lutuni</li>
+        <li>rimworld->Filson</li>
+        <li>rimworld->La Grand</li>
+        <li>warworld->Kemia</li>
+        <li>warworld->Vanu</li>
+
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+
+</Defs>

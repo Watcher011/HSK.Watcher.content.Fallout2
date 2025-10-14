@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- General -->
+  <Namer_ComicsBook.rulePack.rulesStrings.0>title->[titleBasic]</Namer_ComicsBook.rulePack.rulesStrings.0>
+  <Namer_ComicsBook.rulePack.rulesStrings.1>title->[titleAdjective] [titleSubject]</Namer_ComicsBook.rulePack.rulesStrings.1>
+  <Namer_ComicsBook.rulePack.rulesStrings.2>title->[titleSubject]: [titleSubtitle]</Namer_ComicsBook.rulePack.rulesStrings.2>
+  <Namer_ComicsBook.rulePack.rulesStrings.3>title->[titleSubject] [titleSubtitle]</Namer_ComicsBook.rulePack.rulesStrings.3>
+  <Namer_ComicsBook.rulePack.rulesStrings.4>title->[titleNumber]: [titleSubtitle]</Namer_ComicsBook.rulePack.rulesStrings.4>
+  
+  <!-- Basic Titles -->
+  <Namer_ComicsBook.rulePack.rulesStrings.5>titleBasic(p=6)->[randAdjective]</Namer_ComicsBook.rulePack.rulesStrings.5>
+  <Namer_ComicsBook.rulePack.rulesStrings.6>titleBasic->[heroName] и [titleSubtitle]</Namer_ComicsBook.rulePack.rulesStrings.6>
+  <Namer_ComicsBook.rulePack.rulesStrings.7>titleBasic->[heroName] в [titleSubtitle]</Namer_ComicsBook.rulePack.rulesStrings.7>
+  <Namer_ComicsBook.rulePack.rulesStrings.8>titleBasic->[heroName] против [villainName]</Namer_ComicsBook.rulePack.rulesStrings.8>
+  
+  <!-- Hero Names -->
+  <Namer_ComicsBook.rulePack.rulesStrings.9>heroName->Грогнак-Варвар</Namer_ComicsBook.rulePack.rulesStrings.9>
+  <Namer_ComicsBook.rulePack.rulesStrings.10>heroName->Капитан Фотон</Namer_ComicsBook.rulePack.rulesStrings.10>
+  <Namer_ComicsBook.rulePack.rulesStrings.11>heroName->Звездный Рейнджер</Namer_ComicsBook.rulePack.rulesStrings.11>
+  <Namer_ComicsBook.rulePack.rulesStrings.12>heroName->Меха-Человек</Namer_ComicsBook.rulePack.rulesStrings.12>
+  <Namer_ComicsBook.rulePack.rulesStrings.13>heroName->Квантовый Парень</Namer_ComicsBook.rulePack.rulesStrings.13>
+  <Namer_ComicsBook.rulePack.rulesStrings.14>heroName->Космический Искатель Приключений</Namer_ComicsBook.rulePack.rulesStrings.14>
+  <Namer_ComicsBook.rulePack.rulesStrings.15>heroName->Ракетная Девушка</Namer_ComicsBook.rulePack.rulesStrings.15>
+  <Namer_ComicsBook.rulePack.rulesStrings.16>heroName->Космический Крестоносец</Namer_ComicsBook.rulePack.rulesStrings.16>
+  <Namer_ComicsBook.rulePack.rulesStrings.17>heroName->Неоновый Рыцарь</Namer_ComicsBook.rulePack.rulesStrings.17>
+  <Namer_ComicsBook.rulePack.rulesStrings.18>heroName->Звездный Сержант</Namer_ComicsBook.rulePack.rulesStrings.18>
+  
+  <!-- Villain Names -->
+  <Namer_ComicsBook.rulePack.rulesStrings.19>villainName->Доктор Дум</Namer_ComicsBook.rulePack.rulesStrings.19>
+  <Namer_ComicsBook.rulePack.rulesStrings.20>villainName->Багровый Коготь</Namer_ComicsBook.rulePack.rulesStrings.20>
+  <Namer_ComicsBook.rulePack.rulesStrings.21>villainName->Лорд Мерзкий</Namer_ComicsBook.rulePack.rulesStrings.21>
+  <Namer_ComicsBook.rulePack.rulesStrings.22>villainName->Королева Злобы</Namer_ComicsBook.rulePack.rulesStrings.22>
+  <Namer_ComicsBook.rulePack.rulesStrings.23>villainName->Король Теней</Namer_ComicsBook.rulePack.rulesStrings.23>
+  <Namer_ComicsBook.rulePack.rulesStrings.24>villainName->Меха-Монстр</Namer_ComicsBook.rulePack.rulesStrings.24>
+  <Namer_ComicsBook.rulePack.rulesStrings.25>villainName->Галактический Призрак</Namer_ComicsBook.rulePack.rulesStrings.25>
+  <Namer_ComicsBook.rulePack.rulesStrings.26>villainName->Профессор Хаос</Namer_ComicsBook.rulePack.rulesStrings.26>
+  
+  <!-- Adjectives -->
+  <Namer_ComicsBook.rulePack.rulesStrings.27>titleAdjective->Удивительные</Namer_ComicsBook.rulePack.rulesStrings.27>
+  <Namer_ComicsBook.rulePack.rulesStrings.28>titleAdjective->Невероятные</Namer_ComicsBook.rulePack.rulesStrings.28>
+  <Namer_ComicsBook.rulePack.rulesStrings.29>titleAdjective->Фантастические</Namer_ComicsBook.rulePack.rulesStrings.29>
+  <Namer_ComicsBook.rulePack.rulesStrings.30>titleAdjective->Могучие</Namer_ComicsBook.rulePack.rulesStrings.30>
+  <Namer_ComicsBook.rulePack.rulesStrings.31>titleAdjective->Секретные</Namer_ComicsBook.rulePack.rulesStrings.31>
+  <Namer_ComicsBook.rulePack.rulesStrings.32>titleAdjective->Темные</Namer_ComicsBook.rulePack.rulesStrings.32>
+  <Namer_ComicsBook.rulePack.rulesStrings.33>titleAdjective->Будущие</Namer_ComicsBook.rulePack.rulesStrings.33>
+  <Namer_ComicsBook.rulePack.rulesStrings.34>titleAdjective->Атомные</Namer_ComicsBook.rulePack.rulesStrings.34>
+  <Namer_ComicsBook.rulePack.rulesStrings.35>titleAdjective->Космические</Namer_ComicsBook.rulePack.rulesStrings.35>
+  <Namer_ComicsBook.rulePack.rulesStrings.36>titleAdjective->Галактические</Namer_ComicsBook.rulePack.rulesStrings.36>
+  
+  <!-- Subjects -->
+  <Namer_ComicsBook.rulePack.rulesStrings.37>titleSubject->Приключения</Namer_ComicsBook.rulePack.rulesStrings.37>
+  <Namer_ComicsBook.rulePack.rulesStrings.38>titleSubject->Квест</Namer_ComicsBook.rulePack.rulesStrings.38>
+  <Namer_ComicsBook.rulePack.rulesStrings.39>titleSubject->Битва</Namer_ComicsBook.rulePack.rulesStrings.39>
+  <Namer_ComicsBook.rulePack.rulesStrings.40>titleSubject->Тайна</Namer_ComicsBook.rulePack.rulesStrings.40>
+  <Namer_ComicsBook.rulePack.rulesStrings.41>titleSubject->Путешествие</Namer_ComicsBook.rulePack.rulesStrings.41>
+  <Namer_ComicsBook.rulePack.rulesStrings.42>titleSubject->Сага</Namer_ComicsBook.rulePack.rulesStrings.42>
+  <Namer_ComicsBook.rulePack.rulesStrings.43>titleSubject->Хроники</Namer_ComicsBook.rulePack.rulesStrings.43>
+  <Namer_ComicsBook.rulePack.rulesStrings.44>titleSubject->Легенда</Namer_ComicsBook.rulePack.rulesStrings.44>
+  <Namer_ComicsBook.rulePack.rulesStrings.45>titleSubject->Сказание</Namer_ComicsBook.rulePack.rulesStrings.45>
+  <Namer_ComicsBook.rulePack.rulesStrings.46>titleSubject->История</Namer_ComicsBook.rulePack.rulesStrings.46>
+  
+  <!-- Subtitles -->
+  <Namer_ComicsBook.rulePack.rulesStrings.47>titleSubtitle->[subtitleBeginning] [subtitleEnd]</Namer_ComicsBook.rulePack.rulesStrings.47>
+  <Namer_ComicsBook.rulePack.rulesStrings.48>titleSubtitle->[subtitleLocation] [subtitleThreat]</Namer_ComicsBook.rulePack.rulesStrings.48>
+  <Namer_ComicsBook.rulePack.rulesStrings.49>titleSubtitle->[subtitleAction] [subtitleTarget]</Namer_ComicsBook.rulePack.rulesStrings.49>
+  
+  <Namer_ComicsBook.rulePack.rulesStrings.50>subtitleBeginning->Возвращение на</Namer_ComicsBook.rulePack.rulesStrings.50>
+  <Namer_ComicsBook.rulePack.rulesStrings.51>subtitleBeginning->Атака</Namer_ComicsBook.rulePack.rulesStrings.51>
+  <Namer_ComicsBook.rulePack.rulesStrings.52>subtitleBeginning->Месть</Namer_ComicsBook.rulePack.rulesStrings.52>
+  <Namer_ComicsBook.rulePack.rulesStrings.53>subtitleBeginning->Восстание</Namer_ComicsBook.rulePack.rulesStrings.53>
+  <Namer_ComicsBook.rulePack.rulesStrings.54>subtitleBeginning->Падение</Namer_ComicsBook.rulePack.rulesStrings.54>
+  <Namer_ComicsBook.rulePack.rulesStrings.55>subtitleBeginning->Секрет</Namer_ComicsBook.rulePack.rulesStrings.55>
+  <Namer_ComicsBook.rulePack.rulesStrings.56>subtitleBeginning->Проклятие</Namer_ComicsBook.rulePack.rulesStrings.56>
+  <Namer_ComicsBook.rulePack.rulesStrings.57>subtitleBeginning->Наследие</Namer_ComicsBook.rulePack.rulesStrings.57>
+  
+  <Namer_ComicsBook.rulePack.rulesStrings.58>subtitleEnd->Потерянной Планеты</Namer_ComicsBook.rulePack.rulesStrings.58>
+  <Namer_ComicsBook.rulePack.rulesStrings.59>subtitleEnd->Космических Пиратов</Namer_ComicsBook.rulePack.rulesStrings.59>
+  <Namer_ComicsBook.rulePack.rulesStrings.60>subtitleEnd->Кристального Королевства</Namer_ComicsBook.rulePack.rulesStrings.60>
+  <Namer_ComicsBook.rulePack.rulesStrings.61>subtitleEnd->Машины Судного Дня</Namer_ComicsBook.rulePack.rulesStrings.61>
+  <Namer_ComicsBook.rulePack.rulesStrings.62>subtitleEnd->Налетчиков Времени</Namer_ComicsBook.rulePack.rulesStrings.62>
+  <Namer_ComicsBook.rulePack.rulesStrings.63>subtitleEnd->Космического Куба</Namer_ComicsBook.rulePack.rulesStrings.63>
+  <Namer_ComicsBook.rulePack.rulesStrings.64>subtitleEnd->Созданий Бездны</Namer_ComicsBook.rulePack.rulesStrings.64>
+  <Namer_ComicsBook.rulePack.rulesStrings.65>subtitleEnd->Армии Роботов</Namer_ComicsBook.rulePack.rulesStrings.65>
+  
+  <Namer_ComicsBook.rulePack.rulesStrings.66>subtitleLocation->В</Namer_ComicsBook.rulePack.rulesStrings.66>
+  <Namer_ComicsBook.rulePack.rulesStrings.67>subtitleLocation->За пределами</Namer_ComicsBook.rulePack.rulesStrings.67>
+  <Namer_ComicsBook.rulePack.rulesStrings.68>subtitleLocation->Под</Namer_ComicsBook.rulePack.rulesStrings.68>
+  <Namer_ComicsBook.rulePack.rulesStrings.69>subtitleLocation->Над</Namer_ComicsBook.rulePack.rulesStrings.69>
+  
+  <Namer_ComicsBook.rulePack.rulesStrings.70>subtitleThreat->Джунглями Страха</Namer_ComicsBook.rulePack.rulesStrings.70>
+  <Namer_ComicsBook.rulePack.rulesStrings.71>subtitleThreat->Городом Судьбы</Namer_ComicsBook.rulePack.rulesStrings.71>
+  <Namer_ComicsBook.rulePack.rulesStrings.72>subtitleThreat->Цитаделью Зла</Namer_ComicsBook.rulePack.rulesStrings.72>
+  <Namer_ComicsBook.rulePack.rulesStrings.73>subtitleThreat->Пещерами Ужаса</Namer_ComicsBook.rulePack.rulesStrings.73>
+  <Namer_ComicsBook.rulePack.rulesStrings.74>subtitleThreat->Океаном Монстров</Namer_ComicsBook.rulePack.rulesStrings.74>
+  <Namer_ComicsBook.rulePack.rulesStrings.75>subtitleThreat->Горами Безумия</Namer_ComicsBook.rulePack.rulesStrings.75>
+  
+  <Namer_ComicsBook.rulePack.rulesStrings.76>subtitleAction->Битва за</Namer_ComicsBook.rulePack.rulesStrings.76>
+  <Namer_ComicsBook.rulePack.rulesStrings.77>subtitleAction->Гонка к</Namer_ComicsBook.rulePack.rulesStrings.77>
+  <Namer_ComicsBook.rulePack.rulesStrings.78>subtitleAction->Побег из</Namer_ComicsBook.rulePack.rulesStrings.78>
+  <Namer_ComicsBook.rulePack.rulesStrings.79>subtitleAction->Поиски</Namer_ComicsBook.rulePack.rulesStrings.79>
+  <Namer_ComicsBook.rulePack.rulesStrings.80>subtitleAction->Оборона</Namer_ComicsBook.rulePack.rulesStrings.80>
+  
+  <Namer_ComicsBook.rulePack.rulesStrings.81>subtitleTarget->Космическую Крепость</Namer_ComicsBook.rulePack.rulesStrings.81>
+  <Namer_ComicsBook.rulePack.rulesStrings.82>subtitleTarget->Скрытый Город</Namer_ComicsBook.rulePack.rulesStrings.82>
+  <Namer_ComicsBook.rulePack.rulesStrings.83>subtitleTarget->Потерянное Сокровище</Namer_ComicsBook.rulePack.rulesStrings.83>
+  <Namer_ComicsBook.rulePack.rulesStrings.84>subtitleTarget->Секретную Базу</Namer_ComicsBook.rulePack.rulesStrings.84>
+  <Namer_ComicsBook.rulePack.rulesStrings.85>subtitleTarget->Устройство Судного Дня</Namer_ComicsBook.rulePack.rulesStrings.85>
+  
+  <!-- Issue Numbers -->
+  <Namer_ComicsBook.rulePack.rulesStrings.86>titleNumber->Выпуск №1</Namer_ComicsBook.rulePack.rulesStrings.86>
+  <Namer_ComicsBook.rulePack.rulesStrings.87>titleNumber->Выпуск №2</Namer_ComicsBook.rulePack.rulesStrings.87>
+  <Namer_ComicsBook.rulePack.rulesStrings.88>titleNumber->Выпуск №3</Namer_ComicsBook.rulePack.rulesStrings.88>
+  <Namer_ComicsBook.rulePack.rulesStrings.89>titleNumber->Выпуск №4</Namer_ComicsBook.rulePack.rulesStrings.89>
+  <Namer_ComicsBook.rulePack.rulesStrings.90>titleNumber->Выпуск №5</Namer_ComicsBook.rulePack.rulesStrings.90>
+  <Namer_ComicsBook.rulePack.rulesStrings.91>titleNumber->Специальный Выпуск 18+</Namer_ComicsBook.rulePack.rulesStrings.91>
+  <Namer_ComicsBook.rulePack.rulesStrings.92>titleNumber->Ежегодный Выпуск</Namer_ComicsBook.rulePack.rulesStrings.92>
+  <Namer_ComicsBook.rulePack.rulesStrings.93>titleNumber->Коллекционное Издание 18+</Namer_ComicsBook.rulePack.rulesStrings.93>
+  
+  <!-- Grognak titles -->
+  <Namer_ComicsBook.rulePack.rulesStrings.94>randAdjective->Грогнак-Варвар и Кровь на Арфе</Namer_ComicsBook.rulePack.rulesStrings.94>
+  <Namer_ComicsBook.rulePack.rulesStrings.95>randAdjective->Грогнак-Варвар и Появление Плута</Namer_ComicsBook.rulePack.rulesStrings.95>
+  <Namer_ComicsBook.rulePack.rulesStrings.96>randAdjective->Грогнак-Варвар и Джунгли Летучей Мыши</Namer_ComicsBook.rulePack.rulesStrings.96>
+  <Namer_ComicsBook.rulePack.rulesStrings.97>randAdjective->Грогнак-Варвар и в Объятиях Королевы Корсаров</Namer_ComicsBook.rulePack.rulesStrings.97>
+  <Namer_ComicsBook.rulePack.rulesStrings.98>randAdjective->Грогнак-Варвар и Рабы Демонов, Пески Демонов</Namer_ComicsBook.rulePack.rulesStrings.98>
+  <Namer_ComicsBook.rulePack.rulesStrings.99>randAdjective->Грогнак-Варвар и Появление Маулы: Девы Войны Марса</Namer_ComicsBook.rulePack.rulesStrings.99>
+  <Namer_ComicsBook.rulePack.rulesStrings.100>randAdjective->Грогнак-Варвар и Зловонное Безотцовщина</Namer_ComicsBook.rulePack.rulesStrings.100>
+  <Namer_ComicsBook.rulePack.rulesStrings.101>randAdjective->Грогнак-Варвар и Потерянный в Снегах Похоти</Namer_ComicsBook.rulePack.rulesStrings.101>
+  <Namer_ComicsBook.rulePack.rulesStrings.102>randAdjective->Грогнак-Варвар и в Логове Пожирателя Девственниц!</Namer_ComicsBook.rulePack.rulesStrings.102>
+  <Namer_ComicsBook.rulePack.rulesStrings.103>randAdjective->Грогнак-Варвар и Что это за Колдовство?</Namer_ComicsBook.rulePack.rulesStrings.103>
+  <Namer_ComicsBook.rulePack.rulesStrings.104>randAdjective->Грогнак-Варвар и Тяжела Дубовая Корона!</Namer_ComicsBook.rulePack.rulesStrings.104>
+
+</LanguageData>

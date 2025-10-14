@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Roots -->
+  <Description_Comics.rulePack.rulesStrings.0>desc->Этот [writingQualityAdjective] [bookType] [follows] [heroName] в то время как [protagHe] [storyStruggles]. [writingQualitySentence]. [maybe_date]</Description_Comics.rulePack.rulesStrings.0>
+  <Description_Comics.rulePack.rulesStrings.1>desc->В этом [writingQualityAdjective] [bookType] [author] [tellsAStoryOf] [storySource] [heroName]. [writingQualitySentence]. [maybe_date]</Description_Comics.rulePack.rulesStrings.1>
+  <Description_Comics.rulePack.rulesStrings.2>desc->Этот [bookType] изображает [adventureType] [heroName] на [worldname]. [writingQualitySentence]. [maybe_date]</Description_Comics.rulePack.rulesStrings.2>
+  <Description_Comics.rulePack.rulesStrings.3>desc->[heroName] [protagAction] в этом [writingQualityAdjective] [bookType]. [writingQualitySentence]. [maybe_date]</Description_Comics.rulePack.rulesStrings.3>
+
+  <!-- Hero Names -->
+  <Description_Comics.rulePack.rulesStrings.4>heroName->Грогнак-Варвар</Description_Comics.rulePack.rulesStrings.4>
+  <Description_Comics.rulePack.rulesStrings.5>heroName->Капитан Фотон</Description_Comics.rulePack.rulesStrings.5>
+  <Description_Comics.rulePack.rulesStrings.6>heroName->Звездный Рейнджер</Description_Comics.rulePack.rulesStrings.6>
+  <Description_Comics.rulePack.rulesStrings.7>heroName->Меха-Человек</Description_Comics.rulePack.rulesStrings.7>
+  <Description_Comics.rulePack.rulesStrings.8>heroName->Квантовый Парень</Description_Comics.rulePack.rulesStrings.8>
+  <Description_Comics.rulePack.rulesStrings.9>heroName->Ракетная Девушка</Description_Comics.rulePack.rulesStrings.9>
+  <Description_Comics.rulePack.rulesStrings.10>heroName->Космический Крестоносец</Description_Comics.rulePack.rulesStrings.10>
+
+  <!-- Protagonist Actions -->
+  <Description_Comics.rulePack.rulesStrings.11>protagAction->сражается против [villainName]</Description_Comics.rulePack.rulesStrings.11>
+  <Description_Comics.rulePack.rulesStrings.12>protagAction->ищет легендарный [artifact]</Description_Comics.rulePack.rulesStrings.12>
+  <Description_Comics.rulePack.rulesStrings.13>protagAction->исследует загадочный [location]</Description_Comics.rulePack.rulesStrings.13>
+  <Description_Comics.rulePack.rulesStrings.14>protagAction->защищает [worldname] от вторжения</Description_Comics.rulePack.rulesStrings.14>
+  <Description_Comics.rulePack.rulesStrings.15>protagAction->раскрывает древний заговор</Description_Comics.rulePack.rulesStrings.15>
+
+  <Description_Comics.rulePack.rulesStrings.16>protagHe->он</Description_Comics.rulePack.rulesStrings.16>
+  <Description_Comics.rulePack.rulesStrings.17>protagHis->его</Description_Comics.rulePack.rulesStrings.17>
+  <Description_Comics.rulePack.rulesStrings.18>protagHim->него</Description_Comics.rulePack.rulesStrings.18>
+
+  <!-- Story Struggles -->
+  <Description_Comics.rulePack.rulesStrings.19>storyStruggles->[struggles] против [villainName]</Description_Comics.rulePack.rulesStrings.19>
+  <Description_Comics.rulePack.rulesStrings.20>storyStruggles->[seeks] [seekObjective]</Description_Comics.rulePack.rulesStrings.20>
+  <Description_Comics.rulePack.rulesStrings.21>storyStruggles->[explores] [location]</Description_Comics.rulePack.rulesStrings.21>
+  <Description_Comics.rulePack.rulesStrings.22>storyStruggles->[defends] [worldname] от [threat]</Description_Comics.rulePack.rulesStrings.22>
+
+  <Description_Comics.rulePack.rulesStrings.23>struggles->борется</Description_Comics.rulePack.rulesStrings.23>
+  <Description_Comics.rulePack.rulesStrings.24>struggles->сражается</Description_Comics.rulePack.rulesStrings.24>
+  <Description_Comics.rulePack.rulesStrings.25>struggles->бится</Description_Comics.rulePack.rulesStrings.25>
+  <Description_Comics.rulePack.rulesStrings.26>struggles->сталкивается с</Description_Comics.rulePack.rulesStrings.26>
+
+  <Description_Comics.rulePack.rulesStrings.27>explores->исследует</Description_Comics.rulePack.rulesStrings.27>
+  <Description_Comics.rulePack.rulesStrings.28>explores->проникает в</Description_Comics.rulePack.rulesStrings.28>
+  <Description_Comics.rulePack.rulesStrings.29>explores->путешествует через</Description_Comics.rulePack.rulesStrings.29>
+  <Description_Comics.rulePack.rulesStrings.30>explores->открывает тайны</Description_Comics.rulePack.rulesStrings.30>
+
+  <Description_Comics.rulePack.rulesStrings.31>defends->защищает</Description_Comics.rulePack.rulesStrings.31>
+  <Description_Comics.rulePack.rulesStrings.32>defends->обороняет</Description_Comics.rulePack.rulesStrings.32>
+  <Description_Comics.rulePack.rulesStrings.33>defends->спасает</Description_Comics.rulePack.rulesStrings.33>
+  <Description_Comics.rulePack.rulesStrings.34>defends->охраняет</Description_Comics.rulePack.rulesStrings.34>
+
+  <!-- Villains -->
+  <Description_Comics.rulePack.rulesStrings.35>villainName->Доктором Думом</Description_Comics.rulePack.rulesStrings.35>
+  <Description_Comics.rulePack.rulesStrings.36>villainName->Багровым Когтем</Description_Comics.rulePack.rulesStrings.36>
+  <Description_Comics.rulePack.rulesStrings.37>villainName->Лордом Мерзким</Description_Comics.rulePack.rulesStrings.37>
+  <Description_Comics.rulePack.rulesStrings.38>villainName->Королевой Злобы</Description_Comics.rulePack.rulesStrings.38>
+  <Description_Comics.rulePack.rulesStrings.39>villainName->Королем Теней</Description_Comics.rulePack.rulesStrings.39>
+  <Description_Comics.rulePack.rulesStrings.40>villainName->Меха-Монстром</Description_Comics.rulePack.rulesStrings.40>
+  <Description_Comics.rulePack.rulesStrings.41>villainName->Профессором Хаосом</Description_Comics.rulePack.rulesStrings.41>
+
+  <!-- Seek Objectives -->
+  <Description_Comics.rulePack.rulesStrings.42>seekObjective->Хрустальный Череп [worldname]</Description_Comics.rulePack.rulesStrings.42>
+  <Description_Comics.rulePack.rulesStrings.43>seekObjective->Космический Куб</Description_Comics.rulePack.rulesStrings.43>
+  <Description_Comics.rulePack.rulesStrings.44>seekObjective->Потерянное Сокровище [coreworld]</Description_Comics.rulePack.rulesStrings.44>
+  <Description_Comics.rulePack.rulesStrings.45>seekObjective->Устройство Судного Дня</Description_Comics.rulePack.rulesStrings.45>
+  <Description_Comics.rulePack.rulesStrings.46>seekObjective->украденную семейную реликвию</Description_Comics.rulePack.rulesStrings.46>
+  <Description_Comics.rulePack.rulesStrings.47>seekObjective->редкий инопланетный артефакт</Description_Comics.rulePack.rulesStrings.47>
+  <Description_Comics.rulePack.rulesStrings.48>seekObjective->недостающую часть древнего оружия</Description_Comics.rulePack.rulesStrings.48>
+
+  <Description_Comics.rulePack.rulesStrings.49>seeks->ищет</Description_Comics.rulePack.rulesStrings.49>
+  <Description_Comics.rulePack.rulesStrings.50>seeks->обыскивает вселенную в поисках</Description_Comics.rulePack.rulesStrings.50>
+  <Description_Comics.rulePack.rulesStrings.51>seeks->охотится за</Description_Comics.rulePack.rulesStrings.51>
+  <Description_Comics.rulePack.rulesStrings.52>seeks->отправляется в квест за</Description_Comics.rulePack.rulesStrings.52>
+  <Description_Comics.rulePack.rulesStrings.53>seeks->прочесывает галактику в поисках</Description_Comics.rulePack.rulesStrings.53>
+
+  <!-- Locations -->
+  <Description_Comics.rulePack.rulesStrings.54>location->Хрустальное Королевство</Description_Comics.rulePack.rulesStrings.54>
+  <Description_Comics.rulePack.rulesStrings.55>location->Джунгли Страха</Description_Comics.rulePack.rulesStrings.55>
+  <Description_Comics.rulePack.rulesStrings.56>location->Город Судьбы</Description_Comics.rulePack.rulesStrings.56>
+  <Description_Comics.rulePack.rulesStrings.57>location->Цитадель Зла</Description_Comics.rulePack.rulesStrings.57>
+  <Description_Comics.rulePack.rulesStrings.58>location->Пещеры Ужаса</Description_Comics.rulePack.rulesStrings.58>
+  <Description_Comics.rulePack.rulesStrings.59>location->Океан Монстров</Description_Comics.rulePack.rulesStrings.59>
+  <Description_Comics.rulePack.rulesStrings.60>location->Горы Безумия</Description_Comics.rulePack.rulesStrings.60>
+
+  <!-- Threats -->
+  <Description_Comics.rulePack.rulesStrings.61>threat->инопланетных захватчиков</Description_Comics.rulePack.rulesStrings.61>
+  <Description_Comics.rulePack.rulesStrings.62>threat->армий роботов</Description_Comics.rulePack.rulesStrings.62>
+  <Description_Comics.rulePack.rulesStrings.63>threat->космических пиратов</Description_Comics.rulePack.rulesStrings.63>
+  <Description_Comics.rulePack.rulesStrings.64>threat->мутировавших существ</Description_Comics.rulePack.rulesStrings.64>
+  <Description_Comics.rulePack.rulesStrings.65>threat->налетчиков времени</Description_Comics.rulePack.rulesStrings.65>
+  <Description_Comics.rulePack.rulesStrings.66>threat->существ из Бездны</Description_Comics.rulePack.rulesStrings.66>
+
+  <!-- Artifacts -->
+  <Description_Comics.rulePack.rulesStrings.67>artifact->Хрустальный Череп</Description_Comics.rulePack.rulesStrings.67>
+  <Description_Comics.rulePack.rulesStrings.68>artifact->Космический Куб</Description_Comics.rulePack.rulesStrings.68>
+  <Description_Comics.rulePack.rulesStrings.69>artifact->Устройство Судного Дня</Description_Comics.rulePack.rulesStrings.69>
+  <Description_Comics.rulePack.rulesStrings.70>artifact->Древнее Оружие</Description_Comics.rulePack.rulesStrings.70>
+  <Description_Comics.rulePack.rulesStrings.71>artifact->Инопланетные Технологии</Description_Comics.rulePack.rulesStrings.71>
+
+  <!-- Adventure Types -->
+  <Description_Comics.rulePack.rulesStrings.72>adventureType->невероятное приключение</Description_Comics.rulePack.rulesStrings.72>
+  <Description_Comics.rulePack.rulesStrings.73>adventureType->опасную миссию</Description_Comics.rulePack.rulesStrings.73>
+  <Description_Comics.rulePack.rulesStrings.74>adventureType->эпический квест</Description_Comics.rulePack.rulesStrings.74>
+  <Description_Comics.rulePack.rulesStrings.75>adventureType->героическое путешествие</Description_Comics.rulePack.rulesStrings.75>
+  <Description_Comics.rulePack.rulesStrings.76>adventureType->захватывающую экспедицию</Description_Comics.rulePack.rulesStrings.76>
+
+  <!-- Story Sources -->
+  <Description_Comics.rulePack.rulesStrings.77>storySource->невероятное приключение</Description_Comics.rulePack.rulesStrings.77>
+  <Description_Comics.rulePack.rulesStrings.78>storySource->опасную миссию</Description_Comics.rulePack.rulesStrings.78>
+  <Description_Comics.rulePack.rulesStrings.79>storySource->эпический квест</Description_Comics.rulePack.rulesStrings.79>
+  <Description_Comics.rulePack.rulesStrings.80>storySource->битву со злом</Description_Comics.rulePack.rulesStrings.80>
+  <Description_Comics.rulePack.rulesStrings.81>storySource->путешествие через звезды</Description_Comics.rulePack.rulesStrings.81>
+  <Description_Comics.rulePack.rulesStrings.82>storySource->поиски потерянного сокровища</Description_Comics.rulePack.rulesStrings.82>
+  <Description_Comics.rulePack.rulesStrings.83>storySource->защиту невинных</Description_Comics.rulePack.rulesStrings.83>
+
+  <!-- Author and Storytelling -->
+  <Description_Comics.rulePack.rulesStrings.84>tellsAStoryOf->рассказывает эпическую сагу о</Description_Comics.rulePack.rulesStrings.84>
+  <Description_Comics.rulePack.rulesStrings.85>tellsAStoryOf->хроникирует приключения</Description_Comics.rulePack.rulesStrings.85>
+  <Description_Comics.rulePack.rulesStrings.86>tellsAStoryOf->изображает героические деяния</Description_Comics.rulePack.rulesStrings.86>
+  <Description_Comics.rulePack.rulesStrings.87>tellsAStoryOf->повествует захватывающую историю о</Description_Comics.rulePack.rulesStrings.87>
+  <Description_Comics.rulePack.rulesStrings.88>tellsAStoryOf->рисует захватывающую картину</Description_Comics.rulePack.rulesStrings.88>
+
+  <Description_Comics.rulePack.rulesStrings.89>author->автор</Description_Comics.rulePack.rulesStrings.89>
+  <Description_Comics.rulePack.rulesStrings.90>author->художник комиксов</Description_Comics.rulePack.rulesStrings.90>
+  <Description_Comics.rulePack.rulesStrings.91>author->писатель</Description_Comics.rulePack.rulesStrings.91>
+  <Description_Comics.rulePack.rulesStrings.92>author->рассказчик</Description_Comics.rulePack.rulesStrings.92>
+
+  <Description_Comics.rulePack.rulesStrings.93>follows->следует за</Description_Comics.rulePack.rulesStrings.93>
+  <Description_Comics.rulePack.rulesStrings.94>follows->хроникирует</Description_Comics.rulePack.rulesStrings.94>
+  <Description_Comics.rulePack.rulesStrings.95>follows->подробно описывает приключения</Description_Comics.rulePack.rulesStrings.95>
+  <Description_Comics.rulePack.rulesStrings.96>follows->рассказывает историю о</Description_Comics.rulePack.rulesStrings.96>
+
+  <!-- Writing Quality -->
+  <Description_Comics.rulePack.rulesStrings.97>writingQualityAdjective(quality==6)->замечательно нарисованный и написанный</Description_Comics.rulePack.rulesStrings.97>
+  <Description_Comics.rulePack.rulesStrings.98>writingQualityAdjective(quality==5)->визуально потрясающий и захватывающий</Description_Comics.rulePack.rulesStrings.98>
+  <Description_Comics.rulePack.rulesStrings.99>writingQualityAdjective(quality==4)->красочный и увлекательный</Description_Comics.rulePack.rulesStrings.99>
+  <Description_Comics.rulePack.rulesStrings.100>writingQualityAdjective(quality==3)->хорошо иллюстрированный</Description_Comics.rulePack.rulesStrings.100>
+  <Description_Comics.rulePack.rulesStrings.101>writingQualityAdjective(quality==2)->посредственный</Description_Comics.rulePack.rulesStrings.101>
+  <Description_Comics.rulePack.rulesStrings.102>writingQualityAdjective(quality==1)->плохо нарисованный</Description_Comics.rulePack.rulesStrings.102>
+  <Description_Comics.rulePack.rulesStrings.103>writingQualityAdjective(quality==0)->почти неразборчивый</Description_Comics.rulePack.rulesStrings.103>
+
+  <Description_Comics.rulePack.rulesStrings.104>writingQualitySentence(quality[greater_than]4)->Художественная работа [excellentDesc] [excellentExtra]</Description_Comics.rulePack.rulesStrings.104>
+  <Description_Comics.rulePack.rulesStrings.105>writingQualitySentence(quality[less_than]5,quality[greater_than]1)->Иллюстрации [decentDesc] [decentExtra]</Description_Comics.rulePack.rulesStrings.105>
+  <Description_Comics.rulePack.rulesStrings.106>writingQualitySentence(quality[less_than]2)->Рисунки [awfulDesc] [awfulExtra]</Description_Comics.rulePack.rulesStrings.106>
+
+  <Description_Comics.rulePack.rulesStrings.107>excellentDesc->динамичная и полная энергии</Description_Comics.rulePack.rulesStrings.107>
+  <Description_Comics.rulePack.rulesStrings.108>excellentDesc->яркая и детализированная</Description_Comics.rulePack.rulesStrings.108>
+  <Description_Comics.rulePack.rulesStrings.109>excellentDesc->мастерски выполненная смелыми линиями</Description_Comics.rulePack.rulesStrings.109>
+  <Description_Comics.rulePack.rulesStrings.110>excellentDesc->визуально spectacular</Description_Comics.rulePack.rulesStrings.110>
+  <Description_Comics.rulePack.rulesStrings.111>excellentDesc->инновационная и новаторская</Description_Comics.rulePack.rulesStrings.111>
+  <Description_Comics.rulePack.rulesStrings.112>excellentExtra->. Каждая панель идеально перетекает в следующую</Description_Comics.rulePack.rulesStrings.112>
+  <Description_Comics.rulePack.rulesStrings.113>excellentExtra->. Экшен-сцены захватывают дух</Description_Comics.rulePack.rulesStrings.113>
+  <Description_Comics.rulePack.rulesStrings.114>excellentExtra->. Дизайн персонажей стал иконным</Description_Comics.rulePack.rulesStrings.114>
+  <Description_Comics.rulePack.rulesStrings.115>excellentExtra->. Колористика усиливает драматическое напряжение</Description_Comics.rulePack.rulesStrings.115>
+
+  <Description_Comics.rulePack.rulesStrings.116>decentDesc->компетентная, но ничем не примечательная</Description_Comics.rulePack.rulesStrings.116>
+  <Description_Comics.rulePack.rulesStrings.117>decentDesc->удовлетворительная для истории</Description_Comics.rulePack.rulesStrings.117>
+  <Description_Comics.rulePack.rulesStrings.118>decentDesc->адекватная, хотя непостоянная</Description_Comics.rulePack.rulesStrings.118>
+  <Description_Comics.rulePack.rulesStrings.119>decentDesc->функциональная, но без изюминки</Description_Comics.rulePack.rulesStrings.119>
+  <Description_Comics.rulePack.rulesStrings.120>decentExtra-> с некоторыми неудобными позами</Description_Comics.rulePack.rulesStrings.120>
+  <Description_Comics.rulePack.rulesStrings.121>decentExtra-> хотя фоны часто скудные</Description_Comics.rulePack.rulesStrings.121>
+  <Description_Comics.rulePack.rulesStrings.122>decentExtra-> но анатомия иногда сомнительна</Description_Comics.rulePack.rulesStrings.122>
+  <Description_Comics.rulePack.rulesStrings.123>decentExtra-> с occasionally мутной раскраской</Description_Comics.rulePack.rulesStrings.123>
+
+  <Description_Comics.rulePack.rulesStrings.124>awfulDesc->грубо нарисована</Description_Comics.rulePack.rulesStrings.124>
+  <Description_Comics.rulePack.rulesStrings.125>awfulDesc->любительская и поспешная</Description_Comics.rulePack.rulesStrings.125>
+  <Description_Comics.rulePack.rulesStrings.126>awfulDesc->трудноразличима</Description_Comics.rulePack.rulesStrings.126>
+  <Description_Comics.rulePack.rulesStrings.127>awfulDesc->грязная и непостоянная</Description_Comics.rulePack.rulesStrings.127>
+  <Description_Comics.rulePack.rulesStrings.128>awfulExtra-> и экшен-сцены запутанные</Description_Comics.rulePack.rulesStrings.128>
+  <Description_Comics.rulePack.rulesStrings.129>awfulExtra-> с пропорциями, бросающими вызов физике</Description_Comics.rulePack.rulesStrings.129>
+  <Description_Comics.rulePack.rulesStrings.130>awfulExtra-> и повествование почти непостижимо</Description_Comics.rulePack.rulesStrings.130>
+  <Description_Comics.rulePack.rulesStrings.131>awfulExtra-> с болезненно конфликтующими цветами</Description_Comics.rulePack.rulesStrings.131>
+
+  <!-- Book Types -->
+  <Description_Comics.rulePack.rulesStrings.132>bookType(p=6)->комикс</Description_Comics.rulePack.rulesStrings.132>
+  <Description_Comics.rulePack.rulesStrings.133>bookType->графический роман</Description_Comics.rulePack.rulesStrings.133>
+  <Description_Comics.rulePack.rulesStrings.134>bookType->серия комиксов</Description_Comics.rulePack.rulesStrings.134>
+  <Description_Comics.rulePack.rulesStrings.135>bookType->иллюстрированное приключение</Description_Comics.rulePack.rulesStrings.135>
+  <Description_Comics.rulePack.rulesStrings.136>bookType->экшен-комикс</Description_Comics.rulePack.rulesStrings.136>
+  <Description_Comics.rulePack.rulesStrings.137>bookType->научно-фантастический комикс</Description_Comics.rulePack.rulesStrings.137>
+
+  <!-- Date -->
+  <Description_Comics.rulePack.rulesStrings.138>maybe_date-></Description_Comics.rulePack.rulesStrings.138>
+  <Description_Comics.rulePack.rulesStrings.139>maybe_date->Этот выпуск был опубликован [date_form].</Description_Comics.rulePack.rulesStrings.139>
+  <Description_Comics.rulePack.rulesStrings.140>maybe_date->Впервые напечатан [date_form].</Description_Comics.rulePack.rulesStrings.140>
+  <Description_Comics.rulePack.rulesStrings.141>maybe_date->Изначально выпущен [date_form].</Description_Comics.rulePack.rulesStrings.141>
+
+  <Description_Comics.rulePack.rulesStrings.142>date_form->недавно</Description_Comics.rulePack.rulesStrings.142>
+  <Description_Comics.rulePack.rulesStrings.143>date_form->десятилетия назад</Description_Comics.rulePack.rulesStrings.143>
+  <Description_Comics.rulePack.rulesStrings.144>date_form->в золотой век комиксов</Description_Comics.rulePack.rulesStrings.144>
+  <Description_Comics.rulePack.rulesStrings.145>date_form->во время серебряного века</Description_Comics.rulePack.rulesStrings.145>
+
+  <!-- World Names -->
+  <Description_Comics.rulePack.rulesStrings.146>worldname->[glitterworld]</Description_Comics.rulePack.rulesStrings.146>
+  <Description_Comics.rulePack.rulesStrings.147>worldname->[urbworld]</Description_Comics.rulePack.rulesStrings.147>
+  <Description_Comics.rulePack.rulesStrings.148>worldname->[coreworld]</Description_Comics.rulePack.rulesStrings.148>
+  <Description_Comics.rulePack.rulesStrings.149>worldname->[rimworld]</Description_Comics.rulePack.rulesStrings.149>
+  <Description_Comics.rulePack.rulesStrings.150>worldname->[warworld]</Description_Comics.rulePack.rulesStrings.150>
+
+  <Description_Comics.rulePack.rulesStrings.151>glitterworld->Кальтас IV</Description_Comics.rulePack.rulesStrings.151>
+  <Description_Comics.rulePack.rulesStrings.152>glitterworld->Амен-Ти</Description_Comics.rulePack.rulesStrings.152>
+  <Description_Comics.rulePack.rulesStrings.153>urbworld->Эвтерпа</Description_Comics.rulePack.rulesStrings.153>
+  <Description_Comics.rulePack.rulesStrings.154>urbworld->Авенна</Description_Comics.rulePack.rulesStrings.154>
+  <Description_Comics.rulePack.rulesStrings.155>coreworld->Новарома</Description_Comics.rulePack.rulesStrings.155>
+  <Description_Comics.rulePack.rulesStrings.156>coreworld->Лутуни</Description_Comics.rulePack.rulesStrings.156>
+  <Description_Comics.rulePack.rulesStrings.157>rimworld->Филсон</Description_Comics.rulePack.rulesStrings.157>
+  <Description_Comics.rulePack.rulesStrings.158>rimworld->Ла Гранд</Description_Comics.rulePack.rulesStrings.158>
+  <Description_Comics.rulePack.rulesStrings.159>warworld->Кемия</Description_Comics.rulePack.rulesStrings.159>
+  <Description_Comics.rulePack.rulesStrings.160>warworld->Вану</Description_Comics.rulePack.rulesStrings.160>
+
+</LanguageData>

@@ -1,7 +1,7 @@
 
 HSK Watcher Fallout 2
 =============
-Version: 0.62
+Version: 0.63
 
 -*-
 Оружие
@@ -123,6 +123,7 @@ Psycho-Squeeze(Психо-Сквизер)
 Vault-Tec bobblehead mechanic (Пупс Механик)
 Vault-Tec bobblehead science(Пупс Наука)
 Vault-Tec bobblehead medicine(Пупс Медицина)
+Altar_Grand_nuclear(Мегатонна)
 -*-
 лампы
 VaultLamp(Аварийная лампа "Вечное сияние")
@@ -192,6 +193,7 @@ MisterHandy(Мистер Помощник)
 Фракция
 Vaultec(Волт-Тек)
 Enclave(Анклав)
+Mutante(Мутанты)
 -*-
 одежда
 Vault jumpsuit(Комбинезон Убежища)
@@ -209,6 +211,8 @@ Y-17 Spacesuit helmet(Шлем скафандра Y-17)
 сценарий
 Shelter residents(easy start)(Жители Убежища)
 -*-
+книги
+Grognak the Barbarian Comics(Комиксы Грогнак-варвар)
 миссии 
 Abandoned Shelter//Удалено 
 -*-
