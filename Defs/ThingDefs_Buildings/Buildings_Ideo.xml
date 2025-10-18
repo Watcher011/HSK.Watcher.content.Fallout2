@@ -42,7 +42,6 @@
 			<li>BuildingsMisc</li>
 	</thingCategories>
 	<costList>
-			<ChunkSlagSteel>10</ChunkSlagSteel>
 			<Uranium>5</Uranium>
 	</costList>
 		<building>

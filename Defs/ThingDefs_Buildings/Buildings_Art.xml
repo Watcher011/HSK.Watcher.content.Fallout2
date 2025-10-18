@@ -91,4 +91,53 @@
 		</recipeMaker>
 	</ThingDef>
 
+
+
+
+<ThingDef ParentName="SK_SculptureBase">
+		<defName>BugArt</defName>
+		<label>Whirlwind of Contempt</label>
+		<description>But the monument's true life lies within. The entire structure is teeming with radroach figurines. They don't simply sit on the surface—they're part of the vortex. Thousands of the insects, cast in phosphorescent epoxy resin, fill the interior, creating the illusion of a seething, living tornado. Their chitinous backs shimmer in the darkness with a dim, ominous green light, and their tentacles and legs merge into a single stream, echoing the swirling lines of the storm.</description>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/Art/Bug</texPath>
+			<drawSize>(1.8,1.8)</drawSize>
+		</graphicData>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<drawerType>RealtimeOnly</drawerType>
+		<fillPercent>0.15</fillPercent>
+		 <tickerType>Normal</tickerType>
+		<rotatable>false</rotatable>
+		<statBases>
+			<MaxHitPoints>170</MaxHitPoints>
+			<Beauty>70</Beauty>
+			<WorkToMake>36000</WorkToMake>
+			<Bulk>80</Bulk>
+			<Mass>50</Mass>
+			 <TerrorSource>25</TerrorSource>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">48</StyleDominance>
+		</statBases>
+		<stuffCategories>
+            <li>Metallic</li>
+			<li>RuggedMetallic</li>
+			<li>StrongMetallic</li>
+			<li>Precious</li>
+			<li>Woody</li>
+			<li>Stony</li>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		 <placeWorkers>
+    </placeWorkers>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(117,217,113,0)</glowColor>
+			</li>
+		</comps>
+		<recipeMaker>
+			<researchPrerequisite>Art_A1</researchPrerequisite>
+		</recipeMaker>
+	</ThingDef>
 </Defs>

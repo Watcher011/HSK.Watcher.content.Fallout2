@@ -1,7 +1,7 @@
 
 HSK Watcher Fallout 2
 =============
-Version: 0.63
+Version: 0.64
 
 -*-
 Оружие
@@ -125,6 +125,10 @@ Vault-Tec bobblehead science(Пупс Наука)
 Vault-Tec bobblehead medicine(Пупс Медицина)
 Altar_Grand_nuclear(Мегатонна)
 -*-
+статуи
+Whirlwind of Contempt(Вихрь презрения)
+WatcherArt(Скульптура наблюдателя)
+-*-
 лампы
 VaultLamp(Аварийная лампа "Вечное сияние")
 Construction lamp(Фонарь выживальщика)
@@ -230,3 +234,4 @@ Oil for the Enclave - демократия
 CreatureCall - нашествие говнодемона
 MoleRatQuarryAttack - Профсоюз кротокрысов
 MutantClanRaid - кулинарный батл
+RadNadoIncident - РадТорнадо

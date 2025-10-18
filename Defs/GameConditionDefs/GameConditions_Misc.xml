@@ -1,4 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+       <GameConditionDef>
+        <defName>RadNado</defName>
+        <label>Radioactive Tornado</label>
+        <description>RadNado.Condition.Description</description>
+        <conditionClass>Watcher.FalloutRimworld.RadNado.GameCondition_RadNado</conditionClass>
+        <canBePermanent>false</canBePermanent>
+    </GameConditionDef>
 </Defs>
