@@ -475,7 +475,7 @@ An employee no longer needs to study tedious textbooks for years or possess any 
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(0.8)</drawSize>
-			 <drawOffset>(0,0,0.2)</drawOffset>
+			 <drawOffset>(0,0,0.5)</drawOffset>
 			<shadowData>
 				<volume>(0.85, 1.0, 0.85)</volume>
 				<offset>(0,0,0)</offset>

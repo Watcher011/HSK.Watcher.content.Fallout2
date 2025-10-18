@@ -266,12 +266,10 @@
  <IncidentDef>
         <defName>RadNadoIncident</defName>
         <label>RadNadoIncident</label>
-        <workerClass>Watcher.FalloutRimworld.RadNado.IncidentWorker_RadNado</workerClass>
+         <workerClass>Watcher.FalloutRimworld.RadNado.IncidentWorker_RadNado</workerClass>
         <baseChance>0.5</baseChance>
         <minRefireDays>15</minRefireDays>
-        <letterText>RadNado.Incident.LetterText</letterText>
-        <letterLabel>RadNado.Incident.LetterLabel</letterLabel>
-        <letterDef>BadEvent</letterDef>
+        <letterDef>NegativeEvent</letterDef>
         <category>Misc</category>
         <targetTags>
             <li>Map_PlayerHome</li>

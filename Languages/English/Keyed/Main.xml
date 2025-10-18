@@ -148,31 +148,28 @@ SNORT-SNORT! YUM-YUM!
 PACK "STINKY HUGGERS"
 (HUG UNTIL BONES CRACK)</MutantClanLetter_LetterText>
 
-<!-- Incident Letters -->
-<RadNado.Incident.LetterLabel>RADIOACTIVE TORNADO</RadNado.Incident.LetterLabel>
-<RadNado.Incident.LetterText>The air grows heavy with the smell of ozone and decay. A sickly green-orange vortex tears through the sky, its unnatural glow casting long, dancing shadows. This is not a natural phenomenon—it breathes with a sinister intelligence. From its seething depths comes the chattering cries of radroaches, their forms distilling the radiation into something... hungrier.</RadNado.Incident.LetterText>
-
-<!-- Blocked Event Messages -->
-<RadNado.Blocked.LetterLabel>WHISPERS IN THE RADIATION</RadNado.Blocked.LetterLabel>
-<RadNado.Blocked.LetterText>A radioactive tornado forms, its deafening roar drowning out all other sounds. The radroaches within are exhausted by an unnatural hunger, their countless claws clawing at the swirling debris.
+   <RadNado.Incident.LetterLabel>RADIOACTIVE TORNADO</RadNado.Incident.LetterLabel>
+  <RadNado.Incident.LetterText>The air grows heavy with the scent of ozone and decay. A sickly green-orange vortex tears through the sky, its unnatural glow casting long, dancing shadows. This is no natural phenomenon - it breathes with malevolent intelligence. From its churning depths come chittering screams of radroaches, their forms twisted by radiation into something... hungrier.</RadNado.Incident.LetterText>
+  
+  <RadNado.Blocked.LetterLabel>WHISPERS IN THE GLOW</RadNado.Blocked.LetterLabel>
+  <RadNado.Blocked.LetterText>A radioactive tornado approaches, its deafening roar drowning out all other sounds. The radroaches within shriek with unnatural hunger, their countless legs scraping against the swirling debris.
 
 But then... silence.
 
 The "Vortex of Contempt" statue begins to pulse with a soft, sickly light. The radroaches fall silent, their antennae twitching in unison.
 
-A voice like the rustle of a thousand chitinous wings whispered through the static: "They bear the Mark... The Ancients watch over this phenomenon."
+A voice, like the rustling of a thousand chitinous wings, whispers through the static: "They bear the Mark... the Ancients watch over this place."
 
-The tornado shifts direction not out of independence, but out of recognition. The radroaches don't retreat—they bow. Their glowing eyes are fixed on the statue with something between awe and horror.
+The tornado shifts direction not out of mercy, but recognition. The radroaches aren't retreating - they're bowing. Their glowing eyes fixed on the statue with something between reverence and terror.
 
-As the Whirlwind emerges, a final transmission cuts through the radiation: "The Nest remembers... we will watch... always watch."
+As the vortex recedes, one final transmission cuts through the radiation: "The Nest remembers... we will watch... always watching."
 
-The immediate threat has passed, but the feeling of being watched lingers, like radiation sickness.</RadNado.Blocked.LetterText>
-
-<!-- Game Condition Labels -->
-<RadNado.Condition.Label>Radioactive Tornado</RadNado.Condition.Label>
-<RadNado.Condition.Description>A living storm, giving birth to aborted creatures driven mad by radiation.</RadNado.Condition.Description>
-
-<!-- Incident Definition Labels -->
-<RadNado.IncidentDef.Label>Radioactive Tornado</RadNado.IncidentDef.Label>
+The immediate threat is gone, but the feeling of being observed lingers like radiation sickness.</RadNado.Blocked.LetterText>
+  <RadNado.Blocked.StatueLocation>The sacred statue at coordinates ({0}, {1}) has protected your colony.</RadNado.Blocked.StatueLocation>
+  
+  <RadNado.Condition.Label>Radioactive Tornado</RadNado.Condition.Label>
+  <RadNado.Condition.Description>A living storm that births twisted, radiation-maddened creatures.</RadNado.Condition.Description>
+  
+  <RadNado.IncidentDef.Label>Radioactive Tornado</RadNado.IncidentDef.Label>
 
 </LanguageData>

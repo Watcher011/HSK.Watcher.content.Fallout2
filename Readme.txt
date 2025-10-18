@@ -1,7 +1,7 @@
 
 HSK Watcher Fallout 2
 =============
-Version: 0.64
+Version: 0.65
 
 -*-
 Оружие
