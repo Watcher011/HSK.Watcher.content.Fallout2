@@ -53,7 +53,8 @@
   <MysteriousInfection.label>Спящий агент</MysteriousInfection.label>
   <MysteriousInfection.description>Спящий агент</MysteriousInfection.description>
 
- <!-- <!{1}** AntidoteSavagery Drug **{1}>
+
+  <!-- <!{1}** AntidoteSavagery Drug **{1}>
   <AntidoteSavagery.label>антидот нейролизин</AntidoteSavagery.label>
   <AntidoteSavagery.description>Одичание - это тяжёлое нейродегенеративное заболевание, поражающее гулей. Оно характеризуется прогрессирующей потерей когнитивных функций и памяти, завершающейся полным распадом личности. Вопреки предыдущим представлениям, процесс обратим на ранних и средних стадиях при агрессивной терапии.\n\nЭто экспериментальное лечение временно обращает симптомы одичания, но создаёт необратимую зависимость. Без регулярных доз нейродегенерация ускоряется, приводя к постоянному состоянию одичания.</AntidoteSavagery.description>
 
@@ -90,4 +91,5 @@
   <!{1}** Trade and Economy **{1}>
   <AntidoteSavageryTradeName>Антидот одичания</AntidoteSavageryTradeName>
   <AntidoteSavageryTradeDesc>Экспериментальное лечение против ферализации</AntidoteSavageryTradeDesc>-->
+
 </LanguageData>

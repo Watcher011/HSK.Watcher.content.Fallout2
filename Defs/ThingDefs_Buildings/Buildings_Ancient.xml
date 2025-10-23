@@ -51,16 +51,16 @@
 
 <ThingDef ParentName="BuildingNaturalBase">
     <defName>GECKPump</defName>
-	<label>GECK pump</label>
-	<description>G.E.K.K. is a portable agrocomplex, enclosed in a shockproof case made of polished glass and bulletproof glass. The device was developed as part of the pre-war state program "New Eden" for the rapid restoration of agriculture on fragile soils. Unlike stationary agricultural complexes, G.E.C.K. could be quickly deployed in any place where oases of fertility were made a strategic resource.</description>
-	<thingClass>Watcher.Buildings.Building_GECK</thingClass>
+    <label>GECK pump</label>
+    <description>G.E.K.K. is a portable agrocomplex, enclosed in a shockproof case made of polished glass and bulletproof glass. The device was developed as part of the pre-war state program "New Eden" for the rapid restoration of agriculture on fragile soils. Unlike stationary agricultural complexes, G.E.C.K. could be quickly deployed in any place where oases of fertility were made a strategic resource.</description>
+    <thingClass>Watcher.Buildings.Building_GECK</thingClass>
     <minifiedDef>MinifiedThing</minifiedDef>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-	<defaultPlacingRot>South</defaultPlacingRot>
+    <defaultPlacingRot>South</defaultPlacingRot>
     <rotatable>true</rotatable>
     <tickerType>Normal</tickerType>
     <thingCategories>
@@ -77,36 +77,42 @@
         <glowRadius>6</glowRadius>
         <glowColor>(113,141,117,0)</glowColor>
       </li>
-     	<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
-			<li Class="CompProperties_Refuelable">
-				<fuelConsumptionRate>0.01</fuelConsumptionRate>
-				<fuelCapacity>1.0</fuelCapacity>
-				<fuelFilter>
-					<thingDefs>
-						<li>NuclearBattery</li>
-					</thingDefs>
-				</fuelFilter>
-				<initialFuelPercent>1</initialFuelPercent>
-				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-				<showFuelGizmo>true</showFuelGizmo>
-				<fuelGizmoLabel>NuclearBattery</fuelGizmoLabel>
-			</li>
-			 <li Class="CompProperties_PollutionPump">
-             <radius>50</radius>
-             <pumpEffecterDef>PollutionPumped</pumpEffecterDef>
-             <pumpsPerWastepack>6</pumpsPerWastepack>
-              <intervalTicks>15000</intervalTicks>
-           </li>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
+      <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Refuelable">
+        <fuelConsumptionRate>0.01</fuelConsumptionRate>
+        <fuelCapacity>1.0</fuelCapacity>
+        <fuelFilter>
+          <thingDefs>
+            <li>NuclearBattery</li>
+          </thingDefs>
+        </fuelFilter>
+        <initialFuelPercent>1</initialFuelPercent>
+        <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+        <showFuelGizmo>true</showFuelGizmo>
+        <fuelGizmoLabel>NuclearBattery</fuelGizmoLabel>
+      </li>
+      <li Class="CompProperties_PollutionPump">
+        <radius>50</radius>
+        <pumpEffecterDef>PollutionPumped</pumpEffecterDef>
+        <pumpsPerWastepack>6</pumpsPerWastepack>
+        <intervalTicks>15000</intervalTicks>
+      </li>
+      <li>
+        <compClass>CompQuality</compClass>
+      </li>
+      <!-- Новые свойства для GECK -->
+      <li Class="Watcher.Buildings.CompProperties_GECK">
+        <radius>30</radius>
+        <activationMessage>GECK has completed terraforming the area and has self-destructed. Fertile soil has been created in the surrounding area.</activationMessage>
+        <!-- Можно добавить activationEffect если есть подходящий EffecterDef -->
+      </li>
     </comps>
     <graphicData>
       <texPath>Things/Building/Misc/GECK</texPath>
-	  <graphicClass>Graphic_Multi</graphicClass>
-	  <shaderType>CutoutComplex</shaderType>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
       <shadowData>
         <volume>(0.3, 0.6, 0.3)</volume>
         <offset>(0,0,-0.1)</offset>
@@ -115,6 +121,6 @@
         <rect>(0.2,0.2,0.6,0.6)</rect>
       </damageData>
     </graphicData>
-	  <specialDisplayRadius>30</specialDisplayRadius>
-  </ThingDef>
+    <specialDisplayRadius>30</specialDisplayRadius>
+</ThingDef>
 </Defs>

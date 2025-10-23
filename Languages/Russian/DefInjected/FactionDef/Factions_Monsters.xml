@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <Monster.label>Логово чудовищ</Monster.label>
+  <Monster.label>Логово чудовищ</Monster.label>
   <Monster.description>Глубоко под землёй, в затхлых коридорах Убежища, поселилось нечто ужасающее. Когда-то это место кипело жизнью, а стальные двери защищали обитателей от ядерного апокалипсиса — но теперь Убежище стало пристанищем кошмарных созданий, мутировавших за годы изоляции.</Monster.description>
   <Monster.fixedName>Чудовища</Monster.fixedName>
   <Monster.pawnsPlural>чудовища</Monster.pawnsPlural>

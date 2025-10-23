@@ -1,10 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-<HugeBee.label>Огромная пчела</HugeBee.label>
+  <HugeBee.label>Огромная пчела</HugeBee.label>
   <DeathclawPasses.label>Когти Смерти проходят</DeathclawPasses.label>
   <StrangeDutenPasses.label>Странный Дутень</StrangeDutenPasses.label>
   <DutenSwarm.label>Рой Дутеней</DutenSwarm.label>
+
+
+  <!-- <IncidentDef>
+		<defName>RadroachEaters</defName>
+		<label>Radroach eaters</label>
+		<category>Misc</category>
+		<targetTags>
+			<li>Map_PlayerHome</li>
+		</targetTags>
+		<workerClass>Watcher.Events.IncidentWorker_HungryRadroach</workerClass>
+		<baseChance>0.5</baseChance>
+		<minRefireDays>18</minRefireDays>
+		<earliestDay>12</earliestDay>
+		<minThreatPoints>250</minThreatPoints>
+	</IncidentDef> -->
 
   <ElectricShockExplosion.label>взрыв электрическим разрядом</ElectricShockExplosion.label>
   <DeepDrillMolerat.label>Подкоп кротокрыс</DeepDrillMolerat.label>
@@ -26,5 +41,15 @@
   <CreatureCall.label>Зов твари</CreatureCall.label>
   <CreatureCall.letterText>Мы получили тревожные сообщения о необычной активности возле уборных. Кажется, сточные воды... движутся. Что-то мерзкое шевелится в отхожих ямах. Будьте готовы к возможному появлению враждебных существ.</CreatureCall.letterText>
   <CreatureCall.letterLabel>Зов твари</CreatureCall.letterLabel>
+
+ <MoleRatQuarryAttack.label>Атака кротокрысов в карьере</MoleRatQuarryAttack.label>
+<MoleRatQuarryAttack.letterText>Текст письма об атаке кротокрысов</MoleRatQuarryAttack.letterText>
+<MoleRatQuarryAttack.letterLabel>Атака кротокрысов</MoleRatQuarryAttack.letterLabel>
+
+<MutantClanRaidEvent.label>Налёт клана мутантов</MutantClanRaidEvent.label>
+<MutantClanRaidEvent.letterLabel>Налёт мутантов</MutantClanRaidEvent.letterLabel>
+
+  <RadNadoIncident.label>RadNadoIncident</RadNadoIncident.label>
+
 
 </LanguageData>

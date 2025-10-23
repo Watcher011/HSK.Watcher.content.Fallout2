@@ -1,7 +1,7 @@
 
 HSK Watcher Fallout 2
 =============
-Version: 0.66
+Version: 0.67
 
 -*-
 Оружие
@@ -124,6 +124,7 @@ Vault-Tec bobblehead mechanic (Пупс Механик)
 Vault-Tec bobblehead science(Пупс Наука)
 Vault-Tec bobblehead medicine(Пупс Медицина)
 Altar_Grand_nuclear(Мегатонна)
+VaultBattery(Аккумулятор «Хламовик»)
 -*-
 статуи
 Whirlwind of Contempt(Вихрь презрения)

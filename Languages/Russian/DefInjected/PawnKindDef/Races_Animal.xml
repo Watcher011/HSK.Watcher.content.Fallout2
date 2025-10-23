@@ -238,7 +238,7 @@
   <MoleRat.labelFemale>самка кротокрыса</MoleRat.labelFemale>
   <MoleRat.labelFemalePlural>самки кротокрыса</MoleRat.labelFemalePlural>
 
-<MutantHound.label>Гончая-мутант</MutantHound.label>
+  <MutantHound.label>Гончая-мутант</MutantHound.label>
   <MutantHound.labelPlural>Гончие-мутанты</MutantHound.labelPlural>
   <MutantHound.lifeStages.0.label>Щенок гончей-мутанта</MutantHound.lifeStages.0.label>
   <MutantHound.lifeStages.0.labelPlural>Щенки гончих-мутантов</MutantHound.lifeStages.0.labelPlural>
