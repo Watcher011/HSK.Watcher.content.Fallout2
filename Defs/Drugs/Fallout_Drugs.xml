@@ -709,4 +709,64 @@
 			</li>
 		</comps>
 	</ThingDef>
+
+
+<ThingDef ParentName="FalloutDrugBase">
+    <defName>Addictol</defName>
+    <label>Addictol</label>
+    <description>A breakthrough in pharmacology, this cocktail of receptor blockers and nano-self-propelled blood purifiers has managed to literally "rewire" the body, freeing it from physical addictions.</description>
+    <graphicData>
+     <texPath>Things/Item/Special/Addictol</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.55</drawSize>
+      <color>(190, 230, 255)</color>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <WorkToMake>1200</WorkToMake>
+      <MarketValue>180</MarketValue>
+      <Mass>0.1</Mass>
+    </statBases>
+    <techLevel>Industrial</techLevel>
+    <ingestible>
+      <drugCategory>Hard</drugCategory>
+      <foodType>Processed, Fluid</foodType>
+      <baseIngestTicks>80</baseIngestTicks>
+      <ingestSound>Ingest_Inject</ingestSound>
+      <ingestCommandString>Inject {0}</ingestCommandString>
+      <ingestReportString>Injecting {0}.</ingestReportString>
+      <useEatingSpeedStat>false</useEatingSpeedStat>
+      <chairSearchRadius>0</chairSearchRadius>
+     <outcomeDoers>
+        <!-- Удаление зависимостей -->
+        <li Class="Watcher.Hediffs.IngestionOutcomeDoer_RemoveAddictions">
+          <addictionsToRemove>
+            <li>AlcoholAddiction</li>
+            <li>SmokeleafAddiction</li>
+            <li>PsychiteAddiction</li>
+            <li>WakeUpAddiction</li>
+            <li>AmbrosiaAddiction</li>
+            <li>MethadoneAddiction</li>
+            <li>SynchronisityAddiction</li>
+            <li>CaffeineAddiction</li>
+            <li>NicotineAddiction</li>
+            <li>JetAddiction</li>
+            <li>GoJuiceAddiction</li>
+          </addictionsToRemove>
+        </li>
+     </outcomeDoers>
+    </ingestible>
+    <costList>
+      <Neutroamine>4</Neutroamine>
+      <MedicineIndustrial>2</MedicineIndustrial>
+      <Gold>1</Gold>
+    </costList>
+   <comps>
+      <li Class="CompProperties_Drug">
+        <addictiveness>0</addictiveness>
+        <listOrder>1000</listOrder>
+        <overdoseSeverityOffset>2.50~3.50</overdoseSeverityOffset>
+      </li>
+    </comps>
+</ThingDef>
 </Defs>
