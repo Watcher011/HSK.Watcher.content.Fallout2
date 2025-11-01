@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   
+  <!-- Приоритеты поиска медикаментов -->
+  <Watcher.Jobs.MedicinePriorityDef>
+    <defName>MedicineSearchPriorities</defName>
+    
+    <!-- Приоритеты по типу медикаментов (от высшего к низшему) -->
+    <medicineTypePriorities>
+      <!-- Стимуляторы -->
+      <li>
+        <thingDef>StimpakSuper</thingDef>
+        <priority>100</priority>
+        <label>WatcherJobs.StimpakSuper</label>
+      </li>
+      <li>
+        <thingDef>Stimpak</thingDef>
+        <priority>90</priority>
+        <label>WatcherJobs.Stimpak</label>
+      </li>
+      
+      <!-- Медицина -->
+	  <li>
+        <thingDef>MedicineUltratech</thingDef>
+        <priority>85</priority>
+        <label>WatcherJobs.UltratechMedicine</label>
+      </li>
+      <li>
+        <thingDef>MedicineIndustrial</thingDef>
+        <priority>80</priority>
+        <label>WatcherJobs.IndustrialMedicine</label>
+      </li>
+      <li>
+        <thingDef>HerbMedicine</thingDef>
+        <priority>70</priority>
+        <label>WatcherJobs.HerbMedicine</label>
+      </li>
+      
+      <!-- Лечебные наркотики -->
+      <li>
+        <thingDef>Penoxycyline</thingDef>
+        <priority>60</priority>
+        <label>WatcherJobs.Penoxycyline</label>
+      </li>
+      
+      <!-- Легкие наркотики -->
+      <li>
+        <thingDef>Beer</thingDef>
+        <priority>40</priority>
+        <label>WatcherJobs.Beer</label>
+      </li>
+      <li>
+        <thingDef>SmokeleafJoint</thingDef>
+        <priority>30</priority>
+        <label>WatcherJobs.Smokeleaf</label>
+      </li>
+      <li>
+        <thingDef>PsychiteTea</thingDef>
+        <priority>20</priority>
+        <label>WatcherJobs.PsychiteTea</label>
+      </li>
+      
+      <!-- Тяжелые наркотики -->
+      <li>
+        <thingDef>GoJuice</thingDef>
+        <priority>10</priority>
+        <label>WatcherJobs.GoJuice</label>
+      </li>
+      <li>
+        <thingDef>WakeUp</thingDef>
+        <priority>5</priority>
+        <label>WatcherJobs.WakeUp</label>
+      </li>
+      <li>
+        <thingDef>Yayo</thingDef>
+        <priority>1</priority>
+        <label>WatcherJobs.Yayo</label>
+      </li>
+    </medicineTypePriorities>
+    
+    <!-- Приоритеты по расположению -->
+    <locationPriorities>
+      <li>
+        <locationType>Inventory</locationType>
+        <priority>1000</priority>
+        <label>WatcherJobs.InInventory</label>
+      </li>
+      <li>
+        <locationType>MedicalShelf</locationType>
+        <priority>900</priority>
+        <label>WatcherJobs.InMedicalShelf</label>
+      </li>
+      <li>
+        <locationType>Refrigerator</locationType>
+        <priority>800</priority>
+        <label>WatcherJobs.InRefrigerator</label>
+      </li>
+      <li>
+        <locationType>Storage</locationType>
+        <priority>700</priority>
+        <label>WatcherJobs.InStorage</label>
+      </li>
+      <li>
+        <locationType>Floor</locationType>
+        <priority>600</priority>
+        <label>WatcherJobs.OnFloor</label>
+      </li>
+    </locationPriorities>
+  </Watcher.Jobs.MedicinePriorityDef>
+</Defs>

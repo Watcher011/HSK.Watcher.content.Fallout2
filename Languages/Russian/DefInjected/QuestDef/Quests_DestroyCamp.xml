@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
- <DestroyEnemyCamp_RandomBobblehead.label>Коллекционирование</DestroyEnemyCamp_RandomBobblehead.label>
-<DestroyEnemyCamp_RandomBobblehead.description>Наши разведчики обнаружили в округе хорошо укреплённый лагерь враждебной группировки. Они представляют постоянную угрозу для наших караванов и поселенцев. Мы предлагаем ценный коллекционный товар от Vault-Tec — куклу-кивашку — любому, кто очистит эту территорию от негодяев.</DestroyEnemyCamp_RandomBobblehead.description>
-<DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.0.description>Vault-Tec: Механика — увеличивает скорость строительства и починки</DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.0.description>
-<DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.1.description>Vault-Tec: Наука — ускоряет исследование технологий</DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.1.description>
-<DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.2.description>Vault-Tec: Медицина — улучшает лечение и качество медобслуживания</DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.2.description>
+  <DestroyEnemyCamp_RandomBobblehead.label>Коллекционирование</DestroyEnemyCamp_RandomBobblehead.label>
+  <DestroyEnemyCamp_RandomBobblehead.description>Наши разведчики обнаружили в округе хорошо укреплённый лагерь враждебной группировки. Они представляют постоянную угрозу для наших караванов и поселенцев. Мы предлагаем ценный коллекционный товар от Vault-Tec — куклу-кивашку — любому, кто очистит эту территорию от негодяев.</DestroyEnemyCamp_RandomBobblehead.description>
+  <DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.0.description>Vault-Tec: Механика — увеличивает скорость строительства и починки</DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.0.description>
+  <DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.1.description>Vault-Tec: Наука — ускоряет исследование технологий</DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.1.description>
+  <DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.2.description>Vault-Tec: Медицина — улучшает лечение и качество медобслуживания</DestroyEnemyCamp_RandomBobblehead.parts.2.rewards.2.description>
 
 
 </LanguageData>

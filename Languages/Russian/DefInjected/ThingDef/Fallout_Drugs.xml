@@ -61,5 +61,10 @@
   <RadAway.label>Антирад</RadAway.label>
   <RadAway.description>Препарат, предназначенный для борьбы с последствиями радиоактивного заражения и выведения радиации из организма путём внутривенного введения.</RadAway.description>
 
+  <Addictol.label>Аддиктол</Addictol.label>
+  <Addictol.description>Этот коктейль из блокаторов рецепторов и самоходных нанопрепаратов для очистки крови, ставший прорывом в фармакологии, буквально «перепрограммировал» организм, избавив его от физических зависимостей.</Addictol.description>
+  <Addictol.ingestible.ingestCommandString>Инъекция {0}</Addictol.ingestible.ingestCommandString>
+  <Addictol.ingestible.ingestReportString>Инъекция {0}.</Addictol.ingestible.ingestReportString>
+
 
 </LanguageData>

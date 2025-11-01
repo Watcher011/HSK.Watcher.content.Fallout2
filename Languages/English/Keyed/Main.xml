@@ -171,5 +171,40 @@ The immediate threat is gone, but the feeling of being observed lingers like rad
   <RadNado.Condition.Description>A living storm that births twisted, radiation-maddened creatures.</RadNado.Condition.Description>
   
   <RadNado.IncidentDef.Label>Radioactive Tornado</RadNado.IncidentDef.Label>
-
-</LanguageData>
+  <!-- Main strings -->
+  <WatcherJobs.Dress>Dress...</WatcherJobs.Dress>
+  <WatcherJobs.DressUnavailable>Dress... (unavailable)</WatcherJobs.DressUnavailable>
+  <WatcherJobs.DressOnTarget>Dress {0} on {1}</WatcherJobs.DressOnTarget>
+  <WatcherJobs.DressApparel>{0} - {1}</WatcherJobs.DressApparel>
+  <WatcherJobs.ChooseApparel>Choose apparel for {0}</WatcherJobs.ChooseApparel>
+  <WatcherJobs.NoApparel>No available apparel</WatcherJobs.NoApparel>
+  <WatcherJobs.Clothing>Clothing</WatcherJobs.Clothing>
+  
+  <!-- Medicine -->
+  <WatcherJobs.ApplyMedicine>Apply medicine...</WatcherJobs.ApplyMedicine>
+  <WatcherJobs.ApplyMedicineUnavailable>Apply medicine... (unavailable)</WatcherJobs.ApplyMedicineUnavailable>
+  <WatcherJobs.ApplyOnTarget>Apply {0} on {1}</WatcherJobs.ApplyOnTarget>
+  <WatcherJobs.ApplyOnTargetWithLocation>Apply {0} on {1} {2}</WatcherJobs.ApplyOnTargetWithLocation>
+  <WatcherJobs.ChooseMedicine>Choose medicine for {0}</WatcherJobs.ChooseMedicine>
+  <WatcherJobs.NoMedicine>No available medicine</WatcherJobs.NoMedicine>
+  <WatcherJobs.Medicine>Medicine</WatcherJobs.Medicine>
+  <WatcherJobs.Drug>Drug</WatcherJobs.Drug>
+  <WatcherJobs.ApplyMedicineItem>Apply {0} - {1}</WatcherJobs.ApplyMedicineItem>
+  <WatcherJobs.ApplyMedicineItemWithLocation>Apply {0} - {1} {2}</WatcherJobs.ApplyMedicineItemWithLocation>
+  <WatcherJobs.ApplyNearestMedicine>Apply {0} (nearest)</WatcherJobs.ApplyNearestMedicine>
+  
+  <!-- Medicine location -->
+  <WatcherJobs.InInventory>(in inventory)</WatcherJobs.InInventory>
+  <WatcherJobs.InStorage>(in storage)</WatcherJobs.InStorage>
+  <WatcherJobs.MedicineLocationInfo>Medicine: {0} in inventory, {1} in storage</WatcherJobs.MedicineLocationInfo>
+  
+  <!-- Messages -->
+  <WatcherJobs.DressSuccess>{0} dressed {1} on {2}</WatcherJobs.DressSuccess>
+  <WatcherJobs.MedicineApplied>{0} applied {1} on {2}</WatcherJobs.MedicineApplied>
+  <WatcherJobs.CannotDress>Cannot dress this apparel on this pawn</WatcherJobs.CannotDress>
+  <WatcherJobs.CannotApplyMedicine>Cannot apply this medicine on this pawn</WatcherJobs.CannotApplyMedicine>
+  
+  <!-- Job reports -->
+  <WatcherJobs.ReportDressing>Dressing {TargetA}.</WatcherJobs.ReportDressing>
+  <WatcherJobs.ReportApplyingMedicine>Applying medicine on {TargetA}.</WatcherJobs.ReportApplyingMedicine>
+ </LanguageData>

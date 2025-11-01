@@ -88,7 +88,7 @@
 			<Ammo_PlasmaBolt>100</Ammo_PlasmaBolt>
 		</products>
 		<researchPrerequisite>ChargedShot</researchPrerequisite>
-		<graphicSuffix>_PlasmaBolt</graphicSuffix>
+	<!--	<graphicSuffix>_PlasmaBolt</graphicSuffix>-->
 	</RecipeDef>
 	
 	
@@ -138,7 +138,7 @@
 			<Ammo_ChargedLaser>100</Ammo_ChargedLaser>
 		</products>
 		<researchPrerequisite>ChargedShot</researchPrerequisite>
-		<graphicSuffix>_ChargedLaser</graphicSuffix>
+		<!--<graphicSuffix>_ChargedLaser</graphicSuffix>-->
 	</RecipeDef>
 	
 	<RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">
@@ -184,7 +184,7 @@
 			<Ammo_ChargedLaser_Stable>100</Ammo_ChargedLaser_Stable>
 		</products>
 		<researchPrerequisite>ChargedShot</researchPrerequisite>
-		<graphicSuffix>_ChargedLaser</graphicSuffix>
+		<!--<graphicSuffix>_ChargedLaser</graphicSuffix>-->
 	</RecipeDef>
 
 
@@ -254,7 +254,7 @@
 		<products>
 			<Ammo_FatManShell_NHE>1</Ammo_FatManShell_NHE>
 		</products>
-		<graphicSuffix>_FatManShell</graphicSuffix>
+		<!--<graphicSuffix>_FatManShell</graphicSuffix>-->
 	</RecipeDef>
 	
 	<RecipeDef ParentName="Make_AmmoFalloutBase" Class="UniversalFermenterSK.RecipeDef_UF">
@@ -312,7 +312,7 @@
 		<products>
 			<Ammo_FatManShell_FGM>1</Ammo_FatManShell_FGM>
 		</products>
-		<graphicSuffix>_FatManShellPig</graphicSuffix>
+		<!--<graphicSuffix>_FatManShellPig</graphicSuffix>-->
 	</RecipeDef>
 	
 	

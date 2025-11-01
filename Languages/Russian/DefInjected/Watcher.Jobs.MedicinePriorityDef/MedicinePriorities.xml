@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Приоритеты поиска медикаментов -->
+
+   <WatcherJobs.StimpakSuper>Супер стимпак</WatcherJobs.StimpakSuper>
+  <WatcherJobs.Stimpak>Стимпак</WatcherJobs.Stimpak>
+  <WatcherJobs.UltratechMedicine>Передовые медикаменты</WatcherJobs.UltratechMedicine>
+  <WatcherJobs.IndustrialMedicine>Промышленные медикаменты</WatcherJobs.IndustrialMedicine>
+  <WatcherJobs.HerbMedicine>Травяные медикаменты</WatcherJobs.HerbMedicine>
+  <WatcherJobs.Penoxycyline>Пеноксицилин</WatcherJobs.Penoxycyline>
+  <WatcherJobs.Beer>Пиво</WatcherJobs.Beer>
+  <WatcherJobs.Smokeleaf>Дымолист</WatcherJobs.Smokeleaf>
+  <WatcherJobs.PsychiteTea>Психитовый чай</WatcherJobs.PsychiteTea>
+  <WatcherJobs.GoJuice>Го-сок</WatcherJobs.GoJuice>
+  <WatcherJobs.WakeUp>Взбодритель</WatcherJobs.WakeUp>
+  <WatcherJobs.Yayo>Яйо</WatcherJobs.Yayo>
+
+  <!-- Location Labels -->
+  <WatcherJobs.InInventory>В инвентаре</WatcherJobs.InInventory>
+  <WatcherJobs.InMedicalShelf>В медицинском шкафу</WatcherJobs.InMedicalShelf>
+  <WatcherJobs.InRefrigerator>В холодильнике</WatcherJobs.InRefrigerator>
+  <WatcherJobs.InStorage>В хранилище</WatcherJobs.InStorage>
+  <WatcherJobs.OnFloor>На полу</WatcherJobs.OnFloor>
+
+
+</LanguageData>

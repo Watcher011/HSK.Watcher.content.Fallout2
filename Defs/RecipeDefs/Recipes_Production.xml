@@ -1876,10 +1876,9 @@
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
-				<li>Neutroamine</li>
-				<li>NukaColaQuantum</li>
-				<li>RadHemogenPack</li>
-				<li>MedicineUltratech</li>
+				<li>RawTato</li>
+				<li>Psycho</li>
+				<li>RadScorpionPoisonGland</li>
 			</thingDefs>
 		</fixedIngredientFilter>
 		<recipeUsers>
@@ -1888,5 +1887,45 @@
 	</RecipeDef>
 	
 	
-	
+	<RecipeDef>
+		<defName>MakeAddictol2x</defName>
+		<label>Make Addictol x2</label>
+		<description>Make Addictol.</description>
+		<jobString>Make Addictol.</jobString>
+		<workAmount>3500</workAmount>
+		<skillRequirements>
+			<Crafting>9</Crafting>
+		</skillRequirements>
+		<ingredients>
+			
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Neutroamine</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Methadone</li>
+					</thingDefs>
+				</filter>
+				<count>4</count>
+			</li>
+		</ingredients>
+		<products>
+			<Addictol>2</Addictol>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Neutroamine</li>
+				<li>Methadone</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>TableFalloutChemicalSynthesis</li>
+		</recipeUsers>
+	</RecipeDef>
 </Defs>

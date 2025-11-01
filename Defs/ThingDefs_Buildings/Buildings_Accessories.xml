@@ -296,7 +296,7 @@
       <texPath>Things/Building/Misc/VaultCommsConsole</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
 	   <drawOffset>(0,0,0.3)</drawOffset>
-      <drawSize>(1.1,1)</drawSize>
+      <drawSize>(0.8,0.8)</drawSize>
       <damageData>
         <rect>(0,0,1,0.8)</rect>
         <cornerBL>Damage/Corner</cornerBL>

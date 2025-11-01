@@ -6,4 +6,17 @@
     <reportString>UseAutoDoc.</reportString>
     <playerInterruptible>true</playerInterruptible>
   </JobDef>-->
+    <JobDef>
+        <defName>DressOtherPawn</defName>
+        <driverClass>Watcher.Jobs.JobDriver_DressOtherPawn</driverClass>
+        <reportString>WatcherJobs.ReportDressing</reportString>
+        <playerInterruptible>true</playerInterruptible>
+    </JobDef>
+    
+    <JobDef>
+        <defName>ApplyMedicineOtherPawn</defName>
+        <driverClass>Watcher.Jobs.JobDriver_ApplyMedicineOtherPawn</driverClass>
+        <reportString>WatcherJobs.ReportApplyingMedicine</reportString>
+        <playerInterruptible>true</playerInterruptible>
+    </JobDef>
 </Defs>

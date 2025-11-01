@@ -4,5 +4,8 @@
   <VaultTecSecureLok.label>Волт-Тек СейфЛок</VaultTecSecureLok.label>
   <VaultTecSecureLok.description>Ваш надёжный барьер между вами и тем, что осталось от ваших соседей! В комплекте: один поворотный механизм, одна задвижка и напоминание о том, что личное пространство — это не право, а привилегия, предоставляемая Управляющим.</VaultTecSecureLok.description>
 
+  <BigVaultTecSecureLok.label>Big Vault-Tec SecureLok</BigVaultTecSecureLok.label>
+  <BigVaultTecSecureLok.description>Стандартная система уплотнителей, разработанная компанией Vault-Tec. Поворотный механизм и стальная защёлка обеспечивают безопасность, а табличка напоминает вам, что ваша конфиденциальность — это условность, которая может быть нарушена в любой момент начальством. Защищает от всего, кроме паранойи.</BigVaultTecSecureLok.description>
+
 
 </LanguageData>
