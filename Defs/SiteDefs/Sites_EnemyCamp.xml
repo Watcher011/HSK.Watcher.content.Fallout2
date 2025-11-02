@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<SiteDef>
+    <defName>EnemyCamp_Bobblehead</defName>
+    <label>enemy camp</label>
+    <description>A fortified camp full of well-armed bandits.</description>
+    <worldObjectDef>Site</worldObjectDef>
+    <mainPartDef>SitePart_EnemyRaid</mainPartDef>
+    <siteParts>
+        <li>
+            <def>SitePart_Outpost</def>
+            <coreParmsPoints>2800</coreParmsPoints>
+        </li>
+    </siteParts>
+    <passageWeight>1.0</passageWeight>
+</SiteDef>
+	
+</Defs>

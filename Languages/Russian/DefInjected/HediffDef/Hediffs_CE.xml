@@ -50,5 +50,46 @@
   <ManhunterPermanentAnimal.label>Жажда убийства</ManhunterPermanentAnimal.label>
   <ManhunterPermanentAnimal.description>-/-.</ManhunterPermanentAnimal.description>
 
+  <MysteriousInfection.label>Спящий агент</MysteriousInfection.label>
+  <MysteriousInfection.description>Спящий агент</MysteriousInfection.description>
+
+
+  <!-- <!{1}** AntidoteSavagery Drug **{1}>
+  <AntidoteSavagery.label>антидот нейролизин</AntidoteSavagery.label>
+  <AntidoteSavagery.description>Одичание - это тяжёлое нейродегенеративное заболевание, поражающее гулей. Оно характеризуется прогрессирующей потерей когнитивных функций и памяти, завершающейся полным распадом личности. Вопреки предыдущим представлениям, процесс обратим на ранних и средних стадиях при агрессивной терапии.\n\nЭто экспериментальное лечение временно обращает симптомы одичания, но создаёт необратимую зависимость. Без регулярных доз нейродегенерация ускоряется, приводя к постоянному состоянию одичания.</AntidoteSavagery.description>
+
+  <!{1}** Savagery High Effect **{1}>
+  <SavageryHigh.label>обращение нейролизина</SavageryHigh.label>
+  <SavageryHigh.description>Активные нейровосстановительные соединения из лечения одичанием. Они временно обращают симптомы одичания и восстанавливают когнитивные функции. Однако отмена лечения вызывает ускоренную нейродегенерацию.</SavageryHigh.description>
+
+  <!{1}** Chemical and Need **{1}>
+  <Savagery.label>одичание</Savagery.label>
+  <Chemical_Savagery.label>потребность в нейролизине</Chemical_Savagery.label>
+  <Chemical_Savagery.description>Нейронные пути этого человека зависят от соединений лечения одичанием.\n\nБез регулярных доз одичание ускоряется, приводя к постоянному когнитивному распаду и агрессивному поведению.\n\nЭта зависимость никогда не исчезает.</Chemical_Savagery.description>
+
+  <!{1}** Addiction **{1}>
+  <SavageryAddiction.label>потребность в нейролизине</SavageryAddiction.label>
+  <SavageryAddiction.description>Зависимость от лечения одичанием. Нейровосстановительные соединения создают постоянные изменения в химии мозга. Без регулярных доз нейродегенерация ускоряется катастрофически.\n\nОтмена вызывает быстрое прогрессирование до полного состояния одичания.</SavageryAddiction.description>
+
+  <!{1}** Stage Labels **{1}>
+  <Stage1TheMirrorCrackles.label>Стадия 1: "Трещины в зеркале"</Stage1TheMirrorCrackles.label>
+  <Stage2Fading.label>Стадия 2: "Угасание"</Stage2Fading.label>
+  <Stage3Cliff.label>Стадия 3: "Обрыв"</Stage3Cliff.label>
+
+  <!{1}** UI Strings **{1}>
+  <SavageryAddictionStageUnmet.label>неудовлетворена</SavageryAddictionStageUnmet.label>
+  <SavageryNeedNotSatisfied>Потребность в нейролизине не удовлетворена</SavageryNeedNotSatisfied>
+  <SavageryWithdrawalWarning>Предупреждение: Симптомы отмены нейролизина</SavageryWithdrawalWarning>
+  <SavageryRegenerationEffect>Регенерация от одичания</SavageryRegenerationEffect>
+
+  <!{1}** Ingestion and Effects **{1}>
+  <IngestedAntidoteSavagery>принял(а) антидот одичания</IngestedAntidoteSavagery>
+  <SavageryHighEffect>Эффект обращения одичания</SavageryHighEffect>
+  <SavageryAddictionEffect>Зависимость от нейролизина</SavageryAddictionEffect>
+  <AntidoteSavageryOverdoseWarning>Риск передозировки антидотом одичания</AntidoteSavageryOverdoseWarning>
+
+  <!{1}** Trade and Economy **{1}>
+  <AntidoteSavageryTradeName>Антидот одичания</AntidoteSavageryTradeName>
+  <AntidoteSavageryTradeDesc>Экспериментальное лечение против ферализации</AntidoteSavageryTradeDesc>-->
 
 </LanguageData>

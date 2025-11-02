@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <WatcherJobs.MedicineCategory.Medicine>Лекарства</WatcherJobs.MedicineCategory.Medicine>
+<WatcherJobs.MedicineCategory.MedicalDrugs>Медицинские препараты</WatcherJobs.MedicineCategory.MedicalDrugs>
+<WatcherJobs.MedicineCategory.Drugs>Препараты</WatcherJobs.MedicineCategory.Drugs>
+<WatcherJobs.MedicineCategory.SocialDrugs>Социальные препараты</WatcherJobs.MedicineCategory.SocialDrugs>
+<WatcherJobs.DressReport>Одевает {0} на {1}</WatcherJobs.DressReport>
+<WatcherJobs.ApplyMedicineReport>Применяет {0} на {1}</WatcherJobs.ApplyMedicineReport>
+<WatcherJobs.NoMedicineFound>Не найдено доступных медикаментов</WatcherJobs.NoMedicineFound>
+<!-- Расположение предметов -->
+<WatcherJobs.Location.Inventory>В инвентаре</WatcherJobs.Location.Inventory>
+<WatcherJobs.Location.MedicalShelf>На мед. полке</WatcherJobs.Location.MedicalShelf>
+<WatcherJobs.Location.Refrigerator>В холодильнике</WatcherJobs.Location.Refrigerator>
+<WatcherJobs.Location.Storage>На складе</WatcherJobs.Location.Storage>
+<WatcherJobs.Location.Floor>На полу</WatcherJobs.Location.Floor>
+
+</LanguageData>

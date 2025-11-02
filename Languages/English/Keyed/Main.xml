@@ -41,36 +41,170 @@
 
   <!-- Titles -->
   <StrangeCall.Titles.Main>Intercepted Call</StrangeCall.Titles.Main>
-  
+
   <!-- UPDATED RESPONSE OPTIONS -->
   <ContinueCrolling>Continue Trolling</ContinueCrolling>
   <Reset>Reset</Reset>
-  
+
   <!-- Combined messages -->
   <StrangeCall.Messages.Threat0>Colonist - Well, here's the thing: we took your Navarro and found so much there... For example, indecent photos of your mother. Or were they your father's lace stockings? No wonder you're such a freak. Goodbye, asshole</StrangeCall.Messages.Threat0>
   <StrangeCall.Messages.Threat1>Communications Officer - Huh? Look how smart we are... Listen, buddy, I'm tracking you right now. Let's see how smart you are when internal security comes for your soul, cretin!</StrangeCall.Messages.Threat1>
   <StrangeCall.Messages.Threat2>Communications Officer - Well-well, my dear, just a couple more seconds - and I'll pinpoint you. Wait, what's this? It can't be... Are you on the mainland?!</StrangeCall.Messages.Threat2>
   <StrangeCall.Messages.Threat3>Communications Officer - Got you, there you are! Now sit still and don't go anywhere, I'm preparing a little celebration in your honor right now. With fireworks</StrangeCall.Messages.Threat3>
   <StrangeCall.Messages.EnclaveInfo>"Alarm sounds"</StrangeCall.Messages.EnclaveInfo>
-  
+
   <!-- Warnings -->
   <StrangeCall.Warnings.RaidResponse>Trolling successful! {0} is sending a drop team to your position!</StrangeCall.Warnings.RaidResponse>
   <StrangeCall.Warnings.DropPodIncoming>Enemy drop pods detected! Prepare for attack!</StrangeCall.Warnings.DropPodIncoming>
-  
+
   <ArmyCall.Titles.Main>Anonymous Call</ArmyCall.Titles.Main>
-  
+
   <!-- Response options -->
   <ArmyCall.Answers.YesSir>YES Sir!</ArmyCall.Answers.YesSir>
   <ArmyCall.Answers.Mistake>Um... I think you have the wrong number</ArmyCall.Answers.Mistake>
-  
+
   <!-- Main message -->
   <ArmyCall.Messages.Main>Sergeant Arch Dornan - So you're the new recruit, huh? YOU'RE OUT OF UNIFORM, SOLDIER! WHERE'S YOUR POWER ARMOR?! "Don't have any"? YOU EXPECT ME TO BELIEVE THAT, MAGGOT?! THE TRUTH IS YOU LOST EXPENSIVE ARMY EQUIPMENT! THAT SUIT IS GOING TO COME OUT OF YOUR PAY. AND YOU WILL REMAIN IN THIS ARMY UNTIL YOU ARE *gasps* 510 YEARS OLD, WHICH IS HOW LONG IT WILL TAKE FOR YOU TO PAY FOR THE MARK X-01 POWER ARMOR YOU HAVE LOST! REPORT TO THE ARMORY AND DRAW A NEW SUIT, THEN REPORT BACK TO ME, PRIVATE! DISMISSED!</ArmyCall.Messages.Main>
-  
+
   <!-- Responses and messages -->
   <ArmyCall.Warnings.YesResponse>New power armor delivered to your location, private!</ArmyCall.Warnings.YesResponse>
   <ArmyCall.Warnings.TrapResponse>You're probably spies! Sound the alarm and finish this trash!</ArmyCall.Warnings.TrapResponse>
   <ArmyCall.Items.Received>Received: X-01 Power Armor and X-01 Helmet</ArmyCall.Items.Received>
   <ArmyCall.Items.FallbackReceived>Received backup power armor</ArmyCall.Items.FallbackReceived>
   <ArmyCall.Errors.SpawnFailed>Armor delivery error. Please try your request again later.</ArmyCall.Errors.SpawnFailed>
+  
+  
+  <CreatureSpawnNearLatrine.label>Stench from the Depths</CreatureSpawnNearLatrine.label>
+<CreatureSpawnNearLatrine.description>Something terrible is festering in the depths of the sewers...\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawnNearLatrine.description>
+<CreatureSpawnNearLatrine.letterLabel>Harbinger of Evil</CreatureSpawnNearLatrine.letterLabel>
+<CreatureSpawnNearLatrine.letterText>Strange sounds are coming from the latrines. It seems something impure has awakened in the depths...\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawnNearLatrine.letterText>
+<CreatureSpawn.Warning.Title>Something Approaches from the Depths</CreatureSpawn.Warning.Title>
+<CreatureSpawn.Warning.Text>Strange sounds echo from the foul depths of the sewers... Something impure has awakened and will soon emerge. Colonists report strange movements in the septic tanks and ominous gurgling. Prepare to face the unknown!\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawn.Warning.Text>
+<CreatureSpawn.Arrival.Title>Creature from the Depths!</CreatureSpawn.Arrival.Title>
+<CreatureSpawn.Arrival.FromLatrine>A disgusting creature has burst forth from the foul sewer! It is covered in slime and radiates an unbearable stench. {0} attacks all living things!\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawn.Arrival.FromLatrine>
+<CreatureSpawn.Arrival.FromEdge>A mysterious creature has appeared at the edge of the map! {0}, covered in slime and stench, attacks the colony!\n What is this horror?\n It's a Fecaloid!\n What?\n The Shit Demon!</CreatureSpawn.Arrival.FromEdge>
 
-</LanguageData>
+<MoleRatQuarryAttack.label>Mole Rat Union</MoleRatQuarryAttack.label>
+<MoleRatQuarryAttack.letterLabel>Demands of the Mole Rat Union</MoleRatQuarryAttack.letterLabel>
+<MoleRatQuarryAttack.letterText>Work in the quarry has violated the sacred right of mole rats to eight hours of sleep during working hours! Representatives of the underground fauna union, numbering {0} individuals, have arrived for negotiations. Negotiations will be conducted from a position of strength, using claws and fury.</MoleRatQuarryAttack.letterText>
+<MoleRatQuarryAttack.letterTextExtended>EXTENDED NOTICE OF LABOR DISPUTE
+
+The local mole rat union expresses extreme dissatisfaction with your excavation work.
+
+Violations:
+✓ Noise pollution (exceeding permissible digging levels)
+✓ Vibrations (interfering with afternoon rest)
+✓ Illegal mineral extraction (without deductions to the mole rat development fund)
+
+Negotiators have been dispatched to resolve the conflict. Features of the negotiation process:
+• Aggressive display of dissatisfaction
+• Ankle biting
+• Digging holes in pathways
+
+It is recommended to immediately cease operations and offer compensation in the form of vegetables.</MoleRatQuarryAttack.letterTextExtended>
+<MoleRatQuarryAttack.laborDispute>LABOR DISPUTE WITH UNDERGROUND FAUNA</MoleRatQuarryAttack.laborDispute>
+<MoleRatQuarryAttack.mentalStateReason>violation of the underground fauna labor code</MoleRatQuarryAttack.mentalStateReason>
+<MoleRatQuarryAttack.unionRepresentative>Den Elder</MoleRatQuarryAttack.unionRepresentative>
+<MoleRatQuarryAttack.violation.noise>Noise pollution (exceeding permissible digging levels)</MoleRatQuarryAttack.violation.noise>
+<MoleRatQuarryAttack.violation.vibration>Vibrations (interfering with afternoon rest)</MoleRatQuarryAttack.violation.vibration>
+<MoleRatQuarryAttack.violation.mining>Illegal mineral extraction (without deductions to the mole rat development fund)</MoleRatQuarryAttack.violation.mining>
+<MoleRatQuarryAttack.negotiation.aggression>Aggressive display of dissatisfaction</MoleRatQuarryAttack.negotiation.aggression>
+<MoleRatQuarryAttack.negotiation.bites>Ankle biting</MoleRatQuarryAttack.negotiation.bites>
+<MoleRatQuarryAttack.negotiation.digging>Digging holes in pathways</MoleRatQuarryAttack.negotiation.digging>
+
+<MutantClan_FactionName>Mutant Clan</MutantClan_FactionName>
+<MutantClanRaid_IncidentLabel>Mutant Clan Raid</MutantClanRaid_IncidentLabel>
+<MutantClanRaid_LetterLabel>MEAT! GIVE MEAT!</MutantClanRaid_LetterLabel>
+<MutantClanRaid_RaidText>ARGH! SMELLED IT! SMELLED THE SCENT OF MEAT FROM YOUR COLONY!
+
+OUR TWISTED NOSTRILS TREMBLE FROM THE DELIGHTFUL AROMA OF HUMAN FLESH! MUCH MEAT! TOO MUCH FOR SUCH SMALL PEOPLE!
+
+🦴 WHAT OUR WARPED MINDS SAY:
+✓ MEAT: MUCH! WANT! NEED!
+✓ BLOOD: FRESH! WARM! OURS!
+✓ BONES: CRUNCHY! TASTY!
+
+❗ ROAR OF THE BIG BOSS: WE WON'T TOLERATE COMPETITORS! YOUR MEAT IS OUR MEAT!
+
+WE COME RUNNING TO YOU! RUN FAST! SCREAM LOUD! WE WILL BITE! TEAR! CHEW! DON'T RUN AWAY - TASTIER WHEN YOU'RE SCARED!
+
+UGHHH! ARGHH! GRRR!
+PACK "BONE-GNAWERS"
+(WE ATE THE PREVIOUS TRIBE)</MutantClanRaid_RaidText>
+<MutantClanLetter_LetterLabel>GIVE LITTLE PIECE! TAKE EVERYTHING!</MutantClanLetter_LetterLabel>
+<MutantClanLetter_LetterText>HE-HE! HELLO, LITTLE MEAT SACKS!
+
+WE SAW YOU PLAYING WITH FIRE AND MEAT! FUNNY! BUT YOU DO EVERYTHING WRONG! NO-NO!
+
+OUR SCARRED TONGUES FEEL - SOMETHING'S MISSING FOR A TASTY FEAST BY THE FIRE!
+
+HERE'S OUR KINDNESS! YOU CAN TRY! BUT NOT TOO MUCH - THE REST IS OURS!
+
+TRY THROWING INTO THE FIRE AND SCREAMING! TASTIER THAT WAY! EVEN BETTER - RUNNING AROUND WITH A PIECE OF MEAT! WE LOVE THAT!
+
+P.S. COMING SOON TO CHECK! PREPARE FOR HUGS! VERY STRONG HUGS!
+
+SNORT-SNORT! YUM-YUM!
+PACK "STINKY HUGGERS"
+(HUG UNTIL BONES CRACK)</MutantClanLetter_LetterText>
+
+   <RadNado.Incident.LetterLabel>RADIOACTIVE TORNADO</RadNado.Incident.LetterLabel>
+  <RadNado.Incident.LetterText>The air grows heavy with the scent of ozone and decay. A sickly green-orange vortex tears through the sky, its unnatural glow casting long, dancing shadows. This is no natural phenomenon - it breathes with malevolent intelligence. From its churning depths come chittering screams of radroaches, their forms twisted by radiation into something... hungrier.</RadNado.Incident.LetterText>
+  
+  <RadNado.Blocked.LetterLabel>WHISPERS IN THE GLOW</RadNado.Blocked.LetterLabel>
+  <RadNado.Blocked.LetterText>A radioactive tornado approaches, its deafening roar drowning out all other sounds. The radroaches within shriek with unnatural hunger, their countless legs scraping against the swirling debris.
+
+But then... silence.
+
+The "Vortex of Contempt" statue begins to pulse with a soft, sickly light. The radroaches fall silent, their antennae twitching in unison.
+
+A voice, like the rustling of a thousand chitinous wings, whispers through the static: "They bear the Mark... the Ancients watch over this place."
+
+The tornado shifts direction not out of mercy, but recognition. The radroaches aren't retreating - they're bowing. Their glowing eyes fixed on the statue with something between reverence and terror.
+
+As the vortex recedes, one final transmission cuts through the radiation: "The Nest remembers... we will watch... always watching."
+
+The immediate threat is gone, but the feeling of being observed lingers like radiation sickness.</RadNado.Blocked.LetterText>
+  <RadNado.Blocked.StatueLocation>The sacred statue at coordinates ({0}, {1}) has protected your colony.</RadNado.Blocked.StatueLocation>
+  
+  <RadNado.Condition.Label>Radioactive Tornado</RadNado.Condition.Label>
+  <RadNado.Condition.Description>A living storm that births twisted, radiation-maddened creatures.</RadNado.Condition.Description>
+  
+  <RadNado.IncidentDef.Label>Radioactive Tornado</RadNado.IncidentDef.Label>
+  <!-- Main strings -->
+  <WatcherJobs.Dress>Dress...</WatcherJobs.Dress>
+  <WatcherJobs.DressUnavailable>Dress... (unavailable)</WatcherJobs.DressUnavailable>
+  <WatcherJobs.DressOnTarget>Dress {0} on {1}</WatcherJobs.DressOnTarget>
+  <WatcherJobs.DressApparel>{0} - {1}</WatcherJobs.DressApparel>
+  <WatcherJobs.ChooseApparel>Choose apparel for {0}</WatcherJobs.ChooseApparel>
+  <WatcherJobs.NoApparel>No available apparel</WatcherJobs.NoApparel>
+  <WatcherJobs.Clothing>Clothing</WatcherJobs.Clothing>
+  
+  <!-- Medicine -->
+  <WatcherJobs.ApplyMedicine>Apply medicine...</WatcherJobs.ApplyMedicine>
+  <WatcherJobs.ApplyMedicineUnavailable>Apply medicine... (unavailable)</WatcherJobs.ApplyMedicineUnavailable>
+  <WatcherJobs.ApplyOnTarget>Apply {0} on {1}</WatcherJobs.ApplyOnTarget>
+  <WatcherJobs.ApplyOnTargetWithLocation>Apply {0} on {1} {2}</WatcherJobs.ApplyOnTargetWithLocation>
+  <WatcherJobs.ChooseMedicine>Choose medicine for {0}</WatcherJobs.ChooseMedicine>
+  <WatcherJobs.NoMedicine>No available medicine</WatcherJobs.NoMedicine>
+  <WatcherJobs.Medicine>Medicine</WatcherJobs.Medicine>
+  <WatcherJobs.Drug>Drug</WatcherJobs.Drug>
+  <WatcherJobs.ApplyMedicineItem>Apply {0} - {1}</WatcherJobs.ApplyMedicineItem>
+  <WatcherJobs.ApplyMedicineItemWithLocation>Apply {0} - {1} {2}</WatcherJobs.ApplyMedicineItemWithLocation>
+  <WatcherJobs.ApplyNearestMedicine>Apply {0} (nearest)</WatcherJobs.ApplyNearestMedicine>
+  
+  <!-- Medicine location -->
+  <WatcherJobs.InInventory>(in inventory)</WatcherJobs.InInventory>
+  <WatcherJobs.InStorage>(in storage)</WatcherJobs.InStorage>
+  <WatcherJobs.MedicineLocationInfo>Medicine: {0} in inventory, {1} in storage</WatcherJobs.MedicineLocationInfo>
+  
+  <!-- Messages -->
+  <WatcherJobs.DressSuccess>{0} dressed {1} on {2}</WatcherJobs.DressSuccess>
+  <WatcherJobs.MedicineApplied>{0} applied {1} on {2}</WatcherJobs.MedicineApplied>
+  <WatcherJobs.CannotDress>Cannot dress this apparel on this pawn</WatcherJobs.CannotDress>
+  <WatcherJobs.CannotApplyMedicine>Cannot apply this medicine on this pawn</WatcherJobs.CannotApplyMedicine>
+  
+  <!-- Job reports -->
+  <WatcherJobs.ReportDressing>Dressing {TargetA}.</WatcherJobs.ReportDressing>
+  <WatcherJobs.ReportApplyingMedicine>Applying medicine on {TargetA}.</WatcherJobs.ReportApplyingMedicine>
+ </LanguageData>

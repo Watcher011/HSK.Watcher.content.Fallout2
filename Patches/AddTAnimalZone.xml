@@ -30,4 +30,14 @@
 		<MoleRat>0.06</MoleRat>
 		</value>
 	</Operation>
+	
+	<!--  <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/FactionDef[@Name="OgreMutants"]/pawnGroupMakers/li[kindDef="Combat"]/options</xpath>
+                    <value>
+                       <OgreDES>90</OgreDES>
+					    <OgreDEV>25</OgreDEV>
+					    <Ogre>25</Ogre>
+						<MutantHound>25</MutantHound>
+                    </value>
+		</Operation>-->
 </Patch>

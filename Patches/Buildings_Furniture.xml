@@ -8,6 +8,7 @@
 				<xpath>Defs/ThingDef[defName="SimpleResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 				<value>
 					<li>SubBrain</li>
+					<li>VaultTecBobbleheadScience</li>
 				</value>
 			</li>
 			
@@ -15,6 +16,67 @@
 				<xpath>Defs/ThingDef[defName="HiTechResearchBench"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
 				<value>
 					<li>SubBrain</li>
+					<li>VaultTecBobbleheadScience</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[@Name="SK_BedBase"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+				<value>
+					<li>VaultTecBobbleheadMedicine</li>
+				</value>
+			</li>
+			
+			
+				<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[ defName="DrugLab" or 
+    defName="TableCoffee" or 
+    defName="TableSawmillHand" or 
+    defName="TableFurnace" or 
+    defName="Kiln" or 
+    defName="GlassworkTable" or 
+    defName="LeatherworkerTable" or 
+    defName="HandTailoringBench" or 
+    defName="ElectricTailoringBench" or 
+    defName="TableLoom" or 
+    defName="HandMendingWorkbench" or 
+    defName="TableMending" or 
+    defName="FabricationBench" or 
+    defName="FueledSmithy" or 
+    defName="TableStonecutterNeolithic" or 
+    defName="TableStonecutter" or 
+    defName="TableSculpting" or 
+    defName="ConcreteMixer" or 
+    defName="CompostBarrel" or 
+    defName="CraftingSpot" or 
+    defName="WeaponCraftingWorkTable" or 
+    defName="AdvWeaponCraftingWorkTable" or 
+    defName="HeavyArmsBench" or 
+    defName="TablePrimitiveProsthetic" or 
+    defName="TableBasicProsthetic" or 
+    defName="VG_SaltMine" or 
+    defName="TableSawmillElectric" or 
+    defName="ElectricSmelter" or 
+    defName="TableMachining" or 
+    defName="TableElectronics" or 
+    defName="HyperTailoringBench" or 
+    defName="MatterConverter" or 
+    defName="AdvToolBench" or 
+    defName="ElectricSmithy" or 
+    defName="EAF" or 
+    defName="EConcreteMixer" or 
+    defName="meditable" or 
+    defName="TableChemlab" or 
+    defName="MechWeaponCraftingWorkTable" or 
+    defName="TableSynthetics" or 
+    defName="TableBionics" or 
+    defName="UpgradingStation" or 
+    defName="TableFalloutElectronics" or 
+    defName="TableFalloutPrinter" or 
+    defName="TableFalloutChemicalSynthesis" or 
+    defName="Campfirewastelands"]/comps/li[@Class="CompProperties_AffectedByFacilities"]/linkableFacilities</xpath>
+				<value>
+					<li>VaultTecBobbleheadMechanic</li>
 				</value>
 			</li>
 		</operations>
@@ -40,4 +102,11 @@
 		</value>
 	</Operation>
 
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PreceptDef[defName="IdeoBuilding"]/buildingDefChances</xpath>
+		<value>
+			<Altar_Grand_nuclear>1</Altar_Grand_nuclear>
+		</value>
+	</Operation>
 </Patch>

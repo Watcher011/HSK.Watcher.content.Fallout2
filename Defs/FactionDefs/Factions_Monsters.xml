@@ -58,4 +58,41 @@
 		<configurationListOrderPriority>82</configurationListOrderPriority>
 	</FactionDef>
 
+
+
+	<FactionDef ParentName="SK_OgreClanFactionBase">
+		<defName>MutantClan</defName>
+		<label>Mutant clan</label>
+		<earliestRaidDays>135</earliestRaidDays>
+		<techLevel>Industrial</techLevel>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0.4)</li>
+				<li>(500, 0.6)</li>
+				<li>(4500, 0.8)</li>
+				<li>(7000, 0.95)</li>
+				<li>(15000, 0.8)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 375)</li>
+				<li>(8000, 800)</li>
+				<li>(100000,10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<options>
+					 <OgreDES>25</OgreDES>
+					 <OgreDEV>25</OgreDEV>
+					 <Ogre>25</Ogre>
+				    <MutantHound>90</MutantHound>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>55</configurationListOrderPriority>
+	</FactionDef>
 </Defs>

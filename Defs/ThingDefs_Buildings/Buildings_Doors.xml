@@ -52,6 +52,55 @@
 		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 	</ThingDef>
 
-	
+<ThingDef ParentName="SK_DoorBase">
+		<defName>BigVaultTecSecureLok</defName>
+		<label>Big Vault-Tec  SecureLok</label>
+		<description>A standard weatherstripping system contracted to Vault-Tec. The rotary mechanism and steel latch convey security, while the sign reminds you that your privacy is a convention that can be overturned at any time by higher-ups. Protects against everything except paranoia.</description>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>800</WorkToBuild>
+		</statBases>
+		<graphicData>
+			<texPath>Things/Building/Other/BigDoorFal_Mover</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<damageData>
+				<!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+				<enabled>false</enabled>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/Other/BigDoorFal_Icon</uiIconPath>
+		<stuffCategories>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>55</costStuffCount>
+		<costList>
+			<ComponentIndustrial>2</ComponentIndustrial>
+			<ElectronicComponents>2</ElectronicComponents>
+		</costList>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>100</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(217,177,113,0)</glowColor>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="SK.CompProperties_LowIdleDraw">
+				<compClass>SK.CompPowerLowIdleDraw</compClass>
+				<idlePowerFactor>0.1</idlePowerFactor>
+				<operationalMode>WhenNear</operationalMode>
+			</li>
+			<li Class="CompProperties_Styleable" />
+		</comps>
+		<designationHotKey>Misc3</designationHotKey>
+		<researchPrerequisites>
+			<li>Autodoors</li>
+		</researchPrerequisites>
+		<constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+	</ThingDef>
 
 </Defs>

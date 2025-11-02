@@ -103,5 +103,11 @@ P.S. 부품을 얻으려고 사이버도그를 분해하려고 하면 내장된 
   <MoleRat.tools.1.label>오른쪽 발톱</MoleRat.tools.1.label>
   <MoleRat.tools.3.label>머리</MoleRat.tools.3.label>
 
+  <MutantHound.label>Mutant hound</MutantHound.label>
+  <MutantHound.description>Your average wasteland dog, put through the FEV grinder at Mariposa and seasoned with a generous helping of Forced Evolutionary Virus. The result, as expected, was a horrifying success. If you were expecting a vicious, slobbering beast with acid for drool and nearly impenetrable hide, then mission accomplished.Don't try to train it or play fetch — it'll eat the stick and consider your arm the main course. Its bark can shatter glass, and its drool can dissolve the shards. The perfect pet for a Super Mutant who values efficiency in disassembling two-legged critters over trivial concepts like "loyalty."</MutantHound.description>
+  <MutantHound.tools.0.label>left claw</MutantHound.tools.0.label>
+  <MutantHound.tools.1.label>right claw</MutantHound.tools.1.label>
+  <MutantHound.tools.3.label>head</MutantHound.tools.3.label>
+
 
 </LanguageData>

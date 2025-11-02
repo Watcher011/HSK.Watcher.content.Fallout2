@@ -1,11 +1,69 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <EnclaveOfficer.label>인클레이브 경찰관</EnclaveOfficer.label>
-  <EnclaveOfficer.labelPlural>인클레이브 경찰관</EnclaveOfficer.labelPlural>
+  <!-- Enclave Trooper -->
 
-  <EnclaveInvestigator.label>인클레이브 수사관</EnclaveInvestigator.label>
-  <EnclaveInvestigator.labelPlural>인클레이브 수사관</EnclaveInvestigator.labelPlural>
+  <Enclave_Trooper.label>엔클레이브 병사</Enclave_Trooper.label>
+  <Enclave_Trooper.labelPlural>엔클레이브 병사들</Enclave_Trooper.labelPlural>
 
+  <Enclave_Trooper_Advanced.label>엔클레이브 병사</Enclave_Trooper_Advanced.label>
+  <Enclave_Trooper_Advanced.labelPlural>엔클레이브 병사들</Enclave_Trooper_Advanced.labelPlural>
+
+
+  <!-- Enclave Heavy -->
+
+  <Enclave_Heavy.label>엔클레이브 중보병</Enclave_Heavy.label>
+  <Enclave_Heavy.labelPlural>엔클레이브 중보병들</Enclave_Heavy.labelPlural>
+
+  <Enclave_Heavy_Advanced.label>엔클레이브 중보병</Enclave_Heavy_Advanced.label>
+  <Enclave_Heavy_Advanced.labelPlural>엔클레이브 중보병들</Enclave_Heavy_Advanced.labelPlural>
+
+
+  <!-- Enclave Sniper -->
+
+  <Enclave_Sniper.label>엔클레이브 저격수</Enclave_Sniper.label>
+  <Enclave_Sniper.labelPlural>엔클레이브 저격수들</Enclave_Sniper.labelPlural>
+
+  <Enclave_Sniper_Advanced.label>엔클레이브 저격수</Enclave_Sniper_Advanced.label>
+  <Enclave_Sniper_Advanced.labelPlural>엔클레이브 저격수들</Enclave_Sniper_Advanced.labelPlural>
+
+
+  <!-- Enclave Officer -->
+
+  <Enclave_Officer.label>엔클레이브 장교</Enclave_Officer.label>
+  <Enclave_Officer.labelPlural>엔클레이브 장교들</Enclave_Officer.labelPlural>
+
+  <Enclave_Officer_Advanced.label>엔클레이브 장교</Enclave_Officer_Advanced.label>
+  <Enclave_Officer_Advanced.labelPlural>엔클레이브 장교들</Enclave_Officer_Advanced.labelPlural>
+
+
+  <!-- Enclave Engineer -->
+
+  <Enclave_Engineer.label>엔클레이브 기술병</Enclave_Engineer.label>
+  <Enclave_Engineer.labelPlural>엔클레이브 기술병들</Enclave_Engineer.labelPlural>
+
+  <Enclave_Engineer_Advanced.label>엔클레이브 기술병</Enclave_Engineer_Advanced.label>
+  <Enclave_Engineer_Advanced.labelPlural>엔클레이브 기술병들</Enclave_Engineer_Advanced.labelPlural>
+
+
+  <!-- Enclave Elite -->
+
+  <Enclave_Elite.label>엔클레이브 정예병</Enclave_Elite.label>
+  <Enclave_Elite.labelPlural>엔클레이브 정예병들</Enclave_Elite.labelPlural>
+
+  <Enclave_Elite_Advanced.label>엔클레이브 정예병</Enclave_Elite_Advanced.label>
+  <Enclave_Elite_Advanced.labelPlural>엔클레이브 정예병들</Enclave_Elite_Advanced.labelPlural>
+
+
+  <!-- Enclave Scientist -->
+
+  <Enclave_Scientist.label>엔클레이브 과학자</Enclave_Scientist.label>
+  <Enclave_Scientist.labelPlural>엔클레이브 과학자들</Enclave_Scientist.labelPlural>
+
+
+  <!--<EnclaveOfficer.label>인클레이브 경찰관</EnclaveOfficer.label>-->
+  <!--<EnclaveOfficer.labelPlural>인클레이브 경찰관</EnclaveOfficer.labelPlural>-->
+  <!--<EnclaveInvestigator.label>인클레이브 수사관</EnclaveInvestigator.label>-->
+  <!--<EnclaveInvestigator.labelPlural>인클레이브 수사관</EnclaveInvestigator.labelPlural>-->
 
 </LanguageData>

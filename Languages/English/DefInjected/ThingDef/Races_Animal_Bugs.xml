@@ -14,6 +14,26 @@
   <Duten.description>This masterpiece of radiation creativity was once an ordinary fly. Now it is a walking (or rather, flying) violation of the Wasteland's sanitary standards.</Duten.description>
   <Duten.tools.0.label>head</Duten.tools.0.label>
 
+  <SewageCreature.label>SewageCreature</SewageCreature.label>
+  <SewageCreature.description>Shit demon.</SewageCreature.description>
+  <SewageCreature.tools.0.label>head</SewageCreature.tools.0.label>
+
+  <SewageEcho.label>SewageEcho</SewageEcho.label>
+  <SewageEcho.description>This tiny fragment was once part of a great colony, but now wanders alone, resembling a living blob of slime.Unlike its aggressive brethren, it has found a peaceful way of existence. Its gelatinous body gently pulsates, leaving behind a clean and orderly trail.It quietly cleanses the world around it, as if trying to wash away the sins of its past."WE WERE REJECTED, WASHED AWAY, FORGOTTEN... BUT I CHOSE THE PATH OF HEALING."There's something calming in its presence—perhaps a hope that even the most unexpected creatures can bring a little purity and harmony to this world.</SewageEcho.description>
+  <SewageEcho.tools.0.label>head</SewageEcho.tools.0.label>
+
+
+  <!-- <ThingDef Name="SewageCreature" ParentName="Duten">
+        <defName>SewageCreature</defName>
+       <label>Sewer Creature</label>
+       <description>A creature that leaves behind a trail of slime and vomit.</description>
+        <comps>
+            <li Class="Watcher.Comps.CompSewageSpawner">
+                <spawnIntervalTicks>120</spawnIntervalTicks> <!{1}** 2 секунды **{1}>
+            </li>
+        </comps>
+    </ThingDef> -->
+
   <StrangeDuten.label>Strange Duten</StrangeDuten.label>
   <StrangeDuten.description>"Mega-Stinger - the King of the Blow-Outs"
 In the vast wastelands, where mutants have long since become something of a local fauna, a new nightmare has appeared - a huge, glowing, deadly blow-out, which seems to have come from the pages of pre-war comics about giant insects. Only this freak is not fiction, and an encounter with it is guaranteed to ruin your day, and most likely - the rest of your life.

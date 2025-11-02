@@ -36,12 +36,12 @@
     </hiddenPrerequisites>
 	<techLevel>Industrial</techLevel>
 	
-	  <techprintCount>2</techprintCount>
+	<!--  <techprintCount>2</techprintCount>
     <techprintCommonality>3</techprintCommonality>
-    <techprintMarketValue>3000</techprintMarketValue>
-    <heldByFactionCategoryTags>
+    <techprintMarketValue>3000</techprintMarketValue>-->
+  <!--  <heldByFactionCategoryTags>
       <li>Empire</li>
-    </heldByFactionCategoryTags>
+    </heldByFactionCategoryTags>-->
 	
 	<tab>Buildings_SK</tab>
     <requiredResearchBuilding>SimpleResearchBench</requiredResearchBuilding>

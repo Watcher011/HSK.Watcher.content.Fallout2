@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+   <!-- <JobDef>
+        <defName>DressOtherPawn</defName>
+        <driverClass>Watcher.Jobs.JobDriver_DressOtherPawn</driverClass>
+        <reportString>WatcherJobs.ReportDressing</reportString>
+        <playerInterruptible>true</playerInterruptible>
+    </JobDef>
+    
+    <JobDef>
+        <defName>ApplyMedicineOtherPawn</defName>
+        <driverClass>Watcher.Jobs.JobDriver_ApplyMedicineOtherPawn</driverClass>
+        <reportString>WatcherJobs.ReportApplyingMedicine</reportString>
+        <playerInterruptible>true</playerInterruptible>
+    </JobDef>-->
+	
+<!-- Дефинишены для работы с одеждой -->
+  <JobDef>
+    <defName>DressOtherPawn</defName>
+    <driverClass>Watcher.Jobs.JobDriver_DressOtherPawn</driverClass>
+    <reportString>dresses.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+    <checkOverrideOnDamage>Always</checkOverrideOnDamage>
+    <alwaysShowWeapon>false</alwaysShowWeapon>
+    <suspendable>true</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+    <collideWithPawns>false</collideWithPawns>
+    <makeTargetPrisoner>false</makeTargetPrisoner>
+  </JobDef>
+
+  <!-- Дефинишены для работы с медикаментами -->
+  <JobDef>
+    <defName>ApplyMedicineOtherPawn</defName>
+    <driverClass>Watcher.Jobs.JobDriver_ApplyMedicineOtherPawn</driverClass>
+    <reportString>uses medication.</reportString>
+    <playerInterruptible>true</playerInterruptible>
+    <checkOverrideOnDamage>Always</checkOverrideOnDamage>
+    <alwaysShowWeapon>false</alwaysShowWeapon>
+    <suspendable>true</suspendable>
+    <casualInterruptible>true</casualInterruptible>
+    <collideWithPawns>false</collideWithPawns>
+    <makeTargetPrisoner>false</makeTargetPrisoner>
+  </JobDef>
+
+</Defs>

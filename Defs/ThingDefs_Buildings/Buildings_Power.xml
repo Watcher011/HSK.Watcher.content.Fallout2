@@ -108,7 +108,7 @@ This compact power source is the perfect companion for any wastelander! Designed
 		<defName>FalloutSmallGenerator</defName>
 		<label>Vault-Tec Mark III generator</label>
 		<drawerType>MapMeshAndRealTime</drawerType>
-		<thingClass>Watcher.Building_FalloutSmallGenerator</thingClass>
+		<thingClass>Watcher.Buildings.Building_FalloutSmallGenerator</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Power/Generator/FalloutSmallGenerator/FalloutSmallGenerator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -204,7 +204,7 @@ This compact power source is the perfect companion for any wastelander! Designed
 		<defName>FalloutTeslaNova</defName>
 		<label>Vault-Tec Tesla Nova generator</label>
 		<drawerType>MapMeshAndRealTime</drawerType>
-		<thingClass>Watcher.Building_FalloutTeslaGenerator</thingClass>
+		<thingClass>Watcher.Buildings.Building_FalloutTeslaGenerator</thingClass>
 		<graphicData>
 			<texPath>Things/Building/Power/Generator/FalloutTeslaGenerator/FalloutTeslaGenerator</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -293,4 +293,152 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 			</li>
 		</modExtensions>
 	</ThingDef>
+	
+<!--<ThingDef ParentName="SK_BuildingBase">
+    <defName>VaultBattery</defName>
+    <label>garbage battery</label>
+    <drawerType>MapMeshAndRealTime</drawerType>
+	<thingClass>SK.Building_Battery</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Power/VaultBattery</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2,2)</drawSize>
+        <shadowData>
+            <volume>(0.8, 0.4, 1.8)</volume>
+            <offset>(0,0,0)</offset>
+        </shadowData>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+        <li>BuildingsPower</li>
+    </thingCategories>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.7</fillPercent>
+    <tickerType>Normal</tickerType>
+    <statBases>
+        <MaxHitPoints>180</MaxHitPoints>
+        <WorkToBuild>1450</WorkToBuild>
+        <Flammability>1.0</Flammability>
+        <Beauty>-10</Beauty>
+        <Mass>120</Mass>
+    </statBases>
+    <description>This product contains volatile chemicals that were not certified before the war. Avoid moisture, temperatures above 40°C, and sudden movements. Remember: the bright flash upon rupture is the last ray of light in your desolate existence!. Holds up to 1,020 W.</description>
+    <size>(1,2)</size>
+    <building>
+        <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        <uninstallWork>450</uninstallWork>
+    </building>
+    <stuffCategories>
+        <li>HeavyMetallic</li>
+		<li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+        <ComponentIndustrial>7</ComponentIndustrial>
+        <ElectronicComponents>4</ElectronicComponents>
+    </costList>
+    <comps>
+        <li Class="CompProperties_Battery">
+            <storedEnergyMax>1020</storedEnergyMax>
+            <efficiency>0.7</efficiency>
+            <shortCircuitInRain>true</shortCircuitInRain>
+            <transmitsPower>true</transmitsPower>
+        </li>
+        <li Class="CompProperties_Breakdownable"/>
+        <li Class="CompProperties_Stunnable">
+            <useLargeEMPEffecter>true</useLargeEMPEffecter>
+            <affectedDamageDefs>
+                <li>EMP</li>
+            </affectedDamageDefs>
+        </li>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+        <li>Batteries</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+</ThingDef>-->
+
+<ThingDef ParentName="SK_BuildingBase">
+    <defName>VaultBattery</defName>
+    <label>garbage battery</label>
+    <drawerType>MapMeshAndRealTime</drawerType>
+	<thingClass>SK.Building_Battery</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Power/VaultBattery</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2,2)</drawSize>
+        <shadowData>
+            <volume>(0.8, 0.4, 1.8)</volume>
+            <offset>(0,0,0)</offset>
+        </shadowData>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+        <li>BuildingsPower</li>
+    </thingCategories>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.7</fillPercent>
+    <tickerType>Normal</tickerType>
+    <statBases>
+        <MaxHitPoints>180</MaxHitPoints>
+        <WorkToBuild>1450</WorkToBuild>
+        <Flammability>1.0</Flammability>
+        <Beauty>-10</Beauty>
+        <Mass>120</Mass>
+    </statBases>
+    <description>This product contains volatile chemicals that were not certified before the war. Avoid moisture, temperatures above 40°C, and sudden movements. Remember: the bright flash upon rupture is the last ray of light in your desolate existence!. Holds up to 1,020 W.</description>
+    <size>(1,2)</size>
+    <building>
+        <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        <uninstallWork>450</uninstallWork>
+    </building>
+    <stuffCategories>
+        <li>HeavyMetallic</li>
+		<li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+        <ComponentIndustrial>7</ComponentIndustrial>
+        <ElectronicComponents>4</ElectronicComponents>
+    </costList>
+    <comps>
+        <li Class="CompProperties_Battery">
+            <storedEnergyMax>1020</storedEnergyMax>
+            <efficiency>0.7</efficiency>
+            <shortCircuitInRain>true</shortCircuitInRain>
+            <transmitsPower>true</transmitsPower>
+        </li>
+        <li Class="CompProperties_Breakdownable"/>
+        <li Class="CompProperties_Stunnable">
+            <useLargeEMPEffecter>true</useLargeEMPEffecter>
+            <affectedDamageDefs>
+                <li>EMP</li>
+            </affectedDamageDefs>
+        </li>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+        <li>Batteries</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+</ThingDef>
 </Defs>

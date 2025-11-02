@@ -1,6 +1,173 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- <FactionDef ParentName="SK_HumanFactionBase">
+		<defName>Enclave</defName>
+       <label>Enclave</label> 
+       <pawnSingular>Enclave</pawnSingular> 
+       <pawnsPlural>Enclave</pawnsPlural> 
+       <listOrderPriority>28</listOrderPriority> 
+       <settlementGenerationWeight>1</settlementGenerationWeight> 
+       <requiredCountAtGameStart>1</requiredCountAtGameStart> 
+       <maxCountAtGameStart>1</maxCountAtGameStart> 
+       <canMakeRandomly>true</canMakeRandomly> 
+       <canSiege>false</canSiege> 
+       <autoFlee>true</autoFlee> 
+       <canStageAttacks>true</canStageAttacks> 
+        <leaderTitle>President</leaderTitle>
+		<earliestRaidDays>660</earliestRaidDays>
+		<mustStartOneEnemy>true</mustStartOneEnemy>
+		<naturalEnemy>true</naturalEnemy>
+		 <factionIconPath>World/WorldObjects/Expanding/Enclave</factionIconPath>
+		  <factionNameMaker>NamerFactionEnclave</factionNameMaker>
+		<settlementNameMaker>NamerSettlementEnclave</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+		<colorSpectrum>
+			<li>(1, 0, 0)</li>
+		</colorSpectrum>
+		<xenotypeSet>
+			<xenotypeChances>
+				<Supermutant MayRequire="Ludeon.RimWorld.Biotech">0.3</Supermutant>
+			</xenotypeChances>
+		</xenotypeSet>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+		</disallowedPrecepts>
+		<backstoryFilters>
+			<li>
+				<categories>
+					<li>Shelter</li>
+				</categories>
+				<commonality>1</commonality>
+			</li>
+		</backstoryFilters>
+		<allowedArrivalTemperatureRange>-65~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>EnclaveRaidLootMaker</raidLootMaker>
+		<raidCommonalityFromPointsCurve>
+	  <points>
+        <li>(300,  0)</li>
+        <li>(700,  1)</li>
+        <li>(1400, 1.8)</li>
+        <li>(2800, 2.2)</li>
+        <li>(4000, 2.6)</li>
+      </points>
+		</raidCommonalityFromPointsCurve>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+		<li>(35,     8)</li>
+        <li>(100,   60)</li>
+        <li>(1000, 250)</li>
+        <li>(2000, 400)</li>
+        <li>(4000, 500)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<apparelStuffFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>DevilstrandCloth</li>
+				<li>Kevlar</li>
+				<li>ChitinPlating</li>
+				<li>Synthread</li>
+				<li>Hyperweave</li>
+				<li>FerrosiliconAlloy</li>
+				<li>CupronickelAlloy</li>
+				<li>SteelBar</li>
+				<li>AlnicoAlloy</li>
+				<li>StelliteAlloy</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<EnclaveOfficer>20</EnclaveOfficer>
+					<EnclaveInvestigator>30</EnclaveInvestigator>
+					<Cyberdog>10</Cyberdog>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>40</commonality>
+				<options>
+					<EnclaveOfficer>20</EnclaveOfficer>
+					<EnclaveInvestigator>10</EnclaveInvestigator>
+					<Cyberdog>10</Cyberdog>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<EnclaveOfficer>20</EnclaveOfficer>
+					<EnclaveInvestigator>10</EnclaveInvestigator>
+					<Cyberdog>10</Cyberdog>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<EnclaveOfficer>20</EnclaveOfficer>
+					<EnclaveInvestigator>10</EnclaveInvestigator>
+					<Cyberdog>10</Cyberdog>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>52</configurationListOrderPriority>
+	</FactionDef>
+
+
+<RulePackDef>
+    <defName>NamerFactionEnclave</defName>
+    <rulePack>
+      <rulesStrings>
+       <li>empire->Enclave</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+<RulePackDef>
+    <defName>NamerSettlementEnclave</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>townend->Enclave base 7401</li>
+        <li>townend->Enclave base 5062</li>
+        <li>townend->Enclave base 1203</li>
+        <li>townend->Enclave base 9042</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+ 
+ 
+  <ThingSetMakerDef>
+    <defName>EnclaveRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+            <li>MedicineIndustrial</li>
+            <li>MealSurvivalPack</li>
+            <li>HemogenPack</li>
+            <li>GoJuice</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef> -->
+
   <Enclave.label>엔클레이브</Enclave.label>
   <Enclave.pawnsPlural>엔클레이브</Enclave.pawnsPlural>
   <Enclave.leaderTitle>대통령</Enclave.leaderTitle>

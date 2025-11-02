@@ -29,12 +29,15 @@
 <description>Radiation Protection</description>
     <iconPath>UI/Icons/Genes/RAD</iconPath>
     <displayCategory>ResistanceAndWeakness</displayCategory>
+	 <!-- <geneClass>EBSGFramework.HediffAdder</geneClass>-->
+   
     <makeImmuneTo>
       <li>FatalRad</li>
       <li>RimatomicsRadiation</li>
       <li>RadiationIncurable</li>
       <li>RadiationMechanoid</li>
     </makeImmuneTo>
+	 
 	<statOffsets>
       <ToxicEnvironmentResistance>2</ToxicEnvironmentResistance>
     </statOffsets>
@@ -43,6 +46,7 @@
 	 <biostatMet>6</biostatMet>
     <exclusionTags>
       <li>Immunity</li>
+	 
     </exclusionTags>
   </GeneDef>
 </Defs>

@@ -113,6 +113,10 @@
   <MakeScorponade2x.description>Изготовить 2 скорпонады.</MakeScorponade2x.description>
   <MakeScorponade2x.jobString>Изготовление Скорпонад.</MakeScorponade2x.jobString>
 
+  <MakeAddictol2x.label>Изготовить Аддиктол x2</MakeAddictol2x.label>
+  <MakeAddictol2x.description>Изготовить Аддиктол.</MakeAddictol2x.description>
+  <MakeAddictol2x.jobString>Изготовить Аддиктол.</MakeAddictol2x.jobString>
+
 
   <!--<BuildFalloutRipper.label>Сборка потрошителя</BuildFalloutRipper.label>-->
   <!--<BuildFalloutRipper.description>Создание потрошителя.</BuildFalloutRipper.description>-->

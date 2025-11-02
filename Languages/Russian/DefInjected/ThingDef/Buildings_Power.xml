@@ -14,6 +14,84 @@
 Стабильный (условно стабильный*) сгусток высокоэнергетической плазмы заключён в герметичный контейнер из боевого плексигласа, устойчивого к дульному заряду лазерной винтовки. Наши учёные, жертвуя сном и мерами предосторожности, добились квантовой синхронизации разрядов, создав не только гипнотизирующее зрелище, но и источник постоянной энергии!</FalloutTeslaNova.description>
 
 
+  <!-- <ThingDef ParentName="SK_BuildingBase">
+    <defName>VaultBattery</defName>
+    <label>garbage battery</label>
+    <drawerType>MapMeshAndRealTime</drawerType>
+	<thingClass>SK.Building_Battery</thingClass>
+    <graphicData>
+        <texPath>Things/Building/Power/VaultBattery</texPath>
+        <graphicClass>Graphic_Multi</graphicClass>
+        <shaderType>CutoutComplex</shaderType>
+        <drawSize>(2,2)</drawSize>
+        <shadowData>
+            <volume>(0.8, 0.4, 1.8)</volume>
+            <offset>(0,0,0)</offset>
+        </shadowData>
+        <damageData>
+            <cornerTL>Damage/Corner</cornerTL>
+            <cornerTR>Damage/Corner</cornerTR>
+            <cornerBL>Damage/Corner</cornerBL>
+            <cornerBR>Damage/Corner</cornerBR>
+        </damageData>
+    </graphicData>
+    <minifiedDef>MinifiedThing</minifiedDef>
+    <thingCategories>
+        <li>BuildingsPower</li>
+    </thingCategories>
+    <canOverlapZones>false</canOverlapZones>
+    <fillPercent>0.7</fillPercent>
+    <tickerType>Normal</tickerType>
+    <statBases>
+        <MaxHitPoints>180</MaxHitPoints>
+        <WorkToBuild>1450</WorkToBuild>
+        <Flammability>1.0</Flammability>
+        <Beauty>-10</Beauty>
+        <Mass>120</Mass>
+    </statBases>
+    <description>This product contains volatile chemicals that were not certified before the war. Avoid moisture, temperatures above 40°C, and sudden movements. Remember: the bright flash upon rupture is the last ray of light in your desolate existence!. Holds up to 1,020 W.</description>
+    <size>(1,2)</size>
+    <building>
+        <destroySound>BuildingDestroyed_Metal_Medium</destroySound>
+        <uninstallWork>450</uninstallWork>
+    </building>
+    <stuffCategories>
+        <li>HeavyMetallic</li>
+		<li>RuggedMetallic</li>
+    </stuffCategories>
+    <costStuffCount>40</costStuffCount>
+    <costList>
+        <ComponentIndustrial>7</ComponentIndustrial>
+        <ElectronicComponents>4</ElectronicComponents>
+    </costList>
+    <comps>
+        <li Class="CompProperties_Battery">
+            <storedEnergyMax>1020</storedEnergyMax>
+            <efficiency>0.7</efficiency>
+            <shortCircuitInRain>true</shortCircuitInRain>
+            <transmitsPower>true</transmitsPower>
+        </li>
+        <li Class="CompProperties_Breakdownable"/>
+        <li Class="CompProperties_Stunnable">
+            <useLargeEMPEffecter>true</useLargeEMPEffecter>
+            <affectedDamageDefs>
+                <li>EMP</li>
+            </affectedDamageDefs>
+        </li>
+    </comps>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <designationCategory>Power</designationCategory>
+    <designationHotKey>Misc2</designationHotKey>
+    <researchPrerequisites>
+        <li>Batteries</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+</ThingDef> -->
+
+  <VaultBattery.label>Аккумулятор «Хламовик»</VaultBattery.label>
+  <VaultBattery.description>Данное изделие содержит летучие химикаты, не прошедшие сертификацию до войны. Избегайте попадания влаги, нагрева свыше 40°C и резких движений. Помните: яркая вспышка при разрыве — последний луч света в вашем пустошном существовании! Вместимость: до 1020 Вт.</VaultBattery.description>
+
+
   <!--<FalloutTeslaGenerator.label>Vault-Tec Mark II generator</FalloutTeslaGenerator.label>-->
   <!--<FalloutTeslaGenerator.description>"Do not attempt to repair the generator without a licensed technician (if you find one alive). Any injuries sustained during operation are the result of the user's negligence, not our ingenious design!"(Note: The chance of death is reduced by 2% if you recite the Tom Howard prayer before working.)</FalloutTeslaGenerator.description>-->
 

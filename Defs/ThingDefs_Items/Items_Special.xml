@@ -592,4 +592,259 @@ P.S. Legal reminder: "Plan D" is not a plan, medicine, or edible product (despit
       <DeteriorationRate>1</DeteriorationRate>
     </statBases>
   </ThingDef>
+  
+<!-- <ThingDef ParentName="MealBeverage">
+		<defName>AntidoteSavagery</defName>
+		<label>NEUROLYSIN</label>
+		<description>An experimental drug developed before the war, intended for the treatment of neurodegenerative diseases in subjects subjected to prolonged radioactive catheterization. It is a combination of a modified retrovirus and a nanoprotein catalyst.</description>
+		<thingClass>ThingWithComps</thingClass>
+		<graphicData>
+			<texPath>Things/Item/Resource/Savagery</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.8,0.8)</drawSize>
+		</graphicData>
+		<socialPropernessMatters>false</socialPropernessMatters>
+		<rotatable>false</rotatable>
+		<stackLimit>6</stackLimit>
+		<thingCategories>
+			<li>MedicalDrugs</li>
+		</thingCategories>
+		<tradeTags>
+      	<li>Exotic</li>
+	     <li>ExoticMisc</li>
+        </tradeTags>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>5</DeteriorationRate>
+			<MarketValue>600</MarketValue>
+			<Bulk>0.5</Bulk>
+			<Mass>0.2</Mass>
+		</statBases>
+		<tickerType>Rare</tickerType>
+		<ingestible>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<drugCategory>Medical</drugCategory>
+			<ingestSound>Ingest_Drink</ingestSound>
+			<preferability>NeverForNutrition</preferability>
+			<outcomeDoers>
+				<li Class="SK.IngestionOutcomeDoer_RemoveHediff">
+					<hediffToRemove>Savagery</hediffToRemove>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Drug">
+				<addictiveness>0</addictiveness>
+				<listOrder>1000</listOrder>
+				<overdoseSeverityOffset>2.00~3.00</overdoseSeverityOffset>
+			</li>
+		</comps>
+		<costList>
+			<MedicineHerbal>1</MedicineHerbal>
+		</costList>
+	</ThingDef>
+ -->
+ <!--
+  <ThingDef ParentName="DrugPillBase">
+    <defName>AntidoteSavagery</defName>
+    <label>savagery</label>
+    <description>Feralization is a severe neurodegenerative disease affecting ghouls. It is characterized by progressive loss of cognitive function and memory, culminating in complete personality disintegration. Contrary to previous understanding, the process is reversible in the early and middle stages with aggressive therapy.\n\nThis experimental treatment temporarily reverses feralization symptoms but creates an irreversible dependency. Without regular doses, the neurodegeneration accelerates rapidly, leading to permanent feral state.</description>
+    <descriptionHyperlinks>
+      <HediffDef>SavageryHigh</HediffDef>
+      <HediffDef>SavageryAddiction</HediffDef>
+    </descriptionHyperlinks>
+    <graphicData>
+     	    <texPath>Things/Item/Resource/Savagery</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<drawSize>(0.8,0.8)</drawSize>
+    </graphicData>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MarketValue>85</MarketValue>
+      <Mass>0.01</Mass>
+    </statBases>
+    <techLevel>Ultra</techLevel>
+    <minRewardCount>8</minRewardCount>
+    <ingestible>
+      <drugCategory>Medical</drugCategory>
+      <outcomeDoers>
+        <li Class="IngestionOutcomeDoer_GiveHediff">
+          <hediffDef>SavageryHigh</hediffDef>
+          <severity>0.01</severity>
+          <doToGeneratedPawnIfAddicted>true</doToGeneratedPawnIfAddicted>
+        </li>
+      </outcomeDoers>
+    </ingestible>
+    <comps>
+      <li Class="CompProperties_Drug">
+        <chemical>Savagery</chemical>
+        <addictiveness>1.00</addictiveness>
+        <needLevelOffset>0.9</needLevelOffset>
+        <listOrder>1020</listOrder>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <thingSetMakerTags><li>RewardStandardCore</li></thingSetMakerTags>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
+</ThingDef>
+
+
+
+
+<HediffDef>
+    <defName>SavageryHigh</defName>
+    <hediffClass>Hediff_High</hediffClass>
+    <label>savagery reversal</label>
+    <description>Active neural restorative compounds from Savagery treatment. They temporarily reverse feralization symptoms and restore cognitive function. However, withdrawal causes accelerated neurodegeneration.</description>
+    <defaultLabelColor>(0.3,0.8,0.3)</defaultLabelColor>
+    <scenarioCanAdd>true</scenarioCanAdd>
+    <maxSeverity>1.0</maxSeverity>
+    <isBad>false</isBad>
+    <comps>
+        <li Class="HediffCompProperties_SeverityPerDay">
+            <severityPerDay>0.0027</severityPerDay>
+        </li>
+    </comps>
+    <stages>
+        <li>
+            <label>Stage 1: "The Mirror Crackles"</label>
+            <minSeverity>0.05</minSeverity>
+            <regeneration>15</regeneration>
+            <capMods>
+                <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>0.15</offset>
+                </li>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>0.10</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>0.08</offset>
+                </li>
+                <li>
+                    <capacity>Talking</capacity>
+                    <offset>0.12</offset>
+                </li>
+            </capMods>
+        </li>
+        <li>
+            <label>Stage 2: "Fading"</label>
+            <minSeverity>0.7</minSeverity>
+            <capMods>
+                <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>0.25</offset>
+                </li>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>0.15</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>0.12</offset>
+                </li>
+                <li>
+                    <capacity>Talking</capacity>
+                    <offset>0.18</offset>
+                </li>
+                <li>
+                    <capacity>Hearing</capacity>
+                    <offset>0.10</offset>
+                </li>
+            </capMods>
+        </li>
+        <li>
+            <label>Stage 3: "Cliff"</label>
+            <minSeverity>0.9</minSeverity>
+            <vomitMtbDays>0.5</vomitMtbDays>
+            <painOffset>-0.5</painOffset>
+            <regeneration>50</regeneration>
+            <capMods>
+                <li>
+                    <capacity>Consciousness</capacity>
+                    <offset>0.35</offset>
+                </li>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>0.20</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>0.18</offset>
+                </li>
+                <li>
+                    <capacity>Talking</capacity>
+                    <offset>0.25</offset>
+                </li>
+                <li>
+                    <capacity>Hearing</capacity>
+                    <offset>0.15</offset>
+                </li>
+                <li>
+                    <capacity>Sight</capacity>
+                    <offset>0.12</offset>
+                </li>
+            </capMods>
+        </li>
+    </stages>
+</HediffDef>
+
+<ChemicalDef>
+    <defName>Savagery</defName>
+    <label>savagery</label>
+    <addictionHediff>SavageryAddiction</addictionHediff>
+    <canBinge>false</canBinge>
+    <generateAddictionGenes>false</generateAddictionGenes>
+</ChemicalDef>
+
+<NeedDef ParentName="DrugAddictionNeedBase">
+    <defName>Chemical_Savagery</defName>
+    <needClass>Need_Chemical</needClass>
+    <label>savagery</label>
+    <description>This person's neural pathways are dependent on Savagery treatment compounds.\n\nWithout regular doses, feralization accelerates rapidly, leading to permanent cognitive disintegration and violent behavior.\n\nThis dependency never goes away.</description>
+    <listPriority>46</listPriority>
+    <fallPerDay>0.18</fallPerDay>
+    <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+</NeedDef>
+
+<HediffDef ParentName="AddictionBase">
+    <defName>SavageryAddiction</defName>
+    <label>savagery need</label>
+    <description>Savagery treatment dependency. The neural restorative compounds create permanent changes in brain chemistry. Without regular doses, neurodegeneration accelerates catastrophically.\n\nWithdrawal causes rapid progression to complete feral state.</description>
+    <hediffClass>Hediff_Addiction</hediffClass>
+    <causesNeed>Chemical_Savagery</causesNeed>
+    <everCurableByItem>false</everCurableByItem>
+    <stages>
+        <li>
+        </li>
+        <li>
+            <label>unmet</label>
+            <painOffset>0.5</painOffset>
+            <lifeThreatening>true</lifeThreatening>
+            <deathMtbDays>8</deathMtbDays>
+            <mtbDeathDestroysBrain>true</mtbDeathDestroysBrain>
+            <capMods>
+                <li>
+                    <capacity>Consciousness</capacity>
+                    <setMax>0.6</setMax>
+                </li>
+                <li>
+                    <capacity>Talking</capacity>
+                    <setMax>0.4</setMax>
+                </li>
+            </capMods>
+            <mentalStateGivers>
+                <li>
+                    <mentalState>Berserk</mentalState>
+                    <mtbDays>0.3</mtbDays>
+                </li>
+            </mentalStateGivers>
+        </li>
+    </stages>
+</HediffDef>-->
+  
 </Defs>

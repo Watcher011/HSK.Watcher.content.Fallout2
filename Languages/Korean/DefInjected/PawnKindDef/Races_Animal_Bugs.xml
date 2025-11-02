@@ -76,6 +76,32 @@
   <Duten.labelFemale>암컷 두텐</Duten.labelFemale>
   <Duten.labelFemalePlural>암컷 두텐들</Duten.labelFemalePlural>
 
+  <SewageCreature.label>하수구 생명체</SewageCreature.label>
+  <SewageCreature.labelPlural>하수구 생명체들</SewageCreature.labelPlural>
+  <SewageCreature.labelMale>수컷 하수구 생명체</SewageCreature.labelMale>
+  <SewageCreature.labelMalePlural>수컷 하수구 생명체들</SewageCreature.labelMalePlural>
+  <SewageCreature.labelFemale>암컷 하수구 생명체</SewageCreature.labelFemale>
+  <SewageCreature.labelFemalePlural>암컷 하수구 생명체들</SewageCreature.labelFemalePlural>
+
+  <SewageEcho.label>하수 에코</SewageEcho.label>
+  <SewageEcho.labelPlural>하수 에코들</SewageEcho.labelPlural>
+  <SewageEcho.labelMale>수컷 하수 에코</SewageEcho.labelMale>
+  <SewageEcho.labelMalePlural>수컷 하수 에코들</SewageEcho.labelMalePlural>
+  <SewageEcho.labelFemale>암컷 하수 에코</SewageEcho.labelFemale>
+  <SewageEcho.labelFemalePlural>암컷 하수 에코들</SewageEcho.labelFemalePlural>
+
+
+  <!-- <ThingDef Name="SewageCreature" ParentName="Duten">
+        <defName>SewageCreature</defName>
+       <label>Sewer Creature</label>
+       <description>A creature that leaves behind a trail of slime and vomit.</description>
+        <comps>
+            <li Class="Watcher.Comps.CompSewageSpawner">
+                <spawnIntervalTicks>120</spawnIntervalTicks> <!{1}** 2 секунды **{1}>
+            </li>
+        </comps>
+    </ThingDef> -->
+
   <StrangeDuten.label>이상한 듀든</StrangeDuten.label>
   <StrangeDuten.labelPlural>이상한 듀든들</StrangeDuten.labelPlural>
   <StrangeDuten.lifeStages.0.label>이상한 듀든</StrangeDuten.lifeStages.0.label>

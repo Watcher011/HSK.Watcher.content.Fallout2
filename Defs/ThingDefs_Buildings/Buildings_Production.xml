@@ -9,7 +9,7 @@
 			<texPath>Things/Building/Production/ProductionWorkbench</texPath>
 			 <graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(2.2,1)</drawSize>
+			<drawSize>(3,1.3)</drawSize>
 			<shadowData>
 				<volume>(1.9, 1.0, 0.85)</volume>
 				<offset>(0,0,0)</offset>
@@ -38,7 +38,7 @@
 			<Cleanliness>-1</Cleanliness>
 			<Mass>500</Mass>
 		</statBases>
-		<size>(2,1)</size>
+		<size>(3,1)</size>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsProduction</li>
@@ -90,8 +90,8 @@
 			<texPath>Things/Building/Printer/Printer</texPath>
 			 <graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1,1)</drawSize>
-			<!-- <drawOffset>(0,0,0.3)</drawOffset>-->
+			<drawSize>(0.8,0.8)</drawSize>
+			 <drawOffset>(0,0,0.1)</drawOffset>
 			<shadowData>
 				<volume>(1.9, 1.0, 0.85)</volume>
 				<offset>(0,0,0)</offset>
@@ -103,7 +103,6 @@
 				<cornerBR>Damage/Corner</cornerBR>
 			</damageData>
 		</graphicData>
-		<drawerType>MapMeshAndRealTime</drawerType>
 		<stuffCategories>
 			<li>Metallic</li>
 		</stuffCategories>
@@ -113,9 +112,6 @@
 			<ComponentIndustrial>10</ComponentIndustrial>
 			<Mechanism>10</Mechanism>
 		</costList>
-		<building>
-	      <isEdifice>false</isEdifice>    
-    	</building>
 		<statBases>
 			<WorkToBuild>2750</WorkToBuild>
 			<MaxHitPoints>220</MaxHitPoints>
@@ -124,6 +120,10 @@
 			<Mass>500</Mass>
 		</statBases>
 		<size>(1,1)</size>
+		<building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <isEdifice>false</isEdifice>
+        </building>
 		<altitudeLayer>BuildingOnTop</altitudeLayer>
 		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
@@ -162,6 +162,9 @@
 		<researchPrerequisites>
 			<li>Vault-TecProduction</li>
 		</researchPrerequisites>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+	      <clearBuildingArea>false</clearBuildingArea>
+          <passability>PassThroughOnly</passability>
 		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
 		<showProductIcon>false</showProductIcon>
 		<barOffset>(0.0, 0.41)</barOffset>
@@ -262,7 +265,8 @@
 			<texPath>Things/Building/Lab/Lab</texPath>
 			 <graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(1.1,1)</drawSize>
+			<drawSize>(0.7,0.7)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
 			<shadowData>
 				<volume>(1.0, 1.0, 0.85)</volume>
 				<offset>(0,0,0)</offset>
@@ -292,10 +296,13 @@
 			<Mass>500</Mass>
 		</statBases>
 		<size>(1,1)</size>
-		<minifiedDef>MinifiedThing</minifiedDef>
 		<thingCategories>
 			<li>BuildingsProduction</li>
 		</thingCategories>
+	 <building>
+      <destroySound>BuildingDestroyed_Metal_Big</destroySound>
+	  <isEdifice>false</isEdifice>
+    </building>
 		<designationCategory>Production</designationCategory>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
 		<tickerType>Normal</tickerType>
@@ -306,7 +313,7 @@
 					<li>PodChair</li>
 				</linkableFacilities>
 			</li>
-			<li Class="CompProperties_Refuelable">
+			<!--<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>0.01</fuelConsumptionRate>
 				<fuelCapacity>1.0</fuelCapacity>
 				<fuelFilter>
@@ -320,7 +327,7 @@
                  <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
 			</li>
 			<li Class="CompProperties_Flickable"/>
-			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Breakdownable"/>-->
 		</comps>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
@@ -329,6 +336,11 @@
 		  <tradeTags>
           <li>ExoticBuilding</li>
          </tradeTags>
+		  <drawerType>MapMeshAndRealTime</drawerType>
+	      <clearBuildingArea>false</clearBuildingArea>
+	      <altitudeLayer>BuildingOnTop</altitudeLayer>
+	      <minifiedDef>MinifiedThing</minifiedDef>
+          <passability>PassThroughOnly</passability>
 		<researchPrerequisites>
 			<li>Vault-TecProduction</li>
 		</researchPrerequisites>

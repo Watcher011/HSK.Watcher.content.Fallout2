@@ -529,6 +529,9 @@
             <intelligence>Humanlike</intelligence>
             <nameGenerator>NamerPersonNovaMale</nameGenerator>
             <nameGeneratorFemale>NamerPersonNovaFemale</nameGeneratorFemale>
+			<!--<hediffGiverSets>
+				<li>Savagery</li>
+			</hediffGiverSets>-->
             <makesFootprints>true</makesFootprints>
             <lifeExpectancy>120</lifeExpectancy>
             <gestationPeriodDays>42</gestationPeriodDays>

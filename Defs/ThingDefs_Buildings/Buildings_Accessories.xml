@@ -296,7 +296,7 @@
       <texPath>Things/Building/Misc/VaultCommsConsole</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
 	   <drawOffset>(0,0,0.3)</drawOffset>
-      <drawSize>(1.1,1)</drawSize>
+      <drawSize>(0.8,0.8)</drawSize>
       <damageData>
         <rect>(0,0,1,0.8)</rect>
         <cornerBL>Damage/Corner</cornerBL>
@@ -474,8 +474,8 @@ An employee no longer needs to study tedious textbooks for years or possess any 
 			<texPath>Things/Building/Research/brain</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(0.8)</drawSize>
-			 <drawOffset>(0,0,0.2)</drawOffset>
+			<drawSize>(0.5)</drawSize>
+		<!--	 <drawOffset>(0,0,0.2)</drawOffset>-->
 			<shadowData>
 				<volume>(0.85, 1.0, 0.85)</volume>
 				<offset>(0,0,0)</offset>
@@ -720,7 +720,7 @@ RobCo Corporation is not responsible for turning you into a sieve. You came here
 				<heatPerSecond>3.5</heatPerSecond>
 				<heatPushMaxTemperature>23</heatPushMaxTemperature>
 			</li>
-			<li Class="Watcher.CompProperties_LocalFirefly">
+			<li Class="Watcher.Comps.CompProperties_LocalFirefly">
 				<fireSize>0.5</fireSize>
 				<finalFireSize>0.7</finalFireSize>
 				<offset>(0,0,0)</offset>
@@ -730,6 +730,216 @@ RobCo Corporation is not responsible for turning you into a sieve. You came here
 		<inspectorTabs>
 			<li>SK.ITab_Fuel</li>
 		</inspectorTabs>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+
+
+<ThingDef ParentName="BuildingBase">
+	  <defName>VaultTecBobbleheadMedicine</defName>
+    <label>Vault-Tec bobblehead medicine</label>
+		<description>This model from the "Volt Boy Pupis" collection depicts the hero in one of the most dramatic scenes from the "Health Crisis" comic, where he uses an experimental serum to save infected citizens. A distinctive feature of this figure is its removable accessory—a syringe filled with a clear blue liquid, symbolizing the serum. One of the rarest and most coveted pieces among collectors.</description>
+		<graphicData>
+			  <texPath>Things/Building/Art/VaultTecBobbleheadMedicine</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			  <drawSize>(0.6,0.6)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>3</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<costStuffCount>50</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<MedicalTendQualityOffset>0.12</MedicalTendQualityOffset>
+					<MedicalTendSpeed>0.08</MedicalTendSpeed>
+					<ImmunityGainSpeedFactor>0.14</ImmunityGainSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>3</maxSimultaneous>
+			</li>
+		</comps>
+	     <tradeTags>
+            <li>ExoticBuilding</li>
+        </tradeTags>
+		 <thingSetMakerTags>
+           <li>RewardStandardCore</li>
+         </thingSetMakerTags>
+		  <thingCategories>
+            <li>BuildingsSpecial</li>
+         </thingCategories>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	
+	
+<ThingDef ParentName="BuildingBase">
+	  <defName>VaultTecBobbleheadScience</defName>
+    <label>Vault-Tec bobblehead science</label>
+		<description>This model from the Vault-Tec Bobblehead collection depicts the company's iconic mascot in a moment of genius. The figurine symbolizes Vault-Tec's unwavering commitment to scientific progress and the bright future the company envisioned for humanity underground. A distinctive feature of this piece is its removable accessory—a test tube containing a greenish solution, symbolizing advanced technology. It is one of the rarest and most coveted pieces among collectors, a reminder of the power of human intellect.</description>
+		<graphicData>
+			  <texPath>Things/Building/Art/VaultTecBobbleheadScience</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			  <drawSize>(0.6,0.6)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>3</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<costStuffCount>50</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<ResearchSpeedFactor>0.20</ResearchSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>1</maxSimultaneous>
+			</li>
+		</comps>
+	     <tradeTags>
+            <li>ExoticBuilding</li>
+        </tradeTags>
+		 <thingSetMakerTags>
+           <li>RewardStandardCore</li>
+         </thingSetMakerTags>
+		  <thingCategories>
+            <li>BuildingsSpecial</li>
+         </thingCategories>
+		<building>
+			<uninstallWork>150</uninstallWork>
+			 <isEdifice>false</isEdifice>
+		</building>
+		<altitudeLayer>BuildingOnTop</altitudeLayer>
+		 <passability>PassThroughOnly</passability>
+		<constructionSkillPrerequisite>2</constructionSkillPrerequisite>
+	</ThingDef>
+	
+	
+	
+	<ThingDef ParentName="BuildingBase">
+	  <defName>VaultTecBobbleheadMechanic</defName>
+    <label>Vault-Tec bobblehead mechanic</label>
+		<description>This model from the "Vault-Tec Bobblehead" collection depicts the company's legendary mascot, embodying the engineering genius that enabled the construction of the Vaults. The figurine symbolizes the indestructibility and flawless operation of the complex mechanisms designed to preserve the American way of life underground. A distinctive feature of this piece is its removable adjustable wrench, coated in a durable chrome finish, symbolizing the reliability of Vault-Tec technology. It is one of the rarest and most coveted pieces among collectors, a reminder of the power of the human hand and mind.</description>
+		<graphicData>
+			  <texPath>Things/Building/Art/VaultTecBobbleheadMechanic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawRotated>false</drawRotated>
+			  <drawSize>(0.6,0.6)</drawSize>
+			 <drawOffset>(0,0,0.3)</drawOffset>
+			<damageData>
+				<rect>(0.35,0.35,0.3,0.3)</rect>
+			</damageData>
+		</graphicData>
+		<rotatable>false</rotatable>
+		<pathCost>8</pathCost>
+		<tickerType>Normal</tickerType>
+		 <drawerType>MapMeshAndRealTime</drawerType>
+		 <clearBuildingArea>false</clearBuildingArea>
+		<fillPercent>0.15</fillPercent>
+		<minifiedDef>MinifiedThing</minifiedDef>
+		<statBases>
+			<MaxHitPoints>80</MaxHitPoints>
+			<WorkToBuild>130</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Bulk>4</Bulk>
+			<Mass>3</Mass>
+			<MeditationFocusStrength>0.0</MeditationFocusStrength>
+			<StyleDominance MayRequire="Ludeon.RimWorld.Ideology">3</StyleDominance>
+		</statBases>
+		<stuffCategories>
+			<li>Ceramic</li>
+		</stuffCategories>
+		<costList>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<costStuffCount>50</costStuffCount>
+		<soundImpactDefault>BulletImpact_Ground</soundImpactDefault>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<resourcesFractionWhenDeconstructed>0</resourcesFractionWhenDeconstructed>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<comps>
+			<li Class="CompProperties_Facility">
+				<statOffsets>
+					<WorkTableWorkSpeedFactor>0.50</WorkTableWorkSpeedFactor>
+				</statOffsets>
+				<maxSimultaneous>4</maxSimultaneous>
+			</li>
+		</comps>
+	     <tradeTags>
+            <li>ExoticBuilding</li>
+        </tradeTags>
+		 <thingSetMakerTags>
+           <li>RewardStandardCore</li>
+         </thingSetMakerTags>
+		  <thingCategories>
+            <li>BuildingsSpecial</li>
+         </thingCategories>
 		<building>
 			<uninstallWork>150</uninstallWork>
 			 <isEdifice>false</isEdifice>

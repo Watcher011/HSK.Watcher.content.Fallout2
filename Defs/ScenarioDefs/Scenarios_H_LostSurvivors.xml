@@ -163,7 +163,11 @@
           <allowRoofed>false</allowRoofed>
           <count>5</count>
         </li>
-
+       <!--  <li Class="ScenPart_StartingThing_Defined">
+          <def>StartingThing_Defined</def>
+          <thingDef>AntidoteSavagery</thingDef>
+          <count>30</count>
+        </li>-->
       </parts>
     </scenario>
   </ScenarioDef>

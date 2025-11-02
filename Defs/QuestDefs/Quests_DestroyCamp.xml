@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<QuestDef>
+    <defName>DestroyEnemyCamp_RandomBobblehead</defName>
+    <label>Collection</label>
+    <description>Our scouts have discovered a well-fortified enemy camp in the area. They pose a constant threat to our caravans and settlers. We're offering a valuable Vault-Tec collectible bobblehead to anyone who can clear this area of ​​these villains.</description>
+    <questGiverFaction>Neutral</questGiverFaction>
+    
+    <parts>
+        <!-- Генерация вражеского лагеря на карте -->
+        <li Class="QuestPart_GenerateSite">
+            <siteDef>EnemyCamp_Bobblehead</siteDef>
+            <siteParams>
+                <threatPoints>2800</threatPoints>
+                <faction>Enclave</faction>
+                <neverFlee>true</neverFlee>
+            </siteParams>
+        </li>
+        
+        <!-- Требование уничтожить всех врагов на сайте -->
+        <li Class="QuestPart_RequireAllEnemiesDead">
+            <inSignalEnable>SiteGenerated</inSignalEnable>
+            <site>site</site>
+        </li>
+        
+        <!-- Выбор случайного пупса в качестве награды -->
+        <li Class="QuestPart_Choice">
+            <inSignalActivate>SiteGenerated</inSignalActivate>
+            <rewards>
+                <!-- Вариант 1: Пупс Механика -->
+                <li>
+                    <items>
+                        <li>
+                            <def>VaultTecBobbleheadMechanic</def>
+                            <count>1</count>
+                        </li>
+                    </items>
+                    <description>Vault-Tec:Mechanics - increases the speed of construction and repair</description>
+                    <chance>0.33</chance>
+                </li>
+                <!-- Вариант 2: Пупс Науки -->
+                <li>
+                    <items>
+                        <li>
+                            <def>VaultTecBobbleheadScience</def>
+                            <count>1</count>
+                        </li>
+                    </items>
+                    <description>Vault-Tec:Science - accelerates technology research</description>
+                    <chance>0.33</chance>
+                </li>
+                <!-- Вариант 3: Пупс Медицины -->
+                <li>
+                    <items>
+                        <li>
+                            <def>VaultTecBobbleheadMedicine</def>
+                            <count>1</count>
+                        </li>
+                    </items>
+                    <description>Vault-Tec:Medicine - improves treatment and quality of medical care</description>
+                    <chance>0.34</chance>
+                </li>
+            </rewards>
+        </li>
+    </parts>
+
+    <root>GenerateSite-&gt;site | EnemiesDead-&gt;success | (45 days)-&gt;expiry</root>
+    <expirationDays>45</expirationDays>
+    <difficulty>2</difficulty>
+    <minColonyWealth>60000</minColonyWealth>
+</QuestDef>
+
+</Defs>

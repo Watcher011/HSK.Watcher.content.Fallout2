@@ -94,6 +94,7 @@
     </terrainPatchMakers>
     <baseWeatherCommonalities>
       <!-- Погода мрачная и опасная -->
+	   <GrayPall MayRequire="Ludeon.RimWorld.Anomaly">10</GrayPall>
       <Clear>5</Clear> <!-- Редкие ясные дни -->
       <Fog>10</Fog> <!-- Частый токсичный туман -->
       <Rain>1</Rain> <!-- Дождь бывает редко -->
@@ -137,6 +138,8 @@
       <RadScorpion>0.3</RadScorpion>
       <Duten>0.3</Duten>	
     </pollutionWildAnimals>
+	
+  
   </BiomeDef>
 
 

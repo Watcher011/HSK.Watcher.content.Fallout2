@@ -238,5 +238,30 @@
   <MoleRat.labelFemale>самка кротокрыса</MoleRat.labelFemale>
   <MoleRat.labelFemalePlural>самки кротокрыса</MoleRat.labelFemalePlural>
 
+  <MutantHound.label>Гончая-мутант</MutantHound.label>
+  <MutantHound.labelPlural>Гончие-мутанты</MutantHound.labelPlural>
+  <MutantHound.lifeStages.0.label>Щенок гончей-мутанта</MutantHound.lifeStages.0.label>
+  <MutantHound.lifeStages.0.labelPlural>Щенки гончих-мутантов</MutantHound.lifeStages.0.labelPlural>
+  <MutantHound.lifeStages.0.labelMale>самец щенка гончей-мутанта</MutantHound.lifeStages.0.labelMale>
+  <MutantHound.lifeStages.0.labelMalePlural>самцы щенков гончих-мутантов</MutantHound.lifeStages.0.labelMalePlural>
+  <MutantHound.lifeStages.0.labelFemale>самка щенка гончей-мутанта</MutantHound.lifeStages.0.labelFemale>
+  <MutantHound.lifeStages.0.labelFemalePlural>самки щенков гончих-мутантов</MutantHound.lifeStages.0.labelFemalePlural>
+  <MutantHound.lifeStages.1.label>Гончая-мутант</MutantHound.lifeStages.1.label>
+  <MutantHound.lifeStages.1.labelPlural>Гончие-мутанты</MutantHound.lifeStages.1.labelPlural>
+  <MutantHound.lifeStages.1.labelMale>самец гончей-мутанта</MutantHound.lifeStages.1.labelMale>
+  <MutantHound.lifeStages.1.labelMalePlural>самцы гончих-мутантов</MutantHound.lifeStages.1.labelMalePlural>
+  <MutantHound.lifeStages.1.labelFemale>самка гончей-мутанта</MutantHound.lifeStages.1.labelFemale>
+  <MutantHound.lifeStages.1.labelFemalePlural>самки гончих-мутантов</MutantHound.lifeStages.1.labelFemalePlural>
+  <MutantHound.lifeStages.2.label>Гончая-мутант</MutantHound.lifeStages.2.label>
+  <MutantHound.lifeStages.2.labelPlural>Гончие-мутанты</MutantHound.lifeStages.2.labelPlural>
+  <MutantHound.lifeStages.2.labelMale>самец гончей-мутанта</MutantHound.lifeStages.2.labelMale>
+  <MutantHound.lifeStages.2.labelMalePlural>самцы гончих-мутантов</MutantHound.lifeStages.2.labelMalePlural>
+  <MutantHound.lifeStages.2.labelFemale>самка гончей-мутанта</MutantHound.lifeStages.2.labelFemale>
+  <MutantHound.lifeStages.2.labelFemalePlural>самки гончих-мутантов</MutantHound.lifeStages.2.labelFemalePlural>
+  <MutantHound.labelMale>самец гончей-мутанта</MutantHound.labelMale>
+  <MutantHound.labelMalePlural>самцы гончих-мутантов</MutantHound.labelMalePlural>
+  <MutantHound.labelFemale>самка гончей-мутанта</MutantHound.labelFemale>
+  <MutantHound.labelFemalePlural>самки гончих-мутантов</MutantHound.labelFemalePlural>
+
 
 </LanguageData>
