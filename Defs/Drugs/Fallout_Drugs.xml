@@ -113,6 +113,7 @@
       <DeteriorationRate>6</DeteriorationRate>
     </statBases>
     <techLevel>Industrial</techLevel>
+
     <ingestible>
       <foodType>Fluid, Processed</foodType>
       <joyKind>Chemical</joyKind>
@@ -339,12 +340,16 @@
        <drawSize>0.55</drawSize>
     </graphicData>
     <rotatable>false</rotatable>
+	<thingClass>Medicine</thingClass>
     <statBases>
       <WorkToMake>600</WorkToMake>
       <MarketValue>53</MarketValue>
       <Mass>0.1</Mass>
     </statBases>
     <techLevel>Industrial</techLevel>
+	<thingCategories>
+			<li>Medicine</li>
+	</thingCategories>
     <ingestible>
       <joyKind>Chemical</joyKind>
       <joy>0.40</joy>
@@ -391,6 +396,7 @@
     <descriptionHyperlinks>
       <HediffDef>StimpakSuper</HediffDef>
     </descriptionHyperlinks>
+	<thingClass>Medicine</thingClass>
     <graphicData>
      <texPath>Things/Item/Special/StimpakSuper</texPath>
         <graphicClass>Graphic_Single</graphicClass>
@@ -403,6 +409,9 @@
       <Mass>0.1</Mass>
     </statBases>
     <techLevel>Industrial</techLevel>
+	<thingCategories>
+			<li>Medicine</li>
+	</thingCategories>
     <ingestible>
       <joyKind>Chemical</joyKind>
       <joy>0.40</joy>

@@ -1,27 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <!-- Приоритеты поиска медикаментов -->
-
-   <WatcherJobs.StimpakSuper>Супер стимпак</WatcherJobs.StimpakSuper>
-  <WatcherJobs.Stimpak>Стимпак</WatcherJobs.Stimpak>
-  <WatcherJobs.UltratechMedicine>Передовые медикаменты</WatcherJobs.UltratechMedicine>
-  <WatcherJobs.IndustrialMedicine>Промышленные медикаменты</WatcherJobs.IndustrialMedicine>
-  <WatcherJobs.HerbMedicine>Травяные медикаменты</WatcherJobs.HerbMedicine>
-  <WatcherJobs.Penoxycyline>Пеноксицилин</WatcherJobs.Penoxycyline>
-  <WatcherJobs.Beer>Пиво</WatcherJobs.Beer>
-  <WatcherJobs.Smokeleaf>Дымолист</WatcherJobs.Smokeleaf>
-  <WatcherJobs.PsychiteTea>Психитовый чай</WatcherJobs.PsychiteTea>
-  <WatcherJobs.GoJuice>Го-сок</WatcherJobs.GoJuice>
-  <WatcherJobs.WakeUp>Взбодритель</WatcherJobs.WakeUp>
-  <WatcherJobs.Yayo>Яйо</WatcherJobs.Yayo>
-
-  <!-- Location Labels -->
-  <WatcherJobs.InInventory>В инвентаре</WatcherJobs.InInventory>
-  <WatcherJobs.InMedicalShelf>В медицинском шкафу</WatcherJobs.InMedicalShelf>
-  <WatcherJobs.InRefrigerator>В холодильнике</WatcherJobs.InRefrigerator>
-  <WatcherJobs.InStorage>В хранилище</WatcherJobs.InStorage>
-  <WatcherJobs.OnFloor>На полу</WatcherJobs.OnFloor>
-
+  <WatcherJobs.MedicineCategory.Medicine>Лекарства</WatcherJobs.MedicineCategory.Medicine>
+<WatcherJobs.MedicineCategory.MedicalDrugs>Медицинские препараты</WatcherJobs.MedicineCategory.MedicalDrugs>
+<WatcherJobs.MedicineCategory.Drugs>Препараты</WatcherJobs.MedicineCategory.Drugs>
+<WatcherJobs.MedicineCategory.SocialDrugs>Социальные препараты</WatcherJobs.MedicineCategory.SocialDrugs>
+<WatcherJobs.DressReport>Одевает {0} на {1}</WatcherJobs.DressReport>
+<WatcherJobs.ApplyMedicineReport>Применяет {0} на {1}</WatcherJobs.ApplyMedicineReport>
+<WatcherJobs.NoMedicineFound>Не найдено доступных медикаментов</WatcherJobs.NoMedicineFound>
+<!-- Расположение предметов -->
+<WatcherJobs.Location.Inventory>В инвентаре</WatcherJobs.Location.Inventory>
+<WatcherJobs.Location.MedicalShelf>На мед. полке</WatcherJobs.Location.MedicalShelf>
+<WatcherJobs.Location.Refrigerator>В холодильнике</WatcherJobs.Location.Refrigerator>
+<WatcherJobs.Location.Storage>На складе</WatcherJobs.Location.Storage>
+<WatcherJobs.Location.Floor>На полу</WatcherJobs.Location.Floor>
 
 </LanguageData>

@@ -209,61 +209,43 @@ P.S. СКОРО ПРИБЕЖИМ ПРОВЕРИТЬ! ГОТОВЬТЕСЬ К О�
 
   <RadNado.IncidentDef.Label>Радиоактивный смерч</RadNado.IncidentDef.Label>
   <!-- Main strings -->
-    <DressOtherPawn.reportString>одевает {TARGET} в {APPAREL}</DressOtherPawn.reportString>
-  <ApplyMedicineOtherPawn.reportString>применяет {MEDICINE} на {TARGET}</ApplyMedicineOtherPawn.reportString>
-  
-  <!-- Messages -->
-  <WatcherJobs.DressSuccess>{0} одел {2} в {1}</WatcherJobs.DressSuccess>
-  <WatcherJobs.MedicineApplied>{0} применил {1} на {2}</WatcherJobs.MedicineApplied>
+  <WatcherJobs.DressSuccess>{0} одел(а) {1} на {2}</WatcherJobs.DressSuccess>
+  <WatcherJobs.MedicineApplied>{0} применил(а) {1} на {2}</WatcherJobs.MedicineApplied>
   <WatcherJobs.CannotDress>Невозможно одеть цель</WatcherJobs.CannotDress>
   <WatcherJobs.CannotApplyMedicine>Невозможно применить медикамент</WatcherJobs.CannotApplyMedicine>
-  
-  <!-- Dialog Titles -->
+  <WatcherJobs.NoMedicineFound>Не найдено доступных медикаментов</WatcherJobs.NoMedicineFound>
+
+  <WatcherJobs.DressReport>Одевает {0} на {1}</WatcherJobs.DressReport>
+  <WatcherJobs.ApplyMedicineReport>Применяет {0} на {1}</WatcherJobs.ApplyMedicineReport>
+
   <WatcherJobs.ChooseApparel>Выберите одежду для {0}</WatcherJobs.ChooseApparel>
-  <WatcherJobs.ChooseMedicine>Выберите медикамент для {0}</WatcherJobs.ChooseMedicine>
-  
-  <!-- Button Labels -->
-  <WatcherJobs.DressApparel>Одеть: {0} ({1})</WatcherJobs.DressApparel>
-  <WatcherJobs.ApplyMedicineItemWithLocation>Применить: {0} ({1}) - {2}</WatcherJobs.ApplyMedicineItemWithLocation>
-  
-  <!-- Empty Lists -->
+  <WatcherJobs.DressApparel>Одеть {0} ({1})</WatcherJobs.DressApparel>
   <WatcherJobs.NoApparel>Нет доступной одежды</WatcherJobs.NoApparel>
+  <WatcherJobs.Clothing>Одежда</WatcherJobs.Clothing>
+
+  <WatcherJobs.ChooseMedicine>Выберите препарат для {0}</WatcherJobs.ChooseMedicine>
+  <WatcherJobs.ApplyMedicineItemWithLocation>Применить {0} ({1}) - {2}</WatcherJobs.ApplyMedicineItemWithLocation>
   <WatcherJobs.NoMedicine>Нет доступных медикаментов</WatcherJobs.NoMedicine>
-  
-  <!-- Float Menu Options -->
+
   <WatcherJobs.DressOnTarget>Одеть {0} на {1}</WatcherJobs.DressOnTarget>
   <WatcherJobs.ApplyOnTargetWithLocation>Применить {0} на {1} ({2})</WatcherJobs.ApplyOnTargetWithLocation>
+  
   <WatcherJobs.Dress>Одеть...</WatcherJobs.Dress>
   <WatcherJobs.DressUnavailable>Одеть... (недоступно)</WatcherJobs.DressUnavailable>
-  <WatcherJobs.ApplyMedicine>Применить медикамент...</WatcherJobs.ApplyMedicine>
-  <WatcherJobs.ApplyMedicineUnavailable>Применить медикамент... (недоступно)</WatcherJobs.ApplyMedicineUnavailable>
-  <WatcherJobs.ApplyNearestMedicine>Применить {0}</WatcherJobs.ApplyNearestMedicine>
   
-  <!-- Location Labels -->
+  <WatcherJobs.ApplyMedicine>Применить препарат...</WatcherJobs.ApplyMedicine>
+  <WatcherJobs.ApplyMedicineUnavailable>Применить препарат... (недоступно)</WatcherJobs.ApplyMedicineUnavailable>
+  <WatcherJobs.ApplyNearestMedicine>Применить ближайший препарат</WatcherJobs.ApplyNearestMedicine>
+
   <WatcherJobs.InInventory>В инвентаре</WatcherJobs.InInventory>
   <WatcherJobs.InStorage>В хранилище</WatcherJobs.InStorage>
   <WatcherJobs.OnFloor>На полу</WatcherJobs.OnFloor>
-  
-  <!-- Medicine Types -->
-  <WatcherJobs.Medicine>Лекарство</WatcherJobs.Medicine>
+
+  <WatcherJobs.Medicine>Медицина</WatcherJobs.Medicine>
+  <WatcherJobs.MedicineIndustrial>Промышленная медицина</WatcherJobs.MedicineIndustrial>
+  <WatcherJobs.MedicineHerbal>Травяная медицина</WatcherJobs.MedicineHerbal>
+  <WatcherJobs.MedicineGlitterworld>Медицина Сверкающего мира</WatcherJobs.MedicineGlitterworld>
   <WatcherJobs.Drug>Наркотик</WatcherJobs.Drug>
-  <WatcherJobs.Clothing>Одежда</WatcherJobs.Clothing>
-
-  <!-- Medicine Type Labels -->
-  <WatcherJobs.StimpakSuper>Супер стимпак</WatcherJobs.StimpakSuper>
-  <WatcherJobs.Stimpak>Стимпак</WatcherJobs.Stimpak>
-  <WatcherJobs.IndustrialMedicine>Промышленное лекарство</WatcherJobs.IndustrialMedicine>
-  <WatcherJobs.HerbalMedicine>Травяное лекарство</WatcherJobs.HerbalMedicine>
-  <WatcherJobs.Penoxycyline>Пеноксицилин</WatcherJobs.Penoxycyline>
-  <WatcherJobs.Beer>Пиво</WatcherJobs.Beer>
-  <WatcherJobs.Smokeleaf>Дымолист</WatcherJobs.Smokeleaf>
-  <WatcherJobs.PsychiteTea>Психитовый чай</WatcherJobs.PsychiteTea>
-  <WatcherJobs.GoJuice>Го-сок</WatcherJobs.GoJuice>
-  <WatcherJobs.WakeUp>Взбодритель</WatcherJobs.WakeUp>
-  <WatcherJobs.Yayo>Яйо</WatcherJobs.Yayo>
-
-  <!-- Location Priority Labels -->
-  <WatcherJobs.InMedicalShelf>В медицинском шкафу</WatcherJobs.InMedicalShelf>
-  <WatcherJobs.InRefrigerator>В холодильнике</WatcherJobs.InRefrigerator>
+  <WatcherJobs.Drugs>Наркотики</WatcherJobs.Drugs>
 
 </LanguageData>
