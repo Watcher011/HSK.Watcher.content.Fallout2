@@ -13,7 +13,7 @@
 			<ComfyTemperatureMax>50</ComfyTemperatureMax>
 			<MarketValue>300</MarketValue>
 			<LeatherAmount>10</LeatherAmount>
-			<MeatAmount>10</MeatAmount>
+			<MeatAmount>30</MeatAmount>
 			<ImmunityGainSpeed>2.5</ImmunityGainSpeed>
 			<MeleeDodgeChance>0.3</MeleeDodgeChance>
 			<MeleeCritChance>0.3</MeleeCritChance>

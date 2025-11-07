@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ShelterResidents.label>Обитатели Убежища (лёгкий старт)</ShelterResidents.label>
+  <ShelterResidents.label>Обитатели Убежища (геморный старт)</ShelterResidents.label>
   <ShelterResidents.description>Убежище 108 никогда не было тихим. Стены, пропитанные запахом дезинфектанта и страха, скрывали безумие его обитателей. Но когда вентиляционная система окончательно вышла из строя, мы решили сбежать.</ShelterResidents.description>
-  <ShelterResidents.scenario.name>Обитатели Убежища (лёгкий старт)</ShelterResidents.scenario.name>
-  <ShelterResidents.scenario.summary>"Пятеро безумцев, добровольно покинувших Убежище" (лёгкий старт)</ShelterResidents.scenario.summary>
+  <ShelterResidents.scenario.name>Обитатели Убежища (геморный старт)</ShelterResidents.scenario.name>
+  <ShelterResidents.scenario.summary>"Пятеро безумцев, добровольно покинувших Убежище"</ShelterResidents.scenario.summary>
   <ShelterResidents.scenario.description>Убежище 108 никогда не было тихим. Стены, пропитанные запахом дезинфектанта и страха, скрывали безумие его обитателей. Но когда вентиляционная система окончательно вышла из строя,мы решили сбежать.</ShelterResidents.scenario.description>
   <ShelterResidents.scenario.parts.0.text>"Если ты это читаешь, мы либо мертвы, либо наконец нашли тот самый 'рай в пустошах'. Но скорее всего, мы мертвы. Передавай привет маме!"
           (P.S. Если найдёшь крышку с номером #42, Боб тебя проклянёт.)</ShelterResidents.scenario.parts.0.text>

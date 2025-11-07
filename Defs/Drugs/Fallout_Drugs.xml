@@ -766,9 +766,8 @@
      </outcomeDoers>
     </ingestible>
     <costList>
-      <Neutroamine>4</Neutroamine>
-      <MedicineIndustrial>2</MedicineIndustrial>
-      <Gold>1</Gold>
+      <Neutroamine>9</Neutroamine>
+      <Methadone>4</Methadone>
     </costList>
    <comps>
       <li Class="CompProperties_Drug">
