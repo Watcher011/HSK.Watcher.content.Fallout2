@@ -8,11 +8,11 @@
     <description>A land scorched by ancient fire, poisoned by radiation, and shrouded in a perpetual, sickly haze. The soil is dead, the water is toxic, and life has twisted into horrific forms. Survival here is a constant battle against decay, mutation, and the lingering hatred of the old world.</description>
     <workerClass>Watcher.BiomeDef.BiomeWorker_GlowingSea</workerClass>
     <animalDensity>1.2</animalDensity> <!-- Низкая плотность, но животные опасные -->
-    <plantDensity>0.15</plantDensity> <!-- Очень низкая плотность растений -->
+    <plantDensity>0.75</plantDensity> <!-- Очень низкая плотность растений -->
     <settlementSelectionWeight>0.3</settlementSelectionWeight> <!-- Очень низкий шанс для НПС -->
     <movementDifficulty>2.5</movementDifficulty> <!-- Высокая сложность передвижения из-за руин и зыбучей золы -->
     <texture>World/Biomes/GlowingSea</texture> <!-- Можно заменить на кастомную текстуру -->
-    <forageability>0.3</forageability> <!-- Почти нечего собирать -->
+    <forageability>0.9</forageability> <!-- Почти нечего собирать -->
     <foragedFood>RawBerries</foragedFood> <!-- Или кастомный "Гнилой фрукт" -->
     <wildPlantRegrowDays>45</wildPlantRegrowDays> <!-- Очень медленный рост -->
     <soundsAmbient>
