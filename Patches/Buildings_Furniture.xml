@@ -109,4 +109,12 @@
 			<Altar_Grand_nuclear>1</Altar_Grand_nuclear>
 		</value>
 	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+    <xpath>/Defs/GenStepDef[defName="AncientJunkClusters"]/genStep/groups/li/things</xpath>
+    <value>
+      <ToxicSign>0.1</ToxicSign>
+	  <ToxicBarrel>0.1</ToxicBarrel>
+    </value>
+  </Operation>
 </Patch>
