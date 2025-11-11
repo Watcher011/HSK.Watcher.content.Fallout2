@@ -446,6 +446,14 @@ Consult your radiologist before use!"</description>
 		</equippedStatOffsets>
 		<equippedAngleOffset>-55</equippedAngleOffset>
 		<comps>
+		
+            <li Class="Watcher.Hediffs.CompProperties_HediffWhenEquipped">
+                <hediff>Watcher_ExplosiveDeath</hediff>
+                <bodyPart>Torso</bodyPart>
+                <severity>1.0</severity>
+            </li>
+  
+		
 		    <li Class="CombatExtended.CompProperties_ExplosiveCE">
 				<explosiveRadius>5</explosiveRadius>
 				<explosiveDamageType>FalloutBomb</explosiveDamageType>
@@ -453,6 +461,8 @@ Consult your radiologist before use!"</description>
 				<postExplosionSpawnThingDef>NFRAD</postExplosionSpawnThingDef>
 				<postExplosionSpawnChance>1.11</postExplosionSpawnChance>
 			</li>
+			  <!-- Добавляем комп для добавления хедиффа при ношении -->
+     
 		</comps>
 		<tools>
 			<li Class="CombatExtended.ToolCE">

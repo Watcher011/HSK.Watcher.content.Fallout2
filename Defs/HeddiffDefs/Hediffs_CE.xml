@@ -681,5 +681,34 @@
   
 </HediffDef>-->
   
- 
+   <HediffDef>
+        <defName>Watcher_ExplosiveDeath</defName>
+        <label>active_warhead</label>
+        <description>active_warhead_desc</description>
+        <hediffClass>Watcher.Hediffs.Hediff_ExplosiveDeath</hediffClass>
+        <stages>
+            <li>
+                <label>active</label>
+            </li>
+        </stages>
+        <comps>
+            <li Class="Watcher.Hediffs.HediffCompProperties_ExplodeAndSpawnOnDeath">
+                <!-- Взрыв -->
+                <explosionRadius>5.0</explosionRadius>
+                <explosionDamageDef>NuclearB</explosionDamageDef>
+                <damageAmount>100</damageAmount>
+                <armorPenetration>250</armorPenetration>
+                <chanceToStartFire>1.0</chanceToStartFire>
+                <explosionSound>Explosion_Bomb</explosionSound>
+                
+                <!-- Спавн объектов -->
+                <thingToSpawn>NFRAD</thingToSpawn>
+                <spawnCount>3</spawnCount>
+                
+                <filth>Filth_Fuel</filth>
+                <filthCount>4</filthCount>
+            </li>
+        </comps>
+    </HediffDef>
+	
 </Defs>
