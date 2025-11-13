@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--<FactionDef ParentName="SK_HumanFactionBase">
+		<defName>Demolitionists</defName>
+       <label>Demolitionists</label> 
+       <pawnSingular>Demolitionists</pawnSingular> 
+       <pawnsPlural>Demolitionists</pawnsPlural> 
+       <listOrderPriority>38</listOrderPriority> 
+       <settlementGenerationWeight>1</settlementGenerationWeight> 
+       <requiredCountAtGameStart>1</requiredCountAtGameStart> 
+       <maxCountAtGameStart>1</maxCountAtGameStart> 
+       <canMakeRandomly>true</canMakeRandomly> 
+       <canSiege>false</canSiege> 
+       <autoFlee>true</autoFlee> 
+       <canStageAttacks>true</canStageAttacks> 
+        <leaderTitle>Eddie</leaderTitle>
+		<earliestRaidDays>260</earliestRaidDays>
+		<mustStartOneEnemy>false</mustStartOneEnemy>
+		<naturalEnemy>true</naturalEnemy>
+		 <factionIconPath>World/WorldObjects/Expanding/Demolitionists</factionIconPath>
+		  <factionNameMaker>NamerFactionDemolitionists</factionNameMaker>
+		<settlementNameMaker>NamerSettlementDemolitionists</settlementNameMaker>
+		<techLevel>Spacer</techLevel>
+		<colorSpectrum>
+			<li>(1, 0, 0)</li>
+		</colorSpectrum>
+		<xenotypeSet>
+			<xenotypeChances>
+				 <OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">0.13</OE_Ghoul>
+			</xenotypeChances>
+		</xenotypeSet>
+		<allowedCultures>
+			<li>Astropolitan</li>
+		</allowedCultures>
+		<disallowedMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginIslamic</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginHindu</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginBuddhist</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+		</disallowedPrecepts>
+       <backstoryFilters>
+      <li>
+        <categories>
+          <li>Pirate</li>
+        </categories>
+      </li>
+       </backstoryFilters>
+	<!{1}**<!{2}**	<visitorTraderKinds>
+			<li>Visitor_Vaultec_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Vaultec_Standard</li>
+		</baseTraderKinds>
+		 <caravanTraderKinds>
+          <li>Caravan_Vaultec_Main</li>
+		  <li>Base_Vaultec_Standard</li>**{2}>
+		<!{2}**  <li>Vaultec_Caravan_TributeCollector</li>**{2}>
+        </caravanTraderKinds>**{1}>
+		<allowedArrivalTemperatureRange>-65~45</allowedArrivalTemperatureRange>
+		<raidLootMaker>DemolitionistsRaidLootMaker</raidLootMaker>
+		<raidCommonalityFromPointsCurve>
+			<points>
+				<li>(0, 0.001)</li>
+				<li>(2500, 0.01)</li>
+				<li>(11000, 0.1)</li>
+				<li>(12000, 0.9)</li>
+				<li>(15000, 1.1)</li>
+				<li>(20000, 1.0)</li>
+			</points>
+		</raidCommonalityFromPointsCurve>
+		<maxPawnCostPerTotalPointsCurve>
+			<points>
+				<li>(0, 400)</li>
+				<li>(10000, 470)</li>
+				<li>(17000, 530)</li>
+				<li>(100000, 10000)</li>
+			</points>
+		</maxPawnCostPerTotalPointsCurve>
+		<apparelStuffFilter>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+			<thingDefs>
+				<li>WoodPlank</li>
+				<li>Cloth</li>
+				<li>WoolMuffalo</li>
+				<li>WoolDromedary</li>
+				<li>WoolAlpaca</li>
+				<li>HempCloth</li>
+				<li>WoolSheep</li>
+				<li>Bronze</li>
+				<li>SteelBar</li>
+				<li>DevilstrandCloth</li>
+				<li>Kevlar</li>
+				<li>Synthread</li>
+				<li>Hyperweave</li>
+				<li>FerrosiliconAlloy</li>
+				<li>CupronickelAlloy</li>
+				<li>Plasteel</li>
+				<li>AlnicoAlloy</li>
+				<li>StelliteAlloy</li>
+			</thingDefs>
+		</apparelStuffFilter>
+		<pawnGroupMakers>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>60</commonality>
+				<options>
+					<VaultecScout>50</VaultecScout>
+					<VaultecRanger>44</VaultecRanger>
+					<VaultecOfficer>40</VaultecOfficer>
+					<VaultecCorporal>28</VaultecCorporal>
+					<VaultecSpy>25</VaultecSpy>
+					<VaultecInvestigator>18</VaultecInvestigator>
+					<VaultecLiquidator>15</VaultecLiquidator>
+					<Vaultecglowing>15</Vaultecglowing>
+					<VaultecSheriffHeavy>5</VaultecSheriffHeavy>
+				</options>
+			</li>
+			<li>
+				<kindDef>Combat</kindDef>
+				<commonality>40</commonality>
+				<options>
+					<VaultecScout>30</VaultecScout>
+					<VaultecRanger>24</VaultecRanger>
+					<VaultecOfficer>20</VaultecOfficer>
+					<VaultecCorporal>18</VaultecCorporal>
+					<VaultecSpy>15</VaultecSpy>
+					<VaultecInvestigator>8</VaultecInvestigator>
+					<VaultecLiquidator>5</VaultecLiquidator>
+					<Vaultecglowing>10</Vaultecglowing>
+					<VaultecSheriffHeavy>3</VaultecSheriffHeavy>
+				</options>
+			</li>
+			<li>
+				<kindDef>Peaceful</kindDef>
+				<options>
+					<VaultecOfficer>20</VaultecOfficer>
+					<VaultecCorporal>18</VaultecCorporal>
+					<VaultecSpy>15</VaultecSpy>
+				</options>
+			</li>
+			<li>
+				<kindDef>Settlement</kindDef>
+				<options>
+					<VaultecScout>30</VaultecScout>
+					<VaultecRanger>24</VaultecRanger>
+					<VaultecOfficer>20</VaultecOfficer>
+					<VaultecCorporal>18</VaultecCorporal>
+					<VaultecSpy>15</VaultecSpy>
+					<VaultecInvestigator>8</VaultecInvestigator>
+					<VaultecLiquidator>5</VaultecLiquidator>
+					<Vaultecglowing>10</Vaultecglowing>
+					<VaultecSheriffHeavy>3</VaultecSheriffHeavy>
+				</options>
+			</li>
+		</pawnGroupMakers>
+		<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+		<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+		<configurationListOrderPriority>52</configurationListOrderPriority>
+	</FactionDef>
+
+
+<RulePackDef>
+    <defName>NamerFactionDemolitionists</defName>
+    <rulePack>
+      <rulesStrings>
+       <li>empire->Demolitionists</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+  
+<RulePackDef>
+    <defName>NamerSettlementDemolitionists</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>townend->Demolition Camp East</li>
+        <li>townend->Demolition Camp North</li>
+        <li>townend->Demolition Camp South</li>
+        <li>townend->Demolition Camp West</li>
+      </rulesStrings>
+    </rulePack>
+  </RulePackDef>
+ 
+ 
+  <ThingSetMakerDef>
+    <defName>DemolitionistsRaidLootMaker</defName>
+    <root Class="ThingSetMaker_MarketValue">
+      <fixedParams>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+            <li>MedicineIndustrial</li>
+            <li>MealSurvivalPack</li>
+            <li>HemogenPack</li>
+            <li>GoJuice</li>
+          </thingDefs>
+        </filter>
+      </fixedParams>
+    </root>
+  </ThingSetMakerDef>-->
+  <FactionDef ParentName="SK_HumanFactionBase">
+	<defName>Demolitionists</defName>
+	<label>Demolitionists</label>
+	<pawnSingular>Demolitionists</pawnSingular>
+	<pawnsPlural>Demolitionists</pawnsPlural>
+	<listOrderPriority>38</listOrderPriority>
+	<settlementGenerationWeight>1</settlementGenerationWeight>
+	<requiredCountAtGameStart>1</requiredCountAtGameStart>
+	<maxCountAtGameStart>1</maxCountAtGameStart>
+	<canMakeRandomly>true</canMakeRandomly>
+	<canSiege>false</canSiege>
+	<autoFlee>true</autoFlee>
+	<canStageAttacks>true</canStageAttacks>
+	<leaderTitle>Eddie</leaderTitle>
+	<earliestRaidDays>260</earliestRaidDays>
+	<mustStartOneEnemy>false</mustStartOneEnemy>
+	<naturalEnemy>true</naturalEnemy>
+	<factionIconPath>World/WorldObjects/Expanding/Demolitionists</factionIconPath>
+	<factionNameMaker>NamerFactionDemolitionists</factionNameMaker>
+	<settlementNameMaker>NamerSettlementDemolitionists</settlementNameMaker>
+	<techLevel>Spacer</techLevel>
+	<colorSpectrum>
+		<li>(1, 1, 1)</li>
+	</colorSpectrum>
+	<xenotypeSet>
+		<xenotypeChances>
+			<OE_Ghoul MayRequire="Ludeon.RimWorld.Biotech">0.13</OE_Ghoul>
+		</xenotypeChances>
+	</xenotypeSet>
+	<allowedCultures>
+		<li>Astropolitan</li>
+	</allowedCultures>
+	<disallowedMemes>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_Animist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_TheistAbstract</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">HumanPrimacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">PainIsVirtue</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">FleshPurity</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Proselytizer</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">HighLife</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">MaleSupremacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">FemaleSupremacy</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginChristian</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginIslamic</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginHindu</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">Structure_OriginBuddhist</li>
+	</disallowedMemes>
+	<disallowedPrecepts>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Strong_Subordinate</li>
+		<li MayRequire="Ludeon.RimWorld.Ideology">ApparelDesired_Soft_Subordinate</li>
+	</disallowedPrecepts>
+	<backstoryFilters>
+		<li>
+			<categories>
+				<li>Pirate</li>
+			</categories>
+		</li>
+	</backstoryFilters>
+	<!--<!{1}**	<visitorTraderKinds>
+			<li>Visitor_Demolitionists_Standard</li>
+		</visitorTraderKinds>
+		<baseTraderKinds>
+			<li>Base_Demolitionists_Standard</li>
+		</baseTraderKinds>
+		 <caravanTraderKinds>
+          <li>Caravan_Demolitionists_Main</li>
+		  <<li>Base_Demolitionists_Standard</li>**{1}>
+		<!{1}**  <li>Demolitionists_Caravan_TributeCollector</li>**{1}>
+        </caravanTraderKinds>-->
+	<allowedArrivalTemperatureRange>-65~45</allowedArrivalTemperatureRange>
+	<raidLootMaker>DemolitionistsRaidLootMaker</raidLootMaker>
+	<raidCommonalityFromPointsCurve>
+		<points>
+			<li>(0, 0.001)</li>
+			<li>(2500, 0.01)</li>
+			<li>(11000, 0.1)</li>
+			<li>(12000, 0.9)</li>
+			<li>(15000, 1.1)</li>
+			<li>(20000, 1.0)</li>
+		</points>
+	</raidCommonalityFromPointsCurve>
+	<maxPawnCostPerTotalPointsCurve>
+		<points>
+			<li>(0, 400)</li>
+			<li>(10000, 470)</li>
+			<li>(17000, 530)</li>
+			<li>(100000, 10000)</li>
+		</points>
+	</maxPawnCostPerTotalPointsCurve>
+	<apparelStuffFilter>
+		<categories>
+			<li>Leathers</li>
+		</categories>
+		<thingDefs>
+			<li>WoodPlank</li>
+			<li>Cloth</li>
+			<li>WoolMuffalo</li>
+			<li>WoolDromedary</li>
+			<li>WoolAlpaca</li>
+			<li>HempCloth</li>
+			<li>WoolSheep</li>
+			<li>Bronze</li>
+			<li>SteelBar</li>
+			<li>DevilstrandCloth</li>
+			<li>Kevlar</li>
+			<li>Synthread</li>
+			<li>Hyperweave</li>
+			<li>FerrosiliconAlloy</li>
+			<li>CupronickelAlloy</li>
+			<li>Plasteel</li>
+			<li>AlnicoAlloy</li>
+			<li>StelliteAlloy</li>
+		</thingDefs>
+	</apparelStuffFilter>
+	<pawnGroupMakers>
+		<li>
+			<kindDef>Combat</kindDef>
+			<commonality>60</commonality>
+			<options>
+				<DemolitionistsScout>50</DemolitionistsScout>
+				<DemolitionistsRanger>44</DemolitionistsRanger>
+				<DemolitionistsOfficer>40</DemolitionistsOfficer>
+				<DemolitionistsCorporal>28</DemolitionistsCorporal>
+				<DemolitionistsSpy>25</DemolitionistsSpy>
+				<DemolitionistsInvestigator>18</DemolitionistsInvestigator>
+				<DemolitionistsLiquidator>15</DemolitionistsLiquidator>
+				
+				<DemolitionistsHeavy>5</DemolitionistsHeavy>
+			</options>
+		</li>
+		<li>
+			<kindDef>Combat</kindDef>
+			<commonality>40</commonality>
+			<options>
+				<DemolitionistsScout>30</DemolitionistsScout>
+				<DemolitionistsRanger>24</DemolitionistsRanger>
+				<DemolitionistsOfficer>20</DemolitionistsOfficer>
+				<DemolitionistsCorporal>18</DemolitionistsCorporal>
+				<DemolitionistsSpy>15</DemolitionistsSpy>
+				<DemolitionistsInvestigator>8</DemolitionistsInvestigator>
+				<DemolitionistsLiquidator>5</DemolitionistsLiquidator>
+ 
+
+			</options>
+		</li>
+		<li>
+			<kindDef>Peaceful</kindDef>
+			<options>
+				<DemolitionistsOfficer>20</DemolitionistsOfficer>
+				<DemolitionistsCorporal>18</DemolitionistsCorporal>
+				<DemolitionistsSpy>15</DemolitionistsSpy>
+			</options>
+		</li>
+		<li>
+			<kindDef>Settlement</kindDef>
+			<options>
+				<DemolitionistsScout>30</DemolitionistsScout>
+				<DemolitionistsRanger>24</DemolitionistsRanger>
+				<DemolitionistsOfficer>20</DemolitionistsOfficer>
+				<DemolitionistsCorporal>18</DemolitionistsCorporal>
+				<DemolitionistsSpy>15</DemolitionistsSpy>
+				<DemolitionistsInvestigator>8</DemolitionistsInvestigator>
+				<DemolitionistsLiquidator>5</DemolitionistsLiquidator>
+				 
+				<DemolitionistsHeavy>3</DemolitionistsHeavy>
+			</options>
+		</li>
+	</pawnGroupMakers>
+	<settlementTexturePath>World/WorldObjects/Expanding/Demolitionists</settlementTexturePath>
+	<maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
+	<configurationListOrderPriority>52</configurationListOrderPriority>
+</FactionDef>
+
+<RulePackDef>
+	<defName>NamerFactionDemolitionists</defName>
+	<rulePack>
+		<rulesStrings>
+			<li>empire->Demolitionists</li>
+		</rulesStrings>
+	</rulePack>
+</RulePackDef>
+
+<RulePackDef>
+	<defName>NamerSettlementDemolitionists</defName>
+	<rulePack>
+		<rulesStrings>
+			<li>townend->Demolition Camp East</li>
+			<li>townend->Demolition Camp North</li>
+			<li>townend->Demolition Camp South</li>
+			<li>townend->Demolition Camp West</li>
+		</rulesStrings>
+	</rulePack>
+</RulePackDef>
+
+<ThingSetMakerDef>
+	<defName>DemolitionistsRaidLootMaker</defName>
+	<root Class="ThingSetMaker_MarketValue">
+		<fixedParams>
+			<filter>
+				<thingDefs>
+					<li>Silver</li>
+					<li>MedicineIndustrial</li>
+					<li>MealSurvivalPack</li>
+					<li>HemogenPack</li>
+					<li>GoJuice</li>
+				</thingDefs>
+			</filter>
+		</fixedParams>
+	</root>
+</ThingSetMakerDef>
+</Defs>

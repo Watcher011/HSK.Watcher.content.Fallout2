@@ -1,15 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+  <!-- Дефинишены для работы с одеждой -->
+
+  <DressOtherPawn.reportString>одевает {TARGET} в {APPAREL}</DressOtherPawn.reportString>
+
+
+  <!-- Дефинишены для работы с медикаментами -->
+
+  <ApplyMedicineOtherPawn.reportString>применяет {MEDICINE} на {TARGET}</ApplyMedicineOtherPawn.reportString>
+
+
   <!-- <JobDef>
     <defName>UseAutoDoc</defName>
     <driverClass>Watcher.Comps.JobDriver_UseAutoDoc</driverClass>
     <reportString>UseAutoDoc.</reportString>
     <playerInterruptible>true</playerInterruptible>
   </JobDef> -->
-
-  <DressOtherPawn.reportString>одевает {TARGET} в {APPAREL}</DressOtherPawn.reportString>
-  <ApplyMedicineOtherPawn.reportString>применяет {MEDICINE} на {TARGET}</ApplyMedicineOtherPawn.reportString>
-
 
 </LanguageData>

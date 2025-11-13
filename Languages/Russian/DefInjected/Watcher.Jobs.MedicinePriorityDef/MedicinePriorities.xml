@@ -1,18 +1,139 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <WatcherJobs.MedicineCategory.Medicine>Лекарства</WatcherJobs.MedicineCategory.Medicine>
-<WatcherJobs.MedicineCategory.MedicalDrugs>Медицинские препараты</WatcherJobs.MedicineCategory.MedicalDrugs>
-<WatcherJobs.MedicineCategory.Drugs>Препараты</WatcherJobs.MedicineCategory.Drugs>
-<WatcherJobs.MedicineCategory.SocialDrugs>Социальные препараты</WatcherJobs.MedicineCategory.SocialDrugs>
-<WatcherJobs.DressReport>Одевает {0} на {1}</WatcherJobs.DressReport>
-<WatcherJobs.ApplyMedicineReport>Применяет {0} на {1}</WatcherJobs.ApplyMedicineReport>
-<WatcherJobs.NoMedicineFound>Не найдено доступных медикаментов</WatcherJobs.NoMedicineFound>
-<!-- Расположение предметов -->
-<WatcherJobs.Location.Inventory>В инвентаре</WatcherJobs.Location.Inventory>
-<WatcherJobs.Location.MedicalShelf>На мед. полке</WatcherJobs.Location.MedicalShelf>
-<WatcherJobs.Location.Refrigerator>В холодильнике</WatcherJobs.Location.Refrigerator>
-<WatcherJobs.Location.Storage>На складе</WatcherJobs.Location.Storage>
-<WatcherJobs.Location.Floor>На полу</WatcherJobs.Location.Floor>
+  <!-- <Watcher.Jobs.MedicinePriorityDef>
+    <defName>MedicineSearchPriorities</defName>
+    
+    <!{1}** Приоритеты по типу медикаментов (от высшего к низшему) **{1}>
+    <medicineTypePriorities>
+      <!{1}** Стимуляторы **{1}>
+      <li>
+        <thingDef>StimpakSuper</thingDef>
+        <priority>100</priority>
+        <label>WatcherJobs.StimpakSuper</label>
+      </li>
+      <li>
+        <thingDef>Stimpak</thingDef>
+        <priority>90</priority>
+        <label>WatcherJobs.Stimpak</label>
+      </li>
+      
+      <!{1}** Медицина **{1}>
+	  <li>
+        <thingDef>MedicineUltratech</thingDef>
+        <priority>85</priority>
+        <label>WatcherJobs.UltratechMedicine</label>
+      </li>
+      <li>
+        <thingDef>MedicineIndustrial</thingDef>
+        <priority>80</priority>
+        <label>WatcherJobs.IndustrialMedicine</label>
+      </li>
+      <li>
+        <thingDef>Herbmedicine</thingDef>
+        <priority>71</priority>
+        <label>WatcherJobs.Herbmedicine</label>
+      </li>
+       <li>
+        <thingDef>HerbMedicine</thingDef>
+        <priority>70</priority>
+        <label>WatcherJobs.HerbMedicine</label>
+      </li>
+      <!{1}** Лечебные наркотики **{1}>
+      <li>
+        <thingDef>Penoxycyline</thingDef>
+        <priority>60</priority>
+        <label>WatcherJobs.Penoxycyline</label>
+      </li>
+      
+      <!{1}** Легкие наркотики **{1}>
+      <li>
+        <thingDef>Beer</thingDef>
+        <priority>40</priority>
+        <label>WatcherJobs.Beer</label>
+      </li>
+      <li>
+        <thingDef>SmokeleafJoint</thingDef>
+        <priority>30</priority>
+        <label>WatcherJobs.Smokeleaf</label>
+      </li>
+      <li>
+        <thingDef>PsychiteTea</thingDef>
+        <priority>20</priority>
+        <label>WatcherJobs.PsychiteTea</label>
+      </li>
+      
+      <!{1}** Тяжелые наркотики **{1}>
+      <li>
+        <thingDef>GoJuice</thingDef>
+        <priority>10</priority>
+        <label>WatcherJobs.GoJuice</label>
+      </li>
+      <li>
+        <thingDef>WakeUp</thingDef>
+        <priority>5</priority>
+        <label>WatcherJobs.WakeUp</label>
+      </li>
+      <li>
+        <thingDef>Yayo</thingDef>
+        <priority>1</priority>
+        <label>WatcherJobs.Yayo</label>
+      </li>
+    </medicineTypePriorities>
+    
+    <!{1}** Приоритеты по расположению **{1}>
+    <locationPriorities>
+      <li>
+        <locationType>Inventory</locationType>
+        <priority>1000</priority>
+        <label>WatcherJobs.InInventory</label>
+      </li>
+      <li>
+        <locationType>MedicalShelf</locationType>
+        <priority>900</priority>
+        <label>WatcherJobs.InMedicalShelf</label>
+      </li>
+      <li>
+        <locationType>Refrigerator</locationType>
+        <priority>800</priority>
+        <label>WatcherJobs.InRefrigerator</label>
+      </li>
+      <li>
+        <locationType>Storage</locationType>
+        <priority>700</priority>
+        <label>WatcherJobs.InStorage</label>
+      </li>
+      <li>
+        <locationType>Floor</locationType>
+        <priority>600</priority>
+        <label>WatcherJobs.OnFloor</label>
+      </li>
+    </locationPriorities>
+  </Watcher.Jobs.MedicinePriorityDef> -->
+
+  <MedicineSearchPriorities.medicineCategoryPriorities.0.label>Медицина</MedicineSearchPriorities.medicineCategoryPriorities.0.label>
+  <MedicineSearchPriorities.medicineCategoryPriorities.1.label>Медикаменты</MedicineSearchPriorities.medicineCategoryPriorities.1.label>
+  <MedicineSearchPriorities.medicineCategoryPriorities.2.label>Лекарства</MedicineSearchPriorities.medicineCategoryPriorities.2.label>
+  <MedicineSearchPriorities.medicineCategoryPriorities.3.label>.Социальные Лекарства</MedicineSearchPriorities.medicineCategoryPriorities.3.label>
+  <MedicineSearchPriorities.locationPriorities.0.label>В Инвентаре</MedicineSearchPriorities.locationPriorities.0.label>
+  <MedicineSearchPriorities.locationPriorities.1.label>В Мед Шкафу</MedicineSearchPriorities.locationPriorities.1.label>
+  <MedicineSearchPriorities.locationPriorities.2.label>В Холодильнике</MedicineSearchPriorities.locationPriorities.2.label>
+  <MedicineSearchPriorities.locationPriorities.3.label>На Складе</MedicineSearchPriorities.locationPriorities.3.label>
+  <MedicineSearchPriorities.locationPriorities.4.label>На Полу</MedicineSearchPriorities.locationPriorities.4.label>
+
+
+  <!--<WatcherJobs.MedicineCategory.Medicine>Лекарства</WatcherJobs.MedicineCategory.Medicine>-->
+  <!--<WatcherJobs.MedicineCategory.MedicalDrugs>Медицинские препараты</WatcherJobs.MedicineCategory.MedicalDrugs>-->
+  <!--<WatcherJobs.MedicineCategory.Drugs>Препараты</WatcherJobs.MedicineCategory.Drugs>-->
+  <!--<WatcherJobs.MedicineCategory.SocialDrugs>Социальные препараты</WatcherJobs.MedicineCategory.SocialDrugs>-->
+  <!--<WatcherJobs.DressReport>Одевает {0} на {1}</WatcherJobs.DressReport>-->
+  <!--<WatcherJobs.ApplyMedicineReport>Применяет {0} на {1}</WatcherJobs.ApplyMedicineReport>-->
+  <!--<WatcherJobs.NoMedicineFound>Не найдено доступных медикаментов</WatcherJobs.NoMedicineFound>-->
+  <!-- Расположение предметов -->
+  <!--<WatcherJobs.Location.Inventory>В инвентаре</WatcherJobs.Location.Inventory>-->
+  <!--<WatcherJobs.Location.MedicalShelf>На мед. полке</WatcherJobs.Location.MedicalShelf>-->
+  <!--<WatcherJobs.Location.Refrigerator>В холодильнике</WatcherJobs.Location.Refrigerator>-->
+  <!--<WatcherJobs.Location.Storage>На складе</WatcherJobs.Location.Storage>-->
+  <!--<WatcherJobs.Location.Floor>На полу</WatcherJobs.Location.Floor>-->
 
 </LanguageData>

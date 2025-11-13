@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Scout -->
+
+<DemolitionistsScout.label>Разведчик-подрывник</DemolitionistsScout.label>
+<DemolitionistsScout.labelPlural>Разведчики-подрывники</DemolitionistsScout.labelPlural>
+
+<!-- Рейнджер -->
+
+<DemolitionistsRanger.label>Рейнджер-подрывник</DemolitionistsRanger.label>
+<DemolitionistsRanger.labelPlural>Рейнджеры-подрывники</DemolitionistsRanger.labelPlural>
+
+<!-- Тяжёлый -->
+
+<DemolitionistsHeavy.label>Рейнджер-подрывник</DemolitionistsHeavy.label>
+<DemolitionistsHeavy.labelPlural>Рейнджеры-подрывники</DemolitionistsHeavy.labelPlural>
+
+<!-- Офицер -->
+
+<DemolitionistsOfficer.label>Офицер-подрывник</DemolitionistsOfficer.label>
+<DemolitionistsOfficer.labelPlural>Офицеры-подрывники</DemolitionistsOfficer.labelPlural>
+
+<!-- Капрал -->
+
+<DemolitionistsCorporal.label>Капрал-подрывник</DemolitionistsCorporal.label>
+<DemolitionistsCorporal.labelPlural>Капралы-подрывники</DemolitionistsCorporal.labelPlural>
+
+<!-- Шпион -->
+
+<DemolitionistsSpy.label>Шпион-подрывник</DemolitionistsSpy.label>
+<DemolitionistsSpy.labelPlural>Шпионы-подрывники</DemolitionistsSpy.labelPlural>
+
+<!-- Следователь -->
+
+<DemolitionistsInvestigator.label>Следователь</DemolitionistsInvestigator.label>
+<DemolitionistsInvestigator.labelPlural>Следователи</DemolitionistsInvestigator.labelPlural>
+
+<!-- Ликвидатор -->
+
+<DemolitionistsLiquidator.label>Ликвидатор подрывников</DemolitionistsLiquidator.label>
+<DemolitionistsLiquidator.labelPlural>Ликвидаторы подрывников</DemolitionistsLiquidator.labelPlural>
+
+</LanguageData>
