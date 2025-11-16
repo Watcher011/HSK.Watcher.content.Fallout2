@@ -234,8 +234,8 @@
 		</tradeTags>
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
-			<li>GunTurrets</li>
-			<li>Vault-TecProduction</li>
+		<li>GunTurrets</li>
+		<!--	<li>Vault-TecProduction</li>-->
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
@@ -374,8 +374,8 @@
 		</tradeTags>
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
-			<li>GunTurrets</li>
-			<li>Vault-TecProduction</li>
+			<li>Autoturrets_D2</li>
+			<!--<li>Vault-TecProduction</li>-->
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
@@ -514,7 +514,6 @@
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
 			<li>GunTurrets</li>
-			<li>Vault-TecProduction</li>
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>
@@ -654,8 +653,8 @@
 		</tradeTags>
 		<minifiedDef>MinifiedTurretGun</minifiedDef>
 		<researchPrerequisites>
-			<li>GunTurrets</li>
-			<li>Vault-TecProduction</li>
+			<li>Autoturrets_D2</li>
+			<!--<li>Vault-TecProduction</li>-->
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 	</ThingDef>

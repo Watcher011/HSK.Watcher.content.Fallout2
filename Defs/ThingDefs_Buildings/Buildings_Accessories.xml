@@ -9,6 +9,7 @@
 			<texPath>Things/Building/Furniture/Lights/VaultLamp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
+			 <shaderType>CutoutComplex</shaderType>
 			 <drawOffset>(0,0,0.3)</drawOffset>
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
@@ -145,6 +146,7 @@
 			<texPath>Things/Building/Furniture/Lights/TritiumLamp</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
+			 <shaderType>CutoutComplex</shaderType>
 			 <drawOffset>(0,0,0.3)</drawOffset>
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
@@ -295,6 +297,7 @@
     <graphicData>
       <texPath>Things/Building/Misc/VaultCommsConsole</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
+	   <shaderType>Transparent</shaderType>
 	   <drawOffset>(0,0,0.3)</drawOffset>
       <drawSize>(0.8,0.8)</drawSize>
       <damageData>
@@ -643,6 +646,7 @@ RobCo Corporation is not responsible for turning you into a sieve. You came here
 			<texPath>Things/Building/Furniture/Lights/FireflyLantern</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawRotated>false</drawRotated>
+			<shaderType>CutoutComplex</shaderType>
 			 <drawOffset>(0,0,0.3)</drawOffset>
 			<damageData>
 				<rect>(0.35,0.35,0.3,0.3)</rect>
