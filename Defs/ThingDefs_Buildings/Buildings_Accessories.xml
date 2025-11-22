@@ -306,7 +306,6 @@
         <cornerBR>Damage/Corner</cornerBR>
       </damageData>
     </graphicData>
-    <passability>PassThroughOnly</passability>
     <pathCost>50</pathCost>
     <blockWind>true</blockWind>
 	<defaultPlacingRot>South</defaultPlacingRot>
@@ -490,7 +489,6 @@ An employee no longer needs to study tedious textbooks for years or possess any 
 		<size>(1,1)</size>
 		<canOverlapZones>false</canOverlapZones>
 		<fillPercent>0.35</fillPercent>
-		<designationCategory>Misc</designationCategory>
 		<statBases>
 			<MaxHitPoints>60</MaxHitPoints>
 			<WorkToBuild>300</WorkToBuild>

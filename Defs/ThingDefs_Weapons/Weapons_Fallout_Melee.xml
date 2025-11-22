@@ -112,12 +112,6 @@
 		 <defName>Fallout_Weapon_Shishkebab</defName>
         <label>Shishkebab</label>
 		<description>This sword is not just a weapon, it is a culinary experiment in the hands of a psychopath! Once upon a time, some crazy raider chef decided that the best way to cook meat is on the spot. Now his legacy lives on in your hands, and every blow is a step towards gastronomic apocalypse.</description>
-	   <recipeMaker>
-			<skillRequirements>
-			    <Cooking>8</Cooking>
-				<Crafting>10</Crafting>
-			</skillRequirements>
-		</recipeMaker>
     <graphicData>
       <texPath>Things/Weapons/Shishkebab</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -231,6 +225,10 @@
 			</li>
 		</modExtensions>
 		<recipeMaker>
+		        <skillRequirements>
+			    <Cooking>8</Cooking>
+				<Crafting>10</Crafting>
+			   </skillRequirements>
 			<researchPrerequisite>Melee_D1</researchPrerequisite>
 		</recipeMaker>	
 	</ThingDef>

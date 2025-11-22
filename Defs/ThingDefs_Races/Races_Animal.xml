@@ -23,9 +23,6 @@
 			<FilthRate>3</FilthRate>
 			<ToxicResistance>1</ToxicResistance>
 		</statBases>
-		<tradeTags>
-			<li>AnimalVaultec</li>
-	   </tradeTags>
 		<butcherProducts>
 			<RadHemogenPack>1</RadHemogenPack>
 			<RadMeat>3</RadMeat>
@@ -166,6 +163,7 @@
 		<tradeTags>
 			<li>AnimalUncommon</li>
 			<li>AnimalFighter</li>
+			<li>AnimalVaultec</li>
 		</tradeTags>
 		<modExtensions>
 			<li Class="CombatExtended.RacePropertiesExtensionCE">
@@ -901,8 +899,10 @@
 		</statBases>
 		<uiIconScale>1.4</uiIconScale>
 		<butcherProducts>
-			<RadHemogenPack>1</RadHemogenPack>
 			<RadMeat>20</RadMeat>
+			<Chitin>40</Chitin>
+			<PoisonGland>1</PoisonGland>
+			<RadHemogenPack>3</RadHemogenPack>
 		</butcherProducts>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
@@ -1025,11 +1025,6 @@
 				<MinArmorPct>0.75</MinArmorPct>
 			</li>
 		</comps>
-		<butcherProducts>
-			<Chitin>40</Chitin>
-			<PoisonGland>1</PoisonGland>
-			<RadHemogenPack>3</RadHemogenPack>
-		</butcherProducts>
 		<race>
 			<predator>true</predator>
 			<maxPreyBodySize>3.3</maxPreyBodySize>
@@ -1169,10 +1164,6 @@
 			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
     </statBases>
 	<uiIconScale>1.4</uiIconScale>
-	<butcherProducts>
-			<RadHemogenPack>1</RadHemogenPack>
-			<RadMeat>10</RadMeat>
-		</butcherProducts>
     <comps>
       	<li Class="CompProperties_Milkable">
 				<milkDef>Milk</milkDef>

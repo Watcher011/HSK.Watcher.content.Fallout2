@@ -877,9 +877,6 @@
             <li>Fabric</li>
           </stuffCategories>
 		   <costStuffCount>70</costStuffCount>
-        <thingCategories>
-           <li>ApparelMisc</li>
-        </thingCategories>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
 			<MaxHitPoints>100</MaxHitPoints>

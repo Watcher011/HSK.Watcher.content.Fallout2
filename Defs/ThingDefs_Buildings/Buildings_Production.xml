@@ -69,7 +69,6 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<tickerType>Rare</tickerType>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
@@ -154,7 +153,6 @@
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
-		<tickerType>Rare</tickerType>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
@@ -579,6 +577,11 @@
           <count>1</count>
         </li>
       </subcoreScannerFixedIngredients>
+	  <subcoreScannerOutputDef>Brain</subcoreScannerOutputDef>
+      <!--<subcoreScannerStartEffect>SubcoreRipscanner_Start</subcoreScannerStartEffect>-->
+      <destroyBrain>true</destroyBrain>
+      <subcoreScannerWorking>SubcoreRipscanner_Working</subcoreScannerWorking>
+      <subcoreScannerComplete>SubcoreRipscanner_Complete</subcoreScannerComplete>
     </building>
 	 <designationCategory>VaultTec</designationCategory>
     <uiOrder>2430</uiOrder>
@@ -589,6 +592,8 @@
     <statBases>
       <Mass>25</Mass>
       <Flammability>0.5</Flammability>
+	   <WorkToBuild>1200</WorkToBuild>
+      <MaxHitPoints>250</MaxHitPoints>
     </statBases>
     <comps>
       <li Class="CompProperties_Power">
@@ -599,10 +604,7 @@
     </comps>
     <tickerType>Normal</tickerType>
     <drawerType>MapMeshAndRealTime</drawerType>
-    <statBases>
-      <WorkToBuild>1200</WorkToBuild>
-      <MaxHitPoints>250</MaxHitPoints>
-    </statBases>
+   
    <stuffCategories>
 	 <li>Metallic</li>
 	</stuffCategories>
@@ -617,13 +619,6 @@
 <!--    <researchPrerequisites>
       <li>HighMechtech</li>
     </researchPrerequisites>-->
-    <building>
-      <subcoreScannerOutputDef>Brain</subcoreScannerOutputDef>
-      <!--<subcoreScannerStartEffect>SubcoreRipscanner_Start</subcoreScannerStartEffect>-->
-      <destroyBrain>true</destroyBrain>
-      <subcoreScannerWorking>SubcoreRipscanner_Working</subcoreScannerWorking>
-      <subcoreScannerComplete>SubcoreRipscanner_Complete</subcoreScannerComplete>
-    </building>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
   </ThingDef>
 
