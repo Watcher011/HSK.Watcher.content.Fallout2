@@ -150,7 +150,7 @@ This compact power source is the perfect companion for any wastelander! Designed
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="CompProperties_Power">
 				<compClass>SK.CompPowerPlantFueled</compClass>
-				<basePowerConsumption>-1750</basePowerConsumption>
+				<basePowerConsumption>-2000</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 				<soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
 			</li>
@@ -246,7 +246,7 @@ A stable (conditionally stable*) clot of high-energy plasma is contained inside 
 			<li Class="CompProperties_Breakdownable"/>
 			<li Class="CompProperties_Power">
 				<compClass>SK.CompPowerPlantFueled</compClass>
-				<basePowerConsumption>-1350</basePowerConsumption>
+				<basePowerConsumption>-1600</basePowerConsumption>
 				<transmitsPower>true</transmitsPower>
 				<soundAmbientProducingPower>WoodFiredGenerator_Ambience</soundAmbientProducingPower>
 			</li>
