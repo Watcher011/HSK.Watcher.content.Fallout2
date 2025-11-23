@@ -313,7 +313,7 @@ Consult your radiologist before use!"</description>
 					<capacities>
 						<li>Blunt</li>
 					</capacities>
-					<power>38</power>
+					<power>28</power>
 					<extraMeleeDamages>
 						<li>
 							<def>PlasmaCharge</def>

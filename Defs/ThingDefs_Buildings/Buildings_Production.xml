@@ -448,7 +448,7 @@
 		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
 	</ThingDef>
 	 
-<ThingDef ParentName="WorkTable">
+<!--<ThingDef ParentName="WorkTable">
 		<defName>TableFalloutCOINMACHINE</defName>
 		<label>Manual cap press</label>
 		<description>Because in bureaucratic hell, even caps must be standardized!In a world where every nail counts and a Nuka-Cola bottle cap is worth more than the life of a Wasteland slave, Vault-Tec Corporation proudly introduces the Cap-Cap 3000 — the perfect solution for all your cap-dependent needs!(The machine is supplied without instructions. If you find one, it means it is a fake.)</description>
@@ -501,7 +501,7 @@
 					<li>PodChair</li>
 				</linkableFacilities>
 			</li>
-		<!--	<li Class="CompProperties_Refuelable">
+		<!{1}**	<li Class="CompProperties_Refuelable">
 				<fuelConsumptionRate>0.01</fuelConsumptionRate>
 				<fuelCapacity>1.0</fuelCapacity>
 				<fuelFilter>
@@ -513,7 +513,7 @@
                   <drawOutOfFuelOverlay>false</drawOutOfFuelOverlay>
                   <drawFuelGaugeInMap>true</drawFuelGaugeInMap>
                  <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
-			</li>-->
+			</li>**{1}>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
 		</comps>
@@ -526,7 +526,7 @@
 		</researchPrerequisites>
 		<constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 	</ThingDef>
-	
+	-->
 	
  
 	

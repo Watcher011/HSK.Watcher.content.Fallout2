@@ -376,8 +376,8 @@
             <ShotSpread>0.07</ShotSpread>
             <SwayFactor>1.21</SwayFactor>
             <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
-            <Bulk>12</Bulk>
-            <Mass>13.4</Mass>
+            <Bulk>8</Bulk>
+            <Mass>7.4</Mass>
         </statBases>
         <weaponTags>
             <li>RF4</li>
@@ -896,6 +896,7 @@
 		        <li>OGR2</li>
 	            <li>Gun</li>
 			    <li>VaultecGunH</li>
+				<li>Bipod_LMG</li>
 		</weaponTags>
 		<weaponClasses>
 			 <li>RangedLight</li>
@@ -909,9 +910,13 @@
 				<burstShotCount>8</burstShotCount>
                 <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
 				<warmupTime>1.25</warmupTime>
-				<range>20</range>
+				<range>45</range>
 				 <soundCast>Shot_Shotgun</soundCast>
                 <soundCastTail>GunTail_Heavy</soundCastTail>
+				<targetParams>
+			     <canTargetLocations>true</canTargetLocations>
+		     	</targetParams>
+			    <recoilPattern>Mounted</recoilPattern>
 			</li>
 		</verbs>
 		<comps>
@@ -1544,7 +1549,7 @@ Do not operate:
         <soundInteract>Interact_Rifle</soundInteract>
         <statBases>
 			<MarketValue>2500</MarketValue>
-           	<Mass>8.7</Mass>
+           	<Mass>13.7</Mass>
 			<RangedWeapon_Cooldown>0.56</RangedWeapon_Cooldown>
 			<SightsEfficiency>1</SightsEfficiency>
 			<ShotSpread>0.05</ShotSpread>

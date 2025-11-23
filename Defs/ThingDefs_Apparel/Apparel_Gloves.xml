@@ -14,7 +14,7 @@
 			<drawSize>(0.5,0.5)</drawSize>
 		</graphicData>		
 		<stuffCategories>
-			 <li>Metallic</li>
+			<li>HF</li>
 		</stuffCategories>
 		<costStuffCount>30</costStuffCount>
 		<costList>
@@ -35,9 +35,9 @@
             <Insulation_Cold>1.5</Insulation_Cold>
 			<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
-			<StuffEffectMultiplierArmor>1.06</StuffEffectMultiplierArmor>
-			<ArmorRating_Sharp>2.13</ArmorRating_Sharp>
-			<ArmorRating_Blunt>6.08</ArmorRating_Blunt>
+			<StuffEffectMultiplierArmor>1.6</StuffEffectMultiplierArmor>
+			<ArmorRating_Sharp>6.4</ArmorRating_Sharp>
+			<ArmorRating_Blunt>12.20</ArmorRating_Blunt>
 			<ArmorRating_Heat>0</ArmorRating_Heat>
 		</statBases>
 		<equippedStatOffsets>
@@ -46,6 +46,7 @@
 			<SocialImpact>0.09</SocialImpact>
 			<MentalBreakThreshold>-0.12</MentalBreakThreshold>
 			<AimingDelayFactor>-0.12</AimingDelayFactor>
+			<ShootingAccuracyPawn>0.6</ShootingAccuracyPawn>
 			<MeleeHitChance>0.2</MeleeHitChance>
 			<MeleeWeapon_CooldownMultiplier>-0.1</MeleeWeapon_CooldownMultiplier>
 			<MiningSpeed>0.1</MiningSpeed>
