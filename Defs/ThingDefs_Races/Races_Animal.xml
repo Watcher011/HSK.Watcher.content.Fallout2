@@ -2087,4 +2087,188 @@
 			</li>
 		</lifeStages>
   </PawnKindDef>
+  
+  
+  	<ThingDef ParentName="SK_AnimalThingBase">
+		<defName>Radboar</defName>
+		<label>rad-boar</label>
+		<devNote>pig-1</devNote>
+		<description>A feral descendant of "organic" pigs from pre-war farms. Its radioactive tusks are excellent at cracking open both tin cans and the armor of budding survivalists.Attempts to teach it anything more complex than "eating from a trough" have failed—apparently its intelligence didn't survive the mutation. Its meat glows in the dark. Taste is an acquired taste.</description>
+		<statBases>
+			<Mass>90</Mass>
+			<MoveSpeed>5.3</MoveSpeed>
+			<ComfyTemperatureMin>-23</ComfyTemperatureMin>
+			<MarketValue>390</MarketValue>
+			<ImmunityGainSpeed>1.1</ImmunityGainSpeed>
+			<MeleeDodgeChance>0.12</MeleeDodgeChance>
+			<MeleeCritChance>0</MeleeCritChance>
+			<ArmorRating_Sharp>0.2</ArmorRating_Sharp>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<FilthRate>16</FilthRate>
+		</statBases>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>tusk</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>1.7</cooldownTime>
+				<linkedBodyPartsGroup>TuskAttackTool</linkedBodyPartsGroup>
+				<armorPenetrationSharp>1.5</armorPenetrationSharp>
+				<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>tusk</label>
+				<capacities>
+					<li>Stab</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>1.4</cooldownTime>
+				<chanceFactor>0.65</chanceFactor>
+				<linkedBodyPartsGroup>TuskAttackTool_2</linkedBodyPartsGroup>
+				<armorPenetrationSharp>2</armorPenetrationSharp>
+				<armorPenetrationBlunt>2</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>5</power>
+				<cooldownTime>1.6</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.6</chanceFactor>
+				<armorPenetrationSharp>1.75</armorPenetrationSharp>					
+				<armorPenetrationBlunt>1.5</armorPenetrationBlunt>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2.1</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+				<armorPenetrationBlunt>2</armorPenetrationBlunt>
+			</li>
+		</tools>
+		<race>
+			<body>QuadrupedAnimalWithHoovesAndTusks</body>
+			<herdAnimal>true</herdAnimal>
+			<baseBodySize>0.95</baseBodySize>
+			<baseHungerRate>0.45</baseHungerRate>
+			<baseHealthScale>1.3</baseHealthScale>
+			<foodType>OmnivoreRoughAnimal</foodType>
+			<useMeatFrom>Muffalo</useMeatFrom>
+			<leatherDef>Leather_Pig</leatherDef>
+			<wildness>0.45</wildness>
+			<roamMtbDays>2</roamMtbDays>
+			<manhunterOnDamageChance>0.35</manhunterOnDamageChance>
+			<trainability>Intermediate</trainability>
+			<manhunterOnTameFailChance>0.6</manhunterOnTameFailChance>
+			<gestationPeriodDays>5.661</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.5, 1)</li>
+					<li>(2.0, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeExpectancy>12</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.3333</minAge>
+					<soundWounded>Pawn_Wildboar_Wounded</soundWounded>
+					<soundDeath>Pawn_Wildboar_Death</soundDeath>
+					<soundCall>Pawn_Wildboar_Call</soundCall>
+					<soundAngry>Pawn_Wildboar_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Herbivore_Eat</soundEating>
+			<trainableTags>
+				<li>Basic</li>
+				<li>Combat</li>
+			</trainableTags>
+			<untrainableTags>
+				<li>HuntingTraining</li>
+				<li>Help</li>
+				<li>Work</li>
+			</untrainableTags>
+		</race>
+		<tradeTags>
+			<li>AnimalCommon</li>
+		</tradeTags>
+		<modExtensions>
+			<li Class="CombatExtended.RacePropertiesExtensionCE">
+				<bodyShape>Quadruped</bodyShape>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+	<PawnKindDef ParentName="SK_AnimalKindBase">
+		<defName>Radboar</defName>
+		<label>rad-boar</label>
+		<race>Radboar</race>
+		<combatPower>55</combatPower>
+		<canArriveManhunter>false</canArriveManhunter>
+		<ecoSystemWeight>0.5</ecoSystemWeight>
+		<wildGroupSize>5~11</wildGroupSize>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radboar/Radboar</texPath>
+					<drawSize>0.9</drawSize>
+					<shadowData>
+						<volume>(0.30, 0.25, 0.20)</volume>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radboar/Radboar</texPath>
+					<drawSize>2.25</drawSize>
+					<shadowData>
+						<volume>(0.375, 0.375, 0.375)</volume>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+					<drawSize>2.25</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Radboar/Radboar</texPath>
+					<drawSize>2.65</drawSize>
+					<shadowData>
+						<volume>(0.5, 0.5, 0.4)</volume>
+						<offset>(0,0,-0.05)</offset>
+					</shadowData>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/WildBoar/Dessicated_WildBoar</texPath>
+					<drawSize>2.65</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
 </Defs>

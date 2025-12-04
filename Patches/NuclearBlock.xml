@@ -20,5 +20,10 @@
 			     <drawSize>(0.5)</drawSize>
 				</value>
 	</Operation>
-	
+	<Operation Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Storage_HazMatContainer"]/graphicData</xpath>
+				<value>
+			    <shaderType>CutoutComplex</shaderType>
+				</value>
+	</Operation>
 </Patch>

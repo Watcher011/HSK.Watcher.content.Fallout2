@@ -3,42 +3,58 @@
 
   <!-- Scout -->
 
-<DemolitionistsScout.label>Разведчик-подрывник</DemolitionistsScout.label>
-<DemolitionistsScout.labelPlural>Разведчики-подрывники</DemolitionistsScout.labelPlural>
+  <DemolitionistsScout.label>Разведчик-подрывник</DemolitionistsScout.label>
+  <DemolitionistsScout.labelPlural>Разведчики-подрывники</DemolitionistsScout.labelPlural>
 
-<!-- Рейнджер -->
 
-<DemolitionistsRanger.label>Рейнджер-подрывник</DemolitionistsRanger.label>
-<DemolitionistsRanger.labelPlural>Рейнджеры-подрывники</DemolitionistsRanger.labelPlural>
+  <!-- Ranger -->
 
-<!-- Тяжёлый -->
+  <DemolitionistsRanger.label>Рейнджер-подрывник</DemolitionistsRanger.label>
+  <DemolitionistsRanger.labelPlural>Рейнджеры-подрывники</DemolitionistsRanger.labelPlural>
 
-<DemolitionistsHeavy.label>Рейнджер-подрывник</DemolitionistsHeavy.label>
-<DemolitionistsHeavy.labelPlural>Рейнджеры-подрывники</DemolitionistsHeavy.labelPlural>
 
-<!-- Офицер -->
+  <!-- Heavy -->
 
-<DemolitionistsOfficer.label>Офицер-подрывник</DemolitionistsOfficer.label>
-<DemolitionistsOfficer.labelPlural>Офицеры-подрывники</DemolitionistsOfficer.labelPlural>
+  <DemolitionistsHeavy.label>Рейнджер-подрывник</DemolitionistsHeavy.label>
+  <DemolitionistsHeavy.labelPlural>Рейнджеры-подрывники</DemolitionistsHeavy.labelPlural>
 
-<!-- Капрал -->
 
-<DemolitionistsCorporal.label>Капрал-подрывник</DemolitionistsCorporal.label>
-<DemolitionistsCorporal.labelPlural>Капралы-подрывники</DemolitionistsCorporal.labelPlural>
+  <!-- Officer -->
 
-<!-- Шпион -->
+  <DemolitionistsOfficer.label>Офицер-подрывник</DemolitionistsOfficer.label>
+  <DemolitionistsOfficer.labelPlural>Офицеры-подрывники</DemolitionistsOfficer.labelPlural>
 
-<DemolitionistsSpy.label>Шпион-подрывник</DemolitionistsSpy.label>
-<DemolitionistsSpy.labelPlural>Шпионы-подрывники</DemolitionistsSpy.labelPlural>
 
-<!-- Следователь -->
+  <!-- Corporal -->
 
-<DemolitionistsInvestigator.label>Следователь</DemolitionistsInvestigator.label>
-<DemolitionistsInvestigator.labelPlural>Следователи</DemolitionistsInvestigator.labelPlural>
+  <DemolitionistsCorporal.label>Капрал-подрывник</DemolitionistsCorporal.label>
+  <DemolitionistsCorporal.labelPlural>Капралы-подрывники</DemolitionistsCorporal.labelPlural>
 
-<!-- Ликвидатор -->
 
-<DemolitionistsLiquidator.label>Ликвидатор подрывников</DemolitionistsLiquidator.label>
-<DemolitionistsLiquidator.labelPlural>Ликвидаторы подрывников</DemolitionistsLiquidator.labelPlural>
+  <!-- Spy -->
+
+  <DemolitionistsSpy.label>Шпион-подрывник</DemolitionistsSpy.label>
+  <DemolitionistsSpy.labelPlural>Шпионы-подрывники</DemolitionistsSpy.labelPlural>
+
+
+  <!-- Investigator -->
+
+  <DemolitionistsInvestigator.label>Следователь</DemolitionistsInvestigator.label>
+  <DemolitionistsInvestigator.labelPlural>Следователи</DemolitionistsInvestigator.labelPlural>
+
+
+  <!-- Liquidator -->
+
+  <DemolitionistsLiquidator.label>Ликвидатор подрывников</DemolitionistsLiquidator.label>
+  <DemolitionistsLiquidator.labelPlural>Ликвидаторы подрывников</DemolitionistsLiquidator.labelPlural>
+
+
+  <!-- Рейнджер -->
+  <!-- Тяжёлый -->
+  <!-- Офицер -->
+  <!-- Капрал -->
+  <!-- Шпион -->
+  <!-- Следователь -->
+  <!-- Ликвидатор -->
 
 </LanguageData>
