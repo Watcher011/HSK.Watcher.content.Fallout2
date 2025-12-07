@@ -215,21 +215,21 @@
     </IncidentDef>
 	
 	
-	  <IncidentDef>
-        <defName>CreatureCall</defName>
-       <label>Creature Call</label>
-        <workerClass>Watcher.Events.IncidentWorker_SewageCreature</workerClass>
-         <letterLabel>Creature Call</letterLabel>
-        <letterText>We've received disturbing reports of unusual activity near the latrines. The sewage seems to be... moving. Something foul is stirring in the waste pits. Be prepared for potential hostile emergence.</letterText>
-        <letterDef>NeutralEvent</letterDef>
-        <category>Misc</category>
-        <minRefireDays>280</minRefireDays>
-        <baseChance>0.4</baseChance>
-        <minPopulation>2</minPopulation>
-        <targetTags>
-            <li>Map_PlayerHome</li>
-        </targetTags>
-    </IncidentDef>
+	 <IncidentDef>
+    <defName>CreatureCall</defName>
+    <label>Creature Call</label>
+    <workerClass>Watcher.Events.IncidentWorker_SewageCreature</workerClass>
+    <letterLabel>Creature Call</letterLabel>
+    <letterText>We've received disturbing reports of unusual activity near the latrines. The sewage seems to be... moving. Something foul is stirring in the waste pits. Be prepared for potential hostile emergence.</letterText>
+    <letterDef>ThreatSmall</letterDef>
+    <category>Misc</category>
+    <minRefireDays>280</minRefireDays>
+    <baseChance>0.4</baseChance>
+    <minPopulation>2</minPopulation>
+    <targetTags>
+        <li>Map_PlayerHome</li>
+    </targetTags>
+</IncidentDef>
 	
 	<IncidentDef>
     <defName>MoleRatQuarryAttack</defName>

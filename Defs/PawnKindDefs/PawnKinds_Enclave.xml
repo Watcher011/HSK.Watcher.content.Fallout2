@@ -759,13 +759,6 @@
 		</techHediffsRequired>
 </PawnKindDef>
 
-<PawnKindDef ParentName="EnclaveEliteBase">
-    <defName>Enclave_Elite_Advanced</defName>
-	<techHediffsRequired>
-			<li>DeathAcidifier</li>
-		</techHediffsRequired>
-  
-</PawnKindDef>
 
 <!-- Enclave Scientist -->
 <PawnKindDef Name="EnclaveScientistBase" ParentName="EnclaveBase" Abstract="True">
