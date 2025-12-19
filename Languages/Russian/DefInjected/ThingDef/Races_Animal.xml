@@ -92,11 +92,11 @@
   <MutantHound.tools.3.label>голова</MutantHound.tools.3.label>
 
   <Radboar.label>Рад-Кабан</Radboar.label>
-<Radboar.description>Одичавший потомок "органических" свиней с довоенных ферм. Его радиоактивные бивни отлично вскрывают и консервные банки, и броню начинающих выживальщиков.
+  <Radboar.description>Одичавший потомок "органических" свиней с довоенных ферм. Его радиоактивные бивни отлично вскрывают и консервные банки, и броню начинающих выживальщиков.
 Попытки обучить его чему-то сложнее "есть из корыта" провалились — видимо, интеллект не пережил мутацию. Мясо светится в темноте. Вкус — на любителя.</Radboar.description>
-<Radboar.tools.0.label>Бивень</Radboar.tools.0.label>
-<Radboar.tools.1.label>Бивень</Radboar.tools.1.label>
-<Radboar.tools.3.label>Голова</Radboar.tools.3.label>
+  <Radboar.tools.0.label>Бивень</Radboar.tools.0.label>
+  <Radboar.tools.1.label>Бивень</Radboar.tools.1.label>
+  <Radboar.tools.3.label>Голова</Radboar.tools.3.label>
 
 
 </LanguageData>

@@ -51,9 +51,6 @@
   <Enclave_Elite.label>Элитный боец Анклава</Enclave_Elite.label>
   <Enclave_Elite.labelPlural>Элитные бойцы Анклава</Enclave_Elite.labelPlural>
 
-  <Enclave_Elite_Advanced.label>Элитный боец Анклава (улучшенный)</Enclave_Elite_Advanced.label>
-  <Enclave_Elite_Advanced.labelPlural>Элитные бойцы Анклава (улучшенные)</Enclave_Elite_Advanced.labelPlural>
-
 
   <!-- Enclave Scientist -->
 
@@ -61,6 +58,8 @@
   <Enclave_Scientist.labelPlural>Учёные Анклава</Enclave_Scientist.labelPlural>
 
 
+  <!--<Enclave_Elite_Advanced.label>Элитный боец Анклава (улучшенный)</Enclave_Elite_Advanced.label>-->
+  <!--<Enclave_Elite_Advanced.labelPlural>Элитные бойцы Анклава (улучшенные)</Enclave_Elite_Advanced.labelPlural>-->
   <!--<EnclaveOfficer.label>Офицер Анклава</EnclaveOfficer.label>-->
   <!--<EnclaveOfficer.labelPlural>Офицеры Анклава</EnclaveOfficer.labelPlural>-->
   <!--<EnclaveInvestigator.label>Следователь Анклава</EnclaveInvestigator.label>-->

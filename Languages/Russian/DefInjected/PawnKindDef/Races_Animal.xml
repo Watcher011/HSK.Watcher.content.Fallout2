@@ -262,31 +262,31 @@
   <MutantHound.labelMalePlural>самцы гончих-мутантов</MutantHound.labelMalePlural>
   <MutantHound.labelFemale>самка гончей-мутанта</MutantHound.labelFemale>
   <MutantHound.labelFemalePlural>самки гончих-мутантов</MutantHound.labelFemalePlural>
-  
-<Radboar.label>рад-кабан</Radboar.label>
-<Radboar.labelPlural>рад-кабаны</Radboar.labelPlural>
-<Radboar.lifeStages.0.label>рад-кабан</Radboar.lifeStages.0.label>
-<Radboar.lifeStages.0.labelPlural>рад-кабан</Radboar.lifeStages.0.labelPlural>
-<Radboar.lifeStages.0.labelMale>самец рад-кабана</Radboar.lifeStages.0.labelMale>
-<Radboar.lifeStages.0.labelMalePlural>самцы рад-кабана</Radboar.lifeStages.0.labelMalePlural>
-<Radboar.lifeStages.0.labelFemale>самка рад-кабана</Radboar.lifeStages.0.labelFemale>
-<Radboar.lifeStages.0.labelFemalePlural>самки рад-кабана</Radboar.lifeStages.0.labelFemalePlural>
-<Radboar.lifeStages.1.label>рад-кабан</Radboar.lifeStages.1.label>
-<Radboar.lifeStages.1.labelPlural>рад-кабан</Radboar.lifeStages.1.labelPlural>
-<Radboar.lifeStages.1.labelMale>самец рад-кабана</Radboar.lifeStages.1.labelMale>
-<Radboar.lifeStages.1.labelMalePlural>самцы рад-кабана</Radboar.lifeStages.1.labelMalePlural>
-<Radboar.lifeStages.1.labelFemale>самка рад-кабана</Radboar.lifeStages.1.labelFemale>
-<Radboar.lifeStages.1.labelFemalePlural>самки рад-кабана</Radboar.lifeStages.1.labelFemalePlural>
-<Radboar.lifeStages.2.label>рад-кабан</Radboar.lifeStages.2.label>
-<Radboar.lifeStages.2.labelPlural>рад-кабан</Radboar.lifeStages.2.labelPlural>
-<Radboar.lifeStages.2.labelMale>самец рад-кабана</Radboar.lifeStages.2.labelMale>
-<Radboar.lifeStages.2.labelMalePlural>самцы рад-кабана</Radboar.lifeStages.2.labelMalePlural>
-<Radboar.lifeStages.2.labelFemale>самка рад-кабана</Radboar.lifeStages.2.labelFemale>
-<Radboar.lifeStages.2.labelFemalePlural>самки рад-кабана</Radboar.lifeStages.2.labelFemalePlural>
-<Radboar.labelMale>самец рад-кабана</Radboar.labelMale>
-<Radboar.labelMalePlural>самцы рад-кабана</Radboar.labelMalePlural>
-<Radboar.labelFemale>самка рад-кабана</Radboar.labelFemale>
-<Radboar.labelFemalePlural>самки рад-кабана</Radboar.labelFemalePlural>
+
+  <Radboar.label>рад-кабан</Radboar.label>
+  <Radboar.labelPlural>рад-кабаны</Radboar.labelPlural>
+  <Radboar.lifeStages.0.label>рад-кабан</Radboar.lifeStages.0.label>
+  <Radboar.lifeStages.0.labelPlural>рад-кабан</Radboar.lifeStages.0.labelPlural>
+  <Radboar.lifeStages.0.labelMale>самец рад-кабана</Radboar.lifeStages.0.labelMale>
+  <Radboar.lifeStages.0.labelMalePlural>самцы рад-кабана</Radboar.lifeStages.0.labelMalePlural>
+  <Radboar.lifeStages.0.labelFemale>самка рад-кабана</Radboar.lifeStages.0.labelFemale>
+  <Radboar.lifeStages.0.labelFemalePlural>самки рад-кабана</Radboar.lifeStages.0.labelFemalePlural>
+  <Radboar.lifeStages.1.label>рад-кабан</Radboar.lifeStages.1.label>
+  <Radboar.lifeStages.1.labelPlural>рад-кабан</Radboar.lifeStages.1.labelPlural>
+  <Radboar.lifeStages.1.labelMale>самец рад-кабана</Radboar.lifeStages.1.labelMale>
+  <Radboar.lifeStages.1.labelMalePlural>самцы рад-кабана</Radboar.lifeStages.1.labelMalePlural>
+  <Radboar.lifeStages.1.labelFemale>самка рад-кабана</Radboar.lifeStages.1.labelFemale>
+  <Radboar.lifeStages.1.labelFemalePlural>самки рад-кабана</Radboar.lifeStages.1.labelFemalePlural>
+  <Radboar.lifeStages.2.label>рад-кабан</Radboar.lifeStages.2.label>
+  <Radboar.lifeStages.2.labelPlural>рад-кабан</Radboar.lifeStages.2.labelPlural>
+  <Radboar.lifeStages.2.labelMale>самец рад-кабана</Radboar.lifeStages.2.labelMale>
+  <Radboar.lifeStages.2.labelMalePlural>самцы рад-кабана</Radboar.lifeStages.2.labelMalePlural>
+  <Radboar.lifeStages.2.labelFemale>самка рад-кабана</Radboar.lifeStages.2.labelFemale>
+  <Radboar.lifeStages.2.labelFemalePlural>самки рад-кабана</Radboar.lifeStages.2.labelFemalePlural>
+  <Radboar.labelMale>самец рад-кабана</Radboar.labelMale>
+  <Radboar.labelMalePlural>самцы рад-кабана</Radboar.labelMalePlural>
+  <Radboar.labelFemale>самка рад-кабана</Radboar.labelFemale>
+  <Radboar.labelFemalePlural>самки рад-кабана</Radboar.labelFemalePlural>
 
 
 </LanguageData>

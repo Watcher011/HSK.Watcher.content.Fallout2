@@ -528,7 +528,7 @@
 	</ThingDef>
 	-->
 	
- 
+ <!--
 	
 <ThingDef ParentName="BuildingBase">
     <defName>BrainExtractor</defName>
@@ -578,7 +578,7 @@
         </li>
       </subcoreScannerFixedIngredients>
 	  <subcoreScannerOutputDef>Brain</subcoreScannerOutputDef>
-      <!--<subcoreScannerStartEffect>SubcoreRipscanner_Start</subcoreScannerStartEffect>-->
+      <!{1}**<subcoreScannerStartEffect>SubcoreRipscanner_Start</subcoreScannerStartEffect>**{1}>
       <destroyBrain>true</destroyBrain>
       <subcoreScannerWorking>SubcoreRipscanner_Working</subcoreScannerWorking>
       <subcoreScannerComplete>SubcoreRipscanner_Complete</subcoreScannerComplete>
@@ -616,11 +616,11 @@
 		<ElectronicComponents>1</ElectronicComponents>
 		<Electronics>2</Electronics>
 	</costList>
-<!--    <researchPrerequisites>
+<!{1}**    <researchPrerequisites>
       <li>HighMechtech</li>
-    </researchPrerequisites>-->
+    </researchPrerequisites>**{1}>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
-  </ThingDef>
+  </ThingDef>-->
 
 	 
 </Defs>
